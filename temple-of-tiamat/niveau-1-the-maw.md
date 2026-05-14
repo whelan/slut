@@ -2,19 +2,53 @@
 
 **Funktion:** Få gruppen ind. Vise skala. Introducere femfarvet ritual-energi. Max 25 minutter.
 
+**Tone:** Det her er det øjeblik, hvor kampagnens lyd ændres. Spillerne har talt om at gå herind i måneder. Nu er de her. Lad dem mærke det.
+
+---
+
+## Ankomsten – før Niveau 1 starter
+
+*Læs dette, mens gruppen stadig er udenfor templet og kan se det først.*
+
+> I står ved knogleporten. Den er gjort af ribben. Ribben fra noget, der har været så stort, at I ville have skullet løbe i et halvt minut for at komme fra hovedet til halen.
+>
+> Den er ikke flot. Den er ikke pyntet. Den har stået her i hundredevis af år, og kulten har dekoreret den med deres egen sved og deres egen tro.
+>
+> Foran jer ligger templet. Bag jer ligger calderaen. Bag calderaen ligger Faerûn.
+>
+> Det her er det sidste sted, før alt det her ophører eller fortsætter.
+>
+> I tager et skridt ind.
+>
+> Og fra et eller andet sted bag jer hører I én ting, før porten lukker:
+>
+> Hærene råber jeres navne.
+>
+> Det er det sidste, I hører fra den verden, I kendte.
+
+**DM-note:** Hvis spillerne ikke har en stærk reaktion her, så stop. Lad pausen vare. Spørg derefter: *"Hvad gør I?"* Lad dem få ordet, før du fortsætter til Niveau 1.
+
 ---
 
 ## Visuel beskrivelse
 
-> I passerer gennem den første bue af knogler – ribben fra noget så stort, at I kunne stå oprejst inde i brystkassen. Gulvet under jer er sort sten, men ridset af kanaler. I kanalerne strømmer lys. Ikke ét lys. Fem.
+> Indenfor er luften ikke længere caldera-luft. Den er noget andet.
+>
+> Den er tør. Den er for varm. Den lugter af røgelse og noget under røgelsen – noget der ikke er bestemt til at lugtes af menneskenæser.
+>
+> I passerer gennem den anden bue af knogler – ribben fra noget så stort, at I kunne stå oprejst inde i brystkassen. Gulvet under jer er sort sten, men ridset af kanaler. I kanalerne strømmer lys. Ikke ét lys. Fem.
 >
 > Rød. Grøn. Blå. Sort. Hvid.
 >
-> De løber som blodårer fra templets hjerte og ud mod murstenene. Og midt imellem dem, op ad de fem brede trapper, er det mørkt på en måde, der ikke har noget med belysning at gøre.
+> De løber som blodårer fra templets hjerte og ud mod murstenene. De pulserer. Ikke regelmæssigt. De pulserer som om de venter på noget. Måske på jeres puls. Måske på Tiamats.
+>
+> Og midt imellem dem, op ad de fem brede trapper, er det mørkt på en måde, der ikke har noget med belysning at gøre.
 >
 > En stemme – ikke fra én mund, men fra mange – synger. Oppe ad trapperne. Inde i templet.
 >
 > Det er ikke menneskelig sang.
+>
+> Men I forstår hvert ord.
 
 **Taktiske features:**
 - Ritual channels: 5 fod brede, 1 fod dybe – DC 14 DEX save ved passage eller 2d6 necrotic

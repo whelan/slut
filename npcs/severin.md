@@ -36,33 +36,70 @@ Severin er **ikke** en klassisk skurk der vil have magt for magtens skyld. Han e
 
 ### Under kamp (responsive)
 
+Severin taler under kampen. Han stopper ikke. Det er hans våben – ord der finder hjem.
+
 **Når en maske bliver ødelagt:**
-- "Én maske. Så? Tiamat er ikke ét element."
-- "Interessant. I har gjort hende utålmodig."
+- *"Én maske. Så? Hun er ikke ét element."*
+- *"Interessant. I har gjort hende utålmodig."*
+- *"Den hvide var den sværeste at frembringe. Det tog mig fjorten år. I ødelagde den på fjorten sekunder. Imponerende."*
+- *"To masker. I begynder at gøre mig nervøs. Det skulle I ikke have gjort."*
+- *"Tre. Hun begynder at bemærke jer. Det er ikke nødvendigvis en velsignelse."*
+
+**Når han bliver såret første gang:**
+- *(Han ser på blodet. Han har ikke set sit eget blod i syv år.)*
+- *"... interessant."*
 
 **Når han går under 115 HP (Fase 2):**
-- "Tiamat... nu."
-- (Taler i en blanding af Common og Draconic – hendes ord, hans mund)
+- *"Tiamat... nu."*
+- *(Hans stemme skifter. Tre stemmer på én gang. Hans, og to andre, der ikke er menneskelige.)*
+- *"I forstår ikke, hvad I lige har vækket."*
 
 **Mod Frygtløs:**
-- "Du er stærk. Verden har altid haft brug for stærke væsener. Det er dem der vælger Tiamat der overlever."
+- *"Du er stærk. Verden har altid haft brug for stærke væsener. Det er dem, der vælger Tiamat, der overlever."*
+- *"Knæl, kæmpe. Hun kan se dig her. Hun har set dig hele kampen."*
+- *"Jeg har sendt drager efter mænd som dig. Jeg har sendt hære. Hvorfor er du stadig levende?"*
+- *(Når Frygtløs skader ham:) "Du slår hårdt. Hun kan lide det."*
+- *(Når Frygtløs er Dominated:) "Brug ham. Han er villig. Han har altid været villig – han bare ved det ikke endnu."*
 
 **Mod Twilight:**
-- "Karisma er hvad der driver fejlslagne imperier. Lad mig fortælle dig om Waterdeep..."
-- "Du er smukkere end din årsag fortjener."
+- *"Karisma er, hvad fejlslagne imperier hænger på indtil de falder. Min kære."*
+- *"Du synger smukt. Min kult har hørt det. Vi har talt om dig."*
+- *"Du er smukkere end din årsag fortjener. Også klogere. Spørg dig selv – hvorfor kæmper du for et råd, der ikke ville lade dig sidde ved bordet?"*
+- *(Når hun bruger Cutting Words på ham:) "Hun har lært sig at synge mod mig. Det havde jeg ikke forventet."*
+- *(Når hun bruger en spell:) "Bards skulle vide bedre end at synge for døve guder. Lad mig vise dig, hvad der lytter i stedet."*
 
 **Mod Axar:**
-- "Du ser ritualet, wizard. Du forstår det. Er det ikke smukt?"
-- "Hvis I vandt nu – hvad så? Hvad beskytter I egentlig? En verden der er ligeglad med jer?"
+- *"Du ser ritualet, wizard. Du er den eneste herinde, der gør. Er det ikke smukt?"*
+- *"Mester Brindar's tekster ligger på mit bibliotek. Side hundrede og tres. Du har læst det samme. Vi har studeret det samme. Hvordan kan du stå der og være imod mig?"*
+- *"Hvis du dræber mig, hvad så? Hvad redder du? En verden, der ikke har læst de samme bøger som dig. En verden, der griner ad dig."*
+- *(Når Axar Counterspell'er ham:) "Du... du så det komme. Hvem har lært dig det?"*
+- *(Når Axar bryder ritual circle:) "Du forstår ikke, hvad du laver. Du forstår – og du gør det alligevel."*
 
 **Mod Daxx:**
-- "En changeling. Naturligvis. Folk der ikke har én identitet forstår bedst hvem Tiamat virkelig er."
+- *"En changeling. Naturligvis. Folk der ikke har én identitet forstår bedst, hvem Tiamat virkelig er."*
+- *"Hvilken form bærer du i aften, lille jæger? Tag den af. Lad mig se manden bag den."*
+- *"Vi er ikke så forskellige, du og jeg. Vi begge har valgt at være alt for at undgå at være ingenting."*
+- *(Når Daxx skifter form midt i kampen:) "Smart. Forfattere af kult-tekster vil skrive om dig. Lad mig give dig flere kapitler."*
+- *(Når Daxx skyder ham:) "Pilen. Den var hans, ikke? Leosin's. Du har den fra hans grav."*
 
 ### Hvis han falder
 
-- "Det... ændrer ikke hvad hun er..."
-- (Masker slukner. Han ser på dem. Ikke forfærdet – skuffet.)
-- "Ufuldstændigt..."
+**Den sidste replik – tilpas baseret på hvem der gav dødsstødet:**
+
+- *(Generisk:)* *"Det... ændrer ikke hvad hun er..."* *(Masker slukner. Han ser på dem. Ikke forfærdet – skuffet.)*
+
+- *(Hvis Axar dræbte ham:)* *"Du har læst nok bøger. Du har... du har..."* *(Han kan ikke afslutte sætningen.)*
+
+- *(Hvis Frygtløs dræbte ham:)* *"Stærk... mand... Tiamat så dig... hun husker..."*
+
+- *(Hvis Twilight dræbte ham:)* *"Synd. Du ville have været... en god discipel..."*
+
+- *(Hvis Daxx dræbte ham:)* *"... hvilken form ... var det ... der gjorde det ..."*
+
+**Det allersidste:**
+- *"Ufuldstændigt..."*
+
+*(Han falder forover. Maskerne slukner. Han er kun en mand, der ligger på en kold stengulv, og verden er pludselig meget stille omkring ham.)*
 
 ---
 
