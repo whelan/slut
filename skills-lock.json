@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "dndtale": {
+      "source": "mickume/dndtale",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/dndtale/SKILL.md",
+      "computedHash": "a30433e091cf2110d657ec10a1d340c2b0d4f19c7609dfd7da5cf39f4bd8dbe3"
+    }
+  }
+}
