@@ -75,7 +75,6 @@ npcs/
   council-of-waterdeep.md        ← Allierede NPC'er
 session-prep/
   checkliste.md                  ← Pre-session DM-checkliste (ritual clock, foci-status, NPC-prep)
-  README.md
 temple-of-tiamat/
   niveau-1-the-maw.md            ← Ydre tempelgrund, encounters, ~25 min
   niveau-2-the-fivefold-sanctum.md ← Fem chromatic foci, sabotage
@@ -91,6 +90,20 @@ well-of-dragons/
 ```
 
 **Autoritativ reference:** `tyranny-of-dragons-kampagne.md` indeholder den fulde kampagnekontekst inkl. NPC-tabeller, encounter balance, Tiamat-manifestationstrin, battlemap-præferencer og svarmønstre. Den er kilden til sandheden ved uklarheder.
+
+---
+
+## Installeret skill: dndtale
+
+Repositoriet har en installeret `dndtale` skill fra `mickume/dndtale` (se `.agents/skills/dndtale/`). Brug den til at oprette nyt D&D-indhold: kampagner, encounters, NPCs, lokationer og session-materiale.
+
+Skill'en indeholder:
+- `templates/` – skabeloner til campaign overview, chapters, NPCs, locations, factions, timeline
+- `modules/` – vejledning i creative voice, encounter design, session pacing, world-building, literary adaptation, formatting
+- `workflows/` – trin-for-trin for kampagneoprettelse og iteration
+- `checklists/` – quality check og consistency check
+
+**dndig** er et tilknyttet image generation-værktøj (dokumenteret i `.agents/skills/dndtale/modules/dndig-reference.md`) til at generere battlemap-artwork og token-billeder fra prompt-filer i `art/`-mapper.
 
 ---
 
