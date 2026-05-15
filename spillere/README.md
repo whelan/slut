@@ -21,7 +21,7 @@ Character sheets for the party, level 15. All files use D&D 2024 (PHB-2024).
 |--------|--|---|----------|-----------------------|--------|------------|
 |Axar    |11|122|+1        |30 ft                  |18 (INT)|+10         |
 |Daxx    |17|124|+5        |40 ft (walk/climb/swim)|15 (WIS)|+7          |
-|Frygtløs|18|200|+2        |45 ft + Fly 30 ft      |—       |—           |
+|Frygtløs|18|200|+2        |45 ft + fly 30 ft      |—       |—           |
 |Twilight|17|108|+8        |30 ft                  |18 (CHA)|+10         |
 
 **Party total HP:** 554
@@ -97,7 +97,7 @@ The party covers all six saves together.
 |--------|----------------------------------------------------------------|
 |Axar    |Resistance: Poison; Advantage against Poisoned                  |
 |Daxx    |Resistance: Fire; Advantage against dragon breath weapons       |
-|Frygtløs|Advantage on DEX saves; Immunity to Charmed/Frightened (raging)|
+|Frygtløs|Advantage on DEX saves; Immunity: Charmed, Frightened (while raging)|
 |Twilight|Resistance: Fire; Immunity: Magical Sleep; Advantage against Charmed|
 
 -----
@@ -124,7 +124,7 @@ The party covers all six saves together.
 
 - **Belt of Frost Giant Strength** — attuned (sets STR to 23)
 - **Vorpal Greatsword** — attuned
-- **Winged Boots** — attuned (Fly 30 ft)
+- **Winged Boots** — attuned (fly 30 ft)
 - Flame Tongue Greatsword, Crystal Greatsword, Bloodrage Greataxe
 - **Helm of Brilliance, Manual of Bodily Health**
 - Ring of Protection, Belt of Hill Giant Strength (in storage)
