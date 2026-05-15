@@ -6,13 +6,13 @@
 
 -----
 
-## Identitet
+## Identity
 
 |             |                                                          |
 |-------------|----------------------------------------------------------|
 |**Alignment**|Lawful Good                                               |
 |**Faith**    |Torm — The Loyal Fury, The True, The Hand of Righteousness|
-|**Gender**   |Mand                                                      |
+|**Gender**   |Male                                                      |
 |**Age**      |50                                                        |
 |**Size**     |Medium                                                    |
 |**Height**   |4’1”                                                      |
@@ -22,9 +22,9 @@
 
 -----
 
-## Kerne-stats
+## Core Stats
 
-|Stat                     |Værdi            |Modifier       |
+|Stat                     |Value            |Modifier       |
 |-------------------------|-----------------|---------------|
 |**AC**                   |11               |—              |
 |**HP Max**               |122              |(15d6 hit dice)|
@@ -49,10 +49,10 @@
 |WIS    |14   |+2 |**+7** ⭐ |
 |CHA    |10   |+0 |+0       |
 
-### Defenser
+### Defenses
 
 - **Resistance:** Poison
-- **Advantage** på saves for at undgå eller afslutte Poisoned condition
+- **Advantage** on saves to avoid or end the Poisoned condition
 
 -----
 
@@ -110,33 +110,33 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Bonus Actions
 
-**Quick Search.** Tag Search-action som Bonus Action.
+**Quick Search.** Take the Search action as a Bonus Action.
 
-**Stonecunning (Tremorsense).** Tremorsense 60 ft i 10 minutter. Skal være på eller røre ved natural/worked stone. **5 / Long Rest.**
+**Stonecunning (Tremorsense).** Tremorsense 60 ft for 10 minutes. Must be on or touching natural/worked stone. **5 / Long Rest.**
 
 ### Special Features
 
-**Arcane Recovery (1 / Long Rest).** Efter Short Rest: gendan spell slots med samlet level ≤ 8, ingen slots level 6+.
+**Arcane Recovery (1 / Long Rest).** After a Short Rest: recover spell slots with combined levels ≤ 8, no slots level 6+.
 
-**Overchannel.** Når du caster en Wizard spell med slot level 1–5 der laver damage, kan du gøre **max damage**. Første gang per Long Rest: ingen bivirkning. Subsequent uses før Long Rest: **2d12 necrotic** per spell slot level (ignorerer resistance og immunity, øges med 1d12 per gang).
+**Overchannel.** When you cast a Wizard spell with slot level 1–5 that deals damage, you can deal **max damage**. First use per Long Rest: no drawback. Subsequent uses before Long Rest: **2d12 necrotic** per spell slot level (ignores resistance and immunity, increases by 1d12 each use).
 
 -----
 
-## Klasse-features (Wizard 15 — Evoker)
+## Class Features (Wizard 15 — Evoker)
 
 - **Core Wizard Traits** (PHB-2024 165)
 - **Spellcasting** (PHB-2024 165)
 - **Ritual Adept** (PHB-2024 166)
 - **Arcane Recovery** (PHB-2024 166)
-- **Scholar** — Expertise i Arcana (PHB-2024 166)
+- **Scholar** — Expertise in Arcana (PHB-2024 166)
 - **Evoker Subclass** (PHB-2024 167)
-- **Evocation Savant** — Tilføj 2 Evocation spells (level ≤ 2) gratis; senere én Wizard spell fra Evocation school gratis per nyt slot level
-- **Potent Cantrip** (PHB-2024 174) — Miss/successful save på damage-cantrip = half damage
-- **Memorize Spell** (PHB-2024 167) — Byt spells under Short Rest
-- **Sculpt Spells** (PHB-2024 174) — Evocation spells: vælg 1 + spell level creatures der auto-succeeds save og tager ingen damage
-- **Empowered Evocation** (PHB-2024 174) — Tilføj INT mod til én damage roll på Evocation spell
+- **Evocation Savant** — Add 2 Evocation spells (level ≤ 2) for free; later add one Wizard spell from the Evocation school for free per new slot level
+- **Potent Cantrip** (PHB-2024 174) — Miss/successful save on damage cantrip = half damage
+- **Memorize Spell** (PHB-2024 167) — Swap spells during a Short Rest
+- **Sculpt Spells** (PHB-2024 174) — Evocation spells: choose 1 + spell level creatures that auto-succeed on saves and take no damage
+- **Empowered Evocation** (PHB-2024 174) — Add INT modifier to one damage roll of an Evocation spell
 - **Overchannel** (PHB-2024 174)
-- **Ability Score Improvements** — niveau 4, 8, 12
+- **Ability Score Improvements** — level 4, 8, 12
 
 -----
 
@@ -145,19 +145,19 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - **Creature Type:** Humanoid
 - **Size:** Medium
 - **Speed:** 30 ft
-- **Darkvision:** 120 ft (boostet til 180 ft via Goggles of Night)
-- **Dwarven Resilience:** Resistance til poison damage; advantage på saves mod Poisoned
+- **Darkvision:** 120 ft (boosted to 180 ft via Goggles of Night)
+- **Dwarven Resilience:** Resistance to poison damage; advantage on saves against Poisoned
 - **Dwarven Toughness:** +15 HP max
-- **Stonecunning** (se Bonus Actions)
+- **Stonecunning** (see Bonus Actions)
 
 -----
 
 ## Feats
 
 - **Ability Score Improvement** ×2 (PHB-2024 202)
-- **Observant** (PHB-2024 205) — Keen Observer giver Expertise i én af: Insight / Investigation / Perception; Quick Search som Bonus Action
-- **Magic Initiate (Wizard)** (PHB-2024 201) — 2 cantrips (Ray of Frost, Elementalism), 1 level 1 spell (Mage Armor) gratis 1/Long Rest
-- **Sage Ability Score Improvements** (PHB-2024 183) — +2 / +1 til to scores
+- **Observant** (PHB-2024 205) — Keen Observer grants Expertise in one of: Insight / Investigation / Perception; Quick Search as a Bonus Action
+- **Magic Initiate (Wizard)** (PHB-2024 201) — 2 cantrips (Ray of Frost, Elementalism), 1 level 1 spell (Mage Armor) free 1/Long Rest
+- **Sage Ability Score Improvements** (PHB-2024 183) — +2 / +1 to two scores
 
 -----
 
@@ -171,7 +171,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Carried
 
-|Item                                     |Qty|Vægt  |
+|Item                                     |Qty|Weight|
 |-----------------------------------------|---|------|
 |Boots of Elvenkind                       |1  |—     |
 |Goggles of Night                         |1  |—     |
@@ -200,9 +200,9 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 |Spell Scroll (Level 3)                   |1  |—     |
 |Bag                                      |1  |—     |
 
-### Yderligere udstyr
+### Additional Gear
 
-- Map or Scroll Case ×3 (1 lb hver)
+- Map or Scroll Case ×3 (1 lb each)
 - Necklace of Adaptation
 - Magic Weapon
 - Spell Scroll (Level 3)
@@ -211,17 +211,17 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Garland Magic Pro
 - Tome of Dragon Lore
 - Book
-- Papir note forræderi
-- Green Dragon dagbog
-- Øl tønder 9l
-- Map over sunset — bjergene
+- Paper note about treason
+- Green Dragon diary
+- Beer barrels 9 l
+- Map over Sunset Mountains
 - Hat, Bedroll, Climber’s Kit, Mess Kit
-- Rations (1 day) ×7, Rope hempen (50 ft), Red wizard of fe
+- Rations (1 day) ×7, hempen rope (50 ft), Red Wizard of Thay note
 - Spellbook ×3, Tinderbox, Torch ×10, Waterskin, Clothing (cold weather), Map
 
 ### Coins
 
-|Type|Antal|
+|Type|Amount|
 |----|-----|
 |CP  |0    |
 |SP  |5    |
@@ -229,7 +229,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 |GP  |1,591|
 |PP  |0    |
 
-### Bæreevne
+### Carrying Capacity
 
 - **Weight Carried:** 107.5 lb
 - **Encumbered at:** 120 lb
@@ -302,9 +302,9 @@ Holy Star of Mystra, Sunburst
 
 ## Backstory
 
-Axar Runes’ ungdom. Han har altid været en lille smule akavet, at han aldrig nogensinde har været stærk. Hans styrke ligger i hans intelligens, som hans venner og Gauntlgrym ikke kunne forstå. Den skæbnesvangre dag hvor han fandt en picklock og brød ind i Gauntlgryms hemmelige bibliotek. Det var der han fandt bogen og lærte magi.
+Axar Runes’ youth was marked by awkwardness and physical weakness. His true strength was always his intelligence, something his friends and the people of Gauntlgrym struggled to understand. On a fateful day, he found a lockpick and broke into Gauntlgrym’s secret library. There he found the book that first taught him magic.
 
-Sjovt nok var det også der hvor Gauntlgrym klanen besluttede sig til at skrue op for smedjen. De skruede op den dag, da hvor han lærte magi. Det var skæbnesvanger. De fik skruet for højt op, så den indespærrede primordial slap løs. Som slog dem ihjel en efter en. Da han så det store ildhav, løb han væk fra Gauntlgrym og han sa sig aldrig tilbage. Men han ved at ondskaben den er lige bagved ham. For han drømmer om det hver gang han lukker øjnene. Selv om han nu har lært at tøjle ild, så glemmer han ikke den rå ild han så den dag og er sikker på at kommer han tilbage dertil vil det komme igen.
+By cruel coincidence, that was also the day the Gauntlgrym clan pushed their forge too far. They increased it beyond control, and the imprisoned primordial broke free, killing them one by one. When Axar saw the sea of fire, he fled Gauntlgrym and never returned. He knows that evil still follows behind him, because he dreams of it whenever he closes his eyes. Even though he has learned to master fire, he has never forgotten the raw blaze he saw that day, and he fears it will rise again if he returns.
 
 ### Faith — Torm
 
@@ -319,12 +319,12 @@ The Loyal Fury, The True, The Hand of Righteousness. Torm is the god of duty and
 - Paladin Ontharr Frume
 - Fearless
 - Quarkus Rastan
-- Sneakwind — død
-- Selanar Duskbreaker — død
+- Sneakwind — dead
+- Selanar Duskbreaker — dead
 - Twilight
 - Boareskyr Bridge
 - Lord Drylund
-- Elara Brightshield — en gammel flamme
+- Elara Brightshield — an old flame
 - Nyh Ilmichh of Fhay
 - Szass Tam — super King
 
@@ -334,21 +334,21 @@ The Loyal Fury, The True, The Hand of Righteousness. Torm is the god of duty and
 
 -----
 
-## Yderligere notater
+## Additional Notes
 
-### Steder
+### Locations
 
 Alatorin, Barakuir, DrakkalorHigh, Shanatar, Iltkazar, Sondarr, Torglor, Ultoksamrin, Xothaerin, Xonthal’s Tower, Nethwatch Keep (Tharchion)
 
-### Dragemasker / Drager
+### Dragon Masks / Dragons
 
-- Protanther (Guld Drage) — Dracorage mythal (Elver)
-- Ileuthra (Messing Drage) — Dragemasker
-- Otaaryliakkarnos (Sølv Drage) — Undskyldning fra dværge og returnering
-- Tazmikella (Kobber Drage) — Returnér en magisk genstand
-- Nymmurh (Bronze Drage)
+- Protanther (Gold Dragon) — Dracorage mythal (elves)
+- Ileuthra (Brass Dragon) — Dragon masks
+- Otaaryliakkarnos (Silver Dragon) — Apology from dwarves and return
+- Tazmikella (Copper Dragon) — Return a magic item
+- Nymmurh (Bronze Dragon)
 
-### Andet
+### Other
 
-- En drow har måske en jern flask
-- Pyx of Soul Capture — magi ting
+- A drow may have an iron flask
+- Pyx of Soul Capture — magic item
