@@ -79,7 +79,7 @@
 **Key NPCs:** [NPC names]
 **Objectives:** [What players should accomplish]
 
-[See [chapter-01.md](chapter-01.md)]
+[See [chapter-template.md](chapter-template.md)]
 
 ### [Chapter 2: Title]
 **Session(s):** 2
@@ -89,7 +89,7 @@
 **Key NPCs:** [NPC names]
 **Objectives:** [What players should accomplish]
 
-[See [chapter-02.md](chapter-02.md)]
+[See [chapter-template.md](chapter-template.md)]
 
 [Continue for each chapter...]
 
