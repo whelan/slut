@@ -1,0 +1,14 @@
+{
+  "title": "axar-runes-portrait",
+  "timestamp": "20260515_200406",
+  "size": "1024x1536",
+  "quality": "high",
+  "n": 2,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/axar-runes-portrait.md",
+  "outputs": [
+    "art/axar-runes-portrait_20260515_200406_1.png",
+    "art/axar-runes-portrait_20260515_200406_2.png"
+  ]
+}
