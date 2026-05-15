@@ -1,10 +1,10 @@
-# Niveau 2 – The Fivefold Sanctum
+# Level 2 – The Fivefold Sanctum
 
-**Funktion:** Sabotage driver designet. Hvert foci ødelagt svækker Tiamats manifestation og Severins forsvar. Men clock tikker for hvert minut der bruges.
+**Function:** Sabotage drives the design. Each foci destroyed weakens Tiamat's manifestation and Severin's defenses. But the clock ticks for every minute spent.
 
 ---
 
-## Layout og overordnet visuel
+## Layout and Overall Visual
 
 > Mellemniveauet er ikke ét rum. Det er fem.
 >
@@ -14,7 +14,7 @@
 >
 > Det er som at stå inde i et levende dyr, og dyret trækker vejret.
 
-**Taktisk layout:**
+**Tactical Layout:**
 
 ```
            [BLUE - Spire]
@@ -25,56 +25,56 @@
                  |
            [BLACK - Acid]
                  |
-         [TRAPPER FRA NIVEAU 1]
+         [STAIRS FROM LEVEL 1]
                  |
-         [TRAPPER TIL NIVEAU 3]
-                 (fra HUB)
+         [STAIRS TO LEVEL 3]
+                 (from HUB)
 ```
 
 **Hub (central platform):**
-- 30 fod diameter, neutral zone
-- Trapper ned til Niveau 1 og op til Niveau 3 befinder sig her
-- Ingen farer, men heller ingen dækning
+- 30 ft. diameter, neutral zone
+- Stairs down to Level 1 and up to Level 3 are located here
+- No hazards, but also no cover
 
-**Broerne:**
-- 10 fod brede, 40 fod lange
-- Ingen rækværk – forced movement = faldfare
-- Fald: 3d6 bludgeoning per 10 fod + landing i Niveau 1-encounters
-- Grapple ved faldkanten: DC 13 DEX save for at gribe fat
+**The Bridges:**
+- 10 ft. wide, 40 ft. long
+- No railing – forced movement = fall hazard
+- Fall: 3d6 bludgeoning per 10 ft. + landing in Level 1 encounters
+- Grapple at the edge: DC 13 DEX save to grab on
 
 ---
 
-## Anbefalet taktisk rækkefølge
+## Recommended Tactical Order
 
-Green (lettest, fjern tåge) → Red (fjern magma-hazards før Niveau 3) → Black → White → Blue (sværest)
+Green (easiest, removes mist) → Red (removes magma hazards before Level 3) → Black → White → Blue (hardest)
 
-Spillerne bestemmer. Clock tikker uanset hvad.
+The players decide. The clock ticks regardless.
 
-**Clock trigger:** Hver foci der **ikke** er saboteret ved transition til Niveau 3 = Clock +1 per foci.
+**Clock Trigger:** Each foci that is **not** sabotaged at transition to Level 3 = Clock +1 per foci.
 
 ---
 
 ## Foci C – Green: The Poison Mist Garden
 
-*Anbefales som første stop – lettest og giver bedst overblik.*
+*Recommended as first stop – easiest and gives the best overview.*
 
-### Visuel
+### Visual
 
 > Platformen er dækket af en tæt, grøn tåge. Men igennem tågen skimter I noget: et skovlysning, en hvid stol, en hund der sover. En ven I holder af.
 >
 > Det er ikke rigtigt. Men det føles meget rigtigt.
 
 **Hazard – The Mist's Lies:**
-- Første runde på platformen: DC 14 WIS save
-- Failure: Overbevist om at én ally er en fjende (1 runde) – angriber med nærmeste attack
-- **Twilight er immun** (Mark of Shadow – tåge og illusioner er hendes domæne)
-- **Daxx** har advantage (Favored Enemy: Yuan-Ti)
+- First round on the platform: DC 14 WIS save
+- Failure: Convinced that one ally is an enemy (1 round) – attacks with nearest attack
+- **Twilight is immune** (Mark of Shadow – mist and illusions are her domain)
+- **Daxx** has advantage (Favored Enemy: Yuan-Ti)
 
 ### Guardians
 
 **Green Hag (1)**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 17 (Natural armor) |
 | HP | 82 |
@@ -87,16 +87,16 @@ Spillerne bestemmer. Clock tikker uanset hvad.
 
 **Actions:**
 - **Claws:** +6, 2d8+4 slashing
-- **Illusory Appearance:** Kan ligne en ally (Insight DC 20 el. magisk afsløring for at gennemskue)
-- **Invisible Passage:** Kan blive usynlig til næste runde
+- **Illusory Appearance:** Can resemble an ally (Insight DC 20 or magical detection to see through)
+- **Invisible Passage:** Can become invisible until next round
 
-**Taktik:** Bruger Illusory Appearance til at ligne en faldende ally eller en kultist der har brug for hjælp. Angriber derefter den der prøver at "hjælpe".
+**Tactics:** Uses Illusory Appearance to resemble a falling ally or a cultist who needs help. Then attacks the one who tries to "help."
 
 ---
 
 **Yuan-Ti Mind Whisperer (1)**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 14 (Natural armor) |
 | HP | 71 |
@@ -107,54 +107,54 @@ Spillerne bestemmer. Clock tikker uanset hvad.
 
 **Actions:**
 - **Multiattack:** Bite + Scimitar
-- **Suggestion (3/day):** DC 13 WIS save, 30 ft. – laveste HP-karakter prioriteres
-- **Constrict:** Grapple + 2d6+3 bludgeoning per runde
+- **Suggestion (3/day):** DC 13 WIS save, 30 ft. – lowest HP character prioritized
+- **Constrict:** Grapple + 2d6+3 bludgeoning per round
 
-**Taktik:** Suggestion mod Twilight (lavest HP, mest social) – "hjælp mig at beskytte foci'et." Constrict mod Daxx, da han er den største trussel mod Yuan-Ti.
+**Tactics:** Suggestion against Twilight (lowest HP, most social) – "help me protect the foci." Constrict against Daxx, as he is the greatest threat to Yuan-Ti.
 
 ### Sabotage
 
-**Option 1 – Dispel Magic eller Gust of Wind:**
-- Dispel Magic DC 13 eller Gust of Wind fjerner tågen og neutraliserer foci på 1 runde
-- Foci'et synker ned i platformen – slukket
+**Option 1 – Dispel Magic or Gust of Wind:**
+- Dispel Magic DC 13 or Gust of Wind removes the mist and neutralizes the foci in 1 round
+- The foci sinks into the platform – extinguished
 
-**Option 2 – Find det grønne krystalhjerte:**
-- Skjult under tågen: Investigation DC 16 som bonus action
-- Knus det: 10+ bludgeoning damage eller 5+ force damage
-- 1 action, men guardians angriber frit
+**Option 2 – Find the green crystal heart:**
+- Hidden beneath the mist: Investigation DC 16 as a bonus action
+- Crush it: 10+ bludgeoning damage or 5+ force damage
+- 1 action, but guardians attack freely
 
 **Option 3 – Twilight:**
-- Twilights Mark of Shadow giver hende advantage på at navigere i tåge
-- Hun kan finde krystalhjertet automatisk med 1 bonus action (ingen roll)
+- Twilight's Mark of Shadow gives her advantage navigating in mist
+- She can find the crystal heart automatically with 1 bonus action (no roll)
 
-**Tid til sabotage:** 1 action (Dispel/Gust) eller 2 actions (find + knus)
+**Time to sabotage:** 1 action (Dispel/Gust) or 2 actions (find + crush)
 
-### Effekt ved sabotage
+### Effect on Sabotage
 
-Tiamats green head's poison breath deaktiveres. Alle poison-area-hazards i templet forsvinder. Green lair actions fjernes fra Niveau 3.
+Tiamat's green head's poison breath is deactivated. All poison area hazards in the temple disappear. Green lair actions are removed from Level 3.
 
 ---
 
 ## Foci D – Red: The Ember Altar
 
-*Anbefales som andet stop – fjerner magma-tiles der ellers vil plage gruppen på Niveau 3.*
+*Recommended as second stop – removes magma tiles that would otherwise trouble the group on Level 3.*
 
-### Visuel
+### Visual
 
 > Platformen er et tempel i et tempel. En rund alter brænder midt i det hele. Kultister i purpur og guld synger hymner og vugger frem og tilbage. Under ristene i gulvet lyser noget rødt.
 >
 > Varmen er ikke til at tage fejl af.
 
 **Hazard – Magma tiles:**
-- Markerede 5×5 fod felter (ristene i gulvet)
-- DC 13 DEX save ved passage eller 3d6 fire
-- Half-Dragon kan grapple og trække mod magma-tiles
+- Marked 5×5 ft. squares (the grates in the floor)
+- DC 13 DEX save when crossing or 3d6 fire
+- Half-Dragon can grapple and drag toward magma tiles
 
 ### Guardians
 
 **Half-Dragon, Red (1)**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 14 (Natural armor) |
 | HP | 65 |
@@ -165,15 +165,15 @@ Tiamats green head's poison breath deaktiveres. Alle poison-area-hazards i templ
 **Actions:**
 - **Multiattack:** 2× Claws (+6, 2d6+4 slashing)
 - **Fire Breath (Recharge 5-6):** 30 ft. cone, DC 13 DEX save, 7d6 fire
-- **Frightful Presence:** DC 13 WIS save, 60 ft. – Frightened 1 runde
+- **Frightful Presence:** DC 13 WIS save, 60 ft. – Frightened 1 round
 
-**Taktik:** Åbner med Frightful Presence, derefter grapple mod nærmeste PC + trækker mod magma-tile. Bruger Bite ved grapple. Fire Breath bruges mod clusterede PCs.
+**Tactics:** Opens with Frightful Presence, then grapples the nearest PC and drags them toward a magma tile. Uses Bite while grappling. Fire Breath used against clustered PCs.
 
 ---
 
 **Cult Fanatic (2)**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 13 (Leather armor) |
 | HP | 33 |
@@ -184,31 +184,31 @@ Tiamats green head's poison breath deaktiveres. Alle poison-area-hazards i templ
 - **Dagger:** +4, 1d4+2 piercing
 - **Inflict Wounds (2nd level):** +4, 3d10 necrotic
 
-**Taktik:** Forsøger at genoptænde alteret, hvis det slukkes. Prioriterer dette over kamp. De ignorerer personlig fare – de **vil** holde flammerne i live.
+**Tactics:** Attempts to relight the altar if it is extinguished. Prioritizes this over combat. They ignore personal danger – they **want** to keep the flames alive.
 
 ### Sabotage
 
-**Option 1 – Sluk med Cold damage:**
-- 20+ cold damage i én action slukker alteret øjeblikkeligt
-- **Axar: Cone of Cold** er ideel
+**Option 1 – Extinguish with Cold damage:**
+- 20+ cold damage in one action extinguishes the altar immediately
+- **Axar: Cone of Cold** is ideal
 
-**Option 2 – Fysisk knust:**
+**Option 2 – Physically destroyed:**
 - DC 17 Athletics, 1 action
-- Cult Fanatics reagerer øjeblikkeligt og forsøger at genoptænde (1 runde til re-ignition: DC 15 Religion check stopper dem)
+- Cult Fanatics react immediately and attempt to relight (1 round to re-ignition: DC 15 Religion check stops them)
 
 **Option 3 – Ritual disruption:**
-- Twilight: Counter Song mod Fanatikernes hymner
-- DC 14 Performance – neutraliserer Fanatikernes re-ignition mulighed permanent
+- Twilight: Countersong against the Fanatics' hymns
+- DC 14 Performance – permanently neutralizes the Fanatics' re-ignition option
 
-### Effekt ved sabotage
+### Effect on Sabotage
 
-Fire aura i Niveau 3 fjernes. Magma-tiles over hele templet deaktiveres. Tiamats red head's fire breath gøres ikke permanent men mister lair action backing.
+Fire aura in Level 3 is removed. Magma tiles throughout the temple are deactivated. Tiamat's red head's fire breath is not permanently removed but loses lair action backing.
 
 ---
 
 ## Foci A – Black: The Acid Basin
 
-### Visuel
+### Visual
 
 > En bred bassinkant omgiver et bønnende sort vand. I vandoverfladen kan I se hvad der har været store drageknogler. Nu er det bare fragmenter.
 >
@@ -217,14 +217,14 @@ Fire aura i Niveau 3 fjernes. Magma-tiles over hele templet deaktiveres. Tiamats
 > En dråbe rammer stenen ved jeres fødder og efterlader et perfekt rundt hul.
 
 **Hazard – Acid drip:**
-- DC 13 CON save ved start af runde på platformen: 1d8 acid
-- Half-submerged Wyrmling giver cover fra vand-positionen
+- DC 13 CON save at the start of a round on the platform: 1d8 acid
+- Half-submerged Wyrmling provides cover from the water position
 
 ### Guardian
 
 **Black Dragon Wyrmling (1)**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 17 (Natural armor) |
 | HP | 33 |
@@ -237,33 +237,33 @@ Fire aura i Niveau 3 fjernes. Magma-tiles over hele templet deaktiveres. Tiamats
 - **Bite:** +4, 1d10+2 piercing + 1d4 acid
 - **Acid Breath (Recharge 5-6):** 15 ft. cone, DC 11 DEX save, 7d8 acid
 
-**Taktik:** Bruger vand som cover (half cover). Flyver ud, angriber, dykker ned igen. Prioriterer Frygtløs (han er mest mobil og farligst).
+**Tactics:** Uses water as cover (half cover). Flies out, attacks, dives back down. Prioritizes Frygtløs (most mobile and most dangerous).
 
-**Cultists (2)** – ubevæbnede, forsøger at vække Wyrmlinge ved vokal opfordring (bonus action). Giver Wyrmlingen advantage på ét attack per runde, hvis de er i live.
+**Cultists (2)** – unarmed, attempt to rouse the Wyrmling with vocal encouragement (bonus action). Give the Wyrmling advantage on one attack per round if they are alive.
 
 ### Sabotage
 
 **Option 1 – Dispel Magic (DC 15):**
-- Neutraliserer syretrykket og deaktiverer foci
-- Wyrmlingen mister acid-feeding og demoraliseres (-2 til attacks og saves)
+- Neutralizes the acid pressure and deactivates the foci
+- The Wyrmling loses its acid-feeding and becomes demoralized (–2 to attacks and saves)
 
-**Option 2 – Drain-moniment (fysisk):**
+**Option 2 – Drain monument (physical):**
 - DC 18 Athletics, 1 action
-- **Frygtløs** kan tillade sig advantage (han er Goliath med Powerful Build)
-- **Daxx**: Ranger dragonslaying knowledge → advantage på sabotage check (bonus action Hunter feature)
+- **Frygtløs** may use advantage (he is a Goliath with Powerful Build)
+- **Daxx**: Ranger dragonslaying knowledge → advantage on sabotage check (bonus action Hunter feature)
 
-**Option 3 – Dræb Wyrmlingen:**
-- Foci deaktiveres automatisk, da Wyrmlingens blod fungerer som anchor
+**Option 3 – Kill the Wyrmling:**
+- Foci deactivates automatically, as the Wyrmling's blood functions as the anchor
 
-### Effekt ved sabotage
+### Effect on Sabotage
 
-Tiamats acid head har disadvantage på alle attacks. Acid hazards forsvinder overalt i templet. Necrotic pressure fra Niveau 1's ritual channels reduceres.
+Tiamat's acid head has disadvantage on all attacks. Acid hazards disappear throughout the temple. Necrotic pressure from Level 1's ritual channels is reduced.
 
 ---
 
 ## Foci E – White: The Frost Fang Dais
 
-### Visuel
+### Visual
 
 > Platformen er overgroet af is. Ikke som om den har frosset. Som om den altid har været is.
 >
@@ -272,22 +272,22 @@ Tiamats acid head har disadvantage på alle attacks. Acid hazards forsvinder ove
 > Og det er stille her. Ikke den slags stilhed, der er behagelig.
 
 **Hazard – The Slow:**
-- Alle på dais'et: DC 12 CON save ved start af runde
-- Failure: Speed –10 ft. (cumulativt, max –30)
-- Ophobes – efter 3 failures er en PC i praksis immobile
+- Everyone on the dais: DC 12 CON save at the start of a round
+- Failure: Speed –10 ft. (cumulative, max –30)
+- Stacks – after 3 failures a PC is effectively immobile
 
 ### Guardians
 
-**Frost Giant Skeleton (1)** *(Homebrew variant – markeret)*
+**Frost Giant Skeleton (1)** *(Homebrew variant – marked)*
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 14 (Natural armor + bones) |
 | HP | 138 |
 | Speed | 40 ft. |
 | STR/DEX/CON | 23/9/20 |
 | Immunities | Cold, Poison |
-| Legendary Actions | 3/runde |
+| Legendary Actions | 3/round |
 | CR | 9 |
 
 **Actions:**
@@ -295,17 +295,17 @@ Tiamats acid head har disadvantage på alle attacks. Acid hazards forsvinder ove
 - **Rock (ranged):** +10, 4d10+6 bludgeoning, 120/240 ft.
 
 **Legendary Actions:**
-1. Chill Touch (1 LA): +5, 1d8 cold, target kan ikke regain HP 1 runde
-2. Move (1 LA): bevæger sig uden at provokere opportunity attacks
+1. Chill Touch (1 LA): +5, 1d8 cold, target cannot regain HP for 1 round
+2. Move (1 LA): moves without provoking opportunity attacks
 3. Multiattack (2 LA): 2× Greatclub
 
-**Taktik:** Går langsomt men uafbrudt. Slår Frygtløs mod iskanten (forsøger forced movement). Bruger LA: Move til at repositionere mod casters.
+**Tactics:** Moves slowly but relentlessly. Strikes Frygtløs toward the ice edge (attempts forced movement). Uses LA: Move to reposition against casters.
 
 ---
 
-**Dragonbone Undead Crawler (2)** *(Homebrew – markeret)*
+**Dragonbone Undead Crawler (2)** *(Homebrew – marked)*
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 13 |
 | HP | 27 |
@@ -313,38 +313,38 @@ Tiamats acid head har disadvantage på alle attacks. Acid hazards forsvinder ove
 | CR | 3 |
 
 **Actions:**
-- **Grapple:** +4, på success target er grappled, Crawler trækker 10 ft./runde mod kanten
+- **Grapple:** +4, on success target is grappled, Crawler drags 10 ft./round toward the edge
 - **Bite:** +4, 1d6+2 piercing + 1d4 cold
 
-**Taktik:** Klatrer på broerne og vægfladerne. Grappler PCs der er slow fra hazarden og trækker dem mod kanten.
+**Tactics:** Climbs the bridges and wall surfaces. Grapples PCs that are slowed by the hazard and drags them toward the edge.
 
 ### Sabotage
 
-**Option 1 – Frygtløs knuser isklo'en:** *(Mest episk)*
-- DC 17 Athletics, 2 runder fuld action
-- Runde 1: Første blow (automatisk skade på klo'en)
-- Runde 2: Final blow – klo'en kollapser
-- Men CON saves eskalerer mens han arbejder
+**Option 1 – Frygtløs crushes the ice claw:** *(Most epic)*
+- DC 17 Athletics, 2 rounds full action
+- Round 1: First blow (automatic damage to the claw)
+- Round 2: Final blow – the claw collapses
+- But CON saves escalate while he works
 
-**Option 2 – Axar: Fireball eller Shatter:**
-- DC 15 destructive force mod frost-energien
-- 25+ fire damage i én action deaktiverer foci
+**Option 2 – Axar: Fireball or Shatter:**
+- DC 15 destructive force against the frost energy
+- 25+ fire damage in one action deactivates the foci
 
-**Option 3 – Daxx scouting:** 
-- Perception DC 15: finder en svaghed i isklo'ens base
-- Giver Frygtløs advantage på begge sabotage-Athletics checks
+**Option 3 – Daxx scouting:**
+- Perception DC 15: finds a weakness in the ice claw's base
+- Gives Frygtløs advantage on both sabotage Athletics checks
 
-### Effekt ved sabotage
+### Effect on Sabotage
 
-Cold slow/freeze effects fjernes overalt. Tiamats white head cannot Paralyze. The Slow hazard deaktiveres permanent.
+Cold slow/freeze effects are removed throughout. Tiamat's white head cannot Paralyze. The Slow hazard is permanently deactivated.
 
 ---
 
 ## Foci B – Blue: The Lightning Spire
 
-*Sværest. Anbefales sidst. Blue Abishai er CR 17.*
+*Hardest. Recommended last. Blue Abishai is CR 17.*
 
-### Visuel
+### Visual
 
 > Krystallen i midten er tre meter høj og lyser som en miniature storm. Lynarcs springer fra spire til spire. Luften lugter af ozon og brændende hår.
 >
@@ -356,7 +356,7 @@ Cold slow/freeze effects fjernes overalt. Tiamats white head cannot Paralyze. Th
 
 **Blue Abishai (1)**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 19 (Natural armor) |
 | HP | 195 |
@@ -372,38 +372,38 @@ Cold slow/freeze effects fjernes overalt. Tiamats white head cannot Paralyze. Th
 - **Multiattack:** Bite + 2× Claw
 - **Bite:** +12, 2d6+6 piercing + 5d6 lightning
 - **Claw:** +12, 2d8+6 slashing
-- **Lightning Absorption:** Hvis ramt af lightning damage – heals i stedet for skade
+- **Lightning Absorption:** If struck by lightning damage – heals instead of taking damage
 
-**Lair effect (hvert andet runde):**
-60 ft. cone fra spiren, DC 16 DEX save, 4d10 lightning
+**Lair effect (every other round):**
+60 ft. cone from the spire, DC 16 DEX save, 4d10 lightning
 
-**Taktik:**
-- Bruger Lightning Absorption som provokation mod Axar
-- Prioriterer Twilight (lavest HP, mest kontrol-muligheder)
-- Twilight: Cutting Words kan reducere Abishai's saves
-- Axar bør **ikke** bruge lightning spells her
+**Tactics:**
+- Uses Lightning Absorption as provocation against Axar
+- Prioritizes Twilight (lowest HP, most control options)
+- Twilight: Cutting Words can reduce Abishai's saves
+- Axar should **not** use lightning spells here
 
-### Sabotage – Skill alternativ
+### Sabotage – Skill alternative
 
-**Axar: Arcana DC 20** (som action, fuld koncentration):
-- Forstår resonansfrekvensen og kan transmit et magisk neutraliseringssignal
-- Kræver 1 runde fuld koncentration – Blue Abishai vil forsøge at afbryde
+**Axar: Arcana DC 20** (as an action, full concentration):
+- Understands the resonance frequency and can transmit a magical neutralization signal
+- Requires 1 round of full concentration – Blue Abishai will attempt to interrupt
 
-**Daxx kan hjælpe:**
-- Hvis Daxx bruger Multiattack mod Blue Abishai samme runde: Abishai has disadvantage on its attack vs. Axar
-- Giver Axar chancen for at gennemføre
+**Daxx can help:**
+- If Daxx uses Volley or multiattack against Blue Abishai the same round: Abishai has disadvantage on its attack vs. Axar
+- Gives Axar the chance to complete it
 
 **Combat sabotage:**
-- Knus Krystallen: AC 15, HP 60, immunities: lightning, poison
-- Kræver non-lightning damage
+- Crush the Crystal: AC 15, HP 60, immunities: lightning, poison
+- Requires non-lightning damage
 
-### Effekt ved sabotage
+### Effect on Sabotage
 
-Lair actions fra Blue-typen fjernes. Tiamats blue head kan ikke bruge Lightning Breath mere end 1 gang per encounter på Niveau 3. Lynarcs over hele templet forsvinder.
+Lair actions from the Blue type are removed. Tiamat's blue head cannot use Lightning Breath more than once per encounter on Level 3. Lightning arcs throughout the temple disappear.
 
 ---
 
-## Overgang til Niveau 3
+## Transition to Level 3
 
 > Når I vender tilbage til hub-platformen og begynder at stige ad de midterste trapper, mærker I det.
 >
@@ -415,4 +415,4 @@ Lair actions fra Blue-typen fjernes. Tiamats blue head kan ikke bruge Lightning 
 >
 > Han er klar.
 
-**DM-note:** Tæl op de foci der er intakte. Tilføj tilsvarende +1 til clock for hvert intakt foci. Brug 10 sekunder på at opdatere ritual clock-tabellen synligt for spillerne (vis dem en tæller hvis du bruger noget visuelt).
+**DM-note:** Count the foci that are intact. Add the corresponding +1 to the clock for each intact foci. Spend 10 seconds updating the ritual clock table visibly for the players (show them a counter if you use something visual).

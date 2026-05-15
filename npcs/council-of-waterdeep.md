@@ -1,83 +1,83 @@
 # Council of Waterdeep – NPC Reference
 
-Fuld reference til alle aktive rådsmedlemmer. Inkluderer tone, motivationer, dialogstil og hvad de kan tilbyde eller kræve.
+Full reference for all active council members. Includes tone, motivations, dialogue style, and what they can offer or require.
 
 ---
 
 ## Dagult Neverember
 
-**Rolle:** Politisk tung, men selvpromoverende. Open Lord of Waterdeep.
+**Role:** Political heavyweight, but self-promoting. Open Lord of Waterdeep.
 
-**Tone:** Slesk, professionel, altid med en dagsorden. Ikke uærlig – men altid interesseret i Neverwinter og sin egen position.
+**Tone:** Slick, professional, always with an agenda. Not dishonest – but always looking out for Neverwinter and his own position.
 
-**Motivationer:**
-- Beskytte sin politiske arvtagerstatus
-- Waterdeep skal ikke falde (det er hans base)
-- Neverwinter er hans hjerteblod – angreb der mod er personlige
+**Motivations:**
+- Protect his political legacy
+- Waterdeep must not fall (it is his base)
+- Neverwinter is his lifeblood – attacks against it are personal
 
-**Hvad han tilbyder:**
-- Størst militær ressource af alle rådsmedlemmer
-- Politisk kompromis og alliance-koordination
-- Adgang til Waterdeep's Dragonward informationer
+**What he offers:**
+- The largest military resource of any council member
+- Political compromise and alliance coordination
+- Access to Waterdeep's Dragonward information
 
-**Hvad han kræver:**
-- At hans hære ikke sendes på selvmordsangreb
-- At Neverwinter ikke ofres for Well of Dragons
-- Anerkendelse af Lord's Alliance som den primære kraft
+**What he requires:**
+- That his armies are not sent on suicide attacks
+- That Neverwinter is not sacrificed for Well of Dragons
+- Recognition of the Lord's Alliance as the primary force
 
-**Dialogeksempel:**
+**Example Dialogue:**
 > "Jeg sender Lord's Alliance's hær. Men lad mig være tydelig: de marcherer for Waterdeep, ikke for et abstrakt ideal om dragetilbedelse. Hvis frontlinjen knækker ved Neverwinter, trækker jeg styrker hjem. Forstået?"
 
 ---
 
 ## Ulder Ravengard
 
-**Rolle:** Grand Duke of Baldur's Gate, leder af Flaming Fist. Den militære pragmatiker.
+**Role:** Grand Duke of Baldur's Gate, leader of Flaming Fist. The military pragmatist.
 
-**Tone:** Direkte, løsningsorienteret. Foretrækker handlinger over taler. Taler i tabstal og forsyningslinjer.
+**Tone:** Direct, solution-oriented. Prefers action over speeches. Speaks in casualty figures and supply lines.
 
-**Motivationer:**
-- Beskytte Baldur's Gate
-- Besejre dragekulten militært (ikke politisk)
-- Menneskelige liv har en pris – han tæller den
+**Motivations:**
+- Protect Baldur's Gate
+- Defeat the dragon cult militarily (not politically)
+- Human lives have a price – he counts them
 
-**Hvad han tilbyder:**
-- Flaming Fist som shock troops
-- Militær koordination og logistik
-- Hellrider-forbindelsen (Elturel)
+**What he offers:**
+- Flaming Fist as shock troops
+- Military coordination and logistics
+- The Hellrider connection (Elturel)
 
-**Hvad han kræver:**
-- Klare mål, ikke åbne mandater
-- Respekt for hans officerers beslutninger i felten
-- Ingen politisk snak under aktiv kamp
+**What he requires:**
+- Clear objectives, not open mandates
+- Respect for his officers' decisions in the field
+- No political talk during active combat
 
-**Dialogeksempel:**
+**Example Dialogue:**
 > "Vi har mistet tolv officerer denne uge. Tolv. Det er ikke abstrakt for mig. Fortæl mig præcist hvad I har brug for, og hvad I kan love som gengæld. Intet andet."
 
 ---
 
 ## Remallia Haventree
 
-**Rolle:** Harper-repræsentant. Stille, skarp, følelsesmæssigt kontrolleret.
+**Role:** Harper representative. Quiet, sharp, emotionally controlled.
 
-**Tone:** Rolig. Aldrig opfarende. Men bag kontrol er der tab – mange Harpers er døde.
+**Tone:** Calm. Never hot-headed. But behind the control there is loss – many Harpers are dead.
 
-**Motivationer:**
-- Beskytte information og efterretningsnetværket
-- Leosin's offer anerkendes (hun bærer hans arv)
-- Harpers prioriterer langsigtede konsekvenser over kortsigtet sejr
+**Motivations:**
+- Protect information and the intelligence network
+- Leosin's sacrifice is acknowledged (she carries his legacy)
+- Harpers prioritize long-term consequences over short-term victory
 
-**Hvad hun tilbyder:**
-- Efterretninger, kort, hemmelige passager
-- Harper-agenter i felten
-- Remallia's kortet over Well of Dragons ruter (fremskaffet med Leosins og seks andres liv)
+**What she offers:**
+- Intelligence, maps, secret passages
+- Harper agents in the field
+- Remallia's map of Well of Dragons routes (obtained at the cost of Leosin's life and six others)
 
-**Hvad hun kræver:**
-- Diskretion om Harper-operationer
-- At gruppen ikke bruger hemmelige passager på måder der afslører dem
-- Anerkendelse af hvad det kostede at skaffe informationen
+**What she requires:**
+- Discretion about Harper operations
+- That the party does not use secret passages in ways that expose them
+- Acknowledgment of what it cost to obtain the information
 
-**Nøgle-scene – kortet:**
+**Key Scene – the map:**
 > Remallia folder kortet ud uden dramatik. Hendes hænder ryster kun én gang. I hjørnet af pergamentet er der mørke pletter, ikke blæk.
 >
 > "Leosin fandt ruten. Han og seks andre holdt kultisterne tilbage længe nok til, at beskeden kunne nå ud. Det her kort kostede os mere end guld."
@@ -90,158 +90,158 @@ Fuld reference til alle aktive rådsmedlemmer. Inkluderer tone, motivationer, di
 
 ## Ontharr Frume
 
-**Rolle:** Order of the Gauntlet. Paladin. Direkte, modig, religiøst motiveret.
+**Role:** Order of the Gauntlet. Paladin. Direct, brave, religiously motivated.
 
-**Tone:** Højlydt, entusiastisk, men ikke dum. Presser på for direkte angreb. Tåler ikke intriger.
+**Tone:** Loud, enthusiastic, but not stupid. Pushes for direct attack. Will not tolerate intrigue.
 
-**Motivationer:**
-- Tiamat er den absolutte fjende – fjernes med vold og retfærdighed
-- Heltemod respekteres
-- Kompromis med onde kræfter er forbudt (Thay-alliancen er hans personlige mareridt)
+**Motivations:**
+- Tiamat is the absolute enemy – to be removed with violence and justice
+- Heroism is respected
+- Compromise with evil forces is forbidden (the Thay alliance is his personal nightmare)
 
-**Hvad han tilbyder:**
-- Order of the Gauntlet kavaleri
-- Paladins til front-line healing og anti-undead support
-- Moralsk autoritet i rådet (hans stemme bærer)
+**What he offers:**
+- Order of the Gauntlet cavalry
+- Paladins for front-line healing and anti-undead support
+- Moral authority in the council (his voice carries weight)
 
-**Hvad han kræver:**
-- Ingen forhandlinger med dragekulten
-- Thay-alliancen forklares og forsvares – han godkender nødigt
-- Aktiv kamp, ikke strategisk tøven
+**What he requires:**
+- No negotiations with the dragon cult
+- The Thay alliance must be explained and defended – he approves reluctantly
+- Active combat, not strategic hesitation
 
-**Dialogeksempel:**
+**Example Dialogue:**
 > "Tal ikke til mig om 'strategisk forsinkelse.' Der er en portal til Avernus åben ved Well of Dragons. Vi *marscherer*."
 
 ---
 
 ## Delaan Winterhound
 
-**Rolle:** Emerald Enclave. Naturens repræsentant.
+**Role:** Emerald Enclave. Representative of nature.
 
-**Tone:** Rolig, langsigtet, bekymret for verdensbalancen over menneskelige konsekvenser.
+**Tone:** Calm, long-term, concerned with the balance of the world over human consequences.
 
-**Motivationer:**
-- Well of Dragons er et sår i verdensstrukturen
-- Dragerne er naturkræfter – at gøre dem til rituelle batterier er en vandalisme
-- Overlevende natur-elementer (treants, vilde dyr) må ikke ofres unødvendigt
+**Motivations:**
+- Well of Dragons is a wound in the fabric of the world
+- Dragons are forces of nature – turning them into ritual batteries is an act of vandalism
+- Surviving nature elements (treants, wild animals) must not be sacrificed needlessly
 
-**Hvad han tilbyder:**
-- Emerald Enclave: treants, druider, naturlige dyr, halfling-skarpskytter
-- Naturlig passage viden (tunneler, vandveje)
-- Druidisk healing og støtte
+**What he offers:**
+- Emerald Enclave: treants, druids, natural animals, halfling sharpshooters
+- Knowledge of natural passages (tunnels, waterways)
+- Druidic healing and support
 
-**Hvad han kræver:**
-- Treants beskyttes hvis muligt
-- No scorched earth taktik
-- Naturen ved calderaen anerkendes som skadet, ikke fjendtlig
+**What he requires:**
+- Treants are protected if possible
+- No scorched earth tactics
+- The nature around the caldera is acknowledged as damaged, not hostile
 
 ---
 
 ## Sir Isteval
 
-**Rolle:** Ridderlig, ældre, symbolsk figur. Moralsk tyngde.
+**Role:** Chivalric, elderly, symbolic figure. Moral weight.
 
-**Tone:** Ærebunden, tung, aldrig banalt. Taler om pligtens pris.
+**Tone:** Honorable, heavy, never banal. Speaks of the price of duty.
 
-**Dialogeksempel:**
+**Example Dialogue:**
 > "Jeg har overlevet krige, helte. Hvad jeg ved om sejr er dette: den koster altid mere end man troede – og er altid mere værd end det, der alternativt ville ske."
 
 ---
 
 ## Taern Hornblade
 
-**Rolle:** Wizard/politisk arcane autoritet. Teknisk ekspert.
+**Role:** Wizard/political arcane authority. Technical expert.
 
-**Tone:** Præcis, akademisk, lidt impatient med folk der ikke følger med.
+**Tone:** Precise, academic, slightly impatient with people who can't keep up.
 
-**Hvad han kan forklare:**
-- Ritual-mekanik (struktur af Well of Dragons-ritualet)
-- Teleportation wards og circle-sikkerhed
-- Arcane disturbances i nærheden af calderaen
-- Draakhorn resonans og dens rolle
+**What he can explain:**
+- Ritual mechanics (structure of the Well of Dragons ritual)
+- Teleportation wards and circle security
+- Arcane disturbances near the caldera
+- Draakhorn resonance and its role
 
 ---
 
 ## King Melandrach
 
-**Rolle:** Elfekonge. Misty Forest-incident. Neronvain.
+**Role:** Elf king. Misty Forest incident. Neronvain.
 
-**Tone:** Kontrolleret vrede under diplomatisk overflade. Stolt, men ikke ufornuftig.
+**Tone:** Controlled anger beneath a diplomatic surface. Proud, but not unreasonable.
 
-**Baggrund:**
-Neronvain (hans søn) var en dragon cult agent i Misty Forest. Melandrach bærer dette som en personlig skam og en politisk komplikation.
+**Background:**
+Neronvain (his son) was a dragon cult agent in Misty Forest. Melandrach carries this as a personal shame and a political complication.
 
-**Hvad han vil:**
-- Elfefolkets tab anerkendes
-- Neronvains forræderi forklares (ikke bare hans skyld – men kultens manipulation)
-- Elve-alliancen bruges rigtigt
+**What he wants:**
+- The elven people's losses are acknowledged
+- Neronvain's treachery is explained (not simply his fault – but the cult's manipulation)
+- The elven alliance is used properly
 
 ---
 
 ## Ambassador Brawnanvil
 
-**Rolle:** Dværgerepræsentant. Militær logistik og ingeniørkunst.
+**Role:** Dwarf representative. Military logistics and engineering.
 
-**Tone:** Direkte, faktabaseret, stolt. Taler aldrig om svaghed – kun om løsninger.
+**Tone:** Direct, fact-based, proud. Never speaks of weakness – only of solutions.
 
-**Hvad han tilbyder:**
-- Dværgiske sappers og tunnelere
-- Belejringsmaskiner og anti-dragon artillery
-- Ingeniørkompetencer til Well of Dragons-barrikaderne
+**What he offers:**
+- Dwarven sappers and tunnelers
+- Siege engines and anti-dragon artillery
+- Engineering expertise for the Well of Dragons barricades
 
-**Dialogeksempel:**
+**Example Dialogue:**
 > "Mine sappers kan sprænge et hul i den sydlige barrikade på tre runder. Men de skal have dækning. Hvem dækker dem?"
 
 ---
 
 ## Crimson Maccath
 
-**Rolle:** Arcane ekspert på drager og Draakhorn.
+**Role:** Arcane expert on dragons and the Draakhorn.
 
-**Hvad hun ved:**
-- Draakhorn's resonans og hvad det gør ved chromatic dragons
-- Ritual resonance-mekanik
-- Hvad der vil ske, hvis ritualet lykkes fuldt ud (hun ved det fra studie, ikke fra tro)
+**What she knows:**
+- The Draakhorn's resonance and what it does to chromatic dragons
+- Ritual resonance mechanics
+- What will happen if the ritual succeeds fully (she knows this from study, not from faith)
 
 ---
 
 ## Elia
 
-**Rolle:** Metallic dragon ally. Forbindelsesfigur.
+**Role:** Metallic dragon ally. Liaison figure.
 
-**Funktion:** Giver fornemmelsen af at dragernes krig foregår over karakterernes hoveder. Hun er ikke en transportmiddel – hun er en ligeværdig aktør.
+**Function:** Gives the sense that the dragons' war is happening above the characters' heads. She is not a means of transport – she is an equal actor.
 
-**Hvad hun kan:**
-- Advare om chromatic dragon patruljemønstre
-- Koordinere metallic dragon air support
-- Gives som bevidst offer for at skabe åbning (stærk emotionel scene)
+**What she can do:**
+- Warn about chromatic dragon patrol patterns
+- Coordinate metallic dragon air support
+- Be offered as a deliberate sacrifice to create an opening (strong emotional scene)
 
 ---
 
 ## Nyh Ilmichh
 
-**Rolle:** Thayan envoy. Nyttig, kold, politisk farlig.
+**Role:** Thayan envoy. Useful, cold, politically dangerous.
 
-**Tone:** Klinisk høflighed. Ingen varme. Altid overvåger. Taler aldrig unødvendigt.
+**Tone:** Clinical courtesy. No warmth. Always observing. Never speaks unnecessarily.
 
-**Motivationer:**
-- Szass Tam ønsker orden, ikke Tiamats kaos
-- Rath Modar og renegade Red Wizards er forrædere – de straffes
-- Thay hjælper fordi det er strategisk klogt, ikke af godhed
+**Motivations:**
+- Szass Tam desires order, not Tiamat's chaos
+- Rath Modar and the renegade Red Wizards are traitors – they will be punished
+- Thay helps because it is strategically wise, not out of goodness
 
-**Hvad han tilbyder:**
-- Teleportation circle adgang
-- Thayan arcane support (begrænset)
-- Information om Rath Modar's position og planer
+**What he offers:**
+- Teleportation circle access
+- Thayan arcane support (limited)
+- Information on Rath Modar's position and plans
 
-**Hvad det koster:**
-- En tjeneste fra gruppen (ikke specificeret nu)
-- Politisk tavshed om Thays rolle (rådet informeres minimalt)
-- Tillid til at Szass Tams agenter ikke angribes
+**What it costs:**
+- A favor from the party (not specified now)
+- Political silence about Thay's role (the council is informed minimally)
+- Trust that Szass Tam's agents will not be attacked
 
-**Dialogeksempel:**
+**Example Dialogue:**
 > "Vi hjælper jer ikke fordi vi ønsker jeres succes. Vi hjælper jer fordi Tiamat er en forstyrrelse. Der er forskel."
 
-Han venter på svar. Hvis der ikke kommer noget:
+He waits for a response. If none comes:
 
 > "Godt. Vi er enige."

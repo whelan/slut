@@ -1,14 +1,14 @@
-# Niveau 1 – The Maw (Ydre tempelgrund)
+# Level 1 – The Maw (Outer Temple Grounds)
 
-**Funktion:** Få gruppen ind. Vise skala. Introducere femfarvet ritual-energi. Max 25 minutter.
+**Function:** Get the party inside. Show scale. Introduce five-color ritual energy. Max 25 minutes.
 
-**Tone:** Det her er det øjeblik, hvor kampagnens lyd ændres. Spillerne har talt om at gå herind i måneder. Nu er de her. Lad dem mærke det.
+**Tone:** This is the moment where the campaign's sound changes. The players have been talking about going in here for months. Now they are here. Let them feel it.
 
 ---
 
-## Ankomsten – før Niveau 1 starter
+## The Arrival – Before Level 1 Begins
 
-*Læs dette, mens gruppen stadig er udenfor templet og kan se det først.*
+*Read this while the party is still outside the temple and can see it for the first time.*
 
 > I står ved knogleporten. Den er gjort af ribben. Ribben fra noget, der har været så stort, at I ville have skullet løbe i et halvt minut for at komme fra hovedet til halen.
 >
@@ -26,11 +26,11 @@
 >
 > Det er det sidste, I hører fra den verden, I kendte.
 
-**DM-note:** Hvis spillerne ikke har en stærk reaktion her, så stop. Lad pausen vare. Spørg derefter: *"Hvad gør I?"* Lad dem få ordet, før du fortsætter til Niveau 1.
+**DM-note:** If the players don't have a strong reaction here, stop. Let the pause last. Then ask: *"What do you do?"* Give them the floor before continuing to Level 1.
 
 ---
 
-## Visuel beskrivelse
+## Visual Description
 
 > Indenfor er luften ikke længere caldera-luft. Den er noget andet.
 >
@@ -50,28 +50,28 @@
 >
 > Men I forstår hvert ord.
 
-**Taktiske features:**
-- Ritual channels: 5 fod brede, 1 fod dybe – DC 14 DEX save ved passage eller 2d6 necrotic
-- Knoglebarrikader: half cover, kan væltes (DC 15 Athletics, bruges som difficult terrain)
-- Dragonbone arches: 15 meter høje – climbing muligt (DC 14 Athletics)
-- Fem trapper op til Niveau 2: 60 fod brede, 30 fod lange
+**Tactical Features:**
+- Ritual channels: 5 ft. wide, 1 ft. deep – DC 14 DEX save when crossing or 2d6 necrotic
+- Bone barricades: half cover, can be toppled (DC 15 Athletics, then used as difficult terrain)
+- Dragonbone arches: 15 meters tall – climbing possible (DC 14 Athletics)
+- Five staircases up to Level 2: 60 ft. wide, 30 ft. long
 
 ---
 
 ## Encounter A – The Gate of Bone
 
-**Type:** Combat eller Skill challenge (spillernes valg)
-**Situation:** En Dragonfang officer kommanderer en mixed force der forsvarer indgangen.
+**Type:** Combat or Skill Challenge (players' choice)
+**Situation:** A Dragonfang officer commands a mixed force defending the entrance.
 
 ---
 
-### Fjender
+### Enemies
 
-**Dragonfang (1) – Kultens officer**
+**Dragonfang (1) – The Cult's Officer**
 
-*Rolle i encounter:* Kommanderer. Fokuserer på at locke én PC med Hold Person.
+*Role in encounter:* Commands. Focuses on locking down one PC with Hold Person.
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 16 (Breastplate) |
 | HP | 78 |
@@ -84,17 +84,17 @@
 **Actions:**
 - **Multiattack:** 2× Scimitar (+6, 1d6+3 slashing)
 - **Hold Person (2/day):** DC 13 WIS save, 60 ft., concentration
-- **Parry (Reaction):** +3 til AC mod ét angreb
+- **Parry (Reaction):** +3 to AC against one attack
 
-**Taktik:** Åbner med Hold Person mod Twilight eller Frygtløs. Hvis Frygtløs er lammede, fokuserer Dragonwings på ham. Dragonfang bruger derefter Scimitar multiattack mod Axar.
+**Tactics:** Opens with Hold Person against Twilight or Frygtløs. If Frygtløs is paralyzed, Dragonwings focus on him. Dragonfang then uses Scimitar multiattack against Axar.
 
 ---
 
-**Dragonwing (2) – Flyvende elite**
+**Dragonwing (2) – Flying elite**
 
-*Rolle:* Flankerer og prioriterer casters bagfra.
+*Role:* Flanks and prioritizes casters from behind.
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 14 (Leather) |
 | HP | 44 |
@@ -104,15 +104,15 @@
 
 **Actions:**
 - **Multiattack:** 2× Shortsword (+5, 1d6+3 piercing)
-- **Dive Attack:** Hvis de flyver mindst 30 ft. inden angrebet: +1d6 skade og push 5 ft.
+- **Dive Attack:** If they fly at least 30 ft. before the attack: +1d6 damage and push 5 ft.
 
-**Taktik:** Flyver over gruppen, lander bag Axar eller Twilight. Angriber concentration spells direkte. Prioriterer altid at flytte sig ud af Frygtløs' reach.
+**Tactics:** Flies over the group, lands behind Axar or Twilight. Attacks concentration spells directly. Always prioritizes moving out of Frygtløs' reach.
 
 ---
 
-**Dragonclaw (4) – Frontline fanatikere**
+**Dragonclaw (4) – Frontline fanatics**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 14 (Scale mail) |
 | HP | 22 |
@@ -121,17 +121,17 @@
 
 **Actions:**
 - **Scimitar:** +4, 1d6+2 slashing
-- **Pack Tactics:** Advantage hvis ally er adjacent til target
+- **Pack Tactics:** Advantage if an ally is adjacent to the target
 
-**Taktik:** Danner en linje foran Dragonfang. Omringer én PC for pack tactics-fordel. De er ikke dumme – skifter fokus, hvis en ally falder.
+**Tactics:** Forms a line in front of the Dragonfang. Surrounds one PC for Pack Tactics advantage. They are not mindless – they shift focus if an ally falls.
 
 ---
 
-**White Abishai (1) – Bag barrikade**
+**White Abishai (1) – Behind barricade**
 
-*Rolle:* Skarpskytter. Prioriterer concentration spells.
+*Role:* Sniper. Prioritizes concentration spells.
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 15 (Natural armor) |
 | HP | 68 |
@@ -146,72 +146,72 @@
 - **Multiattack:** Bite + Claw
 - **Bite:** +6, 1d6+3 piercing + 3d6 cold
 - **Claw:** +6, 1d4+3 slashing
-- **Longbow:** +3, 1d8+1 piercing + 2d6 cold (bruges fra barrikade-position)
+- **Longbow:** +3, 1d8+1 piercing + 2d6 cold (used from barricade position)
 
-**Taktik:** Forbliver bag barrikade. Bruger Longbow mod Axar. Skifter til melee, hvis gruppen nærmer sig.
+**Tactics:** Stays behind the barricade. Uses Longbow against Axar. Switches to melee if the group approaches.
 
 ---
 
-### Encounter taktisk oversigt
+### Encounter Tactical Overview
 
 ```
-[TRAPPER OP - Niveau 2]
+[STAIRS UP - Level 2]
 
-[ Barrikade ]  [ABISHAI]  [ Barrikade ]
+[ Barricade ]  [ABISHAI]  [ Barricade ]
 [DRAGONCLAW]  [DRAGONFANG]  [DRAGONCLAW]
-[DRAGONCLAW]             [DRAGONCLAW]
-     [DRAGONWING]  [DRAGONWING]        ← flyver
+[DRAGONCLAW]              [DRAGONCLAW]
+     [DRAGONWING]  [DRAGONWING]        ← flying
 
 [RITUAL CHANNEL]  [RITUAL CHANNEL]
 
-[INDGANG - gruppen ankommer]
+[ENTRANCE - party arrives]
 ```
 
-**Terrain-highlights:**
-- Abishai har half cover fra barrikade (+2 AC og DEX saves)
-- Ritual channels er DC 14 DEX save (2d6 necrotic) ved passage
-- Dragonwings starter ikke i luften – flyver op i initiative runde 1
+**Terrain Highlights:**
+- Abishai has half cover from the barricade (+2 AC and DEX saves)
+- Ritual channels are DC 14 DEX save (2d6 necrotic) when crossing
+- Dragonwings do not start in the air – they fly up in initiative round 1
 
 ---
 
-### Alternativ: Skill Challenge (infiltration)
+### Alternative: Skill Challenge (infiltration)
 
-**Forudsætning:** Gruppen forsøger at snige sig ind som kultister eller via blind spot.
+**Prerequisite:** The group attempts to sneak in as cultists or via a blind spot.
 
-**Succeskrav:** 4 successer inden 3 failures. DC 15 på alle.
+**Success Requirements:** 4 successes before 3 failures. DC 15 on all.
 
-| Skill | Fremgangsmåde |
+| Skill | Approach |
 |---|---|
-| Stealth | Daxx har advantage (Changeling, Hunter kolonne) |
-| Deception | "Vi er fra den ydre perimeter – Dragonfang Vareth sendte os" |
-| Religion | Kende den korrekte rituelle passageformation (DC 15) |
-| Investigation | Finde blind spot i patruljeringen (DC 15) |
-| Persuasion | Overbevise en Dragonclaw om at I er autoriserede (DC 18) |
+| Stealth | Daxx has advantage (Changeling, Hunter column) |
+| Deception | "We're from the outer perimeter – Dragonfang Vareth sent us" |
+| Religion | Know the correct ritual passage formation (DC 15) |
+| Investigation | Find a blind spot in the patrol pattern (DC 15) |
+| Persuasion | Convince a Dragonclaw that you are authorized (DC 18) |
 
-**Succes:** Gruppen slipper igennem uden kamp. Clock bevæger sig ikke.
-**Failure:** Alarmen lyder. Encounter A køres, men Dragonwings starter i luften og er ikke flat-footed.
-
----
-
-### Clock-trigger
-
-- Kampen varer **mere end 3 runder:** Clock +1
-- Gruppen bruger **skill challenge og lykkes:** Clock –1 (de sparer tid)
+**Success:** The group passes through without combat. Clock does not move.
+**Failure:** The alarm sounds. Encounter A runs, but Dragonwings start in the air and are not flat-footed.
 
 ---
 
-### DM-noter
+### Clock Trigger
 
-- **Frygtløs-øjeblik:** Hvis knoglebarrikaden bruges taktisk, lad Frygtløs have et øjeblik: han holder den åben mens resten løber igennem (Contested Strength check, han vinder automatisk).
-- **Axar-moment:** En Arcana DC 13 check afslører ritualets energistrømme og giver mentalt overblik over templestrukturen (bonus på fremtidige Religion/Arcana checks i templet).
-- **Twilight-moment:** Hvis hun bruger Bardic Inspiration på en ally i den første runde, beskriv det som at hendes stemme skærer igennem kultisternes sang.
+- Combat lasts **more than 3 rounds:** Clock +1
+- Group uses **skill challenge and succeeds:** Clock –1 (they save time)
+
+---
+
+### DM Notes
+
+- **Frygtløs moment:** If the bone barricade is used tactically, give Frygtløs a moment: he holds it open while the rest run through (Contested Strength check, he wins automatically).
+- **Axar moment:** An Arcana DC 13 check reveals the ritual's energy streams and gives mental clarity about the temple's structure (bonus on future Religion/Arcana checks in the temple).
+- **Twilight moment:** If she uses Bardic Inspiration on an ally in the first round, describe it as her voice cutting through the cultists' song.
 
 ---
 
 ## Encounter B – The Procession of Failed Ascension
 
-**Type:** Moral valg / social scene
-**Timing:** Sker enten før eller efter Encounter A – DM's valg baseret på tempo.
+**Type:** Moral choice / social scene
+**Timing:** Happens either before or after Encounter A – DM's choice based on pacing.
 
 ---
 
@@ -233,45 +233,45 @@
 >
 > Som offerdyr.
 
-**Spørgsmål til spillerne:** Stopper I dem?
+**Question for the players:** Do you stop them?
 
 ---
 
-### Valg og konsekvenser
+### Choices and Consequences
 
-**Lad dem passere:**
+**Let them pass:**
 - Clock +1
-- Severin gets advantage på sit næste Ritual Action
-- *DM-note:* Beskriv kortvarigt lyden af processionen, der forsvinder ind i templet. Ingen af dem kommer ud igen.
+- Severin gets advantage on his next Ritual Action
+- *DM-note:* Briefly describe the sound of the procession disappearing into the temple. None of them come back out.
 
-**Stop processionen (kamp):**
-- Clock –1 (forsinkelse af ritualet)
-- Men kultisterne kæmper – de **ønsker** martyrdøden
-- De er ubevæbnede, men fanatiske: AC 10, HP 9, 0 attacks. De rammer ikke – men de er mange, og kamp er tidskrævende (Clock +1 hvis kampen varer >2 runder, hvilket den næsten vil)
-- *Netto:* Muligvis break even på clock, men Severin mister forberedelse
+**Stop the procession (combat):**
+- Clock –1 (delays the ritual)
+- But the cultists fight – they **want** the martyr's death
+- They are unarmed but fanatical: AC 10, HP 9, 0 attacks. They don't hit – but there are many of them, and combat is time-consuming (Clock +1 if combat lasts >2 rounds, which it almost will)
+- *Net result:* Possibly break even on clock, but Severin loses preparation
 
-**Social interaktion (Persuasion DC 15):**
-- Med et succesfuldt check: 1d6 kultister stopper op, begynder at tvivle
-- De forlader ikke templet – men de deltager ikke i ritualet
-- Clock –1 (de svækker ritualets menneskelige komponent)
-- Twilight har advantage på dette check (Bardic Inspiration om menneskelig skæbne er hendes domæne)
+**Social interaction (Persuasion DC 15):**
+- On a successful check: 1d6 cultists stop, begin to doubt
+- They don't leave the temple – but they don't participate in the ritual
+- Clock –1 (they weaken the ritual's human component)
+- Twilight has advantage on this check (Bardic Inspiration on human fate is her domain)
 
 **Daxx – changeling observation:**
-- Insight DC 13: Én af kultisterne er ikke rigtig med. Påfaldende stille. Leder rundt med øjnene.
-- Kan udnyttes: den person kan brydes ud og give information om templets indre layout (advantage på én navigation-check i Niveau 2).
+- Insight DC 13: One of the cultists isn't really in it. Conspicuously quiet. Looking around.
+- Can be exploited: that person can be pulled aside and give information about the temple's interior layout (advantage on one navigation check in Level 2).
 
 ---
 
-### DM-noter
+### DM Notes
 
-- Hold scenen kort – 3-5 minutter max.
-- Lad spillerne tale med hinanden, ikke bare med DM.
-- Der er **intet rigtigt svar** – formålet er at vise kampagnens moralske tone.
-- Hvis gruppen virker uvant med at se kultisterne som mennesker, brug ét navn: den unge dreng i bageste række hedder **Fen**. Han er måske 16 år. Han er bange, men han er med.
+- Keep the scene short – 3-5 minutes max.
+- Let the players talk to each other, not just to the DM.
+- There is **no right answer** – the purpose is to show the campaign's moral tone.
+- If the group seems unfamiliar with seeing cultists as human beings, use one name: the young boy in the back row is called **Fen**. He is maybe 16 years old. He is scared, but he is there.
 
 ---
 
-## Overgang til Niveau 2
+## Transition to Level 2
 
 > Trapperne er brede nok til at ti mænd kan marchere side om side. I begynder at stige.
 >
@@ -281,4 +281,4 @@
 >
 > Og lyden fra oppe ad trapperne er ikke lyd. Det er tryk.
 
-**DM-note:** Brug dette som en pusterumsbeskrivelse. Giv spillerne 30 sekunder til at planlægge, bruge potions eller koordinere før Niveau 2.
+**DM-note:** Use this as a breathing-space description. Give players 30 seconds to plan, use potions, or coordinate before Level 2.

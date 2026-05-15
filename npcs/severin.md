@@ -1,30 +1,30 @@
 # Severin – High Wyrmspeaker
 
-**Rolle:** Finalens menneskelige og apokalyptiske fokus. Profet. Fanatiker. Tiamats stemme i verden.
+**Role:** The human and apocalyptic focus of the finale. Prophet. Fanatic. Tiamat's voice in the world.
 
 ---
 
-## Personlighed
+## Personality
 
-Severin er **ikke** en klassisk skurk der vil have magt for magtens skyld. Han er overbevist om, at Tiamat er verdensordenen – og at alt andet er en midlertidig fejl.
+Severin is **not** a classic villain who wants power for power's sake. He is convinced that Tiamat is the world order – and that everything else is a temporary error.
 
-**Kernepersonlighed:**
-- Grandios – han taler som om alt allerede er afgjort
-- Karismatisk – han forklarer, overbeviser, underviser
-- Foragtfuld over for demokratisk magt, råd og kompromis
-- Ser gruppen som interessante fejl i et uundgåeligt mønster
-- I Fase 2: Bliver mere desperat – men forsøger at skjule det
+**Core Personality:**
+- Grandiose – he speaks as though everything is already decided
+- Charismatic – he explains, persuades, instructs
+- Contemptuous of democratic power, councils, and compromise
+- Sees the party as interesting anomalies in an inevitable pattern
+- In Phase 2: Becomes more desperate – but tries to hide it
 
-**Han er IKKE:**
-- Ondskabsfuld af sadisme
-- Ulogisk i sine argumenter (de er forkerte, men konsistente)
-- Rystet af at gruppen kom så langt – men han er overrasket, selvom han skjuler det
+**He is NOT:**
+- Evil out of sadism
+- Illogical in his arguments (they are wrong, but consistent)
+- Shaken that the party came this far – but he is surprised, even if he hides it
 
 ---
 
-## Dialoglinjer – til bordet
+## Dialogue Lines – for the table
 
-### Åbningsdialog (pre-combat)
+### Opening Dialogue (pre-combat)
 
 - "I tror stadig, dette er en krig. Det er det ikke. Det er en kroning."
 - "Jeres råd stemte. Mine drager handlede."
@@ -34,92 +34,92 @@ Severin er **ikke** en klassisk skurk der vil have magt for magtens skyld. Han e
 - "I ødelagde mine foci. Imponerende. Men I forstår ikke hvad I faktisk har gjort."
 - "Og jeg er stadig nok."
 
-### Under kamp (responsive)
+### During Combat (responsive)
 
-Severin taler under kampen. Han stopper ikke. Det er hans våben – ord der finder hjem.
+Severin speaks during combat. He does not stop. That is his weapon – words that find their mark.
 
-**Når en maske bliver ødelagt:**
+**When a mask is destroyed:**
 - *"Én maske. Så? Hun er ikke ét element."*
 - *"Interessant. I har gjort hende utålmodig."*
 - *"Den hvide var den sværeste at frembringe. Det tog mig fjorten år. I ødelagde den på fjorten sekunder. Imponerende."*
 - *"To masker. I begynder at gøre mig nervøs. Det skulle I ikke have gjort."*
 - *"Tre. Hun begynder at bemærke jer. Det er ikke nødvendigvis en velsignelse."*
 
-**Når han bliver såret første gang:**
-- *(Han ser på blodet. Han har ikke set sit eget blod i syv år.)*
+**When he is wounded for the first time:**
+- *(He looks at the blood. He has not seen his own blood in seven years.)*
 - *"... interessant."*
 
-**Når han går under 115 HP (Fase 2):**
+**When he drops below 115 HP (Phase 2):**
 - *"Tiamat... nu."*
-- *(Hans stemme skifter. Tre stemmer på én gang. Hans, og to andre, der ikke er menneskelige.)*
+- *(His voice shifts. Three voices at once. His, and two others that are not human.)*
 - *"I forstår ikke, hvad I lige har vækket."*
 
-**Mod Frygtløs:**
+**Against Frygtløs:**
 - *"Du er stærk. Verden har altid haft brug for stærke væsener. Det er dem, der vælger Tiamat, der overlever."*
 - *"Knæl, kæmpe. Hun kan se dig her. Hun har set dig hele kampen."*
 - *"Jeg har sendt drager efter mænd som dig. Jeg har sendt hære. Hvorfor er du stadig levende?"*
-- *(Når Frygtløs skader ham:) "Du slår hårdt. Hun kan lide det."*
-- *(Når Frygtløs er Dominated:) "Brug ham. Han er villig. Han har altid været villig – han bare ved det ikke endnu."*
+- *(When Frygtløs damages him:) "Du slår hårdt. Hun kan lide det."*
+- *(When Frygtløs is Dominated:) "Brug ham. Han er villig. Han har altid været villig – han bare ved det ikke endnu."*
 
-**Mod Twilight:**
+**Against Twilight:**
 - *"Karisma er, hvad fejlslagne imperier hænger på indtil de falder. Min kære."*
 - *"Du synger smukt. Min kult har hørt det. Vi har talt om dig."*
 - *"Du er smukkere end din årsag fortjener. Også klogere. Spørg dig selv – hvorfor kæmper du for et råd, der ikke ville lade dig sidde ved bordet?"*
-- *(Når hun bruger Cutting Words på ham:) "Hun har lært sig at synge mod mig. Det havde jeg ikke forventet."*
-- *(Når hun bruger en spell:) "Bards skulle vide bedre end at synge for døve guder. Lad mig vise dig, hvad der lytter i stedet."*
+- *(When she uses Cutting Words on him:) "Hun har lært sig at synge mod mig. Det havde jeg ikke forventet."*
+- *(When she casts a spell:) "Bards skulle vide bedre end at synge for døde guder. Lad mig vise dig, hvad der lytter i stedet."*
 
-**Mod Axar:**
+**Against Axar:**
 - *"Du ser ritualet, wizard. Du er den eneste herinde, der gør. Er det ikke smukt?"*
 - *"Mester Brindar's tekster ligger på mit bibliotek. Side hundrede og tres. Du har læst det samme. Vi har studeret det samme. Hvordan kan du stå der og være imod mig?"*
 - *"Hvis du dræber mig, hvad så? Hvad redder du? En verden, der ikke har læst de samme bøger som dig. En verden, der griner ad dig."*
-- *(Når Axar Counterspell'er ham:) "Du... du så det komme. Hvem har lært dig det?"*
-- *(Når Axar bryder ritual circle:) "Du forstår ikke, hvad du laver. Du forstår – og du gør det alligevel."*
+- *(When Axar Counterspells him:) "Du... du så det komme. Hvem har lært dig det?"*
+- *(When Axar breaks the ritual circle:) "Du forstår ikke, hvad du laver. Du forstår – og du gør det alligevel."*
 
-**Mod Daxx:**
+**Against Daxx:**
 - *"En changeling. Naturligvis. Folk der ikke har én identitet forstår bedst, hvem Tiamat virkelig er."*
 - *"Hvilken form bærer du i aften, lille jæger? Tag den af. Lad mig se manden bag den."*
 - *"Vi er ikke så forskellige, du og jeg. Vi begge har valgt at være alt for at undgå at være ingenting."*
-- *(Når Daxx skifter form midt i kampen:) "Smart. Forfattere af kult-tekster vil skrive om dig. Lad mig give dig flere kapitler."*
-- *(Når Daxx skyder ham:) "Pilen. Den var hans, ikke? Leosin's. Du har den fra hans grav."*
+- *(When Daxx shifts form mid-combat:) "Smart. Forfattere af kult-tekster vil skrive om dig. Lad mig give dig flere kapitler."*
+- *(When Daxx shoots him:) "Pilen. Den var hans, ikke? Leosin's. Du har den fra hans grav."*
 
-### Hvis han falder
+### If he falls
 
-**Den sidste replik – tilpas baseret på hvem der gav dødsstødet:**
+**The final line – adapt based on who delivered the killing blow:**
 
-- *(Generisk:)* *"Det... ændrer ikke hvad hun er..."* *(Masker slukner. Han ser på dem. Ikke forfærdet – skuffet.)*
+- *(Generic:)* *"Det... ændrer ikke hvad hun er..."* *(Masks go dark. He looks at them. Not terrified – disappointed.)*
 
-- *(Hvis Axar dræbte ham:)* *"Du har læst nok bøger. Du har... du har..."* *(Han kan ikke afslutte sætningen.)*
+- *(If Axar killed him:)* *"Du har læst nok bøger. Du har... du har..."* *(He cannot finish the sentence.)*
 
-- *(Hvis Frygtløs dræbte ham:)* *"Stærk... mand... Tiamat så dig... hun husker..."*
+- *(If Frygtløs killed him:)* *"Stærk... mand... Tiamat så dig... hun husker..."*
 
-- *(Hvis Twilight dræbte ham:)* *"Synd. Du ville have været... en god discipel..."*
+- *(If Twilight killed him:)* *"Synd. Du ville have været... en god discipel..."*
 
-- *(Hvis Daxx dræbte ham:)* *"... hvilken form ... var det ... der gjorde det ..."*
+- *(If Daxx killed him:)* *"... hvilken form ... var det ... der gjorde det ..."*
 
-**Det allersidste:**
+**The very last:**
 - *"Ufuldstændigt..."*
 
-*(Han falder forover. Maskerne slukner. Han er kun en mand, der ligger på en kold stengulv, og verden er pludselig meget stille omkring ham.)*
+*(He falls forward. The masks go dark. He is just a man lying on a cold stone floor, and the world is suddenly very quiet around him.)*
 
 ---
 
-## Motivationer (til DM-brug)
+## Motivations (for DM use)
 
-**Hvad Severin virkelig vil:**
-1. At Tiamat er fri – han tror genuint det er den rigtige verden
-2. At bevise at kaos og stagnation i Waterdeep er korrupt
-3. At drager regler åbent (ikke i skyggen som nu)
+**What Severin truly wants:**
+1. Tiamat to be free – he genuinely believes this is the correct world order
+2. To prove that chaos and stagnation in Waterdeep is corrupt
+3. For dragons to rule openly (not in shadow as now)
 
-**Hvad han frygter:**
-- At fejle Tiamat
-- At hun trækker ham med ned, hvis ritualet fejler
-- At gruppen er et tegn på at han mangler noget han ikke forstår
+**What he fears:**
+- Failing Tiamat
+- That she pulls him down with her if the ritual fails
+- That the party is a sign he is missing something he does not understand
 
-**Daxx Insight DC 15 afslører:** Han vidste ikke at gruppen ville komme så langt. Det er ikke i hans plan. Det destabiliserer ham – men han skjuler det med performance.
+**Daxx Insight DC 15 reveals:** He did not know the party would come this far. It is not in his plan. It destabilizes him – but he hides it with performance.
 
 ---
 
-## Komplet Statblock (2024 rules)
+## Complete Statblock (2024 rules)
 
 **Severin, High Wyrmspeaker**
 *Medium Humanoid (Human), Chaotic Evil*
@@ -138,7 +138,7 @@ Severin taler under kampen. Han stopper ikke. Det er hans våben – ord der fin
 | Save | +4 | +4 | +6 | **+11** | **+9** | **+12** |
 
 **Skills:** Arcana +17, History +11, Persuasion +12, Religion +11
-**Damage Immunities:** Acid, Cold, Fire, Lightning, Poison (via masker – fjernes hvis alle 5 masker ødelægges)
+**Damage Immunities:** Acid, Cold, Fire, Lightning, Poison (via masks – removed if all 5 masks are destroyed)
 **Condition Immunities:** Charmed, Frightened
 **Senses:** Darkvision 120 ft., Truesight 30 ft.
 **Languages:** Common, Draconic, Abyssal, Infernal
@@ -148,102 +148,102 @@ Severin taler under kampen. Han stopper ikke. Det er hans våben – ord der fin
 
 ### Spells (Spell Save DC 20, Spell Attack +12)
 
-**Innate (via masker, unlimited):**
+**Innate (via masks, unlimited):**
 Detect Magic, Speak with Animals (dragons only)
 
 **Cantrips:**
 - Eldritch Blast: 2 beams, +12 to hit, 2d10+6 force, 120 ft.
 - Fire Bolt: +12, 4d10 fire, 120 ft.
-- Mind Sliver: DC 20 INT save, 1d6 psychic, –1d4 til næste save (concentration-breaker)
+- Mind Sliver: DC 20 INT save, 1d6 psychic, –1d4 to next save (concentration-breaker)
 
 **Spell Slots:**
 
-| Level | Slots | Forberedte spells |
+| Level | Slots | Prepared Spells |
 |---|---|---|
 | 5th | 3 | Dominate Person (DC 20), Hold Monster (DC 20), Wall of Fire |
 | 6th | 2 | Eyebite (DC 20), Globe of Invulnerability |
 | 7th | 2 | Finger of Death (DC 20), Plane Shift |
 | 8th | 1 | Dominate Monster (DC 20) |
-| 9th | 1 | Wish (ritual-brug kun) |
+| 9th | 1 | Wish (ritual use only) |
 
 ---
 
 ### Special Abilities
 
 **Mask Resonance (Recharge 5-6, Phase 2: Recharge 4-6):**
-60 ft. burst, DC 18 DEX save. 8d8 skade (1d8 acid + 1d8 cold + 1d8 fire + 1d8 lightning + 1d8 poison + 3d8 force). Halveret ved succes. Ingen cover reducerer dette.
+60 ft. burst, DC 18 DEX save. 8d8 damage (1d8 acid + 1d8 cold + 1d8 fire + 1d8 lightning + 1d8 poison + 3d8 force). Halved on success. No cover reduces this.
 
-**Ritual Action (Bonus Action, 1/runde):**
-Ritual clock +1. Kan ikke bruges, hvis Severin er Concentrating på en spell kræver fuld handling.
-*Axar kan Counterspell dette (1× per Long Rest for –1 clock).*
+**Ritual Action (Bonus Action, 1/round):**
+Ritual clock +1. Cannot be used if Severin is Concentrating on a spell that requires a full action.
+*Axar can Counterspell this (1× per Long Rest for –1 clock).*
 
 **Portal Ward:**
-Total cover fra portalen bag sig. Portalen lukkes defensivt, hvis han er under 50 HP.
+Total cover from the portal behind him. The portal closes defensively if he is below 50 HP.
 
 **Champion of Tiamat (Clock 5+):**
-+2 til alle saves og attack rolls.
++2 to all saves and attack rolls.
 
 **Dragon Scale Robes:**
-1/dag: ignorer skade fra ét attack (reduceres til 0). Resets ved Long Rest.
+1/day: ignore damage from one attack (reduced to 0). Resets on Long Rest.
 
 ---
 
 ### Actions
 
-**Multiattack:** 2 spells eller 1 spell + Eldritch Blast.
+**Multiattack:** 2 spells or 1 spell + Eldritch Blast.
 
 **Eldritch Blast:** +12, 120 ft., 2d10+6 force per beam, 2 beams.
 
-**Shield (Reaction):** +5 til AC mod ét attack. Kan bruges til at beskytte masker i stedet for sig selv.
+**Shield (Reaction):** +5 to AC against one attack. Can be used to protect masks instead of himself.
 
 ---
 
-### Legendary Actions (3/runde)
+### Legendary Actions (3/round)
 
-1. **Eldritch Blast (1 LA):** Som beskrevet.
-2. **Ritual Surge (2 LA):** Clock +1. Allierede på Niveau 3 heals 2d8.
-3. **Summon Devout (3 LA):** 1d4 Dragonclaw teleporterer op til ledigt felt.
+1. **Eldritch Blast (1 LA):** As described.
+2. **Ritual Surge (2 LA):** Clock +1. Allies on Level 3 heal 2d8.
+3. **Summon Devout (3 LA):** 1d4 Dragonclaws teleport to an unoccupied space.
 
 ---
 
-### Fase 2 (under 115 HP)
+### Phase 2 (below 115 HP)
 
-- Globe of Invulnerability droppes
-- Dominate Monster mod Frygtløs (DC 20 WIS save) som første Fase 2-handling
+- Globe of Invulnerability drops
+- Dominate Monster against Frygtløs (DC 20 WIS save) as the first Phase 2 action
 - Mask Resonance: Recharge 4-6
-- Bruger ikke længere Shield (Tiamats beskyttelse i stedet)
-- Taler i blanding af Common og Draconic
+- No longer uses Shield (Tiamat's protection instead)
+- Speaks in a mix of Common and Draconic
 
 ---
 
-## Masker – separat statblock
+## Masks – Separate Statblock
 
-**Fem masker** flyder i ring 5 fod over Severins hoved.
+**Five masks** float in a ring 5 feet above Severin's head.
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 15 |
-| HP | 30 per maske |
+| HP | 30 per mask |
 | Immunities | Acid, Cold, Fire, Lightning, Poison |
 | Vulnerabilities | Force, Radiant |
 
-**Effekt:** Hver ødelagt maske = –1 til Severins saves og attacks. Alle 5 ødelagt = Severin falder øjeblikkeligt.
+**Effect:** Each destroyed mask = –1 to Severin's saves and attacks. All 5 destroyed = Severin falls instantly.
 
-**Severin forsvarer dem:** Shield reaction bruges til masker. LA 2 brugt til at flytte dem.
+**Severin defends them:** Shield reaction used for masks. LA 2 used to move them.
 
 ---
 
-## DM-combat flow guide
+## DM Combat Flow Guide
 
-**Runde 1:** Globe of Invulnerability + Mind Sliver mod Axar eller Twilight.
+**Round 1:** Globe of Invulnerability + Mind Sliver against Axar or Twilight.
 
-**Runde 2:** Dominate Person mod Twilight (DC 20) + Legendary: Eldritch Blast mod Frygtløs.
+**Round 2:** Dominate Person against Twilight (DC 20) + Legendary: Eldritch Blast against Frygtløs.
 
-**Runde 3:** Mask Resonance hvis tilgængeligt. Ritual Action (bonus).
+**Round 3:** Mask Resonance if available. Ritual Action (bonus).
 
-**Runde 4+:** Reager på hvad gruppen gør. Prioritér:
-1. Beskytte masker (Shield reaction, LA: flyt maske)
-2. Holde Frygtløs lammede (Hold Monster)
-3. Reducere Axar's spellcasting (Counterspell, Legendary: Eldritch Blast mod concentration)
+**Round 4+:** React to what the party does. Prioritize:
+1. Protecting masks (Shield reaction, LA: move mask)
+2. Keeping Frygtløs incapacitated (Hold Monster)
+3. Reducing Axar's spellcasting (Counterspell, Legendary: Eldritch Blast against concentration)
 
-**Fase 2:** Dominate Monster mod Frygtløs. Derefter: Finger of Death mod laveste HP.
+**Phase 2:** Dominate Monster against Frygtløs. Then: Finger of Death against lowest HP target.

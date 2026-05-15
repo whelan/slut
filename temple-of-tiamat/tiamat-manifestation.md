@@ -1,48 +1,48 @@
-# Tiamat – Manifestation og Nærvær
+# Tiamat – Manifestation and Presence
 
-Tiamat er ikke en boss. Tiamat er en *begivenhed*.
+Tiamat is not a boss. Tiamat is an *event*.
 
-Hun har ikke et statblock i denne kampagne – hvis hun manifesterer fuldt ud, har gruppen tabt. Det er pointen. Hendes nærvær eskalerer i fire trin, og hvert trin skal føles som et nyt kapitel af verdens ende.
-
----
-
-## Designprincipper
-
-**Tiamat er aldrig fraværende.** Selv før manifestation mærkes hun. Selv efter ritualet er besejret, vil verden bære hendes aftryk i flere år.
-
-**Hun er ikke vred.** Vrede er en menneskelig følelse. Tiamat er *tilfreds, sulten, utålmodig, korrigerende.* Hun er det største rovdyr, der nogensinde har eksisteret, og hun ser jer som det, I er.
-
-**Hver af de fem hoveder er en personlighed.** De er ikke kun farver. De er fem versioner af, hvad det vil sige at være drage. Brug dem.
-
-**Sanseindtryk frem for beskrivelser.** I stedet for at fortælle spillerne, at hun er stor, fortæl dem, at deres tænder gør ondt. I stedet for at sige hun er truende, beskriv at deres blod smager metallisk.
+She has no statblock in this campaign – if she manifests fully, the party has lost. That is the point. Her presence escalates in four stages, and each stage should feel like a new chapter of the world's end.
 
 ---
 
-## De fem hoveder – stemmer og personligheder
+## Design Principles
 
-| Hoved | Element | Personlighed | Stemme |
+**Tiamat is never absent.** Even before manifestation she is felt. Even after the ritual is defeated, the world will bear her mark for many years.
+
+**She is not angry.** Anger is a human emotion. Tiamat is *satisfied, hungry, impatient, corrective.* She is the greatest predator that has ever existed, and she sees you for what you are.
+
+**Each of the five heads is a personality.** They are not just colors. They are five versions of what it means to be a dragon. Use them.
+
+**Sensory impressions over descriptions.** Instead of telling the players she is large, tell them their teeth ache. Instead of saying she is threatening, describe their blood tasting metallic.
+
+---
+
+## The Five Heads – Voices and Personalities
+
+| Head | Element | Personality | Voice |
 |---|---|---|---|
-| **Black** | Acid, necrotic | Foragt, forrådnelse, tålmodig grusomhed | Hvisken der lugter af forfald. *"I ruster. Jeg ser det. I har altid rustet."* |
-| **Blue** | Lightning | Kontrol, overlegenhed, perfektionisme | Klar, kommanderende, som en hær-general. *"Du har talt nok nu, dødelig."* |
-| **Green** | Poison, illusion | Løgne, giftig visdom, fristelse | Blød, intim, som en elsker eller en mor. *"Jeg kender dit hjerte. Jeg har altid kendt det."* |
-| **Red** | Fire | Raseri, majestæt, stolthed | Brølende, men sjældent. Mest fokuseret intensitet. *"VID HVEM JEG ER."* |
-| **White** | Cold | Primal sult, instinkt, dyrisk | Knurrende. Ord knirker mod hinanden. *"... varm ... I er varme ..."* |
+| **Black** | Acid, necrotic | Contempt, decay, patient cruelty | A whisper that smells of decay. *"I ruster. Jeg ser det. I har altid rustet."* |
+| **Blue** | Lightning | Control, superiority, perfectionism | Clear, commanding, like an army general. *"Du har talt nok nu, dødelig."* |
+| **Green** | Poison, illusion | Lies, toxic wisdom, temptation | Soft, intimate, like a lover or a mother. *"Jeg kender dit hjerte. Jeg har altid kendt det."* |
+| **Red** | Fire | Rage, majesty, pride | Roaring, but rarely. Mostly focused intensity. *"VID HVEM JEG ER."* |
+| **White** | Cold | Primal hunger, instinct, animalistic | Growling. Words grind against each other. *"... varm ... I er varme ..."* |
 
-Når Tiamat taler i kampen, vælg ét hoved at tale gennem. Skift mellem dem. Lad spillerne mærke, at de ikke står over for én entitet – men fem, der er enige om dem.
+When Tiamat speaks in combat, choose one head to speak through. Shift between them. Let the players feel that they are not facing one entity – but five that are in agreement about them.
 
 ---
 
-## Trin 1 – Presence
+## Stage 1 – Presence
 
-**Triggers:** Allerede aktiv ved ankomsten. Eskalerer ved første ritual clock tick.
+**Triggers:** Already active on arrival. Escalates at the first ritual clock tick.
 
-### Sanseindtryk
+### Sensory Impressions
 
-- **Tænder:** Spillerne mærker tryk i tænderne. Som om noget meget koldt eller meget højfrekvent er tæt på.
-- **Smag:** Blodet i munden smager af kobber, selvom ingen har slået sig.
-- **Lugt:** Luften lugter af ozon og brændt blod. Ikke stærkt. Bare tilstede.
-- **Lyd:** Hvis spillerne sidder helt stille i 3 sekunder, hører de en synkron åndedragslyd. Ikke deres. Ikke hinandens.
-- **Syn:** Skygger bevæger sig 1/10 sekund efter de ting, der kaster dem.
+- **Teeth:** The players feel pressure in their teeth. As if something very cold or very high-frequency is nearby.
+- **Taste:** The blood in their mouths tastes of copper, even though no one has been hurt.
+- **Smell:** The air smells of ozone and burnt blood. Not strongly. Just present.
+- **Sound:** If the players sit completely still for 3 seconds, they hear a synchronized breathing sound. Not theirs. Not each other's.
+- **Sight:** Shadows move 1/10 of a second after the things that cast them.
 
 ### Boxed text
 
@@ -52,63 +52,63 @@ Når Tiamat taler i kampen, vælg ét hoved at tale gennem. Skift mellem dem. La
 >
 > Et eller andet sted i caldera står en kæmpe og kigger på jer. I kan ikke se den. Men det er den eneste forklaring på, hvorfor luften føles overvåget.
 
-### Mekanisk effekt
+### Mechanical Effect
 
-Ingen. Dette er stemningsbygning. Lad spillerne vænne sig til *fornemmelsen* af Tiamat, før hun rører ved dem.
+None. This is atmosphere-building. Let the players acclimatize to the *sensation* of Tiamat before she touches them.
 
 ---
 
-## Trin 2 – Heads Beyond the Veil
+## Stage 2 – Heads Beyond the Veil
 
-**Triggers:** Ritual clock 3 (DC 14 WIS save Frightened) – men *brug også* dette trin narrativt, før det er mekanisk.
+**Triggers:** Ritual clock 3 (DC 14 WIS save Frightened) – but *also use* this stage narratively, before it is mechanical.
 
-### Hvert hoved taler én PC til
+### Each head speaks to one PC
 
-**Vælg én karakter per session, mens gruppen nærmer sig Niveau 3. Stemmen rammer kun den karakter – de andre hører intet.**
+**Choose one character per session as the party approaches Level 3. The voice reaches only that character – the others hear nothing.**
 
-**Til Axar (Black eller Green):**
+**To Axar (Black or Green):**
 > *"Du har læst om mig. Du har skrevet om mig. Du har endda drømt om mig. Lad mig fortælle dig en hemmelighed, dværg."*
 >
 > Pause.
 >
 > *"Jeg har også drømt om dig."*
 
-**Til Daxx (Green eller White):**
+**To Daxx (Green or White):**
 > *"Hvilken form bærer du i aften, lille pige? Lille dreng? Lille ulve-ting? Du har båret så mange. Du har glemt, hvilken du startede med."*
 >
 > En pause der lugter af gift.
 >
 > *"Jeg har ikke glemt."*
 
-**Til Frygtløs (Red eller Blue):**
+**To Frygtløs (Red or Blue):**
 > *"Stærk. Du er virkelig stærk. Jeg har set kongeriger falde for mindre end dig."*
 >
 > Brusen som et fjernt brøl.
 >
 > *"Stærk nok til at knæle? Vi får se."*
 
-**Til Twilight (Green eller White):**
+**To Twilight (Green or White):**
 > *"Du synger smukt, lille bard. Jeg har stoppet med at lytte til menneskelige sange for længe siden – men din ville jeg lytte til. Hvis du sang den her. Foran mig."*
 >
 > En pause der føles som varm hud.
 >
 > *"Jeg lover, jeg ville lytte hele vejen igennem, før jeg spiste dig."*
 
-### Mekanisk effekt
+### Mechanical Effect
 
-Karakteren der hører Tiamats stemme: DC 16 WIS save eller én af følgende:
-- Failure: One level of Exhaustion (slap af det psykiske pres)
-- Succes: Inspiration (de holdt linjen mod en gud)
+The character who hears Tiamat's voice: DC 16 WIS save or one of the following:
+- Failure: One level of Exhaustion (buckled under the psychic pressure)
+- Success: Inspiration (they held the line against a god)
 
 ---
 
-## Trin 3 – Partial Manifestation
+## Stage 3 – Partial Manifestation
 
-**Triggers:** Ritual clock 6+. Et hoved presser igennem en af dragehoved-åbningerne på Niveau 3.
+**Triggers:** Ritual clock 6+. One head presses through one of the dragon-head openings on Level 3.
 
-### Det øjeblik, hoveder kommer
+### The moment heads arrive
 
-Vælg ét hoved baseret på, hvilket foci der *ikke* blev saboteret. Hvis flere foci er intakte, kommer hovedet, der hører til det første intakte foci (rækkefølge: Red → Blue → Black → White → Green).
+Choose one head based on which foci was *not* sabotaged. If multiple foci are intact, the head belonging to the first intact foci arrives (order: Red → Blue → Black → White → Green).
 
 **Read this aloud:**
 
@@ -124,9 +124,9 @@ Vælg ét hoved baseret på, hvilket foci der *ikke* blev saboteret. Hvis flere 
 >
 > Det taler.
 
-**Replik per hoved:**
+**Line per head:**
 
-| Farve | Replik |
+| Color | Line |
 |---|---|
 | Black | *"Jeg har ventet syv hundrede år på at blive bedt om at komme. Hvor er min tak?"* |
 | Blue | *"Træd til side. Det her er ikke jeres scene længere."* |
@@ -134,25 +134,25 @@ Vælg ét hoved baseret på, hvilket foci der *ikke* blev saboteret. Hvis flere 
 | Red | *"VID HVEM I HAR FORNÆRMET."* |
 | White | *"... varmt ... så varmt ... I er ..."* |
 
-### Mekanisk effekt
+### Mechanical Effect
 
-**Hovedet er en aktiv kamp-deltager:**
+**The head is an active combat participant:**
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 22 |
-| HP | Uendelig (det kan ikke dræbes, kun skubbes tilbage) |
-| Reach | 30 ft fra portalen |
+| HP | Infinite (it cannot be killed, only pushed back) |
+| Reach | 30 ft from the portal |
 
-**Bite:** +14 to hit, 4d6+8 piercing + 4d8 elemental (matchende farve)
-1/runde. Hovedet vælger laveste HP-target indenfor reach.
+**Bite:** +14 to hit, 4d6+8 piercing + 4d8 elemental (matching color)
+1/round. The head targets the lowest HP target within reach.
 
-**Hvordan man "vinder" mod hovedet:**
-- Det kan skubbes tilbage 1 runde med en succesfuld **DC 18 Athletics check** fra Frygtløs (eller DC 22 fra andre)
-- Det kan blendes 1 runde med 50+ radiant damage
-- Det kan distrahues 1 runde med en succesfuld **DC 20 Persuasion eller Performance** (Twilight kan synge mod det)
+**How to "win" against the head:**
+- It can be pushed back for 1 round with a successful **DC 18 Athletics check** from Frygtløs (or DC 22 from others)
+- It can be blinded for 1 round with 50+ radiant damage
+- It can be distracted for 1 round with a successful **DC 20 Persuasion or Performance** (Twilight can sing against it)
 
-### Når hovedet trækker sig
+### When the head retreats
 
 > Hovedet trækker sig tilbage, langsomt, som om det vil sørge for, at I ved, det har valgt at gøre det.
 >
@@ -162,13 +162,13 @@ Vælg ét hoved baseret på, hvilket foci der *ikke* blev saboteret. Hvis flere 
 
 ---
 
-## Trin 4 – Full Manifestation
+## Stage 4 – Full Manifestation
 
-**Triggers:** Ritual clock 8. Tiamat manifesterer fuldt ud.
+**Triggers:** Ritual clock 8. Tiamat manifests fully.
 
-**Dette er kampagnens failure forward-tilstand.** Spillet er ikke slut. Kampagnen skifter karakter.
+**This is the campaign's failure forward state.** The game is not over. The campaign changes character.
 
-### Manifestationsscenen
+### The Manifestation Scene
 
 > Portalen åbnes ikke. Den *brister.*
 >
@@ -186,57 +186,57 @@ Vælg ét hoved baseret på, hvilket foci der *ikke* blev saboteret. Hvis flere 
 >
 > Og hver af jer hører jeres eget navn først.
 
-### Konsekvenser
+### Consequences
 
-**Umiddelbart:**
-- Hele caldera-væggen kollapser. Alle udenfor: DC 18 DEX save, 12d10 bludgeoning. Halveret ved succes.
-- Tre allierede metallic dragons dør i de første sekunder. Inkluderer Elia, medmindre hun var langt væk.
-- Severin er allerede død – brændt af på indersiden i det øjeblik, Tiamat brød igennem.
+**Immediately:**
+- The entire caldera wall collapses. Everyone outside: DC 18 DEX save, 12d10 bludgeoning. Halved on success.
+- Three allied metallic dragons die in the first seconds. Includes Elia, unless she was far away.
+- Severin is already dead – burned out from the inside the moment Tiamat broke through.
 
-**Inden for timer:**
-- Tiamat flyver mod Waterdeep. Hun stopper undervejs for at brænde Baldur's Gate.
-- Ulder Ravengard dør i Baldur's Gates forsvar. Hans sidste ord er en militær ordre, der bliver givet videre i to århundreder.
-- Lords' Alliance bryder sammen. Hvad der er tilbage, regrupperer i Silverymoon og i dværge-byerne.
+**Within hours:**
+- Tiamat flies toward Waterdeep. She stops along the way to burn Baldur's Gate.
+- Ulder Ravengard dies in Baldur's Gate's defense. His last words are a military order passed down for two centuries.
+- The Lords' Alliance collapses. What remains regroups in Silverymoon and in the dwarf cities.
 
-**Inden for uger:**
-- Faerûn har ikke længere et magtcenter på Sword Coast.
-- Tiamats Cult of the Dragon vinder over hele kontinentet – mange dødelige er på hendes side nu, fordi hun *vinder*.
-- Metallic dragons trækker sig tilbage til deres skjul. Dem der bliver, dør hurtigt.
+**Within weeks:**
+- Faerûn no longer has a power center on the Sword Coast.
+- Tiamat's Cult of the Dragon wins across the entire continent – many mortals are on her side now, because she *wins*.
+- Metallic dragons retreat to their lairs. Those who stay die quickly.
 
-**Gruppens rolle (hvis kampagnen fortsætter):**
-- De er nu blandt verdens få overlevende helte, der har set Tiamat tæt på og lever
-- De bærer skader fra mødet – psykiske eller fysiske, DM's valg per karakter
-- De er enten verdens sidste håb eller verdens sidste dommere – ofte begge dele
-
----
-
-## Brug af Tiamat ved bordet
-
-**Tale aldrig som en almindelig fjende.** Når Tiamats stemme bryder igennem, sæt din tone ned. Tal langsommere. Lad pauserne være ubehageligt lange.
-
-**Hvis spillerne griner, så lad dem.** Men gå ikke med dem. Tiamat griner ikke. Tiamat finder ikke noget sjovt. Hun *ser*. Hun *husker*. Hun er ligeglad med menneskelig komik.
-
-**Brug stilhed som våben.** En halv minuts pause, hvor du bare ser på spillerne uden at sige noget, vil ofte være mere skræmmende end en lang beskrivelse.
-
-**Husk: hun er ikke fjenden, der skal besejres her.** Hun er fjenden, der skal *undgås*. Ritualet skal stoppes. Hun skal forblive på sin side af portalen. Det er sejren.
+**The party's role (if the campaign continues):**
+- They are now among the world's few surviving heroes who have seen Tiamat up close and lived
+- They carry scars from the encounter – psychological or physical, DM's choice per character
+- They are either the world's last hope or the world's last judges – often both
 
 ---
 
-## Tiamat efter ritualet (hvis stoppet)
+## Using Tiamat at the Table
 
-Selv hvis gruppen vinder, er Tiamat ikke væk. Hun er bare *forsinket*.
+**Never speak as an ordinary enemy.** When Tiamat's voice breaks through, lower your tone. Speak more slowly. Let the pauses be uncomfortably long.
 
-**Et år senere:**
-- Drager kommer fortsat. Færre. Men de kommer.
-- En af PC'erne (DM's valg) drømmer om hende. Hun siger ingenting. Hun bare ser på dem.
-- Cultens rester eksisterer. De er små nu. De bygger ikke igen i denne generation. Men de bygger.
+**If the players laugh, let them.** But don't go with them. Tiamat does not laugh. Tiamat does not find anything funny. She *sees*. She *remembers*. She is indifferent to human comedy.
 
-**Ti år senere:**
-- En ny dragekult dukker op et helt andet sted, måske i Calimshan eller i Damara. De ved ikke, de er en del af det samme.
-- Tiamats stemme har lært tålmodighed.
+**Use silence as a weapon.** Half a minute's pause where you just look at the players without saying anything will often be more frightening than a long description.
 
-**Hundrede år senere:**
-- Et nyt eventyrer-party samles, fordi varslet om Dragen er kommet igen.
-- Twilights efterkommere fortæller historien om gruppen, der stoppede hende. Historien er præcis i halvdelen af detaljerne. Det er nok.
+**Remember: she is not the enemy to be defeated here.** She is the enemy to be *avoided*. The ritual must be stopped. She must remain on her side of the portal. That is the victory.
 
-Tiamat er ikke en boss, man dræber. Tiamat er en periode, man overlever.
+---
+
+## Tiamat After the Ritual (if stopped)
+
+Even if the party wins, Tiamat is not gone. She is just *delayed*.
+
+**One year later:**
+- Dragons still come. Fewer. But they come.
+- One of the PCs (DM's choice) dreams of her. She says nothing. She just watches them.
+- The remnants of the Cult exist. They are small now. They are not rebuilding in this generation. But they are building.
+
+**Ten years later:**
+- A new dragon cult emerges somewhere entirely different, perhaps in Calimshan or in Damara. They do not know they are part of the same thing.
+- Tiamat's voice has learned patience.
+
+**One hundred years later:**
+- A new party of adventurers assembles, because the omen of the Dragon has come again.
+- Twilight's descendants tell the story of the party that stopped her. The story is accurate in half the details. That is enough.
+
+Tiamat is not a boss you kill. Tiamat is a period of time you survive.

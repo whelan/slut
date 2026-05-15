@@ -1,92 +1,92 @@
 # Temple of Tiamat – Navigation
 
-Temple of Tiamat er slutkampagnens absolutte centrum. Templet køres som tre vertikale zoner med en aktiv ritual clock der driver urgency – og en personlig narrativ vægt for hver karakter.
+Temple of Tiamat is the absolute center of the endgame campaign. The temple is run as three vertical zones with an active ritual clock that drives urgency – and a personal narrative weight for each character.
 
-## Filstruktur
+## File Structure
 
-| Fil | Indhold |
+| File | Content |
 |---|---|
-| [niveau-1-the-maw.md](niveau-1-the-maw.md) | Ydre tempelgrund – ankomst, Gate of Bone, The Procession |
-| [niveau-2-the-fivefold-sanctum.md](niveau-2-the-fivefold-sanctum.md) | De fem chromatic foci – sabotage og guardians |
-| [niveau-3-the-crown.md](niveau-3-the-crown.md) | Severin boss fight, vindmuligheder, templets kollaps |
-| [ritual-clock.md](ritual-clock.md) | Clock-mekanik, triggers, starttilstand |
-| [tiamat-manifestation.md](tiamat-manifestation.md) | Tiamats nærvær, fem hoveder, fire manifestationstrin |
-| [aftermath.md](aftermath.md) | Tre udfald, epilog-scener, Leosins breve |
-| [epic-character-moments.md](epic-character-moments.md) | Signaturscener per PC (Axar, Daxx, Frygtløs, Twilight) |
-| [battlemap-prompts.md](battlemap-prompts.md) | Image generation prompts til alle tre niveauer |
+| [niveau-1-the-maw.md](niveau-1-the-maw.md) | Outer temple grounds – arrival, Gate of Bone, The Procession |
+| [niveau-2-the-fivefold-sanctum.md](niveau-2-the-fivefold-sanctum.md) | The five chromatic foci – sabotage and guardians |
+| [niveau-3-the-crown.md](niveau-3-the-crown.md) | Severin boss fight, victory options, temple collapse |
+| [ritual-clock.md](ritual-clock.md) | Clock mechanics, triggers, starting state |
+| [tiamat-manifestation.md](tiamat-manifestation.md) | Tiamat's presence, five heads, four manifestation stages |
+| [aftermath.md](aftermath.md) | Three outcomes, epilogue scenes, Leosin's letters |
+| [epic-character-moments.md](epic-character-moments.md) | Signature scenes per PC (Axar, Daxx, Frygtløs, Twilight) |
+| [battlemap-prompts.md](battlemap-prompts.md) | Image generation prompts for all three levels |
 
-## Overordnet flow
+## Overall Flow
 
 ```
-Ankomst til Well of Dragons
+Arrival at Well of Dragons
         ↓
-[NIVEAU 1 – The Maw]
-  Encounter A: Gate of Bone (combat eller skill challenge)
-  Encounter B: The Procession (moral valg)
+[LEVEL 1 – The Maw]
+  Encounter A: Gate of Bone (combat or skill challenge)
+  Encounter B: The Procession (moral choice)
         ↓
-[NIVEAU 2 – The Fivefold Sanctum]
-  5 chromatic foci – sabotér så mange som muligt
-  Anbefalet rækkefølge: Green → Red → Black → White → Blue
+[LEVEL 2 – The Fivefold Sanctum]
+  5 chromatic foci – sabotage as many as possible
+  Recommended order: Green → Red → Black → White → Blue
         ↓
-[NIVEAU 3 – The Crown]
-  Pre-combat: Severin taler
-  Boss fight: Severin + Tiamat-interferens
-  Vindmuligheder: dræb Severin / ødelæg masker / bryd ritual circle
+[LEVEL 3 – The Crown]
+  Pre-combat: Severin speaks
+  Boss fight: Severin + Tiamat interference
+  Victory options: kill Severin / destroy masks / break ritual circle
         ↓
-Templets kollaps (15 runder til flugt)
+Temple Collapse (15 rounds to escape)
 ```
 
-## Designprincipper
+## Design Principles
 
-- **Tre aktive zoner** – kun én køres taktisk ad gangen
-- **Ritual clock** driver urgency hele vejen igennem
-- **Sabotage > combat** på Niveau 2 – belønner smarte valg
-- **Severin er ikke stationær** – han reagerer på sabotage undervejs
-- **Tiamat er aldrig fraværende** – hendes nærvær eskalerer løbende
+- **Three active zones** – only one is run tactically at a time
+- **Ritual clock** drives urgency all the way through
+- **Sabotage > combat** on Level 2 – rewards smart choices
+- **Severin is not stationary** – he reacts to sabotage as it happens
+- **Tiamat is never absent** – her presence escalates continuously
 
-## Ritual Clock – hurtigreference
+## Ritual Clock – Quick Reference
 
-| Clock | Hvad sker der |
+| Clock | What happens |
 |---|---|
-| 0–2 | Tiamats øjne ses i portalen. Ingen mekanisk effekt. |
-| 3 | DC 14 WIS save eller Frightened ved start af Niveau 3-kamp |
-| 4 | Et hoved halvvejs igennem. 15 ft. zone: 3d6 fire+cold/runde |
-| 5 | Severin: Champion of Tiamat (+2 saves og attacks) |
-| 6 | Et hoved angriber: +14, 4d6+8 piercing, 1/runde |
-| 7 | Severin kan ikke dø (min. 3 HP) uden portalen lukkes først |
-| 8 | Tiamat manifesterer – se Fase 4 konsekvenser |
+| 0–2 | Tiamat's eyes visible in the portal. No mechanical effect. |
+| 3 | DC 14 WIS save or Frightened at start of Level 3 combat |
+| 4 | One head halfway through. 15 ft. zone: 3d6 fire+cold/round |
+| 5 | Severin: Champion of Tiamat (+2 saves and attacks) |
+| 6 | One head attacks: +14, 4d6+8 piercing, 1/round |
+| 7 | Severin cannot die (min. 3 HP) until the portal is closed |
+| 8 | Tiamat manifests – see Phase 4 consequences |
 
-Se [ritual-clock.md](ritual-clock.md) for fuld mekanik.
+See [ritual-clock.md](ritual-clock.md) for full mechanics.
 
-## Sabotage-effekter – hurtigreference
+## Sabotage Effects – Quick Reference
 
-| Foci ødelagt | Effekt |
+| Foci destroyed | Effect |
 |---|---|
-| Black | Acid/necrotic pressure forsvinder |
-| Blue | Lair actions fra Blue fjernes |
-| Green | Poison clouds og illusioner falder |
-| Red | Fire aura og magma-tiles deaktiveres |
-| White | Cold slow/freeze effects fjernes |
+| Black | Acid/necrotic pressure disappears |
+| Blue | Lair actions from Blue are removed |
+| Green | Poison clouds and illusions fall |
+| Red | Fire aura and magma tiles deactivate |
+| White | Cold slow/freeze effects are removed |
 
-## Gruppen ved bordet
+## The Party at the Table
 
-- **Axar Runes** – Dwarf Wizard 14. Sæt ham under pres med Abishai concentration-jagere og Counterspell-dueller. Han er den, der *ser* ritualet. Hans hero-moment: bryde ritual circle.
-- **Daxx Drake** – Changeling Ranger 13. Giv ham scouting-øjeblikke og Favored Enemy-fordele. Hans hero-moment: vælge at blive Daxx blandt The Procession.
-- **Frygtløs** – Goliath Barbarian 14. Giv ham fysiske udfordringer, der ændrer slagets gang. Hans hero-moment: holde et hoved tilbage med ren styrke.
-- **Twilight Ventress** – Elf Bard 13. Sårbar HP – trusler mod hende skaber reel spænding. Social leverage i pre-combat. Hendes hero-moment: synge mod Tiamat.
+- **Axar Runes** – Dwarf Wizard 14. Put him under pressure with Abishai concentration-hunters and Counterspell duels. He is the one who *sees* the ritual. His hero moment: breaking the ritual circle.
+- **Daxx Drake** – Changeling Ranger 13. Give him scouting moments and Favored Enemy advantages. His hero moment: choosing to remain Daxx among The Procession.
+- **Frygtløs** – Goliath Barbarian 14. Give him physical challenges that change the course of the battle. His hero moment: holding a head back with raw strength.
+- **Twilight Ventress** – Elf Bard 13. Vulnerable HP – threats against her create real tension. Social leverage in pre-combat. Her hero moment: singing against Tiamat.
 
-Se [epic-character-moments.md](epic-character-moments.md) for fulde scener.
+See [epic-character-moments.md](epic-character-moments.md) for full scenes.
 
 ---
 
-## Tone og episk standard
+## Tone and Epic Standard
 
-**Hvad gør denne kampagne episk:**
+**What makes this campaign epic:**
 
-1. **Sanser før beskrivelser.** Tænderne sitrer før øjnene ser. Smag og lugt før form. Ritualet føles igennem alle fem sanser.
-2. **Personlige stemmer.** Tiamat taler til hver PC individuelt. Severin har skarpe linjer skræddersyet til hver karakter. Leosins breve er konkrete og personlige.
-3. **Stilhed som våben.** Pauser. Lad spillerne reagere uden at fylde rummet med ord. De fortæller selv historien tilbage til dig.
-4. **Verden husker.** Aftermath er ikke en epilog – det er en hel session værd af konsekvenser, scener og forsoning.
-5. **Ingen renselse.** Selv ved total sejr er der ar. Selv ved fejl er der mening. Det er aldrig bare en kamp.
+1. **Senses before descriptions.** Teeth ache before eyes see. Taste and smell before form. The ritual is felt through all five senses.
+2. **Personal voices.** Tiamat speaks to each PC individually. Severin has sharp lines tailored to each character. Leosin's letters are concrete and personal.
+3. **Silence as a weapon.** Pauses. Let the players react without filling the room with words. They tell the story back to you themselves.
+4. **The world remembers.** Aftermath is not an epilogue – it is a full session's worth of consequences, scenes, and reconciliation.
+5. **No clean slate.** Even in total victory there are scars. Even in failure there is meaning. It is never just a fight.
 
-**Hvis du tager én ting med:** Læs hver boxed text højt og langsomt. Stop. Lad dem reagere. *Det* er forskellen mellem en god D&D-aften og en aften, dine spillere fortæller om i 20 år.
+**If you take one thing away:** Read every boxed text aloud and slowly. Stop. Let them react. *That* is the difference between a good D&D evening and an evening your players talk about for 20 years.

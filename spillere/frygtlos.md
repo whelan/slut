@@ -6,7 +6,7 @@
 
 -----
 
-## Identitet
+## Identity
 
 |             |                |
 |-------------|----------------|
@@ -23,9 +23,9 @@
 
 -----
 
-## Kerne-stats
+## Core Stats
 
-|Stat                     |Værdi                                         |Modifier                          |
+|Stat                     |Value                                         |Modifier                          |
 |-------------------------|----------------------------------------------|----------------------------------|
 |**AC**                   |18                                            |Unarmored Defense (10 + DEX + CON)|
 |**HP Max**               |200                                           |(15d12 hit dice)                  |
@@ -48,11 +48,11 @@
 |WIS    |12   |+1 |+1       |
 |CHA    |10   |+0 |+0       |
 
-### Defenser
+### Defenses
 
-- **Advantage** på DEX saves med mindre Incapacitated (Danger Sense)
-- **Immunity** mod Charmed og Frightened mens raging (Mindless Rage)
-- **Unarmored Defense:** AC 18 = 10 + DEX (+2) + CON (+6); kan kombineres med Shield bonus
+- **Advantage** on DEX saves unless Incapacitated (Danger Sense)
+- **Immunity** to Charmed and Frightened while raging (Mindless Rage)
+- **Unarmored Defense:** AC 18 = 10 + DEX (+2) + CON (+6); can be combined with Shield bonus
 
 -----
 
@@ -107,69 +107,69 @@
 
 Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Study, Influence
 
-**Rage: Regain Expended Uses (1 / Long Rest).** Én gang per Long Rest når du ruller Initiative kan du regenere alle expended Rage uses.
+**Rage: Regain Expended Uses (1 / Long Rest).** Once per Long Rest when you roll Initiative you can regain all expended Rage uses.
 
-**Cloud’s Jaunt (Cloud Giant) — 5 / Long Rest.** Teleport op til 30 ft til en unoccupied space du kan se.
+**Cloud’s Jaunt (Cloud Giant) — 5 / Long Rest.** Teleport up to 30 ft to an unoccupied space you can see.
 
-**Hew.** Direkte efter en Critical Hit med melee weapon eller reducering af creature til 0 HP: lav én attack med samme weapon som Bonus Action.
+**Hew.** Immediately after a Critical Hit with a melee weapon or reducing a creature to 0 HP: make one attack with the same weapon as a Bonus Action.
 
-**Intimidating Presence (1 / Long Rest).** Strike fear into others. Hver creature du vælger inden for 30 ft Emanation skal lave DC 19 WIS save. På failure: Frightened. Save i slutningen af hver tur. Kan bruge igen ved at expend Rage use.
+**Intimidating Presence (1 / Long Rest).** Strike fear into others. Each creature you choose within a 30 ft Emanation must make a DC 19 WIS save. On failure: Frightened. Save at the end of each turn. Can use again by expending a Rage use.
 
 ### Bonus Actions
 
-**Activate Large Form (1 / Long Rest).** Bliv Large i 10 min eller indtil du ender det. Advantage på STR checks, +10 ft Speed.
+**Activate Large Form (1 / Long Rest).** Become Large for 10 min or until you end it. Advantage on STR checks, +10 ft Speed.
 
-**Rage (5 / Long Rest).** Enter Rage uden Heavy Armor.
+**Rage (5 / Long Rest).** Enter Rage without Heavy Armor.
 
-**Hew (1 Bonus Action).** Se ovenfor.
+**Hew (1 Bonus Action).** See above.
 
-**Heavy Weapon Mastery (1 Bonus Action).** Når du rammer med Heavy weapon som del af Attack action: weapon kan deal extra 5 damage til target.
+**Heavy Weapon Mastery (1 Bonus Action).** When you hit with a Heavy weapon as part of the Attack action: the weapon can deal an extra 5 damage to the target.
 
-**Greataxe (Cleave).** 1/turn: ram en creature med Greataxe → lav extra attack mod second creature inden for 5 ft af first. Tager samme damage uden ability modifier.
+**Greataxe (Cleave).** 1/turn: hit a creature with Greataxe → make an extra attack against a second creature within 5 ft of the first. Takes the same damage without ability modifier.
 
-**Greatsword (Graze).** Hvis Greatsword attack misser: deal damage = ability modifier brugt til attack.
+**Greatsword (Graze).** If a Greatsword attack misses: deal damage = ability modifier used for the attack.
 
-**Brutal Strike (1 Action).** Hvis du bruger Reckless Attack: forsag Advantage på én STR-based attack på din turn. Target har ikke Disadvantage. Hvis hit: +1d10 damage + 1 Brutal Strike effekt (Forceful Blow, Hamstring Blow, Staggering Blow, Sundering Blow).
+**Brutal Strike (1 Action).** If you use Reckless Attack: forgo Advantage on one STR-based attack on your turn. Target does not have Disadvantage. If hit: +1d10 damage + 1 Brutal Strike effect (Forceful Blow, Hamstring Blow, Staggering Blow, Sundering Blow).
 
-**Slow (Javelin).** Ram + damage med Javelin: target Speed −10 ft til start af din næste tur.
+**Slow (Javelin).** Hit + damage with Javelin: target Speed −10 ft until start of your next turn.
 
-**Vex (Shortbow).** Ram + damage med Shortbow: Advantage på næste attack roll mod den creature.
+**Vex (Shortbow).** Hit + damage with Shortbow: Advantage on next attack roll against that creature.
 
 ### Reactions
 
-**Retaliation.** Når du tager damage fra en creature inden for 5 ft: brug Reaction til at lave én melee attack med weapon eller Unarmed Strike mod creature.
+**Retaliation.** When you take damage from a creature within 5 ft: use your Reaction to make one melee attack with a weapon or Unarmed Strike against that creature.
 
 ### Special
 
-**Relentless Rage.** Hvis du drop til 0 HP mens raging og ikke dør direkte: lav DC 10 CON save. På succes: HP bliver 30 i stedet. Hver subsequent brug øger DC med 5. Resets efter Short/Long Rest.
+**Relentless Rage.** If you drop to 0 HP while raging and don't die outright: make a DC 10 CON save. On success: HP becomes 30 instead. Each subsequent use increases the DC by 5. Resets after Short/Long Rest.
 
-**Frenzy.** Hvis du bruger Reckless Attack mens Rage er aktiv: deal extra 3d6 damage (samme type) på første target du rammer på din turn med STR-based attack.
+**Frenzy.** If you use Reckless Attack while Rage is active: deal an extra 3d6 damage (same type) to the first target you hit on your turn with a STR-based attack.
 
 -----
 
-## Klasse-features (Barbarian 15 — Path of the Berserker)
+## Class Features (Barbarian 15 — Path of the Berserker)
 
 - **Core Barbarian Traits** (PHB-2024 51)
-- **Rage** (PHB-2024 51) — 5 ×/Long Rest, regain 1 efter Short Rest
-- **Unarmored Defense** — AC 18 + Shield mens uden armor
-- **Weapon Mastery** — 4 weapons (skift ved Long Rest)
-- **Danger Sense** — Advantage på DEX saves med mindre Incapacitated
-- **Reckless Attack** — Første attack på din turn: Advantage på STR-based attacks; alle attacks mod dig har Advantage til start af næste tur
+- **Rage** (PHB-2024 51) — 5 ×/Long Rest, regain 1 after Short Rest
+- **Unarmored Defense** — AC 18 + Shield while without armor
+- **Weapon Mastery** — 4 weapons (switch at Long Rest)
+- **Danger Sense** — Advantage on DEX saves unless Incapacitated
+- **Reckless Attack** — First attack on your turn: Advantage on STR-based attacks; all attacks against you have Advantage until start of next turn
 - **Path of the Berserker** (PHB-2024 52)
-- **Primal Knowledge** — Proficiency i extra Barbarian skill; mens Raging kan STR checks bruges på Acrobatics/Intimidation/Perception/Stealth/Survival
+- **Primal Knowledge** — Proficiency in extra Barbarian skill; while Raging STR checks can be used for Acrobatics/Intimidation/Perception/Stealth/Survival
 - **Frenzy** (PHB-2024 54)
 - **Extra Attack** — 2 attacks per Attack action
-- **Fast Movement** — +10 ft Speed uden Heavy Armor
-- **Mindless Rage** (PHB-2024 54) — Immunity til Charmed/Frightened mens Raging
-- **Feral Instinct** — Advantage på Initiative rolls
-- **Instinctive Pounce** (PHB-2024 53) — Som del af Bonus Action til Rage: bevæg op til halv Speed
+- **Fast Movement** — +10 ft Speed without Heavy Armor
+- **Mindless Rage** (PHB-2024 54) — Immunity to Charmed/Frightened while Raging
+- **Feral Instinct** — Advantage on Initiative rolls
+- **Instinctive Pounce** (PHB-2024 53) — As part of the Bonus Action to Rage: move up to half Speed
 - **Brutal Strike** (PHB-2024 53)
 - **Intimidating Presence** (PHB-2024 54)
 - **Retaliation** (PHB-2024 54)
-- **Persistent Rage** (PHB-2024 53) — Rage varer 10 min uden ekstra actions; ender ved Unconscious eller Heavy armor; 1/Long Rest regain alle Rage uses ved Initiative
-- **Improved Brutal Strike** (PHB-2024 53) — Lærer Staggering Blow og Sundering Blow
+- **Persistent Rage** (PHB-2024 53) — Rage lasts 10 min without extra actions; ends when Unconscious or in Heavy armor; 1/Long Rest regain all Rage uses on Initiative
+- **Improved Brutal Strike** (PHB-2024 53) — Learns Staggering Blow and Sundering Blow
 - **Relentless Rage** (PHB-2024 53)
-- **Ability Score Improvements** — niveau 4, 8, 12
+- **Ability Score Improvements** — level 4, 8, 12
 
 -----
 
@@ -178,10 +178,10 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - **Creature Type:** Humanoid
 - **Size:** Medium
 - **Speed:** 35 ft
-- **Giant Ancestry** (PHB-2024 192) — Vælg én supernatural boon, 5 ×/Long Rest
-  - **Cloud’s Jaunt (Cloud Giant)** — Teleport 30 ft som Bonus Action
-- **Large Form** — Bonus Action 1/Long Rest: Large size i 10 min; Advantage på STR checks; +10 ft Speed
-- **Powerful Build** — Advantage på checks for at ende Grappled condition; tæller som én størrelse større til bæreevne
+- **Giant Ancestry** (PHB-2024 192) — Choose one supernatural boon, 5 ×/Long Rest
+  - **Cloud’s Jaunt (Cloud Giant)** — Teleport 30 ft as a Bonus Action
+- **Large Form** — Bonus Action 1/Long Rest: Large size for 10 min; Advantage on STR checks; +10 ft Speed
+- **Powerful Build** — Advantage on checks to end the Grappled condition; counts as one size larger for carrying capacity
 
 -----
 
@@ -189,16 +189,16 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 - **Ability Score Improvement** (PHB-2024 202)
 - **Great Weapon Master** (PHB-2024 204) — +1 STR
-  - *Heavy Weapon Mastery*: Heavy weapon hit som del af Attack action → +5 damage (Bonus Action)
-  - *Hew*: Efter Critical Hit eller reducering til 0 HP → extra attack som Bonus Action
+  - *Heavy Weapon Mastery*: Heavy weapon hit as part of Attack action → +5 damage (Bonus Action)
+  - *Hew*: After Critical Hit or reducing to 0 HP → extra attack as Bonus Action
 - **Ability Score Improvement** (PHB-2024 202)
 - **Weapon Mastery** (PHB-2024 52)
-  - **Greataxe (Cleave)** — Extra attack på second creature inden for 5 ft
+  - **Greataxe (Cleave)** — Extra attack against second creature within 5 ft
   - **Greatsword (Graze)** — Miss → damage = ability modifier
-  - **Shortbow (Vex)** — Hit + damage → Advantage på næste attack
+  - **Shortbow (Vex)** — Hit + damage → Advantage on next attack
   - **Javelin (Slow)** — Hit + damage → target Speed −10 ft
-- **Savage Attacker** (PHB-2024 201) — 1/turn: roll weapon damage dice tvinge, brug enten
-- **Soldier Ability Score Improvements** (PHB-2024 185) — +1/+1/+1 til tre scores
+- **Savage Attacker** (PHB-2024 201) — 1/turn: roll weapon damage dice twice, use either
+- **Soldier Ability Score Improvements** (PHB-2024 185) — +1/+1/+1 to three scores
 
 -----
 
@@ -212,7 +212,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Carried
 
-|Item                          |Qty|Vægt  |
+|Item                          |Qty|Weight|
 |------------------------------|---|------|
 |Bag of Holding                |1  |15 lb |
 |Belt of Hill Giant Strength   |1  |—     |
@@ -240,7 +240,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 |Vorpal Greatsword             |1  |6 lb  |
 |Winged Boots                  |1  |—     |
 
-### Yderligere udstyr
+### Additional Equipment
 
 - Shortbow + Arrows ×20
 - Playing Cards
@@ -250,9 +250,9 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Javelin ×4
 - Potion of Speed (0)
 - **Bloodrage Greataxe**
-- **Vorpal Greatsword** (ekstra kopi)
+- **Vorpal Greatsword** (extra copy)
 - **Helm of Brilliance**
-- Med krystal — conjuration magi, ikke identificeret
+- With crystal — conjuration magic, unidentified
 - Book
 - Ink (1 ounce bottle), Ink Pen, Parchment (one sheet) ×10
 - Little Bag of Sand, Small Knife
@@ -263,22 +263,22 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Waterskin
 - Disguise Kit
 - **Manual of Bodily Health**
-- Guldhjelm
-- Kniv med runer
+- Gold Helmet
+- Knife with runes
 - Oil ×2
 - Rations ×18 lb
 
 ### Coins
 
-|Type|Antal|
-|----|-----|
-|CP  |4    |
-|SP  |6    |
-|EP  |0    |
-|GP  |1,770|
-|PP  |0    |
+|Type|Amount|
+|----|------|
+|CP  |4     |
+|SP  |6     |
+|EP  |0     |
+|GP  |1,770 |
+|PP  |0     |
 
-### Bæreevne
+### Carrying Capacity
 
 - **Weight Carried:** 180.5 lb
 - **Encumbered at:** 690 lb (Powerful Build × Goliath STR 23 + belts)
@@ -288,7 +288,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ## Spellcasting
 
-*Frygtløs er en Barbarian uden subclass spellcasting — ingen spells.*
+*(Frygtløs has no subclass spellcasting — no spells.)*
 
 -----
 
@@ -331,7 +331,7 @@ At his 16 years birthday for his manhood trial the chieftain gave Fearless a gre
 
 -----
 
-## Yderligere notater
+## Additional Notes
 
 ### Grappling
 

@@ -1,14 +1,14 @@
-# Niveau 3 – The Crown (Ritualtoppen)
+# Level 3 – The Crown (The Ritual Summit)
 
-**Funktion:** Severin boss fight. Stop maskekraften. Forhindre fuld Tiamat-manifestation. Templets kollaps.
+**Function:** Severin boss fight. Stop the mask power. Prevent full Tiamat manifestation. The temple's collapse.
 
-**Tonen:** Dette er ikke et boss-rum. Det er kampagnens hjerteslag. Hver beskrivelse, hver replik, hvert terningekast skal føles som om verden ser på.
+**Tone:** This is not a boss room. It is the campaign's heartbeat. Every description, every line, every dice roll should feel like the world is watching.
 
 ---
 
-## Den sidste trappe
+## The Last Staircase
 
-*Læs dette, mens gruppen stiger op. Tag tid.*
+*Read this while the group climbs up. Take your time.*
 
 > Trappen op til The Crown er fyrre trin lang. I tæller dem ikke. Men I mærker dem.
 >
@@ -24,7 +24,7 @@
 
 ---
 
-## Visuel beskrivelse
+## Visual Description
 
 > Niveau 3 er åbent for himlen – men himlen er ikke rigtig.
 >
@@ -44,18 +44,18 @@
 >
 > Og det venter på jer.
 
-**Fysisk layout:**
-- Rund dais: 60 fod i diameter
-- Portalen: 20 fod bred halvbue, bagerst på dais'et (giver Severin total cover bagfra)
-- Fem dragehoved-åbninger: placeret symmetrisk, 10 fod høje
-- Intet under platformen – 80 fod fald til Niveau 2
-- Ingen dækning undtagen drageskull-søjlerne (half cover)
+**Physical Layout:**
+- Round dais: 60 ft. in diameter
+- The portal: 20 ft. wide half-arch, at the back of the dais (gives Severin total cover from behind)
+- Five dragon-head openings: placed symmetrically, 10 ft. high
+- Nothing below the platform – 80 ft. fall to Level 2
+- No cover except the dragon skull columns (half cover)
 
 ---
 
 ## Pre-combat scene
 
-**Severin vender sig ikke. Han ved, I er der.**
+**Severin does not turn around. He knows you are here.**
 
 > Han bliver stående med ryggen til jer i tre lange sekunder. Maskernes lys folder sig omkring ham som vinger der ikke er hans.
 >
@@ -89,38 +89,38 @@
 >
 > "Kom så. Lad mig vise jer hvad I egentlig er en del af."
 
-### Social interaktioner (tidsbegrænsede)
+### Social Interactions (time-limited)
 
-Severin tager imod én social handling fra hver karakter, inden initiative starter. Han **lytter**, fordi han stadig tror at han kan vinde dem over.
+Severin accepts one social action from each character before initiative starts. He **listens**, because he still believes he can win them over.
 
-**Twilight – Persuasion eller Performance DC 20:**
-- Hun griber et øjeblik af hans karisma og vender det mod ham
-- Severin bruger 1 fuld runde på at modbevise hende eloquently → gruppen får 1 runde gratis (ingen initiative endnu)
-- Hans replik (uanset succes): *"Min kære. Karisma er, hvad fejlslagne imperier hænger på indtil de falder. Jeg har hørt Waterdeep tale. Jeg har hørt jeres råd tale. Den eneste stemme der ikke har talt færdig endnu, er hendes."*
-- *Han nikker mod portalen. Han mener det.*
+**Twilight – Persuasion or Performance DC 20:**
+- She seizes a moment of his charisma and turns it against him
+- Severin spends 1 full round eloquently disproving her → the group gets 1 free round (no initiative yet)
+- His reply (regardless of success): *"Min kære. Karisma er, hvad fejlslagne imperier hænger på indtil de falder. Jeg har hørt Waterdeep tale. Jeg har hørt jeres råd tale. Den eneste stemme der ikke har talt færdig endnu, er hendes."*
+- *He nods toward the portal. He means it.*
 
 **Axar – Arcana DC 17:**
-- Han ser ritualstrukturen *bag* Severin – som man ser maskinen bag et urværk
-- Identificerer svaghed i maskernes binding → advantage på første attack mod masker
-- Får øje på den linje af kraft, der løber fra portalen gennem Severins ryg. Severin er ikke ritualets mester. Han er dens kanal. Hvis Severin dør med portalen åben, vil den lukke.
-- Severin nikker, da han ser Axars øjne fange det: *"Du forstår. Du er den eneste herinde der forstår. Du burde havde været på min side, dværg."*
+- He sees the ritual structure *behind* Severin – the way one sees the machine behind a clockwork
+- Identifies a weakness in the masks' binding → advantage on first attack against masks
+- Spots the line of force running from the portal through Severin's back. Severin is not the ritual's master. He is its channel. If Severin dies with the portal open, it will close.
+- Severin nods when he sees Axar's eyes catch it: *"Du forstår. Du er den eneste herinde der forstår. Du burde havde været på min side, dværg."*
 
 **Daxx – Insight DC 15:**
-- Severin er bange. Ikke vild bange – bestyrtet bange, som en mand der ser sit eget skib synke, mens han stadig står på det
-- Han vidste ikke, at gruppen ville komme så langt
-- Afslører: hans Ritual Action er defensiv reaktion, ikke selvsikkerhed
-- +2 til Daxx' initiative (han ser det komme)
-- Hvis Daxx er changeling-formet som kultist: Severin smiler trist. *"Du er en af de bedste jeg har set. Hvis du havde valgt anderledes, kunne du have stået her i stedet for mig."*
+- Severin is afraid. Not wildly afraid – rattled afraid, like a man watching his own ship sink while he still stands on it
+- He did not know the group would get this far
+- Reveals: his Ritual Action is a defensive reaction, not self-confidence
+- +2 to Daxx's initiative (he sees it coming)
+- If Daxx is changeling-shaped as a cultist: Severin smiles sadly. *"Du er en af de bedste jeg har set. Hvis du havde valgt anderledes, kunne du have stået her i stedet for mig."*
 
 **Frygtløs – Intimidation DC 18:**
-- Han trækker sig op til sin fulde højde. Han siger måske ikke ét ord. Han behøver det ikke.
-- Severin tøver. Det er ikke i hans script.
-- Severin's replik (hvis succes): *"... der er styrke i jer. Jeg bemærkede det. Tiamat bemærkede det. Hun kunne have brugt jer."*
-- Mekanisk: Severin starter combat med disadvantage på sit første attack mod Frygtløs (han kan ikke helt slippe billedet af kæmpen der så på ham).
+- He draws himself up to his full height. He may not say a single word. He doesn't need to.
+- Severin hesitates. It is not in his script.
+- Severin's reply (on success): *"... der er styrke i jer. Jeg bemærkede det. Tiamat bemærkede det. Hun kunne have brugt jer."*
+- Mechanical: Severin starts combat with disadvantage on his first attack against Frygtløs (he cannot quite shake the image of the giant who stared at him).
 
 ---
 
-### Det øjeblik, før initiative ruller
+### The Moment Before Initiative Rolls
 
 > Severin lukker øjnene. Han hører noget I ikke kan høre.
 >
@@ -132,18 +132,18 @@ Severin tager imod én social handling fra hver karakter, inden initiative start
 >
 > "Lad os finde ud af, hvem af jer der er den første hun mærker."
 
-**DM-note:** Rul initiative her. Beskriv det som lyden af en hjerteslag der svigter.
+**DM-note:** Roll initiative here. Describe it as the sound of a heartbeat that fails.
 
 ---
 
-## Severin – Komplet Boss Statblock (2024 rules)
+## Severin – Complete Boss Statblock (2024 rules)
 
 **Severin, High Wyrmspeaker**
 *Medium Humanoid (Human), Chaotic Evil*
 
 ---
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | **AC** | 18 (Dragon Scale Robes of the Five + Shield reaction) |
 | **HP** | 230 |
@@ -157,23 +157,23 @@ Severin tager imod én social handling fra hver karakter, inden initiative start
 | Save | +4 | +4 | +6 | +11 | +9 | +12 |
 
 **Skills:** Arcana +17, History +11, Persuasion +12, Religion +11
-**Damage Immunities (via masker):** Acid, Cold, Fire, Lightning, Poison
+**Damage Immunities (via masks):** Acid, Cold, Fire, Lightning, Poison
 **Condition Immunities:** Charmed, Frightened
 **Senses:** Darkvision 120 ft., Truesight 30 ft.
 **Languages:** Common, Draconic, Abyssal, Infernal
-**CR:** 24 (encounter-tilpasset til level 15 group)
+**CR:** 24 (encounter-adjusted for level 15 group)
 **Legendary Resistance:** 3/day
 
 ---
 
 ### Spells (Warlock/Sorcerer hybrid, Spell Save DC 20, +12 to hit)
 
-**Innate (via masker, unlimited):**
+**Innate (via masks, unlimited):**
 - Detect Magic, Speak with Animals (dragons)
 
-**Cantrips:** Eldritch Blast (2d10 force, 2 beams, 120 ft.), Fire Bolt (+12, 4d10), Mind Sliver (DC 20 INT save, 1d6 psychic + –1d4 til næste save)
+**Cantrips:** Eldritch Blast (2d10 force, 2 beams, 120 ft.), Fire Bolt (+12, 4d10), Mind Sliver (DC 20 INT save, 1d6 psychic + –1d4 to next save)
 
-**Spell Slots (rebalanceret):**
+**Spell Slots (rebalanced):**
 
 | Level | Slots | Spells |
 |---|---|---|
@@ -181,92 +181,92 @@ Severin tager imod én social handling fra hver karakter, inden initiative start
 | 6th | 2 | Eyebite (DC 20), Globe of Invulnerability |
 | 7th | 2 | Finger of Death (DC 20), Plane Shift |
 | 8th | 1 | Dominate Monster (DC 20) |
-| 9th | 1 | Wish (ritual-brug kun, ikke combat) |
+| 9th | 1 | Wish (ritual use only, not combat) |
 
 ---
 
 ### Special Abilities
 
 **Mask Resonance (Recharge 5-6):**
-60 ft. burst. DC 18 DEX save. 8d8 skade (mix af acid/cold/fire/lightning/poison – 1d8 af hver). Halveret ved succes. Ingen cover reducerer dette.
+60 ft. burst. DC 18 DEX save. 8d8 damage (mix of acid/cold/fire/lightning/poison – 1d8 of each). Halved on success. No cover reduces this.
 
-**Ritual Action (Bonus Action, 1/runde):**
-Ritualet skrider frem. Clock +1. *Kan ikke bruges, hvis Severin er concentrating på en spell der kræver fuld handling at opretholde.*
+**Ritual Action (Bonus Action, 1/round):**
+The ritual advances. Clock +1. *Cannot be used if Severin is concentrating on a spell that requires a full action to maintain.*
 
 **Portal Ward:**
-Severin har **total cover** fra portalen bag sig (kan ikke angribes fra bag). Portalen lukkes automatisk, hvis Severin er under 50 HP (han lukker den defensivt).
+Severin has **total cover** from the portal behind him (cannot be attacked from behind). The portal closes automatically if Severin is below 50 HP (he closes it defensively).
 
 **Champion of Tiamat:**
-Mens ritual clock er 5+: +2 til alle saves og attacks. Tiamat beskytter ham aktivt.
+While ritual clock is 5+: +2 to all saves and attacks. Tiamat is actively protecting him.
 
 **Dragon Scale Robes:**
-1/dag kan Severin ignorere skade fra en attack (reduceres til 0). Resets ved Long Rest.
+1/day Severin can ignore damage from one attack (reduced to 0). Resets on Long Rest.
 
 ---
 
 ### Actions
 
-**Multiattack:** Severin bruger 2 spells eller 1 spell + Eldritch Blast.
+**Multiattack:** Severin uses 2 spells or 1 spell + Eldritch Blast.
 
-**Eldritch Blast:** +12 to hit, 120 ft., 2d10+6 force per beam, 2 beams. Kan splitte mod forskellige targets.
+**Eldritch Blast:** +12 to hit, 120 ft., 2d10+6 force per beam, 2 beams. Can split against different targets.
 
-**Shield (Reaction):** +5 til AC mod ét attack. Bruger ikke spell slot.
-
----
-
-### Legendary Actions (3/runde, brugt i slutningen af andres tur)
-
-**1. Eldritch Blast (1 LA):** 2 beams som beskrevet ovenfor.
-
-**2. Ritual Surge (2 LA):** Clock +1 øjeblikkeligt. Alle allierede kultister på Niveau 3 heals 2d8. *Severin bruger dette, hvis han ikke har handlet i den runde (f.eks. pga. Hold Monster).*
-
-**3. Summon Devout (3 LA):** 1d4 Dragonclaw guards teleporterer op fra Niveau 1 til et ledigt felt på Niveau 3. De handler i næste runde.
+**Shield (Reaction):** +5 to AC against one attack. Does not use a spell slot.
 
 ---
 
-### Fase 2 (under 115 HP)
+### Legendary Actions (3/round, used at the end of others' turns)
+
+**1. Eldritch Blast (1 LA):** 2 beams as described above.
+
+**2. Ritual Surge (2 LA):** Clock +1 immediately. All allied cultists on Level 3 heal 2d8. *Severin uses this if he has not acted in the round (e.g., due to Hold Monster).*
+
+**3. Summon Devout (3 LA):** 1d4 Dragonclaw guards teleport up from Level 1 to an empty space on Level 3. They act next round.
+
+---
+
+### Phase 2 (below 115 HP)
 
 > Blod løber ned ad Severins ansigt. Han tørrer det af med bagsiden af hånden og ser på det. Ikke forfærdet. Interesseret.
 >
 > "Tiamat..." siger han lavt. "Nu."
 
-- **Globe of Invulnerability** slukkes (han dropper concentration).
-- Tiamats stemme taler **tydeligt igennem ham** – hans øjne skifter til fem farver.
-- Bruger **Dominate Monster** på Frygtløs (DC 20 WIS save) som første handling i Fase 2.
-- **Mask Resonance** recharger nu på 4-6 i stedet for 5-6.
-- Han bruger ikke længere Shield – han stoler på Tiamats beskyttelse i stedet.
+- **Globe of Invulnerability** is dropped (he releases concentration).
+- Tiamat's voice speaks **clearly through him** – his eyes shift to five colors.
+- Uses **Dominate Monster** on Frygtløs (DC 20 WIS save) as first action in Phase 2.
+- **Mask Resonance** now recharges on 4-6 instead of 5-6.
+- He no longer uses Shield – he relies on Tiamat's protection instead.
 
 ---
 
-## Tiamat-interferens under kampen
+## Tiamat Interference During Combat
 
-Baseret på ritual clock ved ankomst til Niveau 3:
+Based on ritual clock upon arrival at Level 3:
 
-| Clock | Tiamat-effekt | Mekanisk |
+| Clock | Tiamat Effect | Mechanical |
 |---|---|---|
-| 0–2 | Øjne ses i portalen. Skygger bevæger sig. | Ingen |
-| 3 | Hendes stemme rammer alle PCs ved kampstart | DC 14 WIS save eller Frightened 1 runde |
-| 4 | Et hoved halvvejs igennem portalen | 15 ft. zone ved portalen: 3d6 fire+cold per runde |
-| 5 | Severin: Champion of Tiamat aktiveret | +2 saves og attacks til Severin |
-| 6 | Et hoved angriber | Bite +14, 4d6+8 piercing, 1/runde på laveste HP-target |
-| 7 | Severin "er beskyttet" | Severin kan ikke dø (min. 3 HP) uden portalen lukkes |
-| 8 | Se: Fase 4 – Tiamat manifesterer | Kampagnen skifter |
+| 0–2 | Eyes seen in the portal. Shadows move. | None |
+| 3 | Her voice strikes all PCs at combat start | DC 14 WIS save or Frightened 1 round |
+| 4 | One head halfway through the portal | 15 ft. zone at the portal: 3d6 fire+cold per round |
+| 5 | Severin: Champion of Tiamat activated | +2 saves and attacks to Severin |
+| 6 | One head attacks | Bite +14, 4d6+8 piercing, 1/round on lowest HP target |
+| 7 | Severin "is protected" | Severin cannot die (min. 3 HP) without the portal closing |
+| 8 | See: Phase 4 – Tiamat manifests | Campaign shifts |
 
 ---
 
-## Vindmuligheder
+## Victory Options
 
-Der er ingen "rigtig" vej. Alle tre kan vindes, alle tre koster noget. Lad spillerne vælge – men sørg for, at hvert valg ser ud som det vigtigste valg de nogensinde har truffet.
+There is no "right" path. All three can be won, all three cost something. Let the players choose – but make sure every choice looks like the most important choice they have ever made.
 
 ---
 
-### Option A – Dræb Severin
+### Option A – Kill Severin
 
-**Effekt:** Han falder. Maskerne slukner én efter én. Portalen kollapser indefra. Tiamat trækkes tilbage til Avernus med et brøl, der efterlader sprækker i caldera-væggen i en uges tid. Templet kollapser (15 runder til flugt).
+**Effect:** He falls. The masks extinguish one by one. The portal collapses from within. Tiamat is pulled back to Avernus with a roar that leaves cracks in the caldera wall for a week. The temple collapses (15 rounds to escape).
 
-**Udfordring:** Hvis clock er 7+, kan Severin ikke dø. Portalen skal lukkes først (Option B eller C, eller Severin falder til 3 HP og bryder kontrakten – se nedenfor).
+**Challenge:** If the clock is 7+, Severin cannot die. The portal must be closed first (Option B or C, or Severin drops to 3 HP and breaks the contract – see below).
 
-**Det sidste øjeblik:**
+**The Last Moment:**
 
 > Den sidste klinge går ind. Eller pilen. Eller spell-bolten. Severin tøver kun et sekund.
 >
@@ -284,7 +284,7 @@ Der er ingen "rigtig" vej. Alle tre kan vindes, alle tre koster noget. Lad spill
 >
 > Så falder han forover, og portalen lukker som et lys der blæses ud.
 
-**Hvis Severin falder til 3 HP men ikke kan dræbes pga. clock:**
+**If Severin drops to 3 HP but cannot be killed due to the clock:**
 
 > Severin synker ned i knæ. Blod løber fra hans næse, ører, mund. Maskerne over ham ryster.
 >
@@ -298,50 +298,50 @@ Der er ingen "rigtig" vej. Alle tre kan vindes, alle tre koster noget. Lad spill
 >
 > "Luk hende ude. Hvis I kan. Jeg kan ikke længere mærke hende beskytte mig."
 
-→ Portalen er nu sårbar. Option B eller C kan udføres uden Severins modstand i én runde. Brug muligheden.
+→ The portal is now vulnerable. Option B or C can be executed without Severin's resistance for one round. Use the opportunity.
 
 ---
 
 ### Option B – Destroy the Masks
 
-**Fem masker:** De flyder i en ring over Severin, 5 fod over hans hoved. Hver maske er en del af et helt.
+**Five masks:** They float in a ring above Severin, 5 ft. above his head. Each mask is part of a whole.
 
-| Stat | Værdi |
+| Stat | Value |
 |---|---|
 | AC | 15 |
-| HP | 30 per maske |
+| HP | 30 per mask |
 | Immunities | Acid, Cold, Fire, Lightning, Poison |
 | Vulnerabilities | Force, Radiant |
 
-**Severin forsvarer dem med alt:**
-- Bruger Shield reaction til at dække masker (ikke sig selv)
-- Bruger Legendary Actions til at flytte masker 5 ft. (ud af reach)
-- Reagerer på hvert maskeangrebet med Eldritch Blast mod angriberen
+**Severin defends them with everything:**
+- Uses Shield reaction to protect masks (not himself)
+- Uses Legendary Actions to move masks 5 ft. (out of reach)
+- Responds to each mask attack with Eldritch Blast against the attacker
 
-**Effekt:** Hver ødelagt maske svækker Severin (–1 til saves og attacks per maske). Alle 5 ødelagt = Severin falder øjeblikkeligt – men ikke før et øjebliks dramatik:
+**Effect:** Each destroyed mask weakens Severin (–1 to saves and attacks per mask). All 5 destroyed = Severin falls immediately – but not before a moment of drama:
 
-**Hver maske der falder, beskrives:**
+**Each mask that falls is described:**
 
-| Maske | Beskrivelse når den falder |
+| Mask | Description when it falls |
 |---|---|
-| Hvid | *"Den splintrer som tyndis. Frostskår spreder sig udad og bliver til damp. Severin gisper – det er ikke hans åndedrag, der er koldt nu."* |
-| Sort | *"Den smelter. Ikke som metal – som noget der altid har været halvt levende. Tjæren bobler og forsvinder, og lugten af sumpvand er pludselig væk."* |
-| Grøn | *"Den knækker midtover som et æggeskal. Indeni er der intet – kun et grønt lys der spreder sig og forsvinder som om det aldrig har eksisteret."* |
-| Rød | *"Den brænder op fra centrum og ud. Et øjeblik er den smuk, så er den aske, og asken er væk."* |
-| Blå | *"Den eksploderer. Lyn slår tilbage gennem alle fem dragehoved-åbninger på én gang, og templet ryster som et væsen der mister sit hjerte."* |
+| White | *"Den splintrer som tyndis. Frostskår spreder sig udad og bliver til damp. Severin gisper – det er ikke hans åndedrag, der er koldt nu."* |
+| Black | *"Den smelter. Ikke som metal – som noget der altid har været halvt levende. Tjæren bobler og forsvinder, og lugten af sumpvand er pludselig væk."* |
+| Green | *"Den knækker midtover som et æggeskal. Indeni er der intet – kun et grønt lys der spreder sig og forsvinder som om det aldrig har eksisteret."* |
+| Red | *"Den brænder op fra centrum og ud. Et øjeblik er den smuk, så er den aske, og asken er væk."* |
+| Blue | *"Den eksploderer. Lyn slår tilbage gennem alle fem dragehoved-åbninger på én gang, og templet ryster som et væsen der mister sit hjerte."* |
 
 ---
 
-### Option C – Bryd Ritual Circle
+### Option C – Break the Ritual Circle
 
-Det her er Axars scene. Det her er hvad han er trænet til hele sit liv – at se det usynlige værk og knytte det op.
+This is Axar's scene. This is what he has been trained for his entire life – to see the invisible workings and unpick them.
 
-**Axar kan forsøge dette:**
-- Counterspell + Dispel Magic i kombination (2 actions, kan gøres over 2 runder)
-- DC: 18 + antal intakte foci (max 23)
-- Kræver 2 koncentrerede runder uden afbrydelse
+**Axar can attempt this:**
+- Counterspell + Dispel Magic in combination (2 actions, can be done over 2 rounds)
+- DC: 18 + number of intact foci (max 23)
+- Requires 2 concentrated rounds without interruption
 
-**Beskriv det sådan ved bordet:**
+**Describe it at the table like this:**
 
 > Axar ser det. Linjen. Den løber fra portalen, gennem stenene, op gennem ritualkanalerne, ind i Severins ryg. Den lyser ikke i lyset – den lyser i hans hoved.
 >
@@ -349,25 +349,25 @@ Det her er Axars scene. Det her er hvad han er trænet til hele sit liv – at s
 >
 > Han trækker vejret ind. Og begynder at tale et sprog, han ikke har hørt nogen tale i live.
 
-**Daxx kan hjælpe:**
-- Bruger Volley eller multiattack til at holde Severin optaget runde 1
-- Giver Axar chance for at koncentrere sig
-- Beskrivelse: *"Daxx skifter form. Tre gange. Hver gang Severin vender sig efter ham, er han et andet sted, en anden krop, en anden stemme. Severin kan ikke nå Axar. Han kan ikke engang finde sig selv."*
+**Daxx can help:**
+- Uses Volley or multiattack to keep Severin occupied in round 1
+- Gives Axar the chance to concentrate
+- Description: *"Daxx skifter form. Tre gange. Hver gang Severin vender sig efter ham, er han et andet sted, en anden krop, en anden stemme. Severin kan ikke nå Axar. Han kan ikke engang finde sig selv."*
 
-**Twilight kan hjælpe:**
-- Bardic Inspiration til Axars Arcana check (+1d12)
-- Cutting Words mod Severins Legendary Action attacks
-- Beskrivelse: *"Hun synger. Ikke smukt. Ikke for nogen. Hun synger noget, ingen ved bordet kan oversætte – men Axar mærker det. Hendes stemme bliver til en hånd der holder hans koncentration oppe, mens templet falder fra hinanden omkring dem."*
+**Twilight can help:**
+- Bardic Inspiration on Axar's Arcana check (+1d12)
+- Cutting Words against Severin's Legendary Action attacks
+- Description: *"Hun synger. Ikke smukt. Ikke for nogen. Hun synger noget, ingen ved bordet kan oversætte – men Axar mærker det. Hendes stemme bliver til en hånd der holder hans koncentration oppe, mens templet falder fra hinanden omkring dem."*
 
-**Frygtløs kan hjælpe:**
-- Beskytter Axar fysisk i 2 runder – ingen attacks når Axar
-- Beskrivelse: *"Frygtløs står foran Axar. Han bevæger sig ikke. Severins Eldritch Blast rammer ham i brystet og driver ham et halvt skridt tilbage – og han bliver stående. Et hoved fra portalen forsøger at bide – og han slår det væk med en arm. Han siger ikke noget. Han skal ikke sige noget."*
+**Frygtløs can help:**
+- Physically protects Axar for 2 rounds – no attacks reach Axar
+- Description: *"Frygtløs står foran Axar. Han bevæger sig ikke. Severins Eldritch Blast rammer ham i brystet og driver ham et halvt skridt tilbage – og han bliver stående. Et hoved fra portalen forsøger at bide – og han slår det væk med en arm. Han siger ikke noget. Han skal ikke sige noget."*
 
-**Succes:** Portalen lukker brat med et lyd som en katedral der kollapser indefra. Severin mister alle immunities og legendary resistance. Han er nu CR 12 i praksis – og når gruppen ser på ham, er han bare en mand i for store kåber.
+**Success:** The portal snaps shut with a sound like a cathedral collapsing from within. Severin loses all immunities and legendary resistance. He is now effectively CR 12 – and when the group looks at him, he is just a man in oversized robes.
 
 ---
 
-## Templets kollaps
+## The Temple's Collapse
 
 > Maskerne slukner. Én efter én.
 >
@@ -399,29 +399,29 @@ Det her er Axars scene. Det her er hvad han er trænet til hele sit liv – at s
 >
 > Og så begynder templet at falde.
 
-### Flugt-clock: 15 runder
+### Escape Clock: 15 rounds
 
-Templet kollapser ikke vilkårligt. Det kollapser i takt med ritualet der dør. Hvert niveau har egne udfordringer, og hvert niveau har øjeblikke, som spillerne vil huske længe efter sessionen.
+The temple does not collapse randomly. It collapses in step with the dying ritual. Each level has its own challenges, and each level has moments the players will remember long after the session.
 
-**Niveau 3 → 2 (runde 1–3):**
-- Faldende sten: DC 14 DEX save eller 3d6 bludgeoning
-- Knoglebroerne begynder at krakelere (forced movement DC 13 STR save)
-- *Boxed text ved transition:* "*Hver dragehoved-åbning kollapser indad efter tur, som munde der lukkes for sidste gang.*"
+**Level 3 → 2 (rounds 1–3):**
+- Falling stone: DC 14 DEX save or 3d6 bludgeoning
+- The bone bridges begin to crack (forced movement DC 13 STR save)
+- *Boxed text at transition:* "*Hver dragehoved-åbning kollapser indad efter tur, som munde der lukkes for sidste gang.*"
 
-**Niveau 2 (runde 4–8):**
-- Deaktiverede foci eksploderer ét ad gangen: DC 15 DEX save, 4d8 (skift per foci farve)
-- Daxx: Ranger's Escape – han kan guide gruppen via hurtigste rute (bonus action)
-- *Vis dem ruinerne:* Mens de løber, kan de se kroppene af kultister, der allerede er blevet til figurer i en større skygge. De er ikke fjender mere. De er bare døde.
+**Level 2 (rounds 4–8):**
+- Deactivated foci explode one at a time: DC 15 DEX save, 4d8 (damage type shifts per foci color)
+- Daxx: Ranger's Escape – he can guide the group via the fastest route (bonus action)
+- *Show them the ruins:* As they run, they can see the bodies of cultists already transformed into figures in a larger shadow. They are not enemies anymore. They are just dead.
 
-**Niveau 1 → Ud (runde 9–15):**
-- Panikslagne kultister: de er i vejen, ikke fjender
-- Passagecheck: DC 12 Athletics eller Acrobatics for at komme igennem massen
-- Frygtløs: kan cleare en sti for gruppen (automatisk, 1 action – baner vej for alle andre)
-- *Den unge dreng Fen* (hvis han ikke fulgte The Procession ind): Han står stille i kaosset. Han ser på gruppen. Han forstår ikke, at de redder hans liv.
+**Level 1 → Out (rounds 9–15):**
+- Panicked cultists: they are in the way, not enemies
+- Passage check: DC 12 Athletics or Acrobatics to push through the crowd
+- Frygtløs: can clear a path for the group (automatic, 1 action – clears the way for everyone else)
+- *The young boy Fen* (if he did not follow The Procession inside): He stands still in the chaos. He looks at the group. He does not understand that they are saving his life.
 
-**Runde 15:** Templet styrter delvist sammen. Alle der stadig er inde: DC 16 DEX save, 8d10 bludgeoning. Halveret ved succes.
+**Round 15:** The temple partially collapses. Everyone still inside: DC 16 DEX save, 8d10 bludgeoning. Halved on success.
 
-**Når de træder ud:**
+**When they step out:**
 
 > I træder ud på askensletten. Bag jer kollapser templet ind i sig selv som et hjerte der stopper med at slå.
 >
@@ -439,11 +439,11 @@ Templet kollapser ikke vilkårligt. Det kollapser i takt med ritualet der dør. 
 
 ## Aftermath
 
-For fuld udarbejdelse af konsekvenser og efterspil, se [aftermath.md](aftermath.md).
+For full development of consequences and epilogue, see [aftermath.md](aftermath.md).
 
-**Kort version – tre udfald:**
+**Short version – three outcomes:**
 
-**Stor succes (clock 0–4 ved Severins fald):**
+**Major success (clock 0–4 at Severin's fall):**
 
 > Calderaen er stille. Ikke rolig – stille på den måde, der kommer efter noget meget stort er ophørt.
 >
@@ -455,7 +455,7 @@ For fuld udarbejdelse af konsekvenser og efterspil, se [aftermath.md](aftermath.
 >
 > Overraskelse. Lettelse. Tro.
 
-**Delvis succes (clock 5–7):**
+**Partial success (clock 5–7):**
 
 > Portalen lukker.
 >
@@ -469,15 +469,15 @@ For fuld udarbejdelse af konsekvenser og efterspil, se [aftermath.md](aftermath.
 
 **Failure forward (clock 8):**
 
-Tiamat manifesterer – kampagnen skifter til katastrofe-mode. Gruppen er stadig aktive; verden er ikke slut. Men Waterdeep brænder. Rådet er spredt. Og et nyt kapitel begynder.
+Tiamat manifests – the campaign shifts to catastrophe mode. The group remains active; the world is not over. But Waterdeep burns. The Council is scattered. And a new chapter begins.
 
-Se [aftermath.md](aftermath.md) for fuld narrative følgevirkninger, personlige scener for hver PC, og hvordan kampagnen kan fortsætte eller afsluttes.
+See [aftermath.md](aftermath.md) for full narrative consequences, personal scenes for each PC, and how the campaign can continue or conclude.
 
 ---
 
-## DM-noter
+## DM Notes
 
-- **Severin i dialog:** Lad ham tale. Men lad ham aldrig stoppe ritualet frivilligt – han er overbevist, ikke dum.
-- **Legendaries:** Brug dem defensivt (masker) og proaktivt (Ritual Surge). Summon Devout kun hvis gruppen slapper af.
-- **Frygtløs vs. Dominate Monster:** Dette er den sværeste moment i kampagnen for spillernes dynamik. Forbered dig på at spillerne vil forsøge alt muligt for at bryde effekten – det er rigtigt og godt. Lad det ske med konsekvenser.
-- **Twilights sociale øjeblik:** Uanset hvad, giv Twilight ét øjeblik i finalen der er hendes alene – et ord der rammer Severin, en performance der bringer en NPC til at tøve, eller en afsløring fra Insight der ændrer situationen.
+- **Severin in dialogue:** Let him talk. But never let him stop the ritual voluntarily – he is convinced, not stupid.
+- **Legendaries:** Use them defensively (masks) and proactively (Ritual Surge). Summon Devout only if the group relaxes.
+- **Frygtløs vs. Dominate Monster:** This is the most difficult moment in the campaign for the players' dynamic. Prepare for the players to try everything possible to break the effect – that is right and good. Let it happen with consequences.
+- **Twilight's social moment:** Regardless of what happens, give Twilight one moment in the finale that is hers alone – a word that lands on Severin, a performance that causes an NPC to hesitate, or an Insight revelation that shifts the situation.
