@@ -8,6 +8,21 @@ import json
 import re
 import sys
 
+# Dansk er kun tilladt i markerede Dialogue/Room Description-sektioner
+ALLOWED_DANISH_SECTION_MARKERS = ("dialogue", "room description")
+
+# Kræver flere danske signaler for at undgå falske positiver ved enkeltord
+DANISH_DETECTION_THRESHOLD = 3
+
+# Simpel heuristik til at spotte dansk tekst uden for tilladte sektioner
+# Bevidst uden de mest tvetydige korte ord (fx "for", "i", "en", "at")
+DANISH_SIGNAL_WORDS = {
+    "jeg", "du", "han", "hun", "det", "de", "vi", "jer", "mig",
+    "ikke", "og", "eller", "med", "som", "hvor", "hvordan", "hvad",
+    "skal", "kan", "vil", "så", "der", "her", "til", "på",
+    "fra", "være", "dansk", "rumbeskrivelse", "rum", "beskrivelse",
+}
+
 # 2014-terminologi der IKKE må bruges i 2024-kontekst
 # Format: (regex-mønster, forklaring, 2024-alternativ)
 OUTDATED_PATTERNS = [
@@ -91,6 +106,49 @@ def check_rules(text):
     return violations
 
 
+def strip_allowed_danish_sections(text):
+    lines = text.splitlines()
+    outside = []
+    in_allowed_section = False
+
+    for line in lines:
+        heading = re.match(r"^\s*#{1,6}\s+(.+?)\s*$", line)
+        if heading:
+            heading_text = heading.group(1).lower()
+            if any(marker in heading_text for marker in ALLOWED_DANISH_SECTION_MARKERS):
+                in_allowed_section = True
+            else:
+                in_allowed_section = False
+            outside.append(line)
+            continue
+
+        if not in_allowed_section:
+            outside.append(line)
+
+    return "\n".join(outside)
+
+
+def find_danish_signals(text):
+    words = re.findall(r"[a-zæøå][a-zæøå'_-]*", text.lower())
+    matches = {w for w in words if w in DANISH_SIGNAL_WORDS}
+    has_danish_chars = any(ch in text for ch in "æøåÆØÅ")
+    return matches, has_danish_chars
+
+
+def check_language_policy(text):
+    outside_allowed = strip_allowed_danish_sections(text)
+    paragraphs = re.split(r"\n\s*\n", outside_allowed)
+    for paragraph in paragraphs:
+        matches, has_danish_chars = find_danish_signals(paragraph)
+        signal_count = len(matches) + (1 if has_danish_chars else 0)
+        if signal_count >= DANISH_DETECTION_THRESHOLD:
+            return {
+                "words": sorted(matches),
+                "has_danish_chars": has_danish_chars,
+            }
+    return None
+
+
 def main():
     try:
         data = json.load(sys.stdin)
@@ -112,6 +170,16 @@ def main():
             print(f"    → {fix}", file=sys.stderr)
         print("", file=sys.stderr)
         print("Bekræft at outputtet bruger 2024-regler før du fortsætter.", file=sys.stderr)
+        sys.exit(2)
+
+    language_violations = check_language_policy(text)
+    if language_violations:
+        print("⚠️  Sprogpolicy-brud fundet.", file=sys.stderr)
+        print("Standard er engelsk; dansk er kun tilladt i markerede 'Dialogue' eller 'Room Description'-sektioner.", file=sys.stderr)
+        if language_violations["words"]:
+            print(f"Fundne danske signalord uden for tilladte sektioner: {', '.join(language_violations['words'])}", file=sys.stderr)
+        if language_violations["has_danish_chars"]:
+            print("Fundne danske specialtegn uden for tilladte sektioner: æ/ø/å", file=sys.stderr)
         sys.exit(2)
 
     sys.exit(0)

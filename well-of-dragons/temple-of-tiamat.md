@@ -45,6 +45,10 @@ I ran this section mostly as-is.
 
 Inside the Temple of Tiamat, the characters find **Severin** and his **Pseudodragon** Nelvik, **Rath Modar*** and his 8 Red Wizard **Mages**, and the (resurrected) Wyrmspeakers. I had Area 2 be where Tiamat’s portal is, and there’s no Red Wizard there. This way, Tiamat climbs out of the ground, instead of from a floating portal on Area 7.
 
+### Room Description – Temple Interior
+
+> *Templet åbner sig som et sår i klippen. Luften smager af aske, blod og røgelse. Midt i hallen pulserer ritualets lys i fem farver, som om selve stenene prøver at trække vejret. Severin står ved portalens rand med armene løftet, mens skyggerne fra dragehoveder glider hen over væggene. Hver lyd bliver slugt af rummet, og alt føles som det sidste øjeblik før noget uopretteligt sker.*
+
 > **Trailer**
 > Wizards of the Coast have an awesome trailer to set the mood.
 
@@ -112,15 +116,15 @@ Once combat starts, go by initiative order. The first five enemies in initiative
 
 If the characters successfully interrupt the ritual, Severin screams:
 
-> *Fools! The Dragon Queen will suffer because of this, and destroy you all!*
+> *Tåber! Dragedronningen vil lide under dette — og så vil hun knuse jer alle!*
 
 Rath Modar makes jokes and overall behaves as if this is just an inconvenient situation, such as:
 
-> *I seem to remember you cutting the head off of my best pupil. Oh well, he did lose his head often.*
+> *Jeg mener at huske, at I huggede hovedet af min bedste elev. Nå ja — han havde jo for vane at miste hovedet.*
 
 or:
 
-> *Oh my, mighty big swords right next to me, aren’t they? Let’s be careful now and point them the other way.*
+> *Nå da, nogle mægtigt store sværd lige ved siden af mig, hva’? Lad os være forsigtige og pege dem den anden vej.*
 
 ### Tiamat’s Emergence
 
