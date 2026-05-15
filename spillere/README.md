@@ -1,12 +1,12 @@
 # Tyranny of Dragons — Party
 
-Karakterark for partyet, level 15. Alle filer er D&D 2024 (PHB-2024).
+Character sheets for the party, level 15. All files use D&D 2024 (PHB-2024).
 
 -----
 
 ## Party Composition
 
-|Karakter                                   |Klasse                  |Race              |Background|Rolle                   |
+|Character                                  |Class                   |Race              |Background|Role                    |
 |-------------------------------------------|------------------------|------------------|----------|------------------------|
 |[Axar Runes](./axar_runes.md)              |Wizard 15 (Evoker)      |Dwarf             |Sage      |Arcane blaster + utility|
 |[Daxx Drake](./daxx_drake.md)              |Ranger 15 (Hunter)      |Changeling        |Soldier   |Ranged DPS + scout      |
@@ -17,11 +17,11 @@ Karakterark for partyet, level 15. Alle filer er D&D 2024 (PHB-2024).
 
 ## Combat Stats
 
-|Karakter|AC|HP |Initiative|Speed                  |Save DC |Spell Attack|
+|Character|AC|HP |Initiative|Speed                  |Save DC |Spell Attack|
 |--------|--|---|----------|-----------------------|--------|------------|
 |Axar    |11|122|+1        |30 ft                  |18 (INT)|+10         |
 |Daxx    |17|124|+5        |40 ft (walk/climb/swim)|15 (WIS)|+7          |
-|Frygtløs|18|200|+2        |45 ft + fly 30 ft      |—       |—           |
+|Frygtløs|18|200|+2        |45 ft + fly speed 30 ft|—       |—           |
 |Twilight|17|108|+8        |30 ft                  |18 (CHA)|+10         |
 
 **Party total HP:** 554
@@ -30,31 +30,31 @@ Karakterark for partyet, level 15. Alle filer er D&D 2024 (PHB-2024).
 
 ## Ability Scores
 
-|Karakter|STR   |DEX   |CON   |INT   |WIS|CHA   |
+|Character|STR   |DEX   |CON   |INT   |WIS|CHA   |
 |--------|------|------|------|------|---|------|
 |Axar    |8     |12    |16    |**20**|14 |10    |
 |Daxx    |9     |**20**|14    |12    |14 |10    |
 |Frygtløs|**23**|14    |**22**|8     |12 |10    |
 |Twilight|8     |16    |14    |12    |10 |**20**|
 
-Hver karakter er bygget omkring én primær ability — fed = primær. Tilsammen dækker partyet hele spektret af saves og checks.
+Each character is built around one primary ability — bold = primary. Together, the party covers the full range of saves and checks.
 
 -----
 
 ## Saving Throw Proficiencies
 
-|Karakter|Saves   |
+|Character|Saves   |
 |--------|--------|
 |Axar    |INT, WIS|
 |Daxx    |STR, DEX|
 |Frygtløs|STR, CON|
 |Twilight|DEX, CHA|
 
-Partyet dækker alle seks saves tilsammen.
+The party covers all six saves together.
 
 -----
 
-## Skill Coverage (Expertise / Høje stats)
+## Skill Coverage (Expertise / High stats)
 
 ### Axar
 
@@ -82,7 +82,7 @@ Partyet dækker alle seks saves tilsammen.
 
 ## Passive Senses
 
-|Karakter|Perception|Insight|Investigation|Darkvision|
+|Character|Perception|Insight|Investigation|Darkvision|
 |--------|----------|-------|-------------|----------|
 |Axar    |17        |17     |20           |180 ft    |
 |Daxx    |12        |22     |21           |60 ft     |
@@ -93,12 +93,12 @@ Partyet dækker alle seks saves tilsammen.
 
 ## Resistances & Immunities
 
-|Karakter|Defenser                                                        |
+|Character|Defenses                                                        |
 |--------|----------------------------------------------------------------|
-|Axar    |Resistance: Poison; Advantage mod Poisoned                      |
-|Daxx    |Resistance: Fire; Advantage mod dragon breath weapons           |
-|Frygtløs|Advantage på DEX saves; Immunity mod Charmed/Frightened (raging)|
-|Twilight|Resistance: Fire; Immunity: Magical Sleep; Advantage mod Charmed|
+|Axar    |Resistance: Poison; Advantage against Poisoned                  |
+|Daxx    |Resistance: Fire; Advantage against dragon breath weapons       |
+|Frygtløs|Advantage on DEX saves; Immunity against Charmed/Frightened (raging)|
+|Twilight|Resistance: Fire; Immunity: Magical Sleep; Advantage against Charmed|
 
 -----
 
@@ -106,7 +106,7 @@ Partyet dækker alle seks saves tilsammen.
 
 ### Axar (Wizard)
 
-- **Dragon-Touched Focus (Wakened)** — extra spells inkl. Fizban’s Platinum Shield
+- **Dragon-Touched Focus (Wakened)** — extra spells incl. Fizban’s Platinum Shield
 - **Hat of Many Spells**
 - **Rod of Alertness**
 - Boots of Elvenkind, Goggles of Night, Handy Haversack
@@ -122,18 +122,18 @@ Partyet dækker alle seks saves tilsammen.
 
 ### Frygtløs (Barbarian)
 
-- **Belt of Frost Giant Strength** — attuned (sætter STR 23)
+- **Belt of Frost Giant Strength** — attuned (sets STR to 23)
 - **Vorpal Greatsword** — attuned
-- **Winged Boots** — attuned (fly 30 ft)
+- **Winged Boots** — attuned (fly speed 30 ft)
 - Flame Tongue Greatsword, Crystal Greatsword, Bloodrage Greataxe
 - **Helm of Brilliance, Manual of Bodily Health**
-- Ring of Protection, Belt of Hill Giant Strength (i lager)
+- Ring of Protection, Belt of Hill Giant Strength (in storage)
 
 ### Twilight (Bard)
 
 - **Cloak of Displacement** — attuned
 - **Shard of the Ise Rune (boots)** — attuned (Sleet Storm)
-- **Anstruth Harp** — attuned (mange ekstra spells)
+- **Anstruth Harp** — attuned (many extra spells)
 - Studded Leather +2, Rapier +3 (true strike)
 - Ring of Protection, Gloves of Thievery
 - Wand of Magic Missiles, Wand of Magic Detection, Robe of Useful Items
@@ -142,56 +142,56 @@ Partyet dækker alle seks saves tilsammen.
 
 ## Spellcasters Overview
 
-|Karakter|Klasse|Ability|DC|Slots (1/2/3/4/5/6/7/8)|
+|Character|Class|Ability|DC|Slots (1/2/3/4/5/6/7/8)|
 |--------|------|-------|--|-----------------------|
 |Axar    |Wizard|INT    |18|4/3/3/3/2/1/1/1        |
 |Daxx    |Ranger|WIS    |15|4/3/3/2/—/—/—/—        |
 |Twilight|Bard  |CHA    |18|4/3/3/3/2/1/1/1        |
 
-Axar og Twilight dækker både offensive og defensive caster-roller. Daxx er primært martial med support-spells.
+Axar and Twilight cover both offensive and defensive caster roles. Daxx is primarily martial with support spells.
 
 -----
 
 ## Languages
 
-|Karakter|Sprog                                           |
+|Character|Languages                                       |
 |--------|------------------------------------------------|
 |Axar    |Common, Draconic, Dwarvish, Giant               |
 |Daxx    |Common, Draconic, Druidic, Dwarvish, Elvish, Orc|
 |Frygtløs|Common, Draconic, Dwarvish, Giant               |
 |Twilight|Common, Elvish                                  |
 
-Alle fire kan tale Common, og tre ud af fire taler Draconic — passende for et Tyranny of Dragons-party.
+All four can speak Common, and three out of four speak Draconic — fitting for a Tyranny of Dragons party.
 
 -----
 
 ## Shared Allies & Organizations
 
-Karakterer der deler kontakter med andre i partyet:
+Characters who share contacts with others in the party:
 
 - **Harpers** — Axar, Daxx (Harper Pin), Twilight (Harper Pin rank 4)
-- **Order of the Gauntlet** — Daxx (Ontharr Frume), Frygtløs (Pendant)
+- **Order of the Gauntlet** — Daxx (Ontharr Frume), Frygtløs (pendant)
 - **Emerald Enclave** — Daxx (Delaan Winterhound)
 - **Zhentarim** — Daxx (Rian Nightshade)
-- **Lords’ Alliance** — Daxx (Laeral Silverhand, Dagult Neverember, m.fl.)
+- **Lords’ Alliance** — Daxx (Laeral Silverhand, Dagult Neverember, and others)
 
 -----
 
-## Drage-quest Status (fra noterne)
+## Dragon-quest Status (from the notes)
 
-Drage-kontakter nævnt på tværs af karakterer:
+Dragon contacts mentioned across characters:
 
-|Drage           |Type   |Status                                               |
+|Dragon          |Type   |Status                                               |
 |----------------|-------|-----------------------------------------------------|
-|Protanther      |Guld   |Dracorage mythal (Elver) — OK                        |
-|Ileuthra        |Messing|Dragemasker — OK                                     |
-|Otaaryliakkarnos|Sølv   |Undskyldning fra dværge + returnering af knogler — OK|
-|Tazmikella      |Kobber |Returnér magisk genstand (Dragon Wing Longbow)       |
-|Nymmurh         |Bronze |(Ufuldført)                                          |
+|Protanther      |Gold   |Dracorage mythal (elves) — OK                        |
+|Ileuthra        |Brass  |Dragon masks — OK                                    |
+|Otaaryliakkarnos|Silver |Apology from dwarves + return of bones — OK          |
+|Tazmikella      |Copper |Return magic item (Dragon Wing Longbow)              |
+|Nymmurh         |Bronze |(Incomplete)                                         |
 
 -----
 
-## Filer
+## Files
 
 - [`axar_runes.md`](./axar_runes.md)
 - [`daxx_drake.md`](./daxx_drake.md)
