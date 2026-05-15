@@ -97,7 +97,7 @@ The party covers all six saves together.
 |--------|----------------------------------------------------------------|
 |Axar    |Resistance: Poison; Advantage against Poisoned                  |
 |Daxx    |Resistance: Fire; Advantage against dragon breath weapons       |
-|Frygtløs|Advantage on DEX saves; Immunity: Charmed/Frightened (while raging)|
+|Frygtløs|Advantage on DEX saves; Immunity to Charmed and Frightened (while raging)|
 |Twilight|Resistance: Fire; Immunity: Magical Sleep; Advantage against Charmed|
 
 -----
@@ -106,7 +106,7 @@ The party covers all six saves together.
 
 ### Axar (Wizard)
 
-- **Dragon-Touched Focus (Wakened)** — extra spells incl. Fizban’s Platinum Shield
+- **Dragon-Touched Focus (Wakened)** — extra spells including Fizban’s Platinum Shield
 - **Hat of Many Spells**
 - **Rod of Alertness**
 - Boots of Elvenkind, Goggles of Night, Handy Haversack
