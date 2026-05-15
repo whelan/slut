@@ -42,14 +42,16 @@ Assistenten agerer som:
 
 ## Aktiv gruppe
 
-| Karakter | Race/Class | HP | AC | Rolle |
+| Karakter | Race/Class | Max HP | AC | Rolle |
 |---|---|---|---|---|
-| **Axar Runes** | Dwarf Wizard (Evoker) ~14 | 65/114 | 11 | Strategisk caster, arcane ekspert |
-| **Daxx Drake** | Changeling Ranger (Hunter) ~13 | 108/108 | 16 | Scout, tracker, infiltration |
-| **Frygtløs** | Goliath Barbarian (Berserker) ~14 | 187/187 | 18 | Frontline juggernaut |
-| **Twilight Ventress** | Elf Bard (Lore) ~13 | 34/94 | 17 | Social controller, bardic support |
+| **Axar Runes** | Dwarf Wizard (Evoker) ~14 | 114 | 11 | Strategisk caster, arcane ekspert |
+| **Daxx Drake** | Changeling Ranger (Hunter) ~13 | 108 | 16 | Scout, tracker, infiltration |
+| **Frygtløs** | Goliath Barbarian (Berserker) ~14 | 187 | 18 | Frontline juggernaut |
+| **Twilight Ventress** | Elf Bard (Lore) ~13 | 94 | 17 | Social controller, bardic support |
 
 **Eldrin Yllasys er ikke aktiv.** Brug ham ikke som partymember.
+
+> **Aktuel HP/ressource-status:** Tjek `tyranny-of-dragons-kampagne.md` – tabellen her viser kun max HP.
 
 ---
 
@@ -76,10 +78,11 @@ npcs/
 session-prep/
   checkliste.md                  ← Pre-session DM-checkliste (ritual clock, foci-status, NPC-prep)
 temple-of-tiamat/
+  README.md                      ← Overblik og navigation for hele templet
   niveau-1-the-maw.md            ← Ydre tempelgrund, encounters, ~25 min
   niveau-2-the-fivefold-sanctum.md ← Fem chromatic foci, sabotage
   niveau-3-the-crown.md          ← Severin, masker, Tiamat, final countdown
-  ritual-clock.md
+  ritual-clock.md                ← Komplet clock-mekanik med tabel og narration
   tiamat-manifestation.md
   battlemap-prompts.md
   epic-character-moments.md
@@ -173,4 +176,4 @@ Dark fantasy dragon cult [rank], [rank-specific description], ornate armor with 
 
 ## Hooks
 
-`.claude/settings.json` konfigurerer en **Stop-hook**: `python3 .claude/hooks/rules-check.py` kører automatisk efter hver session. Den tjekker at output overholder regler/stil. Hvis den fejler, undersøg scriptet frem for at omgå det.
+`.claude/settings.json` konfigurerer en **Stop-hook**: `python3 .claude/hooks/rules-check.py` kører automatisk efter hver session. Den scanner det seneste assistant-output for 2014-terminologi der er forkert i 2024-kontekst, herunder: `ki points` (→ Focus Points), `use an object` action (→ Utilize), `exhaustion … disadvantage on ability checks` (→ –1 per niveau til D20 Tests), `true strike … advantage on next attack` (→ Action-cantrip), `guidance … reaction/bonus action` (→ Action), `healing word … 1d4` (→ 2d4+mod). Hooken returnerer exit code 2 og en besked til stderr ved fund. Hvis den fejler, undersøg scriptet frem for at omgå det.
