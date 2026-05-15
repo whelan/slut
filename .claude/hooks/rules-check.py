@@ -15,11 +15,12 @@ ALLOWED_DANISH_SECTION_MARKERS = ("dialogue", "room description")
 DANISH_DETECTION_THRESHOLD = 3
 
 # Simpel heuristik til at spotte dansk tekst uden for tilladte sektioner
+# Bevidst uden de mest tvetydige korte ord (fx "for", "i", "en", "at")
 DANISH_SIGNAL_WORDS = {
-    "jeg", "du", "han", "hun", "den", "det", "de", "vi", "jer", "mig",
-    "ikke", "og", "eller", "med", "for", "som", "hvor", "hvordan", "hvad",
-    "skal", "kan", "vil", "så", "der", "her", "af", "til", "på", "i", "en",
-    "et", "at", "fra", "være", "dansk", "rumbeskrivelse", "rum", "beskrivelse",
+    "jeg", "du", "han", "hun", "det", "de", "vi", "jer", "mig",
+    "ikke", "og", "eller", "med", "som", "hvor", "hvordan", "hvad",
+    "skal", "kan", "vil", "så", "der", "her", "til", "på",
+    "fra", "være", "dansk", "rumbeskrivelse", "rum", "beskrivelse",
 }
 
 # 2014-terminologi der IKKE må bruges i 2024-kontekst
@@ -111,7 +112,7 @@ def strip_allowed_danish_sections(text):
     in_allowed_section = False
 
     for line in lines:
-        heading = re.match(r"^\s{0,3}#{1,6}\s+(.+?)\s*$", line)
+        heading = re.match(r"^\s*#{1,6}\s+(.+?)\s*$", line)
         if heading:
             heading_text = heading.group(1).lower()
             in_allowed_section = any(marker in heading_text for marker in ALLOWED_DANISH_SECTION_MARKERS)
@@ -125,7 +126,7 @@ def strip_allowed_danish_sections(text):
 
 
 def find_danish_signals(text):
-    words = re.findall(r"[a-zA-ZæøåÆØÅ]+", text.lower())
+    words = re.findall(r"[a-zA-ZæøåÆØÅ][a-zA-ZæøåÆØÅ'_-]*", text.lower())
     matches = {w for w in words if w in DANISH_SIGNAL_WORDS}
     if any(ch in text for ch in "æøåÆØÅ"):
         matches.add("[danish-characters-detected]")
