@@ -97,7 +97,7 @@ The party covers all six saves together.
 |--------|----------------------------------------------------------------|
 |Axar    |Resistance: Poison; Advantage against Poisoned                  |
 |Daxx    |Resistance: Fire; Advantage against dragon breath weapons       |
-|Frygtløs|Advantage on DEX saves; Immunity to Charmed and Frightened (while raging)|
+|Frygtløs|Advantage on DEX saves; Immunity: Charmed and Frightened (while raging)|
 |Twilight|Resistance: Fire; Immunity: Magical Sleep; Advantage against Charmed|
 
 -----
@@ -186,7 +186,7 @@ Dragon contacts mentioned across characters:
 |Protanther      |Gold   |Dracorage mythal (elves) — OK                        |
 |Ileuthra        |Brass  |Dragon masks — OK                                    |
 |Otaaryliakkarnos|Silver |Apology from dwarves + return of bones — OK          |
-|Tazmikella      |Copper |Return magic item (Dragon Wing Longbow)              |
+|Tazmikella      |Copper |Return magic item (Dragon Wing Longbow) — Pending    |
 |Nymmurh         |Bronze |(Incomplete)                                         |
 
 -----
