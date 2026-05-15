@@ -97,7 +97,7 @@ The party covers all six saves together.
 |--------|----------------------------------------------------------------|
 |Axar    |Resistance: Poison; Advantage against Poisoned                  |
 |Daxx    |Resistance: Fire; Advantage against dragon breath weapons       |
-|Frygtløs|Advantage on DEX saves; Immunity: Charmed, Frightened (while raging)|
+|Frygtløs|Advantage on DEX saves; Immunity: Charmed/Frightened (while raging)|
 |Twilight|Resistance: Fire; Immunity: Magical Sleep; Advantage against Charmed|
 
 -----
@@ -170,7 +170,7 @@ All four can speak Common, and three out of four speak Draconic — fitting for 
 Characters who share contacts with others in the party:
 
 - **Harpers** — Axar, Daxx (Harper Pin), Twilight (Harper Pin rank 4)
-- **Order of the Gauntlet** — Daxx (Ontharr Frume), Frygtløs (pendant)
+- **Order of the Gauntlet** — Daxx (Ontharr Frume), Frygtløs (Pendant)
 - **Emerald Enclave** — Daxx (Delaan Winterhound)
 - **Zhentarim** — Daxx (Rian Nightshade)
 - **Lords’ Alliance** — Daxx (Laeral Silverhand, Dagult Neverember, and others)
