@@ -115,7 +115,10 @@ def strip_allowed_danish_sections(text):
         heading = re.match(r"^\s*#{1,6}\s+(.+?)\s*$", line)
         if heading:
             heading_text = heading.group(1).lower()
-            in_allowed_section = any(marker in heading_text for marker in ALLOWED_DANISH_SECTION_MARKERS)
+            if any(marker in heading_text for marker in ALLOWED_DANISH_SECTION_MARKERS):
+                in_allowed_section = True
+            else:
+                in_allowed_section = False
             outside.append(line)
             continue
 
@@ -126,19 +129,24 @@ def strip_allowed_danish_sections(text):
 
 
 def find_danish_signals(text):
-    words = re.findall(r"[a-zA-ZæøåÆØÅ][a-zA-ZæøåÆØÅ'_-]*", text.lower())
+    words = re.findall(r"[a-zæøå][a-zæøå'_-]*", text.lower())
     matches = {w for w in words if w in DANISH_SIGNAL_WORDS}
-    if any(ch in text for ch in "æøåÆØÅ"):
-        matches.add("[danish-characters-detected]")
-    return matches
+    has_danish_chars = any(ch in text for ch in "æøåÆØÅ")
+    return matches, has_danish_chars
 
 
 def check_language_policy(text):
     outside_allowed = strip_allowed_danish_sections(text)
-    danish_signals = find_danish_signals(outside_allowed)
-    if len(danish_signals) >= DANISH_DETECTION_THRESHOLD:
-        return sorted(danish_signals)
-    return []
+    paragraphs = re.split(r"\n\s*\n", outside_allowed)
+    for paragraph in paragraphs:
+        matches, has_danish_chars = find_danish_signals(paragraph)
+        signal_count = len(matches) + (1 if has_danish_chars else 0)
+        if signal_count >= DANISH_DETECTION_THRESHOLD:
+            return {
+                "words": sorted(matches),
+                "has_danish_chars": has_danish_chars,
+            }
+    return None
 
 
 def main():
@@ -168,7 +176,10 @@ def main():
     if language_violations:
         print("⚠️  Sprogpolicy-brud fundet.", file=sys.stderr)
         print("Standard er engelsk; dansk er kun tilladt i markerede 'Dialogue' eller 'Room Description'-sektioner.", file=sys.stderr)
-        print(f"Fundne danske signaler uden for tilladte sektioner: {', '.join(language_violations)}", file=sys.stderr)
+        if language_violations["words"]:
+            print(f"Fundne danske signalord uden for tilladte sektioner: {', '.join(language_violations['words'])}", file=sys.stderr)
+        if language_violations["has_danish_chars"]:
+            print("Fundne danske specialtegn uden for tilladte sektioner: æ/ø/å", file=sys.stderr)
         sys.exit(2)
 
     sys.exit(0)
