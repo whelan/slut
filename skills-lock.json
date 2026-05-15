@@ -1,11 +1,12 @@
 {
   "version": 1,
   "skills": {
-    "dnd5e-srd": {
-      "source": "microck/ordinary-claude-skills",
-      "sourceType": "github",
-      "skillPath": "skills_all/dnd5e-srd/SKILL.md",
-      "computedHash": "4dfcd658aad31fae6e842e7fc0749d32f45636dab61d1faa26737c915953105d"
+    "dnd5e-2024-srd": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/dnd5e-2024-srd/SKILL.md",
+      "upstream": "downfallx/dnd-5e-srd-markdown",
+      "license": "CC-BY-4.0"
     },
     "dndtale": {
       "source": "mickume/dndtale",
