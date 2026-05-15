@@ -11,10 +11,50 @@ of provisioning a Gemini billing account.
 cd tools/dndig-openai
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-export OPENAI_API_KEY="sk-..."
 ```
 
 Your OpenAI organization must be **verified** to call `gpt-image-1`.
+
+## Storing your API key
+
+Pick **one** of these — never paste the key into chat, code, commit messages, or
+shell history that gets shared.
+
+### Option A — repo-local `.env` file (recommended for local dev)
+
+From the repository root:
+
+```bash
+cp .env.example .env
+$EDITOR .env          # paste your real key here
+set -a; source .env; set +a   # load into the current shell
+```
+
+`.env` is gitignored, so the key never reaches GitHub.
+
+### Option B — shell profile
+
+Add to `~/.zshrc` or `~/.bashrc`:
+
+```bash
+export OPENAI_API_KEY="sk-..."
+```
+
+Reload the shell. The key stays on your machine.
+
+### Option C — Claude Code on the web
+
+Open the environment's settings in the Claude Code web UI and add
+`OPENAI_API_KEY` as an environment variable. It is injected into every session
+automatically and never appears in chat transcripts.
+
+### Option D — pass per invocation
+
+```bash
+python3 dndig_openai.py prompt.md --api-key "sk-..."
+```
+
+Discouraged: the key lands in shell history.
 
 ## Usage
 
