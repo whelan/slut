@@ -123,7 +123,7 @@ Use to create new D&D content: campaigns, encounters, NPCs, locations, and sessi
 - `workflows/` – step-by-step for campaign creation and iteration
 - `checklists/` – quality check and consistency check
 
-**dndig** is an associated image generation tool (`.agents/skills/dndtale/modules/dndig-reference.md`) for battlemap artwork and token images from prompt files in `art/` folders.
+**dndig** is the documented format for image generation prompt files (`.agents/skills/dndtale/modules/dndig-reference.md`). The working implementation in this repo is **`dndig-openai`** (`tools/dndig-openai/`) — an OpenAI-backed port that reads the same Markdown + YAML-frontmatter prompts as Gemini's `dndig` but calls `gpt-image-1`. Run with `python3 tools/dndig-openai/dndig_openai.py <prompt.md> -o art/ -v`. Requires `OPENAI_API_KEY`. Known differences: `temperature` is ignored, aspect ratios snap to one of three sizes, output capped at 1536px.
 
 ### dnd5e-2024-srd (local SRD 5.2, CC-BY-4.0)
 

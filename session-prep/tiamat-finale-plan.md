@@ -641,31 +641,41 @@ Output:
 
 These two prompts use dndtale's tooling layer — image generation and quality assurance — rather than producing new narrative content.
 
-### Prompt 13 – Finale art prompts for dndig
+### Prompt 13 – Finale art prompts for dndig-openai
 
-**Purpose:** Generate session-day artwork for the finale using `dndig` (`modules/dndig-reference.md`). The existing `temple-of-tiamat/battlemap-prompts.md` covers maps. This prompt fills the gaps: portraits, tokens, and cinematic scenes.
+**Purpose:** Generate session-day artwork for the finale using **`dndig-openai`** (`tools/dndig-openai/`) — the working OpenAI-backed port of dndig. The existing `temple-of-tiamat/battlemap-prompts.md` covers maps. This prompt fills the gaps: portraits, tokens, and cinematic scenes.
 
-**Use when:** Before the finale session. Allow ~30 minutes for art generation. Requires `GEMINI_API_KEY` environment variable.
+**Use when:** Before the finale session. Allow ~30 minutes for art generation. Requires `OPENAI_API_KEY` (see `tools/dndig-openai/README.md` for the four storage options; `.env` at repo root is gitignored).
 
-**dndtale resources:** `modules/dndig-reference.md` (YAML frontmatter, aspect ratios, resolutions, batch sizes, references), `modules/creative-voice.md` (vivid description for prompt bodies).
+**dndtale resources:** `modules/dndig-reference.md` (YAML frontmatter spec — same format as `dndig-openai`), `modules/creative-voice.md` (vivid description for prompt bodies), `tools/dndig-openai/README.md` (CLI flags + known differences vs Gemini `dndig`).
+
+**Known constraints with `dndig-openai`:**
+- `temperature` is **ignored** (gpt-image-1 has no temperature knob — leave it in YAML or omit; a warning is logged)
+- Output capped at **1536px** — 2K/4K in YAML maps to `quality: high` but max pixel size is 1536
+- Aspect ratios snap to 3 sizes: `1:1/4:5/5:4` → 1024×1024, `3:2/4:3/16:9/21:9` → 1536×1024, `2:3/3:4/9:16` → 1024×1536
+- `batch` parameter sent as `n` (1–10)
+- `references` use the `images.edit` endpoint — may behave more like an edit than fresh composition
 
 ```
-Produce dndig-ready prompt files (Markdown with YAML frontmatter) for
-the following finale assets. Place outputs in art/finale/.
+Produce dndig-openai-ready prompt files (Markdown with YAML frontmatter)
+for the following finale assets. Place outputs in art/finale/.
 
-Portraits / tokens:
-- Galvan (Blue Abishai, resurrected wyrmspeaker) — token, 1:1, 1K,
-  temperature 0.6
-- Rezmir (Black Abishai, resurrected wyrmspeaker) — token, 1:1, 1K,
-  temperature 0.6 [SKIP if the party never killed her]
-- Neronvain (Green Abishai, resurrected wyrmspeaker) — token, 1:1, 1K,
-  temperature 0.6 [SKIP if the party never killed him]
-- Rath Modar — token + portrait, 2:3, 2K, temperature 0.7
+Use the same frontmatter format as art/axar-runes-portrait.md.
+Reference art/campaign-style.md as the shared `instructions` file for
+visual consistency across the finale set.
+
+Portraits / tokens (aspect_ratio: 2:3 for portrait, 1:1 for token):
+- Galvan (Blue Abishai, resurrected wyrmspeaker) — token, 1:1, 1K
+- Rezmir (Black Abishai, resurrected wyrmspeaker) — token, 1:1, 1K
+  [SKIP if the party never killed her]
+- Neronvain (Green Abishai, resurrected wyrmspeaker) — token, 1:1, 1K
+  [SKIP if the party never killed him]
+- Rath Modar — portrait, 2:3, 2K
 - Pseudodragon "Nelvik" (Severin's familiar) — token, 1:1, 1K
 
 Cinematic scenes:
-- The Caldera, first view — 16:9, 2K, temperature 0.8, dawn light,
-  dragons circling, five-colored ritual energy from temple
+- The Caldera, first view — 16:9, 2K, dawn light, dragons circling,
+  five-colored ritual energy from temple
 - The Last Staircase — 3:4 vertical, 2K, ash drifting, Severin's back
   silhouetted at the top
 - Tiamat's eye opening in the sky — 16:9, 2K, surrealist composition,
@@ -679,7 +689,10 @@ Cinematic scenes:
 
 For each prompt file:
 - batch: 2 (let DM pick the better generation)
-- references: list any existing campaign art if available in repo
+- instructions: campaign-style.md
+- references: list any existing campaign art if available
+- Omit `temperature` (silently ignored by dndig-openai) — or leave it
+  in if you want the YAML to round-trip with Gemini dndig later
 - Body: 4–6 sentences of vivid description (apply creative-voice.md:
   lead with atmosphere, three senses, present tense). Draw on the
   existing Danish boxed text from temple-of-tiamat/ files for
@@ -687,7 +700,14 @@ For each prompt file:
 - For battlemap-derived scenes, lift the topdown/no-grid/no-text
   restrictions — these are cinematics, not maps.
 
-Run with: dndig art/finale/<file>.md --verbose
+Run with:
+  python3 tools/dndig-openai/dndig_openai.py art/finale/<file>.md -o art/finale/ -v
+
+Or batch:
+  python3 tools/dndig-openai/dndig_openai.py art/finale/*.md -o art/finale/ -w 4 -v
+
+Validate first without spending tokens:
+  python3 tools/dndig-openai/dndig_openai.py art/finale/*.md --dry-run
 ```
 
 **Expected output:** 8–11 prompt files (depending on which wyrmspeakers the party killed) ready to drop into `art/finale/`.
@@ -746,7 +766,7 @@ once to verify.
 1. **Lock canonical state.** Fill in the "Open questions" checkboxes above. Calculate starting ritual clock.
 2. **Decide approach.** Talk to the party out-of-character (or let them decide in-character at Council of Waterdeep). Lock the approach before prep.
 3. **Run prompts in pre-session prep.** Order: 1 → 2 → 3 (or 4) → 5 → 6 → 7 → 8 → 9 → 10. Bridge prompts 11–12 if you want the Reloaded layer and the epilogue arcs.
-4. **Generate art with Prompt 13.** Run `dndig` against the output files. Print or display at the table.
+4. **Generate art with Prompt 13.** Run `dndig-openai` against the output files (`python3 tools/dndig-openai/dndig_openai.py art/finale/*.md -o art/finale/ -v`). Print or display at the table.
 5. **Run Prompt 14 (quality + consistency pass)** before the session. Fix hard inconsistencies, note soft issues, ignore confirmed strengths.
 6. **Bring outputs to the table.** Print boxed texts. Have the clock cheat-sheet visible. Have Severin's pre-combat updated line ready.
 7. **After the session: edit this file.** Note what actually happened — becomes canonical state for the next session. Re-run `checklists/consistency-checklist.md` mentally as you write.
@@ -794,7 +814,7 @@ This plan is built on top of the `dndtale` skill (`.agents/skills/dndtale/`). Ev
 | `modules/formatting-conventions.md` | Markdown structure for all outputs — read-aloud blocks, DM notes, stat blocks, cross-references. |
 | `modules/literary-adaptation.md` | Bridge prompts (11) for adapting Reloaded + raw WotC material into the homebrew rework. Scaffolding not cage. |
 | `modules/campaign-types.md` | Prompt 12 — when picking a follow-on campaign type (Linear / Sandbox / Event-Based / Setting-Based). |
-| `modules/dndig-reference.md` | Prompt 13 — image prompts for finale art. |
+| `modules/dndig-reference.md` | Prompt 13 — image prompt FORMAT spec. Working implementation is `tools/dndig-openai/` (OpenAI-backed; same YAML frontmatter, three known constraints). |
 | `templates/npcs.md` | New NPC entries (Rath Modar, Galvan-as-resurrected-Galvan with full lore). |
 | `templates/locations.md` | If you expand any temple level into its own location file post-session. |
 | `templates/chapter-template.md` | If you split the finale session into its own chapter file for the campaign record. |
@@ -812,7 +832,7 @@ When you run a prompt, the assistant should automatically pull from the dndtale 
 
 For art:
 
-> Kør prompt 13. Læg prompt-filerne i `art/finale/` og brug `temple-of-tiamat/battlemap-prompts.md` som style reference for visuel konsistens med eksisterende kort.
+> Kør prompt 13. Læg prompt-filerne i `art/finale/`, brug `art/campaign-style.md` som `instructions`-fil og `temple-of-tiamat/battlemap-prompts.md` som style reference for visuel konsistens med eksisterende kort. Generér derefter med `python3 tools/dndig-openai/dndig_openai.py art/finale/*.md -o art/finale/ -v` (eller `--dry-run` først for at validere uden at bruge tokens).
 
 For quality:
 
