@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+artwork/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+credentials.json
