@@ -93,17 +93,42 @@ well-of-dragons/
 
 ---
 
-## Installeret skill: dndtale
+## Installerede skills
 
-Repositoriet har en installeret `dndtale` skill fra `mickume/dndtale` (se `.agents/skills/dndtale/`). Brug den til at oprette nyt D&D-indhold: kampagner, encounters, NPCs, lokationer og session-materiale.
+### dndtale (`mickume/dndtale`)
 
-Skill'en indeholder:
+Brug til at oprette nyt D&D-indhold: kampagner, encounters, NPCs, lokationer og session-materiale. Se `.agents/skills/dndtale/`.
+
 - `templates/` – skabeloner til campaign overview, chapters, NPCs, locations, factions, timeline
 - `modules/` – vejledning i creative voice, encounter design, session pacing, world-building, literary adaptation, formatting
 - `workflows/` – trin-for-trin for kampagneoprettelse og iteration
 - `checklists/` – quality check og consistency check
 
-**dndig** er et tilknyttet image generation-værktøj (dokumenteret i `.agents/skills/dndtale/modules/dndig-reference.md`) til at generere battlemap-artwork og token-billeder fra prompt-filer i `art/`-mapper.
+**dndig** er et tilknyttet image generation-værktøj (`.agents/skills/dndtale/modules/dndig-reference.md`) til battlemap-artwork og token-billeder fra prompt-filer i `art/`-mapper.
+
+### dnd5e-2024-srd (lokal SRD 5.2, CC-BY-4.0)
+
+Brug til regelopslag og verifikation mod 2024-reglerne. Se `.agents/skills/dnd5e-2024-srd/`.
+
+**Hurtig grep-søgning:**
+```bash
+# Spell
+grep -n "^## Fireball" .agents/skills/dnd5e-2024-srd/references/spells.md
+
+# Condition
+grep -n -A 20 "^### Grappled" .agents/skills/dnd5e-2024-srd/references/rules-glossary.md
+
+# Monster statblock
+grep -n "^## Dragon, Adult Red" .agents/skills/dnd5e-2024-srd/references/monsters-A-Z.md
+```
+
+**Python-søgeværktøj (på tværs af alle filer):**
+```bash
+python3 .agents/skills/dnd5e-2024-srd/scripts/search.py "Legendary Resistance" --context 30
+python3 .agents/skills/dnd5e-2024-srd/scripts/search.py "Fireball" --file spells.md
+```
+
+Angiv altid kilde ved regelopslag: `[dnd5e-2024-srd/references/spells.md – Fireball]`
 
 ---
 
@@ -143,3 +168,9 @@ Skill'en indeholder:
 ```
 Dark fantasy dragon cult [rank], [rank-specific description], ornate armor with dragon motifs, cinematic gothic lighting, ultra detailed, full body, transparent background, high contrast silhouette, no text, no watermark
 ```
+
+---
+
+## Hooks
+
+`.claude/settings.json` konfigurerer en **Stop-hook**: `python3 .claude/hooks/rules-check.py` kører automatisk efter hver session. Den tjekker at output overholder regler/stil. Hvis den fejler, undersøg scriptet frem for at omgå det.
