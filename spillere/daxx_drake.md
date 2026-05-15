@@ -14,7 +14,7 @@
 |**Age**      |25          |
 |**Size**     |Medium      |
 |**Height**   |180 cm      |
-|**Weight**   |77          |
+|**Weight**   |77 kg       |
 |**Skin**     |Grå         |
 |**Eyes**     |Sort        |
 |**Hair**     |Hvid        |
@@ -50,7 +50,7 @@
 
 ### Defenser
 
-- **Resistance:** Fire*
+- **Resistance:** Fire (Dragon Scale Mail)
 - **Advantage** mod breath weapons of Dragons
 
 -----
@@ -106,7 +106,7 @@
 
 ### Standard Actions
 
-Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Interact with an Object, Study, Influence
+Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Study, Influence
 
 **Temporary Hit Points (2 / Long Rest).** Som Magic action: 1d8+2 Temp HP til dig selv.
 
@@ -216,7 +216,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 ### Yderligere udstyr
 
 - Small Book
-- 5 Bottels of fine spirit’s (spiritus)
+- 5 Bottles of fine spirits (spiritus)
 - Quarterstaff
 - Rations (1 day) ×13 + ×10 + ×10
 - Arrows ×60 + ×20

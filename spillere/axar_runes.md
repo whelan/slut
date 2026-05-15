@@ -106,7 +106,7 @@
 
 ### Standard Actions
 
-Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Interact with an Object, Study, Influence
+Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Study, Influence
 
 ### Bonus Actions
 
@@ -208,7 +208,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Spell Scroll (Level 3)
 - Ring from the Hold
 - Silver Mask
-- Garland Maigc Pro
+- Garland Magic Pro
 - Tome of Dragon Lore
 - Book
 - Papir note forræderi

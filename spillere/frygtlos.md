@@ -105,7 +105,7 @@
 
 ### Standard Actions
 
-Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Interact with an Object, Study, Influence
+Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Study, Influence
 
 **Rage: Regain Expended Uses (1 / Long Rest).** Én gang per Long Rest når du ruller Initiative kan du regenere alle expended Rage uses.
 

@@ -13,8 +13,8 @@
 |**Gender**   |Female         |
 |**Age**      |65             |
 |**Size**     |Medium         |
-|**Height**   |172            |
-|**Weight**   |130            |
+|**Height**   |172 cm         |
+|**Weight**   |130 lb         |
 |**Skin**     |White          |
 |**Eyes**     |Gray           |
 |**Hair**     |Light brown    |
@@ -107,7 +107,7 @@
 
 ### Standard Actions
 
-Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Interact with an Object, Study, Influence
+Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Study, Influence
 
 ### Bonus Actions
 
