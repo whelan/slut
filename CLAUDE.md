@@ -124,17 +124,18 @@ Brug til regelopslag og verifikation mod 2024-reglerne. Se `.agents/skills/dnd5e
 # Spell
 grep -n "^## Fireball" .agents/skills/dnd5e-2024-srd/references/spells.md
 
-# Condition / regel
-grep -n -A 20 "^### Grappled" .agents/skills/dnd5e-2024-srd/references/rules-glossary.md
+# Condition / regel  (headings er ####)
+grep -n -A 20 "^#### Grappled" .agents/skills/dnd5e-2024-srd/references/rules-glossary.md
 
 # Monster statblock
 grep -n "^## Dragon, Adult Red" .agents/skills/dnd5e-2024-srd/references/monsters-A-Z.md
 
-# Magic item
-grep -n "^## " .agents/skills/dnd5e-2024-srd/references/magic-items.md
+# Magic item  (konkrete items er ####)
+grep -n "^#### Bag of Holding" .agents/skills/dnd5e-2024-srd/references/magic-items.md
+grep -E -n "^#### " .agents/skills/dnd5e-2024-srd/references/magic-items.md
 
-# Feat, class feature
-grep -n "^## \|^### " .agents/skills/dnd5e-2024-srd/references/feats.md
+# Feat (individuelle feats er ####), class feature (## / ###)
+grep -E -n "^(##|###|####) " .agents/skills/dnd5e-2024-srd/references/feats.md
 grep -n "^## \|^### " .agents/skills/dnd5e-2024-srd/references/classes.md
 ```
 
@@ -191,17 +192,22 @@ Dark fantasy dragon cult [rank], [rank-specific description], ornate armor with 
 
 ## Hooks
 
-`.claude/settings.json` konfigurerer en **Stop-hook**: `python3 .claude/hooks/rules-check.py` kører automatisk efter hver session. Den scanner det seneste assistant-output for 2014-terminologi der er forkert i 2024-kontekst, herunder:
+`.claude/settings.json` konfigurerer en **Stop-hook**: `python3 .claude/hooks/rules-check.py` kører automatisk efter hver session (autoritativ liste: `OUTDATED_PATTERNS` i scriptet). Den scanner det seneste assistant-output for 2014-terminologi der er forkert i 2024-kontekst, herunder:
 
-| 2014 (forkert) | 2024 (korrekt) |
+| 2014-mønster (trigger) | 2024-korrekt |
 |---|---|
 | `ki points` | Focus Points |
 | `use an object` action | Utilize action |
+| `use object action` | Utilize action |
 | `exhaustion … disadvantage on ability checks` | –1 per niveau til alle D20 Tests |
-| `true strike … advantage on next attack` | Action-cantrip (weapon attack med Int/Cha) |
-| `guidance … reaction/bonus action` | Action |
+| `exhaustion … speed halved` | –1 per niveau til alle D20 Tests |
+| `true strike … reaction` | Action-cantrip (weapon attack med Int/Cha) |
+| `true strike … advantage on your next attack` | Action-cantrip (weapon attack med Int/Cha) |
+| `guidance … reaction` | Action |
+| `guidance … bonus action` | Action |
 | `healing word … 1d4` | 2d4 + mod |
-| `silvery barbs` (nævnes uden markering) | Ikke i SRD – markér som homebrew |
+| `silvery barbs` (ethvert fund) | Ikke i SRD – hooken flaggær altid; brug Cutting Words eller markér eksplicit som homebrew/ikke-SRD |
 | `grapple … special attack` | Attack action (en af dine attacks) |
+| `stunning strike … ki point` | Focus Point |
 
 Hooken returnerer exit code 2 og en besked til stderr ved fund. Hvis den fejler, undersøg scriptet frem for at omgå det.
