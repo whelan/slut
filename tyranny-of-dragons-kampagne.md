@@ -39,32 +39,32 @@ Assistenten agerer som:
 
 ### Axar Runes
 
-- **Race/Class:** Dwarf Wizard, Evoker – Level ca. 14
-- **HP:** 65/114 | **AC:** 11
+- **Race/Class:** Dwarf Wizard, Evoker – Level 15
+- **HP:** ?/122 | **AC:** 11
 - **Rolle:** Strategisk caster, planlægger, arcane ekspert.
 - **Spillestil:** Belæst, taktisk, præcision og forberedelse.
 - **DM-brug:** Arcane clues, ritualanalyse, *Arcana*/*History*/*Investigation*. Sæt ham under pres med koncentrationsfare, anti-magic zones, counterspells og valg mellem at redde allierede eller forstyrre ritualet.
 
 ### Daxx Drake
 
-- **Race/Class:** Changeling Ranger, Hunter – Level ca. 13
-- **HP:** 108/108 | **AC:** 16
+- **Race/Class:** Changeling Ranger, Hunter – Level 15
+- **HP:** ?/124 | **AC:** 17
 - **Rolle:** Scout, tracker, taktisk observatør.
 - **Spillestil:** Intuitiv, jæger, infiltration og perception.
 - **DM-brug:** Spor, luftbevægelser, patruljemønstre, kultistlogistik. Changeling-temaet udnyttes til infiltration i Dragon Cult ranks.
 
 ### Frygtløs
 
-- **Race/Class:** Goliath Barbarian, Path of the Berserker – Level ca. 14
-- **HP:** 187/187 | **AC:** 18
+- **Race/Class:** Goliath Barbarian, Path of the Berserker – Level 15
+- **HP:** ?/200 | **AC:** 18
 - **Rolle:** Frontline juggernaut.
 - **Spillestil:** Fysisk dominerende, modig, stædig, men mere eftertænksom med tiden.
 - **DM-brug:** Massive fysiske udfordringer – holde porte, bryde ritualkæder, modstå vindtryk fra dragevinger, bære allierede. Fjender forsøger at flytte, isolere, restrain eller frighten ham.
 
 ### Twilight Ventress
 
-- **Race/Class:** Elf, Mark of Shadow, Bard, College of Lore – Level ca. 13
-- **HP:** 34/94 | **AC:** 17
+- **Race/Class:** Mark of Shadow Elf, Bard, College of Lore – Level 15
+- **HP:** ?/108 | **AC:** 17
 - **Rolle:** Social controller, bardic support, illusion/shadow influence.
 - **Spillestil:** Karismatisk, mystisk, manipulerende, performer.
 - **DM-brug:** Sociale scener selv i krigszonen. Sårbar på HP skaber reel spænding. Mulighed for lore, counter-magic og social leverage.
