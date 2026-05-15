@@ -8,6 +8,17 @@ import json
 import re
 import sys
 
+# Dansk er kun tilladt i markerede Dialogue/Room Description-sektioner
+ALLOWED_DANISH_SECTION_MARKERS = ("dialogue", "room description")
+
+# Simpel heuristik til at spotte dansk tekst uden for tilladte sektioner
+DANISH_SIGNAL_WORDS = {
+    "jeg", "du", "han", "hun", "den", "det", "de", "vi", "jer", "mig",
+    "ikke", "og", "eller", "med", "for", "som", "hvor", "hvordan", "hvad",
+    "skal", "kan", "vil", "så", "der", "her", "af", "til", "på", "i", "en",
+    "et", "at", "fra", "være", "dansk", "rumbeskrivelse", "rum", "beskrivelse",
+}
+
 # 2014-terminologi der IKKE må bruges i 2024-kontekst
 # Format: (regex-mønster, forklaring, 2024-alternativ)
 OUTDATED_PATTERNS = [
@@ -91,6 +102,42 @@ def check_rules(text):
     return violations
 
 
+def strip_allowed_danish_sections(text):
+    lines = text.splitlines()
+    outside = []
+    in_allowed_section = False
+
+    for line in lines:
+        heading = re.match(r"^\s{0,3}#{1,6}\s+(.+?)\s*$", line)
+        if heading:
+            heading_text = heading.group(1).lower()
+            in_allowed_section = any(marker in heading_text for marker in ALLOWED_DANISH_SECTION_MARKERS)
+            if not in_allowed_section:
+                outside.append(line)
+            continue
+
+        if not in_allowed_section:
+            outside.append(line)
+
+    return "\n".join(outside)
+
+
+def find_danish_signals(text):
+    words = re.findall(r"[a-zA-ZæøåÆØÅ]+", text.lower())
+    matches = {w for w in words if w in DANISH_SIGNAL_WORDS}
+    if any(ch in text for ch in "æøåÆØÅ"):
+        matches.add("dansk-tegn")
+    return matches
+
+
+def check_language_policy(text):
+    outside_allowed = strip_allowed_danish_sections(text)
+    danish_signals = find_danish_signals(outside_allowed)
+    if len(danish_signals) >= 3:
+        return sorted(danish_signals)
+    return []
+
+
 def main():
     try:
         data = json.load(sys.stdin)
@@ -112,6 +159,13 @@ def main():
             print(f"    → {fix}", file=sys.stderr)
         print("", file=sys.stderr)
         print("Bekræft at outputtet bruger 2024-regler før du fortsætter.", file=sys.stderr)
+        sys.exit(2)
+
+    language_violations = check_language_policy(text)
+    if language_violations:
+        print("⚠️  Sprogpolicy-brud fundet.", file=sys.stderr)
+        print("Standard er engelsk; dansk er kun tilladt i markerede 'Dialogue' eller 'Room Description'-sektioner.", file=sys.stderr)
+        print(f"Fundne danske signaler uden for tilladte sektioner: {', '.join(language_violations)}", file=sys.stderr)
         sys.exit(2)
 
     sys.exit(0)

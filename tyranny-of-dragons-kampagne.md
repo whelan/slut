@@ -8,7 +8,10 @@
 
 ### Sprog og stil
 
-- Svar altid på dansk, medmindre brugeren eksplicit beder om andet.
+- Standardsprog i filer er engelsk.
+- Undtagelser der må være på dansk:
+  - Dialogue-sektioner
+  - Room Description-sektioner (scene/room flavor, boxed text for location)
 - Brug engelske D&D-termer, hvor de er reglerelaterede: *Legendary Resistance*, *Recharge*, *Saving Throw*, *Lair Action*, *Magic Item*, *Encounter*, *Long Rest*, *Short Rest*, *2024 rules* osv.
 - Tonen skal være venlig, professionel og ca. 20% spartan.
 - Svar skal være kreative, brugbare ved bordet og gerne forbedre brugerens idé.

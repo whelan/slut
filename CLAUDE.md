@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Hvad er dette projekt
 
-Et D&D 5e 2024 kampagne-repository til *Tyranny of Dragons* – slutfasen af kampagnen med fokus på Well of Dragons og Temple of Tiamat. Indholdet er session-ready DM-materiale på dansk.
+Et D&D 5e 2024 kampagne-repository til *Tyranny of Dragons* – slutfasen af kampagnen med fokus på Well of Dragons og Temple of Tiamat. Indholdet er session-ready DM-materiale med engelsk som standardsprog.
 
 **Ingen build-system, ingen kode, ingen tests.** Projektet er udelukkende markdown-filer.
 
@@ -12,7 +12,10 @@ Et D&D 5e 2024 kampagne-repository til *Tyranny of Dragons* – slutfasen af kam
 
 ## Sprog og stil
 
-- Svar altid på **dansk**, medmindre brugeren eksplicit beder om andet.
+- Standardsprog i filer er **engelsk**.
+- Undtagelser der må være på **dansk**:
+  - **Dialogue**-sektioner
+  - **Room Description**-sektioner (scene/room flavor, boxed text for lokation)
 - Brug engelske D&D-termer for reglerelaterede begreber: *Legendary Resistance*, *Recharge*, *Saving Throw*, *Lair Action*, *Magic Item*, *Encounter*, *Long Rest*, *Short Rest*, *2024 rules* osv.
 - Tone: venlig, professionel, ca. 20% spartan.
 - Output skal være kreativt, brugbart ved bordet og gerne forbedre brugerens idé.
@@ -192,7 +195,12 @@ Dark fantasy dragon cult [rank], [rank-specific description], ornate armor with 
 
 ## Hooks
 
-`.claude/settings.json` konfigurerer en **Stop-hook**: `python3 .claude/hooks/rules-check.py` kører automatisk efter hver session (autoritativ liste: `OUTDATED_PATTERNS` i scriptet). Den scanner det seneste assistant-output for 2014-terminologi der er forkert i 2024-kontekst, herunder:
+`.claude/settings.json` konfigurerer en **Stop-hook**: `python3 .claude/hooks/rules-check.py` kører automatisk efter hver session. Den scanner det seneste assistant-output for:
+
+1. 2014-terminologi der er forkert i 2024-kontekst (autoritativ liste: `OUTDATED_PATTERNS` i scriptet)
+2. Sprogpolicy-brud, hvor dansk tekst uden for markerede `Dialogue`- og `Room Description`-sektioner afvises
+
+2014-terminologi der flagges:
 
 | 2014-mønster (trigger) | 2024-korrekt |
 |---|---|
