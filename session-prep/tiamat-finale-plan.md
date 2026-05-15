@@ -67,6 +67,19 @@ This reframes Severin's monologue from *"you are competent"* to *"you are violen
 
 No mechanic. No DC. The player can say something or not. Both are right.
 
+### Three Clue Rule – the Naergoth gap
+
+The party missed 6 exposition points by killing Naergoth before he could speak. Per dndtale's Three Clue Rule (`.agents/skills/dndtale/modules/encounter-design.md`), any conclusion the players need to reach requires **at least three independent paths**. Without these alternates, the finale plays under-informed and feels arbitrary.
+
+| Lost exposition | 3 alternate paths in the temple |
+|---|---|
+| Ritual already underway | (a) Stage 1 Tiamat-presence at the gate, (b) Axar Arcana DC 13 on the Level 1 ritual channels, (c) Severin's pre-combat monologue |
+| Severin is on Level 3 | (a) Captured cultist interrogation on Level 1, (b) ritual energy beam visibly traveling UP, (c) the cult-leader portrait gallery (Prompt 11) |
+| Five-foci system | (a) Visible from the hub on Level 2, (b) Axar Arcana auto-recognition (epic-character-moments.md Moment 1), (c) bound prisoner who saw Severin assemble it |
+| Masks are central | (a) Captured cultist's prayer book, (b) Axar Arcana DC 15 on Severin's robe (pre-combat), (c) destroying one mask visibly weakens Severin |
+| Tiamat manifestation stages | (a) Stage 1 sensory at the gate, (b) Stage 2 head-speaks-to-PC on the stair ascent, (c) Twilight History DC 12 (Bardic lore on draconic mythology) |
+| Dracolich vs Tiamat-fanatic cult split | (a) Captured cultist confession, (b) Naergoth's portrait + History (Prompt 11), (c) a dying old cultist's last words on Level 1 |
+
 ---
 
 ## The Three Approaches – Comparison
@@ -107,6 +120,8 @@ Total: 4–6 hours. Plan one long session or split A+B / C.
 
 ## Phase A – Caldera & Entry
 
+**dndtale framing:** Phase A is the **Cold Open** + opening **Rising Action** (`modules/session-pacing.md`). Drop the players into sensation and decision, not summary. Every boxed text follows `modules/creative-voice.md`: lead with atmosphere, three senses minimum, present tense, end on an implicit question.
+
 ### Beat list
 
 1. **Approach decision** – land/water/air or hybrid. Tie to canonical state.
@@ -121,6 +136,8 @@ Total: 4–6 hours. Plan one long session or split A+B / C.
 **Purpose:** Produce a 5-minute cinematic opener tailored to the chosen approach.
 
 **Use when:** Before the session begins. Run after the party tells you which approach they take (or run all three and pick at the table).
+
+**dndtale resources:** `modules/session-pacing.md` (Cold Open — start in the middle of action, not summary), `modules/creative-voice.md` (3+ senses, present tense, end on implicit question), `modules/world-building.md` (Concentric Circle — Inner = caldera entry, Middle = temple, Outer = Faerûn at war).
 
 ```
 Produce a 5-minute opening cinematic for the party's arrival at
@@ -157,6 +174,8 @@ Output:
 
 **Use when:** Prepping Phase A. Use the result as background-pressure during the entire temple run, not just outside.
 
+**dndtale resources:** `modules/encounter-design.md` (enemies need goals beyond "kill the party"; terrain as third combatant — the front line itself is terrain), `modules/world-building.md` (faction NPCs need wants + opinions + speech patterns), `templates/factions.md` for any new faction context.
+
 ```
 Produce a one-page army-clock playbook for the war outside the temple,
 running parallel to Levels 1-3. Output:
@@ -185,6 +204,8 @@ running parallel to Levels 1-3. Output:
 **Purpose:** Produce a precise tabletop walkthrough of The Maw with concrete tactics for this party.
 
 **Use when:** Prepping Phase A. After approach decided.
+
+**dndtale resources:** `modules/encounter-design.md` (Encounter Design Checklist — dramatic question, stakes, environment, multiple approaches, escalation, connection; Three Pillars combat/exploration/social interwoven), `modules/session-pacing.md` (alternate high-energy and low-energy scenes).
 
 ```
 Produce a tabletop walkthrough of Level 1 (The Maw) given the
@@ -220,6 +241,8 @@ same beats.
 
 **Use when:** Prepping Phase A, if Lava Tube approach is on the table.
 
+**dndtale resources:** `modules/encounter-design.md` (Exploration as Discovery — layered puzzles, Three Clue Rule, every room interactive), `modules/world-building.md` (Ghost Dragon Vyraxian as Tier 2 NPC — want, secret, opinion).
+
 ```
 Produce a complete skill challenge for the Lava Tube / Black Chapel
 back-entry, replacing Encounter A:
@@ -246,6 +269,8 @@ back-entry, replacing Encounter A:
 
 ## Phase B – Ritual (Fivefold Sanctum)
 
+**dndtale framing:** Phase B is **Rising Action** with an active **ticking clock** (the ritual clock; `modules/session-pacing.md`). The Three Pillars are alive here: Combat (Blue Abishai), Exploration (foci sabotage choices), Social (Procession aftermath, captured cultists). Use **graduated outcomes** per `modules/encounter-design.md` — every sabotage attempt has full success / partial success / failure with twist.
+
 ### Beat list
 
 1. **Arrival at hub** – overview of the five platforms.
@@ -269,6 +294,8 @@ If the party never killed one of these wyrmspeakers, replace the corresponding A
 **Purpose:** Decision matrix for the players' sabotage strategy.
 
 **Use when:** Prepping Phase B. Bring to the table as a DM cheat-sheet.
+
+**dndtale resources:** `modules/encounter-design.md` (graduated outcomes, multiple victory conditions), `modules/session-pacing.md` (ticking clock as pacing tool — forces hard choices about priorities).
 
 ```
 Produce a decision matrix for foci-sabotage order, tuned to this
@@ -303,6 +330,8 @@ short, sensory, tuned to the PC delivering the killing blow.
 **Purpose:** Run the hardest Level 2 encounter as a 4-round set piece.
 
 **Use when:** Prepping Phase B. This is the encounter most likely to break the party if mis-run.
+
+**dndtale resources:** `modules/encounter-design.md` (Boss Encounter Philosophy — phases, legendary actions, emotional stakes, environmental integration, multiple victory conditions), `modules/creative-voice.md` (NPC speech pattern — Galvan is a resurrected wyrmspeaker, not a generic Abishai; he remembers being killed).
 
 ```
 Produce a complete 4-round combat plan for Blue Abishai (Galvan,
@@ -339,6 +368,8 @@ Output:
 
 **Use when:** Prepping Phase B. Print and bring to the table.
 
+**dndtale resources:** `modules/session-pacing.md` (ticking clock as primary pacing tool), `modules/encounter-design.md` (graduated outcomes, failure as story not dead end).
+
 ```
 Produce a printable ritual-clock cheat-sheet and a decision tree for
 Level 2.
@@ -364,6 +395,8 @@ Output:
 ---
 
 ## Phase C – Tiamat & Final Battle
+
+**dndtale framing:** Phase C is the **Climax** + **Falling Action** + **Cliffhanger** (`modules/session-pacing.md`). Apply full **Boss Encounter Philosophy** to Severin: 2–3 phases, legendary actions for action economy, emotional stakes (not just HP-depletion), environmental integration (the temple is the boss's lair), multiple victory conditions (Options A/B/C). Falling Action — the aftermath — is **30–60 minutes**, not 5. Do not rush it.
 
 ### Beat list
 
@@ -397,6 +430,8 @@ Per `well-of-dragons/temple-of-tiamat.md` and the raw module:
 **Purpose:** Give each PC a hook before initiative, not after.
 
 **Use when:** Prepping Phase C. This is the prep that makes or breaks the finale.
+
+**dndtale resources:** `modules/creative-voice.md` (NPC Dialogue & Personality — Severin's want, speech pattern, opinions; show personality through behavior, not description), `modules/encounter-design.md` (Social Interaction as Drama — competing interests, mechanical stakes, audience that shifts).
 
 ```
 Produce Severin's pre-combat scene as four parallel hooks (one per PC),
@@ -440,6 +475,8 @@ Output:
 **Purpose:** Produce three different combat plans for Severin depending on ritual-clock arrival state.
 
 **Use when:** Prepping Phase C. Branch in advance — at the table, pick the matching plan.
+
+**dndtale resources:** `modules/encounter-design.md` (Boss Encounter Philosophy — phases that change the fight dynamically, legendary/lair actions for action economy, environmental integration, multiple victory conditions, failure as story), `modules/session-pacing.md` (Climax — must feel earned, not just HP depletion).
 
 ```
 Produce three complete round-by-round boss fight plans for Severin
@@ -485,6 +522,8 @@ provoke Axar specifically (Thay-arc payoff).
 
 **Use when:** Prepping Phase C. This is the closing 60–90 minutes.
 
+**dndtale resources:** `modules/session-pacing.md` (Falling Action 15–30 min for character moments; Cliffhanger 5 min that promises the next chapter), `modules/encounter-design.md` (Failure as Story — clock 8 → Failure Forward, not dead end), `modules/creative-voice.md` (Tiamat's five heads need five distinct speech patterns, not one generic "dragon voice").
+
 ```
 Produce a complete endgame script from Severin's fall through the
 party's emergence on the ash plain.
@@ -529,6 +568,8 @@ Output:
 
 **Use when:** If you want the resurrected wyrmspeakers and Rath Modar in play, or you want the cult-leader portraits scene.
 
+**dndtale resources:** `modules/literary-adaptation.md` (adapting published material: scaffolding not cage; preserve setting tone), `modules/world-building.md` (Setting Integration with Forgotten Realms — use existing lore as scaffolding), `checklists/consistency-checklist.md` (verify Reloaded lore doesn't break homebrew).
+
 ```
 Produce a lore bridge between the homebrew rework and the Reloaded /
 official Rise of Tiamat material.
@@ -567,6 +608,8 @@ Output:
 
 **Use when:** During or after the finale, depending on whether you plan a sequel.
 
+**dndtale resources:** `modules/world-building.md` (consequence design — the world reacts and remembers), `modules/session-pacing.md` (Cliffhanger that promises a future chapter — applies even at campaign end), `modules/campaign-types.md` (if planning a follow-on campaign: pick Linear / Sandbox / Event-Based / Setting-Based to match).
+
 ```
 Produce an aftermath bridge that maps the finale outcome to the
 Chapter 24 epilogue arcs in well-of-dragons/temple-of-tiamat.md.
@@ -594,15 +637,119 @@ Output:
 
 ---
 
+## Production Prompts (dndtale tooling)
+
+These two prompts use dndtale's tooling layer — image generation and quality assurance — rather than producing new narrative content.
+
+### Prompt 13 – Finale art prompts for dndig
+
+**Purpose:** Generate session-day artwork for the finale using `dndig` (`modules/dndig-reference.md`). The existing `temple-of-tiamat/battlemap-prompts.md` covers maps. This prompt fills the gaps: portraits, tokens, and cinematic scenes.
+
+**Use when:** Before the finale session. Allow ~30 minutes for art generation. Requires `GEMINI_API_KEY` environment variable.
+
+**dndtale resources:** `modules/dndig-reference.md` (YAML frontmatter, aspect ratios, resolutions, batch sizes, references), `modules/creative-voice.md` (vivid description for prompt bodies).
+
+```
+Produce dndig-ready prompt files (Markdown with YAML frontmatter) for
+the following finale assets. Place outputs in art/finale/.
+
+Portraits / tokens:
+- Galvan (Blue Abishai, resurrected wyrmspeaker) — token, 1:1, 1K,
+  temperature 0.6
+- Rezmir (Black Abishai, resurrected wyrmspeaker) — token, 1:1, 1K,
+  temperature 0.6 [SKIP if the party never killed her]
+- Neronvain (Green Abishai, resurrected wyrmspeaker) — token, 1:1, 1K,
+  temperature 0.6 [SKIP if the party never killed him]
+- Rath Modar — token + portrait, 2:3, 2K, temperature 0.7
+- Pseudodragon "Nelvik" (Severin's familiar) — token, 1:1, 1K
+
+Cinematic scenes:
+- The Caldera, first view — 16:9, 2K, temperature 0.8, dawn light,
+  dragons circling, five-colored ritual energy from temple
+- The Last Staircase — 3:4 vertical, 2K, ash drifting, Severin's back
+  silhouetted at the top
+- Tiamat's eye opening in the sky — 16:9, 2K, surrealist composition,
+  one cyclopean eye through swirling clouds
+- The cult-leader portrait gallery — 4:3, 2K, five paintings on stone
+  wall, Naergoth foregrounded (he's the one Frygtløs killed)
+- Severin's last moment (masks dimming, white→black→green→blue→red)
+  — 3:2, 2K
+- Major Victory aftermath: party emerging on ash plain, sun breaking
+  through — 16:9, 2K
+
+For each prompt file:
+- batch: 2 (let DM pick the better generation)
+- references: list any existing campaign art if available in repo
+- Body: 4–6 sentences of vivid description (apply creative-voice.md:
+  lead with atmosphere, three senses, present tense). Draw on the
+  existing Danish boxed text from temple-of-tiamat/ files for
+  consistency.
+- For battlemap-derived scenes, lift the topdown/no-grid/no-text
+  restrictions — these are cinematics, not maps.
+
+Run with: dndig art/finale/<file>.md --verbose
+```
+
+**Expected output:** 8–11 prompt files (depending on which wyrmspeakers the party killed) ready to drop into `art/finale/`.
+
+### Prompt 14 – Quality and consistency pass
+
+**Purpose:** Verify that the assembled session prep is internally consistent and meets dndtale's quality standards before the table.
+
+**Use when:** Final pre-session prep, after running prompts 1–13. ~15 minutes.
+
+**dndtale resources:** `checklists/campaign-quality-checklist.md` (completeness, consistency, balance), `checklists/consistency-checklist.md` (names, numbers, references, timeline, knowledge consistency), `workflows/iteration-workflow.md` (the underlying process for updates without breaking existing content).
+
+```
+Run a quality and consistency pass on the assembled session prep
+using the dndtale checklists.
+
+Inputs to check (read each before scoring):
+- session-prep/tiamat-finale-plan.md (this file)
+- session-prep/checkliste.md
+- Any prompt outputs generated in this prep cycle (1-13)
+- temple-of-tiamat/ files that were updated
+- npcs/naergoth-bladelord.md (verify canonical death is recorded)
+- tyranny-of-dragons-kampagne.md §8 (verify cross-reference to
+  Naergoth's death)
+
+Apply the relevant sections of:
+- checklists/campaign-quality-checklist.md (completeness, balance,
+  read-aloud quality, encounter design, NPC depth)
+- checklists/consistency-checklist.md (name consistency, number
+  consistency, reference consistency, timeline, knowledge)
+
+Output a ranked punch list (top 15 items by impact on table runtime):
+- ❌ Hard inconsistencies (NPC named two ways, contradictory DCs,
+  clock state mismatch between files, Naergoth referenced as alive
+  somewhere)
+- ⚠️ Soft issues (NPC missing speech pattern, encounter missing
+  graduated outcome, location missing 3-senses description,
+  read-aloud too architectural)
+- ✅ 3-5 confirmed strengths worth keeping unchanged
+
+Be specific. Cite file and line number where possible.
+
+DO NOT auto-fix. Output the list; the DM decides what to fix
+manually or via a follow-up prompt. After fixing, re-run Prompt 14
+once to verify.
+```
+
+**Expected output:** Punch list of 10–15 ranked items + 3–5 confirmed strengths, with file+line citations.
+
+---
+
 ## How to Use This Plan
 
 ### Recommended workflow
 
 1. **Lock canonical state.** Fill in the "Open questions" checkboxes above. Calculate starting ritual clock.
 2. **Decide approach.** Talk to the party out-of-character (or let them decide in-character at Council of Waterdeep). Lock the approach before prep.
-3. **Run prompts in pre-session prep.** Order: 1 → 2 → 3 (or 4) → 5 → 6 → 7 → 8 → 9 → 10. Bridge prompts 11–12 only if you want them.
-4. **Bring outputs to the table.** Print boxed texts. Have the clock cheat-sheet visible. Have Severin's pre-combat updated line ready.
-5. **After the session: edit this file.** Note what actually happened — became canonical state for the next session.
+3. **Run prompts in pre-session prep.** Order: 1 → 2 → 3 (or 4) → 5 → 6 → 7 → 8 → 9 → 10. Bridge prompts 11–12 if you want the Reloaded layer and the epilogue arcs.
+4. **Generate art with Prompt 13.** Run `dndig` against the output files. Print or display at the table.
+5. **Run Prompt 14 (quality + consistency pass)** before the session. Fix hard inconsistencies, note soft issues, ignore confirmed strengths.
+6. **Bring outputs to the table.** Print boxed texts. Have the clock cheat-sheet visible. Have Severin's pre-combat updated line ready.
+7. **After the session: edit this file.** Note what actually happened — becomes canonical state for the next session. Re-run `checklists/consistency-checklist.md` mentally as you write.
 
 ### Example iteration (use this format when asking the assistant)
 
@@ -629,6 +776,57 @@ After each phase, edit this file:
 ### When to abandon this plan
 
 If the party does something completely off-script (e.g. negotiates with Severin and walks away), put this file aside and improvise. The plan is scaffolding — the campaign is theirs.
+
+---
+
+## dndtale Skill Integration
+
+This plan is built on top of the `dndtale` skill (`.agents/skills/dndtale/`). Every prompt references specific skill files under its **dndtale resources** line — when running a prompt, the assistant pulls in those files for style and quality guidance. This section gives the full map.
+
+### Skill resource map
+
+| dndtale resource | Where it applies in this plan |
+|---|---|
+| `modules/creative-voice.md` | All boxed text (Danish): atmosphere before architecture, three senses minimum, present tense, end on implicit question. Applies to every prompt that produces read-aloud text. |
+| `modules/session-pacing.md` | Phase A = Cold Open (Prompt 1). Phase B = Rising Action with ticking clock (Prompts 5–7). Phase C = Climax + Falling Action + Cliffhanger (Prompts 9, 10). |
+| `modules/encounter-design.md` | All combat prompts (3, 6, 9). Apply the Encounter Design Checklist: dramatic question, stakes, environment, multiple approaches, escalation, connection. Blue Abishai (6) and Severin (9) require Boss Encounter Philosophy. Three Clue Rule covers the Naergoth exposition gap. |
+| `modules/world-building.md` | Concentric Circle Method: Inner = active zone in temple, Middle = caldera + army, Outer = Faerûn at war. Tiered NPC framework (Walk-On / Recurring / Major) for Galvan, Rath Modar, Severin. |
+| `modules/formatting-conventions.md` | Markdown structure for all outputs — read-aloud blocks, DM notes, stat blocks, cross-references. |
+| `modules/literary-adaptation.md` | Bridge prompts (11) for adapting Reloaded + raw WotC material into the homebrew rework. Scaffolding not cage. |
+| `modules/campaign-types.md` | Prompt 12 — when picking a follow-on campaign type (Linear / Sandbox / Event-Based / Setting-Based). |
+| `modules/dndig-reference.md` | Prompt 13 — image prompts for finale art. |
+| `templates/npcs.md` | New NPC entries (Rath Modar, Galvan-as-resurrected-Galvan with full lore). |
+| `templates/locations.md` | If you expand any temple level into its own location file post-session. |
+| `templates/chapter-template.md` | If you split the finale session into its own chapter file for the campaign record. |
+| `templates/factions.md` | Council of Waterdeep + Cult of the Dragon faction state at finale. |
+| `checklists/campaign-quality-checklist.md` | Prompt 14 — quality pass on assembled prep. |
+| `checklists/consistency-checklist.md` | Prompt 14 + every post-session canonical state update. |
+| `workflows/iteration-workflow.md` | The "Recommended workflow" mirrors this — read, plan, edit, cross-reference, check. |
+| `examples/the-stolen-flame/` | Reference if you ever need a complete worked example of dndtale output. |
+
+### Calling out skill files explicitly
+
+When you run a prompt, the assistant should automatically pull from the dndtale files listed under that prompt's **dndtale resources** line. If you want to override or emphasize a specific file:
+
+> Kør prompt 6 (Blue Abishai). Brug `dndtale/modules/encounter-design.md` Boss Encounter Philosophy som primær guide. Output med eksplicit phase-struktur som beskrevet der.
+
+For art:
+
+> Kør prompt 13. Læg prompt-filerne i `art/finale/` og brug `temple-of-tiamat/battlemap-prompts.md` som style reference for visuel konsistens med eksisterende kort.
+
+For quality:
+
+> Kør prompt 14. Brug `dndtale/checklists/consistency-checklist.md` Knowledge Consistency-sektion særligt — vi har Naergoth-død-fakta der skal være konsistent på tværs af filer.
+
+### What the skill does NOT cover
+
+dndtale is for *campaign authoring*. It does not cover:
+
+- 2024 rules verification → use `dnd5e-2024-srd` skill (`.agents/skills/dnd5e-2024-srd/`)
+- Language policy (Danish allowed only in Dialogue / Room Description) → enforced by `.claude/hooks/rules-check.py`
+- 2014 → 2024 terminology migration → also `.claude/hooks/rules-check.py`
+
+Use those tools alongside dndtale, not instead of it.
 
 ---
 
