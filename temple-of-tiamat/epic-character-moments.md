@@ -1,18 +1,18 @@
-# Epic Character Moments – Signaturscener per PC
+# Epic Character Moments – Signature Scenes per PC
 
-Episke kampagner falder eller står på personlige øjeblikke. Hver karakter fortjener mindst ét moment i finalen, hvor lyset står på dem og resten af bordet ved det.
+Epic campaigns rise or fall on personal moments. Every character deserves at least one moment in the finale where the light is on them and everyone at the table knows it.
 
-Dette dokument indeholder skræddersyede moments for de fire aktive karakterer. Brug dem som triggers, ikke som scripts – improvisér i øjeblikket, men hav scenen klar.
+This document contains tailored moments for the four active characters. Use them as triggers, not scripts — improvise in the moment, but have the scene ready.
 
 ---
 
 ## Axar Runes – The Reader of the Pattern
 
-**Hans tema:** Han har læst om dette. Han har studeret hele sit liv. Og nu står han foran det, og bøgerne var præcise.
+**His theme:** He has read about this. He has studied his whole life. And now he stands before it, and the books were accurate.
 
-### Moment 1 – Recognition (Niveau 2)
+### Moment 1 – Recognition (Level 2)
 
-Når Axar første gang ser et chromatic foci, lad ham automatisk genkende det fra sin studieforberedelse.
+When Axar first sees a chromatic focus, let him automatically recognize it from his study preparations.
 
 > Axar standser. Det er kun et halvt sekund – men det er nok til, at de andre ser det.
 >
@@ -22,29 +22,25 @@ Når Axar første gang ser et chromatic foci, lad ham automatisk genkende det fr
 >
 > "Det var ikke allegori."
 
-**Mekanisk:** Giv Axar automatisk advantage på den første sabotage-check, han forsøger. Han ved hvor i strukturen den skal angribes.
+**Mechanical:** Give Axar automatic advantage on the first sabotage check he attempts. He knows where in the structure it needs to be attacked.
 
-### Moment 2 – The Counterspell (Niveau 3)
+### Moment 2 – The Counterspell (Level 3)
 
-Når Severin første gang bruger Ritual Action, åbn døren for Axar's Counterspell.
+When Severin first uses a Ritual Action, open the door for Axar's Counterspell.
 
-> Severin trækker vejret ind. Maskerne over hans hoved spinner hurtigere.
->
-> Axar ser linjen. Du beskriver det, som om det kun er Axars spiller, der hører dig: *"Du ser hvor energien skal hen, før den kommer derhen. Du har en åbning. Det er nu."*
->
-> Axar's player vælger: Counterspell.
->
-> Beskriv resultatet:
->
-> *"Severin's ritualord brister i luften. Han ser ned på sin egen hånd, som om han ikke forstår, hvorfor den ikke gjorde, hvad den skulle. Han ser så op på Axar.*
->
-> *Han siger ingenting. Men hans øjne siger 'hvordan vidste du det'."*
+Severin draws a breath. The masks above his head spin faster. Axar sees the line. Describe it as though only Axar's player is hearing you: *"You see where the energy is going before it gets there. You have an opening. It's now."*
 
-**Mekanisk:** Axar's Counterspell fungerer som beskrevet – clock –1 og Severin mister sin bonus action.
+Axar's player chooses: Counterspell.
 
-### Moment 3 – The Final Equation (Hvis Axar bryder ritual circle)
+Describe the result: *"Severin's ritual words shatter in the air. He looks down at his own hand, as if he doesn't understand why it didn't do what it was supposed to. Then he looks up at Axar.*
 
-Hvis Axar er den, der bryder ritual circle (Option C):
+*He says nothing. But his eyes say 'how did you know'."*
+
+**Mechanical:** Axar's Counterspell works as described — clock –1 and Severin loses his bonus action.
+
+### Moment 3 – The Final Equation (If Axar breaks the ritual circle)
+
+If Axar is the one who breaks the ritual circle (Option C):
 
 > Axar lukker øjnene. Han taler ord på et sprog, som ingen andre kender. Han har skrevet dem på væggen i sit værelse i Mithril Hall, da han var fyrre. Han har gentaget dem i sin sjæl hver dag siden.
 >
@@ -56,11 +52,11 @@ Hvis Axar er den, der bryder ritual circle (Option C):
 >
 > Og lyset i Axar's øjne er ikke længere arcane – det er bare et menneskeligt øje, der ved noget, det aldrig burde have vidst, og som lige har sat det fri.
 
-**DM-note:** Lad spillerne klappe. Lad det være den slags moment, hvor nogen rejser sig fra bordet. Det er værd det.
+**DM note:** Let the players applaud. Let it be the kind of moment where someone stands up from the table. It is worth it.
 
-### Moment 4 – Efter sejren
+### Moment 4 – After the Victory
 
-I aftermath, hvis gruppen overlever, find et sted og giv Axar denne replik fra en NPC (helst Twilight):
+In aftermath, if the group survives, find a moment and give Axar this line from an NPC (preferably Twilight):
 
 > "Du har talt om bøger hele kampagnen. Du har aldrig talt om dig selv."
 >
@@ -68,17 +64,17 @@ I aftermath, hvis gruppen overlever, find et sted og giv Axar denne replik fra e
 >
 > "Vil du gøre det nu?"
 
-Lad spilleren tale. Det er deres scene.
+Let the player speak. It is their scene.
 
 ---
 
 ## Daxx Drake – The One Who Chose to Stay
 
-**Hans tema:** Han kan være alle. Han er stadig sig selv.
+**His theme:** He can be anyone. He is still himself.
 
-### Moment 1 – The Procession (Niveau 1)
+### Moment 1 – The Procession (Level 1)
 
-Når gruppen møder The Procession, lad Daxx have et observationsmoment.
+When the group encounters The Procession, let Daxx have an observation moment.
 
 > Daxx ser dem. Han forstår dem. Han forstår, hvorfor de smiler.
 >
@@ -90,11 +86,11 @@ Når gruppen møder The Procession, lad Daxx have et observationsmoment.
 >
 > Han bliver Daxx.
 
-**Mekanisk:** Daxx's spiller får +1 Inspiration den nat (eller +1 til en check senere i sessionen).
+**Mechanical:** Daxx's player gains +1 Inspiration that night (or +1 to a check later in the session).
 
-### Moment 2 – The Infiltration (hvis valgt)
+### Moment 2 – The Infiltration (if chosen)
 
-Hvis gruppen vælger infiltration på Niveau 1 (Skill Challenge), er Daxx i centrum.
+If the group chooses infiltration on Level 1 (Skill Challenge), Daxx is at the center.
 
 > Daxx skifter form mens han går. Tre gange. Hver gang han træder forbi en kultist, er han en anden – en officer, en young initiate, en gammel veteran.
 >
@@ -104,11 +100,11 @@ Hvis gruppen vælger infiltration på Niveau 1 (Skill Challenge), er Daxx i cent
 >
 > Han er en kunstner.
 
-**Mekanisk:** Daxx får automatisk én succes i skill challenge før checks rulles. Han er allerede halvvejs igennem.
+**Mechanical:** Daxx automatically gets one success in the skill challenge before checks are rolled. He is already halfway through.
 
-### Moment 3 – The Mirror Match (Niveau 3)
+### Moment 3 – The Mirror Match (Level 3)
 
-I Severin-kampen, lad Severin sige følgende (kun til Daxx, lavmælt, mellem multiattacks):
+In the Severin fight, let Severin say the following (only to Daxx, low-voiced, between multiattacks):
 
 > *"Vi har det samme problem, du og jeg. Vi er begge mennesker, der ikke føler os hjemme i en form. Jeg fandt en. Jeg fandt en hel familie af former. Jeg fandt en mor."*
 >
@@ -116,15 +112,15 @@ I Severin-kampen, lad Severin sige følgende (kun til Daxx, lavmælt, mellem mul
 >
 > *"Vil du møde hende?"*
 
-**Spillerens valg:** Hvordan reagerer Daxx?
+**Player's choice:** How does Daxx respond?
 
-Hvis Daxx siger nej (i nogen form): Severin smiler. Det er en trist smil. Daxx får advantage på sit næste attack mod Severin – beskriv det som om *Daxx slår noget af sig selv væk* gennem den klinge.
+If Daxx says no (in any form): Severin smiles. It is a sad smile. Daxx gains advantage on his next attack against Severin — describe it as if *Daxx strikes something of himself away* through that blade.
 
-Hvis Daxx siger ja, eller tøver: Det er en stor moment. Daxx kan ikke længere vide, hvem han er, før han har truffet et endeligt valg. Gem dette til aftermath.
+If Daxx says yes, or hesitates: This is a major moment. Daxx can no longer know who he is until he has made a final choice. Save this for aftermath.
 
 ### Moment 4 – The Final Form (Aftermath)
 
-I aftermath, ugen efter, lad Daxx finde et sted alene.
+In aftermath, the week after, let Daxx find a place alone.
 
 > Daxx kigger på sig selv i en sø.
 >
@@ -144,11 +140,11 @@ I aftermath, ugen efter, lad Daxx finde et sted alene.
 
 ## Frygtløs – The Mountain That Stood
 
-**Hans tema:** Verden flytter sig omkring ham. Han flytter sig ikke. Det er hans gave.
+**His theme:** The world shifts around him. He does not shift. That is his gift.
 
-### Moment 1 – The Bone Gate (Niveau 1)
+### Moment 1 – The Bone Gate (Level 1)
 
-På Niveau 1, hvis gruppen vælger combat eller infiltration, find et øjeblik hvor en knogleport eller barrikade truer med at lukke.
+On Level 1, if the group chooses combat or infiltration, find a moment where a bone gate or barricade threatens to close.
 
 > En knoglebue begynder at falde. Den er stor som en hest. Den vil knuse de andre, hvis den lander.
 >
@@ -162,11 +158,11 @@ På Niveau 1, hvis gruppen vælger combat eller infiltration, find et øjeblik h
 >
 > Du beskriver: *"I et øjeblik er han alt, der står mellem stenen og hele verdens slut. Hans arme ryster. Hans tænder skærer mod hinanden. Men buen falder ikke. Den vil ikke falde, så længe han er der."*
 
-**Mekanisk:** Athletics DC 18. Frygtløs har advantage (Powerful Build + Path of the Berserker). Hvis han fejler, lader ham bruge Rage som reaktion til succes automatisk.
+**Mechanical:** Athletics DC 18. Frygtløs has advantage (Powerful Build + Path of the Berserker). If he fails, let him use Rage as a reaction for automatic success.
 
-### Moment 2 – Holding the Bridge (Niveau 2)
+### Moment 2 – Holding the Bridge (Level 2)
 
-På Niveau 2, hvis Frygtløs står mellem fjender og en bro, hvor casters er sårbare:
+On Level 2, if Frygtløs stands between enemies and a bridge where casters are vulnerable:
 
 > Frygtløs står midt på broen. På den ene side: Twilight, Axar, Daxx. På den anden: en kult-officer, fire kultister, og to drakes.
 >
@@ -180,13 +176,13 @@ På Niveau 2, hvis Frygtløs står mellem fjender og en bro, hvor casters er så
 >
 > *"Kom."*
 
-**Mekanisk:** Frygtløs får +5 til AC for én runde, og alle fjender der vil passere ham skal slå DC 18 Strength save eller blive skubbet 10 fod tilbage (deres egen valg om at blive på broen).
+**Mechanical:** Frygtløs gains +5 to AC for one round, and all enemies who want to pass him must make a DC 18 Strength save or be pushed 10 feet back (their own choice whether to stay on the bridge).
 
-### Moment 3 – Dominate Monster (Niveau 3)
+### Moment 3 – Dominate Monster (Level 3)
 
-Severin's Dominate Monster mod Frygtløs er den hårdeste moment i kampagnen. Spillerne vil hade det. *De skal hade det.* Det er pointen.
+Severin's Dominate Monster against Frygtløs is the hardest moment in the campaign. The players will hate it. *They should hate it.* That is the point.
 
-**Hvis Frygtløs er dominated:**
+**If Frygtløs is dominated:**
 
 > Severins stemme finder vej ind i Frygtløs' sind. Det er ikke en kommando. Det er en stemme, der ved nøjagtigt, hvad det er, at være en kæmpe som ham.
 >
@@ -198,9 +194,9 @@ Severin's Dominate Monster mod Frygtløs er den hårdeste moment i kampagnen. Sp
 >
 > Hans krop er ikke længere det.
 
-**Beskriv slagene mod hans allierede klinisk:** "Frygtløs slår mod Twilight. Hans arm bevæger sig som om den ikke kender hende." Lad spillerne mærke det.
+Describe the blows against his allies clinically: "Frygtløs strikes at Twilight. His arm moves as if it does not know her." Let the players feel it.
 
-**Hvis han bryder dominationen:**
+**If he breaks the domination:**
 
 > Frygtløs' øjne skifter. Et øjeblik ser de andre, at han kommer tilbage.
 >
@@ -212,11 +208,11 @@ Severin's Dominate Monster mod Frygtløs er den hårdeste moment i kampagnen. Sp
 >
 > Så vender han sig mod Severin. Og alt, hvad der var tilbageholdt, kommer ud.
 
-**Mekanisk:** Hvis han bryder dominationen, får han én free attack mod Severin med advantage og max damage. Det er ikke regelret. Det er rigtigt.
+**Mechanical:** If he breaks the domination, he gets one free attack against Severin with advantage and max damage. This is not rules-legal. It is right.
 
-### Moment 4 – The Last Stand (Templets kollaps)
+### Moment 4 – The Last Stand (Temple Collapse)
 
-I flugten fra templet, lad Frygtløs være den, der dækker bagtroppen.
+In the escape from the temple, let Frygtløs be the one who covers the rear.
 
 > Templet falder. Stenene falder hurtigere end gruppen kan flygte.
 >
@@ -232,17 +228,17 @@ I flugten fra templet, lad Frygtløs være den, der dækker bagtroppen.
 >
 > Stenen ramler bag ham som en lukket kiste.
 
-**Mekanisk:** Beskrivelse – ikke roll. Hvis spilleren spørger om mekanik, sig: "Du klarer det. Du er den, der altid klarer det."
+**Mechanical:** Narration — no roll. If the player asks about mechanics, say: "You make it. You are the one who always makes it."
 
 ---
 
 ## Twilight Ventress – The One Who Sang
 
-**Hendes tema:** Hun er den mindste, den mest sårbare. Hendes stemme er det største.
+**Her theme:** She is the smallest, the most vulnerable. Her voice is the greatest.
 
-### Moment 1 – The Mist (Niveau 2, Green Foci)
+### Moment 1 – The Mist (Level 2, Green Focus)
 
-På Green-foci platform, hvor andre PCs bliver narret af tågen, er Twilight immun (Mark of Shadow).
+On the Green focus platform, where other PCs are deceived by the mist, Twilight is immune (Mark of Shadow).
 
 > Tågen lyver til alle.
 >
@@ -258,11 +254,11 @@ På Green-foci platform, hvor andre PCs bliver narret af tågen, er Twilight imm
 >
 > Hendes stemme bærer dem igennem.
 
-**Mekanisk:** Twilight kan tage de andre PCs ved hånden og lede dem gennem tågen automatisk. Ingen WIS save. Hendes stemme er saven.
+**Mechanical:** Twilight can take the other PCs by the hand and guide them through the mist automatically. No WIS save. Her voice is the save.
 
-### Moment 2 – Severin's Listening (Niveau 3, pre-combat)
+### Moment 2 – Severin's Listening (Level 3, pre-combat)
 
-I pre-combat-scenen, lad Twilight være den, Severin lytter længst til.
+In the pre-combat scene, let Twilight be the one Severin listens to longest.
 
 > Severin ser på hende. Længere end han ser på de andre.
 >
@@ -278,11 +274,11 @@ I pre-combat-scenen, lad Twilight være den, Severin lytter længst til.
 >
 > Han smiler. *"Du er en interessant kvinde."*
 
-Lad Twilight's spiller svare.
+Let Twilight's player respond.
 
-### Moment 3 – Counter-Song (Severin-kamp)
+### Moment 3 – Counter-Song (Severin Fight)
 
-I kampen, find et øjeblik hvor Severin bruger en spell der kræver Concentration. Lad Twilight bruge Bardic Inspiration på sig selv, og beskrive det som hun *modsynger* spell.
+In the fight, find a moment when Severin uses a spell requiring Concentration. Let Twilight use Bardic Inspiration on herself and describe it as her *counter-singing* the spell.
 
 > Severin synger en spell. Det er ikke en almindelig spellcasting – det er rituelt, langtrukket, lydende som en hymne.
 >
@@ -292,11 +288,11 @@ I kampen, find et øjeblik hvor Severin bruger en spell der kræver Concentratio
 >
 > Severin tøver. Hans spell ryster.
 
-**Mekanisk:** Severin's spell mister én effekt-niveau (eller får disadvantage på sit Concentration save).
+**Mechanical:** Severin's spell loses one effect level (or has disadvantage on its Concentration save).
 
-### Moment 4 – The Final Note (Hvis hun synger Tiamat tilbage)
+### Moment 4 – The Final Note (If she sings Tiamat back)
 
-Hvis ritual clock når 6+ og Tiamats hoved manifesterer, lad Twilight være den, der kan synge det tilbage.
+If the ritual clock reaches 6+ and Tiamat's head manifests, let Twilight be the one who can sing it back.
 
 > Hovedet vender sig mod Twilight.
 >
@@ -314,11 +310,11 @@ Hvis ritual clock når 6+ og Tiamats hoved manifesterer, lad Twilight være den,
 >
 > Twilight bliver ved med at synge i tre sekunder mere. Bare for at være sikker.
 
-**Mekanisk:** Performance DC 20. Twilight har advantage. Ved succes, hovedet kan ikke angribe i 2 runder.
+**Mechanical:** Performance DC 20. Twilight has advantage. On success, the head cannot attack for 2 rounds.
 
-### Moment 5 – Når hun overlever
+### Moment 5 – When She Survives
 
-I aftermath, lad Twilight være den, der skriver historien om gruppen.
+In aftermath, let Twilight be the one who writes the story of the group.
 
 > Twilight åbner en bog. Den er ny. Hun har købt den i Waterdeep dagen før.
 >
@@ -336,16 +332,16 @@ I aftermath, lad Twilight være den, der skriver historien om gruppen.
 
 ---
 
-## DM-meta: Hvordan man bruger disse moments
+## DM Meta: How to Use These Moments
 
-**Skab plads til dem.** Hver moment kræver 2–5 minutter ved bordet, hvor du bremser ned og gør én karakter til centrum. Det er okay. Det er pointen.
+**Create space for them.** Each moment requires 2–5 minutes at the table where you slow down and make one character the center. That is okay. That is the point.
 
-**Beskriv visuelt.** Hver scene har en boxed text. Læs den. Brug pauser. Lad ord lande.
+**Describe visually.** Each scene has boxed text. Read it. Use pauses. Let words land.
 
-**Lad spillerne svare.** Efter et moment, sig ikke "okay, runde fortsætter." Sig: "Hvad gør du nu?" og lad dem tale i deres karakter. Det er hvor de virkelig spiller.
+**Let players respond.** After a moment, do not say "okay, round continues." Say: "What do you do now?" and let them speak in character. That is where they really play.
 
-**Print disse ud.** Hav dem ved bordet. Du kan ikke huske dem i hovedet, mens du DM'er en finale. Print, læs, brug.
+**Print these out.** Have them at the table. You cannot keep them in your head while running a finale. Print, read, use.
 
-**Du behøver ikke alle.** Hvis sessionen er presset af tid, vælg ét moment per PC. Gør det rigtigt, frem for at gøre alle dårligt.
+**You do not need all of them.** If the session is tight on time, pick one moment per PC. Do it right rather than doing all of them poorly.
 
-**Husk: dette er deres kampagne.** Du gav den til dem. De har båret den. Det her er, hvor du takker dem.
+**Remember: this is their campaign.** You gave it to them. They have carried it. This is where you thank them.

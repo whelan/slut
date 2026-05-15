@@ -1,122 +1,122 @@
-# Pre-Session DM Checkliste – Well of Dragons Finale
+# Pre-Session DM Checklist – Well of Dragons Finale
 
-Brug denne liste inden hver session der dækker Well of Dragons og Temple of Tiamat.
-
----
-
-## Inden sessionen
-
-### Ritual Clock – starttilstand
-
-Afgør ritual clock startværdi baseret på kampagnebeslutninger:
-
-- [ ] Council of Waterdeep: defensiv taktik? → Clock +2
-- [ ] Hurtig march uden forsinkelse? → Clock +1
-- [ ] Thay-alliance intakt? → Clock –1
-- [ ] Gruppen saboterede Draakhorn? → Clock –1
-- [ ] Leosin/Harpers leverede kortet? → Clock –1
-- [ ] Naergoth forsinkede gruppen? → Clock +1
-- [ ] Lang tid brugt i Thay? → Clock +1
-
-**Startclock:** [ ]
+Use this list before each session covering Well of Dragons and Temple of Tiamat.
 
 ---
 
-### Tilgang til Well of Dragons
+## Before the Session
 
-Afgør hvilken tilgang gruppen sandsynligvis vælger:
+### Ritual Clock – Starting State
 
-- [ ] Land (frontlinje-kamp)
-- [ ] Vand (underjordisk lava tube)
-- [ ] Luft (flyvning + dogfight)
+Determine ritual clock starting value based on campaign decisions:
 
-Hent relevant fil fra `well-of-dragons/tilgange.md`.
+- [ ] Council of Waterdeep: defensive tactics? → Clock +2
+- [ ] Fast march without delay? → Clock +1
+- [ ] Thay alliance intact? → Clock –1
+- [ ] Group sabotaged the Draakhorn? → Clock –1
+- [ ] Leosin/Harpers delivered the map? → Clock –1
+- [ ] Naergoth delayed the group? → Clock +1
+- [ ] Long time spent in Thay? → Clock +1
 
----
-
-### Hær-clock startværdi
-
-Afgør army front clock status:
-
-- [ ] Alliance i offensiv → Clock 0
-- [ ] Alliance presset → Clock 2-3
-- [ ] Alliance defensiv → Clock 5+
-
-Hent `well-of-dragons/hær-clock.md` til events.
+**Starting Clock:** [ ]
 
 ---
 
-### Foci-status (Niveau 2)
+### Approach to Well of Dragons
 
-Markér hvilke foci der er saboterede og hvilke der er intakte:
+Determine which approach the group is likely to take:
 
-| Foci | Status | Sabotage-effekt |
+- [ ] Land (front line combat)
+- [ ] Water (underground lava tube)
+- [ ] Air (flying + dogfight)
+
+Pull relevant file from `well-of-dragons/tilgange.md`.
+
+---
+
+### Army Clock Starting Value
+
+Determine army front clock status:
+
+- [ ] Alliance on the offensive → Clock 0
+- [ ] Alliance under pressure → Clock 2-3
+- [ ] Alliance on the defensive → Clock 5+
+
+Pull `well-of-dragons/hær-clock.md` for events.
+
+---
+
+### Focus Status (Level 2)
+
+Mark which foci have been sabotaged and which are intact:
+
+| Focus | Status | Sabotage Effect |
 |---|---|---|
-| Black (Acid) | [ ] Intakt / [ ] Ødelagt | Acid pressure fjernes |
-| Blue (Lightning) | [ ] Intakt / [ ] Ødelagt | Lair actions fjernes |
-| Green (Mist) | [ ] Intakt / [ ] Ødelagt | Poison clouds fjernes |
-| Red (Ember) | [ ] Intakt / [ ] Ødelagt | Magma-tiles fjernes |
-| White (Frost) | [ ] Intakt / [ ] Ødelagt | Cold slow fjernes |
+| Black (Acid) | [ ] Intact / [ ] Destroyed | Acid pressure removed |
+| Blue (Lightning) | [ ] Intact / [ ] Destroyed | Lair actions removed |
+| Green (Mist) | [ ] Intact / [ ] Destroyed | Poison clouds removed |
+| Red (Ember) | [ ] Intact / [ ] Destroyed | Magma-tiles removed |
+| White (Frost) | [ ] Intact / [ ] Destroyed | Cold slow removed |
 
-**Intakte foci ved transition til Niveau 3 = +1 clock per foci.**
-
----
-
-### Severin-forberedelse
-
-- [ ] HP tracket: 230 total, Fase 2 starter ved 115
-- [ ] Legendary Resistance tokens klar: 3
-- [ ] Legendary Action tracker klar: 3/runde
-- [ ] Spell slots noteret
-- [ ] Maske-HP tracker: 5× 30 HP
-- [ ] Tiamat-interferens tabel fremme (niveau-3-the-crown.md)
+**Intact foci at transition to Level 3 = +1 clock per focus.**
 
 ---
 
-### NPC'er der er relevante denne session
+### Severin Preparation
 
-Gennemgå og hav klar:
+- [ ] HP tracked: 230 total, Phase 2 starts at 115
+- [ ] Legendary Resistance tokens ready: 3
+- [ ] Legendary Action tracker ready: 3/round
+- [ ] Spell slots noted
+- [ ] Mask HP tracker: 5× 30 HP
+- [ ] Tiamat interference table on hand (`temple-of-tiamat/niveau-3-the-crown.md`)
 
-- [ ] Naergoth (portal-scene) – `npcs/naergoth-bladelord.md`
+---
+
+### NPCs Relevant This Session
+
+Review and have ready:
+
+- [ ] Naergoth (portal scene) – `npcs/naergoth-bladelord.md`
 - [ ] Severin (boss) – `npcs/severin.md`
-- [ ] Ulder Ravengard (slagmark) – `npcs/council-of-waterdeep.md`
-- [ ] Remallia Haventree (Leosin-kortet) – `npcs/council-of-waterdeep.md`
-- [ ] Elia/metallic dragon (luft-encounters)
+- [ ] Ulder Ravengard (battlefield) – `npcs/council-of-waterdeep.md`
+- [ ] Remallia Haventree (Leosin's map) – `npcs/council-of-waterdeep.md`
+- [ ] Elia/metallic dragon (air encounters)
 
 ---
 
-### Loot og ressourcer tilgængeligt
+### Available Loot and Resources
 
-Tjek hvad gruppen allerede har (fra Rum 7/Naergoth-scene):
+Check what the group already has (from Room 7/Naergoth scene):
 
-- [ ] Superior Healing Potions: ___ antal
-- [ ] Scroll of Summon Draconic Spirit: ja/nej
-- [ ] Andre scrolls: ___
-- [ ] Magic items fra Well of Dragons: ___
+- [ ] Superior Healing Potions: ___ count
+- [ ] Scroll of Summon Draconic Spirit: yes/no
+- [ ] Other scrolls: ___
+- [ ] Magic items from Well of Dragons: ___
 
 ---
 
-## Ved bordet – hurtigreference
+## At the Table – Quick Reference
 
-### Ritual Clock fysisk tracker
+### Ritual Clock Physical Tracker
 
-Brug d10 eller terning/token-sæt:
+Use a d10 or die/token set:
 
 ```
 RITUAL CLOCK: [  ] (0-8)
 ```
 
-**Opdater synligt** når clock ændres. Lad spillerne se det.
+**Update visibly** when the clock changes. Let the players see it.
 
-### Hær-clock fysisk tracker
+### Army Clock Physical Tracker
 
 ```
-HÆR-CLOCK: [  ] (0-8)
+ARMY CLOCK: [  ] (0-8)
 ```
 
-### Initiative tracker – Niveau 3
+### Initiative Tracker – Level 3
 
-| Karakter/Fjende | Initiative | HP | Status |
+| Character/Enemy | Initiative | HP | Status |
 |---|---|---|---|
 | Axar Runes | | /114 | |
 | Daxx Drake | | /108 | |
@@ -128,11 +128,11 @@ HÆR-CLOCK: [  ] (0-8)
 
 ---
 
-## Stemnings-noter
+## Atmosphere Notes
 
-### Åbning – ankomst til Well of Dragons
+### Opening – Arrival at Well of Dragons
 
-Brug denne tekst, eller tilpas:
+Use this text, or adapt:
 
 > Foran jer rejser calderaen sig som en sort krone mod himlen. Den gamle vulkan er død, men alt omkring den lever med krigens støj. Faner knækker i vinden. Drager kredser over askeskyerne som rovfugle over en slagmark. Under dem bevæger tusinder af kultister sig i formationer mellem knogler så store, at ribbenene ligner buer fra faldne katedraler.
 >
@@ -142,7 +142,7 @@ Brug denne tekst, eller tilpas:
 >
 > Ikke fra én drage. Fra noget, der får alle drager til at lyde som ekkoer.
 
-### Tiamat-nærvær eskalering (vælg baseret på clock)
+### Tiamat Presence Escalation (choose based on clock)
 
 **Clock 1-2:** "Luften lugter af metal og noget gammelt."
 
@@ -154,11 +154,11 @@ Brug denne tekst, eller tilpas:
 
 ---
 
-## Post-session noter
+## Post-Session Notes
 
-- [ ] Hvad var clock-niveauet ved Severins fald?
-- [ ] Hvilke foci var intakte?
-- [ ] Hvem brugte hvad af ressourcer (spells, HP, potions)?
-- [ ] Hvad overraskede spillerne positivt?
-- [ ] Hvad bør justeres til fortsættelse?
-- [ ] Efterspil: hvad sker der med hærene/alliancerne?
+- [ ] What was the clock level at Severin's fall?
+- [ ] Which foci were intact?
+- [ ] Who used what resources (spells, HP, potions)?
+- [ ] What surprised the players positively?
+- [ ] What should be adjusted for the continuation?
+- [ ] Aftermath: what happens to the armies/alliances?

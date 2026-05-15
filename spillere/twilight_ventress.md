@@ -5,7 +5,7 @@
 
 -----
 
-## Identitet
+## Identity
 
 |             |               |
 |-------------|---------------|
@@ -21,9 +21,9 @@
 
 -----
 
-## Kerne-stats
+## Core Stats
 
-|Stat                     |Værdi           |Modifier          |
+|Stat                     |Value           |Modifier          |
 |-------------------------|----------------|------------------|
 |**AC**                   |17              |—                 |
 |**HP Max**               |108             |(15d8 hit dice)   |
@@ -48,12 +48,12 @@
 |WIS    |10   |+0 |+0       |
 |CHA    |20   |+5 |**+10** ⭐|
 
-### Defenser
+### Defenses
 
 - **Resistance:** Fire
 - **Immunity:** Magical Sleep (Fey Ancestry)
-- **Advantage** mod being Charmed
-- **Advantage** på CON saves for at maintain Concentration (War Caster)
+- **Advantage** against being Charmed
+- **Advantage** on CON saves to maintain Concentration (War Caster)
 
 -----
 
@@ -111,61 +111,61 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Bonus Actions
 
-**Bardic Inspiration (5 / Short Rest).** Som Bonus Action: inspire en anden creature inden for 60 ft du kan se eller høre. Får 1d12 Bardic Inspiration die. Inden for næste hour: når creature fejler D20 Test, kan den rolle die og lægge til total — potentielt vende fejl til succes.
+**Bardic Inspiration (5 / Short Rest).** As a Bonus Action: inspire another creature within 60 ft you can see or hear. It gains 1d12 Bardic Inspiration die. Within the next hour: when the creature fails a D20 Test, it can roll the die and add it to the total — potentially turning failure into success.
 
 ### Reactions
 
-**Countercharm.** Hvis du eller en creature inden for 30 ft fejler save mod effect der applies Charmed eller Frightened: brug Reaction til at få save rerolled med Advantage.
+**Countercharm.** If you or a creature within 30 ft fails a save against an effect that applies Charmed or Frightened: use your Reaction to have the save rerolled with Advantage.
 
-**Cutting Words.** Når en creature inden for 60 ft laver damage roll eller succeeds ability check eller attack roll: expend Bardic Inspiration → rull die og træk fra creature’s roll, potentielt reducere damage eller vende succes til fejl.
+**Cutting Words.** When a creature within 60 ft makes a damage roll or succeeds on an ability check or attack roll: expend Bardic Inspiration → roll the die and subtract from the creature’s roll, potentially reducing damage or turning success into failure.
 
-**Reactive Spell (War Caster).** Når en creature provokerer Opportunity Attack ved at forlade din reach: cast en spell (1 action, single target) i stedet for OA.
+**Reactive Spell (War Caster).** When a creature provokes an Opportunity Attack by leaving your reach: cast a spell (1 action, single target) instead of the OA.
 
 -----
 
-## Klasse-features (Bard 15 — College of Lore)
+## Class Features (Bard 15 — College of Lore)
 
 - **Core Bard Traits** (PHB-2024 59)
 - **Bardic Inspiration** (PHB-2024 59) — 5 ×/Short or Long Rest, 1d12 die
-- **Spellcasting** — CHA, DC 18, +10 attack; Musical Instrument som Spellcasting Focus
-- **Expertise** (PHB-2024 60) — 2 skills (level 3) + 2 mere (level 9) = 4 total
-- **Jack of All Trades** (PHB-2024 60) — Tilføj halv Proficiency Bonus (+2) til ability checks med skills du ikke er proficient i
+- **Spellcasting** — CHA, DC 18, +10 attack; Musical Instrument as Spellcasting Focus
+- **Expertise** (PHB-2024 60) — 2 skills (level 3) + 2 more (level 9) = 4 total
+- **Jack of All Trades** (PHB-2024 60) — Add half Proficiency Bonus (+2) to ability checks with skills you are not proficient in
 - **Bard Subclass: College of Lore** (PHB-2024 60)
-- **Bonus Proficiencies** (PHB-2024 66) — 3 ekstra skills
+- **Bonus Proficiencies** (PHB-2024 66) — 3 extra skills
 - **Cutting Words** (PHB-2024 66)
-- **Font of Inspiration** (PHB-2024 61) — Regain alle expended Bardic Inspiration efter Short/Long Rest; kan expend spell slot (no action) for én extra brug
-- **Magical Discoveries** (PHB-2024 66) — Lær 2 spells af eget valg fra Cleric/Druid/Wizard spell list (kan ikke være cantrip eller spell du har slots til). Always prepared. Kan replace ved level up
+- **Font of Inspiration** (PHB-2024 61) — Regain all expended Bardic Inspiration after Short/Long Rest; can expend a spell slot (no action) for one extra use
+- **Magical Discoveries** (PHB-2024 66) — Learn 2 spells of your choice from the Cleric/Druid/Wizard spell list (cannot be a cantrip or a spell you have slots for). Always prepared. Can replace at level up
 - **Countercharm** (PHB-2024 61)
-- **Magical Secrets** (PHB-2024 61) — Når du når Bard level der øger antallet Prepared Spells: vælg nye spells fra Bard/Cleric/Druid/Wizard lists. Tæller som Bard spells
-- **Peerless Skill** (PHB-2024 67) — Når du fejler ability check eller attack roll: expend Bardic Inspiration → rull die og læg til d20
-- **Ability Score Improvements** — niveau 4, 8, 12
+- **Magical Secrets** (PHB-2024 61) — When you reach a Bard level that increases the number of Prepared Spells: choose new spells from Bard/Cleric/Druid/Wizard lists. Count as Bard spells
+- **Peerless Skill** (PHB-2024 67) — When you fail an ability check or attack roll: expend Bardic Inspiration → roll the die and add to the d20
+- **Ability Score Improvements** — level 4, 8, 12
 
 -----
 
 ## Mark of Shadow Elf Species Traits
 
-- **Darkvision** (BR 23) — Op til 60 ft (shades of gray)
-- **Keen Senses** — Proficiency i Perception
-- **Fey Ancestry** — Advantage på saves mod Charmed; magic kan ikke putte dig i søvn
-- **Trance** — Behøver ikke sove; mediter semiconsciously 4 timer = 8 timers human sleep
-- **Cunning Intuition** (ERftLW 49) — Når du laver CHA (Performance) eller DEX (Stealth) check: rull d4 og læg til
-- **Shape Shadows** (ERftLW) — Kender Minor Illusion cantrip. Fra 3rd level: cast Invisibility 1/Long Rest. CHA spellcasting
-- **Spells of the Mark** (ERftLW 49) — Spells fra Mark of Shadow Spells table tilføjes til din spell list
+- **Darkvision** (BR 23) — Up to 60 ft (shades of gray)
+- **Keen Senses** — Proficiency in Perception
+- **Fey Ancestry** — Advantage on saves against Charmed; magic cannot put you to sleep
+- **Trance** — Does not need sleep; meditate semiconsciously 4 hours = 8 hours of human sleep
+- **Cunning Intuition** (ERftLW 49) — When you make a CHA (Performance) or DEX (Stealth) check: roll d4 and add to the result
+- **Shape Shadows** (ERftLW) — Knows Minor Illusion cantrip. From 3rd level: cast Invisibility 1/Long Rest. CHA spellcasting
+- **Spells of the Mark** (ERftLW 49) — Spells from the Mark of Shadow Spells table are added to your spell list
 
 -----
 
 ## Feats
 
 - **War Caster** (PHB-2024 209)
-  - *Concentration*: Advantage på CON saves for Concentration
-  - *Reactive Spell*: Cast spell som Reaction i stedet for OA
-  - *Somatic Components*: Kan udføre Somatic components med weapons/Shield i hænder
+  - *Concentration*: Advantage on CON saves for Concentration
+  - *Reactive Spell*: Cast spell as a Reaction instead of OA
+  - *Somatic Components*: Can perform Somatic components with weapons/Shield in hand
 - **Ability Score Improvement** (PHB-2024 202)
 - **Ability Score Improvement** (PHB-2024 202)
 - **Alert** (PHB-2024 200)
-  - *Initiative Proficiency*: +5 til Initiative rolls
-  - *Initiative Swap*: Umiddelbart efter Initiative roll → swap med willing ally (ingen Incapacitated)
-- **Criminal Ability Score Improvements** (PHB-2024 179) — +2/+1 til to scores
+  - *Initiative Proficiency*: +5 to Initiative rolls
+  - *Initiative Swap*: Immediately after Initiative roll → swap with a willing ally (none Incapacitated)
+- **Criminal Ability Score Improvements** (PHB-2024 179) — +2/+1 to two scores
 
 -----
 
@@ -179,7 +179,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Carried
 
-|Item                         |Qty|Vægt  |
+|Item                         |Qty|Weight|
 |-----------------------------|---|------|
 |Bag of Holding               |1  |15 lb |
 |Tan Bag of Tricks            |1  |0.5 lb|
@@ -200,29 +200,29 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 |Harper Pin rank 4            |1  |—     |
 |Backpack                     |1  |5 lb  |
 |Dagger                       |1  |1 lb  |
-|Sølv Tværfløjte              |1  |1 lb  |
+|Silver Transverse Flute      |1  |1 lb  |
 |Thieves’ Tools               |4  |4 lb  |
-|Giurlande af blomster        |1  |—     |
+|Garland of flowers           |1  |—     |
 |Component Pouch              |1  |2 lb  |
-|Sort perle                   |3  |—     |
+|Black pearl                  |3  |—     |
 |Anstruth Harp                |1  |—     |
 |Potion of Healing            |4  |2 lb  |
 
-### Yderligere udstyr
+### Additional Equipment
 
 - Rapier, +3
 - Tarot cards
-- Varme støvler
-- 4 kløver
-- 12 gems (2000 GP stk)
-- Varmt vintertøj
-- Drageskæl ×10
+- Warm boots
+- 4 clovers
+- 12 gems (2000 GP each)
+- Warm winter clothing
+- Dragon scales ×10
 - Gem
-- 1 slippers med ederkopspind
+- 1 slipper with spiderweb
 - Bag of salt
-- Rod (grøn)
-- Lædderpung
-- Cloak, wand, ring fra kiste magisk
+- Rod (green)
+- Leather pouch
+- Cloak, wand, ring from magic chest
 - Bedroll
 - Candle ×5
 - Climber’s Kit
@@ -234,24 +234,24 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Disguise Kit
 - Stake (Wooden) ×3
 - Gem of Misty Step ×2
-- Gennemsigtig flaske
+- Transparent bottle
 - Custom Item 27
-- Personlig dagbog
+- Personal diary
 - Bronze amulet
 - Potion of Fire Breath ×2
 - Potion of Stone Giant Strength
 
 ### Coins
 
-|Type|Antal|
-|----|-----|
-|CP  |108  |
-|SP  |48   |
-|EP  |0    |
-|GP  |97   |
-|PP  |385  |
+|Type|Amount|
+|----|------|
+|CP  |108   |
+|SP  |48    |
+|EP  |0     |
+|GP  |97    |
+|PP  |385   |
 
-### Bæreevne
+### Carrying Capacity
 
 - **Weight Carried:** 473 lb
 - **Encumbered at:** 120 lb
@@ -357,10 +357,10 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ## Backstory
 
-*(Karakterark’s backstory-felt er tomt.)*
+*(Character sheet’s backstory field is empty.)*
 
 -----
 
-## Yderligere notater
+## Additional Notes
 
-*(Karakterark’s additional notes-felt er tomt.)*
+*(Character sheet’s additional notes field is empty.)*

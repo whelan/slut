@@ -1,10 +1,10 @@
-# Well of Dragons – Tilgange
+# Well of Dragons – Approaches
 
-Tre tilgange. Alle er farlige. Alle giver forskellige fordele og encounters.
+Three approaches. All are dangerous. All offer different advantages and encounters.
 
 ---
 
-## Overordnet scene
+## Overview Scene
 
 > Calderaen er ikke en destination. Det er en anklage.
 >
@@ -16,191 +16,191 @@ Tre tilgange. Alle er farlige. Alle giver forskellige fordele og encounters.
 
 ---
 
-## Tilgang 1 – Fra land (Frontlinjen)
+## Approach 1 – By Land (The Front Line)
 
-**Tone:** Krig, kaos, støj. Gruppen er en spydspids bag en knækkende frontlinje.
+**Tone:** War, chaos, noise. The group is a spearhead behind a cracking front line.
 
-### Scene 1 – Brud i frontlinjen
+### Scene 1 – Break in the Front Line
 
-En allieret flanke er ved at kollapse. Kultens cavalry (drakes + half-dragons) har brudt igennem Order of the Gauntlet's linje.
+An allied flank is about to collapse. The Cult's cavalry (drakes + half-dragons) has broken through the Order of the Gauntlet's line.
 
-**DM-opsætning:** Gruppen møder Ontharr Frume eller en Flaming Fist major der ber dem om hjælp.
+**DM setup:** The group encounters Ontharr Frume or a Flaming Fist major who asks for their help.
 
-**Valg:** Hjælp flanken (Clock –1 på Well of Dragons army clock, men 10 minutters forsinkelse) eller pres frem (Clock bevæger sig, men allierede dør).
+**Choice:** Help the flank (Clock –1 on Well of Dragons army clock, but 10-minute delay) or press forward (Clock advances, but allies die).
 
-**Mini-encounter:** Gør dette til en Skill Challenge hvis kamp kan undgås:
-- DC 14 Persuasion: "Vi har brug for jer forude – I er mere værd end som flanke"
-- DC 16 Athletics: Gruppen bryder igennem massen af panikslagne soldater
-- DC 13 Stealth: Sneaker sig forbi kaosset
+**Mini-encounter:** Run this as a Skill Challenge if combat can be avoided:
+- DC 14 Persuasion: "We need you ahead — you're worth more than a flank"
+- DC 16 Athletics: The group breaks through the mass of panicked soldiers
+- DC 13 Stealth: Slip past the chaos
 
 ---
 
-### Scene 2 – Dværgiske sappers under pres
+### Scene 2 – Dwarven Sappers Under Fire
 
-Ambassador Brawnanvil's sappers har nået en knoglebarrikade og forsøger at sprænge et hul. Men de er under beskydning fra cult archers.
+Ambassador Brawnanvil's sappers have reached a bone barricade and are attempting to blast through it. But they are under fire from cult archers.
 
-**Encounter:** 3 runder at beskytte sapperne (de kan ikke kæmpe – de håndterer eksplosivet).
+**Encounter:** 3 rounds to protect the sappers (they cannot fight — they are handling the explosive).
 
-**Fjender:**
+**Enemies:**
 - 6× Dragonclaw archers (AC 14, HP 18, Shortbow +4, 1d6+2)
-- 1× Dragonwing der prøver at komme til sapperne (AC 14, HP 44, Fly 30)
+- 1× Dragonwing trying to reach the sappers (AC 14, HP 44, Fly 30)
 
-**Succes:** Hul i barrikaden åbner alternativ rute mod templet (gruppen kan bypasse en guard post). Army clock –1.
+**Success:** A hole in the barricade opens an alternate route toward the temple (the group can bypass a guard post). Army clock –1.
 
-**Failure:** Sapperne mister 2 folk, hul er stadig åbnet men med større tab. Army clock +1.
-
----
-
-### Scene 3 – Chromatic dragon strafing run
-
-En adult Blue Dragon laver en strafing run langs frontlinjen.
-
-**Ikke nødvendigvis en kamp:** Gruppen kan:
-- Tage dækning (Stealth DC 14 – dragen bemærker dem ikke)
-- Skyde den (damage den, den fokuserer på dem og quitter frontlinjen)
-- Bruge en allieret metallic dragon (Elia?) til at distrahere den
-
-**Hvis kamp:**
-- Dragen bruger **1 Lightning Breath** og er derefter opptatt af frontlinjen
-- Den er ikke her for at dræbe gruppen – den er her for at demoralisere hæren
-- Giver gruppen en mulighed for at observere dens patruljemønster (Daxx: Perception DC 12)
+**Failure:** The sappers lose 2 people, the hole is still opened but with greater losses. Army clock +1.
 
 ---
 
-### Scene 4 – Kulten lukker hullet
+### Scene 3 – Chromatic Dragon Strafing Run
 
-Cult war priests forsøger at lukke et gab i frontlinjen der netop er åbnet.
+An adult Blue Dragon makes a strafing run along the front line.
 
-**Timing:** Dette sker mens gruppen er midt i andet encounter.
+**Not necessarily combat:** The group can:
+- Take cover (Stealth DC 14 — the dragon does not notice them)
+- Shoot it (damage it, it focuses on them and quits the front line)
+- Use an allied metallic dragon (Elia?) to distract it
 
-**Valg:** Ignorér det (army clock +2) eller brug 1 runde til at kaste et spell der forstyrrer ritualet (Axar: Counterspell eller Dispel Magic DC 14).
+**If combat:**
+- The dragon uses **1 Lightning Breath** and is then occupied with the front line
+- It is not here to kill the group — it is here to demoralize the army
+- Gives the group an opportunity to observe its patrol pattern (Daxx: Perception DC 12)
 
 ---
 
-## Tilgang 2 – Fra vand (Underjordisk)
+### Scene 4 – The Cult Closes the Gap
 
-**Tone:** Mørkt, klaustrofobisk, sort vand. Gammel dragekraft nedenunder.
+Cult war priests are attempting to seal a gap in the front line that has just been opened.
+
+**Timing:** This happens while the group is in the middle of another encounter.
+
+**Choice:** Ignore it (army clock +2) or spend 1 round casting a spell that disrupts the ritual (Axar: Counterspell or Dispel Magic DC 14).
+
+---
+
+## Approach 2 – By Water (Underground)
+
+**Tone:** Dark, claustrophobic, black water. Ancient dragon power below.
 
 ### Scene 1 – Lava Tube Entry
 
-Gruppen finder en lava tube-indgang i caldera-væggen via:
-- Daxx: Survival DC 14 (finder mærker fra drager der har brugt den)
-- Et Harpers-kort fra Remallia Haventree (automatisk)
+The group finds a lava tube entrance in the caldera wall via:
+- Daxx: Survival DC 14 (finds marks from dragons that have used it)
+- A Harpers map from Remallia Haventree (automatic)
 
 > Tunnelen er bred nok til to mand side om side. Lugt af svovl og noget ældre. Under fødderne er vand – sort, stille, måske knæ-dybt.
 
-**Hazard:** Black dragon influence. Vandet er svagt surt:
-- 1 times gang: DC 12 CON save per 10 minutter eller 1d4 acid (rustning og udstyr påvirkes)
-- Daxx: Ranger's Natural Explorer – er immun til navigations-udfordringer, giver advantage
+**Hazard:** Black dragon influence. The water is mildly acidic:
+- 1 hour of travel: DC 12 CON save every 10 minutes or 1d4 acid (armor and equipment affected)
+- Daxx: Ranger's Natural Explorer — immune to navigation challenges, grants advantage
 
 ---
 
 ### Scene 2 – Dragonbone Reefs
 
-Underjordisk reservoir med halvt nedsunket drageknogler og black vand.
+Underground reservoir with half-submerged dragon bones and black water.
 
 > Ribbenene fra noget kæmpestort rager op af vandet som en overstørret katedral der er ved at drukne. I kan ikke se bunden.
 
 **Encounter – Undead dragon remains:**
 
-En **Ghost Dragon** (homebrew CR 8) – ånden fra en gammel black dragon der fortsat vogter sin dødsgrav.
+A **Ghost Dragon** (homebrew CR 8) — the spirit of an ancient black dragon that still guards its burial place.
 
-Den angriber ikke nødvendigvis. Den **vil have sin historie anerkendt.**
+It does not necessarily attack. It **wants its history acknowledged.**
 
-- DC 14 History: Axar kender dens navn (Vyraxian – en legendarisk sort drage)
-- DC 16 Persuasion: Twilight kan overbevise den om at kulten har vanæret dens gravsted
-- Succes: Den rydder vejen og afslører en sidekanal direkte under templet
-- Failure: Den angriber. 2 runder, derefter er den villig til at tale igen (hvis en PC overlever det)
-
----
-
-### Scene 3 – Kultens Sluice-Gates
-
-Kulten kontrollerer vandstrømmen med porte. Fem kultister vogter.
-
-**Alternativ:** Daxx kan lave en Stealth DC 14 solo-scout og rapportere back. Gruppen omgår med Deception (kultist-forklædning) eller Stealth.
-
-**Hvis combat:** 5× Cultist (CR ½) + 1× Cult Fanatic (CR 2).
+- DC 14 History: Axar knows its name (Vyraxian — a legendary black dragon)
+- DC 16 Persuasion: Twilight can convince it that the Cult has desecrated its burial site
+- Success: It clears the way and reveals a side channel directly below the temple
+- Failure: It attacks. 2 rounds, then it is willing to talk again (if a PC survives)
 
 ---
 
-### Scene 4 – Ritualt vandkammer
+### Scene 3 – The Cult's Sluice-Gates
 
-En hvælvet kammer direkte under templet. Vandet her er varmt og rødt.
+The Cult controls the water flow with gates. Five cultists stand guard.
+
+**Alternative:** Daxx can perform a solo Stealth DC 14 scout and report back. The group bypasses using Deception (cultist disguise) or Stealth.
+
+**If combat:** 5× Cultist (CR ½) + 1× Cult Fanatic (CR 2).
+
+---
+
+### Scene 4 – Ritual Water Chamber
+
+A vaulted chamber directly beneath the temple. The water here is warm and red.
 
 > Kanalerne i templets gulv over jer dræner ned i dette kammer. Ritualet trækker fra alt under sig – og hvad der er under, er I.
 
-**Mulighed:** Axar kan forstyrre ritual-energien nedefra:
-- Arcana DC 17: Sender en forstyrring op i templestrukturen → Clock –1
-- Kræver 5 runder fuld concentration (Daxx beskytter ham)
+**Option:** Axar can disrupt the ritual energy from below:
+- Arcana DC 17: Sends a disruption up through the temple structure → Clock –1
+- Requires 5 rounds of full concentration (Daxx protects him)
 
-**Adgang til templet:** En spiral-trappe fører op i tempelets kælder – direkte til Niveau 1, men på en position bag de primære forsvarere (advantage på første initiative).
-
----
-
-## Tilgang 3 – Fra luften
-
-**Tone:** Spektakulær, farlig, vertikal. Faldskader og tvungen bevægelse.
-
-**Forudsætning:** Gruppen har Winged Boots, Fly-spell, allierede drager eller lignende.
+**Access to the temple:** A spiral staircase leads up into the temple's basement — directly to Level 1, but positioned behind the primary defenders (advantage on first initiative).
 
 ---
 
-### Scene 1 – Dogfight over calderaen
+## Approach 3 – By Air
 
-Gruppen er i luften. Chromatic og Metallic dragons kæmper om dem.
+**Tone:** Spectacular, dangerous, vertical. Fall damage and forced movement.
 
-**Ikke taktisk combat:** Kør dette som en Skill Challenge med visuelle beskrivelser.
+**Prerequisite:** The group has Winged Boots, a Fly spell, allied dragons, or similar.
+
+---
+
+### Scene 1 – Dogfight over the Caldera
+
+The group is airborne. Chromatic and Metallic dragons are fighting around them.
+
+**Not tactical combat:** Run this as a Skill Challenge with visual descriptions.
 
 DC 14, 5 successes / 3 failures:
 
-| Skill | Mulighed |
+| Skill | Option |
 |---|---|
-| Acrobatics | Undvige et drage-svingSang |
-| Athletics | Holde sig fast på allieret drage |
-| Perception | Finde åbning i patruljeringen (Daxx advantage) |
-| Arcana | Identificere safe corridor i ritual-vindtryk (Axar) |
-| Performance | Signalere til metallic allies (Twilight) |
+| Acrobatics | Dodge a dragon-wing sweep |
+| Athletics | Hold on to an allied dragon |
+| Perception | Find an opening in the patrol pattern (Daxx advantage) |
+| Arcana | Identify a safe corridor in the ritual wind pressure (Axar) |
+| Performance | Signal to metallic allies (Twilight) |
 
-**Succes:** Gruppen lander på templets ydre niveau 2 eller 3 direkte.
-**Failure (3):** Gruppen lander på Niveau 1 som planlagt, men tager 3d6 faldskade (Frygtløs ignorerer dette via Danger Sense/Unarmored Defense).
-
----
-
-### Scene 2 – Metallic dragon escort er trukket væk
-
-**Narrativ:** Elia eller en anden metallic ally dykker ned for at stoppe en Red dragon der angriber hæren. Gruppen er alene i 2 runder.
-
-**Udfordring:** 3× Dragonwing kultister på flying drakes forsøger at intercept.
-
-**Drakes (3):** CR 2 each, Fly 60, stinger +4, 2d6+2 piercing. De er ikke her for at vinde – de er her for at slowen gruppen nok til at et andet element kan handle.
+**Success:** The group lands on the temple's outer Level 2 or 3 directly.
+**Failure (3):** The group lands on Level 1 as planned, but takes 3d6 fall damage (Frygtløs ignores this via Danger Sense/Unarmored Defense).
 
 ---
 
-### Scene 3 – Cult mages på templets top
+### Scene 2 – Metallic Dragon Escort Pulled Away
 
-Fire cult mages forsøger at bruge Earthbind, Hold Monster og Counterspell mod flygten gruppen.
+**Narrative:** Elia or another metallic ally dives down to stop a Red Dragon attacking the army. The group is alone for 2 rounds.
 
-**Earthbind (DC 14 STR save):** Speed becomes 0, Fly becomes 0 for 1 runde – potentiel faldfare.
+**Challenge:** 3× Dragonwing cultists on flying drakes attempt to intercept.
 
-**Frygtløs:** Er immun til Earthbind hvis han er inden for 30 fod af Twilight (Cutting Words kan negere forced ground landing).
+**Drakes (3):** CR 2 each, Fly 60, stinger +4, 2d6+2 piercing. They are not here to win — they are here to slow the group enough for another element to act.
 
-**Daxx:** Kan bruge Hunter's Mark + Volley til at dæmpe mages samtidigt.
+---
+
+### Scene 3 – Cult Mages on the Temple Summit
+
+Four cult mages attempt to use Earthbind, Hold Monster, and Counterspell against the flying group.
+
+**Earthbind (DC 14 STR save):** Speed becomes 0, Fly becomes 0 for 1 round — potential fall risk.
+
+**Frygtløs:** Is immune to Earthbind if he is within 30 feet of Twilight (Cutting Words can negate forced ground landing).
+
+**Daxx:** Can use Hunter's Mark + Volley to suppress multiple mages simultaneously.
 
 ---
 
 ### Scene 4 – Landing
 
-Gruppen lander på templets ydre. De er på Niveau 2 eller 3 (afhænger af Skill Challenge succes).
+The group lands on the temple exterior. They are on Level 2 or 3 (depending on Skill Challenge success).
 
-Alternativ landing: **Knoglebroerne** udenfor templet – disse er 10 fod brede, 40 fod lange. Et chromatic dragon-wing strafing run (ikke landing, bare flyover) giver Dex DC 13 save eller forced movement 5 fod.
+Alternate landing: **The Bone Bridges** outside the temple — 10 feet wide, 40 feet long. A chromatic dragon-wing strafing run (not landing, just a flyover) forces a Dex DC 13 save or forced movement 5 feet.
 
 ---
 
-## Hvilken tilgang passer gruppen?
+## Which Approach Fits the Party?
 
-| Tilgang | Bedst for | Styrker |
+| Approach | Best for | Strengths |
 |---|---|---|
-| Land | Frygtløs-øjeblikke, allierede interaktioner | Bredest encounter-variation, mest politisk |
-| Vand | Axar-heavy, mysterium, undgå main combat | Ghost Dragon RP, Ritual disruption nedefra |
-| Luft | Daxx-heavy, spektakulær åbning | Starter på højere niveau, tidsbesparing |
+| Land | Frygtløs moments, allied interactions | Widest encounter variety, most political |
+| Water | Axar-heavy, mystery, avoiding main combat | Ghost Dragon RP, ritual disruption from below |
+| Air | Daxx-heavy, spectacular opening | Starts on a higher level, saves time |

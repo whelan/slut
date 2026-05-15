@@ -1,94 +1,94 @@
-# Hær-Clock – Well of Dragons Army Front
+# Army Clock – Well of Dragons Army Front
 
-Krigen udenfor templet køres ikke som 1:1 grid-combat. Det er en scene- og clock-baseret ramme der giver spillerne fornemmelsen af en episk slagmark uden at stoppe kampagnen.
+The war outside the temple is not run as 1:1 grid-combat. It is a scene- and clock-based framework that gives the players the feel of an epic battlefield without stopping the campaign.
 
 ---
 
 ## Army Front Clock
 
-| Trin | Status |
+| Step | Status |
 |---|---|
-| 0 | Alliancen holder linjen. Fremgang. |
-| 1 | Kultens første modangreb – flanke presset. |
-| 2 | Chromatic dragon strike – en sektion af hæren flygter. |
-| 3 | En allieret flanke vakler – Order of the Gauntlet er ved at bryde. |
-| 4 | Dværgiske sappers åbner passage – eller dør i forsøget. |
-| 5 | Metallic dragons tvinges væk af chromatic rivals. |
-| 6 | Kulten begynder aktivt at lukke caldera-indgangen. |
-| 7 | Alliancen lider katastrofale tab – Flaming Fist taber tre officerer. |
-| 8 | Ritualet kan ikke længere angribes udefra. Alliancen er defensiv. |
+| 0 | The Alliance holds the line. Advancing. |
+| 1 | The Cult's first counterattack — flank under pressure. |
+| 2 | Chromatic dragon strike — a section of the army breaks and flees. |
+| 3 | An allied flank wavers — the Order of the Gauntlet is about to break. |
+| 4 | Dwarven sappers open a passage — or die trying. |
+| 5 | Metallic dragons are driven off by chromatic rivals. |
+| 6 | The Cult begins actively sealing the caldera entrance. |
+| 7 | The Alliance suffers catastrophic losses — the Flaming Fist loses three officers. |
+| 8 | The ritual can no longer be attacked from outside. The Alliance is on the defensive. |
 
-**Clock stiger** hvert andet encounter-set (DM's vurdering baseret på tempo).
+**Clock advances** every other encounter-set (DM's judgment based on pacing).
 
-**PC-handlinger der sænker hær-clock:**
-- Dræb et chromatic dragon i frontlinjen (–2)
-- Succesfuld allieret-redning encounter (–1)
-- Sappers lykkes med passage (–1)
-- Metallic ally stabiliserer flanken (–1)
+**PC actions that lower the army clock:**
+- Kill a chromatic dragon on the front line (–2)
+- Successful allied-rescue encounter (–1)
+- Sappers succeed with the passage (–1)
+- Metallic ally stabilizes the flank (–1)
 
 ---
 
-## Frontline Events (d8 tabel)
+## Frontline Events (d8 table)
 
-Rul 1d8 ved overgangen mellem store encounters, eller brug som kulisse-beskrivelse.
+Roll 1d8 between major encounters, or use as background description.
 
 | d8 | Event |
 |---:|---|
-| 1 | En metallic dragon falder brændende ned 200 fod fra gruppen. Den er stadig i live – men ikke i kamp. |
-| 2 | Dværgiske sappers beder om 3 runder til at sprænge en knoglebarrikade. De har brug for dækning. |
-| 3 | Emerald Enclave treants stikker i brand. En druide forsøger at slukke dem – hun er ved at gå ned. |
-| 4 | Flaming Fist holder en bro over et lavarende. De mister officerer. En sergeant råber efter hjælp. |
-| 5 | Cult mages åbner en kort portal til Avernus. 2d4 Abishai falder ud og angriber alliancens baglinje. |
-| 6 | En adult chromatic dragon river en allieret belejringsmaskine fra hinanden. 30 soldater er begravet. |
-| 7 | Harpers bringer et kort og en hemmelig passage – men budbringeren er såret og ved at miste bevidstheden. |
-| 8 | Tiamats brøl – ikke Severins, ikke en drage. Noget bag portalen. Alt på slagmarken stopper i 6 sekunder. |
+| 1 | A metallic dragon falls burning 200 feet from the group. It is still alive — but out of the fight. |
+| 2 | Dwarven sappers need 3 rounds to blast through a bone barricade. They cannot fight — they are handling the explosive. They need cover. |
+| 3 | Emerald Enclave treants catch fire. A druid is trying to extinguish them — she is going down. |
+| 4 | The Flaming Fist is holding a bridge over a lava channel. They are losing officers. A sergeant shouts for help. |
+| 5 | Cult mages open a brief portal to Avernus. 2d4 Abishai spill out and attack the alliance's rear line. |
+| 6 | An adult chromatic dragon tears apart an allied siege engine. 30 soldiers are buried. |
+| 7 | The Harpers bring a map and a secret passage — but the courier is wounded and losing consciousness. |
+| 8 | Tiamat's roar — not Severin's, not a dragon's. Something behind the portal. Everything on the battlefield stops for 6 seconds. |
 
-**Brug disse som:** Øjebliksbeskrivelser i baggrunden (5 sekunder narration), aktive valg for spillerne (hjælp eller ej), eller som triggers for hær-clock-stigning.
+**Use these as:** Instant background descriptions (5 seconds of narration), active choices for the players (help or not), or as triggers for army clock advancement.
 
 ---
 
-## Allierede fraktioner – status
+## Allied Factions — Status
 
-| Fraktion | Styrke | Svaghed | Mulig PC-intervention |
+| Faction | Strength | Weakness | Possible PC Intervention |
 |---|---|---|---|
-| **Lord's Alliance (rød)** | Størst hær, stærkest artilleri | Langsom kommandokæde | Ulder Ravengard kan autorisere lynaktioner |
-| **Flaming Fist (orange)** | Mobil, aggressiv | Uden officerer = kaotisk | Redning af Flaming Fist-officerer (event 4) |
-| **Order of the Gauntlet (grå)** | Disciplineret kavaleri | Svag mod flyvende fjender | Ontharr Frume kan koordinere metallic dragons |
-| **Emerald Enclave (grøn)** | Treants + naturkræfter | Sårbar over for brand | Druidisk støtte stopper branden (event 3) |
-| **Dværge – sappers (blå)** | Tunneler, eksplosiver | Langsom under pres | Direkte dækning under demolition (event 2) |
-| **Metallic Dragons (gul)** | Luftdominans | Tvinges på defensiven | Elia-forbindelsen kan kalde dem tilbage |
-| **Cormyr (lilla)** | Defensiv linje | Holder ikke angreb | Ikke aktiv rolle – bagstop |
+| **Lord's Alliance (red)** | Largest army, strongest artillery | Slow chain of command | Ulder Ravengard can authorize lightning actions |
+| **Flaming Fist (orange)** | Mobile, aggressive | Without officers = chaotic | Rescue of Flaming Fist officers (event 4) |
+| **Order of the Gauntlet (grey)** | Disciplined cavalry | Weak against flying enemies | Ontharr Frume can coordinate metallic dragons |
+| **Emerald Enclave (green)** | Treants + natural forces | Vulnerable to fire | Druidic support stops the fire (event 3) |
+| **Dwarves – sappers (blue)** | Tunnelers, explosives | Slow under pressure | Direct cover during demolition (event 2) |
+| **Metallic Dragons (gold)** | Air dominance | Forced onto the defensive | The Elia connection can call them back |
+| **Cormyr (purple)** | Defensive line | Cannot hold an advance | No active role — backstop |
 
 ---
 
-## Narrativ brug
+## Narrative Use
 
-Slagmarken er **aldrig tavs**. Uanset hvad gruppen laver inde i templet, mærker de krigen udenfor.
+The battlefield is **never silent**. Whatever the group is doing inside the temple, they feel the war outside.
 
-**Lyd:** Eksplosioner, dragebrul, menneskeskrig, metallisk klang, trommer.
+**Sound:** Explosions, dragon roars, human screams, metallic clanging, drums.
 
-**Syn:** Røg, flammer, drageskygger over åbninger, støv der falder fra loft, blod der siver ned fra oven (i underjordisk tilgang).
+**Sight:** Smoke, flames, dragon shadows across openings, dust falling from the ceiling, blood seeping down from above (in the underground approach).
 
-**Fornemmelse:** Vibrationer i gulvet fra belejringsmaskiner, temperaturændringer fra chromatic dragon attacks, ritualenergi der intensiveres i takt med hær-tabet.
+**Feel:** Vibrations in the floor from siege engines, temperature shifts from chromatic dragon attacks, ritual energy intensifying in step with army losses.
 
 ---
 
-## NPC-reaktioner på spillernes valg
+## NPC Reactions to Player Choices
 
-### Hvis gruppen hjælper hæren (forsinker tempelindgang)
+### If the group helps the army (delays temple entry)
 
 > Ulder Ravengard ser jer. Han nikker kortvarigt – ikke tak, ikke berømmelse. Bare... anerkendelse af hvad I valgte at ofre.
 
-**Mekanisk:** Hær-clock –1. Ritual clock +1. Gruppen er 10 minutter bagud.
+**Mechanical:** Army clock –1. Ritual clock +1. The group is 10 minutes behind.
 
-### Hvis gruppen ignorerer hæren og presser frem
+### If the group ignores the army and presses forward
 
 > Bag jer hører I lyden af noget der knækker. Ikke en mur. En formation.
 
-**Mekanisk:** Hær-clock +2. Ritual clock –1 (de er hurtige). Men en navngivet NPC (DM's valg) dør.
+**Mechanical:** Army clock +2. Ritual clock –1 (they are fast). But a named NPC (DM's choice) dies.
 
-### Hvis gruppen sender en besked (Daxx eller Twilight som kurer)
+### If the group sends a message (Daxx or Twilight as courier)
 
 > Elia modtager beskeden og dykker ned for at stabilisere flanken. Det giver jer det åndedrag I har brug for.
 
-**Mekanisk:** Hær-clock –1. Gratis, men Elia er ikke tilgængelig som luftstøtte resten af mødet.
+**Mechanical:** Army clock –1. Free action, but Elia is unavailable as air support for the rest of the encounter.

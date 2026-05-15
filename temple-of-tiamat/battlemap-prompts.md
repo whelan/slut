@@ -1,13 +1,13 @@
 # Battlemap Prompts – Temple of Tiamat
 
-Alle prompts er Foundry-ready, topdown, no grid, no text, no labels.
-Standard opløsning: 4096×4096 eller 6000×6000.
+All prompts are Foundry-ready, topdown, no grid, no text, no labels.
+Standard resolution: 4096×4096 or 6000×6000.
 
 ---
 
-## Niveau 1 – The Maw
+## Level 1 – The Maw
 
-### Primær prompt
+### Primary prompt
 
 ```
 Dark fantasy D&D battlemap, top-down view, Temple of Tiamat ground level interior, 
@@ -21,7 +21,7 @@ lighting from below the ritual channels, no grid, no labels, no text, no UI,
 ultra detailed, high resolution, 4096x4096
 ```
 
-### Alternativ: Infiltration-variant (mere tåget/mørk)
+### Alternative: Infiltration variant (darker/more haze)
 
 ```
 Dark fantasy D&D battlemap top-down, Temple of Tiamat entry level, bone-paved floor 
@@ -32,18 +32,18 @@ bleeding through cracks in the structure, no grid, no text, no labels,
 ultra detailed, 4096x4096
 ```
 
-### Taktiske noter til Foundry
+### Tactical Notes for Foundry
 
-- Map size: 30×40 squares (150×200 fod)
-- Ritual channels: markér som hazard terrain (rød outline)
-- Knoglebarrikader: placér som walls/obstacles
-- Fem trapper: markér som separate zones med "stairs up" tokens
+- Map size: 30×40 squares (150×200 ft)
+- Ritual channels: mark as hazard terrain (red outline)
+- Bone barricades: place as walls/obstacles
+- Five staircases: mark as separate zones with "stairs up" tokens
 
 ---
 
-## Niveau 2 – The Fivefold Sanctum
+## Level 2 – The Fivefold Sanctum
 
-### Primær prompt
+### Primary prompt
 
 ```
 Dark fantasy D&D battlemap top-down, Temple of Tiamat middle level, five ritual platforms 
@@ -67,7 +67,7 @@ atmospheric colored lighting from each platform affecting adjacent spaces,
 no grid, no text, no labels, ultra detailed, 4096x4096
 ```
 
-### Alternativ: "Under angreb"-variant (kaotisk)
+### Alternative: 'Under attack' variant (chaotic)
 
 ```
 Dark fantasy D&D battlemap top-down, Temple of Tiamat fivefold sanctum under attack, 
@@ -79,19 +79,19 @@ signs of battle, five colored energy streams destabilizing, dynamic dramatic lig
 no grid, no text, no labels, ultra detailed, 4096x4096
 ```
 
-### Taktiske noter til Foundry
+### Tactical Notes for Foundry
 
-- Map size: 40×40 squares (200×200 fod)
+- Map size: 40×40 squares (200×200 ft)
 - Hub: central 6×6 square zone
-- Broer: 2 squares brede, markér som narrow passage
-- Faldzone: markér udenfor broer som instant death / 8d6 fald
-- Hvert platforms hazard: separat lys-farve i Foundry's lighting
+- Bridges: 2 squares wide, mark as narrow passage
+- Fall zone: mark outside bridges as instant death / 8d6 fall
+- Each platform hazard: separate light color in Foundry's lighting
 
 ---
 
-## Niveau 3 – The Crown
+## Level 3 – The Crown
 
-### Primær prompt
+### Primary prompt
 
 ```
 Dark fantasy D&D battlemap top-down, Temple of Tiamat ritual apex, circular open-air 
@@ -106,7 +106,7 @@ atmospheric dramatic lighting from portal and five dragon head apertures,
 no grid, no text, no labels, ultra detailed, 4096x4096
 ```
 
-### Alternativ: "Tiamat presser igennem"-variant
+### Alternative: 'Tiamat breaking through' variant
 
 ```
 Dark fantasy D&D battlemap top-down, Temple of Tiamat crown platform in crisis, 
@@ -118,7 +118,7 @@ platform edge crumbling, dramatic catastrophic lighting with five color energies
 mixing chaotically, no grid, no text, no labels, ultra detailed, 4096x4096
 ```
 
-### Alternativ: "Templets kollaps"-variant (flugt)
+### Alternative: 'Temple collapse' variant (escape)
 
 ```
 Dark fantasy D&D battlemap top-down, Temple of Tiamat collapsing, circular crown 
@@ -128,19 +128,19 @@ emergency lighting from dying ritual channels, chaotic destruction, narrow escap
 visible at platform edge, no grid, no text, no labels, ultra detailed, 4096x4096
 ```
 
-### Taktiske noter til Foundry
+### Tactical Notes for Foundry
 
-- Map size: 25×25 squares (125×125 fod) – rund platform
-- Platform: cirkulær form, brug Foundry's polygon walls
-- Portal zone: 4×4 squares, markér som hazard ved clock 4+
-- Dragon head openings: fem punkter symmetrisk, markér som special zones
-- Dragon skull pillars: 6 styk, 2×2 squares each, solid walls
+- Map size: 25×25 squares (125×125 ft) – circular platform
+- Platform: circular shape, use Foundry's polygon walls
+- Portal zone: 4×4 squares, mark as hazard at clock 4+
+- Dragon head openings: five points symmetrically placed, mark as special zones
+- Dragon skull pillars: 6 pieces, 2×2 squares each, solid walls
 
 ---
 
-## Overhead – Komplet Temple Oversigt
+## Overhead – Complete Temple Overview
 
-### Til introduktion af templet som helhed
+### For introducing the temple as a whole
 
 ```
 Dark fantasy epic illustration, aerial top-down view of entire Temple of Tiamat 
@@ -161,7 +161,7 @@ epic scale, ultra detailed, 6000x6000
 
 ---
 
-## Token prompts – vigtige figurer til dette niveau
+## Token Prompts – Important Figures for This Level
 
 ### Severin
 

@@ -5,25 +5,25 @@
 
 -----
 
-## Identitet
+## Identity
 
 |             |            |
 |-------------|------------|
 |**Alignment**|Neutral Good|
-|**Gender**   |Mand        |
+|**Gender**   |Male        |
 |**Age**      |25          |
 |**Size**     |Medium      |
 |**Height**   |180 cm      |
 |**Weight**   |77 kg       |
-|**Skin**     |Grå         |
-|**Eyes**     |Sort        |
-|**Hair**     |Hvid        |
+|**Skin**     |Gray        |
+|**Eyes**     |Black       |
+|**Hair**     |White       |
 
 -----
 
-## Kerne-stats
+## Core Stats
 
-|Stat                     |Værdi                              |Modifier        |
+|Stat                     |Value                              |Modifier        |
 |-------------------------|-----------------------------------|----------------|
 |**AC**                   |17                                 |—               |
 |**HP Max**               |124                                |(15d10 hit dice)|
@@ -48,7 +48,7 @@
 |WIS    |14   |+2 |+2       |
 |CHA    |10   |+0 |+0       |
 
-### Defenser
+### Defenses
 
 - **Resistance:** Fire (Dragon Scale Mail)
 - **Advantage** mod breath weapons of Dragons
@@ -108,70 +108,70 @@
 
 Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Opportunity Attack, Grapple, Shove, Improvise, Two-Weapon Fighting, Study, Influence
 
-**Temporary Hit Points (2 / Long Rest).** Som Magic action: 1d8+2 Temp HP til dig selv.
+**Temporary Hit Points (2 / Long Rest).** As a Magic action: 1d8+2 Temp HP to yourself.
 
 ### Bonus Actions
 
-**Hunter’s Mark.** Når et creature er marked: du ved om det har Immunities, Resistances, Vulnerabilities, og om det har any (du ved hvilke).
+**Hunter's Mark.** When a creature is marked: you know if it has Immunities, Resistances, Vulnerabilities, and whether it has any (you know which ones).
 
-**Hunter’s Mark: Superior Hunter’s Prey.** Én gang per turn når du gør damage til en marked creature, kan du flytte spell-extra damage til en anden creature inden for 30 ft.
+**Hunter's Mark: Superior Hunter's Prey.** Once per turn when you deal damage to a marked creature, you can move the spell's extra damage to another creature within 30 ft.
 
-**Nature’s Veil (2 / Long Rest).** Giv dig selv Invisible condition til slutningen af din næste tur.
+**Nature's Veil (2 / Long Rest).** Give yourself the Invisible condition until the end of your next turn.
 
 ### Reactions
 
-**Superior Hunter’s Defense.** Når du tager damage: brug Reaction til at give dig selv Resistance mod den type damage og enhver anden damage af samme type indtil slutningen af current turn.
+**Superior Hunter's Defense.** When you take damage: use your Reaction to give yourself Resistance against that damage type and any other damage of the same type until the end of the current turn.
 
 -----
 
-## Klasse-features (Ranger 15 — Hunter)
+## Class Features (Ranger 15 — Hunter)
 
 - **Core Ranger Traits** (PHB-2024 119)
 - **Spellcasting** (PHB-2024 119)
-- **Favored Enemy** — Always have Hunter’s Mark prepared; cast uden spell slot 5 ×/Long Rest
+- **Favored Enemy** — Always have Hunter's Mark prepared; cast without spell slot 5 ×/Long Rest
 - **Weapon Mastery** (PHB-2024 120)
-- **Deft Explorer** — Expertise i én skill proficiency + 2 sprog
-- **Fighting Style** (PHB-2024 120) — *Archery*: +2 attack rolls med Ranged weapons
+- **Deft Explorer** — Expertise in one skill proficiency + 2 languages
+- **Fighting Style** (PHB-2024 120) — *Archery*: +2 attack rolls with Ranged weapons
 - **Ranger Subclass: Hunter** (PHB-2024 120)
-- **Hunter’s Lore** (PHB-2024 127)
-- **Hunter’s Prey** (PHB-2024 127) — *Colossus Slayer*: 1/turn når du rammer en creature der mangler HP, +1d8 damage
+- **Hunter's Lore** (PHB-2024 127)
+- **Hunter's Prey** (PHB-2024 127) — *Colossus Slayer*: 1/turn when you hit a creature that is missing HP, +1d8 damage
 - **Extra Attack** (PHB-2024 120) — 2 attacks per Attack action
-- **Roving** (PHB-2024 120) — +10 ft speed når ikke i Heavy Armor; Climb & Swim Speed = Speed
-- **Defensive Tactics** (PHB-2024 127) — *Multiattack Defense*: når en creature rammer dig, har den Disadvantage på alle andre attacks mod dig den turn
-- **Expertise** (PHB-2024 121) — 2 skills (Insight, Investigation; Stealth via separat kilde)
-- **Tireless** (PHB-2024 121) — Temp HP som Magic action (1d8+2), Exhaustion −1 per Short Rest
-- **Superior Hunter’s Prey** (PHB-2024 127)
-- **Relentless Hunter** (PHB-2024 121) — Damage breaks ikke Concentration på Hunter’s Mark
-- **Nature’s Veil** (PHB-2024 127)
-- **Superior Hunter’s Defense** (PHB-2024 127)
-- **Ability Score Improvements** — niveau 4, 8, 12
+- **Roving** (PHB-2024 120) — +10 ft speed when not in Heavy Armor; Climb & Swim Speed = Speed
+- **Defensive Tactics** (PHB-2024 127) — *Multiattack Defense*: when a creature hits you, it has Disadvantage on all other attacks against you that turn
+- **Expertise** (PHB-2024 121) — 2 skills (Insight, Investigation; Stealth via separate source)
+- **Tireless** (PHB-2024 121) — Temp HP as Magic action (1d8+2), Exhaustion −1 per Short Rest
+- **Superior Hunter's Prey** (PHB-2024 127)
+- **Relentless Hunter** (PHB-2024 121) — Damage does not break Concentration on Hunter's Mark
+- **Nature's Veil** (PHB-2024 127)
+- **Superior Hunter's Defense** (PHB-2024 127)
+- **Ability Score Improvements** — level 4, 8, 12
 
 -----
 
 ## Changeling Species Traits
 
-- **Shapechanger** (ERftLW) — Som action: skift udseende og stemme (humanoid, samme grundlæggende arrangement af lemmer). Tøj/equipment skifter ikke. Game stats ændres ikke.
-- **Changeling Instincts** — Proficiency i 2 af: Deception, Insight, Intimidation, Persuasion
-- **Languages** — Common + 2 sprog
+- **Shapechanger** (ERftLW) — As an action: change appearance and voice (humanoid, same basic arrangement of limbs). Clothing/equipment does not change. Game stats do not change.
+- **Changeling Instincts** — Proficiency in 2 of: Deception, Insight, Intimidation, Persuasion
+- **Languages** — Common + 2 languages
 
 -----
 
 ## Feats
 
 - **Sharpshooter** (PHB-2024 207)
-  - *Bypass Cover*: Ranged attacks ignorerer Half Cover og Three-Quarters Cover
-  - *Firing in Melee*: Within 5 ft af enemy giver ikke Disadvantage på Ranged
-  - *Long Shots*: Long range giver ikke Disadvantage på Ranged
+  - *Bypass Cover*: Ranged attacks ignore Half Cover and Three-Quarters Cover
+  - *Firing in Melee*: Being within 5 ft of an enemy does not impose Disadvantage on Ranged attacks
+  - *Long Shots*: Long range does not impose Disadvantage on Ranged attacks
 - **Ability Score Improvement** (PHB-2024 202)
 - **Mage Slayer** (PHB-2024 205)
-  - *Concentration Breaker*: Når du damager en concentrating creature, har den Disadvantage på Concentration saves
-  - *Guarded Mind* (1 / Short Rest): Auto-succeed på fejlet INT/WIS/CHA save
-- **Archery** (PHB-2024 209) — +2 attack rolls med Ranged weapons
-- **Savage Attacker** (PHB-2024 201) — 1/turn når du rammer med weapon: roll damage dice tvinge, brug enten
-- **Soldier Ability Score Improvements** (PHB-2024 185) — +1/+1/+1 til tre scores
+  - *Concentration Breaker*: When you damage a concentrating creature, it has Disadvantage on Concentration saves
+  - *Guarded Mind* (1 / Short Rest): Auto-succeed on a failed INT/WIS/CHA save
+- **Archery** (PHB-2024 209) — +2 attack rolls with Ranged weapons
+- **Savage Attacker** (PHB-2024 201) — 1/turn when you hit with a weapon: roll damage dice twice, use either result
+- **Soldier Ability Score Improvements** (PHB-2024 185) — +1/+1/+1 to three scores
 - **Weapon Mastery** (PHB-2024 120)
-  - **Longbow (Slow)** — Ram med damage: target’s Speed -10 ft til start af din næste tur (max -10 ft selv hvis hit flere gange)
-  - **Scimitar (Nick)** — Extra attack fra Light property kan tages som del af Attack action i stedet for Bonus Action (1/turn)
+  - **Longbow (Slow)** — Hit with damage: target's Speed −10 ft until start of your next turn (max −10 ft even if hit multiple times)
+  - **Scimitar (Nick)** — Extra attack from Light property can be taken as part of the Attack action instead of Bonus Action (1/turn)
 
 -----
 
@@ -185,7 +185,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Carried
 
-|Item                                 |Qty|Vægt  |
+|Item                                 |Qty|Weight|
 |-------------------------------------|---|------|
 |Bag of Holding                       |1  |15 lb |
 |Boots of Elvenkind                   |1  |—     |
@@ -203,17 +203,17 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 |Dragon Slayer Longbow                |1  |2 lb  |
 |Breastplate                          |1  |20 lb |
 |Guirlande (Protection?)              |1  |—     |
-|Gem of Misty Step (30 ft) — 1 gang   |1  |—     |
+|Gem of Misty Step (30 ft) — 1 use    |1  |—     |
 |Backpack                             |1  |5 lb  |
 |Pouch                                |1  |1 lb  |
 |Component Pouch                      |1  |2 lb  |
 |Dagger                               |1  |1 lb  |
-|Clothes, Traveler’s                  |1  |4 lb  |
+|Clothes, Traveler's                  |1  |4 lb  |
 |Bracers of Archery                   |1  |—     |
 |Armor of Acid Resistance, Breastplate|1  |20 lb |
 |Book ×2                              |2  |—     |
 
-### Yderligere udstyr
+### Additional Equipment
 
 - Small Book
 - 5 Bottles of fine spirits (spiritus)
@@ -221,7 +221,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Rations (1 day) ×13 + ×10 + ×10
 - Arrows ×60 + ×20
 - Bedroll ×2
-- Climber’s Kit
+- Climber's Kit
 - Mess Kit ×2
 - Rope, Hempen (50 ft) ×3
 - Tinderbox ×3
@@ -235,15 +235,15 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Coins
 
-|Type|Antal|
-|----|-----|
-|CP  |667  |
-|SP  |843  |
-|EP  |0    |
-|GP  |232  |
-|PP  |50   |
+|Type|Amount|
+|----|------|
+|CP  |667   |
+|SP  |843   |
+|EP  |0     |
+|GP  |232   |
+|PP  |50    |
 
-### Bæreevne
+### Carrying Capacity
 
 - **Weight Carried:** 373.25 lb
 - **Encumbered at:** 135 lb
@@ -265,11 +265,11 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Absorb Elements
 - Elevated Sight
 - Ensnaring Strike
-- **Hunter’s Mark** *(Favored Enemy — always prepared)*
+- **Hunter's Mark** *(Favored Enemy — always prepared)*
 
 ### Level 2 — 3 slots
 
-- Krail’s Rupture
+- Krail's Rupture
 - Spike Growth
 
 ### Level 3 — 3 slots
@@ -287,7 +287,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ## Roleplay
 
-**Personality Trait:** I’m driven by a wanderlust that led me away from home.
+**Personality Trait:** I'm driven by a wanderlust that led me away from home.
 
 **Ideal:** Change. Life is like the seasons, in constant change, and we must…
 
@@ -296,7 +296,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - An injury to the unspoiled wilderness of my home is an injury to me.
 - The Circle of the Land is the largest circle, protecting nature in all its forms and helping others survive in the wilderness.
 
-**Flaw:** There’s no room for caution in a life lived to the fullest.
+**Flaw:** There's no room for caution in a life lived to the fullest.
 
 -----
 
@@ -311,15 +311,15 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - **Zhentarim** — Rian Nightshade (Thiefguild)
 
 **Nyh Ilmichh:**  
-Møder hende i portal’s cirklen under springvand, vi bliver teleporteret til **Nethwatch Keep**. Vi møder deres (Tharchion).
+Met her in the portal circle under the fountain, we were teleported to **Nethwatch Keep**. We met their (Tharchion).
 
-### Lords’ Alliance
+### Lords' Alliance
 
 - Lady Laeral Silverhand
 - Lord Dagult Neverember — Neverwinter lord
-- Marshal Ulder Ravengard — Flaming Fist military i Baldur’s Gate
+- Marshal Ulder Ravengard — Flaming Fist military i Baldur's Gate
 - King Melandrach — King of the Misty Forest (elverne)
-- Taern “Thunderspells” Hornblade — The army of Silverymoon
+- Taern "Thunderspells" Hornblade — The army of Silverymoon
 - Sir Isteval — The might of Cormyr, inkl. Purple Dragon Knights og War Wizards
 - Ambassador Connerad Brawnanvil — Dwarf soldiers og dwarf-forged armaments og siege weapons
 
@@ -327,7 +327,7 @@ Møder hende i portal’s cirklen under springvand, vi bliver teleporteret til *
 
 ## Backstory
 
-*(Karakterark efterlader backstory-feltet tomt — kun en liste over kontakter er noteret:)*
+*(Character sheet leaves the backstory field blank — only a list of contacts is noted:)*
 
 - Lady Laeral Silverhand
 - Dagult Neverember
@@ -339,21 +339,21 @@ Møder hende i portal’s cirklen under springvand, vi bliver teleporteret til *
 
 -----
 
-## Yderligere notater
+## Additional Notes
 
-### Bøger
+### Books
 
-- x4 Bøger om GUDEN: Diderius’s
+- x4 Books about THE GOD: Diderius's
 
-### Dragemasker / Drager
+### Dragon Masks / Dragons
 
-- **Protanther (Guld Drage)** — Dracorage mythal (En undskyldning fra Elverne). -OK-
-- **Ileuthra (Messing Drage)** — Dragemasker. (1-Blå -ok-)
-- **Otaaryliakkarnos (Sølv Drage)** — Undskyldning fra dværge og returnering af knogler. -ok-
-- **Tazmikella (Kobber Drage)** — Returnér en magisk genstand. (Dragon Wing Longbow)
-- **Nymmurh (Bronze Drage)**
+- **Protanther (Gold Dragon)** — Dracorage mythal (An apology from the Elves). -OK-
+- **Ileuthra (Brass Dragon)** — Dragon Masks. (1-Blue -ok-)
+- **Otaaryliakkarnos (Silver Dragon)** — Apology from dwarves and return of bones. -ok-
+- **Tazmikella (Copper Dragon)** — Return a magic item. (Dragon Wing Longbow)
+- **Nymmurh (Bronze Dragon)**
 
-### Noter
+### Notes
 
-- Fra tårnet, ang: Dragolis mange sider!!
-- Finger i vial: testsubjekt nr 12 responderet godt
+- From the tower, re: Dragolis' many faces!!
+- Finger in vial: test subject no. 12 responded well

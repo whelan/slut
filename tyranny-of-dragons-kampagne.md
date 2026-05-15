@@ -1,183 +1,183 @@
-# Tyranny of Dragons – Kampagnekontekst
+# Tyranny of Dragons – Campaign Context
 
-> Komplet projektkontekst til *Tyranny of Dragons*-kampagnen. Bruges som autoritativ reference i alle fremtidige samtaler om kampagnen.
+> Complete project context for the *Tyranny of Dragons* campaign. Used as authoritative reference in all future conversations about the campaign.
 
 ---
 
-## 1. Overordnet arbejdsmåde
+## 1. General Approach
 
-### Sprog og stil
+### Language and Style
 
-- Standardsprog i filer er engelsk.
-- Undtagelser der må være på dansk:
-  - Dialogue-sektioner
-  - Room Description-sektioner (scene/room flavor, boxed text for location)
-- Brug engelske D&D-termer, hvor de er reglerelaterede: *Legendary Resistance*, *Recharge*, *Saving Throw*, *Lair Action*, *Magic Item*, *Encounter*, *Long Rest*, *Short Rest*, *2024 rules* osv.
-- Tonen skal være venlig, professionel og ca. 20% spartan.
-- Svar skal være kreative, brugbare ved bordet og gerne forbedre brugerens idé.
-- Giv ikke lange generiske forklaringer, hvis brugeren tydeligt beder om session-ready materiale.
-- Brug markdown med overskrifter, tabeller, boxed text, bullet lists og klare DM-noter.
+- Default language in files is English.
+- Exceptions that may be in Danish:
+  - Dialogue sections
+  - Room Description sections (scene/room flavor, boxed text for location)
+- Use English D&D terms where they are rules-related: *Legendary Resistance*, *Recharge*, *Saving Throw*, *Lair Action*, *Magic Item*, *Encounter*, *Long Rest*, *Short Rest*, *2024 rules*, etc.
+- Tone should be friendly, professional, and approximately 20% spartan.
+- Responses should be creative, usable at the table, and ideally improve on the user's idea.
+- Do not give long generic explanations when the user clearly asks for session-ready material.
+- Use markdown with headers, tables, boxed text, bullet lists, and clear DM notes.
 
-### DM-rolle
+### DM Role
 
-Assistenten agerer som:
+The assistant acts as:
 
-- Ekspert-DM i D&D 5e 2024.
-- Kreativ medforfatter.
+- Expert DM in D&D 5e 2024.
+- Creative co-author.
 - Encounter designer.
-- Kampagnearkitekt.
-- Foundry/VTT-forbereder, når relevant.
+- Campaign architect.
+- Foundry/VTT preparer, when relevant.
 
-### Regler
+### Rules
 
-- Brug D&D 5e 2024 regler og officielle monsters/items.
-- Homebrew markeres tydeligt.
-- Brug officielle 2024-monstre frem for ældre statblocks.
-- Encounter balance tager højde for gruppens høje level, ressourcer og stærke taktiske muligheder.
-- Gruppen behandles som level 15-ish, selv om enkeltkarakterer teknisk varierer.
+- Use D&D 5e 2024 rules and official monsters/items.
+- Homebrew is clearly marked.
+- Use official 2024 monsters rather than older statblocks.
+- Encounter balance accounts for the group's high level, resources, and strong tactical options.
+- The group is treated as level 15-ish, even if individual characters technically vary.
 
 ---
 
-## 2. Aktiv gruppe
+## 2. Active Party
 
 ### Axar Runes
 
 - **Race/Class:** Dwarf Wizard, Evoker – Level 15
 - **HP:** ?/122 | **AC:** 11
-- **Rolle:** Strategisk caster, planlægger, arcane ekspert.
-- **Spillestil:** Belæst, taktisk, præcision og forberedelse.
-- **DM-brug:** Arcane clues, ritualanalyse, *Arcana*/*History*/*Investigation*. Sæt ham under pres med koncentrationsfare, anti-magic zones, counterspells og valg mellem at redde allierede eller forstyrre ritualet.
+- **Role:** Strategic caster, planner, arcane expert.
+- **Playstyle:** Well-read, tactical, precision and preparation.
+- **DM use:** Arcane clues, ritual analysis, *Arcana*/*History*/*Investigation*. Put him under pressure with concentration threats, anti-magic zones, counterspells, and choices between saving allies or disrupting the ritual.
 
 ### Daxx Drake
 
 - **Race/Class:** Changeling Ranger, Hunter – Level 15
 - **HP:** ?/124 | **AC:** 17
-- **Rolle:** Scout, tracker, taktisk observatør.
-- **Spillestil:** Intuitiv, jæger, infiltration og perception.
-- **DM-brug:** Spor, luftbevægelser, patruljemønstre, kultistlogistik. Changeling-temaet udnyttes til infiltration i Dragon Cult ranks.
+- **Role:** Scout, tracker, tactical observer.
+- **Playstyle:** Intuitive, hunter, infiltration and perception.
+- **DM use:** Tracks, air movements, patrol patterns, cultist logistics. The Changeling theme is exploited for infiltration into Dragon Cult ranks.
 
 ### Frygtløs
 
 - **Race/Class:** Goliath Barbarian, Path of the Berserker – Level 15
 - **HP:** ?/200 | **AC:** 18
-- **Rolle:** Frontline juggernaut.
-- **Spillestil:** Fysisk dominerende, modig, stædig, men mere eftertænksom med tiden.
-- **DM-brug:** Massive fysiske udfordringer – holde porte, bryde ritualkæder, modstå vindtryk fra dragevinger, bære allierede. Fjender forsøger at flytte, isolere, restrain eller frighten ham.
+- **Role:** Frontline juggernaut.
+- **Playstyle:** Physically dominant, brave, stubborn, but more reflective over time.
+- **DM use:** Massive physical challenges — hold gates, break ritual chains, resist wind pressure from dragon wings, carry allies. Enemies attempt to move, isolate, restrain, or frighten him.
 
 ### Twilight Ventress
 
 - **Race/Class:** Mark of Shadow Elf, Bard, College of Lore – Level 15
 - **HP:** ?/108 | **AC:** 17
-- **Rolle:** Social controller, bardic support, illusion/shadow influence.
-- **Spillestil:** Karismatisk, mystisk, manipulerende, performer.
-- **DM-brug:** Sociale scener selv i krigszonen. Sårbar på HP skaber reel spænding. Mulighed for lore, counter-magic og social leverage.
+- **Role:** Social controller, bardic support, illusion/shadow influence.
+- **Playstyle:** Charismatic, mysterious, manipulative, performer.
+- **DM use:** Social scenes even in the war zone. Low HP creates real tension. Opportunity for lore, counter-magic, and social leverage.
 
-> **Eldrin Yllasys** er ikke længere aktiv i gruppen. Bruges ikke som partymember.
+> **Eldrin Yllasys** is no longer active in the group. Not used as a party member.
 
 ---
 
-## 3. Kampagnens aktuelle fase
+## 3. Current Campaign Phase
 
-Kampagnen er i slutningen af *Tyranny of Dragons* / *Rise of Tiamat*.
+The campaign is in the finale of *Tyranny of Dragons* / *Rise of Tiamat*.
 
-Fokus:
-1. Council of Waterdeep / sidste krigsråd.
-2. Marchen mod Well of Dragons.
-3. Infiltration eller stormangreb mod Well of Dragons.
+Focus:
+1. Council of Waterdeep / final war council.
+2. The march on Well of Dragons.
+3. Infiltration or assault on Well of Dragons.
 4. Temple of Tiamat.
-5. Ritualet, Severin og Tiamats potentielle fremkomst.
-6. Efterspil og konsekvenser.
+5. The ritual, Severin, and Tiamat's potential emergence.
+6. Aftermath and consequences.
 
-**Kampagnefølelse:** Verdens ende. Drager i luften som levende naturkatastrofer. Hære fra hele Sword Coast i bevægelse. Dragekultens sidste desperate forsvar. Fiender har klare taktiske mål – kæmper ikke bare til døden.
-
----
-
-## 4. Kampagnens tone
-
-**Kernefølelse:** Episk krig. Ritual-apokalypse. Politisk payoff. Drager som strategiske våben. Kultister fanatiske, men ikke dumme. Alliancer, der næsten knækker under pres.
-
-**Dragekulten fremstår som:** Hierarkisk. Symbolsk. Religiøst besat. Militært organiseret. Villig til at ofre alt. En apokalyptisk orden – ikke bare "onde robed guys".
-
-**Mulige navne:** Cult of the Dragon · Order of the Dragon · Wearers of Purple · Followers of the Scaly Way · Dragekulten · Tiamats udvalgte.
-
-**Kultistmotivationer:** Tro på korrumperet verden der skal brændes ren · Ønske om tilhørsforhold · Frygt for Tiamat · Løfter om frelse · Afpresning · Magtbegær · Religiøs fanatisme · Sunk cost · Personlig hævn.
+**Campaign Feel:** End of the world. Dragons in the sky like living natural disasters. Armies from across the Sword Coast in motion. The Dragon Cult's last desperate defense. Enemies have clear tactical goals — they do not simply fight to the death.
 
 ---
 
-## 5. Kendte NPC'er og fraktioner
+## 4. Campaign Tone
 
-### Council of Waterdeep / allierede
+**Core Feel:** Epic war. Ritual apocalypse. Political payoff. Dragons as strategic weapons. Cultists fanatical, but not stupid. Alliances that nearly crack under pressure.
 
-| NPC | Rolle | Tone |
+**The Dragon Cult presents as:** Hierarchical. Symbolic. Religiously obsessed. Militarily organized. Willing to sacrifice everything. An apocalyptic order — not just "evil robed guys".
+
+**Possible names:** Cult of the Dragon · Order of the Dragon · Wearers of Purple · Followers of the Scaly Way · The Dragon Cult · Tiamat's Chosen.
+
+**Cultist motivations:** Belief in a corrupted world that must be burned clean · Desire for belonging · Fear of Tiamat · Promises of salvation · Blackmail · Lust for power · Religious fanaticism · Sunk cost · Personal vengeance.
+
+---
+
+## 5. Known NPCs and Factions
+
+### Council of Waterdeep / Allies
+
+| NPC | Role | Tone |
 |---|---|---|
-| **Dagult Neverember** | Politisk stærk, mistænkelig | Defensiv, pragmatisk, selvpromoverende |
-| **Ulder Ravengard** | Grand Duke of Baldur's Gate, Flaming Fist | Militær, direkte – taler i tab og forsyningslinjer |
-| **Remallia Haventree** | Harper-repræsentant | Rolig, skarp, følelsesmæssigt kontrolleret |
-| **Ontharr Frume** | Order of the Gauntlet | Højlydt, modig, presser på direkte angreb |
-| **Delaan Winterhound** | Emerald Enclave | Bekymret for økologisk ødelæggelse |
-| **Sir Isteval** | Ridderlig, symbolsk | Moralsk tyngde og æresbaseret tale |
-| **Taern Hornblade** | Arcane autoritet | Kan forklare ritual-mekanik, wards, teleportation |
-| **King Melandrach** | Elfekonge | Stolt, vred, kontrolleret – Neronvain/Misty Forest |
-| **Ambassador Brawnanvil** | Dværgerepræsentant | Militær logistik, belejringsmaskiner, ære |
-| **Crimson Maccath** | Arcane ekspert, Draakhorn | Viden om drager og ritual resonance |
-| **Elia** | Metallic dragon ally | Forbindelse til metallic dragons – krigen over karakterernes hoveder |
-| **Nyh Ilmichh** | Thayan envoy | Nyttig, kold, politisk farlig – ambivalent allieret |
+| **Dagult Neverember** | Politically powerful, suspicious | Defensive, pragmatic, self-promoting |
+| **Ulder Ravengard** | Grand Duke of Baldur's Gate, Flaming Fist | Military, direct — speaks in casualties and supply lines |
+| **Remallia Haventree** | Harper representative | Calm, sharp, emotionally controlled |
+| **Ontharr Frume** | Order of the Gauntlet | Loud, brave, pushes for direct action |
+| **Delaan Winterhound** | Emerald Enclave | Concerned about ecological destruction |
+| **Sir Isteval** | Chivalric, symbolic | Moral gravity and honor-based speech |
+| **Taern Hornblade** | Arcane authority | Can explain ritual mechanics, wards, teleportation |
+| **King Melandrach** | Elven king | Proud, angry, controlled — Neronvain/Misty Forest |
+| **Ambassador Brawnanvil** | Dwarven representative | Military logistics, siege engines, honor |
+| **Crimson Maccath** | Arcane expert, Draakhorn | Knowledge of dragons and ritual resonance |
+| **Elia** | Metallic dragon ally | Connection to metallic dragons — the war above the characters' heads |
+| **Nyh Ilmichh** | Thayan envoy | Useful, cold, politically dangerous — ambivalent ally |
 
-**Remallia og Leosin:** Haventree kommer med et kort fremskaffet ved at Leosin og seks andre Harpers døde for det. Kortet i hjørnet har mørke pletter – ikke blæk.
+**Remallia and Leosin:** Haventree arrives with a map obtained at the cost of Leosin and six other Harpers' lives. The corner of the parchment has dark stains — not ink.
 
 ---
 
-## 6. Thay-arc
+## 6. Thay Arc
 
-**Præmis:** "Enemy of My Enemy." Thay er ikke gode allierede – de er en klinisk nødvendighed.
+**Premise:** "Enemy of My Enemy." Thay are not good allies — they are a clinical necessity.
 
-**Tone:** Klinisk ondskab · Kold politisk nødvendighed · Manipulation · Overvågning · Høflighed uden varme.
+**Tone:** Clinical evil · Cold political necessity · Manipulation · Surveillance · Courtesy without warmth.
 
-### Vigtige elementer
+### Key Elements
 
-| Element | Beskrivelse |
+| Element | Description |
 |---|---|
-| **Nethwatch Keep** | Thayan lokalitet med teleportation circle |
-| **Eseldra Yeth** | Autoritetsfigur – diplomatisk og truende. Balancerer Szass Tams interesse i orden over kaos, og Rath Modars forræderi |
-| **Thoss Tarek** | Mystery murder – Modify Memory, Nystul's Magic Aura, Suggestion |
-| **Rho Halthar** | Diviner – varsler, manipuleret fremtidssyn |
-| **Pho Thaldar** | Illusionist – falske scener, spejlinger, identitetsforvirring |
-| **Khandur Ulmarik** | Thayan NPC i Nethwatch-kontekst |
-| **Varrax** | Sword Wraith Commander – Eseldras tavse, militære skygge |
+| **Nethwatch Keep** | Thayan location with teleportation circle |
+| **Eseldra Yeth** | Authority figure — diplomatic and threatening. Balances Szass Tam's interest in order over chaos, and Rath Modar's treachery |
+| **Thoss Tarek** | Mystery murder — Modify Memory, Nystul's Magic Aura, Suggestion |
+| **Rho Halthar** | Diviner — omens, manipulated foresight |
+| **Pho Thaldar** | Illusionist — false scenes, mirror images, identity confusion |
+| **Khandur Ulmarik** | Thayan NPC in Nethwatch context |
+| **Varrax** | Sword Wraith Commander — Eseldra's silent, military shadow |
 
 ---
 
-## 7. Xonthal's Tower og dungeon
+## 7. Xonthal's Tower and Dungeon
 
 ### Status
 
-- Brugeren har gennemgået rum 8–13 i detaljer.
-- Feywild-rework af Xonthal's Maze er under arbejde.
+- The user has covered rooms 8–13 in detail.
+- Feywild rework of Xonthal's Maze is in progress.
 
-### Rum 21 – Storage Closet
+### Room 21 – Storage Closet
 
-Gruppen har bekæmpet en elemental og en black pudding. Black pudding opstod da Daxx ved et uheld blandede potions under kamp. *"Daxx' potion-uheld"* kan refereres til senere.
+The group has fought an elemental and a black pudding. The black pudding arose when Daxx accidentally mixed potions during combat. *"Daxx's potion accident"* can be referenced later.
 
-### Rum 22 – Taraz the Fair
+### Room 22 – Taraz the Fair
 
-- 20 replikker / 3-trins social encounter-struktur.
-- Taraz frister, manipulerer og presser – forsøger at forhandle sig fri.
-- Bruger ikke Iskander eller masken som primære motiver.
-- Skal være: intelligent, forførende, farlig, manipulerende.
+- 20 lines of dialogue / 3-stage social encounter structure.
+- Taraz tempts, manipulates, and pressures — attempts to negotiate his way free.
+- Does not use Iskander or the mask as primary motives.
+- Should be: intelligent, seductive, dangerous, manipulative.
 
-### Rum 23 – Time Chamber
+### Room 23 – Time Chamber
 
-Gruppen har været her. Mulige konsekvenser:
-- Tidsfornemmelse er ustabil.
-- Minder kan føles ændrede.
-- Fjender kan kende ting, de ikke burde kende.
-- Tiamats ritual kan "ekkoe baglæns" i tid.
+The group has been here. Possible consequences:
+- Sense of time is unstable.
+- Memories can feel altered.
+- Enemies may know things they should not know.
+- Tiamat's ritual can "echo backwards" in time.
 
 ---
 
 ## 8. Naergoth Bladelord
 
-### Originalstatblock (ToD reference)
+### Original Statblock (ToD reference)
 
 - Medium Undead, Neutral Evil
 - AC 18 plate | HP 135
@@ -186,205 +186,205 @@ Gruppen har været her. Mulige konsekvenser:
 - Condition Immunities: Exhaustion, Poisoned
 - Languages: Common, Draconic | CR 11
 
-### Rolle i kampagnen
+### Role in the Campaign
 
-Naergoth er **ikke** hovedboss. Han er portvogter, advarsel, gammel kult-general eller tragisk undead commander. Bruges til exposition – stjæler ikke spotlight fra Severin/Tiamat.
+Naergoth is **not** the main boss. He is a gatekeeper, a warning, an old cult general, or a tragic undead commander. Used for exposition — does not steal spotlight from Severin/Tiamat.
 
-### Hvad han kan afsløre
+### What He Can Reveal
 
-- Ritualet er allerede i gang.
-- Severin er dybt inde i templet.
-- Dragekulten har ofret enorme ressourcer.
-- Templet kanaliserer energi fra fem chromatic traditions.
-- Kultisterne er forberedt på, at heltene kommer.
-- Nogle kultister tror ikke de overlever – kun at Tiamat kan komme igennem.
-- Interne spændinger: dracolich-troende vs. Severins Tiamat-fanatikere.
-- Maskernes kraft er central.
+- The ritual is already underway.
+- Severin is deep inside the temple.
+- The Dragon Cult has sacrificed enormous resources.
+- The temple channels energy from five chromatic traditions.
+- The cultists are prepared for the heroes to come.
+- Some cultists do not expect to survive — only for Tiamat to come through.
+- Internal tensions: dracolich believers vs. Severin's Tiamat fanatics.
+- The masks' power is central.
 
-### Hvad han ikke afslører
+### What He Does Not Reveal
 
-- Præcis hvordan ritualet stoppes.
-- Severins fulde defensive plan.
-- Alle hemmelige indgange.
-- Tiamats faktiske manifestationstrin – medmindre spillerne presser ham hårdt.
+- Exactly how the ritual can be stopped.
+- Severin's full defensive plan.
+- All secret entrances.
+- Tiamat's actual manifestation stages — unless the players press him hard.
 
 ---
 
-## 9. Well of Dragons – overordnet
+## 9. Well of Dragons – Overview
 
 ### Setting
 
-Calderaen af en uddød vulkan i Sunset Mountains. Drager er kommet hertil i årtusinder for at dø. Kulten har bygget ritualinfrastruktur i og under calderaen.
+The caldera of an extinct volcano in the Sunset Mountains. Dragons have come here for millennia to die. The cult has built ritual infrastructure in and beneath the caldera.
 
-### Visuel tone
+### Visual Tone
 
-- Uddød vulkan, aske på jorden, sorte klipper, gamle drageknogler overalt.
-- Lava tubes og kulttunneller.
-- Chromatic dragons i luften.
-- Tusinder af kultister, lejesoldater, kobolds, drakes og fanatikere.
-- Rituallys i rød, grøn, blå, sort og hvid.
-- Tiamats tilstedeværelse: tryk i brystet, metallisk smag, skælvende knogler.
+- Extinct volcano, ash on the ground, black cliffs, ancient dragon bones everywhere.
+- Lava tubes and cult tunnels.
+- Chromatic dragons in the air.
+- Thousands of cultists, mercenaries, kobolds, drakes, and fanatics.
+- Ritual light in red, green, blue, black, and white.
+- Tiamat's presence: pressure in the chest, metallic taste, trembling bones.
 
 ---
 
-## 10. Tilgange til Well of Dragons
+## 10. Approaches to Well of Dragons
 
-### Fra land
+### By Land
 
-- Slagmark med allierede hære og kultstyrker, krigsrøg, dragon strafing runs.
+- Battlefield with allied armies and cult forces, war smoke, dragon strafing runs.
 - Skill challenge → combat.
 
-**Mulige scener:**
-1. Brud i frontlinjen.
-2. Dværgiske sappers åbner passage.
-3. Chromatic dragon laver strafing run.
-4. Kultens war priests forsøger at lukke hullet.
-5. Valg: red allierede eller pres mod templet.
+**Possible scenes:**
+1. Breach in the front line.
+2. Dwarven sappers open a passage.
+3. Chromatic dragon makes a strafing run.
+4. The cult's war priests attempt to seal the gap.
+5. Choice: save allies or press toward the temple.
 
-### Fra vand (underjordisk)
+### By Water (Underground)
 
-- Underjordiske vandløb, cisterner, oversvømmede lava tubes.
+- Underground waterways, cisterns, flooded lava tubes.
 
-**Scener:**
-1. Giftigt sort vand med dragonbone reefs.
+**Scenes:**
+1. Toxic black water with dragonbone reefs.
 2. Kobold/Dragon cult sluice-gates.
 3. Black dragon influence.
-4. Undead dragon remains under vandoverfladen.
-5. Ritualt vandkammer der leder op i templet.
+4. Undead dragon remains beneath the water's surface.
+5. Ritual water chamber leading up into the temple.
 
-### Fra luften
+### By Air
 
-- Chromatic dragons patruljerer, wyverns og cult dragonwings i formationer.
-- Vindtryk fra ritualet gør flyvning ustabil.
+- Chromatic dragons patrol, wyverns and cult dragonwings in formations.
+- Wind pressure from the ritual makes flight unstable.
 
-**Scener:**
-1. Dogfight over calderaen.
-2. Metallic dragon escort trækkes væk af chromatic rivals.
-3. Gruppen springer/lander på knoglebroer eller templets ydre niveau.
-4. Cult mages bruger *Earthbind*, *Hold Monster*, *Counterspell*.
-5. En drage forsøger ikke at dræbe, men at forsinke.
+**Scenes:**
+1. Dogfight over the caldera.
+2. Metallic dragon escort drawn away by chromatic rivals.
+3. Group leaps/lands on bone bridges or the temple's outer level.
+4. Cult mages use *Earthbind*, *Hold Monster*, *Counterspell*.
+5. A dragon tries not to kill, but to delay.
 
 ---
 
-## 11. Temple of Tiamat – tre niveauer
+## 11. Temple of Tiamat – Three Levels
 
-### Niveau 1 – The Maw / Ydre tempelgrund
+### Level 1 – The Maw / Outer Temple Grounds
 
-- Kultforsvar, knoglebarrikader, dragekløfter, ritualkanaler, stigende lair effects.
-- Viser skala, introducerer ritualets femfarvede energi.
+- Cult defenses, bone barricades, dragon rifts, ritual channels, escalating lair effects.
+- Shows scale, introduces the ritual's five-colored energy.
 
-### Niveau 2 – The Fivefold Sanctum
+### Level 2 – The Fivefold Sanctum
 
-Fem chromatic ritualfoci:
+Five chromatic ritual foci:
 
-| Farve | Miljø | Effekt |
+| Color | Environment | Effect |
 |---|---|---|
-| Black | Syre, sump, mørkt vand, forrådnelse | Acid/necrotic pressure |
-| Blue | Lyn, krystal, storm, vibration | Lightning hazards |
-| Green | Gift, illusion, løgne, tåge | Poison clouds, illusions |
-| Red | Ild, arrogance, magma-glød | Fire aura, magma |
-| White | Kulde, primal hunger, is, stilhed | Cold slow/freeze |
+| Black | Acid, swamp, dark water, decay | Acid/necrotic pressure |
+| Blue | Lightning, crystal, storm, vibration | Lightning hazards |
+| Green | Poison, illusion, lies, mist | Poison clouds, illusions |
+| Red | Fire, arrogance, magma glow | Fire aura, magma |
+| White | Cold, primal hunger, ice, silence | Cold slow/freeze |
 
-Gruppen kan sabotere foci for at svække Tiamats manifestation.
+The group can sabotage foci to weaken Tiamat's manifestation.
 
-### Niveau 3 – The Crown / Ritualtoppen
+### Level 3 – The Crown / Ritual Summit
 
-- Severin, maskernes kraft, portal til Avernus.
-- Tiamats hoveder presser gennem virkeligheden.
+- Severin, the masks' power, portal to Avernus.
+- Tiamat's heads pressing through reality.
 - Final countdown.
-- Valg: angrib Severin, red allierede, ødelæg foci, modstå Tiamats influence.
+- Choices: attack Severin, save allies, destroy foci, resist Tiamat's influence.
 
-### DM-teknik for 3 niveauer
+### DM Technique for 3 Levels
 
-Kør **ikke** alle tre som ét kæmpe grid-combat. Kør i stedet:
+Do **not** run all three as one massive grid combat. Run instead:
 
-1. **Overblikskort** – vis alle niveauer som struktur.
-2. **Aktiv zone** – kun den zone, PCs er i, køres taktisk.
-3. **Clock** – ritual clock tikker hver runde/scene.
-4. **Frontline events** – hvad sker udenfor templet.
-5. **Sabotage triggers** – hver succes ændrer finalen.
+1. **Overview map** — show all levels as structure.
+2. **Active zone** — only the zone PCs are in runs tactically.
+3. **Clock** — ritual clock ticks every round/scene.
+4. **Frontline events** — what is happening outside the temple.
+5. **Sabotage triggers** — each success changes the finale.
 
-### Sabotage-effekter
+### Sabotage Effects
 
-| Focus ødelagt | Effekt |
+| Focus destroyed | Effect |
 |---|---|
-| Black | Acid/necrotic pressure reduceres |
-| Blue | Lynstorm/lair actions svækkes |
-| Green | Illusioner og poison clouds falder sammen |
-| Red | Fire aura/magma hazards reduceres |
-| White | Cold slow/freeze effects fjernes eller mildnes |
+| Black | Acid/necrotic pressure reduced |
+| Blue | Lightning storm/lair actions weakened |
+| Green | Illusions and poison clouds collapse |
+| Red | Fire aura/magma hazards reduced |
+| White | Cold slow/freeze effects removed or diminished |
 
 ### Ritual Clock
 
-| Trin | Effekt |
+| Stage | Effect |
 |---|---|
-| 0 | Gruppen når templet |
-| 1 | Første hoveds skygge viser sig |
-| 2 | Chromatic energy intensiveres |
-| 3 | Allieret frontlinje knækker ét sted |
-| 4 | Tiamats første hoved presser gennem portalen |
-| 5 | Severin får empowered defense |
-| 6 | Tiamat manifesterer delvist |
-| 7 | Tiamat manifesterer næsten helt |
-| 8 | Ritualet lykkes, medmindre gruppen stopper det straks |
+| 0 | Group reaches the temple |
+| 1 | The first head's shadow appears |
+| 2 | Chromatic energy intensifies |
+| 3 | Allied front line cracks in one place |
+| 4 | Tiamat's first head presses through the portal |
+| 5 | Severin gains empowered defense |
+| 6 | Tiamat partially manifests |
+| 7 | Tiamat manifests almost fully |
+| 8 | Ritual succeeds unless the group stops it immediately |
 
 ---
 
 ## 12. Severin
 
-### Personlighed
+### Personality
 
-Grandios · Karismatisk · Foragtfuld over for konger og råd · Tror styrke og draconic dominans er sand orden · Ser heltene som midlertidige fejl i et uundgåeligt mønster.
+Grandiose · Charismatic · Contemptuous of kings and councils · Believes strength and draconic dominance are true order · Sees the heroes as temporary errors in an inevitable pattern.
 
-### Dialoglinjer
+### Dialogue Lines
 
-- "I tror stadig, dette er en krig. Det er det ikke. Det er en kroning."
-- "Jeres råd stemte. Mine drager handlede."
-- "Se ned på hærene, helte. Hver eneste fane er et ligklæde."
-- "Tiamat kommer ikke for at erobre verden. Hun kommer for at afsløre, hvem den altid tilhørte."
-- "I er ikke for sent på den. I er præcis til tiden til at se det ske."
+- *"I tror stadig, dette er en krig. Det er det ikke. Det er en kroning."*
+- *"Jeres råd stemte. Mine drager handlede."*
+- *"Se ned på hærene, helte. Hver eneste fane er et ligklæde."*
+- *"Tiamat kommer ikke for at erobre verden. Hun kommer for at afsløre, hvem den altid tilhørte."*
+- *"I er ikke for sent på den. I er præcis til tiden til at se det ske."*
 
-### Mekanik
+### Mechanics
 
-- Har ritual actions.
-- Bruger legendary/lair-like effects via templet.
-- Beskyttet af cult champions.
-- Reagerer på sabotage af foci – bliver mere desperat, når ritualet svækkes.
-
----
-
-## 13. Tiamat – manifestationstrin
-
-Selv **før** manifestation: metal smager af blod, draconic runer bløder lys, alle drager skriger synkront, skyerne roterer, kultister græder af ekstase, allierede soldater falder på knæ.
-
-### Trin 1 – Presence
-Stemmen høres i kraniet. Farverne overmættes. Drageøjne i skyerne.
-
-### Trin 2 – Heads beyond the veil
-Et eller flere hoveder presser gennem portalen som skygger. Hvert hoved taler med forskellig emotion:
-- **Black:** foragt og forrådnelse.
-- **Blue:** kontrol og overlegenhed.
-- **Green:** løgne og giftig visdom.
-- **Red:** raseri og majestæt.
-- **White:** sult og instinkt.
-
-### Trin 3 – Partial manifestation
-Et hoved kan angribe slagmarken. Templet begynder at bryde sammen. Ritualet stoppeligt, men prisen stiger.
-
-### Trin 4 – Full manifestation
-Kampagnen skifter til "overlev guddommelig katastrofe" eller endgame boss.
+- Has ritual actions.
+- Uses legendary/lair-like effects via the temple.
+- Protected by cult champions.
+- Reacts to sabotage of foci — becomes more desperate as the ritual is weakened.
 
 ---
 
-## 14. Dragon Cult ranks og token-design
+## 13. Tiamat – Manifestation Stages
 
-| Rank | Beskrivelse |
+Even **before** manifestation: metal tastes of blood, draconic runes bleed light, all dragons cry out in unison, clouds rotate, cultists weep in ecstasy, allied soldiers drop to their knees.
+
+### Stage 1 – Presence
+The voice is heard in the skull. Colors oversaturate. Dragon eyes in the clouds.
+
+### Stage 2 – Heads beyond the veil
+One or more heads press through the portal as shadows. Each head speaks with a different emotion:
+- **Black:** contempt and decay.
+- **Blue:** control and superiority.
+- **Green:** lies and poisoned wisdom.
+- **Red:** fury and majesty.
+- **White:** hunger and instinct.
+
+### Stage 3 – Partial manifestation
+One head can attack the battlefield. The temple begins to collapse. The ritual is stoppable, but the cost increases.
+
+### Stage 4 – Full manifestation
+The campaign shifts to "survive divine catastrophe" or endgame boss.
+
+---
+
+## 14. Dragon Cult Ranks and Token Design
+
+| Rank | Description |
 |---|---|
-| **Dragonclaw** | Lavere kultkriger – mørke læder/skælmotiver, klø-lignende våben |
-| **Dragonwing** | Elite skirmisher – dragevinge-kappe, hurtig og aggressiv |
-| **Dragonfang** | Elite officer – dragon-wing pauldrons, tungere armor |
-| **Dragonsoul** | Mystisk cult leader – pale, arcane, long white hair, elaborate cloak |
-| **Wearer of Purple** | Høj kultleder – purpur, guld, chromatic inlays, religiøs autoritet |
+| **Dragonclaw** | Lower cult warrior — dark leather/scale motifs, claw-like weapons |
+| **Dragonwing** | Elite skirmisher — dragon-wing cloak, fast and aggressive |
+| **Dragonfang** | Elite officer — dragon-wing pauldrons, heavier armor |
+| **Dragonsoul** | Mystical cult leader — pale, arcane, long white hair, elaborate cloak |
+| **Wearer of Purple** | High cult leader — purple, gold, chromatic inlays, religious authority |
 
 **Token prompt standard:**
 ```
@@ -393,170 +393,170 @@ Dark fantasy dragon cult [rank], [rank-specific description], ornate armor with 
 
 ---
 
-## 15. Battlemap og image-præferencer
+## 15. Battlemap and Image Preferences
 
 **Standard:**
-- Topdown · No grid (medmindre specifikt ønsket) · No text · No labels · No UI
-- High resolution: 4096×4096 eller 6000×6000 · Foundry-ready
+- Topdown · No grid (unless specifically requested) · No text · No labels · No UI
+- High resolution: 4096×4096 or 6000×6000 · Foundry-ready
 
-**Well of Dragons map stil:** Officielt krigskort-look, Sword Coast stil, symboler for hære, farvekodede styrker, caldera markeret, ruter fra Baldur's Gate/Waterdeep.
+**Well of Dragons map style:** Official war map look, Sword Coast style, symbols for armies, color-coded forces, caldera marked, routes from Baldur's Gate/Waterdeep.
 
-**Farvekodede hære:**
+**Color-coded armies:**
 
-| Farve | Fraktion |
+| Color | Faction |
 |---|---|
-| Rød | Lord's Alliance – stor hær |
-| Grøn | Emerald Enclave – druidiske cirkler, treants, halfling ryttere |
-| Grå | Order of the Gauntlet – kavaleri og shock troops |
-| Orange | Flaming Fist og Elturel/Hellriders |
-| Blå | Dværgiske krigsingeniører og sappers |
-| Gul | Metallic Dragons – støtte/overvågning |
-| Lilla | Cormyrian forsvarslinje |
+| Red | Lords' Alliance — large army |
+| Green | Emerald Enclave — druidic circles, treants, halfling cavalry |
+| Grey | Order of the Gauntlet — cavalry and shock troops |
+| Orange | Flaming Fist and Elturel/Hellriders |
+| Blue | Dwarven military engineers and sappers |
+| Yellow | Metallic Dragons — support/observation |
+| Purple | Cormyrian defense line |
 
 ---
 
-## 16. Temple of Tiamat – battlemap layout
+## 16. Temple of Tiamat – Battlemap Layout
 
-### Niveau 1 – The Maw
-Stor knogleplads, fem trapper op mod mellemniveau, ritual channels som blodårer, cult barricades, dragonbone arches.
+### Level 1 – The Maw
+Large bone plaza, five staircases up to the middle level, ritual channels like blood vessels, cult barricades, dragonbone arches.
 
-### Niveau 2 – The Fivefold Sanctum
-Fem platforme forbundet af smalle broer og knoglebuer:
+### Level 2 – The Fivefold Sanctum
+Five platforms connected by narrow bridges and bone arches:
 1. Black acid basin
 2. Blue lightning spire
 3. Green poison mist garden
 4. Red ember altar
 5. White frost fang dais
 
-### Niveau 3 – The Crown
-Central ritual dais, Severin i midten, maskernes energi, portal, fem dragehoved-åbninger.
+### Level 3 – The Crown
+Central ritual dais, Severin at the center, the masks' energy, portal, five dragon head openings.
 
-### Taktiske features
+### Tactical Features
 
-| Feature | Brug |
+| Feature | Use |
 |---|---|
-| Knoglebroer | Kan knuses – falling risk |
-| Ritual chains | Brydes for at svække ritual |
+| Bone bridges | Can be broken — falling risk |
+| Ritual chains | Broken to weaken the ritual |
 | Dragon skull pylons | Cover + hazard |
-| Chromatic vents | Skifter skade-type hver runde |
-| Portal winds | Forced movement mod/fra portal |
-| Sacrifice platforms | Minions forsøger at fuldføre sacrifices |
+| Chromatic vents | Damage type shifts each round |
+| Portal winds | Forced movement toward/away from portal |
+| Sacrifice platforms | Minions attempt to complete sacrifices |
 
 ---
 
-## 17. Slutkamp – fire faser
+## 17. Final Battle – Four Phases
 
-### Fase 1 – Indbruddet
-**Mål:** Nå central struktur, overlev defenders, vælg rute.
-**Trusler:** Cult elites, dragon strafing, ritual hazards.
+### Phase 1 – The Breach
+**Objective:** Reach central structure, survive defenders, choose route.
+**Threats:** Cult elites, dragon strafing, ritual hazards.
 
-### Fase 2 – Sabotagen
-**Mål:** Ødelæg foci, stop sacrifices, dræb ritual casters.
-**Trusler:** Farvespecifikke hazards, elite lieutenants, counterspells, timers.
+### Phase 2 – The Sabotage
+**Objective:** Destroy foci, stop sacrifices, kill ritual casters.
+**Threats:** Color-specific hazards, elite lieutenants, counterspells, timers.
 
-### Fase 3 – Severin
-**Mål:** Stop Severin, bryd maskekraft, forhindre fuld manifestation.
-**Trusler:** Severin, ritual actions, Tiamat partial effects, collapsing temple.
+### Phase 3 – Severin
+**Objective:** Stop Severin, break the mask power, prevent full manifestation.
+**Threats:** Severin, ritual actions, Tiamat partial effects, collapsing temple.
 
-### Fase 4 – Tiamats dom
+### Phase 4 – Tiamat's Judgment
 
-| Resultat | Konsekvens |
+| Result | Consequence |
 |---|---|
-| **Stor succes** | Tiamat stoppes. Templet kollapser. Hærene overlever med store tab. |
-| **Delvis succes** | Et eller to hoveder manifesterer kort. Portalen lukkes. Verden reddes, men med ar. |
-| **Failure forward** | Tiamat manifesterer delvist/helt. Kampagnen skifter til katastrofe/escape. |
+| **Major success** | Tiamat stopped. Temple collapses. Armies survive with heavy losses. |
+| **Partial success** | One or two heads manifest briefly. Portal closes. World saved, but scarred. |
+| **Failure forward** | Tiamat partially/fully manifests. Campaign shifts to catastrophe/escape. |
 
 ---
 
-## 18. Encounters på vej mod templet (efter Naergoth)
+## 18. Encounters on the Way to the Temple (after Naergoth)
 
 ### 1. The Procession of Failed Ascension
-Kultister går frivilligt mod ritualet for at ofres. De synger. De angriber ikke først. Moral/social valg – stop dem og sænk ritualet, eller ignorér dem og styrk det.
+Cultists walk willingly toward the ritual to be sacrificed. They are singing. They do not attack first. Moral/social choice — stop them and slow the ritual, or ignore them and strengthen it.
 
 ### 2. Bone Wind Corridor
-Constitution saves, Frightened/poisoned/necrotic pressure. Arcana/Religion kan stabilisere. Frygtløs kan holde en knogleport åben fysisk.
+Constitution saves, Frightened/poisoned/necrotic pressure. Arcana/Religion can stabilize. Frygtløs can physically hold a bone gate open.
 
 ### 3. The Fivefold Gate
-Fem farvede seals blokerer vejen. Brydes med damage, skill, spell eller offer. Hver brudt seal svækker én Tiamat-effekt – men tiltrækker defenders.
+Five colored seals block the way. Broken with damage, skill, spell, or sacrifice. Each broken seal weakens one Tiamat effect — but attracts defenders.
 
 ### 4. Wyrmguard Counterattack
-Elite cult squad forsinker gruppen. Kæmper ikke til døden – bruger nets, restrains, chokepoints. Mål: tid, ikke sejr.
+Elite cult squad delays the group. Does not fight to the death — uses nets, restraints, chokepoints. Objective: time, not victory.
 
 ### 5. The First Head Speaks
-Tiamats stemme rammer én PC ad gangen. Ikke combat. Fristelse til hver karakter. Svar giver: inspiration, exhaustion, psychic damage eller clue.
+Tiamat's voice strikes one PC at a time. Not combat. Temptation for each character. Response grants: inspiration, exhaustion, psychic damage, or a clue.
 
 ---
 
-## 19. Army-scale / frontline clock
+## 19. Army-Scale / Frontline Clock
 
-**Kør ikke 1:1 krigssimulation.** Kør scene- og clock-baseret.
+**Do not run a 1:1 war simulation.** Run scene- and clock-based.
 
 ### Army Front Clock
 
-| Trin | Status |
+| Stage | Status |
 |---|---|
-| 0 | Alliancen holder linjen |
-| 1 | Kultens første modangreb |
+| 0 | Alliance holds the line |
+| 1 | The cult's first counterattack |
 | 2 | Chromatic dragon strike |
-| 3 | En allieret flanke vakler |
-| 4 | Dværgiske sappers åbner passage – eller dør |
-| 5 | Metallic dragons tvinges væk |
-| 6 | Kulten begynder at lukke indgangen |
-| 7 | Alliancen lider katastrofale tab |
-| 8 | Ritualet kan ikke angribes udefra |
+| 3 | An allied flank wavers |
+| 4 | Dwarven sappers open a passage — or die |
+| 5 | Metallic dragons are forced away |
+| 6 | The cult begins to seal the entrance |
+| 7 | The alliance suffers catastrophic losses |
+| 8 | The ritual cannot be attacked from outside |
 
-### Frontline events (d8)
+### Frontline Events (d8)
 
 | d8 | Event |
 |---:|---|
-| 1 | En metallic dragon falder brændende ned tæt på gruppen |
-| 2 | Dværgiske sappers beder om 3 runder til at sprænge en mur |
-| 3 | Emerald Enclave treants bliver sat i brand |
-| 4 | Flaming Fist holder en bro, men mister officerer |
-| 5 | Cult mages åbner en kort portal til Avernus |
-| 6 | En chromatic dragon river en krigsmaskine fra hinanden |
-| 7 | Harpers bringer et sidste kort/hemmelig passage |
-| 8 | Tiamats brøl giver alle på slagmarken et øjebliks stilhed |
+| 1 | A metallic dragon falls burning near the group |
+| 2 | Dwarven sappers ask for 3 rounds to blow a wall |
+| 3 | Emerald Enclave treants are set on fire |
+| 4 | Flaming Fist holds a bridge but loses officers |
+| 5 | Cult mages open a brief portal to Avernus |
+| 6 | A chromatic dragon tears a war engine apart |
+| 7 | Harpers bring a final map/secret passage |
+| 8 | Tiamat's roar gives everyone on the battlefield a moment of silence |
 
 ---
 
-## 20. Encounter balance – level 15-gruppen
+## 20. Encounter Balance – The Level 15 Party
 
-**Gruppen er stærk:** Høj-level PCs, massiv barbarian HP, high-level spells, bard control, ranger DPR, mulige allierede, magic items og potions.
+**The group is strong:** High-level PCs, massive barbarian HP, high-level spells, bard control, ranger DPR, possible allies, magic items, and potions.
 
-**Design bør bruge:**
-- Flere objectives end "kill all"
+**Design should use:**
+- Multiple objectives beyond "kill all"
 - Timers/clocks
-- Verticality og forced movement
+- Verticality and forced movement
 - Environmental damage
 - Legendary actions/reactions
 - Anti-concentration pressure
 - Enemies with goals
-- Minions der gør noget farligt, hvis de ignoreres
-- Bosses der bevæger sig
+- Minions who do something dangerous if ignored
+- Bosses who move
 
-**Undgå:**
-- Én stor fjende alene uden legendary support
-- Store flade maps uden cover
-- Fights uden konsekvens for ritualet
-- For mange små fjender der bare sluger tid
-- Hele hæren som taktisk grid-combat
+**Avoid:**
+- One large enemy alone without legendary support
+- Large flat maps without cover
+- Fights without consequence for the ritual
+- Too many small enemies that just eat time
+- The entire army as tactical grid combat
 
-**Adult dragon uden breath (runde 3):**
-- Flyv op og repositionér
-- Brug Frightful Presence
+**Adult dragon without breath (round 3):**
+- Fly up and reposition
+- Use Frightful Presence
 - Grapple/drop tactics
-- Knus casters med multiattack
-- Brug terrain: vælt søjler, knus bro, skab cover
-- Flyv ud af melee og tvang ranged pressure
-- Brug minions til at locke PCs
-- Ready action mod spellcasters
-- Shove/grapple en PC mod hazard
-- Tal og demoralisér
+- Crush casters with multiattack
+- Use terrain: topple pillars, collapse bridge, create cover
+- Fly out of melee and force ranged pressure
+- Use minions to lock PCs
+- Ready action against spellcasters
+- Shove/grapple a PC toward a hazard
+- Talk and demoralize
 
 ---
 
-## 21. Officielle hjælpemidler til gruppen
+## 21. Official Resources for the Party
 
 ### Potions
 - Potion of Superior Healing · Potion of Supreme Healing
@@ -577,89 +577,89 @@ Tiamats stemme rammer én PC ad gangen. Ikke combat. Fristelse til hver karakter
 
 ---
 
-## 22. Kult-relics og loot (Rum 7 / treasure room)
+## 22. Cult Relics and Loot (Room 7 / Treasure Room)
 
-Naergoth tillader loot. Ønsket type: unikke kult-relics, art objects, valuable books, fine linen, crystalware.
+Naergoth permits looting. Desired types: unique cult relics, art objects, valuable books, fine linen, crystalware.
 
-### Kult-relics
+### Cult Relics
 
-| Navn | Beskrivelse |
+| Name | Description |
 |---|---|
-| The Violet Scale Censer | Røgelseskar formet som drageklo – brugt ved promotion rituals |
-| Ashes of the First Wyrm | Sort urne med aske fra en dragekult-martyr |
-| Severin's Broken Practice Mask | Tidlig ceremoniel maske fra før hans opstigning |
-| The Fivefold Prayer Chain | Fem kæder i chromatic metals |
-| The Fang Ledger | Navne på kultister der ofrede familie |
-| Drakekeeper's Bone Whistle | Ikke-magisk, historisk værdifuld |
-| The Purple Oath Banner | Banner brugt ved sværgelse til Tiamat |
-| The Wyrm Tax Seal | Segl brugt til beslaglagt rigdom |
-| Blood-ink Initiation Bowl | Skål med størknet rød/sort blæk |
-| The Crownless Dragon Icon | Forbudt ikon fra gammel dracolich-kult |
+| The Violet Scale Censer | Incense burner shaped like a dragon claw — used in promotion rituals |
+| Ashes of the First Wyrm | Black urn with the ashes of a Dragon Cult martyr |
+| Severin's Broken Practice Mask | Early ceremonial mask from before his ascension |
+| The Fivefold Prayer Chain | Five chains in chromatic metals |
+| The Fang Ledger | Names of cultists who sacrificed family members |
+| Drakekeeper's Bone Whistle | Non-magical, historically valuable |
+| The Purple Oath Banner | Banner used when swearing allegiance to Tiamat |
+| The Wyrm Tax Seal | Seal used on confiscated wealth |
+| Blood-ink Initiation Bowl | Bowl with dried red/black ink |
+| The Crownless Dragon Icon | Forbidden icon from an old dracolich cult |
 
-### Ikke-magiske valuables
+### Non-magical Valuables
 
-- Fine linen fra Calimshan
-- Crystalware fra Waterdeep noble houses
-- Stjålne bøger fra Candlekeep, Silverymoon, Waterdeep, Baldur's Gate
-- Malerier fra adelige huse
-- Porcelæn fra Amn
-- Sølvbestik med slettede familievåben
+- Fine linen from Calimshan
+- Crystalware from Waterdeep noble houses
+- Stolen books from Candlekeep, Silverymoon, Waterdeep, Baldur's Gate
+- Paintings from noble houses
+- Porcelain from Amn
+- Silver cutlery with erased family crests
 
-### Valuable books (ikke dragerelaterede)
+### Valuable Books (not dragon-related)
 
-| Titel | Beskrivelse | Værdi |
+| Title | Description | Value |
 |---|---|---:|
-| *The Salt Ledgers of Athkatla* | Handelshemmeligheder og ruter fra Amn | 250 gp |
-| *A Noble Census of Waterdeep, Annotated* | Politisk farlig slægtsbog med marginalnoter | 400 gp |
-| *The Last Sonnets of Maerovyn Glass* | Sjælden poesisamling fra Silverymoon | 150 gp |
-| *Treatise on Siege Angles and Counterweight Engines* | Dværgisk ingeniørværk | 300 gp |
-| *The Quiet Heresies of Berdusk* | Religiøs/politisk kontroversiel tekst | 220 gp |
-| *A Cartographer's Errors in the Western Heartlands* | Kortbog med rettelser til handelsruter | 350 gp |
-| *The Wines of Tethyr and Their Bloodlines* | Luksusværk om vin, adel og jordbesiddelser | 180 gp |
-| *Seven Legal Precedents of Baldur's Gate* | Kan bruges til afpresning/manipulation | 275 gp |
-| *The Private Bestiary of Lord Harlond* | Eksotisk, illustreret naturalhistorie | 500 gp |
-| *Letters Never Sent from Myth Drannor* | Elverbreve, historisk og kulturelt værdifulde | 600 gp |
+| *The Salt Ledgers of Athkatla* | Trade secrets and routes from Amn | 250 gp |
+| *A Noble Census of Waterdeep, Annotated* | Politically dangerous genealogy with margin notes | 400 gp |
+| *The Last Sonnets of Maerovyn Glass* | Rare poetry collection from Silverymoon | 150 gp |
+| *Treatise on Siege Angles and Counterweight Engines* | Dwarven engineering work | 300 gp |
+| *The Quiet Heresies of Berdusk* | Religious/politically controversial text | 220 gp |
+| *A Cartographer's Errors in the Western Heartlands* | Map book with corrections to trade routes | 350 gp |
+| *The Wines of Tethyr and Their Bloodlines* | Luxury work on wine, nobility, and land ownership | 180 gp |
+| *Seven Legal Precedents of Baldur's Gate* | Can be used for blackmail/manipulation | 275 gp |
+| *The Private Bestiary of Lord Harlond* | Exotic, illustrated natural history | 500 gp |
+| *Letters Never Sent from Myth Drannor* | Elven letters, historically and culturally valuable | 600 gp |
 
-### Malerier
+### Paintings
 
-| Titel | Beskrivelse | Værdi |
+| Title | Description | Value |
 |---|---|---:|
-| *The Widow of the North Tower* | Sortklædt adelskvinde foran brændende tårn | 300 gp |
-| *Harvest at Goldenfields* | Fredeligt landskab, ironisk stjålet | 180 gp |
-| *The Last Banquet of House Vhammos* | Adelsselskab malet kort før familiens fald | 450 gp |
-| *Moonlight over Silverymoon Bridge* | Sølvblåt natmotiv med magisk pigment | 500 gp |
-| *The Trial of Seven Masks* | Juridisk allegori | 250 gp |
-| *A Child with a Brass Bird* | Lille portræt, stærkt følelsesmæssigt | 120 gp |
-| *Storm over the Chionthar* | Dramatisk flodlandskab | 200 gp |
-| *The Green Room of Lady Althene* | Interiør fra plyndret palæ | 350 gp |
-| *Saint of the Broken Spear* | Religiøst maleri, muligvis Elturel | 400 gp |
-| *The Empty Throne of Neverwinter* | Politisk ladet fra før Neverembers magt | 600 gp |
+| *The Widow of the North Tower* | Noblewoman in black before a burning tower | 300 gp |
+| *Harvest at Goldenfields* | Peaceful landscape, ironically stolen | 180 gp |
+| *The Last Banquet of House Vhammos* | Noble gathering painted shortly before the family's downfall | 450 gp |
+| *Moonlight over Silverymoon Bridge* | Silver-blue night scene with magical pigment | 500 gp |
+| *The Trial of Seven Masks* | Legal allegory | 250 gp |
+| *A Child with a Brass Bird* | Small portrait, powerfully emotional | 120 gp |
+| *Storm over the Chionthar* | Dramatic river landscape | 200 gp |
+| *The Green Room of Lady Althene* | Interior from a plundered palace | 350 gp |
+| *Saint of the Broken Spear* | Religious painting, possibly from Elturel | 400 gp |
+| *The Empty Throne of Neverwinter* | Politically charged, from before Neverember's rise | 600 gp |
 
 ---
 
-## 23. Teleport-fælde / sidste ambush
+## 23. Teleport Trap / Last Ambush
 
-**Præmis:** Level 15. Ikke for at fange – for at udrydde. Gruppen teleporterer og rammes af forberedt kill-zone.
+**Premise:** Level 15. Not to capture — to eliminate. The group teleports and is hit by a prepared kill zone.
 
-**Kultens mål:** Dræb heltene. Ødelæg teleport route. Forsink dem. Dræb Nyh eller allieret caster.
+**The Cult's Goal:** Kill the heroes. Destroy the teleport route. Delay them. Kill Nyh or an allied caster.
 
-**Elementer:** Teleportation circle · Ø/isoleret platform · Prepared glyphs · Adult dragon eller tilsvarende · Dragon cult elites · Environmental hazards.
+**Elements:** Teleportation circle · Island/isolated platform · Prepared glyphs · Adult dragon or equivalent · Dragon cult elites · Environmental hazards.
 
-### De to gamle mønter
+### The Two Old Coins
 
-Fundet efter kampen: over 200 år gamle, slidt ned.
+Found after the fight: over 200 years old, worn down.
 
-**Bedste mulighed:** Elturel/Western Heartlands handelspræg fra før Companion/nyere magtstruktur. Binder til Hellriders, Avernus og Zariel-tematik. Kan have cirkuleret via Dragonspear, Thay og kultens skat.
+**Best option:** Elturel/Western Heartlands trade mint from before the Companion/newer power structure. Ties to Hellriders, Avernus, and Zariel themes. May have circulated via Dragonspear, Thay, and the cult's treasury.
 
-**Alternativer:** Dragonspear-mønter · Amnisk handelsmønt · Cormyr militær · Thayan mønt med afmærkning.
+**Alternatives:** Dragonspear coins · Amnian trade coin · Cormyr military · Thayan coin with markings.
 
-**Arcana check med høj total:** Teleportcirklen er en "snare" lagt oven på en ældre circle (200+ år gammel). Kulten har ikke bygget fundamentet – de har kapret det. Der er infernal/Thayan resonans i overlejringen. Mønterne kan være material anchors til at stabilisere forbindelsen.
+**Arcana check with high total:** The teleportation circle is a "snare" laid on top of an older circle (200+ years old). The cult did not build the foundation — they hijacked it. There is infernal/Thayan resonance in the overlay. The coins may be material anchors to stabilize the connection.
 
 ---
 
-## 24. Boxed text – nøglescener
+## 24. Boxed Text – Key Scenes
 
-### Første blik på Well of Dragons
+### First View of Well of Dragons
 
 > Foran jer rejser calderaen sig som en sort krone mod himlen. Den gamle vulkan er død, men alt omkring den lever med krigens støj. Faner knækker i vinden. Drager kredser over askeskyerne som rovfugle over en slagmark. Under dem bevæger tusinder af kultister sig i formationer mellem knogler så store, at ribbenene ligner buer fra faldne katedraler.
 >
@@ -669,11 +669,11 @@ Fundet efter kampen: over 200 år gamle, slidt ned.
 >
 > Ikke fra én drage. Fra noget, der får alle drager til at lyde som ekkoer.
 
-### Ritualets tryk
+### The Ritual's Pressure
 
 > Luften bliver tungere for hvert skridt. Ikke varm. Ikke kold. Bare forkert. Jeres tænder sitrer, som om nogen trækker en usynlig klo hen over knoglerne i jeres kranier. De fem farver fra templet pulserer i takt med jeres hjerteslag.
 
-### Severins entré
+### Severin's Entrance
 
 > Severin vender sig ikke, da I træder ind. Han står med armene løftet mod portalen, mens maskernes lys river skyggerne af hans krop og kaster dem op i luften som vinger.
 >
@@ -683,7 +683,7 @@ Fundet efter kampen: over 200 år gamle, slidt ned.
 >
 > Tilfreds.
 
-### Tiamats nærvær
+### Tiamat's Presence
 
 > Et øje åbner sig i himlen over portalen. Så et mere. Så tre til.
 >
@@ -691,7 +691,7 @@ Fundet efter kampen: over 200 år gamle, slidt ned.
 >
 > Men de ser jer alle sammen.
 
-### Remallia og kortet
+### Remallia and the Map
 
 > Remallia folder kortet ud uden dramatik. Hendes hænder ryster kun én gang. I hjørnet af pergamentet er der mørke pletter, ikke blæk.
 >
@@ -699,53 +699,53 @@ Fundet efter kampen: over 200 år gamle, slidt ned.
 
 ---
 
-## 25. Episk DM-teknik
+## 25. Epic DM Technique
 
-### Store valg for spillerne
+### Major Choices for the Players
 
-- Red en allieret general eller fortsæt mod ritualet.
-- Ødelæg treasure-hoard eller brug tiden på foci.
-- Dræb Severins lieutenant eller stop sacrifice.
-- Lad metallic dragon dø for at få åbningen.
-- Brug Thayan magic og betal en pris.
+- Save an allied general or press on toward the ritual.
+- Destroy the treasure hoard or spend the time on foci.
+- Kill Severin's lieutenant or stop the sacrifice.
+- Let a metallic dragon die to gain the opening.
+- Use Thayan magic and pay a price.
 
-### Verden reagerer
+### The World Reacts
 
-**Ved succes:** En hærflanke vinder terræn · En drage falder · Ritualets lys flakker · Severin bliver vred.
+**On success:** An army flank gains ground · A dragon falls · The ritual's light flickers · Severin grows angry.
 
-**Ved fejl:** Flere kultister når templet · En allieret NPC dør · Tiamats stemme bliver klarere · En hazard bliver permanent.
+**On failure:** More cultists reach the temple · An allied NPC dies · Tiamat's voice grows clearer · A hazard becomes permanent.
 
-### Named NPC deaths – gode kandidater
+### Named NPC Deaths – Good Candidates
 
-- Leosin (hvis ikke allerede død)
-- En Harper courier
-- En metallic dragon ally
-- En dværgisk sapper captain
-- En Flaming Fist officer
-- En Thayan assistent – dør uden emotionel reaktion fra Nyh
+- Leosin (if not already dead)
+- A Harper courier
+- A metallic dragon ally
+- A dwarven sapper captain
+- A Flaming Fist officer
+- A Thayan assistant — dies without emotional reaction from Nyh
 
 ---
 
-## 26. Foundry/VTT output
+## 26. Foundry/VTT Output
 
-- JSON ved behov.
+- JSON as needed.
 - Reference: Foundry v13, dnd5e system 5.2.3.
-- Klare actor names, homebrew tydeligt markeret.
-- Maps: prompt først, præcis og klar.
+- Clear actor names, homebrew clearly marked.
+- Maps: prompt first, precise and clear.
 
 ---
 
-## 27. Svarmønstre
+## 27. Response Patterns
 
-Antag altid:
-- Kampagnen er i slutspil.
-- Aktiv gruppe: Axar, Daxx, Frygtløs og Twilight. Eldrin er ude.
-- Well of Dragons og Temple of Tiamat er hovedfokus.
-- 2024-regler som standard.
-- Session-ready materiale foretrækkes frem for teori.
+Always assume:
+- The campaign is in endgame.
+- Active group: Axar, Daxx, Frygtløs, and Twilight. Eldrin is out.
+- Well of Dragons and Temple of Tiamat are the main focus.
+- 2024 rules as default.
+- Session-ready material preferred over theory.
 
-**Gode outputformater:**
-- "Sådan ville jeg køre det ved bordet"
+**Good output formats:**
+- "Here is how I would run it at the table"
 - "Scene 1 / Scene 2 / Scene 3"
 - "DM-facing mechanics"
 - "Boxed text"
@@ -753,12 +753,12 @@ Antag altid:
 - "What happens if they succeed/fail"
 - "Foundry/VTT notes"
 - "Map prompt"
-- "Tre niveauer / tre faser / clocks"
+- "Three levels / three phases / clocks"
 
 ---
 
-## 28. Kildekontekst
+## 28. Source Context
 
-Projektet bygger på brugerens løbende kampagnearbejde samt det uploadede materiale *Tyranny of Dragons: Reloaded* – udvidet struktur for Hoard of the Dragon Queen og Rise of Tiamat, inklusive campaign overview, Waterdeep Councils, Xonthal's Tower, Mission to Thay og Tiamat's Return.
+The project is based on the user's ongoing campaign work and the uploaded material *Tyranny of Dragons: Reloaded* — expanded structure for Hoard of the Dragon Queen and Rise of Tiamat, including campaign overview, Waterdeep Councils, Xonthal's Tower, Mission to Thay, and Tiamat's Return.
 
-Alle fremtidige samtaler om kampagnen bruger dette dokument som autoritativ projektkontekst.
+All future conversations about the campaign use this document as the authoritative project context.
