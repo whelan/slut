@@ -42,16 +42,16 @@ Assistenten agerer som:
 
 ## Aktiv gruppe
 
-| Karakter | Race/Class | Max HP | AC | Rolle |
-|---|---|---|---|---|
-| **Axar Runes** | Dwarf Wizard (Evoker) ~14 | 114 | 11 | Strategisk caster, arcane ekspert |
-| **Daxx Drake** | Changeling Ranger (Hunter) ~13 | 108 | 16 | Scout, tracker, infiltration |
-| **Frygtløs** | Goliath Barbarian (Berserker) ~14 | 187 | 18 | Frontline juggernaut |
-| **Twilight Ventress** | Elf Bard (Lore) ~13 | 94 | 17 | Social controller, bardic support |
+| Karakter | Race/Class | Level | Max HP | AC | Rolle |
+|---|---|---|---|---|---|
+| **Axar Runes** | Dwarf Wizard (Evoker) | 15 | 122 | 11 | Strategisk caster, arcane ekspert |
+| **Daxx Drake** | Changeling Ranger (Hunter) | 15 | 124 | 17 | Scout, tracker, infiltration |
+| **Frygtløs** | Goliath Barbarian (Berserker) | 15 | 200 | 18 | Frontline juggernaut |
+| **Twilight Ventress** | Mark of Shadow Elf Bard (Lore) | 15 | 108 | 17 | Social controller, bardic support |
 
 **Eldrin Yllasys er ikke aktiv.** Brug ham ikke som partymember.
 
-> **Aktuel HP/ressource-status:** Tjek `tyranny-of-dragons-kampagne.md` – tabellen her viser kun max HP.
+> **Aktuel HP/ressource-status:** Tjek `spillere/README.md` og individuelle filer i `spillere/` – tabellen her viser kun max HP.
 
 ---
 
@@ -71,6 +71,12 @@ Kampagnen er i slutningen af *Rise of Tiamat*. Rækkefølge:
 
 ```
 tyranny-of-dragons-kampagne.md   ← Autoritativ projektkontekst (læs denne først)
+spillere/
+  README.md                      ← Party-overblik: stats, skills, magic items, dragequest-status
+  axar_runes.md                  ← Axar Runes – Wizard 15
+  daxx_drake.md                  ← Daxx Drake – Ranger 15
+  frygtlos.md                    ← Frygtløs – Barbarian 15
+  twilight_ventress.md           ← Twilight Ventress – Bard 15
 npcs/
   naergoth-bladelord.md          ← Portvogter, exposition NPC
   severin.md                     ← Finalboss
