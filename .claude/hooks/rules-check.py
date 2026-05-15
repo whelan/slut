@@ -11,6 +11,9 @@ import sys
 # Dansk er kun tilladt i markerede Dialogue/Room Description-sektioner
 ALLOWED_DANISH_SECTION_MARKERS = ("dialogue", "room description")
 
+# Kræver flere danske signaler for at undgå falske positiver ved enkeltord
+DANISH_DETECTION_THRESHOLD = 3
+
 # Simpel heuristik til at spotte dansk tekst uden for tilladte sektioner
 DANISH_SIGNAL_WORDS = {
     "jeg", "du", "han", "hun", "den", "det", "de", "vi", "jer", "mig",
@@ -112,8 +115,7 @@ def strip_allowed_danish_sections(text):
         if heading:
             heading_text = heading.group(1).lower()
             in_allowed_section = any(marker in heading_text for marker in ALLOWED_DANISH_SECTION_MARKERS)
-            if not in_allowed_section:
-                outside.append(line)
+            outside.append(line)
             continue
 
         if not in_allowed_section:
@@ -126,14 +128,14 @@ def find_danish_signals(text):
     words = re.findall(r"[a-zA-ZæøåÆØÅ]+", text.lower())
     matches = {w for w in words if w in DANISH_SIGNAL_WORDS}
     if any(ch in text for ch in "æøåÆØÅ"):
-        matches.add("dansk-tegn")
+        matches.add("[danish-characters-detected]")
     return matches
 
 
 def check_language_policy(text):
     outside_allowed = strip_allowed_danish_sections(text)
     danish_signals = find_danish_signals(outside_allowed)
-    if len(danish_signals) >= 3:
+    if len(danish_signals) >= DANISH_DETECTION_THRESHOLD:
         return sorted(danish_signals)
     return []
 
