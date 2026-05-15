@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 /home/user/slut/.claude/hooks/rules-check.py"
+            "command": "python3 .claude/hooks/rules-check.py"
           }
         ]
       }
