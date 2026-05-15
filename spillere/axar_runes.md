@@ -133,7 +133,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - **Evocation Savant** — Tilføj 2 Evocation spells (level ≤ 2) gratis; senere én Wizard spell fra Evocation school gratis per nyt slot level
 - **Potent Cantrip** (PHB-2024 174) — Miss/successful save på damage-cantrip = half damage
 - **Memorize Spell** (PHB-2024 167) — Byt spells under Short Rest
-- **Sculpt Spells** (PHB-2024 174) — Evocation spells: vælg 1 + spell level creatures der auto-succeeder save og tager ingen damage
+- **Sculpt Spells** (PHB-2024 174) — Evocation spells: vælg 1 + spell level creatures der auto-succeeds save og tager ingen damage
 - **Empowered Evocation** (PHB-2024 174) — Tilføj INT mod til én damage roll på Evocation spell
 - **Overchannel** (PHB-2024 174)
 - **Ability Score Improvements** — niveau 4, 8, 12

@@ -228,7 +228,7 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 - Torch ×9 + ×10 + ×10
 - Waterskin ×3
 - Fine Clothes
-- They Platinmønt
+- Thay Platinmønt
 - Dart ×7
 - Manacles ×2
 - Javelin ×18

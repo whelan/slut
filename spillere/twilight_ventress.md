@@ -115,9 +115,9 @@ Attack, Magic, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Utilize, Oppor
 
 ### Reactions
 
-**Countercharm.** Hvis du eller en creature inden for 30 ft fejler save mod effect der applier Charmed eller Frightened: brug Reaction til at få save rerolled med Advantage.
+**Countercharm.** Hvis du eller en creature inden for 30 ft fejler save mod effect der applies Charmed eller Frightened: brug Reaction til at få save rerolled med Advantage.
 
-**Cutting Words.** Når en creature inden for 60 ft laver damage roll eller succeeder ability check eller attack roll: expend Bardic Inspiration → rull die og træk fra creature’s roll, potentielt reducere damage eller vende succes til fejl.
+**Cutting Words.** Når en creature inden for 60 ft laver damage roll eller succeeds ability check eller attack roll: expend Bardic Inspiration → rull die og træk fra creature’s roll, potentielt reducere damage eller vende succes til fejl.
 
 **Reactive Spell (War Caster).** Når en creature provokerer Opportunity Attack ved at forlade din reach: cast en spell (1 action, single target) i stedet for OA.
 
