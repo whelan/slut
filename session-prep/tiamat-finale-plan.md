@@ -1098,6 +1098,84 @@ Output:
 
 ---
 
+## Ten Strong Ending Options for This Branch
+
+> These are **branch-specific ending targets** based on the locked state in this file: Naergoth is dead by Frygtløs's hand, the Draakhorn is silenced, the plaza sacrifice has not started, the party has **no Long Rest**, Rath Modar is active in the temple, all three resurrected wyrmspeakers are in play, and the party can trigger at most **3 of the 5 official weakening events**. "Good" here means **emotionally satisfying, table-strong, and true to what this branch has already established** — not necessarily painless.
+
+### 1. Ash Plain Major Victory
+
+- **Shape:** Clock ends at 0–3. Severin falls, the ritual breaks, Tiamat is forced back, and the party emerges into dawn light over the ash plain.
+- **Why it works here:** The branch is already in the best possible starting state (effective ritual clock 0). The Draakhorn sabotage and skipped plaza sacrifice make this the cleanest "we bought the world one more age" ending.
+- **Best final image:** The four PCs step out of the collapsing temple together while chromatic dragons break formation above them.
+
+### 2. Break the Circle, Not the Man
+
+- **Shape:** Severin is not the real victory condition; Axar or the party wins by breaking the ritual structure while Severin is still dangerous.
+- **Why it works here:** This respects the raw-module truth that the ritual and the Mask matter more than body count. It also rewards Axar's role as arcane expert and makes the finale feel smarter than "HP race."
+- **Best use:** If the party reaches Phase C exhausted and cannot survive a straight burn-down of Severin.
+
+### 3. The Giant Chooses Differently
+
+- **Shape:** Frygtløs is given one clear mirror to the Naergoth moment and chooses *not* to swing first.
+- **Why it works here:** This branch made Naergoth's death the central moral scar. A quiet mercy beat lands harder than another kill and gives Frygtløs a real ending, not just a combat win.
+- **Best target:** A young Red Wizard, apprentice, or surrendering cultist during the temple chaos.
+
+### 4. Twilight Holds Back a God
+
+- **Shape:** Twilight's Counter-Song or performance beat buys the party the one round that changes everything.
+- **Why it works here:** Twilight is the party member best positioned for a mythic non-damage victory moment. It also gives the climax a bardic signature instead of making the finale only about swords and spell slots.
+- **Best final image:** One of Tiamat's heads recoils from the lullaby while the rest of the party runs or strikes.
+
+### 5. Daxx Fires the Shot Everyone Remembers
+
+- **Shape:** Daxx gets the defining dragon-slayer moment: Galvan, a circling dragon, or the key shot that creates the ritual reset window.
+- **Why it works here:** Daxx is the freshest PC on HP and resources, and this branch has already made him central to infiltration, scouting, and dragon-killing payoff.
+- **Best epilogue link:** Roll this directly into the Tazmikella / Nymmurh unfinished dragon-business.
+
+### 6. Rath Modar Dies, Thay Lives
+
+- **Shape:** Rath Modar is defeated, but the Thay alliance remains operational and politically necessary afterward.
+- **Why it works here:** This branch confirms Rath Modar is active in the temple, so beating him is a real payoff. Keeping Thay useful after his fall gives the ending political texture instead of a simple "evil wizard dead" note.
+- **Best aftermath scene:** A cold Thayan envoy acknowledges the party as assets, not friends.
+
+### 7. Pyrrhic Victory, Legendary Cost
+
+- **Shape:** The party wins, but a metallic dragon, named ally, or major faction champion dies buying the margin.
+- **Why it works here:** The campaign tone is end-of-the-world war, not superhero invulnerability. A costly victory fits the branch's no-Long-Rest attrition and makes the aftermath ceremony matter.
+- **Best use:** If the party wins at clock 4–7 and needs the ending to feel victorious without pretending the war was cheap.
+
+### 8. The World Is Saved, the Peace Is Not
+
+- **Shape:** Tiamat is stopped, but the real closing scene is political: treasure, prisoners, blame, and the council nearly tearing itself apart.
+- **Why it works here:** Both the raw module and Reloaded aftermath stress that victory creates a second conflict around treasure, survivors, and power. This gives Twilight, Remallia, Ravengard, and the Council a strong last act.
+- **Best final image:** The party leaves the council chamber before the arguing starts, carrying only what matters.
+
+### 9. Revenge in the Sky
+
+- **Shape:** Tiamat is banished, but surviving chromatic dragons flee with a vow of revenge, opening a clean sequel thread.
+- **Why it works here:** Chapter 24 already supports **Dragons' Revenge**, and this branch has multiple strong surviving-dragon hooks. It keeps the finale victorious while promising that the world will remember who broke the cult.
+- **Best sequel anchors:** Hoondarrh, Voaraghamanthar, Waervaerendor, or an escaped cult remnant carrying Severin's doctrine forward.
+
+### 10. Failure Forward into Avernus
+
+- **Shape:** If the party falls, the campaign still ends well by pivoting into Bel, resurrection, hell-bargains, and one last impossible war.
+- **Why it works here:** The source material explicitly supports TPK / Tiamat-success follow-through, and this branch's mythic scale can survive failure without feeling wasted. It is the right "good ending" if the table wants tragedy that still matters.
+- **Best use:** Only if the finale truly breaks bad — frame it as a continuation hook, not a consolation prize.
+
+### Recommended priority order for this branch
+
+If you want the **strongest** ending targets for this exact campaign state, prioritize them in this order:
+
+1. **Ash Plain Major Victory**
+2. **The Giant Chooses Differently**
+3. **Twilight Holds Back a God**
+4. **Break the Circle, Not the Man**
+5. **Pyrrhic Victory, Legendary Cost**
+
+This order best fits the current branch because it pays off the **best possible ritual state**, the **Naergoth wound**, the party's actual **resource profile**, and the campaign's existing **Chapter 24 follow-up arcs** without requiring the table to ignore the cost of getting here.
+
+---
+
 ## Production Prompts (dndtale tooling)
 
 These two prompts use dndtale's tooling layer — image generation and quality assurance — rather than producing new narrative content.
