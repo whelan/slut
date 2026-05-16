@@ -161,6 +161,25 @@ If Axar makes Perception DC 12:
 
 ---
 
+## Scene 4b — THE PLAZA SACRIFICE (Optional, if Party Sneaks Past Guards)
+
+**⚠️ CRITICAL EMOTIONAL BEAT**
+
+If the party successfully sneaks past the tunnel guards using Stealth (DC 16), they emerge onto the plaza just as **Rath Modar completes the ritual killing of five prisoners on the main altar.** This is a dramatic moment of horror and moral weight.
+
+**See dedicated document:** [`SCENE-4B-PLAZA-SACRIFICE.md`](./SCENE-4B-PLAZA-SACRIFICE.md)
+
+**Quick summary:**
+- 5 named prisoners (including optional Fen if not saved from Procession) are sacrificed
+- Ritual clock +1 per death (+5 total)
+- Party may attempt rescue (hard DC checks, combat with cultists)
+- Axar may learn ritual structure (Arcana DC 16 for –1 clock advantage later)
+- Heavy emotional consequences; Exhaustion on all PCs unless resisted
+
+**Trigger condition:** Party sneaks successfully; does NOT happen if party fights guards loudly and alerts the cultists beforehand.
+
+---
+
 ## Scene 4 — Plaza 23 Guards (One Tunnel Only, the Party's Exit)
 
 ### Tactical Context
@@ -180,13 +199,13 @@ Per `well-of-dragons-raw.md:142`: *"Each tunnel is blocked by 2 barbed devils an
 **Tactical:**
 - 2 barbed devils (CR 5, 110 HP each): Multiattack (tail/claw), Hurl Flame ranged (3d6 fire, 60 ft range)
 - 4 guard drakes (CR 2, 52 HP): Bite + tail attacks
-- Expect 3 rounds of combat if the party alpha-strikes. If it goes to 4 rounds, sound carries (dragons notice = automatic 1 failure on plaza crossing skill challenge in Scene 6).
+- Expect 3 rounds of combat if the party alpha-strikes. If it goes to 4 rounds, sound carries (dragons notice = automatic 1 failure on plaza crossing skill challenge in Scene 6 or alert cultists in Scene 4b).
 - **Victory condition:** All enemies dead and the tunnel clear by end of round 3.
 
 ### Option B: Sneak Past (Group Stealth DC 16)
 
 - No combat, no sound, no alert.
-- If successful: move directly to Scene 5.
+- If successful: move directly to Scene 4b (the plaza sacrifice).
 - If failed: combat with no surprise (enemy readiness is heightened).
 
 ### Option C: Twilight Suggestion on a Drake (DC 18 Wisdom Save)
