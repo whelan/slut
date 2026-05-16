@@ -6,6 +6,15 @@
 
 ## Canonical State (locked facts)
 
+### Leosin Erlanthar – dead (before Well of Dragons)
+
+Leosin died **before** the party reached the Well of Dragons, during the fight to get the spy drawings / map of the Well to the alliance. Per `tyranny-of-dragons-kampagne.md` §5: *"Haventree arrives with a map obtained at the cost of Leosin and six other Harpers' lives. The corner of the parchment has dark stains — not ink."*
+
+**Implications:**
+- Leosin **cannot** write letters that reference Naergoth's death, the Draakhorn-stop, the plaza crossing, or anything that happened after his death.
+- Aftermath letters (Section 6 in the endgame script) must be written by **other alliance NPCs** who survived and witnessed/heard about the party's deeds.
+- See Prompt 10 for the four replacement letter-writers and Remallia's revised delivery scene.
+
 ### Naergoth Bladelord – dead
 
 - Killed by **Frygtløs** at the gate. Naergoth opened with *"velkommen"* (greeting, no aggression). Frygtløs swung first. The rest followed.
@@ -986,11 +995,22 @@ Output:
     1 use, free)
 - Three outcome versions (Major / Pyrrhic / Failure Forward) in full
   Danish boxed text, tuned to where the clock ended.
-- Leosin's four letters (Axar / Daxx / Frygtløs / Twilight) — revise
-  the existing letters from aftermath.md so they reference what
-  actually happened: Naergoth's death by Frygtløs's hand (if Leosin
-  knew), Procession outcome, Blue Abishai fight, whether Severin was
-  killed or the circle was broken.
+- Four aftermath letters — NOT from Leosin (he died before Well of
+  Dragons). Letters are from four different surviving alliance NPCs,
+  each matched to a PC's cultural / faction connection. Delivered by
+  Remallia Haventree as a compilation.
+  * Axar ← Crimson Maccath (Arcane Brotherhood / Council; expert on
+    the Draakhorn and on draconic ritual resonance)
+  * Daxx ← Delaan Winterhound (Emerald Enclave; Daxx's listed
+    Enclave contact per spillere/README.md)
+  * Frygtløs ← Sir Isteval (Council member; chivalric voice; can
+    address the "swing first" beat without preaching)
+  * Twilight ← King Melandrach (Elven king; Neronvain's father, has
+    moral standing to write about both Twilight's killing of his
+    son and her elvish-lullaby Counter-Song)
+  Each letter references SPECIFIC events the party did (Draakhorn-
+  stop, plaza crossing, Naergoth, Severin fight, Twilight's lullaby).
+  All Danish, short (single paragraph each), honest.
 - 30-60 minute aftermath session: scene list with time allocation
   (Naergoth's empty post = 30 seconds silent; Council ceremony = 10
   minutes; Frygtløs's goliath people letter = 5 minutes; etc.)
