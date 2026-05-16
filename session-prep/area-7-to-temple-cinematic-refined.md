@@ -123,8 +123,8 @@
 
 ### Anticipated Player Questions
 
-**"Can Axar hear the Infernal? What are they saying?"**
-> Yes — Axar Perception DC 12: he hears them complaining in Infernal: *"Severin promised us blood by midnight. When the prisoners come, we feast. Where are the prisoners? The hour is late. They should have come."* (See boxed text below for this discovery moment.)
+**"Can Axar hear what they're saying?"**
+> Yes — Axar Perception DC 12: He hears them speaking Common (demons coordinate with cultists in the common tongue). They're complaining: *"Severin promised us blood by midnight. When the prisoners come, we feast. Where are the prisoners? The hour is late. They should have come."* (See boxed text below for this discovery moment.)
 
 **"How many guards?"**
 > Daxx Stealth scout DC 14: At the tunnel mouth, 2 barbed devils stand facing outward into the plaza. 10 feet behind them, less attentive, 4 guard drakes. Two tunnel exits = two sets of guards like this. The party only needs to deal with one tunnel (their exit).
@@ -132,15 +132,15 @@
 **"Can we sneak past all of them?"**
 > Possible — group Stealth DC 16. Drake Perception is the bottleneck. Success = they pass undetected. Failure = combat with no surprise. Risk is real.
 
-### Boxed Text Moment — Devils' Infernal Dialogue
+### Boxed Text Moment — Devils' Common Speech
 
 If Axar makes Perception DC 12:
 
-> En af djævlene vender sig og snakker til den anden. Hans stemme er som rost metal. Hans infernalsk taler hurtigt, ubesværet.
+> En af djævlene vender sig og snakker til den anden. Hans stemme er som rost metal. Han taler i menneskeligt tungemål — Common, brugt til koordinering med dine kultister.
 >
-> *"Severin lovede os blod ved midnat. Ved Tiamat! Tiden er passeret. Hvor er de fanger, han talte om? Vi venter her, og der kommer *intet*."*
+> *"Severin lovede os blod ved midnat. Ved Tiamat! Tiden er passeret. Hvor er de fanger, han talte om? Vi venter her, og der kommer intet."*
 >
-> Den anden djævel kalder tilbage: *"Geduld. Ritualet afhænger af timing. De kommer, når Severin er klar. Og så — så får vi hvad vi vil have."*
+> Den anden djævel kalder tilbage: *"Tålmodighed. Ritualet afhænger af timing. De kommer, når Severin er klar. Og så — så får vi hvad vi vil have."*
 >
 > De begge vendte tilbage til at stirre ud på plazaen, deres tornede hud glinsende i det svage lys.
 
@@ -155,7 +155,7 @@ If Axar makes Perception DC 12:
 
 ### DM Notes
 
-- **The Infernal dialogue is a gift.** This is the only place the party learns the sacrifice hasn't started yet. Let Axar hear it clearly. He earned the Perception check.
+- **The devils' Common speech is a gift.** This is the only place the party learns the sacrifice hasn't started yet. Let Axar hear it clearly. He earned the Perception check.
 - **Pacing:** This is the transition from the underworld to the surface. Play it as a shift — temperature, air, sound. The party is leaving the warrens.
 - **Combat option:** If they fight, keep it to 3 rounds or the sound carries. After 3 rounds, shift to Scene 4 (guards already noticed).
 
