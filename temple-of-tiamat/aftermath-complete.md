@@ -144,6 +144,8 @@ As the party exits the temple and the final archway collapses, read:
 
 ### Scene 3 – The First NPC Arrival (30 seconds later)
 
+**[OPTIONAL: If you have Ravengard or military leader token, display now]**
+
 **Ulder Ravengard** appears first, on foot, armor cracked. He has perhaps 40 soldiers behind him — the remnant of the Flaming Fist's frontline.
 
 > Han ser jer, og han stopper simpelthen. Hans mand stopper også.
@@ -191,6 +193,9 @@ The Order of the Gauntlet leader arrives with clerics and knights. He is visibly
 He offers his healers without question.
 
 ### Scene 6 – The Metallic Dragons
+
+**[DISPLAY: Elia Bronze Dragon Token (Full Victory)]**
+![Elia Bronze Dragon](../../art/finale/output/elia-bronze-dragon-token_20260516_170825_1.png)
 
 **Elia** (bronze dragon, if alive) lands on the caldera rim. She is smoking slightly. Her left wing has scorch marks.
 

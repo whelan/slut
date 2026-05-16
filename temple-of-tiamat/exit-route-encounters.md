@@ -129,11 +129,15 @@ Track after this encounter:
 
 ## ENCOUNTER 2: BLUE CHAPEL RED WIZARD (Area 1, Temple of Tiamat)
 
+**[DISPLAY: Red Wizard Token + Young Red Wizard Veksin Token]**
+![Red Wizard Generic](../../art/finale/output/red-wizard-generic-token_20260516_170916_1.png)
+![Veksin Young Red Wizard](../../art/finale/output/veksin-young-red-wizard-token_20260516_164551_1.png)
+
 ### Setup
 
 **Location:** Area 1 — Entrance/Blue Chapel, inside the Temple of Tiamat. Cold stone, draconic light, 5 Red Wizards chanting in the five chapels (Areas 1, 3–6, plus 5 more in the spires above). Ritual is at X rounds complete (you define based on pacing).
 
-**Primary enemy:** 1 Red Wizard (standing in Area 1 — the Blue Chapel), AC 15 (Mage Armor), HP 40, INT 17.
+**Primary enemy:** 1 Red Wizard (standing in Area 1 — the Blue Chapel), AC 15 (Mage Armor), HP 40, INT 17. This is **Veksin Thorm**, the young apprentice.
 
 **Secondary enemies nearby:** 4 other Red Wizards (in Areas 3–6 and spires 8–12), unaware of the party's approach **unless** plaza combat was loud.
 

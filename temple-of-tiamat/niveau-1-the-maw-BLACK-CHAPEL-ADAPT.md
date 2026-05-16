@@ -38,6 +38,9 @@
 
 ## Encounter A – The Black Chapel Red Wizard (Solitary Mage)
 
+**[DISPLAY: Red Wizard Token]**
+![Red Wizard Generic](../../art/finale/output/red-wizard-generic-token_20260516_170916_1.png)
+
 **Type:** Tactical combat or Counterspell duel
 **Situation:** A lone Red Wizard guards area 5. Four others are present but distant in the foci chapels (they do not react until Round 2).
 
@@ -140,6 +143,10 @@ At the **end of Round 1**, if the Black Chapel Red Wizard hasn't been killed:
 
 **Type:** Moral / sensory scene (NOT combat unless the party intervenes)
 **Timing:** Happens during Round 2–3 of Black Chapel combat, or immediately after if combat ends early.
+
+**[OPTIONAL: Display generic cultist/Dragonfang/Dragonclaw tokens if party intervenes in combat]**
+![Dragonfang Fighter](../../art/finale/output/dragonfang-fighter-token_20260516_170907_1.png)
+![Dragonclaw Rogue](../../art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png)
 
 ---
 

@@ -82,6 +82,9 @@
 
 ### Severin Turns to Face the Party (3–5 minutes before initiative)
 
+**[DISPLAY: Severin Masked Token]**
+![Severin Masked](../../art/finale/output/severin-masked-token_20260516_164330_1.png)
+
 *Severin does not turn around. He knows you are here.*
 
 > Han bliver stående med ryggen til jer i tre lange sekunder. Maskernes lys folder sig omkring ham som vinger der ikke er hans.
@@ -496,6 +499,9 @@ As the clock rises, Tiamat's presence intensifies. This is not a separate boss f
 ---
 
 ### Elia's Arrival (Optional, triggered at Clock 4–5)
+
+**[DISPLAY: Elia Bronze Dragon Token if triggered]**
+![Elia Bronze Dragon](../../art/finale/output/elia-bronze-dragon-token_20260516_170825_1.png)
 
 **Trigger condition:** Party's combined HP < 150, OR 2+ PCs at 0 HP during Phase 1.
 
