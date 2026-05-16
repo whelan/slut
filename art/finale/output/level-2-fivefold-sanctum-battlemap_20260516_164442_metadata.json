@@ -1,0 +1,13 @@
+{
+  "title": "level-2-fivefold-sanctum-battlemap",
+  "timestamp": "20260516_164442",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/finale/02-level-2-fivefold-sanctum-battlemap.md",
+  "outputs": [
+    "art/finale/output/level-2-fivefold-sanctum-battlemap_20260516_164442_1.png"
+  ]
+}

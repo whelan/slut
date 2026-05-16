@@ -1,0 +1,13 @@
+{
+  "title": "galvan-blue-abishai-token",
+  "timestamp": "20260516_164513",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/finale/06-galvan-blue-abishai.md",
+  "outputs": [
+    "art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png"
+  ]
+}

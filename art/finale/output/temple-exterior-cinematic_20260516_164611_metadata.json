@@ -1,0 +1,13 @@
+{
+  "title": "temple-exterior-cinematic",
+  "timestamp": "20260516_164611",
+  "size": "1536x1024",
+  "quality": "high",
+  "n": 1,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/finale/12-temple-exterior-cinematic.md",
+  "outputs": [
+    "art/finale/output/temple-exterior-cinematic_20260516_164611_1.png"
+  ]
+}
