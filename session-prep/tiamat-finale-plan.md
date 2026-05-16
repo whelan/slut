@@ -8,7 +8,7 @@
 
 ### Naergoth Bladelord – dead
 
-- Killed by **Frygtløs** at the gate. Naergoth opened with *"goddag"* (greeting, no aggression). Frygtløs swung first. The rest followed.
+- Killed by **Frygtløs** at the gate. Naergoth opened with *"velkommen"* (greeting, no aggression). Frygtløs swung first. The rest followed.
 - The party never got the exposition that Naergoth would have provided. The cost: 6 missing exposition points.
   - Ritual is already underway
   - Severin is on Level 3 (not on the temple floor)
@@ -42,6 +42,10 @@ These set the starting ritual-clock value (typical: 1–3). Mark each:
 - [ ] Did the party spend a long time in Thay? (+1)
 
 **Starting clock = sum.** Floor at 0, cap at 4.
+
+**Current calculation:** +1 (marched without delay) –1 (Thay intact) –1 (Draakhorn sabotaged) –1 (Leosin delivered maps) = **–2 → floor at 0**. Council and Long-Thay unknown. Naergoth-delay applied at the DM's discretion only — currently not counted (last session's fight, not this one's march).
+
+**Effective starting ritual clock: 0.** This is the best possible state. The party has bought themselves room.
 
 ### Severin pre-combat line – updated
 
@@ -141,7 +145,8 @@ Total: 4–6 hours. Plan one long session or split A+B / C.
 ---
 
 ## Phase A – Caldera & Entry
-Already done by the party 
+
+> **Status:** The outer-caldera portion (approach decision, army front, Naergoth at the gate-in-the-warrens) is **already done by the party**. The session opens at **room 7 in the warrens** and continues from there. Everything in this Phase A section is the upcoming session's content — the ascent through the lava tubes to the temple. See "Current position (in-fiction, locked)" above for what has already happened off-screen.
 
 **dndtale framing:** Phase A is the **Cold Open** + opening **Rising Action** (`modules/session-pacing.md`). Drop the players into sensation and decision, not summary. Every boxed text follows `modules/creative-voice.md`: lead with atmosphere, three senses minimum, present tense, end on an implicit question.
 
@@ -652,7 +657,7 @@ Severin knows. Use the updated line:
 
 > Severin ser direkte på Frygtløs.
 > "I dræbte Naergoth. Den gamle hund stod i den port i syv hundrede
->  år. Han åbnede med 'goddag'. Jeres kæmpe svarede med stål."
+>  år. Han åbnede med 'velkommen'. Jeres kæmpe svarede med stål."
 > En pause.
 > "Tiamat så det. Hun husker den slags. Hun husker, hvem der slår
 >  først."
