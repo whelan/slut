@@ -119,11 +119,11 @@ Track after this encounter:
 
 ### Boxed Text (Danish) – During Combat
 
-> **Djævlenes tale (Infernal, overheard by party if they listen on approach):**
+> **Sound from the devils ahead (incomprehensible to the party):**
 >
-> *"Severin lovet blod før midnat. Hvis der kommer nogen gennem tunnelen, skal de få lov til at nå templét — lige præcis sådan, at Dronningen kan se deres modstand blive knust."*
+> Fra tunnellen foran jer kommer stemmer. Ikke menneskelige. Dybere. Stavelser der splintrer som glas i menneskeligt øre. Det har betydning — det betyder kommando, ritualisme, noget der ikke var søgt forhandling om.
 >
-> *(Severin promised blood before midnight. If anyone comes through the tunnel, they are to reach the temple — precisely so the Queen can see their resistance crushed.)*
+> I kan ikke forstå det. Men I forstår: de vidste, I kom. De venter.
 
 ---
 
