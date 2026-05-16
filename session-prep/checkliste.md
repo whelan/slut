@@ -11,10 +11,10 @@ Use this list before each session covering Well of Dragons and Temple of Tiamat.
 Determine ritual clock starting value based on campaign decisions:
 
 - [ ] Council of Waterdeep: defensive tactics? → Clock +2
-- [ ] Fast march without delay? → Clock +1
-- [ ] Thay alliance intact? → Clock –1
-- [ ] Group sabotaged the Draakhorn? → Clock –1
-- [ ] Leosin/Harpers delivered the map? → Clock –1
+- [x] Fast march without delay? → Clock +1
+- [x] Thay alliance intact? → Clock –1
+- [x] Group sabotaged the Draakhorn? → Clock –1
+- [x] Leosin/Harpers delivered the map? → Clock –1
 - [ ] Naergoth delayed the group? → Clock +1
 - [ ] Long time spent in Thay? → Clock +1
 
@@ -38,7 +38,7 @@ Pull relevant file from `well-of-dragons/tilgange.md`.
 
 Determine army front clock status:
 
-- [ ] Alliance on the offensive → Clock 0
+- [x] Alliance on the offensive → Clock 0
 - [ ] Alliance under pressure → Clock 2-3
 - [ ] Alliance on the defensive → Clock 5+
 
@@ -89,10 +89,10 @@ Review and have ready:
 
 Check what the group already has (from Room 7/Naergoth scene):
 
-- [ ] Superior Healing Potions: ___ count
-- [ ] Scroll of Summon Draconic Spirit: yes/no
-- [ ] Other scrolls: ___
-- [ ] Magic items from Well of Dragons: ___
+- [x] Superior Healing Potions: __3_ count
+- [x] Scroll of Summon Draconic Spirit: yes/no
+- [x] Other scrolls: ___
+- [x] Magic items from Well of Dragons: ___
 
 ---
 
