@@ -167,17 +167,44 @@ The party arrives at area 7 having already fought:
 
 **Party total: 390 / 554 (70%).** Daxx is the resource-rich PC — burn him hard. Frygtløs is the rate-limiter for melee — protect his HP early.
 
+**Healing budget (DM-confirmed):** **6 Potions of Superior Healing** (8d4+8, avg 28 HP each) + **12 Potions of Greater Healing** (4d4+4, avg 14 HP each) = **~336 HP of bonus-action healing available**. This is generous — combat-tuning can be slightly more aggressive than the "no Long Rest" frame initially suggested. The party can power through 2–3 cycles of full party HP loss.
+
+**Stealth modifiers for plaza-crossing skill challenge:**
+
+| PC | Stealth | With Pass Without Trace (+10) |
+|---|---|---|
+| Daxx | +15 (Expertise) | +25 |
+| Twilight | +13 (Expertise) | +23 |
+| Frygtløs | **+2** (no proficiency, PWT-dependent) | **+12** |
+| Axar | +1 | +11 |
+
+**Critical tactic:** **Daxx casts *Pass Without Trace* (Ranger 2nd level) before the plaza crossing.** Boosts everyone within 30 ft +10 Stealth. Plaza skill challenge DC 15 becomes auto-success for 3 PCs, very likely success for Frygtløs and Axar. Daxx also gets +10 to lead the scout. This is the single best resource allocation in Phase A.
+
 **Suggested potion / scroll uses before / during the plaza:**
 - Twilight: *Heroes' Feast* scroll if available — +2d10 HP for everyone for 24h, immune to Frightened, advantage on WIS saves. Single best investment now.
-- Frygtløs: chug Potion of Superior Healing in area 7 before crossing the plaza (gets him to 184/200).
+- Frygtløs: chug Potion of Superior Healing in area 7 before crossing the plaza (gets him to 140/200).
 - Axar: cast *Greater Restoration* on himself if any condition active (likely none, but check).
-- Daxx: hold the second Potion of Supreme Healing — Frygtløs will need it after plaza guards.
+- Daxx: Pass Without Trace for plaza, hold a Superior Healing for Frygtløs post-Severin Phase 1.
 
 **Combat-tuning consequences:**
 - Plaza guards (area 23): keep the fight to 2 rounds; let them disengage if pressed. **Do NOT** stack both tunnels' guards into one fight unless the party explicitly clears both — that's 12 enemies otherwise.
 - First Red Wizard inside the temple (Blue Chapel, area 1): one-target surprise. Easy down.
-- Severin Phase 1 (HP 230): if party HP combined drops below 200 entering Phase C, **trigger a metallic dragon aid moment** or **a potion-pause moment** in Phase 1 round 2–3, so the party doesn't TPK before reaching Severin's interesting phases.
-- Frygtløs's 56% HP is the campaign-balance concern. Severin's Dominate Monster Phase 2 (DC 20 WIS, Frygtløs save +2 = needs 18+ to succeed = ~25% chance per attempt) will likely succeed. Plan Twilight's Counter-Song as backup intervention.
+- Severin Phase 1 (HP 230): if party combined HP drops below 200 entering Phase C OR mid-fight, **trigger Elia (Bronze metallic dragon ally) crashing through the temple roof.** She bites a Tiamat-head or shields the party for 1 round, then must withdraw. Possible she dies in the process (Pyrrhic Victory shift) — let the dice decide.
+- Frygtløs's 56% HP is the campaign-balance concern. Severin's Dominate Monster Phase 2 (DC 20 WIS, Frygtløs save +2 = needs 18+ to succeed = ~25% chance per attempt) will likely land. Plan: **let it land if it lands**. Twilight's Counter-Song (Performance DC 14, ~80% success) is the response.
+
+**If Counter-Song FAILS** (DM-confirmed): let it play out brutally. Frygtløs attacks the party for 1–2 rounds. Each round AFTER the first, Frygtløs himself gets a new DC 20 WIS save (per 2024 Dominate Monster rules — concentration ends if Severin loses concentration, target gets new save when it takes damage). Allied PCs can:
+- Hit Frygtløs with non-lethal damage (gives him a new save)
+- Twilight Cutting Words on Severin's Concentration saves when Severin takes damage
+- Try Persuasion DC 18 to reach him (1 attempt per PC per round, Twilight has advantage via Bardic)
+- Otherwise: take the blows. He hits hard with Vorpal — Twilight at 77 HP is one-shot risk. Allow PCs to flee his reach.
+
+**This is the hardest emotional beat of the session.** Players will hate it. *That is the point.* Per `epic-character-moments.md` Frygtløs Moment 3: when he breaks free (whenever that happens — could be round 2, 3, or 4), give him ONE free attack on Severin with advantage and max damage. Not rules-legal. Is right.
+
+**Elia (Bronze dragon ally) — break-glass trigger:**
+- Trigger condition: party combined HP < 200 during Severin combat, OR 2+ PCs reduced to 0 HP simultaneously
+- Effect: she crashes through one of the temple's chapel spires (probably the broken one — Blue if Galvan dead, etc.). She bites at a Tiamat-head for 1d20+10 force damage to push it back, or sustains a breath weapon meant for the party.
+- Cost: she takes 6d10 damage from the impact. Survives unless DM specifically pushes for Pyrrhic outcome by having her die saving someone.
+- Narrative beat: she lands, looks at the party for one beat, says *"Du beskytter den her verden. Jeg beskytter dig. Ikke længere end det."* Then she's gone (returns to caldera air combat).
 
 #### Frygtløs's parallel-to-Naergoth beat — where does it land now?
 
@@ -862,6 +889,31 @@ Per `temple-of-tiamat/temple-of-tiamat.md` and the raw module, **DM-confirmed:**
 
 **Net for this party:** maximum 3 of 5 weakening events achievable on this run (ritual interruption, mask destruction, temple damage). Tiamat will keep at least –30 atk/dmg, –150 HP, lose Regeneration. Still a fight — but possible.
 
+#### Rath Modar — death scene (Axar's Thay-arc payoff)
+
+Rath Modar is Axar's primary Thay-arc antagonist (Eseldra Yeth's clinical authority + Rath Modar's renegade conspiracy from the Mission to Thay). When Rath Modar drops, **give Axar the killing blow if positioning allows.** He's owed the moment.
+
+**One final line from Rath Modar (Dansk dialogue), depending on how he falls:**
+
+- *Killed by Axar's spell:* *"En anden dværg. Altid en anden dværg. I burde have valgt anden side, dværg. Tiamat ville have lært dig ting, jeg ikke kunne."*
+- *Killed by Daxx's arrow:* *"Skifter form... og dog... den samme pil... interessant... fortæl Eseldra... fortæl hende... at hun..."* (han dør før hun-sætningen færdiggøres)
+- *Killed by Frygtløs's Vorpal:* (no words — Vorpal Greatsword decapitates; head rolls and the body burns from Mislead-residue)
+- *Killed by Twilight's spell:* *"En bard. En. Bard."* (latter / latter / hoste)
+
+**If positioning doesn't favor Axar:** he gets the last word INSTEAD. Axar may speak one sentence to Rath Modar's corpse. Open-ended — let the player improvise. If stuck: *"Du står over hans krop. Han var den, der lærte Severin lyn-resonansen. Du har en sætning."*
+
+#### Mask of the Dragon Queen — post-Severin fate (per victory path)
+
+| Victory path | Mask fate |
+|---|---|
+| **A — Kill Severin** | Mask falls intact when Severin dies. Per Reloaded ("When characters get to the Mask of the Dragon Queen, they can split it back into its individual components"), can be split into 5 individual dragon masks. **Recoverable as artifact-tier loot.** Severin's body crushed in Sanctuary collapse, but the mask survives — it is designed to survive its wearer. Sets up Avernus / Dragonspear sequel hooks. |
+| **B — Destroy 5 masks** | **DESTROYED.** Each of the 5 floating masks is part of the whole; destroying all 5 = destroying Mask of the Dragon Queen permanently. Ash and silence where the masks were. No loot. Cleanest victory — Tiamat has nothing left to channel through, ever. |
+| **C — Break ritual circle** | Mask drops to the floor when the circle breaks. Severin's connection to it severs. **Recoverable intact**, can be split into 5 pieces. Severin's body is just a man's body — recoverable, identifiable. Similar to Option A but with Axar as the closer instead of physical damage. |
+
+**For this session:** plan for Option A or C as default outcomes (mask survives). Option B is the "clean win" if the party explicitly focuses fire on the masks (Twilight + Axar coordinated). DM should NOT push the party toward any one path — Severin's stats reward Option A, the masks reward B, the ritual circle rewards C. Let the players choose.
+
+**If the mask is recovered:** drop it in the aftermath scene. Twilight Performance DC 12 reveals it sings faintly when touched — *"Du kan høre fem stemmer, meget dybt. De siger ikke ord. De venter."* Hooks Avernus arc.
+
 ### Prompt 8 – Severin pre-combat: parallel social hooks
 
 **Purpose:** Give each PC a hook before initiative, not after.
@@ -1328,6 +1380,133 @@ dndtale is for *campaign authoring*. It does not cover:
 - 2014 → 2024 terminology migration → also `.claude/hooks/rules-check.py`
 
 Use those tools alongside dndtale, not instead of it.
+
+---
+
+## Setup Technique — Getting Players to Land the Epic Moments Themselves
+
+Epic moments only feel epic when **the player** lands them, not when the DM cues them. This section is the technique for setting up — planting beats so that when the moment comes, the player makes the connection and the choice feels like theirs.
+
+### The 3-touch pattern
+
+Each epic moment needs three touches BEFORE the cue:
+
+1. **Plant** — establish an element. Subtle, no payoff. *"This is just color."*
+2. **Echo** — call back the element. The player begins to notice it. Still no payoff. *"Hmm, the DM mentioned that again."*
+3. **Cue** — the moment where the situation calls. The DM **describes** — does not **suggest**. The player makes the connection and acts.
+
+### Fallback ladder (use in order, NEVER skip to #4 first)
+
+If the player doesn't land it from the cue alone:
+
+1. **Mechanical signal** — only the creative solution works. *"The arrow ricochets off the head's scale. The white head laughs."*
+2. **NPC line** — an allied voice prompts. *"Twilight — I've heard you sing before. Maybe..."*
+3. **Whisper** — lean in, whisper a backstory fragment. *"Du husker hvad din mor gjorde, når en ulv kom for tæt på lejren."*
+4. **Direct tell** — only if the player is visibly stuck. *"Could you sing that lullaby now?"*
+
+### Worked example — Twilight's lullaby vs the Tiamat-head
+
+**Setup foundation:** Twilight's mother is established in canon as having sung old elvish lullabies. The lullaby itself is unspecified — use generic *"something her mother sang her before she understood words."* (No session-start question needed per DM call.)
+
+**Plant** (Scene 1 — area 7, last quiet):
+
+> *"Twilight — du nynner under din ånde. Du gør det ikke bevidst. Det er en gammel melodi, du har hørt før uden at lære den. Måske noget din mor sang."*
+>
+> *"Du holder op, da Daxx ser på dig."*
+
+No mechanic. No check. Just plant.
+
+**Echo** (Scene 6 — plaza crossing):
+
+> *"Twilight — du fanger dig selv i at nynne igen. Mod din vilje. Som om kroppen prøver at gøre noget, hjernen ikke har bedt om."*
+
+Stop. Move on.
+
+**Cue** (when the Tiamat-head turns toward her):
+
+> *"Det blå hoved vender sig mod dig. Det leaner ind. Ikke som en jæger — som noget meget større, der har bestemt sig for, at det vil have noget, og som ikke forstår begrebet at vente. Det åbner munden."*
+>
+> *"Twilight. Det er din tur."*
+
+**Stop.** Do not say *"what do you do."* Count to five silently. Most players will land it.
+
+If she doesn't: whisper *"Du husker hvad din mor gjorde, når en ulv kom for tæt på lejren. Det virkede én gang."* Hand her the tool. She'll use it.
+
+### Quick setups for the other epic moments
+
+#### Axar — Counterspell on Severin's Ritual Action
+
+| Touch | When | Line |
+|---|---|---|
+| Plant | Scene 1 (area 7) or Scene 3 (lava tube tunnel) | *"Axar, da I stoppede Draakhornen tidligere, så du strukturen bag — rytmen, hvor energien faldt. Du genkender den slags."* |
+| Echo | Scene 8 (entering temple, seeing ritual) | *"Du ser igen — energien går op gennem Severins ryg og ud gennem maskerne. Ikke fra ham. Gennem ham. Han er kanalen, ikke kilden."* |
+| Cue | Severin Phase 1 round 2, before his Ritual Action | *"Severin trækker vejret ind og løfter hånden. Du ser hans fingre bevæge sig — samme gestus som chant-rytmen fra templet. Du ved hvor energien lander, før den når dertil."* |
+
+Player has: Counterspell prepared, pattern recognized, timing window.
+
+#### Frygtløs — not-swinging-first (parallel to Naergoth)
+
+| Touch | When | Line |
+|---|---|---|
+| Plant | Already planted — Naergoth's death | (canon: he carries this) |
+| Echo | Scene 2 (through area 6) | *"Frygtløs — du går forbi Dragonfangens krop. Du ser hans purpur-bælte. Daxx tager det. Du ser bare på det. Du tænker ikke noget særligt. Bare at han var en officer. Bare at han havde et bælte."* |
+| Cue | Scene 7 (Blue Chapel wizard surrenders) OR mid-fight wounded Red Wizard | Describe the wizard's **age, hands, open eyes** — not his threat. *"Han er måske femogtyve. Han har en vielsesring. Hans øjne er åbne nu, og han trækker vejret."* |
+
+**Don't say:** *"Svinger du?"* Do not ask. Describe. Wait. If he swings: no comment. If he doesn't: no praise. Silence is the reward.
+
+#### Daxx — "I stay Daxx" (Severin's mirror temptation)
+
+| Touch | When | Line |
+|---|---|---|
+| Plant | Throughout campaign (existing) | (every shift has a cost) |
+| Echo | Scene 6 (plaza crossing) | *"Daxx — du kunne tage form af en chromatic dragon-acolyte. Du har set dem nok til at gøre det rigtigt. De andre måtte følge dig som 'fanger'. I ville krydse plazaen uden et eneste check. Men de ville se på dig — og se nogen, de ikke kender."* |
+| Cue | Severin pre-combat | Severin's line: *"Vi har det samme problem, du og jeg. Vi er begge mennesker, der ikke føler sig hjemme i en form. Jeg fandt en. Jeg fandt en hel familie af former. Jeg fandt en mor."* (eksisterer i `niveau-3-the-crown.md`) |
+
+Player has: motivation clear, choice on the table, no "right" answer. He decides.
+
+#### Frygtløs — holds the ceiling during the escape
+
+| Touch | When | Line |
+|---|---|---|
+| Plant | Epic-character-moments.md Moment 1 + Naergoth fight | (he IS the man who stands) |
+| Echo | Severin Phase 1, when he absorbs Mask Resonance and doesn't fall | *"Du står stadig. Det er det, du gør. Det er det, du har gjort siden første session."* |
+| Cue | Escape round 14 | *"Frygtløs — du er længst tilbage. Du ser de andre løbe. Stenen falder bag dig. Hvis du bliver stående en runde til, holder du loftet for dem. Og du kommer ikke ud."* |
+
+**Don't roll.** Just ask. Let the player say it. If he asks about mechanics: *"Du klarer det. Du er den, der altid klarer det."*
+
+#### Axar — breaks the ritual circle (Option C)
+
+| Touch | When | Line |
+|---|---|---|
+| Plant | Scene 8 entering temple, Axar Arcana DC 17 | *"Du ser linjen — den løber fra portalen, gennem stenen, op gennem ritualkanalerne, ind i Severins ryg. Du kender den slags fra et gammelt værk."* |
+| Echo | Severin Phase 1, before the masks become target priority | *"Linjen er stadig der. Du ser den. Du har 2 koncentrationsrunder for at unpicke den. Severin vil mærke det. Han vil prøve at stoppe dig."* |
+| Cue | Severin Phase 2, if the fight drags | *"Du har Counterspell. Du har Disintegrate. Du har Cone of Cold. Men du ved, hvad det virkelige spil er. Du har ventet hele dit liv på at læse en sætning som denne højt."* |
+
+Player has: ritual circle as win-path, 2 rounds needed, other PCs who can cover.
+
+### DM mistakes that kill these moments
+
+- ❌ **Explaining the setup.** *"I'm showing you this because it'll be important later."* — kills the plant.
+- ❌ **Asking right before the cue.** *"Twilight, what do you do? What about your lullaby?"* — makes it the DM's idea, not the player's.
+- ❌ **Rewarding the obvious solution as much as the creative one.** If "attack the head" and "sing to it" give the same response, the player picks attack. Build mechanical asymmetry — the head is invulnerable, only creative beats work.
+- ❌ **Rolling before the player has spoken.** Let them voice the action first. Then roll.
+- ❌ **Not reacting visibly to the first creative attempt.** When a player tries something off-script, DESCRIBE that it works (or almost works) — or they won't try again.
+
+### Implementation timeline (this session)
+
+| Time | Touch | Line / cue |
+|---|---|---|
+| Cold open Scene 1 | Plant: Twilight nynnen | Boxed text above |
+| Cold open Scene 1 | Plant: Axar resonance | *"Du ser strukturen bag chanten ovenfra."* |
+| Scene 2 (area 6) | Echo: Frygtløs walks past Dragonfang corpse | Boxed text above |
+| Scene 6 (plaza) | Echo: Twilight nynnen, Daxx shift-temptation | Both lines above |
+| Scene 8 (entering temple) | Echo: Axar resonance, Twilight notes "smaller from this far" Severin | Lines above |
+| Severin Phase 1 round 2 | Cue: Axar Counterspell | Line above |
+| Severin Phase 2 / Dominate Monster on Frygtløs | Cue: Twilight Counter-Song (Performance DC 14) | (no boxed text — let her speak it) |
+| Tiamat-head manifests | Cue: Twilight lullaby | Line above |
+| Escape round 14 | Cue: Frygtløs holds ceiling | Line above |
+
+Each cue is **one sentence**. You say it, shut up, wait.
 
 ---
 
