@@ -37,6 +37,23 @@ The temple does not disappear. It *breaks*. Each round, one structural failure o
 - **Pyrrhic:** Clock 4–7. Collapse as listed. Standard timing.
 - **Failure-Forward:** Clock 8. Collapse triggers every round, staggered; add one extra event (event 11 = portal rim collapse).
 
+---
+
+### COLLAPSE DAMAGE SUMMARY
+
+**Average damage per round from collapse events:**
+- **Rounds 1–4:** ~2d6 to 6d6 per event (climbing, environmental hazards)
+- **Rounds 5–7:** ~6d6 to 11d6 (major structural failures, lava)
+- **Rounds 8–10:** ~15d10 (catastrophic collapse, archway falling)
+
+**Escape pacing for level 15 party (total ~550 HP):**
+- If party remains in temple for all 10 rounds: ~150–200 damage total (survivable with healing)
+- If party remains for rounds 8–10: ~40d10+ bludgeoning cumulative (TPK if not evacuated)
+
+**Key mechanic:** The collapse is **not a trap**. It is a **timer**. The party should feel pressure to move and exit, not feel like every event is insta-death. The table above provides DCs to *avoid* damage (half or none), not forced damage.
+
+**For wounded parties:** A party at 50% HP combined should be able to exit in rounds 1–6 without major losses. A party at 25% HP should prioritize exiting in rounds 1–4.
+
 ### NPC Assistance (Skill Challenges)
 
 Any allied NPC remaining in the temple can provide one of these aids (call once per escape sequence):

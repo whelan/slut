@@ -8,6 +8,19 @@
 
 ---
 
+### ⚠️ RITUAL CLOCK LOCKED AT 0 FOR THIS SESSION
+
+**This value is canonical and locked.** Do not adjust it based on earlier decisions. The party earned this starting position through the following:
+- Marched without delay: +1
+- Draakhorn sabotaged: –1
+- Thay alliance kept intact: –1
+- Harper maps delivered (Leosin's sacrifice): –1
+- **Net: 0 (floor)**
+
+**This clock value applies to ALL three combat phases (Level 1, Level 2, Level 3).** If any document shows a different starting value, override it with 0.
+
+---
+
 ## SECTION 1: ENTRY SCENE & FIRST VIEW OF SEVERIN
 
 ### The Last Staircase (cinematic ascent, 2–3 minutes)
@@ -373,12 +386,17 @@ Use this round to establish positions. Frygtløs charges toward Severin (he will
 
 **Severin's Action:**
 - Casts *Globe of Invulnerability* (6th-level spell, concentration required, lasts 1 hour but he loses concentration if forced).
-- This protects him from spells cast by creatures outside the 10-ft. radius. Melee attacks still land, but spellcasters at range cannot harm him.
-- **Movement:** He drifts higher, using the portal opening for concealment (not cover—he can still see).
+- **Globe mechanics (2024 rules):** 10-ft. radius sphere centered on Severin. Any spell of 6th level or lower cast from *outside* the sphere cannot cross into it. Severin is *inside* the globe.
+- **What this means in combat:**
+  - Ranged spellcasters (Axar, Twilight) cannot target Severin with spells of 6th level or below while he is inside the globe.
+  - Melee attacks still land normally (Frygtløs can climb and hit).
+  - If Severin is forced to leave the globe (grapple, fear effect, forced movement), the protection ends for him.
+  - If someone enters the globe's radius, spells cast from outside still cannot affect them.
+- **Movement:** He drifts higher, positioning himself in the center of the portal opening, inside the globe. The portal provides concealment but not cover.
 
 **Severin's Ritual Action (bonus):** Clock +1 (now at 2, if starting at 0).
 
-**Tactics behind this:** Severin is buying time. The Globe lasts long but breaks the moment he's forced to drop it (reaction to melee, counterspell attempt, etc.). He's betting Axar won't burn Counterspell on a 6th-level spell.
+**Tactics behind this:** Severin is buying time by blocking ranged spellcasters while remaining vulnerable to melee. He expects Frygtløs to charge and climb toward him. He's betting Axar won't burn Counterspell on a 6th-level spell. If forced to move (grapple, fear), the Globe breaks and he becomes vulnerable to ranged magic again.
 
 **Red Wizards' Action:**
 - Still chanting. Ritual progresses.
@@ -454,12 +472,26 @@ As the clock rises, Tiamat's presence intensifies. This is not a separate boss f
 | Clock | Effect | How to describe |
 |---|---|---|
 | **0–2** | Eyes visible in portal. Shadows moving. | *"The portal swirls with five distinct colors, and in the deepest part, you see movement that is not Severin's."* |
-| **3** | Tiamat's voice strikes all PCs at combat start | **DC 14 WIS save.** Failure: Frightened 1 round. Success: immune to this effect for the rest of combat. *Voice: "I have waited so long to see you."* |
-| **4** | One head halfway through portal | **15-ft. zone at portal:** 3d6 fire + cold per round, no save. Also: forced movement DC 13 STR save or pushed 5 ft. toward the portal. |
-| **5** | Severin: Champion of Tiamat | Severin gains +2 saves and attacks. His connection to her is visible. |
-| **6** | One head can attack | **Bite attack (+14, 4d6+8 piercing).** Used 1/round, always targets the lowest-HP PC or whoever is closest. Adds threat independent of Severin. |
-| **7** | Tiamat partially manifests | **Severin cannot be killed** until the portal is closed. He reaches 3 HP and stays there (minimum 3 HP as long as clock 7+). If clock reaches 7, one of the victory options (B or C) must be executed or the party cannot win. |
+| **3** | Tiamat's voice + Psychic Assault | **Voice:** DC 14 WIS save. Failure: Frightened 1 round. Success: immune to this effect for the rest of combat. **Psychic Assault:** All creatures in the temple that can see a manifestation head take **4d10 psychic damage** (DC 21 WIS save for half). |
+| **4** | One head halfway through portal | **Head manifests with 15-ft. zone:** 3d6 fire + cold per round, no save. Also: forced movement DC 13 STR save or pushed 5 ft. toward the portal. **Psychic Assault scales:** 4d10 + 1d10 = **5d10 psychic damage** (DC 21 WIS save for half). |
+| **5** | Severin: Champion of Tiamat | Severin gains +2 saves and attacks. His connection to her is visible. **Psychic Assault continues:** 6d10 psychic damage (DC 21 WIS save for half). |
+| **6** | One head can attack | **Bite attack (+14, 4d6+8 piercing).** Used 1/round, always targets the lowest-HP PC or whoever is closest. **Psychic Assault scales:** 7d10 psychic damage (DC 21 WIS save for half). |
+| **7** | Tiamat partially manifests | **Severin cannot be killed** until the portal is closed. He reaches 3 HP and stays there (minimum 3 HP as long as clock 7+). **Psychic Assault:** 8d10 psychic damage (DC 21 WIS save for half). If clock reaches 7, one of the victory options (B or C) must be executed or the party cannot win. |
 | **8** | **Tiamat fully manifests** | Campaign shifts. See "Failure Forward" section. |
+
+---
+
+### PSYCHIC ASSAULT TIMING
+
+**When does it trigger?** At Clock 3 and every round thereafter.
+
+**Who does it affect?** All creatures in the temple (Level 3) that can see a Tiamat head (or heads, if multiple manifest).
+
+**Can it be resisted?** Yes, WIS save DC 21 for half damage. Creatures immune to psychic damage are immune. *Psychic Scream* and similar protections apply.
+
+**Does it trigger every round automatically?** Yes. If the clock reaches 3, the party takes this damage automatically at the *start* of Tiamat's turn each round (or the start of combat if clock 3+ at initiative).
+
+**Narrative feel:** The assault is not a spell. It is Tiamat's attention pressing directly into their minds. Describe it as: *"Et signal går gennem templet. Eller gennem jer. Eller gennem både. Det er som om hun bare *kigger* på jer — og det er værre end ethvert slag."*
 
 ---
 

@@ -207,6 +207,22 @@ If the party turns to look (or if they finish the Black Chapel Mage before Round
 - **Clock penalty:** –1 (delays the sacrifice ritual).
 - **Combat penalty:** Combat takes >2 rounds almost certainly, which results in +1 to the clock for delaying. **Net result: clock breaks even (–1 + 1 = 0).**
 
+---
+
+### ⚠️ PROCESSION MORALE RULES
+
+**The cultists are NOT soldiers. They are volunteers under magical compulsion.** Their morale is locked.
+
+| Event | Cultist Behavior | Morale effect |
+|---|---|---|
+| Party attacks the procession | **Do not flee.** They accept the violence as part of their sacrifice. Continue marching until physically separated from the column. | Morale locked. No rout. |
+| Older woman (leader) is killed | **Remaining cultists falter for 1 round.** 1d6 cultists stop marching (DC 13 WIS save). Others continue. | Minor disruption; they still march toward the apse. |
+| Combat lasts >3 rounds without party intervention | **The ritual completes.** Fen is sacrificed in the apse (party hears screaming). Remaining cultists (20–25 alive) scatter in panic—now they understand their death is coming next. | Major panic; morale BREAKS. Survivors flee toward side exits. |
+
+**Key point:** Morale is not "break if your leader dies" — it is "they are walking to their deaths *willingly*." The older woman is not their leader; she is their *voice*. If she dies, they lose the ritual's unifying focus momentarily, but they press on.
+
+**If the party fully defeats the procession in combat (kills all 30 cultists):** The ritual's human component is completely severed. Clock –2 immediately. But Fen is dead too (caught in the fight), unless the party specifically saves him (Sleight of Hand, grab him, pull him aside). This victory is pyrrhic.
+
 **Option 3: Social interaction (Persuasion DC 15)**
 - Twilight or Daxx can try to break the ritual compulsion on 1d6 cultists with a successful Persuasion check.
 - Those cultists stop marching. They do not leave the temple — but they do not participate in the ritual.
