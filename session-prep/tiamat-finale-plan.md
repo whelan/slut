@@ -145,13 +145,30 @@ The party arrives at area 7 having already fought:
 3. Area 8 — Draakhorn reinforcements (1 dragonsoul + 1 dragonfang + 4 dragonwings)
 4. Area 7 — Naergoth Bladelord (CR 11, 170 HP)
 
-Estimated party state (DM should track exact numbers): **50–70% HP, 60–75% spell slots, no Hit Dice spent in last 24h**. Twilight (108 HP) is most vulnerable.
+**Time in warrens so far: ~8 hours.** Time of day above: **sunset / dusk**. Plaza will be lit by fading red light and long shadows.
 
-**Tuning consequences:**
+**Live HP at start of session** (DM-confirmed):
+
+| PC | HP | % | Notable |
+|---|---|---|---|
+| **Axar Runes** | 77 / 122 | 63% | Caster: needs Counterspell + Cone of Cold + Disintegrate slots for plaza guards / Galvan / Severin |
+| **Daxx Drake** | 124 / 124 (+4 temp) | 100% (+) | Fresh — likely just chugged a Potion of Supreme Healing. Full damage potential. |
+| **Frygtløs** | 112 / 200 | 56% | **Lowest %.** Frontline tank at half HP. Rage uses available. Vulnerable to Severin Dominate Monster Phase 2. |
+| **Twilight Ventress** | 77 / 108 | 71% | Most fragile (108 max). Cloak of Displacement helps. Cutting Words + Counter-Song for Severin. |
+
+**Party total: 390 / 554 (70%).** Daxx is the resource-rich PC — burn him hard. Frygtløs is the rate-limiter for melee — protect his HP early.
+
+**Suggested potion / scroll uses before / during the plaza:**
+- Twilight: *Heroes' Feast* scroll if available — +2d10 HP for everyone for 24h, immune to Frightened, advantage on WIS saves. Single best investment now.
+- Frygtløs: chug Potion of Superior Healing in area 7 before crossing the plaza (gets him to 184/200).
+- Axar: cast *Greater Restoration* on himself if any condition active (likely none, but check).
+- Daxx: hold the second Potion of Supreme Healing — Frygtløs will need it after plaza guards.
+
+**Combat-tuning consequences:**
 - Plaza guards (area 23): keep the fight to 2 rounds; let them disengage if pressed. **Do NOT** stack both tunnels' guards into one fight unless the party explicitly clears both — that's 12 enemies otherwise.
 - First Red Wizard inside the temple (Blue Chapel, area 1): one-target surprise. Easy down.
-- Severin Phase 1 (HP 230): if party HP is <50% combined entering Phase C, **trigger a metallic dragon aid moment** or **a potion-pause moment** in Phase 1 round 2–3, so the party doesn't TPK before reaching Severin's interesting phases.
-- Suggest Twilight uses *Heroes' Feast* scroll (per `tyranny-of-dragons-kampagne.md` §21) before crossing the plaza if available — +HP for everyone for 24h, immune to Frightened.
+- Severin Phase 1 (HP 230): if party HP combined drops below 200 entering Phase C, **trigger a metallic dragon aid moment** or **a potion-pause moment** in Phase 1 round 2–3, so the party doesn't TPK before reaching Severin's interesting phases.
+- Frygtløs's 56% HP is the campaign-balance concern. Severin's Dominate Monster Phase 2 (DC 20 WIS, Frygtløs save +2 = needs 18+ to succeed = ~25% chance per attempt) will likely succeed. Plan Twilight's Counter-Song as backup intervention.
 
 #### Frygtløs's parallel-to-Naergoth beat — where does it land now?
 
