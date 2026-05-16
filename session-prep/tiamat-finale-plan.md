@@ -27,17 +27,17 @@
 | Frygtløs | Barbarian 15 (Berserker) | 200 / 18 | Vorpal Greatsword, Belt of Frost Giant Strength (STR 23), Winged Boots, Helm of Brilliance | Frontline, hold the line, physical sabotage on White / Black foci |
 | Twilight | Bard 15 (Lore) | 108 / 17 | Cloak of Displacement, Anstruth Harp, Shard of Ise Rune (Sleet Storm), Rapier +3 | Cutting Words, Counter-Song vs Tiamat-head, social leverage |
 
-**Party total HP:** 554. Assume one Long Rest before the temple. All spell slots full. Dragon Slayer ammunition assumed available.
+**Party total HP:** 554.. current spell slots and hit points no long rest. 
 
 ### Open questions (need decision before Session 0 of finale)
 
 These set the starting ritual-clock value (typical: 1–3). Mark each:
 
 - [ ] Did the Council of Waterdeep choose defensive tactics? (+2)
-- [ ] Did the party march without delay? (+1)
-- [ ] Is the Thay alliance intact and operational? (–1)
-- [ ] Did the party sabotage the Draakhorn transmission? (–1)
-- [ ] Did Leosin and the Harpers deliver the Well of Dragons maps? (–1)
+- [x] Did the party march without delay? (+1)
+- [x] Is the Thay alliance intact and operational? (–1)
+- [x] Did the party sabotage the Draakhorn transmission? (–1)
+- [x] Did Leosin and the Harpers deliver the Well of Dragons maps? (–1)
 - [ ] Naergoth delayed the party — applied (+1) because combat consumed time even though dialogue was skipped
 - [ ] Did the party spend a long time in Thay? (+1)
 
@@ -49,7 +49,7 @@ The line in `temple-of-tiamat/niveau-3-the-crown.md:71` (*"I gik forbi Naergoth 
 
 > Severin ser direkte på Frygtløs.
 >
-> *"I dræbte Naergoth. Den gamle hund stod i den port i syv hundrede år. Han åbnede med 'goddag'. Jeres kæmpe svarede med stål."*
+> *"I dræbte Naergoth. Den gamle hund stod i den port i syv hundrede år. Han åbnede med 'velkommen'. Jeres kæmpe svarede med stål."*
 >
 > En pause.
 >
@@ -119,6 +119,7 @@ Total: 4–6 hours. Plan one long session or split A+B / C.
 ---
 
 ## Phase A – Caldera & Entry
+Already done by the party 
 
 **dndtale framing:** Phase A is the **Cold Open** + opening **Rising Action** (`modules/session-pacing.md`). Drop the players into sensation and decision, not summary. Every boxed text follows `modules/creative-voice.md`: lead with atmosphere, three senses minimum, present tense, end on an implicit question.
 
