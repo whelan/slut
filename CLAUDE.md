@@ -87,6 +87,8 @@ npcs/
 session-prep/
   checkliste.md                  ← Pre-session DM checklist (ritual clock, foci status, NPC prep)
   tiamat-finale-plan.md          ← Endgame session plan with 10+2 paste-and-run prompts, canonical state, approach matrix
+session-summary/
+  Session-well-of-dragons.md     ← Live state: what the party did in the most recent session (where they are NOW)
 temple-of-tiamat/
   README.md                      ← Overview and navigation for the entire temple
   niveau-1-the-maw.md            ← Outer temple grounds, encounters, ~25 min
@@ -97,18 +99,26 @@ temple-of-tiamat/
   battlemap-prompts.md
   epic-character-moments.md
   aftermath.md
+  temple-of-tiamat.md            ← Reloaded ch. 23.5–24: official enemies, Rath Modar, resurrected Abishai (Rezmir/Neronvain/Galvan), weakening events, epilogue arcs (24.2–24.10)
+  temple-of-tiamat-raw.md        ← Raw Rise of Tiamat module text: 13-area temple layout, 10-round ritual mechanics, Mask of the Dragon Queen, Tiamat weakening penalties
 well-of-dragons/
   hær-clock.md                   ← Army front clock and events
   tilgange.md                    ← Land/water/air approaches to Well of Dragons
-  temple-of-tiamat.md            ← Reloaded ch. 23.5–24: official enemies, Rath Modar, resurrected Abishai (Rezmir/Neronvain/Galvan), weakening events, epilogue arcs (24.2–24.10)
-  temple-of-tiamat-raw.md        ← Raw Rise of Tiamat module text: 13-area temple layout, 10-round ritual mechanics, Mask of the Dragon Queen, Tiamat weakening penalties
+  well-of-dragons-raw.md         ← Raw Rise of Tiamat module: caldera, lava tube warrens, areas 1–24 (Naergoth in area 4, Draakhorn in area 8, treasure 6+7, prisoner pens 16–18, plaza 23, temple exit 24 → Black Chapel)
 ```
 
 **Authoritative reference:** `tyranny-of-dragons-kampagne.md` contains the full campaign context including NPC tables, encounter balance, Tiamat manifestation stages, battlemap preferences, and response patterns. It is the source of truth for ambiguities.
 
-**Required reading for any finale / Tiamat / Severin / Well of Dragons task:** in addition to `tyranny-of-dragons-kampagne.md`, the assistant must also read both `well-of-dragons/temple-of-tiamat.md` (Reloaded supplement) and `well-of-dragons/temple-of-tiamat-raw.md` (raw official module) before producing analysis or planning material. These two files contain the source lore (Rath Modar, resurrected wyrmspeakers as Abishai, Mask of the Dragon Queen, the 5 weakening events, epilogue arcs) that the homebrew rework in `temple-of-tiamat/` builds on top of. Skipping them produces incomplete plans.
+**Required reading for any finale / Tiamat / Severin / Well of Dragons task:** in addition to `tyranny-of-dragons-kampagne.md`, the assistant must also read all three source files before producing analysis or planning material:
+- `temple-of-tiamat/temple-of-tiamat.md` (Reloaded supplement)
+- `temple-of-tiamat/temple-of-tiamat-raw.md` (raw official module — temple interior)
+- `well-of-dragons/well-of-dragons-raw.md` (raw official module — caldera, warrens, areas 1–24)
 
-**Required reading for any finale session-prep / planning task:** also read `session-prep/tiamat-finale-plan.md` — it holds the locked canonical state (Naergoth's death, party magic items, starting clock factors) that overrides earlier file content where they conflict.
+These hold the source lore (Rath Modar, resurrected wyrmspeakers as Abishai, Mask of the Dragon Queen, the 5 weakening events, epilogue arcs, Naergoth in area 4, Draakhorn in area 8, prisoner pens 16–18, plaza 23 sacrifice ritual with 5 colored dragons, lava tube area 24 → Black Chapel) that the homebrew rework in `temple-of-tiamat/niveau-*.md` builds on top of. Skipping them produces incomplete plans.
+
+**Required reading for any finale session-prep / planning task:** also read:
+- `session-prep/tiamat-finale-plan.md` — holds locked canonical state (Naergoth's death, party magic items, starting clock factors) that overrides earlier file content where they conflict
+- `session-summary/Session-well-of-dragons.md` — the live state of the most recent session. Anything in this file overrides earlier sources where they conflict.
 
 ---
 

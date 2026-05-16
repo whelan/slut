@@ -73,25 +73,96 @@ No mechanic. No DC. The player can say something or not. Both are right.
 
 ### Current position (in-fiction, locked)
 
-The party is in the **Well of Dragons warrens, at room 7**. They have committed to the underground / lava tube approach. The session opens with them moving UP from room 7 through the lava tubes toward the temple.
+The party is in **area 7 — the Secondary Treasure Chamber** of the Well of Dragons warrens. Per `well-of-dragons/well-of-dragons-raw.md:79`: *"Art objects, valuable books, fine linen, crystalware, and especially fragile magic items are stored here less haphazardly than in area 6, piled carefully on shelves and tables."*
 
-- **Approach: locked.** Water / underground via warrens. No reroll.
-- **Next move:** ascend through lava tubes, pass rooms 17 (slave escort being herded UP toward the temple) and 18 (slave pen), emerge into the temple via the **Black Chapel (temple area 5)** per `well-of-dragons/temple-of-tiamat-raw.md:2` — *"a lava tube corridor from the cult's subterranean warrens leads into area 5 (the black chapel)."*
-- **Naergoth's death** happened earlier in the warrens (location uncertain — Reloaded suggests rooms 6, 9, 10, 12, 13, or 21 as plausible). It was **not** at the front gate (front gate = area 1, blue chapel, the only above-ground entrance).
-- **What's between them and the temple** (per `well-of-dragons/temple-of-tiamat.md` enemy table):
+#### What the party has already done (per `session-summary/Session-well-of-dragons.md`)
 
-| Room | Contents | DM call |
+1. Entered via **entrance 1A** (north entrance, heaviest use, treasure flows through here)
+2. Descended to **area 6 (Main Treasure Chamber)** — defeated the Dragonfang + flesh golems + guard drakes
+3. Continued to **area 8 (Draakhorn chamber)** — defeated the Air Elemental (banished it) and the stone golem. **Stopped the Draakhorn.** This is a massive accomplishment with multiple consequences (see below).
+4. Returned to **area 7 (Secondary Treasure Chamber)** — encountered Naergoth Bladelord. He said *"velkommen"*. Frygtløs swung first. Naergoth dead.
+5. Looted area 7 (cult relics, valuable books, paintings — per `tyranny-of-dragons-kampagne.md` §22).
+6. **Currently:** at area 7. About to move on. This is the session opener.
+
+#### Draakhorn-stop consequences (CRITICAL)
+
+Per `well-of-dragons/well-of-dragons-raw.md:92`: *"If the horn's sound ceases for more than 1 minute, 1 dragonsoul, 1 dragonfang, and 4 dragonwings arrive to investigate."*
+
+The Draakhorn has been silent since the previous session. **The investigation patrol may already be in the warrens.** DM must decide: have they arrived? Where? See clarifying questions below.
+
+Per `well-of-dragons/well-of-dragons-raw.md:99-101`: *"The low, moaning drone of the Draakhorn... alerts all dragons within two thousand miles to rise and be wary."* With the horn silenced, the chromatic dragons above the caldera no longer have ongoing signal — but they are still gathered. The silence itself is a signal: something is wrong.
+
+This is also a **strategic weakening of the cult**. Map to WotC weakening events (raw module): the Draakhorn is not one of the official 5, but the disruption of cult communication is a narrative-equivalent benefit. Treat as: **–1 to ritual clock starting value** (already baked into the calculation above).
+
+#### Naergoth – canonical location updated
+
+Per `well-of-dragons/well-of-dragons-raw.md:54-57`: Naergoth's home is **area 4** (his old knight's quarters from his living days). But the raw module says: *"Intruders skulking through the warrens can run into Naergoth anywhere."* He encountered the party in area 7 when they returned. He greeted them in-character (*"velkommen"*). Frygtløs swung first.
+
+The party has NOT entered area 4. His personal effects (centuries of accumulated objects from a wight-knight) are unexplored. **DM call:** is this worth a detour for loot + emotional weight (his portrait, his cult-history papers, perhaps a letter to Severin he never sent)? Or skip?
+
+#### The locked route: 7 → 6 → 23 → temple front gate (Blue Chapel)
+
+**DM has locked the route.** The party goes:
+
+1. **Area 7** (Secondary Treasure Chamber — current position) →
+2. **Area 6** (Main Treasure Chamber — already cleared, empty) →
+3. **Area 23** (Northern Exits + plaza — 2 barbed devils + 4 guard drakes per tunnel block the way; plaza is bleak open space, 250 ft × 100 ft) →
+4. **Plaza crossing** (open air, dragon bones underfoot, chromatic dragons circling above the caldera) →
+5. **Temple front gate** = **area 1, Blue Chapel** (the only above-ground entrance per `temple-of-tiamat/temple-of-tiamat-raw.md:2`).
+
+**Why this path matters narratively:**
+- They walk back through area 6 where they fought hours earlier — the bodies are still there
+- They emerge into the OPEN AIR plaza — first time outside since they entered the warrens
+- Chromatic dragons circle above the caldera — they may spot the party
+- The temple rises before them — first time they see the full exterior
+
+**What they do NOT encounter on this path:**
+- Prisoner pens (rooms 16, 17, 18) — skipped
+- Sacrifice ritual at plaza (NOT started yet — confirmed by DM)
+- Lava tube to Black Chapel (area 24) — skipped; entry is via the front gate, not the back
+- Naergoth's quarters (area 4) — skipped per DM call
+
+**Stirleng and Brek (named prisoner anchors)**: NOT in play on this route. Document them in the run log as "potential anchors used elsewhere" — they can be referenced later if Severin mentions sacrifices already completed.
+
+#### State of the world (locked from DM clarifying answers)
+
+| Variable | State | Source |
 |---|---|---|
-| 8 | 1 Air Elemental, 1 Bone Devil | Optional — skip unless party wants combat warmup |
-| 12–13 | 2 Barbed Devils + 2 Guard Drakes | Optional |
-| 15 | 3 Dragonfangs + 9 Dragonwings | **Skip** — major force, would derail pacing |
-| 16 | Only lifeless bodies | **Use** — mood beat, no combat |
-| 17 | 5 Dragonwings escorting 30 injured commoners UP | **Use** — emotional + moral payload |
-| 18 | 1 Dragonfang + 2 Dragonwings + 1 Guard Drake guarding 30 commoners | **Use** — slave pen, second moral choice |
-| 19 | 8 Guard Drakes feasting on dead prisoners | Optional — horror beat |
-| 23 | 2 Barbed Devils + 4 Guard Drakes | Optional |
+| Route | 7 → 6 → 23 → front gate (Blue Chapel) | DM lock |
+| Sacrifice ritual at plaza | **NOT started** | DM lock. Plaza has only guards (2 barbed devils + 4 guard drakes per tunnel). No 5-dragon massacre scene. |
+| Draakhorn patrol (1 dragonsoul + 1 dragonfang + 4 dragonwings) | **Already killed during Naergoth fight** | DM lock. No reinforcement pressure remains. |
+| Wyrmspeakers as Abishai | **All 3 in play:** Rezmir (Black, 90 HP), Neronvain (Green, 117 HP), Galvan (Blue, 141 HP) | DM lock. Placement: Black foci, Green foci, Blue foci. |
+| Long Rest | **None.** Party continues directly. HP and slots are post-Naergoth + Draakhorn + treasure-fight state. | DM lock. Combat must be calibrated down. |
+| Dragon masks held by party | **None.** Severin has the full Mask of the Dragon Queen. | DM lock. No "incomplete mask" weakening event active. |
+| Rath Modar location | **In the temple, actively leading ritual** (area 6, Red Chapel per raw module) | DM lock. He drops his ritual role and engages if combat reaches him. |
+| Naergoth's quarters (area 4) | NOT visited. Skipped. | DM lock. |
 
-Recommended minimal route: room 7 → room 16 (silent mood) → room 17 (slave escort moral choice) → room 18 (slave pen tactical) → lava tube vent → first view of temple → emerge in **Black Chapel (area 5)**.
+#### Combat-tuning warning — NO Long Rest
+
+The party arrives at area 7 having already fought:
+1. Area 6 — Dragonfang + 2 flesh golems + 4 guard drakes
+2. Area 8 — Air Elemental + stone golem (Draakhorn-stop)
+3. Area 8 — Draakhorn reinforcements (1 dragonsoul + 1 dragonfang + 4 dragonwings)
+4. Area 7 — Naergoth Bladelord (CR 11, 170 HP)
+
+Estimated party state (DM should track exact numbers): **50–70% HP, 60–75% spell slots, no Hit Dice spent in last 24h**. Twilight (108 HP) is most vulnerable.
+
+**Tuning consequences:**
+- Plaza guards (area 23): keep the fight to 2 rounds; let them disengage if pressed. **Do NOT** stack both tunnels' guards into one fight unless the party explicitly clears both — that's 12 enemies otherwise.
+- First Red Wizard inside the temple (Blue Chapel, area 1): one-target surprise. Easy down.
+- Severin Phase 1 (HP 230): if party HP is <50% combined entering Phase C, **trigger a metallic dragon aid moment** or **a potion-pause moment** in Phase 1 round 2–3, so the party doesn't TPK before reaching Severin's interesting phases.
+- Suggest Twilight uses *Heroes' Feast* scroll (per `tyranny-of-dragons-kampagne.md` §21) before crossing the plaza if available — +HP for everyone for 24h, immune to Frightened.
+
+#### Frygtløs's parallel-to-Naergoth beat — where does it land now?
+
+With the slave pens skipped, the natural "parallel decision" moment is gone. Replacement options for the DM to pick from:
+
+- **Plaza guards (area 23):** A guard drake surrenders / cowers / is wounded and looks at Frygtløs. Does he swing? *(Weak — drakes are barely persons.)*
+- **Blue Chapel Red Wizard:** A young wizard, eyes closed, mid-chant. Surprised. Drops the ritual phrase when he sees them. *(Better — a human who is also a fanatic.)*
+- **Inside the temple, mid-fight:** A wounded Red Wizard or Rath Modar's apprentice begs for mercy. Frygtløs has the swing. *(Best — high-tension moment, mirror to Naergoth.)*
+- **Severin's offer:** Severin offers to make Frygtløs an emissary instead of killing him. *(Different beat — temptation, not violence.)*
+
+**Recommended:** plant it as a possible moment inside the temple. Don't force it. If Frygtløs's player notices and reacts, the campaign closes its character arc. If not, that's also a choice — and Severin can note it at the climax.
 
 ### Three Clue Rule – the Naergoth gap
 
@@ -150,102 +221,162 @@ Total: 4–6 hours. Plan one long session or split A+B / C.
 
 **dndtale framing:** Phase A is the **Cold Open** + opening **Rising Action** (`modules/session-pacing.md`). Drop the players into sensation and decision, not summary. Every boxed text follows `modules/creative-voice.md`: lead with atmosphere, three senses minimum, present tense, end on an implicit question.
 
-### Beat list (locked: Room 7 ascent)
+### Beat list (locked: 7 → 6 → 23 → front gate)
 
-1. **Cold open at room 7** — sensory establishment. "You can hear something above you. It is not echoes."
-2. **Ascent through lava tubes** — building dread; chanting growing, temperature swinging, colored light bleeding down.
-3. **Room 16 — the silent room** — lifeless bodies, no enemies. 30-second mood beat.
-4. **Room 17 — slave escort going up** — moral + tactical choice. WotC weakening event in play.
-5. **Room 18 — slave pen** — second moral choice. Frygtløs's parallel-to-Naergoth decision lands here.
-6. **First view of the temple from below** — silent observation moment. Read the official boxed text (translated). Let the players count Red Wizards. Reveal ritual progress.
-7. **Emergence into the Black Chapel (area 5)** — surprise round on one Red Wizard. Advantage on first initiative if quiet.
+1. **Cold open at area 7** — area 7 still smells of recent combat. Naergoth's body. Looted shelves. The chanting from the temple is audible through stone above. The Draakhorn is silent — that absence is also a sound.
+2. **Through area 6** — the empty treasure chamber they cleared. Their own dead enemies still where they fell. Mood: triumph turning to dread.
+3. **Northern Exits tunnel** — uphill corridor, air changing from underground heat to night air. The guards in area 23 aren't yet aware.
+4. **Plaza 23 guards** — 2 barbed devils + 4 guard drakes per tunnel. Combat or stealth bypass. Devils face outward toward the plaza, not toward the tunnel. Drakes may notice approach.
+5. **Emerging into the plaza** — first open air in hours. Temple rises before them. Dragons circling above.
+6. **Crossing the plaza** — 250 ft × 100 ft of bone-strewn open ground. Skill challenge or stealth check. Dragons above may spot.
+7. **Temple front gate (Blue Chapel, area 1)** — Red Wizard performing ritual. Surprise round if quiet. Inside view of full temple revealed (5 chapels + Severin floating above).
 
-### From Room 7 to the Temple — full sequence
+### From Area 7 to the Temple — full sequence (route 7→6→23→Blue Chapel)
 
 The user-facing narrative for the entry phase. Use these scenes directly at the table. All boxed text is Danish (Room Description / Dialogue, per language policy). Mechanical notes are English.
 
-#### Scene 1 — Room 7, last quiet
+#### Scene 1 — Area 7, last quiet
 
-> Lava-tunnellen er smal her. I står ved skillevejen. Bag jer ligger varmen og lugten af noget, I ikke længere kalder ved navn. Foran jer trækker tunnellen sig opad i en kurve, og lyden derfra er ikke længere ekkoer.
+> Området er stadig varmt fra kampen. Naergoths krop ligger, hvor han faldt. Hans sværd er ved hans hånd, men hans hænder rører det ikke længere.
 >
-> Det er en puls.
+> Hylderne omkring jer er tomme nu. I har taget hvad I kunne bære: malerier rullet sammen i lærred, en bog der lugter af Candlekeep, en æske der er for tung til kun at indeholde papir.
 >
-> Fem stemmer der synger. Eller fem grupper af stemmer. I kan ikke skelne. Hver puls får støvet på væggene til at hoppe én gang.
+> Hør efter.
 >
-> Twilight — du kender den slags rytme. Du har hørt den én gang før, ved et begravelsestog i Rashemen, da du var fjorten.
+> Draakhornen er stille. Det har den ikke været i ugevis. Den stilhed er det højeste, I har hørt i lang tid.
 >
-> Det var ikke et begravelsestog.
-
-**DM-note:** No mechanic. This is the beat where the players orient. Wait for someone to say "we go up." Then move.
-
-#### Scene 2 — Ascent through the lava tubes
-
-As the party climbs, the chanting intensifies. The temperature swings: cold, then hot, then cold again. The walls vibrate with the rhythm. They begin to see colored light bleeding down from above — black first (closest, they're emerging through the Black Chapel), then peripheral red, green, blue, white pulsing in sequence.
-
-> Hver hundrede skridt skifter luften. Først kold som en kælder, så varm som en smedje, så kold igen. I jeres knogler kan I mærke det. Det er ikke vejret. Det er noget oven over jer, der trækker vejret med åbne kæber.
+> Bag den, langt borte og oppefra, kommer en anden lyd igennem stenen. En syngende puls. Fem stemmer. Eller fem grupper af stemmer. I kan ikke skelne.
 >
-> Lyset, der siver ned i tunnellen, er sort. Det giver ingen mening. Men det er sort, og det puler.
+> Templet kalder. Det venter ikke på jer.
+
+**DM-note:** No mechanic. The beat where the players orient. Wait for someone to say "we move." Then go.
+
+#### Scene 2 — Through area 6 (the cleared treasure chamber)
+
+> I går tilbage gennem skatkammeret. Det er stadig her — bjergene af guld, smaragder så store som æg, et sværd med en gylden drage som hjælte. Alt det I ikke kunne bære. Alt det I ikke gad bære.
 >
-> Bag det sorte begynder andre farver at antydes ved kanterne af jeres syn — rød, grøn, blå, hvid. Hver i sin tur. Som om de venter på at blive præsenteret.
-
-**Mechanical:** Daxx Survival DC 12 to estimate distance — *"30 minutters klatring tilbage."* Axar Arcana DC 15 to identify the chant — *"Five-voice draconic resonance. Channeling spell. Late stage."*
-
-#### Scene 3 — Room 16, lifeless bodies
-
-A horror beat. No combat. Use 60 seconds.
-
-> Rummet er stille. Tyve, måske tredive kroppe ligger på gulvet. De er ikke døde for nylig. De er ikke døde for længe siden. De er døde præcist.
+> Og kroppene. Dragonfangen ligger med sit sværd halvt under hans krop. De to flesh golems er stivnet i den positur, de døde i. De fire guard drakes er allerede begyndt at lugte.
 >
-> Ingen mærker. Ingen sår. Bare kroppe, der har stoppet med at være kroppe.
+> Daxx — du ser hurtigt på Dragonfangen. Han har stadig sit purpur-bælte. Et arvestykke fra hans loge. Du tager det. Til Twilight, måske. Senere.
 >
-> Twilight bemærker det først: ingen af dem har et udtryk. Ikke smerte. Ikke fred. Ingenting.
+> Ingen siger noget. I går videre.
+
+**DM-note:** Optional cool-down beat. Accommodate briefly if players initiate loot/inspection. Move to Scene 3 within 60 seconds.
+
+#### Scene 3 — Northern Exits tunnel (between area 6 and area 23)
+
+> Tunnelen stiger opad. Ikke skarpt — bare en lang, jævn opadgående bue. Hver hundrede skridt ændrer luften sig. Den underjordiske varme aftager. En anden lugt blander sig — aske, blod, og noget der er på vejen til at blive råddent.
 >
-> Som om det, der dræbte dem, ikke gad bekymre sig om, hvad de tænkte i øjeblikket.
-
-**DM-note:** Do not invite checks. Do not explain. If a player investigates: necrotic drain consistent with ritual battery, but no DC needed to feel that. Move on when they're ready.
-
-#### Scene 4 — Room 17, the slave escort
-
-**Per `well-of-dragons/temple-of-tiamat.md`:** 5 Dragonwings escorting 30 injured and exhausted Commoners *toward the temple*. They are walking up the same corridor the party is climbing.
-
-> I hører dem først. Ikke skrig. Ikke gråd. Bare lyden af mange fødder, der ikke længere har styrken til at gå hurtigt.
+> I ved godt, hvad lugten er. I har lugtet den før.
 >
-> De kommer i rækker af to. Mænd, kvinder, et par børn. Bundet i halsen ved en lang lænke. En kultist går forrest med en lanterne. Fire bag dem. De synger ikke. De banker bare på lænkerne med jævne mellemrum — som om de tæller.
+> Foran jer, oppe ved tunnelens ende, kan I se et svagt udvendigt lys. Det er nat. Måske skumring. I kan ikke se himlen endnu, men I kan mærke, at den er der.
 >
-> Et af de bundne kigger jeres vej. Hans øjne ser jer faktisk. Han siger intet. Han ved, hvad et tegn vil koste de andre.
+> Og I kan høre stemmer. Ikke synge-stemmer. Vagter, der taler lavmælt til hinanden.
 
-**Named anchor:** Among the prisoners is a young dwarven smith named **Brek** from Mithril Hall. He recognizes Axar. He does not speak. He just looks. Use him only if the players need a face to make the moment land.
+**Mechanical:**
+- Daxx Stealth scout DC 14: reveals layout. 2 tunnels per Northern Exits, each blocked by 2 barbed devils + 4 guard drakes. Devils stand at the tunnel mouth, looking OUT into the plaza. Drakes are 10 ft behind, less attentive.
+- Axar Perception DC 12: hears Infernal in the devils' speech — they're complaining about how the prisoner sacrifice hasn't started yet. *"Severin promised us blood by midnight. It's after midnight."*
 
-**Choices:**
+#### Scene 4 — Plaza 23 guards (one tunnel only — the party's exit)
 
-| Choice | Mechanical | Narrative |
+Per `well-of-dragons/well-of-dragons-raw.md:142`: *"each tunnel is blocked by 2 barbed devils and 4 guard drakes. The devils' attention is focused toward the plaza, however, not down the tunnels or on what the guard drakes do."*
+
+**Important:** The party only needs to deal with ONE tunnel's guards. The other tunnel's set stays put unless combat is loud. Do NOT stack both tunnels into a single fight.
+
+**Tactical options:**
+
+| Option | Mechanical | Risk |
 |---|---|---|
-| Attack the 5 Dragonwings | Combat: CR 2 each, ~2 rounds. Prisoners drop and cower. | WotC weakening event: **sacrifice interrupted** → 1 Tiamat penalty (–15 atk/dmg, –75 HP). Per Reloaded: Abishai investigate within 5 minutes. |
-| Sneak past (group Stealth DC 14, Daxx leads with advantage) | Prisoners reach the temple and are sacrificed | No weakening event. Cult ritual at full strength. |
-| Twilight Performance DC 16 | One Dragonwing "pauses for the ritual to peak" — 1 round of delay, no combat | Hybrid. No Abishai trigger. |
-| Frygtløs Intimidation DC 16 (silent stare) | Dragonwings hesitate; party gets surprise round if combat starts | This is Frygtløs's parallel-to-Naergoth beat. Present the choice. Do not lecture. |
+| **Combat (back attack)** | Surprise round if Stealth DC 14 maintained. 2 barbed devils (CR 5, 110 HP each, multiattack, Hurl Flame ranged) + 4 guard drakes (CR 2, 52 HP). ~3 rounds. | Sound travels — dragons above may notice. Lose plaza-crossing stealth. |
+| **Sneak past (group Stealth DC 16)** | Drakes' Perception is the bottleneck. Failed = combat with no surprise. | Failure consequences are real. |
+| **Twilight Suggestion on a Drake** | DC 18 Wisdom save. Removes 1 drake from awareness. | Devils are Lawful Evil — they notice obvious suggestion attempts. |
+| **Axar alpha strike** | Fireball (8d6) likely kills all 4 drakes and bloodies 1 devil. ~1 round to finish. | LOUD. Dragons WILL notice. Lose plaza stealth. |
 
-#### Scene 5 — Room 18, the slave pen
+**Recommended for this party (no Long Rest, conserve slots):** Daxx scouts, party sneaks past or surprise-strikes. Avoid sustained combat.
 
-If the party engaged at room 17, this is the holding area for the next batch. If they sneaked, they pass through anyway — and this is where the choice gets harder.
+**Boxed text (Dansk) — combat opening if it triggers:**
 
-**Per Reloaded:** 1 Dragonfang + 2 Dragonwings + 1 Guard Drake. 30 commoners in a pen.
-
-> Penen er bygget af knogler. Ribben fra noget meget stort, surret sammen med læderremme. Inde i den, 30 mennesker. De har ikke længere kraften til at stå op. Nogle sidder. Nogle ligger. Et par kigger op, da I kommer ind. De fleste gør ikke.
+> Den nærmeste barbed devil vender sig først. Hans torner rasler mod hans egen brystplade. Han ser jer, og hans ansigt — eller det der er ansigtet — trækker sig op i noget, der ikke er et smil.
 >
-> En Dragonfang læner sig op ad porten. Han keder sig. To Dragonwings spiller terning på en flad sten. En Guard Drake slikker sig om munden uden grund.
+> *"Endelig,"* siger han på Infernal. *"Vi har ventet."*
+>
+> Han kalder ikke alarm. Han venter på, at I gør det første træk.
 
-**Choices:** same matrix as Scene 4. The same weakening event applies (you can only trigger it once per session — second time is just freeing more people).
+#### Scene 5 — Emerging into the plaza
 
-**If the party frees the prisoners:** they cannot escape on their own. The party must commit a round to pointing them down the lava tube (handwave: "they will find their way out"), or abandon them. Daxx Animal Handling DC 12 to calm them enough to listen.
+After dispatching or bypassing the guards, the party steps out into the plaza for the first time.
 
-#### Scene 6 — First view of the temple
+**Read this aloud, slowly. Boxed text built on `well-of-dragons/well-of-dragons-raw.md:15`:**
 
-After the slave corridor, the lava tube widens into a vertical shaft — a natural balcony in shadow. The party can SEE up into the temple's interior. The cultists above have not seen them.
+> I træder ud af tunnelen, og natten åbner sig over jer.
+>
+> Calderaen omslutter jer som en kæmpe skål af sort sten. Bunden er dækket af drageknogler — ribben på størrelse med bjælker, kæbeben som heste-trug, et kranie der står midt i plazaen og kigger på templet med tomme øjenhuler.
+>
+> Plazaen selv er ryddet af knogler — en lang, åben kløft der strækker sig 250 fod foran jer, ind mod templet.
+>
+> Og templet.
+>
+> Det er en sindssyg struktur, der har trængt sig op fra under knoglerne for at tårne sig over den brændte vulkan. Vulkansk aske smeltet sammen med drageknogler, sten gennemsyret af Helvedes magi. Det er fuld af kaotiske vinkler og udragende støttepiller. I dets vrede af kornicher og himmelstræbende vinkler ser I fem asymmetriske tårne, hver toppet af et snoet spir.
+>
+> Hvert tårn har sin egen farve. Blå. Hvid. Grøn. Rød. Sort.
+>
+> Højt over jer kredser drager. I tæller dem ikke. I ved bare, at I aldrig har set så mange chromatic drager i live på samme tid.
 
-**Read this aloud, slowly.** Boxed text adapted from `temple-of-tiamat-raw.md:9-10`:
+**DM-note:** Silent moment. Let players look. Let them count dragons. Let them describe what they see. Wait at least 20 seconds before prompting.
 
-> Da jeres øjne tilpasser sig kaos i Tiamats Tempel, ser I, at det indre er ét enkelt, katedral-agtigt rum, der tårner sig op over jer. Fem hvælvinger forgrener sig fra det centrale galleri. Selvom rummets dominerende farve er en livløs, asken-grå, glimter hver sidehvælving svagt i blå, grøn, rød, hvid eller sort — farverne på onde drager og deres verdensfortærende dronning.
+#### Scene 6 — Crossing the plaza
+
+250 ft of open ground between the tunnel exit and the temple front gate. Chromatic dragons circle above — per raw module, they aren't actively scouting for infiltrators, but they may notice movement.
+
+**Skill challenge** — 4 successes / 2 failures, DC 15:
+
+| Skill | Approach |
+|---|---|
+| Stealth (Daxx advantage, Bracers of Archery do not apply but Cloak of Elvenkind does) | Bone pile to bone pile, broken-line approach |
+| Survival (Daxx) | Time the crossing between dragon flight patterns |
+| Arcana (Axar) | Pass Without Trace before entering open ground |
+| Performance (Twilight) | Mimic a cultist sacrifice signal — drag an illusory "prisoner" (Disguise Self) as if hauling toward the temple |
+| Athletics (Frygtløs) | Sprint a section while others cover with Hide |
+
+**Outcomes:**
+
+- **Full success (4):** Reach the temple front gate undetected. No dragon notices. Keep surprise on Blue Chapel Red Wizard.
+- **2 failures, 4 successes:** Reach the gate, but a young chromatic dragon (DM picks color) saw something. It shrieks an alarm. Inside the temple, the cult is now on alert; **lose surprise round on the Blue Chapel Red Wizard.**
+- **2 failures, <4 successes (catastrophic):** An adult chromatic dragon dives. Encounter break-glass: this is TPK risk given no Long Rest. **Strongly recommend:** the dragon dives PAST as a warning shot (DC 16 DEX save, 6d10 elemental damage halved on success), then returns to circling. Frame as "Tiamat would not allow us to interfere — yet."
+
+**Boxed text (Dansk) — successful crossing:**
+
+> I bevæger jer i etaper. Knogle til knogle. Hver gang en drageskygge går hen over jeres positioner, fryser I. Hver gang den passerer, løber I videre.
+>
+> Det varer mindst tyve minutter at krydse plazaen. Tyve minutter af at trække vejret med åben mund for ikke at lave lyd. Tyve minutter af at se templet vokse foran jer, lyset i de fem tårne pulse i takt med hinanden.
+>
+> Da I når frem, er I ikke længere bange. I er bare meget meget træthe på en måde, der ikke er fysisk.
+
+#### Scene 7 — Temple front gate (Blue Chapel, area 1)
+
+The temple's only above-ground entrance, per raw module. The Blue Chapel is the entry area. One Red Wizard performs the ritual here.
+
+> Templets indgang er en bue af sort sten, sammenflettet med drageknogler. Den er åben.
+>
+> Indenfor: en figur i rød kappe. Han står med ryggen til jer, foran et alter af blå krystal. Hans hænder er løftet. Hans stemme rejser sig i en tone, I ikke har hørt et menneske lave før.
+>
+> Han har ikke set jer.
+>
+> Hans kappes manchet bærer Thay-tegn. Han er en af Rath Modars folk.
+
+**Mechanical:**
+- Group Stealth DC 14 (drop to DC 16 if plaza-crossing was failed): surprise round on the Blue Chapel Red Wizard.
+- If killed silently: 4 Red Wizards remain. If party can keep <5 active for **2 successive rounds**, the portal collapses and the ritual count resets to 0 per `temple-of-tiamat/temple-of-tiamat-raw.md:30`. **Massive weakening event.**
+- If combat starts loudly: the other 4 Red Wizards notice on round 1. Rath Modar drops his ritual role on round 2 and engages directly.
+- Alternative: Twilight Suggestion DC 18 — *"step out for a moment, the ritual can wait"*. Keeps surprise but does NOT disrupt the ritual count.
+
+#### Scene 8 — Inside the temple, first full view
+
+After the Blue Chapel Red Wizard is taken down (or bypassed), the party can see the temple's full interior.
+
+**Read this aloud, slowly. Boxed text adapted from `temple-of-tiamat/temple-of-tiamat-raw.md:9-10`:**
+
+> Når jeres øjne tilpasser sig kaos i Tiamats Tempel, ser I, at det indre er ét enkelt, katedral-agtigt rum, der tårner sig op over jer. Fem hvælvinger forgrener sig fra det centrale galleri. Selvom rummets dominerende farve er en livløs, asken-grå, glimter hver sidehvælving svagt i blå, grøn, rød, hvid eller sort — farverne på onde drager og deres verdensfortærende dronning.
 >
 > Røde Troldmænd står i hver af de fem hvælvinger og synger, mens de kanaliserer magisk kraft ind i det centrale apsis. Der hvirvler en kaleidoskopisk strøm af arkan energi over det sortbrændte gulv og strækker sig op i de snoede afkroge af templets centrale spir.
 >
@@ -258,98 +389,123 @@ After the slave corridor, the lava tube widens into a vertical shaft — a natur
 **DM-note:** Silent observation moment. Let them look. Let them count Red Wizards. Let them describe what they see. Do not move on until someone asks a question.
 
 **What they can determine (give freely, no checks):**
-- 5 Red Wizards visible, one per chapel
+- 5 Red Wizards visible (now 4 if Blue Chapel wizard is dead), one per chapel — Blue, White, Green, Black, Red
 - Severin floating in the central spire (Mask of the Dragon Queen)
 - The kaleidoscopic whorl in the apse = the portal
-- Per raw module: ritual needs 5 Red Wizards focusing for 10 rounds total. If <5 for 2 rounds in a row, ritual resets to 0.
+- Per raw: ritual needs 5 Red Wizards focusing for 10 rounds. <5 for 2 rounds in a row = ritual resets to 0.
+
+**Rath Modar identification:**
+- **Axar Arcana DC 10:** One Red Wizard's robes have a Thay-style cut — older, fancier, with the Burning Brand insignia. **That's Rath Modar.** He stands in the **Red Chapel** (area 6 per raw).
+- If Axar recognizes him aloud, the party can prioritize him. Rath Modar has Mislead + Globe of Invulnerability prepared (per `temple-of-tiamat/temple-of-tiamat.md` Difficulty Options).
 
 **What they need a check for:**
-- Axar Arcana DC 17: *"You can see the resonance pattern. Tap into it and you could read the count."* → reveals current ritual stage (see table below).
-- Daxx Perception DC 13: *"The Black Chapel's wizard is closest — bowed head, eyes closed. He won't see you emerge."* → confirms surprise round target.
+- Axar Arcana DC 17: read the resonance pattern → reveals current ritual stage (see Ritual Progress table below).
+- Twilight Performance DC 14: identify which chapel's chant is OUT of rhythm — that wizard is the weakest link, easiest next target.
 
 #### Ritual Progress — what the party can read
 
-Map the homebrew ritual clock (0–8) to what they observe BEFORE entering. Pick the row matching the locked clock value. Read **one row only** — players overinterpret if you give them several.
+Map the homebrew ritual clock (0–8) to what they observe from inside the Blue Chapel. Pick the row matching the locked clock value (starting clock = **0**, but it may have ticked during plaza-crossing). Read **one row only** — players overinterpret if you give them several.
 
-| Clock | Raw round-count equiv. | What they sense from below | Boxed text fragment (Dansk) |
+| Clock | Raw round-count equiv. | What they sense | Boxed text fragment (Dansk) |
 |---|---|---|---|
 | 0–1 | 0–2 / 10 | Chanting in rhythm, slow pulse, light steady | *"Fem stemmer. Måske ti. Roligt. De har god tid."* |
 | 2 | 3 / 10 | 5 voice groups, light pulses match heartbeat | *"Lyset puler i takt med jeres puls. Det er ikke jeres puls."* |
-| 3 | 4–5 / 10 | Ground vibrates faintly between pulses | *"Stenen under jeres fødder ryster i pauserne mellem sang."* |
+| 3 | 4–5 / 10 | Floor vibrates faintly between pulses | *"Stenen under jeres fødder ryster i pauserne mellem sang."* |
 | 4 | 6 / 10 | Air thickens, ozone + blood, light pulses faster | *"Hver gang lyset puler, smager I jern."* |
 | 5 | 7 / 10 | Chant changes key — higher, hungrier | *"De synger ikke længere efter samme melodi. De jagter den."* |
 | 6 | 8 / 10 | A shape in the apse darker than dark — heads behind the portal | *"Der hvor energien hvirvler, er der nu en figur. I er ikke sikre på, hvor mange hoveder den har."* |
 | 7 | 9 / 10 | Temple's spire dome flexes inward and out, like breathing | *"Templet trækker vejret. Det skal ikke."* |
-| 8 | 10 / 10 | Tunnel itself starts to collapse — seconds left | *"Stenen over jer revner. Hun kommer. Hun er her."* |
+| 8 | 10 / 10 | The portal cracks open — seconds left | *"Hun kommer. Hun er her."* |
 
-**DM-note:** The raw module says the 10-round count starts when the party enters the temple. The homebrew clock represents the *cumulative state of the ritual since the party arrived at Well of Dragons* — they are not the same number, but they map narratively. Use the homebrew clock at the table; use the raw count internally to track how many Red Wizard interruptions are needed (2 successive rounds with <5 active = reset).
+**DM-note:** The raw module says the 10-round count starts when the party enters the temple. The homebrew clock represents the *cumulative state of the ritual since the party arrived at Well of Dragons*. Use the homebrew clock at the table; use the raw count internally to track Red Wizard interruptions (2 successive rounds with <5 active = portal collapses, count resets to 0).
 
-#### Scene 7 — Emerging through the Black Chapel (area 5)
-
-The lava tube vent is at the floor of the **Black Chapel**, the closest of the 5 chapels. One Red Wizard stands chanting, eyes closed, back to the vent.
-
-**Mechanical:**
-- Group Stealth DC 14 to emerge quietly. Daxx leads. If success: surprise round on the Black Chapel Red Wizard.
-- If a PC kills the Red Wizard silently (e.g. Daxx Sneak Attack + critical, Twilight Suggestion to make him step aside, Axar Disintegrate): 4 Red Wizards remain. If the party can keep <5 Red Wizards focused for 2 successive rounds, **the portal collapses and the ritual count resets to 0** (per raw module). This is a major weakening event.
-- The other 4 Red Wizards continue ritual. One notices the disturbance on round 2. From round 3, Rath Modar (if introduced via Prompt 11) drops his ritual role and engages.
-
-This is the transition to Phase B. From here, the homebrew structure resumes — but the party has now seen the ritual, the slaves, the masks, and Severin. They know what they're stopping. The Three Clue Rule (`encounter-design.md`) for the Naergoth exposition gap is now resolved on most points.
+This is the transition to Phase B (Niveau 2, the Fivefold Sanctum). From here, the homebrew structure resumes. The party has now seen the ritual, the masks-as-one, Severin, and identified Rath Modar. The Three Clue Rule (`encounter-design.md`) for the Naergoth exposition gap is now resolved on most points — see the table above in canonical state.
 
 ### Prompt 1 – Room 7 to temple cinematic (locked approach)
 
-**Purpose:** Refine and expand the room-7-to-temple sequence written above (Scenes 1–7) into session-ready boxed text with full pacing notes. The narrative skeleton is already in the plan — this prompt fleshes it out at the table-ready level.
+**Purpose:** Refine and expand the area-7-to-temple sequence written above (Scenes 1–8 for route 7→6→23→Blue Chapel) into session-ready boxed text with full pacing notes. The narrative skeleton is already in the plan — this prompt fleshes it out at the table-ready level.
 
 **Use when:** Before the session begins. Run after the canonical clock value is set.
 
 **dndtale resources:** `modules/session-pacing.md` (Cold Open — start in the middle of action, not summary), `modules/creative-voice.md` (3+ senses, present tense, end on implicit question), `modules/world-building.md` (Concentric Circle — Inner = lava tube + temple-from-below, Middle = warrens behind them, Outer = battle outside they cannot see).
 
 ```
-Refine the Room 7 → Temple cinematic sequence already drafted in
-session-prep/tiamat-finale-plan.md (Scenes 1-7 under "From Room 7
-to the Temple"). The skeleton is in place; this prompt produces the
-table-ready expansion.
+Refine the Area 7 → Temple cinematic sequence already drafted in
+session-prep/tiamat-finale-plan.md (Scenes 1-8 under "From Area 7
+to the Temple — full sequence" for route 7 → 6 → 23 → Blue Chapel).
+The skeleton is in place; this prompt produces the table-ready
+expansion.
 
 Canonical state to honor:
-- Party at room 7 in the warrens, ascending via lava tubes
-- Approach LOCKED to water/underground (no reroll)
-- Naergoth was killed earlier in the warrens (Frygtløs swung first
-  after Naergoth's greeting)
-- Slaves in rooms 17 (escort going up) and 18 (pen)
-- Emergence point: Black Chapel (temple area 5)
-- Starting ritual clock: [insert 0-8]
+- Party at area 7 (Secondary Treasure Chamber). Naergoth dead in
+  the room. Looted shelves.
+- Route LOCKED: 7 → 6 (cleared) → 23 (Northern Exits + plaza) →
+  temple front gate (Blue Chapel, area 1)
+- No Long Rest. Party is at ~50-70% HP, 60-75% slots.
+- Sacrifice ritual at plaza 23 has NOT started — no 5 dragons in
+  plaza, just 2 barbed devils + 4 guard drakes per tunnel
+- Draakhorn patrol already killed during Naergoth fight — no
+  additional pressure
+- All 3 wyrmspeakers killed and resurrected as Abishai (Rezmir/Black,
+  Neronvain/Green, Galvan/Blue) — will appear on Niveau 2
+- Rath Modar is in the temple, leading ritual in the Red Chapel
+  (area 6). Has Mislead + Globe of Invulnerability prepared.
+- Severin has full Mask of the Dragon Queen. Party holds no masks.
+- Starting ritual clock: 0 (best possible state, may tick during
+  plaza crossing or initial temple combat)
 - Party: Axar (Wizard, Dwarf), Daxx (Ranger, Changeling), Frygtløs
   (Barbarian, Goliath, Vorpal Greatsword + Winged Boots), Twilight
-  (Bard, Mark of Shadow Elf)
+  (Bard, Mark of Shadow Elf, Anstruth Harp)
 
-For each of the 7 scenes, output:
+For each of the 8 scenes, output:
 - Refined Danish boxed text (8-12 lines, 3+ senses, present tense,
   end on implicit question). Build on the drafts in the plan; don't
   replace wholesale.
 - Per-PC "what they notice first" (one line each):
-  * Axar — arcane resonance / chant frequency
-  * Daxx — track patterns / patrol timing
-  * Frygtløs — physical pressure / scale
-  * Twilight — performance pattern / cultist hymn
+  * Axar — arcane resonance / chant frequency / Thay-recognition for
+    Rath Modar in Scene 8
+  * Daxx — track patterns / patrol timing / drake behavior
+  * Frygtløs — physical pressure / scale / open air after warrens
+  * Twilight — performance pattern / cultist hymn / dragon shadows
 - 2-3 player questions you anticipate, with 1-line answers
-- Mechanical state changes (ritual clock, army clock if relevant,
-  weakening events triggered)
+- Mechanical state changes (ritual clock, weakening events triggered,
+  potion uses suggested given no Long Rest)
 
 Special focus:
-- Scene 4 (slave escort): make Frygtløs's parallel-to-Naergoth beat
-  PRESENT but not preachy. Show the choice, let the player decide.
-- Scene 6 (first view of temple): produce a slightly expanded version
-  of the raw-module boxed text, tuned to what they can see from the
-  Black Chapel angle specifically (not all 5 chapels equal sightlines).
-- Scene 7 (emergence): pick a name for the Black Chapel Red Wizard
-  so he is a person, not a target. One line of character (e.g. "He is
-  humming. His robe is patched at the shoulder.").
-- For the chosen clock row in the Ritual Progress table: expand the
-  one-line boxed fragment into a full 4-6 line boxed text.
+- Scene 1 (area 7): set the tone for a party that has been fighting
+  for hours and is now choosing to continue without rest.
+- Scene 4 (plaza guards): include the boxed text for the Devils'
+  Infernal conversation about "Severin promised us blood by midnight."
+  This is the only place the players can confirm sacrifice hasn't
+  started yet.
+- Scene 5 (first view of temple from plaza): produce a slightly
+  expanded version of the raw-module exterior boxed text. Make the
+  five colored steeples and the circling dragons feel ENORMOUS.
+- Scene 6 (plaza crossing): provide 1 Danish line for each of the
+  3 outcome bands (full success, partial, catastrophic).
+- Scene 7 (Blue Chapel entry): pick a name for the Blue Chapel Red
+  Wizard so he is a person, not a target. One line of character
+  (e.g. "He is humming. His robe is patched at the shoulder. Younger
+  than the others.").
+- Scene 8 (inside temple): expand the raw-module interior boxed text
+  with the angle from the Blue Chapel specifically. Rath Modar
+  recognition by Axar should be a quiet beat — Axar realizes who he's
+  looking at before saying anything aloud.
+- For the chosen clock row (currently 0-1) in the Ritual Progress
+  table: expand the one-line boxed fragment into a full 4-6 line
+  boxed text.
+- Frygtløs's parallel-to-Naergoth beat: do NOT force it into this
+  sequence. The slave-pen rooms are not on this path. Plant a
+  possible moment in Scene 7 (the Blue Chapel Red Wizard could
+  surrender if approached non-violently) and let it land there OR
+  in the temple combat later. Note this in DM-notes for Scene 7.
 
-Do NOT generate alternate-approach versions. The approach is locked.
+Do NOT generate alternate-route versions. The route is locked.
+Do NOT include slave-pen scenes or Stirleng/Brek — those rooms are
+skipped.
 ```
 
-**Expected output:** 7 refined scenes + chosen-clock-row expanded boxed text + named Red Wizard NPC.
+**Expected output:** 8 refined scenes + chosen-clock-row expanded boxed text + named Blue Chapel Red Wizard NPC + named Devils' Infernal exchange.
 
 ### Prompt 2 – Army-clock and frontline events tuned for this party
 
@@ -427,58 +583,84 @@ the front gate which the party never used).
 
 **Expected output:** Adapted entry encounter, reframed Procession, Fen relocation, 3 clock outcomes, transition text.
 
-### Prompt 4 – Slave encounter mechanics (rooms 17 + 18)
+### Prompt 4 – Plaza 23 guards + temple front gate tactics
 
-**Purpose:** Produce table-ready mechanics for the slave encounter — the moral and tactical heart of the entry sequence. Scenes 4 and 5 in the "From Room 7 to the Temple" section sketch the moment; this prompt produces the rolling tactics.
+**Purpose:** Produce table-ready mechanics for the two combat / stealth encounters on the locked route: (1) the plaza 23 tunnel guards and (2) the Blue Chapel Red Wizard at the temple front gate. Scenes 4 and 7 in the area-7-to-temple sequence sketch the moments; this prompt produces the round-by-round tactics.
 
 **Use when:** Prepping Phase A. Run AFTER Prompt 1 (which expands the boxed text).
 
-**dndtale resources:** `modules/encounter-design.md` (Three Pillars — combat / social / stealth all valid; graduated outcomes; enemies need goals beyond "kill the party"), `modules/world-building.md` (Brek the named anchor prisoner as Tier 1 walk-on NPC — one trait, one useful thing, a rememberable name).
+**dndtale resources:** `modules/encounter-design.md` (Three Pillars — combat / social / stealth all valid; graduated outcomes; enemies need goals beyond "kill the party"; environmental integration — chromatic dragons above the plaza), `modules/world-building.md` (Blue Chapel Red Wizard as Tier 1 walk-on NPC — one trait, one useful thing, a rememberable name).
 
 ```
-Produce table-ready mechanics for the slave encounter in rooms 17
-(escort going UP toward temple) and 18 (slave pen).
+Produce table-ready mechanics for the two combats on the entry
+sequence: (1) Plaza 23 tunnel guards, (2) Blue Chapel Red Wizard.
 
-Source for enemy composition:
-- Room 17: 5 Dragonwings + 30 commoners (per
-  well-of-dragons/temple-of-tiamat.md enemy table)
-- Room 18: 1 Dragonfang + 2 Dragonwings + 1 Guard Drake + 30 commoners
-- Reloaded note: saving prisoners from 17/18 triggers Abishai
-  investigation within ~5 minutes
+Canonical state: Sacrifice ritual at plaza 23 has NOT started (DM
+lock). Plaza only has guards, no dragons feeding on prisoners.
+Party has had NO Long Rest — calibrate combat downward.
 
-Output per room:
-- Full statblock references (Dragonwing, Dragonfang, Guard Drake —
-  use existing campaign sources or 2024 MM)
-- Initiative order assumption + round 1 tactics
-- Civilian behavior: how do 30 exhausted commoners react when
-  combat starts? When prisoners are freed?
-- Concrete branches with mechanical costs:
-  * Full combat → triggers WotC weakening event "sacrifice
-    interrupted" (1 Tiamat penalty: -15 atk/dmg, -75 HP) AND triggers
-    Abishai investigation timer (5 min real, ~10 rounds game time)
-  * Sneak past (group Stealth DC 14, Daxx leads with advantage) →
-    no weakening, no investigation, prisoners die
-  * Twilight Performance DC 16 → 1 round of cult delay, no combat,
-    no Abishai trigger
-  * Frygtløs Intimidation DC 16 → silent surprise round if combat
-    starts; this is HIS parallel-to-Naergoth beat — frame the choice,
-    do not lecture the player
-- Brek the dwarven smith from Mithril Hall (named anchor prisoner):
-  one line of behavior, what he tells Axar if Axar speaks to him,
-  what happens to him if the party abandons the prisoners
-- Decision matrix: how does the slave-encounter outcome change the
-  ritual clock / weakening events when the party finally engages
-  Severin?
+Encounter 1 — Plaza 23 tunnel guards (the party's exit tunnel only):
+- 2 barbed devils (CR 5, 110 HP each, multiattack tail/claw, Hurl
+  Flame ranged) + 4 guard drakes (CR 2, 52 HP)
+- Devils face OUT into the plaza, not down the tunnel
+- Output:
+  * Initiative order assumption + round 1 tactics
+  * Surprise round if Stealth DC 14 maintained (Daxx scouts)
+  * 4 branches with mechanical costs:
+    - Combat from behind → 3 rounds, +0 sound to dragons above IF
+      finished in 3 rounds (per raw module: combat under 3 rounds
+      goes unnoticed if >200 ft from listeners). If longer = +1 to
+      next plaza-crossing failure roll.
+    - Sneak past (group Stealth DC 16) → no combat, no sound
+    - Twilight Suggestion DC 18 on a Drake → 1 less enemy
+    - Axar alpha Fireball → wins combat round 1 but LOUD (dragons
+      WILL notice = automatic 1 plaza-crossing failure)
+  * Boxed text (Danish) for combat opening — devils speak Infernal,
+    discussing how Severin promised sacrifice by midnight that
+    hasn't started
+  * Resource note: this is BEFORE the party has rested. Track HP/
+    slot use carefully. Twilight should NOT engage if she's <50%.
 
-Also produce:
-- Boxed text for "Abishai investigation arrives" (if triggered) —
-  Danish, 4-6 lines, ominous, not yet combat
-- Boxed text for "the prisoners reach the temple and are sacrificed"
-  (if party sneaked past) — Danish, 4-6 lines, off-screen sound only
-  (heard from above, while party climbs higher)
+Encounter 2 — Blue Chapel Red Wizard (temple entry):
+- 1 Red Wizard using mage statblock (AC 12, HP 40, Mage Armor
+  active = AC 15, INT 17, 4 slots of 3rd, Cone of Cold-prep
+  potentially)
+- He stands chanting, eyes closed, hands raised, back to the door
+- Per raw module: if killed silently, 4 Red Wizards remain. If
+  party keeps <5 active for 2 successive rounds, the portal
+  collapses and the ritual count resets to 0 — MAJOR weakening
+- Output:
+  * Round 1 surprise round (DC 14 group Stealth, drops to DC 16
+    if plaza crossing failed)
+  * 3 branches:
+    - Silent kill (Daxx Sneak Attack + Frost Brand crit / Twilight
+      Vicious Mockery + Axar Disintegrate) → portal disruption
+      window opens for 2 rounds. List which combos achieve a silent
+      kill.
+    - Loud kill → 4 other wizards notice round 1. Rath Modar
+      drops his ritual role round 2 and engages.
+    - Suggestion DC 18 ("step out for a moment, the ritual can
+      wait") → keeps surprise but doesn't disrupt ritual count
+  * Name the Red Wizard (1 line of character — e.g. "Veksin, the
+    youngest of Rath's apprentices, humming a melody his mother
+    sang"). This is Frygtløs's parallel-to-Naergoth beat anchor —
+    the wizard is a young person, helpless if surprised. Does
+    Frygtløs swing?
+  * Boxed text (Danish) for the silent kill moment and for the
+    moment the other 4 wizards notice the disruption
+
+Decision matrix — how do these two encounters' outcomes affect
+the temple combat?
+- Quiet through both → enter temple with 4 Red Wizards distracted,
+  potential ritual reset window, full surprise, no dragon alarm
+- Loud at plaza only → enter temple with 5 Red Wizards alert, no
+  surprise, Rath Modar already preparing
+- Loud at both → enter temple at full alert, dragons may dive
+  through the temple openings within 1-2 rounds, +1 ritual clock
+  immediately
 ```
 
-**Expected output:** 2 room-level encounter blocks, civilian behavior model, 4 branch outcomes with mechanical costs, Brek NPC sheet, 2 consequence boxed texts.
+**Expected output:** 2 encounter blocks (each with round-by-round tactics, 3-4 branches, named NPC, Danish boxed text), 1 decision matrix.
 
 ---
 
@@ -494,15 +676,19 @@ Also produce:
 4. **Blue Abishai (Galvan)** as gate-encounter to the spire — hardest fight on this level.
 5. **Transition to Level 3** – clock update visible on table.
 
-### Reloaded-bridge — resurrected wyrmspeakers
+### Reloaded-bridge — resurrected wyrmspeakers (all 3 confirmed in play)
 
-Per `well-of-dragons/temple-of-tiamat.md`, dead wyrmspeakers have been resurrected by Tiamat as Abishai:
+Per `temple-of-tiamat/temple-of-tiamat.md` and DM confirmation, all three dead wyrmspeakers have been resurrected by Tiamat as Abishai. They are deployed on the foci platforms:
 
-- **Rezmir → Black Abishai** (90 HP) – place on or near the Black foci
-- **Neronvain → Green Abishai** (117 HP) – place on or near the Green foci alongside the Green Hag
-- **Galvan → Blue Abishai** (141 HP, but use the niveau-2 statblock with 195 HP for difficulty parity)
+| Wyrmspeaker | Reborn as | HP | Foci platform | Recognition beat |
+|---|---|---|---|---|
+| **Rezmir** | Black Abishai | 90 | Black foci (Acid Basin) | Daxx and Frygtløs recognize her — she led the convoy from Hoard of the Dragon Queen. *"You killed me once. Try it now that I have wings."* |
+| **Neronvain** | Green Abishai | 117 | Green foci (Poison Mist Garden), alongside the Green Hag | Twilight knows him from the elven court (Misty Forest). King Melandrach's renegade son. *"Tell my father this time the silence is mine."* |
+| **Galvan** | Blue Abishai | 141 | Blue foci (Lightning Spire) | Axar's Thay-arc rival — the wizard who taught Severin the Lightning resonance. Used for the main Blue Abishai fight (CR 17 statblock, HP 195 for difficulty parity since the homebrew assumes a tougher version). |
 
-If the party never killed one of these wyrmspeakers, replace the corresponding Abishai with the existing guardian. Confirm with player records before the session.
+**Per Reloaded:** *"They are all patrolling the temple floor, witnessing and protecting the ritual. If the prisoners from Areas 17 and 18 in the Well of Dragons are saved, the Abishai go down into the tunnels to investigate after a few minutes."*
+
+**For this party's route:** the party did NOT save prisoners (path skipped rooms 17/18). The Abishai therefore stay on the temple floor. They will engage the party as they ascend through the chapels and reach Niveau 2 (Fivefold Sanctum). Each Abishai is on its color's foci — the recognition beats land naturally as the party arrives at each platform.
 
 ### Prompt 5 – Optimal sabotage order for this party
 
@@ -624,21 +810,31 @@ Output:
 7. **Temple collapse** – 15 round escape.
 8. **Aftermath** – Major / Pyrrhic / Failure Forward (30–60 min of scenes).
 
-### Reloaded-bridge — Rath Modar and Mask of the Dragon Queen
+### Reloaded-bridge — Rath Modar and Mask of the Dragon Queen (Rath Modar CONFIRMED in play)
 
-Per `well-of-dragons/temple-of-tiamat.md` and the raw module:
+Per `temple-of-tiamat/temple-of-tiamat.md` and the raw module, **DM-confirmed:**
 
-- **Rath Modar** is Severin's ritual-leader. Optional: introduce him as hidden second-boss on Level 3, behind a Mislead + Globe of Invulnerability. He is Axar's rival from the Thay arc.
-- **Mask of the Dragon Queen** vs. 5 individual masks: in the homebrew rework, the masks float as a ring of 5. Treat the combined "Mask of the Dragon Queen" as the conceptual whole — destroying all 5 = destroying it. This satisfies both systems.
-- WotC's 5 weakening events map cleanly to homebrew sabotage:
+- **Rath Modar is in the temple, actively leading the ritual in the Red Chapel (area 6 per raw).** He is one of the 5 chanting Red Wizards. He is NOT a hidden second-boss option — he is a definite player on Niveau 3. Axar can identify him from inside Blue Chapel (Scene 8 of the entry sequence, Arcana DC 10).
+- **Rath Modar's prepared spells (per Reloaded Difficulty Options):** Mislead active, Globe of Invulnerability prepared, may use Greater Invisibility when threatened. Cannot be perceived by any Thayan ally (illusory ward) — but Axar is NOT a Thayan ally, just a wizard who studied Thay.
+- **Mask of the Dragon Queen:** Severin has the FULL mask (no individual masks held by party, per DM lock). In the homebrew rework, treat it as a ring of 5 floating masks. Destroying all 5 = destroying the Mask of the Dragon Queen = WotC weakening event triggers.
 
-| Weakening event (raw) | Maps to (homebrew) |
+**Combat flow per Reloaded:** *"When the temple is attacked, [Rath Modar] hands over his part in the ritual and leads the attack against the adventurers."* So:
+- Round 1 inside temple: Rath Modar is still chanting in Red Chapel
+- Round 2: Rath Modar realizes the temple is under attack, drops his ritual role
+- Round 3 onward: Rath Modar uses Fireballs, concentrates on Wall of Fire and Confusion, Mirror Image / Globe of Invulnerability if attacked directly
+- **This means each round Rath Modar engages, that's –1 wizard from the ritual count.** If the party can also kill / silence 1 more Red Wizard for 2 successive rounds, ritual resets.
+
+**WotC's 5 weakening events mapped to this party's situation:**
+
+| Weakening event (raw) | This party's status / how to trigger |
 |---|---|
-| Ritual interrupted 2 rounds in succession | Axar Counterspell on Ritual Action twice |
-| Mask of the Dragon Queen destroyed / removed | Option B (all 5 masks) or Option C (break circle) |
-| Masks incomplete | Each sabotaged foci = 1 "missing mask" |
-| Severe temple damage | Twilight Earthquake or Level 1 structural collapse |
-| Prisoner sacrifices interrupted | The Procession stopped |
+| Ritual interrupted 2 rounds in succession (<5 wizards) | Achievable by killing Blue Chapel wizard silently (Scene 7) + holding any other wizard busy for 2 rounds. Rath Modar engaging counts as 1 missing. |
+| Mask of the Dragon Queen destroyed | Option B on Niveau 3 (destroy all 5 floating masks). |
+| Masks incomplete | NOT triggered — party holds no individual masks. |
+| Severe temple damage | Twilight Earthquake scroll (in robe? — check inventory) or coordinated alpha strike on temple columns. |
+| Prisoner sacrifices interrupted | NOT triggered — party skipped slave pens (rooms 17/18) on this route. |
+
+**Net for this party:** maximum 3 of 5 weakening events achievable on this run (ritual interruption, mask destruction, temple damage). Tiamat will keep at least –30 atk/dmg, –150 HP, lose Regeneration. Still a fight — but possible.
 
 ### Prompt 8 – Severin pre-combat: parallel social hooks
 
@@ -662,11 +858,25 @@ Severin knows. Use the updated line:
 > "Tiamat så det. Hun husker den slags. Hun husker, hvem der slår
 >  først."
 
+Additional canonical state (DM-locked):
+- Route was 7 → 6 → 23 → Blue Chapel. Party entered via the front
+  gate.
+- Sacrifice ritual at plaza 23 did NOT happen (party arrived before
+  it started). Severin notes this — his plan was knocked off pace.
+- All 3 wyrmspeakers fought as Abishai on Niveau 2 (Rezmir/Black,
+  Neronvain/Green, Galvan/Blue). Reference whichever ones the party
+  killed.
+- Rath Modar was confronted in the temple — either killed during
+  approach or still alive when the party reaches Severin. Severin
+  reacts differently per outcome.
+- No Long Rest. Party is exhausted. Severin notes this too.
+
 Output:
 - Severin's opening monologue (Danish boxed text). Build on the
   existing pre-combat scene from niveau-3-the-crown.md but rewrite
-  to incorporate the Naergoth-line above. Tune length to whichever
-  approach the party used (Land / Lava Tube / Air).
+  to incorporate the Naergoth-line above AND the route-specific
+  details (the party came in through the front gate; Severin saw
+  them cross the plaza from above).
 - Per-PC social check + Severin's reply at success/failure + round-1
   mechanical effect:
   * Axar — Arcana DC 17 (sees the ritual structure)
@@ -789,30 +999,49 @@ Output:
 Produce a lore bridge between the homebrew rework and the Reloaded /
 official Rise of Tiamat material.
 
-Output:
-- Identify the three Abishai on Level 2 as resurrected wyrmspeakers
-  (Rezmir/Black, Neronvain/Green, Galvan/Blue). One short Danish
-  recognition scene per Abishai for when the party sees them.
-  Skip any wyrmspeaker the party never killed in earlier sessions.
-- Introduce Rath Modar as a hidden second boss on Level 3 (Mislead
-  + Globe of Invulnerability). Two or three Danish quips, including
-  at least one that provokes Axar specifically (Thay-arc payoff
-  from earlier campaign).
-- Map WotC's 5 Tiamat weakening events to the existing foci-sabotage
-  system so the table tool keeps working.
-- Add the cult-leader portrait room: somewhere on Level 1 or 2 the
-  party finds painted portraits in order: Sammaster → Algashon →
-  Tuelhalva → Naergoth → Severin. Daxx or Axar Investigation DC 13
-  recognizes Naergoth — the man Frygtløs killed at the gate. He was
-  the oldest of the cult, 700 years on post, and not in agreement
-  with Severin.
+Canonical state (DM-locked):
+- All 3 wyrmspeakers killed previously and resurrected as Abishai
+  (Rezmir/Black on Black foci, Neronvain/Green on Green foci,
+  Galvan/Blue on Blue foci)
+- Rath Modar is ACTIVE in the temple, Red Chapel (area 6 per raw),
+  leading the ritual. Drops his role and engages on round 2 of
+  combat per Reloaded.
+- Severin has the full Mask of the Dragon Queen; party holds none.
+- Naergoth dead in area 7; party did NOT visit area 4 (his quarters).
+- Route 7 → 6 → 23 → Blue Chapel.
 
-  Run this as a STILL moment. No mechanics. Danish boxed text + 30
-  seconds of silence. Frygtløs's player gets to say something or
-  not. Both are right.
+Output:
+- Three Danish recognition scenes for the Abishai, one per
+  platform. Each lands when the party first reaches that foci. The
+  recognition should feel earned — name the PC who would remember
+  them (Daxx + Frygtløs for Rezmir, Twilight for Neronvain at
+  Melandrach's court, Axar for Galvan as the Thay lightning-tutor).
+- Rath Modar is no longer "optional second boss" — he is confirmed.
+  Produce 3-4 Danish quips with at least one targeted at Axar
+  (Thay-arc payoff). One quip should fire round 2 when he drops
+  his ritual role; one should fire when he uses Mislead; one when
+  he goes invisible; one for when he is finally cornered.
+- Map WotC's 5 Tiamat weakening events to THIS party's situation
+  (see Reloaded-bridge above — note that prisoner-sacrifice and
+  masks-incomplete are NOT available on this route).
+- Cult-leader portrait gallery: relocate it to a place the party
+  CAN reach on this route — recommend area 6 (Main Treasure
+  Chamber, which they already cleared and walk through in Scene 2)
+  or inside the temple itself (e.g. on a chapel wall during
+  Niveau 1 transition). Five paintings: Sammaster → Algashon →
+  Tuelhalva → Naergoth → Severin. Daxx or Axar Investigation DC 13
+  recognizes Naergoth — the man Frygtløs killed in area 7. He was
+  700 years on post, not in agreement with Severin.
+
+  Run this as a STILL moment. No mechanics. Danish boxed text +
+  30 seconds of silence. Frygtløs's player gets to say something
+  or not. Both are right.
 
 - Naergoth is NOT available for dialogue (canonical: he is dead).
   Do not include a "Naergoth talks" branch.
+- Naergoth's quarters (area 4) NOT visited on this run — do not
+  produce content for area 4. Note as a missed loot opportunity in
+  DM-only side-bar.
 ```
 
 **Expected output:** Recognition scenes, Rath Modar layer, weakening map, portrait scene.
@@ -827,7 +1056,7 @@ Output:
 
 ```
 Produce an aftermath bridge that maps the finale outcome to the
-Chapter 24 epilogue arcs in well-of-dragons/temple-of-tiamat.md.
+Chapter 24 epilogue arcs in temple-of-tiamat/temple-of-tiamat.md.
 
 Output:
 - Major Victory (clock 0-3): which arcs are open? Candidates: Descent
