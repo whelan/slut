@@ -10,3 +10,7 @@ artwork/
 *.key
 secrets.json
 credentials.json
+
+# Foundry import tool outputs and local config
+tools/foundry-import/.env.local
+tools/foundry-import/json-export/
