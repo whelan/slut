@@ -1,84 +1,62 @@
-# Foundry Import – Quick Start (5 Minutes)
+# Quick Start (5 minutes)
 
-## The Shortest Path to Playing in Foundry
-
-### Prerequisites
-
-- Python 3.8+
-- Foundry account at forgevtt.com
-- Forgevtt API key (from Account Settings → API Keys)
-- Your world ID (visible in world settings)
-
-### Installation (1 min)
+## 1. Install (1 min)
 
 ```bash
 cd tools/foundry-import
 pip install -r requirements.txt
 ```
 
-### Configuration (1 min)
-
-**Option A: Environment Variables**
-```bash
-export FOUNDRY_API_KEY=your_api_key
-export FOUNDRY_WORLD_ID=your_world_id
-```
-
-**Option B: .env File**
-```bash
-echo 'FOUNDRY_API_KEY=your_api_key' > .env.local
-echo 'FOUNDRY_WORLD_ID=your_world_id' >> .env.local
-```
-
-### Import (2 min)
+## 2. Generate the adventure file (30 sec)
 
 ```bash
-# Preview (no changes yet)
-python3 main.py --dry-run
-
-# Full import (creates actors, journals, scenes)
-python3 main.py
-
-# If PCs already exist in Foundry (typical setup), skip them
-python3 main.py --skip-pcs
+python3 main.py --input-dir .. --output ./out --skip-pcs
 ```
 
-**Output:**
-```
-✓ Connected to Foundry
-📤 Creating actors...
-  Created 7 actors
-📤 Creating journals...
-  Created 14 journals
-📤 Creating scenes...
-  Created 3 scenes
-✅ Import complete!
-```
+This writes `./out/adventure.json`.
 
-### Post-Import (1 min)
+## 3. Install the importer module in Foundry (1 min)
 
-1. **Log in to forgevtt.com**
-2. **Actors tab** → Verify 4 PCs + 3 NPCs exist
-3. **Scenes tab** → Verify 3 temple scenes exist
-4. **Journals tab** → Verify lore, session prep, ritual clock
+In your forgevtt world:
 
-**That's it!** You can now:
-- Assign PCs to players
-- Load a scene and place tokens
-- Run combat
+- **Add-on Modules** → **Install Module**
+- Search: `Adventure Importer / Exporter`
+- Install and enable in your world
 
-## Next Steps
+Module page: <https://foundryvtt.com/packages/adventure-import-export>
 
-For detailed post-import setup (grid, lighting, token placement):
-→ See **POST-IMPORT-SETUP.md**
+## 4. Import (30 sec)
 
-For troubleshooting and advanced options:
-→ See **README.md**
+- Open the module's import dialog (button in the sidebar or Settings menu, depending on the module version)
+- Select `./out/adventure.json`
+- Click **Import Adventure**
+
+Done. All actors, journals, and scenes appear in your world.
+
+## 5. Verify (2 min)
+
+- **Actors sidebar**: 14 NPCs (12 Council members, Severin, Naergoth)
+- **Journal sidebar**: ~12 entries (Campaign Overview, session prep, profiles, Ritual Clock Tracker)
+- **Scenes sidebar**: 3 temple scenes (backgrounds empty — upload battlemap PNGs in scene settings)
 
 ---
 
-**Tip:** If you want to preview without API upload:
+## Optional flags
+
 ```bash
-python3 main.py --json-only
+# Include player characters too (if they don't already exist in your world)
+python3 main.py --input-dir ..
+
+# Custom adventure name
+python3 main.py --input-dir .. --name "Well of Dragons Finale"
 ```
-This exports JSON to `json-export/` for manual import.
+
+## Where to put the artwork
+
+Battlemap PNGs in `art/finale/output/` can be uploaded as scene backgrounds:
+
+1. Open the scene
+2. Scene Settings → Background → upload or browse to the PNG
+3. Set grid scale (already 5 ft / 150 px)
+
+Token portraits work the same way: open an NPC actor → set token image.

@@ -1,310 +1,308 @@
-"""Extract and convert D&D 5e stat blocks to Foundry dnd5e JSON format."""
+"""Build dnd5e v5.2.x compatible actor JSON from parsed stat blocks.
+
+Schema reference: https://github.com/foundryvtt/dnd5e/blob/master/module/data/actor/npc.mjs
+"""
 
 import re
-from typing import Any, Dict, Optional
+import secrets
+from typing import Any, Dict, List, Optional
+
+
+# dnd5e v5.2.x uses 3-letter skill keys
+SKILL_KEYS = {
+    'acrobatics': ('acr', 'dex'),
+    'animal handling': ('ani', 'wis'),
+    'arcana': ('arc', 'int'),
+    'athletics': ('ath', 'str'),
+    'deception': ('dec', 'cha'),
+    'history': ('his', 'int'),
+    'insight': ('ins', 'wis'),
+    'intimidation': ('itm', 'cha'),
+    'investigation': ('inv', 'int'),
+    'medicine': ('med', 'wis'),
+    'nature': ('nat', 'int'),
+    'perception': ('prc', 'wis'),
+    'performance': ('prf', 'cha'),
+    'persuasion': ('per', 'cha'),
+    'religion': ('rel', 'int'),
+    'sleight of hand': ('slt', 'dex'),
+    'stealth': ('ste', 'dex'),
+    'survival': ('sur', 'wis'),
+}
+
+ABILITY_KEYS = ['str', 'dex', 'con', 'int', 'wis', 'cha']
+
+
+def new_id() -> str:
+    """Generate a Foundry-compatible 16-char base62-ish document ID."""
+    alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+    return ''.join(secrets.choice(alphabet) for _ in range(16))
+
+
+def _default_abilities() -> Dict[str, Any]:
+    """Build the abilities object with all 6 abilities at default 10."""
+    return {
+        ab: {
+            'value': 10,
+            'proficient': 0,
+            'max': None,
+            'bonuses': {'check': '', 'save': ''},
+        }
+        for ab in ABILITY_KEYS
+    }
+
+
+def _default_skills() -> Dict[str, Any]:
+    """Build the full skills object with all dnd5e v5.2.x skill keys."""
+    return {
+        skill_key: {
+            'ability': ability,
+            'value': 0,
+            'bonuses': {'check': '', 'passive': ''},
+        }
+        for (skill_key, ability) in SKILL_KEYS.values()
+    }
 
 
 class StatBlockExtractor:
-    """Convert D&D 5e markdown stat blocks to Foundry actor JSON."""
-
-    # Ability abbreviations to full names
-    ABILITIES = {
-        'STR': 'strength',
-        'DEX': 'dexterity',
-        'CON': 'constitution',
-        'INT': 'intelligence',
-        'WIS': 'wisdom',
-        'CHA': 'charisma',
-    }
-
-    # Skill mappings to abilities
-    SKILLS = {
-        'acrobatics': 'dex',
-        'animal handling': 'wis',
-        'arcana': 'int',
-        'athletics': 'str',
-        'deception': 'cha',
-        'history': 'int',
-        'insight': 'wis',
-        'intimidation': 'cha',
-        'investigation': 'int',
-        'medicine': 'wis',
-        'nature': 'int',
-        'perception': 'wis',
-        'performance': 'cha',
-        'persuasion': 'cha',
-        'religion': 'int',
-        'sleight of hand': 'dex',
-        'stealth': 'dex',
-        'survival': 'wis',
-    }
+    """Parse D&D 5e markdown stat blocks into dnd5e v5.2.x actor JSON."""
 
     def extract_abilities(self, content: str) -> Dict[str, int]:
-        """Extract ability scores from stat block."""
-        abilities = {}
-        patterns = {
-            'STR': r'\*\*STR\*\*\s+(\d+)',
-            'DEX': r'\*\*DEX\*\*\s+(\d+)',
-            'CON': r'\*\*CON\*\*\s+(\d+)',
-            'INT': r'\*\*INT\*\*\s+(\d+)',
-            'WIS': r'\*\*WIS\*\*\s+(\d+)',
-            'CHA': r'\*\*CHA\*\*\s+(\d+)',
-        }
-
-        for abbr, pattern in patterns.items():
-            match = re.search(pattern, content, re.IGNORECASE)
+        result = {}
+        for ab in ABILITY_KEYS:
+            match = re.search(rf'\*\*{ab.upper()}\*\*\s+(\d+)', content, re.IGNORECASE)
             if match:
-                abilities[self.ABILITIES[abbr]] = int(match.group(1))
-
-        return abilities
+                result[ab] = int(match.group(1))
+        return result
 
     def extract_ac(self, content: str) -> Optional[int]:
-        """Extract AC value."""
         match = re.search(r'\*\*AC\*\*\s+(\d+)', content, re.IGNORECASE)
         return int(match.group(1)) if match else None
 
     def extract_hp(self, content: str) -> Dict[str, Any]:
-        """Extract HP and hit dice."""
-        match = re.search(r'\*\*HP\*\*\s+([\d\+\-\w\s()]+)', content, re.IGNORECASE)
+        match = re.search(r'\*\*HP\*\*\s+([^\n]+)', content, re.IGNORECASE)
         if not match:
-            return {'value': 0, 'formula': ''}
-
+            return {'value': 0, 'max': 0, 'formula': ''}
         hp_str = match.group(1).strip()
-        # Parse "78 (12d8 + 24)" format
         value_match = re.match(r'(\d+)', hp_str)
         value = int(value_match.group(1)) if value_match else 0
+        return {'value': value, 'max': value, 'formula': hp_str}
 
-        return {
-            'value': value,
-            'formula': hp_str,
+    def extract_speed(self, content: str) -> Dict[str, Any]:
+        speeds = {
+            'walk': 30, 'burrow': 0, 'climb': 0, 'fly': 0, 'swim': 0,
+            'units': 'ft', 'hover': False, 'special': '',
         }
-
-    def extract_speed(self, content: str) -> Dict[str, int]:
-        """Extract movement speeds."""
-        speeds = {'walk': 30}
-        match = re.search(r'\*\*Speed\*\*\s+(.+?)(?:\n|$)', content, re.IGNORECASE)
+        match = re.search(r'\*\*Speed\*\*\s+([^\n]+)', content, re.IGNORECASE)
         if not match:
             return speeds
-
-        speed_str = match.group(1).strip()
-        # Parse "30 ft., fly 60 ft., swim 40 ft." format
-        parts = speed_str.split(',')
-        for part in parts:
-            part = part.strip()
-            if 'walk' in part.lower() or (re.match(r'^\d+', part) and 'fly' not in part.lower()):
-                val = re.search(r'(\d+)', part)
-                if val:
-                    speeds['walk'] = int(val.group(1))
-            elif 'fly' in part.lower():
-                val = re.search(r'(\d+)', part)
-                if val:
-                    speeds['fly'] = int(val.group(1))
-            elif 'swim' in part.lower():
-                val = re.search(r'(\d+)', part)
-                if val:
-                    speeds['swim'] = int(val.group(1))
-            elif 'climb' in part.lower():
-                val = re.search(r'(\d+)', part)
-                if val:
-                    speeds['climb'] = int(val.group(1))
-
+        for part in match.group(1).split(','):
+            part = part.strip().lower()
+            num = re.search(r'(\d+)', part)
+            if not num:
+                continue
+            n = int(num.group(1))
+            if 'fly' in part:
+                speeds['fly'] = n
+            elif 'swim' in part:
+                speeds['swim'] = n
+            elif 'climb' in part:
+                speeds['climb'] = n
+            elif 'burrow' in part:
+                speeds['burrow'] = n
+            else:
+                speeds['walk'] = n
         return speeds
 
     def extract_skills(self, content: str) -> Dict[str, int]:
-        """Extract skill bonuses."""
-        skills = {}
-        match = re.search(r'\*\*Skills\*\*\s+(.+?)(?:\n\*\*|$)', content, re.IGNORECASE)
+        """Returns {skill_key (3-letter): proficiency_value (1=proficient, 2=expertise)}."""
+        result = {}
+        match = re.search(r'\*\*Skills\*\*\s+([^\n]+)', content, re.IGNORECASE)
         if not match:
-            return skills
+            return result
+        for part in match.group(1).split(','):
+            sk = re.match(r'\s*([A-Za-z\s]+?)\s+([\+\-]\d+)', part)
+            if not sk:
+                continue
+            name = sk.group(1).strip().lower()
+            if name in SKILL_KEYS:
+                key, _ = SKILL_KEYS[name]
+                result[key] = 1  # mark as proficient
+        return result
 
-        skills_str = match.group(1).strip()
-        # Parse "Perception +5, Stealth +7" format
-        parts = skills_str.split(',')
-        for part in parts:
-            part = part.strip()
-            skill_match = re.match(r'([A-Za-z\s]+)\s+([\+\-]\d+)', part)
-            if skill_match:
-                skill_name = skill_match.group(1).strip().lower()
-                bonus = int(skill_match.group(2))
-                if skill_name in self.SKILLS:
-                    skills[skill_name] = bonus
+    def extract_cr(self, content: str) -> float:
+        match = re.search(r'\*\*CR\*\*\s+(\d+(?:/\d+)?|\d*\.?\d+)', content, re.IGNORECASE)
+        if not match:
+            return 1
+        cr_str = match.group(1)
+        if '/' in cr_str:
+            num, den = cr_str.split('/')
+            return float(num) / float(den)
+        return float(cr_str)
 
-        return skills
+    def extract_languages(self, content: str) -> List[str]:
+        match = re.search(r'\*\*Languages\*\*\s+([^\n]+)', content, re.IGNORECASE)
+        if not match:
+            return []
+        return [l.strip() for l in match.group(1).split(',') if l.strip()]
 
-    def extract_resistances(self, content: str) -> Dict[str, list]:
-        """Extract damage resistances, immunities, and vulnerabilities."""
-        resistances = {'damage': [], 'condition': []}
-
-        patterns = {
-            'damage_resist': r'\*\*Damage Resistances\*\*\s+(.+?)(?:\n\*\*|$)',
-            'damage_immune': r'\*\*Damage Immunities\*\*\s+(.+?)(?:\n\*\*|$)',
-            'condition_immune': r'\*\*Condition Immunities\*\*\s+(.+?)(?:\n\*\*|$)',
-        }
-
-        # Extract damage resistances
-        match = re.search(patterns['damage_resist'], content, re.IGNORECASE)
-        if match:
-            damages = [d.strip() for d in match.group(1).split(',')]
-            resistances['damage'].extend(damages)
-
-        # Extract condition immunities
-        match = re.search(patterns['condition_immune'], content, re.IGNORECASE)
-        if match:
-            conditions = [c.strip() for c in match.group(1).split(',')]
-            resistances['condition'].extend(conditions)
-
-        return resistances
-
-    def to_foundry_actor(self, name: str, content: str, actor_type: str = 'creature') -> Dict[str, Any]:
-        """Convert extracted stat block to Foundry actor JSON.
-
-        Args:
-            name: Actor name
-            content: Markdown stat block content
-            actor_type: 'character', 'npc', or 'creature'
-
-        Returns:
-            Foundry actor JSON structure
-        """
-        abilities = self.extract_abilities(content)
-        ac = self.extract_ac(content)
+    def to_foundry_npc(self, name: str, content: str, biography: str = '') -> Dict[str, Any]:
+        """Build a complete dnd5e v5.2.x NPC actor document."""
+        abilities_data = self.extract_abilities(content)
+        ac = self.extract_ac(content) or 10
         hp = self.extract_hp(content)
         speed = self.extract_speed(content)
-        skills = self.extract_skills(content)
-        resistances = self.extract_resistances(content)
+        skills_data = self.extract_skills(content)
+        cr = self.extract_cr(content)
+        languages = self.extract_languages(content)
 
-        actor = {
+        # Build abilities with parsed values
+        abilities = _default_abilities()
+        for ab, value in abilities_data.items():
+            abilities[ab]['value'] = value
+
+        # Build skills with parsed proficiency
+        skills = _default_skills()
+        for sk_key, prof_value in skills_data.items():
+            skills[sk_key]['value'] = prof_value
+
+        return {
+            '_id': new_id(),
             'name': name,
-            'type': actor_type,
-            'img': 'icons/creatures/humanoids/dragonborn-teal.webp',  # Default token
+            'type': 'npc',
+            'img': 'icons/svg/mystery-man.svg',
             'system': {
-                'abilities': self._build_abilities_json(abilities),
+                'abilities': abilities,
                 'attributes': {
-                    'ac': {'flat': ac or 10},
-                    'hp': {
-                        'value': hp['value'],
-                        'max': hp['value'],
-                        'formula': hp['formula'],
-                    },
-                },
-                'traits': {
-                    'languages': {'value': []},
-                    'resistances': resistances.get('damage', []),
-                    'conditionImmunities': resistances.get('condition', []),
+                    'ac': {'flat': ac, 'calc': 'flat', 'formula': ''},
+                    'hp': {**hp, 'temp': 0, 'tempmax': 0},
+                    'init': {'ability': 'dex', 'bonus': ''},
+                    'movement': speed,
+                    'senses': {'darkvision': 0, 'blindsight': 0, 'tremorsense': 0,
+                               'truesight': 0, 'units': 'ft', 'special': ''},
+                    'spellcasting': '',
+                    'death': {'success': 0, 'failure': 0},
+                    'exhaustion': 0,
+                    'inspiration': False,
                 },
                 'details': {
-                    'biography': {'value': ''},
+                    'biography': {'value': biography, 'public': ''},
                     'alignment': '',
+                    'race': None,
+                    'type': {'value': 'humanoid', 'subtype': '', 'swarm': '', 'custom': ''},
+                    'environment': '',
+                    'cr': cr,
+                    'spellLevel': 0,
+                    'source': {'custom': 'Tyranny of Dragons campaign'},
+                    'xp': {'value': 0},
                 },
+                'traits': {
+                    'size': 'med',
+                    'di': {'value': [], 'bypasses': [], 'custom': ''},
+                    'dr': {'value': [], 'bypasses': [], 'custom': ''},
+                    'dv': {'value': [], 'bypasses': [], 'custom': ''},
+                    'ci': {'value': [], 'custom': ''},
+                    'languages': {'value': [], 'custom': ', '.join(languages)},
+                },
+                'currency': {'pp': 0, 'gp': 0, 'ep': 0, 'sp': 0, 'cp': 0},
+                'skills': skills,
+                'resources': {
+                    'legact': {'value': 0, 'max': 0},
+                    'legres': {'value': 0, 'max': 0},
+                    'lair': {'value': False, 'initiative': 0},
+                },
+            },
+            'prototypeToken': {
+                'name': name,
+                'displayName': 0,
+                'actorLink': False,
+                'width': 1,
+                'height': 1,
+                'texture': {'src': 'icons/svg/mystery-man.svg'},
+                'sight': {'enabled': False},
+                'detectionModes': [],
+                'flags': {},
+                'disposition': -1,
             },
             'items': [],
             'effects': [],
+            'folder': None,
+            'sort': 0,
+            'ownership': {'default': 0},
+            'flags': {},
+            '_stats': {'systemId': 'dnd5e', 'systemVersion': '5.2.3'},
         }
 
-        # Add skills if present
-        if skills:
-            actor['system']['skills'] = skills
 
-        # Add speed
-        actor['system']['attributes']['movement'] = {
-            'walk': speed.get('walk', 30),
-            'fly': speed.get('fly', 0),
-            'swim': speed.get('swim', 0),
-            'climb': speed.get('climb', 0),
-        }
+class PartyCharacterBuilder:
+    """Build a dnd5e v5.2.x character actor (PC)."""
 
-        return actor
-
-    def _build_abilities_json(self, abilities: Dict[str, int]) -> Dict[str, Any]:
-        """Build abilities section for Foundry JSON."""
-        result = {}
-        for ability_name in self.ABILITIES.values():
-            score = abilities.get(ability_name, 10)
-            result[ability_name] = {
-                'value': score,
-                'proficient': 0,
+    def to_foundry_character(self, character_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Convert parsed party character data to a Foundry character actor."""
+        abilities_parsed = character_data.get('data', {}).get('abilities', {})
+        abilities = _default_abilities()
+        for ab, value in abilities_parsed.items():
+            # Map full ability names to 3-letter keys
+            key_map = {
+                'strength': 'str', 'dexterity': 'dex', 'constitution': 'con',
+                'intelligence': 'int', 'wisdom': 'wis', 'charisma': 'cha',
             }
-        return result
+            short = key_map.get(ab.lower(), ab.lower())
+            if short in abilities:
+                abilities[short]['value'] = value
 
-
-class PartyCharacterConverter:
-    """Convert player character data to Foundry actor JSON."""
-
-    CLASSES = {
-        'wizard': 'wizard',
-        'ranger': 'ranger',
-        'barbarian': 'barbarian',
-        'bard': 'bard',
-        'cleric': 'cleric',
-        'druid': 'druid',
-        'fighter': 'fighter',
-        'monk': 'monk',
-        'paladin': 'paladin',
-        'rogue': 'rogue',
-        'sorcerer': 'sorcerer',
-        'warlock': 'warlock',
-    }
-
-    def to_foundry_actor(self, character_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Convert parsed character data to Foundry actor JSON."""
-        abilities = character_data.get('data', {}).get('abilities', {})
-        spells = character_data.get('data', {}).get('spells', [])
-        equipment = character_data.get('data', {}).get('equipment', [])
-
-        actor = {
+        return {
+            '_id': new_id(),
             'name': character_data['name'],
             'type': 'character',
-            'img': 'icons/characters/unknown.webp',
+            'img': 'icons/svg/mystery-man.svg',
             'system': {
-                'abilities': self._build_abilities(abilities),
+                'abilities': abilities,
                 'attributes': {
-                    'ac': {'flat': 11},
-                    'hp': {
-                        'value': 100,
-                        'max': 100,
-                    },
+                    'ac': {'flat': 10, 'calc': 'default', 'formula': ''},
+                    'hp': {'value': 100, 'max': 100, 'temp': 0, 'tempmax': 0, 'bonuses': {'level': '', 'overall': ''}},
+                    'init': {'ability': 'dex', 'bonus': ''},
+                    'movement': {'walk': 30, 'burrow': 0, 'climb': 0, 'fly': 0, 'swim': 0,
+                                 'units': 'ft', 'hover': False, 'special': ''},
+                    'senses': {'darkvision': 0, 'blindsight': 0, 'tremorsense': 0,
+                               'truesight': 0, 'units': 'ft', 'special': ''},
+                    'spellcasting': 'int',
+                    'death': {'success': 0, 'failure': 0},
+                    'exhaustion': 0,
+                    'inspiration': False,
                 },
                 'details': {
-                    'biography': {'value': character_data.get('journal', '')},
+                    'biography': {'value': character_data.get('journal', ''), 'public': ''},
+                    'alignment': '',
+                    'race': None,
+                    'background': None,
+                    'originalClass': '',
+                    'xp': {'value': 0},
                 },
                 'traits': {
-                    'languages': {'value': []},
-                    'proficiencies': {'value': []},
+                    'size': 'med',
+                    'di': {'value': [], 'bypasses': [], 'custom': ''},
+                    'dr': {'value': [], 'bypasses': [], 'custom': ''},
+                    'dv': {'value': [], 'bypasses': [], 'custom': ''},
+                    'ci': {'value': [], 'custom': ''},
+                    'languages': {'value': [], 'custom': ''},
                 },
+                'currency': {'pp': 0, 'gp': 0, 'ep': 0, 'sp': 0, 'cp': 0},
+                'skills': _default_skills(),
+            },
+            'prototypeToken': {
+                'name': character_data['name'],
+                'actorLink': True,
+                'width': 1,
+                'height': 1,
+                'texture': {'src': 'icons/svg/mystery-man.svg'},
+                'disposition': 1,
             },
             'items': [],
             'effects': [],
+            'folder': None,
+            'sort': 0,
+            'ownership': {'default': 0},
+            'flags': {},
+            '_stats': {'systemId': 'dnd5e', 'systemVersion': '5.2.3'},
         }
-
-        # Add spells as items (referenced from compendium)
-        for spell_name in spells:
-            actor['items'].append({
-                'name': spell_name,
-                'type': 'spell',
-                'compendium_link': f'dnd5e.spells.{self._slugify(spell_name)}',
-            })
-
-        # Add equipment as items
-        for equip_name in equipment:
-            actor['items'].append({
-                'name': equip_name,
-                'type': 'equipment',
-            })
-
-        return actor
-
-    def _build_abilities(self, abilities: Dict[str, int]) -> Dict[str, Any]:
-        """Build abilities section with defaults."""
-        result = {}
-        for ability in ['strength', 'dexterity', 'constitution', 'intelligence', 'wisdom', 'charisma']:
-            value = abilities.get(ability, 10)
-            result[ability] = {
-                'value': value,
-                'proficient': 0,
-            }
-        return result
-
-    @staticmethod
-    def _slugify(name: str) -> str:
-        """Convert name to slug for compendium lookup."""
-        return name.lower().replace(' ', '-').replace("'", '')

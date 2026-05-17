@@ -136,7 +136,7 @@ class MarkdownParser:
         tables = file_data['tables']
 
         # Extract name from filename or first heading
-        name = Path(filepath).stem.replace('_', ' ').title()
+        name = Path(filepath).stem.replace('_', ' ').replace('-', ' ').title()
 
         # Extract abilities, skills, spells from tables
         actor = {
@@ -179,7 +179,7 @@ class MarkdownParser:
         raw = file_data['raw']
         sections = file_data['sections']
 
-        name = Path(filepath).stem.replace('_', ' ').title()
+        name = Path(filepath).stem.replace('_', ' ').replace('-', ' ').title()
 
         # Extract sections for journal
         personality = sections.get('Personality', sections.get('Characterization', ''))
@@ -190,6 +190,7 @@ class MarkdownParser:
             'name': name,
             'type': 'npc',
             'data': self.extract_stat_block(raw) or {},
+            'raw_content': raw,
             'journal_pages': [
                 {'name': 'Personality', 'content': personality},
                 {'name': 'Motivations', 'content': motivations},
@@ -198,6 +199,47 @@ class MarkdownParser:
         }
 
         return npc
+
+    def parse_npc_registry(self, filepath: str) -> Dict[str, Any]:
+        """Parse a registry file (e.g., council-of-waterdeep.md) with `## NPC Name`
+        sections — each section becomes its own NPC entry.
+
+        Returns: {'npcs': [...individual NPCs...], 'journal': {...combined journal...}}
+        """
+        file_data = self.parse_file(filepath)
+        raw = file_data['raw']
+
+        # Split on H2 headings. The first chunk is the file's intro (before any H2).
+        chunks = re.split(r'(?m)^## (.+)$', raw)
+        # chunks = [intro, name1, body1, name2, body2, ...]
+        intro = chunks[0] if chunks else ''
+
+        npcs = []
+        journal_pages = []
+        if intro.strip():
+            journal_pages.append({'name': 'Overview', 'content': intro.strip()})
+
+        for i in range(1, len(chunks), 2):
+            if i + 1 >= len(chunks):
+                break
+            npc_name = chunks[i].strip()
+            npc_body = chunks[i + 1].strip()
+            npcs.append({
+                'name': npc_name,
+                'type': 'npc',
+                'data': self.extract_stat_block(npc_body) or {},
+                'raw_content': npc_body,
+                'journal_pages': [{'name': 'Profile', 'content': npc_body}],
+            })
+            journal_pages.append({'name': npc_name, 'content': npc_body})
+
+        return {
+            'npcs': npcs,
+            'journal': {
+                'name': Path(filepath).stem.replace('-', ' ').replace('_', ' ').title(),
+                'pages': journal_pages,
+            },
+        }
 
     def parse_enemy(self, content: str, name: str) -> Dict[str, Any]:
         """Parse an enemy stat block from markdown content."""
@@ -236,6 +278,7 @@ class MarkdownParser:
 
     def _markdown_to_html(self, content: str) -> str:
         """Convert markdown to HTML for journal entries."""
+        self.md_converter.reset()
         return self.md_converter.convert(content)
 
 
@@ -259,17 +302,37 @@ class ContentExtractor:
                         print(f"Error parsing {md_file.name}: {e}")
         return characters
 
-    def extract_all_npcs(self) -> List[Dict[str, Any]]:
-        """Extract all NPCs from npcs/."""
-        npcs = []
+    def extract_all_npcs(self) -> Dict[str, List[Dict[str, Any]]]:
+        """Extract all NPCs from npcs/.
+
+        Returns: {'npcs': [...], 'registry_journals': [...]}
+        - Single-NPC files become one entry in 'npcs'.
+        - Registry files (H1 contains 'Reference') are split: each `## Name`
+          section becomes its own NPC, plus a combined journal for the whole file.
+        """
+        npcs: List[Dict[str, Any]] = []
+        registry_journals: List[Dict[str, Any]] = []
         npc_dir = self.repo_root / 'npcs'
-        if npc_dir.exists():
-            for md_file in sorted(npc_dir.glob('*.md')):
-                try:
+        if not npc_dir.exists():
+            return {'npcs': npcs, 'registry_journals': registry_journals}
+
+        for md_file in sorted(npc_dir.glob('*.md')):
+            try:
+                # Peek at first line to detect registry files
+                with open(md_file, 'r', encoding='utf-8') as f:
+                    first_line = f.readline().strip()
+                is_registry = 'Reference' in first_line or 'Council' in first_line
+
+                if is_registry:
+                    result = self.parser.parse_npc_registry(f'npcs/{md_file.name}')
+                    npcs.extend(result['npcs'])
+                    registry_journals.append(result['journal'])
+                else:
                     npcs.append(self.parser.parse_npc(f'npcs/{md_file.name}'))
-                except Exception as e:
-                    print(f"Error parsing {md_file.name}: {e}")
-        return npcs
+            except Exception as e:
+                print(f"Error parsing {md_file.name}: {e}")
+
+        return {'npcs': npcs, 'registry_journals': registry_journals}
 
     def extract_campaign_overview(self) -> Optional[Dict[str, Any]]:
         """Extract campaign lore as a journal."""
