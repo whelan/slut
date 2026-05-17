@@ -62,6 +62,11 @@ Examples:
         help='Only export to JSON files (no API calls)'
     )
     parser.add_argument(
+        '--skip-pcs',
+        action='store_true',
+        help='Skip player character creation (if PCs already exist in Foundry)'
+    )
+    parser.add_argument(
         '--env-file',
         default='.env.local',
         help='Path to .env file with credentials (default: .env.local)'
@@ -89,7 +94,7 @@ Examples:
     # Step 1: Convert markdown to JSON
     try:
         converter = CampaignConverter(str(input_dir))
-        content = converter.convert_all()
+        content = converter.convert_all(skip_pcs=args.skip_pcs)
     except Exception as e:
         print(f"❌ Conversion failed: {e}")
         return 1

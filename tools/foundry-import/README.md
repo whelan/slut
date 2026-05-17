@@ -120,8 +120,21 @@ This will:
 --world ID               Foundry world ID (or use FOUNDRY_WORLD_ID env var)
 --dry-run                Preview changes without sending to API
 --json-only              Export JSON only (skip API upload)
+--skip-pcs               Skip player character creation (PCs already in Foundry)
 --env-file PATH          Path to .env file (default: .env.local)
 ```
+
+### PCs Already in Foundry?
+
+If your player characters already exist in forgevtt (typical setup), use `--skip-pcs`
+to avoid creating duplicate actors:
+
+```bash
+python3 main.py --skip-pcs
+```
+
+This imports only NPCs, journals, scenes, and the ritual clock — leaving your
+existing PC actors untouched.
 
 ## Examples
 

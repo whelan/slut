@@ -193,6 +193,16 @@ class FoundryAPIClient:
         actors = self.get_actors()
         return next((a for a in actors if a.get('name') == name), None)
 
+    def get_actor_ids_by_names(self, names: List[str]) -> Dict[str, str]:
+        """Look up actor IDs for a list of names (e.g., existing PCs).
+
+        Returns a mapping of name → actor_id for actors that exist in the world.
+        Missing actors are omitted from the result.
+        """
+        actors = self.get_actors()
+        actor_map = {a.get('name'): (a.get('id') or a.get('_id')) for a in actors}
+        return {name: actor_map[name] for name in names if name in actor_map}
+
     def get_journals(self) -> List[Dict[str, Any]]:
         """Fetch all journals in the world."""
         try:

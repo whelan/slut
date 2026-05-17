@@ -20,17 +20,25 @@ class CampaignConverter:
         self.journals = []
         self.scenes = []
 
-    def convert_all(self) -> Dict[str, List[Any]]:
-        """Execute full conversion pipeline."""
+    def convert_all(self, skip_pcs: bool = False) -> Dict[str, List[Any]]:
+        """Execute full conversion pipeline.
+
+        Args:
+            skip_pcs: If True, skip player character actor creation (useful when
+                      PCs already exist in the Foundry world).
+        """
         print("🔄 Converting campaign content...")
 
         # Extract and convert party characters
-        print("📋 Converting party characters...")
-        characters = self.extractor.extract_all_characters()
-        for char_data in characters:
-            actor = self.char_converter.to_foundry_actor(char_data)
-            self.actors.append(actor)
-            print(f"  ✓ {char_data['name']}")
+        if skip_pcs:
+            print("⏭️  Skipping party characters (already exist in Foundry)")
+        else:
+            print("📋 Converting party characters...")
+            characters = self.extractor.extract_all_characters()
+            for char_data in characters:
+                actor = self.char_converter.to_foundry_actor(char_data)
+                self.actors.append(actor)
+                print(f"  ✓ {char_data['name']}")
 
         # Extract and convert NPCs
         print("📋 Converting NPCs...")

@@ -38,6 +38,9 @@ python3 main.py --dry-run
 
 # Full import (creates actors, journals, scenes)
 python3 main.py
+
+# If PCs already exist in Foundry (typical setup), skip them
+python3 main.py --skip-pcs
 ```
 
 **Output:**
