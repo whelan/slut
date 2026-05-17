@@ -7,6 +7,7 @@ from typing import Any, Dict, List
 from markdown_parser import ContentExtractor, MarkdownParser
 from stat_extractor import StatBlockExtractor, PartyCharacterBuilder
 from adventure_builder import build_adventure, build_journal_entry, build_scene
+from enemy_builder import EnemyBuilder
 
 
 class CampaignConverter:
@@ -18,6 +19,7 @@ class CampaignConverter:
         self.parser = MarkdownParser(repo_root)
         self.stat = StatBlockExtractor()
         self.pc_builder = PartyCharacterBuilder()
+        self.enemy_builder = EnemyBuilder(repo_root)
 
         self.actors: List[Dict[str, Any]] = []
         self.journals: List[Dict[str, Any]] = []
@@ -67,6 +69,10 @@ class CampaignConverter:
             ]
             self.journals.append(build_journal_entry(name=reg_journal['name'], pages=pages_html))
             print(f"    + {reg_journal['name']} (registry journal)")
+
+        print("  Enemy roster (SRD + homebrew + prisoners):")
+        enemy_actors = self.enemy_builder.build_all()
+        self.actors.extend(enemy_actors)
 
         print("  Campaign lore:")
         campaign = self.extractor.extract_campaign_overview()

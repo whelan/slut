@@ -35,7 +35,11 @@ Done. All actors, journals, and scenes appear in your world.
 
 ## 5. Verify (2 min)
 
-- **Actors sidebar**: 14 NPCs (12 Council members, Severin, Naergoth)
+- **Actors sidebar**: 54 actors total
+  - 14 named campaign NPCs (12 Council members, Severin, Naergoth)
+  - 11 SRD creatures (Cultist, Cult Fanatic, Wight, Air Elemental, Stone Golem, ...)
+  - 22 homebrew enemies tuned for level 15 (Dragonclaw, Abishai variants, Severin Phase 1+2, 5× Tiamat heads, ...)
+  - 7 named prisoners (Stirleng, Kess, Thorne, Marta, Fen, Stirling, Banner Bearer)
 - **Journal sidebar**: ~12 entries (Campaign Overview, session prep, profiles, Ritual Clock Tracker)
 - **Scenes sidebar**: 3 temple scenes (backgrounds empty — upload battlemap PNGs in scene settings)
 
