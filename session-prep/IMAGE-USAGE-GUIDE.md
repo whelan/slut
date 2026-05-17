@@ -15,6 +15,7 @@ Quick reference for when to display each artwork at the table. All images are op
 | **Elia (Bronze Dragon)** | ![Elia](../art/finale/output/elia-bronze-dragon-token_20260516_170825_1.png) | LEVEL 3: If triggered (Party HP < 150 or 2+ PCs down) | Metallic ally; display for morale moment |
 | **Rath Modar** | ![Rath Modar](../art/finale/output/rath-modar-token_20260516_164527_1.png) | LEVEL 1 & 2: Red Wizard scenes; entrance combat | Ritual master; may engage during final combat |
 | **Veksin (Young Red Wizard)** | ![Veksin](../art/finale/output/veksin-young-red-wizard-token_20260516_164551_1.png) | BLUE CHAPEL: First Red Wizard encounter (Area 1) | Apprentice at temple entrance |
+| **Magus Thezzar** | ![Thezzar](../art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png) | PLAZA 23: Sacrifice ritual executor | Ritual-master; scar-faced lieutenant; Rath's voice on plaza |
 | **Rezmir (Black Abishai)** | ![Rezmir](../art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png) | LEVEL 2: Black Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; Black focus guardian |
 | **Neronvain (Green Abishai)** | ![Neronvain](../art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png) | LEVEL 2: Green Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; Green focus guardian |
 

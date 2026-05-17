@@ -46,6 +46,9 @@ Give them **names and faces** so the death means something:
 
 ## The Ritual Master
 
+**[DISPLAY: Magus Thezzar Token]**
+![Magus Thezzar](../art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png)
+
 **Magus Thezzar** (Red Wizard lieutenant, on Rath Modar's command) performs the ritual on the plaza. Rath Modar remains in the temple (Red Chapel, Level 2) coordinating the entire ritual from above via magical resonance. Thezzar is:
 
 - Middle-aged human male, scarred face (acid burns from a ritual gone wrong)
