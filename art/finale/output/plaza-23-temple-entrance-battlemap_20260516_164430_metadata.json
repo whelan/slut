@@ -1,0 +1,13 @@
+{
+  "title": "plaza-23-temple-entrance-battlemap",
+  "timestamp": "20260516_164430",
+  "size": "1536x1024",
+  "quality": "high",
+  "n": 1,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/finale/04-plaza-23-temple-entrance.md",
+  "outputs": [
+    "art/finale/output/plaza-23-temple-entrance-battlemap_20260516_164430_1.png"
+  ]
+}

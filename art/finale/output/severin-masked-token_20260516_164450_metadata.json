@@ -1,0 +1,13 @@
+{
+  "title": "severin-masked-token",
+  "timestamp": "20260516_164450",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/finale/05-severin-masked.md",
+  "outputs": [
+    "art/finale/output/severin-masked-token_20260516_164450_1.png"
+  ]
+}

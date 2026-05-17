@@ -328,7 +328,7 @@ The user-facing narrative for the entry phase. Use these scenes directly at the 
 
 **Mechanical:**
 - Daxx Stealth scout DC 14: reveals layout. 2 tunnels per Northern Exits, each blocked by 2 barbed devils + 4 guard drakes. Devils stand at the tunnel mouth, looking OUT into the plaza. Drakes are 10 ft behind, less attentive.
-- Axar Perception DC 12: hears Infernal in the devils' speech — they're complaining about how the prisoner sacrifice hasn't started yet. *"Severin promised us blood by midnight. It's after midnight."*
+- Axar Perception DC 12: hears the devils speaking Common with cultists — they're complaining about how the prisoner sacrifice hasn't started yet. *"Severin promised us blood by midnight. It's after midnight."*
 
 #### Scene 4 — Plaza 23 guards (one tunnel only — the party's exit)
 

@@ -1,0 +1,13 @@
+{
+  "title": "level-3-the-crown-battlemap",
+  "timestamp": "20260516_164414",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/finale/01-level-3-the-crown-battlemap.md",
+  "outputs": [
+    "art/finale/output/level-3-the-crown-battlemap_20260516_164414_1.png"
+  ]
+}

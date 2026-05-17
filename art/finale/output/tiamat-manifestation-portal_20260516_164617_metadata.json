@@ -1,0 +1,13 @@
+{
+  "title": "tiamat-manifestation-portal",
+  "timestamp": "20260516_164617",
+  "size": "1536x1024",
+  "quality": "high",
+  "n": 1,
+  "has_instructions": true,
+  "references": [],
+  "source": "art/finale/11-tiamat-manifestation.md",
+  "outputs": [
+    "art/finale/output/tiamat-manifestation-portal_20260516_164617_1.png"
+  ]
+}
