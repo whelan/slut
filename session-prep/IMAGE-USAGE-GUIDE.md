@@ -27,6 +27,18 @@ Quick reference for when to display each artwork at the table. All images are op
 | **Dragonfang Fighter** | ![Dragonfang](../art/finale/output/dragonfang-fighter-token_20260516_170907_1.png) | PLAZA 23, PROCESSION: If players engage cultist warriors | Cult soldier rank; combat token |
 | **Dragonclaw Rogue** | ![Dragonclaw](../art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png) | PLAZA 23, PROCESSION: If players engage stealthy cultists | Cult assassin rank; combat token |
 
+### Sacrifice Victims – Emotional Beat (PLAZA 23)
+
+| Victim | Image | When to Display | Notes |
+|---|---|---|---|
+| **Stirling** | ![Stirling](../art/finale/stirling-dwarf-prisoner-token_20260517_114002_1.png) | SCENE 4B Round 1: First death | Dwarven guard captain; defiant to the end; known contact (Baldur's Gate) |
+| **Kess** | ![Kess](../art/finale/kess-young-woman-prisoner-token_20260517_114037_1.png) | SCENE 4B Round 2: Second death | Young woman, Waterdeep merchant class; captured 2 months prior; despairing |
+| **Thorne** | ![Thorne](../art/finale/thorne-elf-ranger-prisoner-token_20260517_114114_1.png) | SCENE 4B Round 2: Third death | Elf ranger, Harper scout; still strategizing escape; quiet fury |
+| **Marta** | ![Marta](../art/finale/marta-half-orc-prisoner-token_20260517_114228_1.png) | SCENE 4B Round 2: Fourth death | Half-orc farmwoman; captured with family; grieving children |
+| **Fen** | ![Fen](../art/finale/fen-young-boy-prisoner-token_20260517_113912_1.png) | SCENE 4B Round 3: Fifth death | Young procession volunteer; doesn't understand until too late; tragic recognition |
+
+**Display timing:** Show each token as their death occurs in Scene 4b. These are **emotional weight anchors** — the faces make the ritual consequences personal. If the party fails to rescue anyone, these images serve as visual punctuation for the moral stakes of the entire campaign.
+
 ---
 
 ## Battlemaps (Display on Screen / VTT Grid)

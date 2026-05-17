@@ -72,6 +72,9 @@ This establishes Rath as the true power while keeping him available for the temp
 
 > I ser fyrsten af jer kender. Eller måske I ser ham ikke — det er for langt, skyggerne er for mørk — men I ser at nogen der er mennesker bliver til ikke-mennesker. I ser at ritualet ikke længere er abstrakt ord. Det er blod i asken. Det er stilhed efter et menneskes sidste vejr.
 
+**[DISPLAY: Stirling – Dwarf Guard Captain]**
+![Stirling](../art/finale/stirling-dwarf-prisoner-token_20260517_114002_1.png)
+
 **Mechanical:** 
 - Any PC with a personal connection to one of the prisoners (Harper liaison, Baldur's Gate city contact) must make a WIS save DC 15 or be Frightened until the end of their next turn.
 - Clock advances +1 (first death).
@@ -81,6 +84,15 @@ This establishes Rath as the true power while keeping him available for the temp
 > Den anden bliver dræbt. Og så den tredje. Og så den fjerde. Ikke i slag — I ville kunne modstå det hvis det var kamp. Det er blot dødsfald, efterhånden, som om døden selv er et ritual, en ændring af tilstande, og ingen af dem ville komme ud af det andet sted.
 >
 > Templet over jer hviner højere.
+
+**[DISPLAY: Kess – Young Woman, Merchant's Daughter]**
+![Kess](../art/finale/kess-young-woman-prisoner-token_20260517_114037_1.png)
+
+**[DISPLAY: Thorne – Elf Ranger, Harper Scout]**
+![Thorne](../art/finale/thorne-elf-ranger-prisoner-token_20260517_114114_1.png)
+
+**[DISPLAY: Marta – Half-Orc Farmwoman, Mother]**
+![Marta](../art/finale/marta-half-orc-prisoner-token_20260517_114228_1.png)
 
 **Mechanical:**
 - Clock advances +1 per death (so after 4 deaths, clock is +4).
@@ -97,6 +109,9 @@ The fifth prisoner is brought forward. If it's **Fen**, he is still chanting the
 > Han ser jer.
 >
 > Og så bliver der ikke mere syn.
+
+**[DISPLAY: Fen – Young Procession Volunteer, Terrified Understanding]**
+![Fen](../art/finale/fen-young-boy-prisoner-token_20260517_113912_1.png)
 
 **Mechanical:**
 - Clock advances +1 (now +5 or higher depending on how many deaths occurred).
