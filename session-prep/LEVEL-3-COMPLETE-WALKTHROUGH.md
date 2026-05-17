@@ -83,7 +83,7 @@
 ### Severin Turns to Face the Party (3–5 minutes before initiative)
 
 **[DISPLAY: Severin Masked Token]**
-![Severin Masked](../../art/finale/output/severin-masked-token_20260516_164330_1.png)
+![Severin Masked](../../art/finale/output/severin-masked-token_20260516_164450_1.png)
 
 *Severin does not turn around. He knows you are here.*
 

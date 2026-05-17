@@ -10,13 +10,13 @@ Quick reference for when to display each artwork at the table. All images are op
 
 | Character | Image | When to Display | Notes |
 |---|---|---|---|
-| **Severin Masked** | ![Severin](../art/finale/output/severin-masked-token_20260516_164330_1.png) | LEVEL 3: First sight on dais; pre-combat monologue | Boss portrait; keep visible during all Phase 1 combat |
-| **Galvan (Blue Abishai)** | ![Galvan](../art/finale/output/galvan-blue-abishai-token_20260516_164526_1.png) | LEVEL 2: Blue Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; combat token |
+| **Severin Masked** | ![Severin](../art/finale/output/severin-masked-token_20260516_164450_1.png) | LEVEL 3: First sight on dais; pre-combat monologue | Boss portrait; keep visible during all Phase 1 combat |
+| **Galvan (Blue Abishai)** | ![Galvan](../art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png) | LEVEL 2: Blue Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; combat token |
 | **Elia (Bronze Dragon)** | ![Elia](../art/finale/output/elia-bronze-dragon-token_20260516_170825_1.png) | LEVEL 3: If triggered (Party HP < 150 or 2+ PCs down) | Metallic ally; display for morale moment |
-| **Rath Modar** | ![Rath Modar](../art/finale/output/rath-modar-token_20260516_164411_1.png) | LEVEL 1 & 2: Red Wizard scenes; entrance combat | Ritual master; may engage during final combat |
+| **Rath Modar** | ![Rath Modar](../art/finale/output/rath-modar-token_20260516_164527_1.png) | LEVEL 1 & 2: Red Wizard scenes; entrance combat | Ritual master; may engage during final combat |
 | **Veksin (Young Red Wizard)** | ![Veksin](../art/finale/output/veksin-young-red-wizard-token_20260516_164551_1.png) | BLUE CHAPEL: First Red Wizard encounter (Area 1) | Apprentice at temple entrance |
-| **Rezmir (Black Abishai)** | ![Rezmir](../art/finale/output/rezmir-black-abishai-token_20260516_164436_1.png) | LEVEL 2: Black Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; Black focus guardian |
-| **Neronvain (Green Abishai)** | ![Neronvain](../art/finale/output/neronvain-green-abishai-token_20260516_164644_1.png) | LEVEL 2: Green Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; Green focus guardian |
+| **Rezmir (Black Abishai)** | ![Rezmir](../art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png) | LEVEL 2: Black Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; Black focus guardian |
+| **Neronvain (Green Abishai)** | ![Neronvain](../art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png) | LEVEL 2: Green Foci encounter (Sabotage or combat) | Resurrected wyrmspeaker; Green focus guardian |
 
 ### Cult Rank Tokens (Encounter Variety)
 
@@ -34,22 +34,22 @@ Quick reference for when to display each artwork at the table. All images are op
 
 | Battlemap | Image | Dimensions | When to Use |
 |---|---|---|---|
-| **Fivefold Sanctum** | ![Level 2 Map](../art/finale/output/level-2-fivefold-sanctum-battlemap_*) | 1024×1024 | Sabotage encounter; foci placement visible |
+| **Fivefold Sanctum** | ![Level 2 Map](../art/finale/output/level-2-fivefold-sanctum-battlemap_20260516_164442_1.png) | 1024×1024 | Sabotage encounter; foci placement visible |
 | **Colored Foci Layout** | Reference in `niveau-2-the-fivefold-sanctum.md` | Reference doc | Five chapels, five colored channels, Abishai positions |
 
 ### Level 3 – The Crown (Final Boss Arena)
 
 | Battlemap | Image | Dimensions | When to Use |
 |---|---|---|---|
-| **The Crown Dais** | ![Level 3 Map](../art/finale/output/level-3-the-crown-battlemap_*) | 1024×1024 | Severin encounter; portal at back, dragon-head openings |
+| **The Crown Dais** | ![Level 3 Map](../art/finale/output/level-3-the-crown-battlemap_20260516_164414_1.png) | 1024×1024 | Severin encounter; portal at back, dragon-head openings |
 | **Portal Progression** | Described in `tiamat-manifestation.md` | Reference doc | Visualize heads manifesting at Clock 4+ |
 
 ### Well of Dragons – Caldera
 
 | Battlemap | Image | Dimensions | When to Use |
 |---|---|---|---|
-| **Caldera Overview** | ![Caldera Map](../art/finale/output/well-of-dragons-caldera-battlemap_*) | 1536×1024 | Plaza 23 approach; temple exterior visible |
-| **Plaza 23 + Temple Entrance** | ![Plaza Map](../art/finale/output/plaza-23-temple-entrance-battlemap_*) | 1536×1024 | Tunnel guards & temple gate encounter |
+| **Caldera Overview** | ![Caldera Map](../art/finale/output/well-of-dragons-caldera-overview_20260516_164427_1.png) | 1536×1024 | Plaza 23 approach; temple exterior visible |
+| **Plaza 23 + Temple Entrance** | ![Plaza Map](../art/finale/output/plaza-23-temple-entrance-battlemap_20260516_164430_1.png) | 1536×1024 | Tunnel guards & temple gate encounter |
 
 ---
 
@@ -59,8 +59,8 @@ Quick reference for when to display each artwork at the table. All images are op
 
 | Scene | Image | When to Show | Duration |
 |---|---|---|---|
-| **Temple Exterior (Dusk)** | ![Temple Exterior](../art/finale/output/temple-exterior-cinematic_*) | Before marching into plaza; first sight of temple | 30–60 seconds (atmosphere) |
-| **Tiamat Manifestation Portal** | ![Tiamat Portal](../art/finale/output/tiamat-manifestation-portal_*) | LEVEL 3: After party reaches dais; Severin's monologue | Show as portal pulses; update as clock rises |
+| **Temple Exterior (Dusk)** | ![Temple Exterior](../art/finale/output/temple-exterior-cinematic_20260516_164611_1.png) | Before marching into plaza; first sight of temple | 30–60 seconds (atmosphere) |
+| **Tiamat Manifestation Portal** | ![Tiamat Portal](../art/finale/output/tiamat-manifestation-portal_20260516_164617_1.png) | LEVEL 3: After party reaches dais; Severin's monologue | Show as portal pulses; update as clock rises |
 
 ---
 
