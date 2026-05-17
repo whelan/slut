@@ -46,15 +46,20 @@ Give them **names and faces** so the death means something:
 
 ## The Ritual Master
 
-**Rath Modar** (or a Red Wizard lieutenant) performs the ritual. He stands at the altar with:
-- The dagger (ritual blade, wrapped in dragon-scale leather)
-- A bowl of ash beneath each prisoner
-- Chanting in Infernal + Draconic, amplifying the deaths into the ritual itself
+**Magus Thezzar** (Red Wizard lieutenant, on Rath Modar's command) performs the ritual on the plaza. Rath Modar remains in the temple (Red Chapel, Level 2) coordinating the entire ritual from above via magical resonance. Thezzar is:
 
-**Per prisoner killed:**
-- Ritual clock advances +1
-- Red light pulses from the temple above
-- The circle of cultists chants louder
+- Middle-aged human male, scarred face (acid burns from a ritual gone wrong)
+- Speaks with precise, cold authority — Rath's voice transmitted through him
+- Wears crimson robes with black trim; carries the ritual dagger (obsidian blade)
+- AC 15 (Mage Armor), HP 40, Spells: *Fireball*, *Hold Person*, *Misty Step*
+
+**Thezzar's role:** He is the executioner, not the architect. He follows Rath Modar's mental commands (they are linked via ritual bond). If killed, the ritual's coordination breaks momentarily.
+
+**Rath Modar's presence:** The party hears his voice echoing from the temple above:
+- *"The blood must flow in sequence, Thezzar."*
+- *"Do not rush the fifth. The Queen demands precision."*
+
+This establishes Rath as the true power while keeping him available for the temple finale.
 
 ---
 
@@ -106,11 +111,12 @@ The fifth prisoner is brought forward. If it's **Fen**, he is still chanting the
 
 ### If Party Attempts Rescue (Before All Deaths)
 
-- **DC 16 Acrobatics check** to reach an altar before Rath Modar can strike.
-- **Contested Perception vs. Party Stealth** if they try to sneak closer.
+- **DC 16 Acrobatics check** to reach the altar before Thezzar can strike the next prisoner.
+- **Contested Perception vs. Party Stealth** if they try to sneak closer without alerting cultists.
 - **If successful:** One prisoner can be unbound and **escapes toward the temple entrance** (or back toward the tunnel).
 - **Clock impact:** Ritual disrupted; –1 clock (cancels 1 death's clock advancement).
-- **Combat risk:** Cultists (Dragonfang, Dragonwing, Red Wizard) engage the party. A hard fight with 15+ enemies.
+- **Combat risk:** Cultists (Dragonfang, Dragonwing, Red Wizard) + **Thezzar** engage the party. A hard fight with 15+ enemies.
+- **Rath Modar's response:** His voice booms from the temple: *"KILL THEM, THEZZAR! THE QUEEN'S HUNGER CANNOT WAIT!"* Thezzar uses his full spell arsenal (Fireball, Hold Person) to defend the ritual.
 
 ### If Party Cannot Intervene
 
@@ -124,8 +130,8 @@ The fifth prisoner is brought forward. If it's **Fen**, he is still chanting the
 
 As the ritual completes, **Axar makes an Arcana check DC 16:**
 
-- **Success:** He understands the ritual geometry. Five deaths → five foci being awakened simultaneously. The party now knows: if they sabotage the foci on Level 2, they can partially undo this work. Ritual knowledge gained: –1 to clock at Level 2 Foci encounter (one sabotage is "free").
-- **Failure:** He sees the power, but not the structure. The ritual is complete.
+- **Success:** He understands the ritual geometry. Five deaths → five foci being awakened simultaneously. The party now knows: if they sabotage the foci on Level 2, they can partially undo this work. Axar also realizes that **Rath Modar is channeling this ritual from the temple above** — the voice commanding Thezzar is not just coordination, it's a direct magical link. This suggests Rath is on Level 2 (Red Chapel), not on Level 3 with Severin. Ritual knowledge gained: –1 to clock at Level 2 Foci encounter (one sabotage is "free").
+- **Failure:** He sees the power, but not the structure. The ritual is complete. He does not realize Rath Modar's location.
 
 ---
 
@@ -164,7 +170,9 @@ This makes the deaths **personal** rather than abstract.
 ## DM Notes
 
 - **Emotional weight:** Don't rush this scene. Let players absorb the horror. Pause after each death.
+- **Rath Modar's voice:** His commands from the temple reinforce that he's the true architect. The party hears him, not Thezzar's thoughts. This foreshadows that Rath is on Level 2 (Red Chapel) and NOT with Severin on Level 3.
+- **Thezzar is expendable:** He's a lieutenant, not a boss. His role is to execute Rath's will. If killed, cultists panic momentarily, but the ritual doesn't stop — Rath can command another wizard.
 - **Fen's death (if applicable):** This is the climax of the Frygtløs parallel (Naergoth → Fen choice). Let it land.
 - **Daxx's moment:** If Fen dies, Daxx may attempt a solo rescue in the next round — allow it, but the DC checks are brutal (DC 18+).
-- **The silence after:** When the fifth prisoner falls, describe the moment where the ritual completes. The cultists' chanting stops. The wind on the plaza picks up. The temple goes quiet, waiting for Level 3 to begin.
+- **The silence after:** When the fifth prisoner falls, describe the moment where the ritual completes. The cultists' chanting stops. The wind on the plaza picks up. The temple goes quiet, waiting for Level 3 to begin. Rath's voice from the temple: *"It is done. The Queen's hunger is sated. For now."*
 
