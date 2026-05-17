@@ -137,6 +137,25 @@ def build_adventure(
     Embedded documents (actors, journal, scenes) live inline. The Adventure
     Importer/Exporter module reads this and creates them all on import.
     """
+    # Create folders for organization
+    actor_folder_id = new_id()
+    journal_folder_id = new_id()
+    scene_folder_id = new_id()
+
+    folders = [
+        {'_id': actor_folder_id, 'name': 'Temple of Tiamat', 'type': 'Actor', 'parent': None, 'sort': 0, 'flags': {}},
+        {'_id': journal_folder_id, 'name': 'Temple of Tiamat', 'type': 'JournalEntry', 'parent': None, 'sort': 0, 'flags': {}},
+        {'_id': scene_folder_id, 'name': 'Temple of Tiamat', 'type': 'Scene', 'parent': None, 'sort': 0, 'flags': {}},
+    ]
+
+    # Assign folders to documents
+    for actor in actors:
+        actor['folder'] = actor_folder_id
+    for entry in journal:
+        entry['folder'] = journal_folder_id
+    for scene in scenes:
+        scene['folder'] = scene_folder_id
+
     return {
         '_id': new_id(),
         'name': name,
@@ -157,7 +176,7 @@ def build_adventure(
         'playlists': [],
         'cards': [],
         'combats': [],
-        'folders': [],
+        'folders': folders,
         '_stats': {
             'systemId': 'dnd5e',
             'systemVersion': '5.2.3',
