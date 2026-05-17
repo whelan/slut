@@ -10,10 +10,10 @@ pip install -r requirements.txt
 ## 2. Generate the adventure file (30 sec)
 
 ```bash
-python3 main.py --input-dir .. --output ./out --skip-pcs
+python3 main.py --input-dir /path/to/campaign --output ./out --skip-pcs
 ```
 
-This writes `./out/adventure.json`.
+This writes `./out/adventure.json`. **Note:** Artwork and spell items are auto-linked from your campaign directory during generation.
 
 ## 3. Install the importer module in Foundry (1 min)
 

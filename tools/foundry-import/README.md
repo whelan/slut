@@ -95,15 +95,22 @@ Stats source priority for each enemy: **local SRD** (`monsters-A-Z.md`) > **sess
 
 ---
 
+## Automation Features
+
+- **Artwork linking:** Token images and scene backgrounds are automatically matched from `art/finale/output/` by name
+- **Spell items:** Spells listed in actor stat blocks are automatically extracted and embedded as Foundry items
+- **No manual steps:** Complete import workflow is fully automated. No manual Foundry UI steps required.
+
 ## Known limitations
 
-- **NPC stat blocks are placeholders.** The source markdown is narrative, not stat-block format
-  (`**AC** 18 / **HP** 142 / ...`). Actors come through with HP 0 / AC 10 / CR 1; fill in inside Foundry,
-  or supply real stat blocks in the markdown and the extractor will pick them up.
-- **Scene backgrounds are empty.** Upload battlemap images (e.g. from `art/finale/output/`) in Foundry
-  after import.
-- **Spells/items are not linked** to the dnd5e compendium. Markdown lists drop in as plain text in
-  biographies; recreate as proper items inside the Foundry sheet if you need rollable spells.
+- **NPC stat blocks are placeholders** (except those with detailed markdown stat blocks like Severin, Rath Modar).
+  The source markdown is narrative, not always stat-block format (`**AC** 18 / **HP** 142 / ...`).
+  Actors with custom stat blocks pick up full stats; others come through with HP 0 / AC 10 / CR 1.
+  Fill in inside Foundry, or supply real stat blocks in the markdown and the extractor will pick them up.
+- **Artwork is matched by name.** If token PNG files don't exist in `art/finale/output/`, actors use default icon.
+  Add artwork to that directory and re-run the converter to link.
+- **Spells are extracted from markdown only.** Spell descriptions and mechanics are not linked to dnd5e compendium items.
+  Extracted spell items are bare entries; link to compendium or enhance in Foundry if you need full mechanics.
 
 ---
 
