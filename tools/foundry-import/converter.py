@@ -5,9 +5,10 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from markdown_parser import ContentExtractor, MarkdownParser
-from stat_extractor import StatBlockExtractor, PartyCharacterBuilder
+from stat_extractor import StatBlockExtractor, PartyCharacterBuilder, new_id
 from adventure_builder import build_adventure, build_journal_entry, build_scene
 from enemy_builder import EnemyBuilder
+from asset_linker import AssetLinker, SpellItemGenerator
 
 
 class CampaignConverter:
@@ -21,6 +22,10 @@ class CampaignConverter:
         self.pc_builder = PartyCharacterBuilder()
         self.enemy_builder = EnemyBuilder(repo_root)
 
+        # Auto-link artwork
+        art_dir = Path(repo_root) / 'art' / 'finale' / 'output'
+        self.linker = AssetLinker(str(art_dir)) if art_dir.exists() else None
+
         self.actors: List[Dict[str, Any]] = []
         self.journals: List[Dict[str, Any]] = []
         self.scenes: List[Dict[str, Any]] = []
@@ -33,18 +38,22 @@ class CampaignConverter:
         else:
             print("  Party characters:")
             for char in self.extractor.extract_all_characters():
-                self.actors.append(self.pc_builder.to_foundry_character(char))
+                actor = self.pc_builder.to_foundry_character(char)
+                self._apply_actor_assets(actor)
+                self.actors.append(actor)
                 print(f"    + {char['name']}")
 
         print("  NPCs:")
         npc_result = self.extractor.extract_all_npcs()
         for npc in npc_result['npcs']:
             biography = self._pages_to_biography(npc.get('journal_pages', []))
+            raw_content = npc.get('raw_content', '')
             actor = self.stat.to_foundry_npc(
                 name=npc['name'],
-                content=npc.get('raw_content', ''),
+                content=raw_content,
                 biography=biography,
             )
+            self._apply_actor_assets(actor, raw_content)
             self.actors.append(actor)
 
             # Standalone journal for single-NPC files (skip for registry-split NPCs:
@@ -72,6 +81,8 @@ class CampaignConverter:
 
         print("  Enemy roster (SRD + homebrew + prisoners):")
         enemy_actors = self.enemy_builder.build_all()
+        for actor in enemy_actors:
+            self._apply_actor_assets(actor)
         self.actors.extend(enemy_actors)
 
         print("  Campaign lore:")
@@ -154,23 +165,26 @@ class CampaignConverter:
         )
 
     def _temple_scenes(self) -> List[Dict[str, Any]]:
-        return [
-            build_scene(
-                name='Temple – Level 1: The Maw',
-                width=1536, height=1536, grid_size=150,
-                description='Outer temple grounds with carved bone walls. Multiple encounter zones.',
-            ),
-            build_scene(
-                name='Temple – Level 2: The Fivefold Sanctum',
-                width=2048, height=2048, grid_size=150,
-                description='Five chromatic foci on ritual platforms. Fire, cold, lightning, poison, acid hazards.',
-            ),
-            build_scene(
-                name='Temple – Level 3: The Crown',
-                width=1536, height=1536, grid_size=150,
-                description='Ritual chamber with Tiamat manifestation point. Severin and the Mask of the Dragon Queen.',
-            ),
+        scenes = []
+        temple_specs = [
+            ('Temple – Level 1: The Maw', 1536, 1536, 'Outer temple grounds with carved bone walls. Multiple encounter zones.'),
+            ('Temple – Level 2: The Fivefold Sanctum', 2048, 2048, 'Five chromatic foci on ritual platforms. Fire, cold, lightning, poison, acid hazards.'),
+            ('Temple – Level 3: The Crown', 1536, 1536, 'Ritual chamber with Tiamat manifestation point. Severin and the Mask of the Dragon Queen.'),
         ]
+
+        for name, width, height, description in temple_specs:
+            background = None
+            if self.linker:
+                background = self.linker.find_scene_art(name)
+
+            scenes.append(build_scene(
+                name=name,
+                width=width, height=height, grid_size=150,
+                background_src=background or '',
+                description=description,
+            ))
+
+        return scenes
 
     def _pages_to_biography(self, pages: List[Dict[str, str]]) -> str:
         """Concatenate page content into a single HTML biography string."""
@@ -184,3 +198,33 @@ class CampaignConverter:
 
     def _to_html(self, markdown_text: str) -> str:
         return self.parser._markdown_to_html(markdown_text)
+
+    def _apply_actor_assets(self, actor: Dict[str, Any], raw_content: str = '') -> None:
+        """Apply artwork and spells to an actor."""
+        # Apply token artwork
+        actor_name = actor.get('name', '')
+        if self.linker:
+            token_art = self.linker.find_actor_art(actor_name)
+            if token_art:
+                actor['img'] = token_art
+                if 'prototypeToken' in actor:
+                    actor['prototypeToken']['texture']['src'] = token_art
+
+        # Extract spells from raw content (markdown) or biography (HTML)
+        spells = set()
+        if raw_content:
+            spells.update(SpellItemGenerator.extract_spells_from_biography(raw_content))
+
+        biography = actor.get('system', {}).get('details', {}).get('biography', {}).get('value', '')
+        if biography:
+            spells.update(SpellItemGenerator.extract_spells_from_biography(biography))
+
+        if spells:
+            if 'items' not in actor:
+                actor['items'] = []
+
+            for spell_name in sorted(spells):
+                spell_item = SpellItemGenerator.make_spell_item(spell_name)
+                if spell_item:
+                    spell_item['_id'] = new_id()
+                    actor['items'].append(spell_item)
