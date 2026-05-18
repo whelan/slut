@@ -2,6 +2,7 @@
 
 import os
 import re
+import base64
 from pathlib import Path
 from difflib import SequenceMatcher
 from typing import Any, Dict, Optional, List
@@ -10,8 +11,9 @@ from typing import Any, Dict, Optional, List
 class AssetLinker:
     """Match campaign artwork to actors and scenes by fuzzy name matching."""
 
-    def __init__(self, art_dir: str):
+    def __init__(self, art_dir: str, embed_images: bool = False):
         self.art_dir = Path(art_dir)
+        self.embed_images = embed_images
         self.tokens = self._scan_assets("token")
         self.battlemaps = self._scan_assets("battlemap")
 
@@ -25,8 +27,19 @@ class AssetLinker:
             assets[name] = str(file_path)
         return assets
 
+    def _file_to_dataurl(self, file_path: str) -> Optional[str]:
+        """Convert PNG file to base64 DataURL."""
+        try:
+            with open(file_path, 'rb') as f:
+                data = f.read()
+            b64 = base64.b64encode(data).decode('utf-8')
+            return f"data:image/png;base64,{b64}"
+        except Exception as e:
+            print(f"  WARN: Could not encode {file_path}: {e}")
+            return None
+
     def find_actor_art(self, actor_name: str) -> Optional[str]:
-        """Find matching token art for an actor by fuzzy name matching."""
+        """Find matching token art for an actor."""
         # Normalize: lowercase, remove parentheticals, hyphens, extra spaces
         normalized = actor_name.lower()
         normalized = re.sub(r'\([^)]*\)', '', normalized)  # Remove (Phase 1), (Wight), etc.
@@ -35,7 +48,7 @@ class AssetLinker:
         # Exact match first
         for art_name, art_path in self.tokens.items():
             if art_name.lower() == normalized or art_name.lower() == normalized.replace(" ", "-"):
-                return art_path
+                return self._process_image(art_path)
 
         # Fuzzy match: find best matching token by checking if key words appear
         best_match = None
@@ -57,22 +70,34 @@ class AssetLinker:
                 best_score = score
                 best_match = art_path
 
-        return best_match
+        if best_match:
+            return self._process_image(best_match)
+        return None
 
     def find_scene_art(self, scene_name: str) -> Optional[str]:
-        """Find matching battlemap art for a scene by name pattern."""
+        """Find matching battlemap art for a scene."""
         # Map scene names to battlemap identifiers
         name_lower = scene_name.lower()
 
+        battlemap_path = None
         if "level 1" in name_lower or "the maw" in name_lower:
             # Level 1 doesn't have explicit artwork yet, use plaza as fallback
-            return self.battlemaps.get("plaza-23-temple-entrance-battlemap")
+            battlemap_path = self.battlemaps.get("plaza-23-temple-entrance-battlemap")
         elif "level 2" in name_lower or "fivefold" in name_lower:
-            return self.battlemaps.get("level-2-fivefold-sanctum-battlemap")
+            battlemap_path = self.battlemaps.get("level-2-fivefold-sanctum-battlemap")
         elif "level 3" in name_lower or "the crown" in name_lower:
-            return self.battlemaps.get("level-3-the-crown-battlemap")
+            battlemap_path = self.battlemaps.get("level-3-the-crown-battlemap")
 
+        if battlemap_path:
+            return self._process_image(battlemap_path)
         return None
+
+    def _process_image(self, file_path: str) -> Optional[str]:
+        """Return image as DataURL or file path based on embed_images setting."""
+        if self.embed_images:
+            return self._file_to_dataurl(file_path)
+        else:
+            return file_path
 
 
 class SpellItemGenerator:
