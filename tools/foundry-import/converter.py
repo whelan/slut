@@ -9,6 +9,7 @@ from stat_extractor import StatBlockExtractor, PartyCharacterBuilder, new_id
 from adventure_builder import build_adventure, build_journal_entry, build_scene
 from compendium_builder import build_compendium_packs
 from module_builder import build_module
+from macro_builder import build_import_macro
 from enemy_builder import EnemyBuilder
 from asset_linker import AssetLinker, SpellItemGenerator
 
@@ -154,6 +155,15 @@ class CampaignConverter:
     def write_module(self, output_dir: str) -> str:
         """Generate Foundry module package with embedded compendium packs."""
         return build_module(
+            output_dir=output_dir,
+            actors=self.actors,
+            journals=self.journals,
+            scenes=self.scenes,
+        )
+
+    def write_import_macro(self, output_dir: str) -> str:
+        """Generate JavaScript import macro for Foundry console."""
+        return build_import_macro(
             output_dir=output_dir,
             actors=self.actors,
             journals=self.journals,
