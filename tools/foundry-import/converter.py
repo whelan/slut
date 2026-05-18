@@ -7,6 +7,7 @@ from typing import Any, Dict, List
 from markdown_parser import ContentExtractor, MarkdownParser
 from stat_extractor import StatBlockExtractor, PartyCharacterBuilder, new_id
 from adventure_builder import build_adventure, build_journal_entry, build_scene
+from compendium_builder import build_compendium_packs
 from enemy_builder import EnemyBuilder
 from asset_linker import AssetLinker, SpellItemGenerator
 
@@ -138,6 +139,16 @@ class CampaignConverter:
             json.dump(adventure, f, indent=2, ensure_ascii=False)
 
         return str(output_path)
+
+    def write_compendium_packs(self, output_dir: str) -> str:
+        """Generate Foundry v13 compendium pack directories."""
+        build_compendium_packs(
+            output_dir=output_dir,
+            actors=self.actors,
+            journals=self.journals,
+            scenes=self.scenes,
+        )
+        return str(Path(output_dir) / "packs")
 
     def _ritual_clock_journal(self) -> Dict[str, Any]:
         return build_journal_entry(

@@ -48,6 +48,11 @@ def main() -> int:
         action='store_true',
         help='Embed images as base64 in JSON (larger file, ~128 MB; default is file paths)',
     )
+    parser.add_argument(
+        '--compendium',
+        action='store_true',
+        help='Generate Foundry v13 compendium packs instead of adventure.json',
+    )
 
     args = parser.parse_args()
 
@@ -61,19 +66,33 @@ def main() -> int:
     try:
         converter = CampaignConverter(str(input_dir), embed_images=args.embed_images)
         converter.convert_all(skip_pcs=args.skip_pcs)
-        output_path = converter.write_adventure(args.output, args.name)
+
+        if args.compendium:
+            output_path = converter.write_compendium_packs(args.output)
+        else:
+            output_path = converter.write_adventure(args.output, args.name)
     except Exception as e:
         print(f"Conversion failed: {e}", file=sys.stderr)
         return 1
 
     print()
-    print(f"✓ Adventure written to: {output_path}")
-    print()
-    print("Next steps:")
-    print("  1. In Foundry, install the 'Adventure Importer / Exporter' module")
-    print("     (https://foundryvtt.com/packages/adventure-import-export)")
-    print(f"  2. Open the module's import dialog and select: {output_path}")
-    print("  3. Click 'Import Adventure'")
+    if args.compendium:
+        print(f"✓ Compendium packs written to: {output_path}")
+        print()
+        print("Next steps:")
+        print("  1. Copy the 'packs' directory to your Foundry installation:")
+        print("     cp -r packs/ /path/to/foundry/data/worlds/your-world/packs/")
+        print("  2. Reload Foundry")
+        print("  3. Compendiums will appear in the Compendium sidebar")
+        print("  4. Drag actors/journals/scenes from compendiums into your world")
+    else:
+        print(f"✓ Adventure written to: {output_path}")
+        print()
+        print("Next steps:")
+        print("  1. In Foundry, install the 'Adventure Importer / Exporter' module")
+        print("     (https://foundryvtt.com/packages/adventure-import-export)")
+        print(f"  2. Open the module's import dialog and select: {output_path}")
+        print("  3. Click 'Import Adventure'")
     return 0
 
 
