@@ -41,26 +41,27 @@ Done. All actors, journals, and scenes appear in your world.
   - 22 homebrew enemies tuned for level 15 (Dragonclaw, Abishai variants, Severin Phase 1+2, 5× Tiamat heads, ...)
   - 7 named prisoners (Stirleng, Kess, Thorne, Marta, Fen, Stirling, Banner Bearer)
 - **Journal sidebar**: ~12 entries (Campaign Overview, session prep, profiles, Ritual Clock Tracker)
-- **Scenes sidebar**: 3 temple scenes (backgrounds empty — upload battlemap PNGs in scene settings)
+- **Scenes sidebar**: 3 temple scenes (backgrounds auto-linked)
 
 ---
 
 ## Optional flags
 
 ```bash
-# Include player characters too (if they don't already exist in your world)
-python3 main.py --input-dir ..
+# Include player characters (if they don't already exist in Foundry)
+python3 main.py --input-dir /path/to/campaign
 
 # Custom adventure name
-python3 main.py --input-dir .. --name "Well of Dragons Finale"
+python3 main.py --input-dir /path/to/campaign --name "My Campaign Name"
+
+# Embed all images in the JSON (self-contained ~128 MB file, no file uploads needed)
+python3 main.py --input-dir /path/to/campaign --embed-images
+
+# Combine options
+python3 main.py --input-dir /path/to/campaign --embed-images --name "My Campaign"
 ```
 
-## Where to put the artwork
+## Image options
 
-Battlemap PNGs in `art/finale/output/` can be uploaded as scene backgrounds:
-
-1. Open the scene
-2. Scene Settings → Background → upload or browse to the PNG
-3. Set grid scale (already 5 ft / 150 px)
-
-Token portraits work the same way: open an NPC actor → set token image.
+- **Default:** Images linked by file path (~1 MB file). Artwork is auto-matched from `art/finale/output/`.
+- **With `--embed-images`:** All images embedded as base64 in JSON (~128 MB file). Fully self-contained, no separate image files needed.

@@ -43,6 +43,11 @@ def main() -> int:
         action='store_true',
         help='Skip player character creation (if PCs already exist in Foundry)',
     )
+    parser.add_argument(
+        '--embed-images',
+        action='store_true',
+        help='Embed images as base64 in JSON (larger file, ~128 MB; default is file paths)',
+    )
 
     args = parser.parse_args()
 
@@ -54,7 +59,7 @@ def main() -> int:
     print(f"Campaign directory: {input_dir}")
 
     try:
-        converter = CampaignConverter(str(input_dir))
+        converter = CampaignConverter(str(input_dir), embed_images=args.embed_images)
         converter.convert_all(skip_pcs=args.skip_pcs)
         output_path = converter.write_adventure(args.output, args.name)
     except Exception as e:

@@ -14,17 +14,18 @@ from asset_linker import AssetLinker, SpellItemGenerator
 class CampaignConverter:
     """Convert campaign markdown files into a Foundry Adventure document."""
 
-    def __init__(self, repo_root: str):
+    def __init__(self, repo_root: str, embed_images: bool = False):
         self.repo_root = Path(repo_root)
         self.extractor = ContentExtractor(repo_root)
         self.parser = MarkdownParser(repo_root)
         self.stat = StatBlockExtractor()
         self.pc_builder = PartyCharacterBuilder()
         self.enemy_builder = EnemyBuilder(repo_root)
+        self.embed_images = embed_images
 
         # Auto-link artwork
         art_dir = Path(repo_root) / 'art' / 'finale' / 'output'
-        self.linker = AssetLinker(str(art_dir)) if art_dir.exists() else None
+        self.linker = AssetLinker(str(art_dir), embed_images=embed_images) if art_dir.exists() else None
 
         self.actors: List[Dict[str, Any]] = []
         self.journals: List[Dict[str, Any]] = []
