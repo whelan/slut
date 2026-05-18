@@ -54,7 +54,14 @@ All actors, journals, and scenes appear in your world at once.
 --output PATH       Output directory for adventure.json (default: out/)
 --name STR          Adventure name shown in Foundry (default: "Tyranny of Dragons - Finale")
 --skip-pcs          Skip player character actors (use when PCs already exist in Foundry)
+--embed-images      Embed images as base64 in JSON (~128 MB, self-contained)
+                    Default: file paths only (~1 MB, requires local image files)
 ```
+
+### Image handling
+
+- **Default (no `--embed-images`):** Artwork is linked by file path. JSON is ~1 MB. After import, images must be available at their original file paths, or you'll see broken image icons.
+- **With `--embed-images`:** All artwork is encoded as base64 and embedded in the JSON. File is ~128 MB but completely self-contained. No need to manage image files separately.
 
 ---
 
