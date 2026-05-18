@@ -4,7 +4,6 @@ import os
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
-import markdown
 
 
 class MarkdownParser:
@@ -12,7 +11,6 @@ class MarkdownParser:
 
     def __init__(self, repo_root: str):
         self.repo_root = Path(repo_root)
-        self.md_converter = markdown.Markdown(extensions=['tables', 'extra'])
 
     def parse_file(self, filepath: str) -> Dict[str, Any]:
         """Parse a single markdown file and extract content."""
@@ -277,9 +275,31 @@ class MarkdownParser:
         }
 
     def _markdown_to_html(self, content: str) -> str:
-        """Convert markdown to HTML for journal entries."""
-        self.md_converter.reset()
-        return self.md_converter.convert(content)
+        """Convert markdown to HTML for journal entries (simple regex-based)."""
+        html = content
+
+        # Headers
+        html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', html, flags=re.MULTILINE)
+        html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html, flags=re.MULTILINE)
+        html = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html, flags=re.MULTILINE)
+
+        # Bold, italic
+        html = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', html)
+        html = re.sub(r'\*(.+?)\*', r'<em>\1</em>', html)
+
+        # Line breaks: convert blank lines to paragraph breaks
+        paragraphs = []
+        for para in html.split('\n\n'):
+            if para.strip() and not para.startswith('<'):
+                para = f'<p>{para}</p>'
+            paragraphs.append(para)
+        html = '\n'.join(paragraphs)
+
+        # Lists
+        html = re.sub(r'^- (.+)$', r'<li>\1</li>', html, flags=re.MULTILINE)
+        html = re.sub(r'(<li>.+?</li>)', lambda m: '<ul>' + m.group(1) + '</ul>' if not html[html.find(m.group(1))-5:html.find(m.group(1))].startswith('<ul>') else m.group(1), html)
+
+        return html
 
 
 class ContentExtractor:
