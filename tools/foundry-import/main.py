@@ -53,6 +53,11 @@ def main() -> int:
         action='store_true',
         help='Generate Foundry v13 compendium packs instead of adventure.json',
     )
+    parser.add_argument(
+        '--module',
+        action='store_true',
+        help='Generate Foundry module package (best for Forge VTT)',
+    )
 
     args = parser.parse_args()
 
@@ -67,7 +72,9 @@ def main() -> int:
         converter = CampaignConverter(str(input_dir), embed_images=args.embed_images)
         converter.convert_all(skip_pcs=args.skip_pcs)
 
-        if args.compendium:
+        if args.module:
+            output_path = converter.write_module(args.output)
+        elif args.compendium:
             output_path = converter.write_compendium_packs(args.output)
         else:
             output_path = converter.write_adventure(args.output, args.name)
@@ -76,7 +83,17 @@ def main() -> int:
         return 1
 
     print()
-    if args.compendium:
+    if args.module:
+        print(f"✓ Module package created: {output_path}")
+        print()
+        print("Next steps:")
+        print("  1. Zip the module directory:")
+        print(f"     zip -r tyranny-of-dragons-finale.zip {Path(output_path).name}")
+        print("  2. Upload to Forge VTT or your server")
+        print("  3. In Foundry: Add-on Modules → Install Module")
+        print("  4. Enable module in your world")
+        print("  5. Open Compendiums sidebar and drag items into world")
+    elif args.compendium:
         print(f"✓ Compendium packs written to: {output_path}")
         print()
         print("Next steps:")
