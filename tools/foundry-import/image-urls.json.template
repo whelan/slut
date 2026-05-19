@@ -1,0 +1,54 @@
+{
+  "_comment": "Image URL mapping for Forge VTT asset manager",
+  "_instructions": "Upload all portraits and tokens to Forge VTT asset manager, copy their URLs here",
+  "_example": {
+    "severin": {
+      "portrait": "https://forge-vtt.com/bazaar/assets/...",
+      "token": "https://forge-vtt.com/bazaar/assets/..."
+    }
+  },
+  "severin": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "rath-modar": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "dragonclaw": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "elia": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "galvan": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "neronvain": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "rezmir": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "veksin": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "dragonfang": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "red-wizard": {
+    "portrait": "https://",
+    "token": "https://"
+  },
+  "magus-thezzar": {
+    "portrait": "https://",
+    "token": "https://"
+  }
+}
