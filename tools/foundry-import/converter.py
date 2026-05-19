@@ -13,6 +13,7 @@ from macro_builder import build_import_macro
 from test_macro_builder import build_test_macro
 from enemy_builder import EnemyBuilder
 from asset_linker import AssetLinker, SpellItemGenerator
+from url_loader import load_url_mapping
 
 
 class CampaignConverter:
@@ -163,12 +164,20 @@ class CampaignConverter:
         )
 
     def write_import_macro(self, output_dir: str) -> str:
-        """Generate JavaScript import macro for Foundry console."""
+        """Generate JavaScript import macro for Foundry console.
+
+        Loads image-urls.json if present to apply Forge VTT asset URLs to actors.
+        """
+        url_mapping = load_url_mapping(output_dir)
+        if url_mapping:
+            print("✓ Loaded image-urls.json with Forge VTT asset URLs")
+
         return build_import_macro(
             output_dir=output_dir,
             actors=self.actors,
             journals=self.journals,
             scenes=self.scenes,
+            url_mapping=url_mapping,
         )
 
     def write_test_macro(self, output_dir: str) -> str:

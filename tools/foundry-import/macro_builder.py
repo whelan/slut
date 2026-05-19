@@ -2,7 +2,9 @@
 
 import json
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
+
+from url_loader import apply_url_mapping
 
 
 def build_import_macro(
@@ -10,11 +12,25 @@ def build_import_macro(
     actors: List[Dict[str, Any]],
     journals: List[Dict[str, Any]],
     scenes: List[Dict[str, Any]],
+    url_mapping: Optional[Dict[str, Dict[str, str]]] = None,
 ) -> str:
-    """Generate JavaScript macro for importing all content via Foundry console."""
+    """Generate JavaScript macro for importing all content via Foundry console.
+
+    Args:
+        output_dir: Directory to write macro to
+        actors: List of actor dictionaries
+        journals: List of journal dictionaries
+        scenes: List of scene dictionaries
+        url_mapping: Optional dict mapping actor names to {portrait, token} URLs
+    """
 
     out = Path(output_dir)
     out.mkdir(parents=True, exist_ok=True)
+
+    # Apply URL mapping if provided
+    if url_mapping:
+        print("\nApplying artwork URLs from image-urls.json:")
+        actors = apply_url_mapping(actors, url_mapping)
 
     # Create folders first (required for actor/journal/scene assignment)
     folders_script = """
@@ -131,20 +147,38 @@ importCampaign().catch(e => {{
 
 Done! All 54 actors, 12 journals, and 3 scenes appear in your world.
 
+## Using Forge VTT Asset Manager URLs (Recommended)
+
+For best results with Forge VTT:
+
+1. **Generate tokens** locally: `python3 token_generator.py art/finale/output ./export`
+2. **Upload to Forge VTT asset manager:**
+   - Upload all files from `./export/tokens/`
+   - Upload portrait artwork from `art/finale/output/`
+3. **Fill `image-urls.json`:**
+   - Copy URLs from Forge for each actor's portrait and token
+   - Template provided in `image-urls.json.template`
+4. **Regenerate macro with URLs:**
+   - Run: `python3 main.py --input-dir . --output ./export --macro`
+   - This updates `import-macro.js` with your Forge VTT URLs
+5. **Paste and run** the updated macro in Foundry console
+
+This approach keeps files small and artwork hosted on Forge VTT.
+
 ## What Gets Imported
 
 - **54 Actors** with full stat blocks and artwork
 - **12 Journals** with campaign lore and session prep
 - **3 Scenes** with battlemap backgrounds
-- **Folder organization** - Everything grouped under "Temple of Tiamat"
+- **Folder organization** - Everything organized in "NPCs", "Journals", "Scenes" folders
 
 ## Troubleshooting
 
 If import fails:
 - Check browser console for error messages (F12 → Console)
 - Ensure you're on Foundry v13+
-- Try importing just a few actors first by editing the script
-- Check that your world has dnd5e system enabled
+- Verify dnd5e system is enabled in your world
+- Check that image-urls.json was properly filled (URLs must start with https://)
 
 ## Manual Alternative
 
@@ -155,7 +189,7 @@ If macro import doesn't work:
 ## Notes
 
 - Import creates new documents (won't overwrite existing)
-- Artwork uses embedded base64 or file paths (check settings)
+- Artwork uses URLs from Forge VTT (or embedded base64 if image-urls.json not provided)
 - Spells are extracted but not linked to compendium
 - You can edit actors/journals/scenes after import in Foundry UI
 """
