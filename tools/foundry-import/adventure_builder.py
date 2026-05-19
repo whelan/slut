@@ -132,20 +132,16 @@ def build_adventure(
     caption: str = '',
     img: str = '',
 ) -> Dict[str, Any]:
-    """Assemble the top-level Adventure document.
-
-    Embedded documents (actors, journal, scenes) live inline. The Adventure
-    Importer/Exporter module reads this and creates them all on import.
-    """
+    """Assemble the top-level Adventure document with folder organization."""
     # Create folders for organization
     actor_folder_id = new_id()
     journal_folder_id = new_id()
     scene_folder_id = new_id()
 
     folders = [
-        {'_id': actor_folder_id, 'name': 'Temple of Tiamat', 'type': 'Actor', 'parent': None, 'sort': 0, 'flags': {}},
-        {'_id': journal_folder_id, 'name': 'Temple of Tiamat', 'type': 'JournalEntry', 'parent': None, 'sort': 0, 'flags': {}},
-        {'_id': scene_folder_id, 'name': 'Temple of Tiamat', 'type': 'Scene', 'parent': None, 'sort': 0, 'flags': {}},
+        {'_id': actor_folder_id, 'name': 'NPCs', 'type': 'Actor', 'parent': None, 'sort': 0, 'flags': {}},
+        {'_id': journal_folder_id, 'name': 'Journals', 'type': 'JournalEntry', 'parent': None, 'sort': 0, 'flags': {}},
+        {'_id': scene_folder_id, 'name': 'Scenes', 'type': 'Scene', 'parent': None, 'sort': 0, 'flags': {}},
     ]
 
     # Assign folders to documents

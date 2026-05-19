@@ -21,17 +21,17 @@ def build_import_macro(
 // Create folders for organization
 const folders = await Folder.create([
   {
-    name: "Temple of Tiamat",
+    name: "NPCs",
     type: "Actor",
     parent: null
   },
   {
-    name: "Temple of Tiamat",
+    name: "Journals",
     type: "JournalEntry",
     parent: null
   },
   {
-    name: "Temple of Tiamat",
+    name: "Scenes",
     type: "Scene",
     parent: null
   }
@@ -41,7 +41,7 @@ const actorFolder = folders[0];
 const journalFolder = folders[1];
 const sceneFolder = folders[2];
 
-ui.notifications.info(`Created 3 folders`);
+ui.notifications.info(`Created 3 folders: NPCs, Journals, Scenes`);
 """
 
     # Create import script

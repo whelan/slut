@@ -50,11 +50,14 @@ async function testImport() {{
     // Test data: Just Severin
     const testActor = {json.dumps(severin, indent=2)};
 
-    // Create folder
-    const folder = await Folder.create({{
-      name: "Test - Temple of Tiamat",
-      type: "Actor"
-    }});
+    // Create folder (or use existing "NPCs" folder)
+    let folder = game.folders.find(f => f.name === "NPCs" && f.type === "Actor");
+    if (!folder) {{
+      folder = await Folder.create({{
+        name: "NPCs",
+        type: "Actor"
+      }});
+    }}
 
     // Set folder on actor
     testActor.folder = folder.id;
@@ -102,8 +105,7 @@ This macro imports just **one NPC (Severin)** to test the import system.
 ### What You Should See
 
 - ✅ Console shows: "Test successful! Severin imported"
-- ✅ A new folder "Test - Temple of Tiamat" appears
-- ✅ Severin actor appears in that folder with:
+- ✅ Severin actor appears in "NPCs" folder with:
   - Full stat block (HP, AC, abilities)
   - Token artwork
   - Biography with spells
@@ -112,8 +114,8 @@ This macro imports just **one NPC (Severin)** to test the import system.
 ### If It Works
 
 If this test succeeds, you can:
-1. Delete the test actor and folder
-2. Run the full import macro to get all 54 actors, 12 journals, and 3 scenes
+1. Delete the test actor (Severin)
+2. Run the full import macro to get all 54 actors, 12 journals, and 3 scenes (they'll go in the same "NPCs" folder)
 
 ### If It Fails
 
