@@ -20,7 +20,7 @@ except ImportError:
 
 
 def generate_token(portrait_path: Path, output_path: Path, border_width: int = 8):
-    """Generate a single circular token from a portrait."""
+    """Generate a single circular token from a portrait with transparent background."""
     img = Image.open(portrait_path)
 
     # Make square
@@ -31,19 +31,30 @@ def generate_token(portrait_path: Path, output_path: Path, border_width: int = 8
     bottom = top + min_size
     img_square = img.crop((left, top, right, bottom))
 
-    # Create circular mask
+    # Create circular mask for the portrait
     size = img_square.size[0]
     mask = Image.new("L", (size, size), 0)
     draw = ImageDraw.Draw(mask)
     draw.ellipse((0, 0, size - 1, size - 1), fill=255)
 
-    # Apply mask
+    # Apply mask to portrait
     output = ImageOps.fit(img_square, (size, size), centering=(0.5, 0.5))
     output.putalpha(mask)
 
-    # Add brown D&D border
-    border_color = (139, 69, 19)
-    bordered = Image.new("RGBA", (size + border_width * 2, size + border_width * 2), border_color + (255,))
+    # Create transparent background with border circle
+    total_size = size + border_width * 2
+    bordered = Image.new("RGBA", (total_size, total_size), (0, 0, 0, 0))
+
+    # Draw brown border circle
+    border_color = (139, 69, 19, 255)  # Brown with full opacity
+    border_draw = ImageDraw.Draw(bordered)
+    # Outer circle (full brown circle)
+    border_draw.ellipse(
+        (border_width - 1, border_width - 1, total_size - border_width, total_size - border_width),
+        fill=border_color
+    )
+
+    # Paste the circular portrait on top
     bordered.paste(output, (border_width, border_width), output)
 
     # Save
@@ -59,18 +70,25 @@ def main():
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
-    # Source directories
-    portraits_dir = Path("../../art/finale/output")
-    portraits_dir = portraits_dir.resolve()
+    # Source directories - check both art/finale/output and art/finale
+    output_dir_path = Path("../../art/finale/output").resolve()
+    parent_dir_path = Path("../../art/finale").resolve()
 
-    if not portraits_dir.exists():
-        print(f"Error: Portraits directory not found: {portraits_dir}")
+    if not output_dir_path.exists() and not parent_dir_path.exists():
+        print(f"Error: Art directories not found")
         sys.exit(1)
 
     print(f"Gathering assets into: {output_path.resolve()}\n")
 
-    # Find all portrait images (*-token.png files)
-    portrait_files = sorted(portraits_dir.glob("*-token*.png"))
+    # Find all portrait images from both directories
+    portrait_files = []
+    if output_dir_path.exists():
+        portrait_files.extend(sorted(output_dir_path.glob("*-token*.png")))
+    if parent_dir_path.exists():
+        portrait_files.extend(sorted(parent_dir_path.glob("*-token*.png")))
+
+    # Remove duplicates and sort
+    portrait_files = sorted(set(portrait_files))
     if not portrait_files:
         print(f"No portraits found in {portraits_dir}")
         sys.exit(1)
