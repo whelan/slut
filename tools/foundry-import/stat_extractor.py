@@ -88,6 +88,31 @@ def _spell_item(name: str, level: int, school: str = 'evocation') -> Dict[str, A
     }
 
 
+def _feat_item(name: str, description: str, img: str = 'icons/svg/upgrade.svg') -> Dict[str, Any]:
+    """Create a minimal dnd5e 5.3.3 feat item (used for NPC actions/traits/legendary actions).
+
+    Kept minimal on purpose: Foundry fills defaults for omitted fields, which
+    avoids the schema-validation errors that strict/incorrect values cause.
+    """
+    return {
+        '_id': new_id(),
+        'type': 'feat',
+        'name': name,
+        'img': img,
+        'system': {
+            'description': {'value': description, 'chat': ''},
+            'source': {'custom': 'Tyranny of Dragons campaign', 'revision': 1, 'rules': '2024'},
+        },
+        'effects': [],
+        'flags': {},
+        'folder': None,
+        'sort': 0,
+        'ownership': {'default': 0},
+        '_stats': {'compendiumSource': None, 'duplicateSource': None, 'exportSource': None,
+                   'coreVersion': '13.351', 'systemId': 'dnd5e', 'systemVersion': '5.3.3'}
+    }
+
+
 # Spell database with level and school
 SPELL_DB = {
     'counterspell': (3, 'abjuration'),
@@ -107,6 +132,9 @@ SPELL_DB = {
     'wall of fire': (5, 'evocation'),
     'wish': (9, 'conjuration'),
 }
+
+
+def new_id() -> str:
     """Generate a Foundry-compatible 16-char base62-ish document ID."""
     alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
     return ''.join(secrets.choice(alphabet) for _ in range(16))

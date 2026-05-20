@@ -14,6 +14,7 @@ from test_macro_builder import build_test_macro
 from enemy_builder import EnemyBuilder
 from asset_linker import AssetLinker, SpellItemGenerator
 from url_loader import load_url_mapping
+from severin_builder import build_severin
 
 
 class CampaignConverter:
@@ -54,11 +55,17 @@ class CampaignConverter:
         for npc in npc_result['npcs']:
             biography = self._pages_to_biography(npc.get('journal_pages', []))
             raw_content = npc.get('raw_content', '')
-            actor = self.stat.to_foundry_npc(
-                name=npc['name'],
-                content=raw_content,
-                biography=biography,
-            )
+
+            # Severin is the final boss - use the dedicated uber-builder that
+            # captures his full 2024 stat block (the generic parser cannot).
+            if npc['name'].split('–')[0].strip() == 'Severin':
+                actor = build_severin()
+            else:
+                actor = self.stat.to_foundry_npc(
+                    name=npc['name'],
+                    content=raw_content,
+                    biography=biography,
+                )
             self._apply_actor_assets(actor, raw_content)
             self.actors.append(actor)
 
@@ -266,6 +273,12 @@ class CampaignConverter:
                 actor['img'] = token_art
                 if 'prototypeToken' in actor:
                     actor['prototypeToken']['texture']['src'] = token_art
+
+        # Skip spell extraction if the actor already has spell items.
+        # Dedicated builders (build_severin) and to_foundry_npc add spells
+        # themselves; extracting again here would create duplicates.
+        if any(i.get('type') == 'spell' for i in actor.get('items', [])):
+            return
 
         # Extract spells from raw content (markdown) or biography (HTML)
         spells = set()
