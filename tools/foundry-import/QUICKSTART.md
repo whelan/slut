@@ -2,26 +2,40 @@
 
 ## 1. Install (1 min)
 
+**From the campaign root (where .agents/ and spillere/ exist):**
+
 ```bash
-# From the campaign root directory (where .agents/ and spillere/ exist):
 cd tools/foundry-import
+
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-**On macOS with Xcode error:**
+**On macOS with "externally-managed-environment" error:**
+
+This is normal on modern macOS. Just follow the steps above to use a virtual environment.
+
+**On macOS with Xcode license error:**
 ```bash
 sudo xcodebuild -license accept
-pip install -r requirements.txt
-```
-
-**If `pip` not found, try:**
-```bash
-pip3 install -r requirements.txt  # or: python3 -m pip install -r requirements.txt
+# Then run the venv steps above
 ```
 
 ## 2. Generate the adventure file (30 sec)
 
-**From the campaign root (where .agents/ and spillere/ exist):**
+**Make sure the virtual environment is activated:**
+```bash
+cd tools/foundry-import
+source venv/bin/activate
+```
+
+**Then from the campaign root:**
 ```bash
 cd ../..  # Return to campaign root
 python3 tools/foundry-import/main.py --input-dir . --output ./tools/foundry-import/out --macro --test
