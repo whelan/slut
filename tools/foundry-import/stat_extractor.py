@@ -33,7 +33,80 @@ SKILL_KEYS = {
 ABILITY_KEYS = ['str', 'dex', 'con', 'int', 'wis', 'cha']
 
 
-def new_id() -> str:
+def _spell_item(name: str, level: int, school: str = 'evocation') -> Dict[str, Any]:
+    """Create a dnd5e 5.3.3 spell item object."""
+    return {
+        '_id': new_id(),
+        'type': 'spell',
+        'name': name,
+        'img': 'icons/svg/item-bag.svg',
+        'system': {
+            'description': {'value': f'<p>{name}</p>', 'chat': ''},
+            'source': {'custom': 'SRD 2024', 'revision': 1, 'rules': '2024'},
+            'activation': {'type': 'action', 'value': 1},
+            'level': level,
+            'school': school,
+            'materials': {'value': '', 'consumed': False, 'cost': 0, 'supply': 0},
+            'properties': [],
+            'method': 'spell',
+            'prepared': 1,
+            'activities': {
+                'dnd5eactivity000': {
+                    '_id': 'dnd5eactivity000',
+                    'type': 'utility',
+                    'activation': {'type': 'action', 'override': False},
+                    'consumption': {'targets': [], 'scaling': {'allowed': False, 'max': ''}, 'spellSlot': True},
+                    'description': {'chatFlavor': ''},
+                    'duration': {'units': 'inst', 'concentration': False, 'override': False},
+                    'effects': [],
+                    'range': {'units': 'self', 'override': False},
+                    'target': {'prompt': True, 'template': {'contiguous': False, 'stationary': False, 'units': 'ft'},
+                               'affects': {'choice': False}, 'override': False},
+                    'uses': {'spent': 0, 'max': '', 'recovery': []},
+                    'roll': {'formula': '', 'name': '', 'prompt': False, 'visible': False},
+                    'img': None,
+                    'sort': 0,
+                    'flags': {},
+                    'visibility': {'level': {}, 'requireAttunement': False, 'requireIdentification': False,
+                                   'requireMagic': False}
+                }
+            },
+            'uses': {'spent': 0, 'recovery': []},
+            'identifier': '',
+            'duration': {'units': 'inst'},
+            'range': {'units': 'self'},
+            'target': {'template': {'contiguous': False, 'stationary': False, 'units': 'ft'},
+                      'affects': {'choice': False}}
+        },
+        'effects': [],
+        'flags': {'dnd5e': {'persistSourceMigration': True, 'migratedProperties': ['verbal', 'somatic']}},
+        'folder': None,
+        'sort': 0,
+        'ownership': {'default': 0},
+        '_stats': {'compendiumSource': None, 'duplicateSource': None, 'exportSource': None,
+                   'coreVersion': '13.351', 'systemId': 'dnd5e', 'systemVersion': '5.3.3'}
+    }
+
+
+# Spell database with level and school
+SPELL_DB = {
+    'counterspell': (3, 'abjuration'),
+    'detect magic': (0, 'divination'),
+    'dominate monster': (8, 'enchantment'),
+    'dominate person': (5, 'enchantment'),
+    'eldritch blast': (0, 'evocation'),
+    'eyebite': (6, 'necromancy'),
+    'finger of death': (7, 'necromancy'),
+    'fire bolt': (0, 'evocation'),
+    'globe of invulnerability': (6, 'abjuration'),
+    'hold monster': (5, 'enchantment'),
+    'mind sliver': (0, 'enchantment'),
+    'plane shift': (7, 'conjuration'),
+    'shield': (1, 'abjuration'),
+    'speak with animals': (1, 'divination'),
+    'wall of fire': (5, 'evocation'),
+    'wish': (9, 'conjuration'),
+}
     """Generate a Foundry-compatible 16-char base62-ish document ID."""
     alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
     return ''.join(secrets.choice(alphabet) for _ in range(16))
@@ -95,6 +168,22 @@ class StatBlockExtractor:
             formula = formula_match.group(1).strip()
 
         return {'value': value, 'max': value, 'formula': formula}
+
+    def extract_spells(self, content: str) -> list:
+        """Extract spell names from content and create spell items."""
+        spells = []
+        found_names = set()
+
+        # Search for spell names in the content (case-insensitive)
+        for spell_name, (level, school) in SPELL_DB.items():
+            # Search for spell name in content
+            pattern = rf'\b{re.escape(spell_name)}\b'
+            if re.search(pattern, content, re.IGNORECASE):
+                if spell_name.lower() not in found_names:
+                    spells.append(_spell_item(spell_name.title(), level, school))
+                    found_names.add(spell_name.lower())
+
+        return spells
 
     def extract_speed(self, content: str) -> Dict[str, Any]:
         speeds = {
@@ -163,6 +252,7 @@ class StatBlockExtractor:
         skills_data = self.extract_skills(content)
         cr = self.extract_cr(content)
         languages = self.extract_languages(content)
+        spells = self.extract_spells(content + ' ' + biography)  # Search both stat block and biography
 
         # Build abilities with parsed values
         abilities = _default_abilities()
@@ -232,13 +322,13 @@ class StatBlockExtractor:
                 'flags': {},
                 'disposition': -1,
             },
-            'items': [],
+            'items': spells,
             'effects': [],
             'folder': None,
             'sort': 0,
             'ownership': {'default': 0},
             'flags': {},
-            '_stats': {'systemId': 'dnd5e', 'systemVersion': '5.2.3'},
+            '_stats': {'systemId': 'dnd5e', 'systemVersion': '5.3.3'},
         }
 
 
