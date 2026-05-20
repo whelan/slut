@@ -26,7 +26,7 @@ def main() -> int:
     parser.add_argument(
         '--input-dir',
         default='.',
-        help='Root directory of campaign (default: current directory)',
+        help='Root directory of campaign (default: current directory). Should be the project root where .agents/ and spillere/ exist.',
     )
     parser.add_argument(
         '--output',

@@ -3,35 +3,74 @@
 ## 1. Install (1 min)
 
 ```bash
+# From the campaign root directory (where .agents/ and spillere/ exist):
 cd tools/foundry-import
 pip install -r requirements.txt
 ```
 
-## 2. Generate the adventure file (30 sec)
-
+**On macOS with Xcode error:**
 ```bash
-python3 main.py --input-dir /path/to/campaign --output ./out --skip-pcs
+sudo xcodebuild -license accept
+pip install -r requirements.txt
 ```
 
-This writes `./out/adventure.json`. **Note:** Artwork and spell items are auto-linked from your campaign directory during generation.
+**If `pip` not found, try:**
+```bash
+pip3 install -r requirements.txt  # or: python3 -m pip install -r requirements.txt
+```
 
-## 3. Install the importer module in Foundry (1 min)
+## 2. Generate the adventure file (30 sec)
 
-In your forgevtt world:
+**From the campaign root (where .agents/ and spillere/ exist):**
+```bash
+cd ../..  # Return to campaign root
+python3 tools/foundry-import/main.py --input-dir . --output ./tools/foundry-import/out --macro --test
+```
 
-- **Add-on Modules** → **Install Module**
-- Search: `Adventure Importer / Exporter`
-- Install and enable in your world
+Or from anywhere, specify the full path:
+```bash
+python3 main.py --input-dir /Users/you/slut --output ./out --macro
+```
 
-Module page: <https://foundryvtt.com/packages/adventure-import-export>
+**Options:**
+- `--test` - Generate test macro for single NPC (verify it works first)
+- `--macro` - Generate full import macro (easiest for Forge VTT)
+- `--skip-pcs` - Skip player characters if they already exist
 
-## 4. Import (30 sec)
+This writes JavaScript macros that you paste directly into Foundry's console (F12).
 
-- Open the module's import dialog (button in the sidebar or Settings menu, depending on the module version)
-- Select `./out/adventure.json`
-- Click **Import Adventure**
+## 3. Test Import (1 min)
 
-Done. All actors, journals, and scenes appear in your world.
+Test with a single NPC first to verify it works:
+
+```bash
+python3 main.py --input-dir . --output ./out --test
+```
+
+Then in Foundry:
+1. Press **F12** to open Developer Console
+2. Click the **Console** tab (not Elements or Network)
+3. Open `out/test-import-macro.js` and copy ALL contents
+4. Paste into the console and press **Enter**
+5. Check Actors sidebar — Severin should appear in "NPCs" folder
+
+If this works, proceed to step 4.
+
+## 4. Full Import (30 sec)
+
+Generate the full import macro:
+```bash
+python3 main.py --input-dir . --output ./out --macro
+```
+
+In Foundry:
+1. Press **F12** to open Developer Console
+2. Click **Console** tab
+3. Open `out/import-macro.js` and copy ALL contents
+4. Paste and press **Enter**
+5. Wait for **"Campaign import complete!"** notification
+
+Done. All 54 actors, 12 journals, and 3 scenes appear automatically in your world with folder organization.
 
 ## 5. Verify (2 min)
 
