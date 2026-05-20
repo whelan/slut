@@ -86,7 +86,15 @@ class StatBlockExtractor:
         hp_str = match.group(1).strip()
         value_match = re.match(r'(\d+)', hp_str)
         value = int(value_match.group(1)) if value_match else 0
-        return {'value': value, 'max': value, 'formula': hp_str}
+
+        # Extract dice formula if present (e.g., "236 (15d20+45)" -> "15d20+45")
+        # Format: number (formula) or just number
+        formula = ''
+        formula_match = re.search(r'\(([^)]+)\)', hp_str)
+        if formula_match:
+            formula = formula_match.group(1).strip()
+
+        return {'value': value, 'max': value, 'formula': formula}
 
     def extract_speed(self, content: str) -> Dict[str, Any]:
         speeds = {
