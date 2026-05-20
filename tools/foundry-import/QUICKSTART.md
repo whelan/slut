@@ -1,25 +1,6 @@
 # Quick Start (5 minutes)
 
-## 1. Prepare Assets (1 min - Optional)
-
-If you want all portraits and tokens in one folder for Forge VTT upload:
-
-```bash
-cd tools/foundry-import
-source venv/bin/activate  # if you created a venv
-python3 prepare-assets.py ./assets-for-forge
-```
-
-This creates a single folder with:
-- All character portraits (as-is)
-- Generated circular tokens with D&D brown borders
-- Ready to upload to Forge VTT asset manager
-
-Then skip to step 3 below.
-
----
-
-## 2. Install (1 min)
+## 1. Install (1 min)
 
 **From the campaign root (where .agents/ and spillere/ exist):**
 
@@ -45,6 +26,30 @@ This is normal on modern macOS. Just follow the steps above to use a virtual env
 sudo xcodebuild -license accept
 # Then run the venv steps above
 ```
+
+## 2. Prepare Assets for Forge VTT (Optional - for URL-based images)
+
+If you want to use Forge VTT asset URLs instead of local files:
+
+```bash
+cd tools/foundry-import
+source venv/bin/activate
+
+# Generate tokens and gather assets
+python3 prepare-assets.py ./assets-for-forge
+
+# Upload all files in ./assets-for-forge to Forge VTT asset manager
+# Then copy the Forge base URL (e.g., https://assets.forge-vtt.com/YOUR_ID/temple-of-tiamat/)
+
+# Generate image-urls.json with Forge URLs
+python3 generate-image-urls.py --forge-url "https://assets.forge-vtt.com/YOUR_ID/temple-of-tiamat/"
+```
+
+This creates `out/image-urls.json` that will be used by the macros.
+
+**Skip this section if you want to use local file paths** (default behavior).
+
+---
 
 ## 3. Generate the macro (30 sec)
 
@@ -135,5 +140,8 @@ python3 main.py --input-dir /path/to/campaign --embed-images --name "My Campaign
 
 ## Image options
 
-- **Default:** Images linked by file path (~1 MB file). Artwork is auto-matched from `art/finale/output/`.
-- **With `--embed-images`:** All images embedded as base64 in JSON (~128 MB file). Fully self-contained, no separate image files needed.
+- **Default (local paths):** Images linked by local file path (~1 MB file). Artwork auto-matched from `art/finale/output/`. Works offline but paths are system-specific.
+- **With Forge VTT URLs:** Use `generate-image-urls.py` to create `image-urls.json` with Forge asset URLs. Works across devices and is the recommended approach for Forge VTT.
+- **With `--embed-images`:** All images embedded as base64 in JSON (~128 MB file). Fully self-contained, no separate image files needed. Slow to import.
+
+**Recommended workflow:** Use Forge VTT asset URLs (step 2 above).

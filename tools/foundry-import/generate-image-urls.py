@@ -26,8 +26,8 @@ def main():
     )
     parser.add_argument(
         '--output',
-        default='image-urls.json',
-        help='Output file for URLs (default: image-urls.json)',
+        default='./out/image-urls.json',
+        help='Output file for URLs (default: ./out/image-urls.json) - must match macro output dir',
     )
 
     args = parser.parse_args()
@@ -90,6 +90,7 @@ def main():
 
     # Write image-urls.json
     output_path = Path(args.output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(url_mapping, f, indent=2)
 
