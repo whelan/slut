@@ -1,6 +1,25 @@
 # Quick Start (5 minutes)
 
-## 1. Install (1 min)
+## 1. Prepare Assets (1 min - Optional)
+
+If you want all portraits and tokens in one folder for Forge VTT upload:
+
+```bash
+cd tools/foundry-import
+source venv/bin/activate  # if you created a venv
+python3 prepare-assets.py ./assets-for-forge
+```
+
+This creates a single folder with:
+- All character portraits (as-is)
+- Generated circular tokens with D&D brown borders
+- Ready to upload to Forge VTT asset manager
+
+Then skip to step 3 below.
+
+---
+
+## 2. Install (1 min)
 
 **From the campaign root (where .agents/ and spillere/ exist):**
 
@@ -27,7 +46,7 @@ sudo xcodebuild -license accept
 # Then run the venv steps above
 ```
 
-## 2. Generate the adventure file (30 sec)
+## 3. Generate the macro (30 sec)
 
 **Make sure the virtual environment is activated:**
 ```bash
@@ -53,7 +72,7 @@ python3 main.py --input-dir /Users/you/slut --output ./out --macro
 
 This writes JavaScript macros that you paste directly into Foundry's console (F12).
 
-## 3. Test Import (1 min)
+## 4. Test Import (1 min)
 
 Test with a single NPC first to verify it works:
 
@@ -70,7 +89,7 @@ Then in Foundry:
 
 If this works, proceed to step 4.
 
-## 4. Full Import (30 sec)
+## 5. Full Import (30 sec)
 
 Generate the full import macro:
 ```bash
