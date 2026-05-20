@@ -181,10 +181,18 @@ class CampaignConverter:
         )
 
     def write_test_macro(self, output_dir: str) -> str:
-        """Generate minimal test macro with single NPC."""
+        """Generate minimal test macro with single NPC.
+
+        Loads image-urls.json if present to apply Forge VTT asset URLs.
+        """
+        url_mapping = load_url_mapping(output_dir)
+        if url_mapping:
+            print("✓ Loaded image-urls.json with Forge VTT asset URLs")
+
         return build_test_macro(
             output_dir=output_dir,
             actors=self.actors,
+            url_mapping=url_mapping,
         )
 
     def _ritual_clock_journal(self) -> Dict[str, Any]:

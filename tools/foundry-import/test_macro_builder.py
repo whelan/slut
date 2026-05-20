@@ -2,12 +2,15 @@
 
 import json
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
+
+from url_loader import apply_url_mapping
 
 
 def build_test_macro(
     output_dir: str,
     actors: List[Dict[str, Any]],
+    url_mapping: Optional[Dict[str, Dict[str, str]]] = None,
 ) -> str:
     """Generate a minimal test macro with just one actor."""
 
@@ -27,6 +30,13 @@ def build_test_macro(
 
     if not severin:
         raise ValueError("No actors available for test macro")
+
+    # Apply URL mapping if provided
+    if url_mapping:
+        print("\nApplying artwork URLs to test actor:")
+        severin_list = [severin]
+        severin_list = apply_url_mapping(severin_list, url_mapping)
+        severin = severin_list[0]
 
     # Create minimal test macro
     script = f"""
