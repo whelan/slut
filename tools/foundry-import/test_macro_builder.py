@@ -60,12 +60,22 @@ async function testImport() {{
     // Test data: Just Severin
     const testActor = {json.dumps(severin, indent=2)};
 
-    // Create folder (or use existing "NPCs" folder)
-    let folder = game.folders.find(f => f.name === "NPCs" && f.type === "Actor");
+    // Create or find "temple-of-tiamat" parent folder
+    let parentFolder = game.folders.find(f => f.name === "temple-of-tiamat" && f.type === "Actor");
+    if (!parentFolder) {{
+      parentFolder = await Folder.create({{
+        name: "temple-of-tiamat",
+        type: "Actor"
+      }});
+    }}
+
+    // Create or find "NPCs" subfolder under parent
+    let folder = game.folders.find(f => f.name === "NPCs" && f.type === "Actor" && f.parent?.id === parentFolder.id);
     if (!folder) {{
       folder = await Folder.create({{
         name: "NPCs",
-        type: "Actor"
+        type: "Actor",
+        parent: parentFolder.id
       }});
     }}
 
@@ -110,12 +120,12 @@ This macro imports just **one NPC (Severin)** to test the import system.
 3. **Click the 'Console' tab** (important!)
 4. **Open test-import-macro.js** and copy ALL contents
 5. **Paste into console** and press Enter
-6. **Check Actors sidebar** - Severin should appear in "Test - Temple of Tiamat" folder
+6. **Check Actors sidebar** - Severin should appear in "temple-of-tiamat" → "NPCs" folder
 
 ### What You Should See
 
 - ✅ Console shows: "Test successful! Severin imported"
-- ✅ Severin actor appears in "NPCs" folder with:
+- ✅ Severin actor appears in "temple-of-tiamat" → "NPCs" folder with:
   - Full stat block (HP, AC, abilities)
   - Token artwork
   - Biography with spells
@@ -125,7 +135,8 @@ This macro imports just **one NPC (Severin)** to test the import system.
 
 If this test succeeds, you can:
 1. Delete the test actor (Severin)
-2. Run the full import macro to get all 54 actors, 12 journals, and 3 scenes (they'll go in the same "NPCs" folder)
+2. Delete the "temple-of-tiamat" folder
+3. Run the full import macro to get all 54 actors, 12 journals, and 3 scenes (organized under "temple-of-tiamat")
 
 ### If It Fails
 

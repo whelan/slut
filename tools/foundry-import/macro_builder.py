@@ -34,12 +34,19 @@ def build_import_macro(
 
     # Create folders first (required for actor/journal/scene assignment)
     folders_script = """
-// Create folders for organization
+// Create parent folder "temple-of-tiamat"
+const parentFolder = await Folder.create({
+  name: "temple-of-tiamat",
+  type: "Actor",
+  parent: null
+});
+
+// Create subfolders under parent
 const folders = await Folder.create([
   {
     name: "NPCs",
     type: "Actor",
-    parent: null
+    parent: parentFolder.id
   },
   {
     name: "Journals",
@@ -57,7 +64,7 @@ const actorFolder = folders[0];
 const journalFolder = folders[1];
 const sceneFolder = folders[2];
 
-ui.notifications.info(`Created 3 folders: NPCs, Journals, Scenes`);
+ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`);
 """
 
     # Create import script
