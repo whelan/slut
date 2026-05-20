@@ -58,6 +58,16 @@ def main() -> int:
         action='store_true',
         help='Generate Foundry module package (best for Forge VTT)',
     )
+    parser.add_argument(
+        '--macro',
+        action='store_true',
+        help='Generate JavaScript import macro for console (easiest for Forge VTT)',
+    )
+    parser.add_argument(
+        '--test',
+        action='store_true',
+        help='Generate minimal test macro (import just 1 NPC to verify it works)',
+    )
 
     args = parser.parse_args()
 
@@ -72,7 +82,11 @@ def main() -> int:
         converter = CampaignConverter(str(input_dir), embed_images=args.embed_images)
         converter.convert_all(skip_pcs=args.skip_pcs)
 
-        if args.module:
+        if args.test:
+            output_path = converter.write_test_macro(args.output)
+        elif args.macro:
+            output_path = converter.write_import_macro(args.output)
+        elif args.module:
             output_path = converter.write_module(args.output)
         elif args.compendium:
             output_path = converter.write_compendium_packs(args.output)
@@ -83,7 +97,31 @@ def main() -> int:
         return 1
 
     print()
-    if args.module:
+    if args.test:
+        print(f"✓ Test macro generated: {output_path}")
+        print()
+        print("Quick test - import just 1 NPC (Severin):")
+        print("  1. Open test-import-macro.js")
+        print("  2. Copy ALL contents")
+        print("  3. In Foundry: Press F12 (open console)")
+        print("  4. Click 'Console' tab")
+        print("  5. Paste and press Enter")
+        print("  6. Check Actors sidebar - Severin should appear")
+        print()
+        print("If this works, run the full import with --macro flag!")
+    elif args.macro:
+        print(f"✓ Import macro generated: {output_path}")
+        print()
+        print("Next steps:")
+        print("  1. Open the generated import-macro.js file")
+        print("  2. Copy ALL contents")
+        print("  3. In Foundry: Press F12 (open developer console)")
+        print("  4. Click the 'Console' tab")
+        print("  5. Paste the macro code and press Enter")
+        print("  6. Wait for 'Campaign import complete!' notification")
+        print()
+        print("All 54 actors, 12 journals, and 3 scenes will be created automatically!")
+    elif args.module:
         print(f"✓ Module package created: {output_path}")
         print()
         print("Next steps:")

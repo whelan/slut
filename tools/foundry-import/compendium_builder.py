@@ -19,8 +19,8 @@ def build_compendium_packs(
     # Create actor compendium
     _create_compendium(
         packs_dir / "actors",
-        name="Temple of Tiamat - Actors",
-        label="Actors",
+        name="NPCs",
+        label="NPCs",
         type="Actor",
         documents=actors,
     )
@@ -28,7 +28,7 @@ def build_compendium_packs(
     # Create journal compendium
     _create_compendium(
         packs_dir / "journals",
-        name="Temple of Tiamat - Journals",
+        name="Journals",
         label="Journals",
         type="JournalEntry",
         documents=journals,
@@ -37,7 +37,7 @@ def build_compendium_packs(
     # Create scene compendium
     _create_compendium(
         packs_dir / "scenes",
-        name="Temple of Tiamat - Scenes",
+        name="Scenes",
         label="Scenes",
         type="Scene",
         documents=scenes,

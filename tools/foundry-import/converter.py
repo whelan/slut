@@ -9,8 +9,11 @@ from stat_extractor import StatBlockExtractor, PartyCharacterBuilder, new_id
 from adventure_builder import build_adventure, build_journal_entry, build_scene
 from compendium_builder import build_compendium_packs
 from module_builder import build_module
+from macro_builder import build_import_macro
+from test_macro_builder import build_test_macro
 from enemy_builder import EnemyBuilder
 from asset_linker import AssetLinker, SpellItemGenerator
+from url_loader import load_url_mapping
 
 
 class CampaignConverter:
@@ -158,6 +161,30 @@ class CampaignConverter:
             actors=self.actors,
             journals=self.journals,
             scenes=self.scenes,
+        )
+
+    def write_import_macro(self, output_dir: str) -> str:
+        """Generate JavaScript import macro for Foundry console.
+
+        Loads image-urls.json if present to apply Forge VTT asset URLs to actors.
+        """
+        url_mapping = load_url_mapping(output_dir)
+        if url_mapping:
+            print("✓ Loaded image-urls.json with Forge VTT asset URLs")
+
+        return build_import_macro(
+            output_dir=output_dir,
+            actors=self.actors,
+            journals=self.journals,
+            scenes=self.scenes,
+            url_mapping=url_mapping,
+        )
+
+    def write_test_macro(self, output_dir: str) -> str:
+        """Generate minimal test macro with single NPC."""
+        return build_test_macro(
+            output_dir=output_dir,
+            actors=self.actors,
         )
 
     def _ritual_clock_journal(self) -> Dict[str, Any]:
