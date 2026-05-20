@@ -50,13 +50,21 @@ def apply_url_mapping(actors: list, url_mapping: Optional[Dict]) -> list:
     for actor in actors:
         # Try to find matching URL entry
         actor_name = actor.get("name", "")
-
-        # Try exact key match (lowercase with hyphens)
         actor_key = actor_name.lower().replace(" ", "-").replace("'", "")
 
-        if actor_key in url_mapping:
-            mapping = url_mapping[actor_key]
+        # Try exact match first
+        mapping = url_mapping.get(actor_key)
 
+        # Try partial match if exact match fails (check if actor_key is substring of any url_key)
+        if not mapping:
+            for url_key in url_mapping.keys():
+                # Check if the actor name (first word) appears in the url_key
+                first_word = actor_key.split('-')[0]
+                if first_word and first_word in url_key:
+                    mapping = url_mapping[url_key]
+                    break
+
+        if mapping:
             # Apply portrait URL
             if mapping.get("portrait") and mapping["portrait"].startswith("https://"):
                 actor["img"] = mapping["portrait"]

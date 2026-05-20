@@ -62,12 +62,15 @@ def main():
     for portrait_path in portrait_files:
         filename = portrait_path.name
 
-        # Extract base name (e.g., "dragonclaw-rogue" from "dragonclaw-rogue-token_20260516_170911_1.png")
-        # Format is usually: name-token_TIMESTAMP_NUMBER.png or name_TIMESTAMP_NUMBER.png
+        # Extract base name from filename
+        # Format: name-token_TIMESTAMP_NUMBER.png
+        # Example: severin-masked-token_20260516_164450_1.png -> severin-masked
         base_name = filename.split('_')[0]  # Get part before first underscore (timestamp)
 
-        # Normalize: "dragonclaw-rogue" -> "dragonclaw-rogue"
-        actor_key = base_name.replace('_token', '').lower()
+        # Remove "-token" or "-token*" suffix to get actor name
+        # "dragonclaw-rogue-token" -> "dragonclaw-rogue"
+        # "severin-masked-token" -> "severin-masked"
+        actor_key = base_name.rsplit('-token', 1)[0].lower() if '-token' in base_name else base_name.lower()
 
         # Generate URLs
         portrait_filename = filename
