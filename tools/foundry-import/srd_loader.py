@@ -144,6 +144,9 @@ class SRDLoader:
         if not table_match:
             return result
         table = table_match.group(1)
+        # Normalize the Unicode minus sign (U+2212) to ASCII hyphen-minus so
+        # negative modifiers like "−2" are parsed (the SRD uses U+2212).
+        table = table.replace('−', '-')
         # Extract all numeric values from <td>X</td>
         numbers = re.findall(r'<td>([+-]?\d+)</td>', table)
         # Pattern: value, mod, save × 6 abilities
