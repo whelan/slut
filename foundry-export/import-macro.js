@@ -46,7 +46,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Actor data
   const actorData = [
   {
-    "_id": "7lr618vDHmQEfq7M",
+    "_id": "iGkZ0bGloMJGiKcX",
     "name": "Axar Runes",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -370,7 +370,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "VOjfbpoPsGDEYFmg",
+    "_id": "uSmS5ZSonQglV9lH",
     "name": "Daxx Drake",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -694,7 +694,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "EfK4ztPDgzCGuvw3",
+    "_id": "xm26w8BFAssYugKH",
     "name": "Frygtlos",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -1018,7 +1018,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "L34qi7O1SDw5g9IR",
+    "_id": "QhZlxBdYhcGSvS8p",
     "name": "Twilight Ventress",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -1342,14 +1342,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "CitNy3Zg3ZzgZY4V",
+    "_id": "aCmQWKp6fMBkg50y",
     "name": "Dagult Neverember",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1358,7 +1358,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 15,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1367,7 +1367,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1376,8 +1376,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -1385,7 +1385,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1394,8 +1394,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
-          "proficient": 0,
+          "value": 17,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -1405,14 +1405,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 15,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 84,
+          "max": 84,
+          "formula": "13d8 + 26",
           "temp": 0,
           "tempmax": 0
         },
@@ -1448,7 +1448,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Political heavyweight, but self-promoting. Open Lord of Waterdeep.\n<strong>Tone:</strong> Slick, professional, always with an agenda. Not dishonest \u2013 but always looking out for Neverwinter and his own position.\n<strong>Motivations:</strong>\n<ul><li>Protect his political legacy</li></ul>\n<ul><li>Waterdeep must not fall (it is his base)</li></ul>\n<ul><li>Neverwinter is his lifeblood \u2013 attacks against it are personal</li></ul>\n<strong>What he offers:</strong>\n<ul><li>The largest military resource of any council member</li></ul>\n<ul><li>Political compromise and alliance coordination</li></ul>\n<ul><li>Access to Waterdeep's Dragonward information</li></ul>\n<strong>What he requires:</strong>\n<ul><li>That his armies are not sent on suicide attacks</li></ul>\n<ul><li>That Neverwinter is not sacrificed for Well of Dragons</li></ul>\n<ul><li>Recognition of the Lord's Alliance as the primary force</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Jeg sender Lord's Alliance's h\u00e6r. Men lad mig v\u00e6re tydelig: de marcherer for Waterdeep, ikke for et abstrakt ideal om dragetilbedelse. Hvis frontlinjen kn\u00e6kker ved Neverwinter, tr\u00e6kker jeg styrker hjem. Forst\u00e5et?\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 15 | 84 (13d8 + 26) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 14 | 15 | 14 | 16 | 13 | 17 |\n| <strong>Modifier</strong> | +2 | +2 | +2 | +3 | +1 | +3 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +6 | \u2014 | +6 |</p>\n<strong>Senses:</strong> Passive Perception 11; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Insight +4, Persuasion +6, Deception +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (3/Day):</em> If Dagult fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Tactical Acumen:</em> Advantage on initiative rolls.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Dagult makes two attacks with his rapier or uses Counterspell.</li></ul>\n<ul><li><em>Rapier:</em> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 2) Piercing damage.</li></ul>\n<ul><li><em>Counterspell (Recharge 5\u20136):</em> Reaction. Dagult casts counterspell.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Political heavyweight, but self-promoting. Open Lord of Waterdeep.\n<strong>Tone:</strong> Slick, professional, always with an agenda. Not dishonest \u2013 but always looking out for Neverwinter and his own position.\n<strong>Motivations:</strong>\n<ul><li>Protect his political legacy</li></ul>\n<ul><li>Waterdeep must not fall (it is his base)</li></ul>\n<ul><li>Neverwinter is his lifeblood \u2013 attacks against it are personal</li></ul>\n<strong>What he offers:</strong>\n<ul><li>The largest military resource of any council member</li></ul>\n<ul><li>Political compromise and alliance coordination</li></ul>\n<ul><li>Access to Waterdeep's Dragonward information</li></ul>\n<strong>What he requires:</strong>\n<ul><li>That his armies are not sent on suicide attacks</li></ul>\n<ul><li>That Neverwinter is not sacrificed for Well of Dragons</li></ul>\n<ul><li>Recognition of the Lord's Alliance as the primary force</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Jeg sender Lord's Alliance's h\u00e6r. Men lad mig v\u00e6re tydelig: de marcherer for Waterdeep, ikke for et abstrakt ideal om dragetilbedelse. Hvis frontlinjen kn\u00e6kker ved Neverwinter, tr\u00e6kker jeg styrker hjem. Forst\u00e5et?\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 15 |\n| <strong>HP</strong> | 84 (13d8 + 26) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 14 | 15 | 14 | 16 | 13 | 17 |\n| Modifier | +2 | +2 | +2 | +3 | +1 | +3 |\n| Save | +2 | +2 | +2 | +6 | +1 | +6 |</p>\n<strong>Skills:</strong> Insight +4, Persuasion +6, Deception +6\n<strong>Senses:</strong> Passive Perception 11\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (3/Day):</strong> If Dagult fails a saving throw, he can choose to succeed instead.\n<strong>Tactical Acumen:</strong> Dagult has advantage on initiative rolls.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Dagult makes two attacks with his rapier, or makes one rapier attack and casts Counterspell.\n<strong>Rapier:</strong> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 2) Piercing damage.\n<strong>Counterspell (Recharge 5\u20136):</strong> Dagult casts counterspell, interrupting another creature's spell.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -1460,7 +1460,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 5.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -1681,7 +1681,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "laSUJue8s9y2khID",
+        "_id": "AEFu7zh8BjsPQk0o",
         "type": "spell",
         "name": "Counterspell",
         "img": "icons/svg/item-bag.svg",
@@ -1818,6 +1818,166 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "systemId": "dnd5e",
           "systemVersion": "5.3.3"
         }
+      },
+      {
+        "_id": "f3s46RJbGDj4RFvl",
+        "type": "feat",
+        "name": "Legendary Resistance (3/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Dagult fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "H6Ks9USCOfpF2bnD",
+        "type": "feat",
+        "name": "Tactical Acumen",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Dagult has advantage on initiative rolls.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "aOJ9pNHK7XP9pCfH",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Dagult makes two attacks with his rapier, or makes one rapier attack and casts Counterspell.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "QHz9R2IcB8MIfO3v",
+        "type": "feat",
+        "name": "Rapier",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 2) Piercing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "UmesWfNrdpGwsOkv",
+        "type": "feat",
+        "name": "Counterspell (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Dagult casts counterspell, interrupting another creature's spell.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
       }
     ],
     "effects": [],
@@ -1833,15 +1993,15 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "hV23qH2NbvYjAB8U",
+    "_id": "o0T4xQgR1C2n738S",
     "name": "Ulder Ravengard",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
-          "proficient": 0,
+          "value": 17,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -1849,7 +2009,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 15,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1858,8 +2018,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -1867,7 +2027,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1876,7 +2036,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1885,7 +2045,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 15,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -1896,14 +2056,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 17,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 110,
+          "max": 110,
+          "formula": "13d10 + 39",
           "temp": 0,
           "tempmax": 0
         },
@@ -1939,7 +2099,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Grand Duke of Baldur's Gate, leader of Flaming Fist. The military pragmatist.\n<strong>Tone:</strong> Direct, solution-oriented. Prefers action over speeches. Speaks in casualty figures and supply lines.\n<strong>Motivations:</strong>\n<ul><li>Protect Baldur's Gate</li></ul>\n<ul><li>Defeat the dragon cult militarily (not politically)</li></ul>\n<ul><li>Human lives have a price \u2013 he counts them</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Flaming Fist as shock troops</li></ul>\n<ul><li>Military coordination and logistics</li></ul>\n<ul><li>The Hellrider connection (Elturel)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Clear objectives, not open mandates</li></ul>\n<ul><li>Respect for his officers' decisions in the field</li></ul>\n<ul><li>No political talk during active combat</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi har mistet tolv officerer denne uge. Tolv. Det er ikke abstrakt for mig. Fort\u00e6l mig pr\u00e6cist hvad I har brug for, og hvad I kan love som geng\u00e6ld. Intet andet.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 17 | 110 (13d10 + 39) | 30 ft. | 8 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 17 | 15 | 16 | 13 | 14 | 15 |\n| <strong>Modifier</strong> | +3 | +2 | +3 | +1 | +2 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +6 | \u2014 | +2 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Athletics +6, Insight +5, Intimidation +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Ulder fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Battlemaster's Insight:</em> Ulder has advantage on Wisdom (Insight) checks.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Ulder makes three attacks with his longsword.</li></ul>\n<ul><li><em>Longsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Flaming Fist's Roar (Recharge 5\u20136):</em> 30 ft. cone of fire. Each creature must make a DC 15 Dexterity save, taking 36 (8d8) Fire damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Grand Duke of Baldur's Gate, leader of Flaming Fist. The military pragmatist.\n<strong>Tone:</strong> Direct, solution-oriented. Prefers action over speeches. Speaks in casualty figures and supply lines.\n<strong>Motivations:</strong>\n<ul><li>Protect Baldur's Gate</li></ul>\n<ul><li>Defeat the dragon cult militarily (not politically)</li></ul>\n<ul><li>Human lives have a price \u2013 he counts them</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Flaming Fist as shock troops</li></ul>\n<ul><li>Military coordination and logistics</li></ul>\n<ul><li>The Hellrider connection (Elturel)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Clear objectives, not open mandates</li></ul>\n<ul><li>Respect for his officers' decisions in the field</li></ul>\n<ul><li>No political talk during active combat</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi har mistet tolv officerer denne uge. Tolv. Det er ikke abstrakt for mig. Fort\u00e6l mig pr\u00e6cist hvad I har brug for, og hvad I kan love som geng\u00e6ld. Intet andet.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 17 |\n| <strong>HP</strong> | 110 (13d10 + 39) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 17 | 15 | 16 | 13 | 14 | 15 |\n| Modifier | +3 | +2 | +3 | +1 | +2 | +2 |\n| Save | +6 | +2 | +6 | +1 | +2 | +2 |</p>\n<strong>Skills:</strong> Athletics +6, Insight +5, Intimidation +5\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 8\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Ulder fails a saving throw, he can choose to succeed instead.\n<strong>Battlemaster's Insight:</strong> Ulder has advantage on Wisdom (Insight) checks made to read an enemy's tactics.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Ulder makes three attacks with his longsword.\n<strong>Longsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.\n<strong>Flaming Fist's Roar (Recharge 5\u20136):</strong> Ulder unleashes a 30-foot cone of fire. Each creature in the area makes a DC 15 Dexterity save, taking 36 (8d8) Fire damage on a failure, or half as much on a success.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -1951,7 +2111,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 8.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -2170,7 +2330,168 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "8GRwuWdnYZPmIA1e",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Ulder fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "DCzbQ78K6wq9Dgvf",
+        "type": "feat",
+        "name": "Battlemaster's Insight",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Ulder has advantage on Wisdom (Insight) checks made to read an enemy's tactics.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "IBMYbfdfl4kKuxiT",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Ulder makes three attacks with his longsword.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "JnHD9NYM8nWc7Uoo",
+        "type": "feat",
+        "name": "Longsword",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "l8JBGJuVA4UBtJhq",
+        "type": "feat",
+        "name": "Flaming Fist's Roar (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Ulder unleashes a 30-foot cone of fire. Each creature in the area makes a DC 15 Dexterity save, taking 36 (8d8) Fire damage on a failure, or half as much on a success.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -2184,14 +2505,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "3mspTKMVyZjRMMsG",
+    "_id": "453f2VySMlZjWGxF",
     "name": "Remallia Haventree",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
+          "value": 11,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2200,8 +2521,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2209,7 +2530,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2218,8 +2539,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
-          "proficient": 0,
+          "value": 15,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2227,8 +2548,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2236,7 +2557,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2247,14 +2568,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 15,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 66,
+          "max": 66,
+          "formula": "12d8 + 12",
           "temp": 0,
           "tempmax": 0
         },
@@ -2290,7 +2611,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Harper representative. Quiet, sharp, emotionally controlled.\n<strong>Tone:</strong> Calm. Never hot-headed. But behind the control there is loss \u2013 many Harpers are dead.\n<strong>Motivations:</strong>\n<ul><li>Protect information and the intelligence network</li></ul>\n<ul><li>Leosin's sacrifice is acknowledged (she carries his legacy)</li></ul>\n<ul><li>Harpers prioritize long-term consequences over short-term victory</li></ul>\n<strong>What she offers:</strong>\n<ul><li>Intelligence, maps, secret passages</li></ul>\n<ul><li>Harper agents in the field</li></ul>\n<ul><li>Remallia's map of Well of Dragons routes (obtained at the cost of Leosin's life and six others)</li></ul>\n<strong>What she requires:</strong>\n<ul><li>Discretion about Harper operations</li></ul>\n<ul><li>That the party does not use secret passages in ways that expose them</li></ul>\n<ul><li>Acknowledgment of what it cost to obtain the information</li></ul>\n<strong>Key Scene \u2013 the map:</strong>\n> Remallia folder kortet ud uden dramatik. Hendes h\u00e6nder ryster kun \u00e9n gang. I hj\u00f8rnet af pergamentet er der m\u00f8rke pletter, ikke bl\u00e6k.\n>\n> \"Leosin fandt ruten. Han og seks andre holdt kultisterne tilbage l\u00e6nge nok til, at beskeden kunne n\u00e5 ud. Det her kort kostede os mere end guld.\"\n>\n> Hun ser direkte p\u00e5 jer.\n>\n> \"Brug det rigtigt.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 15 | 66 (12d8 + 12) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 11 | 16 | 12 | 15 | 16 | 13 |\n| <strong>Modifier</strong> | +0 | +3 | +1 | +2 | +3 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | +6 | \u2014 | +5 | +6 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 13; <strong>Languages:</strong> Common, Thieves' Cant\n<strong>Skills:</strong> Stealth +6, Insight +6, Perception +6, Deception +4\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Remallia fails a saving throw, she can choose to succeed instead.</li></ul>\n<ul><li><em>Uncanny Dodge:</em> When an attacker hits her with an attack roll, she can use a reaction to halve the damage.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Remallia makes two attacks with her shortbow or shortsword.</li></ul>\n<ul><li><em>Shortsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 3) Piercing damage.</li></ul>\n<ul><li><em>Shortbow:</em> Ranged Attack Roll: +6, range 80/320 ft. Hit: 7 (1d6 + 3) Piercing damage.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Harper representative. Quiet, sharp, emotionally controlled.\n<strong>Tone:</strong> Calm. Never hot-headed. But behind the control there is loss \u2013 many Harpers are dead.\n<strong>Motivations:</strong>\n<ul><li>Protect information and the intelligence network</li></ul>\n<ul><li>Leosin's sacrifice is acknowledged (she carries his legacy)</li></ul>\n<ul><li>Harpers prioritize long-term consequences over short-term victory</li></ul>\n<strong>What she offers:</strong>\n<ul><li>Intelligence, maps, secret passages</li></ul>\n<ul><li>Harper agents in the field</li></ul>\n<ul><li>Remallia's map of Well of Dragons routes (obtained at the cost of Leosin's life and six others)</li></ul>\n<strong>What she requires:</strong>\n<ul><li>Discretion about Harper operations</li></ul>\n<ul><li>That the party does not use secret passages in ways that expose them</li></ul>\n<ul><li>Acknowledgment of what it cost to obtain the information</li></ul>\n<strong>Key Scene \u2013 the map:</strong>\n> Remallia folder kortet ud uden dramatik. Hendes h\u00e6nder ryster kun \u00e9n gang. I hj\u00f8rnet af pergamentet er der m\u00f8rke pletter, ikke bl\u00e6k.\n>\n> \"Leosin fandt ruten. Han og seks andre holdt kultisterne tilbage l\u00e6nge nok til, at beskeden kunne n\u00e5 ud. Det her kort kostede os mere end guld.\"\n>\n> Hun ser direkte p\u00e5 jer.\n>\n> \"Brug det rigtigt.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 15 |\n| <strong>HP</strong> | 66 (12d8 + 12) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 11 | 16 | 12 | 15 | 16 | 13 |\n| Modifier | +0 | +3 | +1 | +2 | +3 | +1 |\n| Save | +0 | +6 | +1 | +5 | +6 | +1 |</p>\n<strong>Skills:</strong> Stealth +6, Insight +6, Perception +6, Deception +4\n<strong>Senses:</strong> Passive Perception 13\n<strong>Languages:</strong> Common, Thieves' Cant\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Remallia fails a saving throw, she can choose to succeed instead.\n<strong>Uncanny Dodge:</strong> When an attacker she can see hits her with an attack roll, she uses a reaction to halve the attack's damage against her.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Remallia makes two attacks with her shortbow or shortsword.\n<strong>Shortsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 3) Piercing damage.\n<strong>Shortbow:</strong> Ranged Attack Roll: +6, range 80/320 ft. Hit: 7 (1d6 + 3) Piercing damage.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -2302,7 +2623,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 5.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -2521,7 +2842,168 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "n1REG86Od2Cuov6n",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Remallia fails a saving throw, she can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "7NkPPfHzUooUnzH3",
+        "type": "feat",
+        "name": "Uncanny Dodge",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>When an attacker she can see hits her with an attack roll, she uses a reaction to halve the attack's damage against her.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "1FWnkGi9xXBx8aSt",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Remallia makes two attacks with her shortbow or shortsword.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "VWG3YxRSkla7vRHX",
+        "type": "feat",
+        "name": "Shortsword",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 3) Piercing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "ePfZP1ytnVNUikqN",
+        "type": "feat",
+        "name": "Shortbow",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Ranged Attack Roll: +6, range 80/320 ft. Hit: 7 (1d6 + 3) Piercing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -2535,15 +3017,15 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "KS5eT6R5Bb5wxOB9",
+    "_id": "waqFWAIaGW5w2Pco",
     "name": "Ontharr Frume",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2551,7 +3033,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2560,8 +3042,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
-          "proficient": 0,
+          "value": 18,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2578,8 +3060,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2587,8 +3069,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
-          "proficient": 0,
+          "value": 15,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2598,14 +3080,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 18,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 99,
+          "max": 99,
+          "formula": "11d10 + 44",
           "temp": 0,
           "tempmax": 0
         },
@@ -2641,7 +3123,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Order of the Gauntlet. Paladin. Direct, brave, religiously motivated.\n<strong>Tone:</strong> Loud, enthusiastic, but not stupid. Pushes for direct attack. Will not tolerate intrigue.\n<strong>Motivations:</strong>\n<ul><li>Tiamat is the absolute enemy \u2013 to be removed with violence and justice</li></ul>\n<ul><li>Heroism is respected</li></ul>\n<ul><li>Compromise with evil forces is forbidden (the Thay alliance is his personal nightmare)</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Order of the Gauntlet cavalry</li></ul>\n<ul><li>Paladins for front-line healing and anti-undead support</li></ul>\n<ul><li>Moral authority in the council (his voice carries weight)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>No negotiations with the dragon cult</li></ul>\n<ul><li>The Thay alliance must be explained and defended \u2013 he approves reluctantly</li></ul>\n<ul><li>Active combat, not strategic hesitation</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Tal ikke til mig om 'strategisk forsinkelse.' Der er en portal til Avernus \u00e5ben ved Well of Dragons. Vi <em>marscherer</em>.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 18 | 99 (11d10 + 44) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 16 | 12 | 18 | 10 | 16 | 15 |\n| <strong>Modifier</strong> | +3 | +1 | +4 | +0 | +3 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +7 | \u2014 | +6 | +5 |</p>\n<strong>Senses:</strong> Passive Perception 13; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Athletics +6, Insight +6, Medicine +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Ontharr fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Divine Smite:</em> When he hits a creature with a weapon attack, he can expend one spell slot to deal an extra 11 (2d10) radiant damage.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Ontharr makes two attacks with his greatsword.</li></ul>\n<ul><li><em>Greatsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.</li></ul>\n<ul><li><em>Holy Light (Recharge 5\u20136):</em> 30 ft. cone. Each creature must make a DC 15 Wisdom save, taking 27 (6d8) radiant damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Order of the Gauntlet. Paladin. Direct, brave, religiously motivated.\n<strong>Tone:</strong> Loud, enthusiastic, but not stupid. Pushes for direct attack. Will not tolerate intrigue.\n<strong>Motivations:</strong>\n<ul><li>Tiamat is the absolute enemy \u2013 to be removed with violence and justice</li></ul>\n<ul><li>Heroism is respected</li></ul>\n<ul><li>Compromise with evil forces is forbidden (the Thay alliance is his personal nightmare)</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Order of the Gauntlet cavalry</li></ul>\n<ul><li>Paladins for front-line healing and anti-undead support</li></ul>\n<ul><li>Moral authority in the council (his voice carries weight)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>No negotiations with the dragon cult</li></ul>\n<ul><li>The Thay alliance must be explained and defended \u2013 he approves reluctantly</li></ul>\n<ul><li>Active combat, not strategic hesitation</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Tal ikke til mig om 'strategisk forsinkelse.' Der er en portal til Avernus \u00e5ben ved Well of Dragons. Vi <em>marscherer</em>.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 18 |\n| <strong>HP</strong> | 99 (11d10 + 44) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 16 | 12 | 18 | 10 | 16 | 15 |\n| Modifier | +3 | +1 | +4 | +0 | +3 | +2 |\n| Save | +6 | +1 | +7 | +0 | +6 | +5 |</p>\n<strong>Skills:</strong> Athletics +6, Insight +6, Medicine +6\n<strong>Senses:</strong> Passive Perception 13\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Ontharr fails a saving throw, he can choose to succeed instead.\n<strong>Divine Smite:</strong> When Ontharr hits a creature with a weapon attack, he can expend one spell slot to deal an extra 11 (2d10) Radiant damage.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Ontharr makes two attacks with his greatsword.\n<strong>Greatsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n<strong>Holy Light (Recharge 5\u20136):</strong> Ontharr unleashes a 30-foot cone of radiance. Each creature in the area makes a DC 15 Wisdom save, taking 27 (6d8) Radiant damage on a failure, or half as much on a success.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -2653,7 +3135,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 6.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -2872,7 +3354,168 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "sbjb6IkgDHKWlmlF",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Ontharr fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "Cv5Jw6VVi8qqJjLN",
+        "type": "feat",
+        "name": "Divine Smite",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>When Ontharr hits a creature with a weapon attack, he can expend one spell slot to deal an extra 11 (2d10) Radiant damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "dE55KOIPXkRM2gdT",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Ontharr makes two attacks with his greatsword.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "pad85w4AkuJaX2qS",
+        "type": "feat",
+        "name": "Greatsword",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "hTFyMvERWxlCkaIY",
+        "type": "feat",
+        "name": "Holy Light (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Ontharr unleashes a 30-foot cone of radiance. Each creature in the area makes a DC 15 Wisdom save, taking 27 (6d8) Radiant damage on a failure, or half as much on a success.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -2886,14 +3529,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "dEZIyRo1sOSwxhdc",
+    "_id": "CXxMwdplDWzhpQIv",
     "name": "Delaan Winterhound",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonfang-fighter-token_20260516_170907_1.png",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2902,7 +3545,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2911,7 +3554,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2920,7 +3563,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
+          "value": 11,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2929,8 +3572,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -2938,7 +3581,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -2949,14 +3592,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 14,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 78,
+          "max": 78,
+          "formula": "12d8 + 24",
           "temp": 0,
           "tempmax": 0
         },
@@ -2992,7 +3635,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Emerald Enclave. Representative of nature.\n<strong>Tone:</strong> Calm, long-term, concerned with the balance of the world over human consequences.\n<strong>Motivations:</strong>\n<ul><li>Well of Dragons is a wound in the fabric of the world</li></ul>\n<ul><li>Dragons are forces of nature \u2013 turning them into ritual batteries is an act of vandalism</li></ul>\n<ul><li>Surviving nature elements (treants, wild animals) must not be sacrificed needlessly</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Emerald Enclave: treants, druids, natural animals, halfling sharpshooters</li></ul>\n<ul><li>Knowledge of natural passages (tunnels, waterways)</li></ul>\n<ul><li>Druidic healing and support</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Treants are protected if possible</li></ul>\n<ul><li>No scorched earth tactics</li></ul>\n<ul><li>The nature around the caldera is acknowledged as damaged, not hostile</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 14 | 78 (12d8 + 24) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 12 | 13 | 14 | 11 | 16 | 12 |\n| <strong>Modifier</strong> | +1 | +1 | +2 | +0 | +3 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | \u2014 | +6 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 13; <strong>Languages:</strong> Common, Druidic\n<strong>Skills:</strong> Nature +3, Survival +6, Perception +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Delaan fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Wildshape:</em> Delaan can use his action to cast wildshape, becoming a dire wolf or giant bear.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Delaan makes two attacks with his quarterstaff.</li></ul>\n<ul><li><em>Quarterstaff:</em> Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 1) Bludgeoning damage, or 6 (1d8 + 1) if used with two hands.</li></ul>\n<ul><li><em>Entangling Vines (Recharge 5\u20136):</em> 30 ft. radius. Each creature must make a DC 15 Strength save or be restrained until the end of its next turn.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Emerald Enclave. Representative of nature.\n<strong>Tone:</strong> Calm, long-term, concerned with the balance of the world over human consequences.\n<strong>Motivations:</strong>\n<ul><li>Well of Dragons is a wound in the fabric of the world</li></ul>\n<ul><li>Dragons are forces of nature \u2013 turning them into ritual batteries is an act of vandalism</li></ul>\n<ul><li>Surviving nature elements (treants, wild animals) must not be sacrificed needlessly</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Emerald Enclave: treants, druids, natural animals, halfling sharpshooters</li></ul>\n<ul><li>Knowledge of natural passages (tunnels, waterways)</li></ul>\n<ul><li>Druidic healing and support</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Treants are protected if possible</li></ul>\n<ul><li>No scorched earth tactics</li></ul>\n<ul><li>The nature around the caldera is acknowledged as damaged, not hostile</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 14 |\n| <strong>HP</strong> | 78 (12d8 + 24) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 12 | 13 | 14 | 11 | 16 | 12 |\n| Modifier | +1 | +1 | +2 | +0 | +3 | +1 |\n| Save | +1 | +1 | +2 | +0 | +6 | +1 |</p>\n<strong>Skills:</strong> Nature +3, Survival +6, Perception +6\n<strong>Senses:</strong> Passive Perception 13\n<strong>Languages:</strong> Common, Druidic\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Delaan fails a saving throw, he can choose to succeed instead.\n<strong>Wild Shape:</strong> Delaan can use an action to magically transform into a dire wolf or giant bear, retaining his own mental ability scores.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Delaan makes two attacks with his quarterstaff.\n<strong>Quarterstaff:</strong> Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 1) Bludgeoning damage, or 6 (1d8 + 1) if used with two hands.\n<strong>Entangling Vines (Recharge 5\u20136):</strong> Grasping vines erupt in a 30-foot radius around Delaan. Each creature in the area makes a DC 15 Strength save or is restrained until the end of its next turn.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -3004,7 +3647,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 5.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -3223,7 +3866,168 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "ppxp6lteB6nZWlws",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Delaan fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "koV467KYAsEYoTDF",
+        "type": "feat",
+        "name": "Wild Shape",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Delaan can use an action to magically transform into a dire wolf or giant bear, retaining his own mental ability scores.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "9HTxQo3PCdzLQTpv",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Delaan makes two attacks with his quarterstaff.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "I3NMFFctT4If9yLO",
+        "type": "feat",
+        "name": "Quarterstaff",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 1) Bludgeoning damage, or 6 (1d8 + 1) if used with two hands.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "Gb6Kt9J9Ls53Pcue",
+        "type": "feat",
+        "name": "Entangling Vines (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Grasping vines erupt in a 30-foot radius around Delaan. Each creature in the area makes a DC 15 Strength save or is restrained until the end of its next turn.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -3237,15 +4041,15 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "pOz1xZZSgaOU3Yof",
+    "_id": "nvjYJ8GCgTUv2WLQ",
     "name": "Sir Isteval",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -3253,7 +4057,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -3262,8 +4066,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
-          "proficient": 0,
+          "value": 18,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -3271,7 +4075,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -3280,8 +4084,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 14,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -3289,7 +4093,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -3300,14 +4104,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 16,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 95,
+          "max": 95,
+          "formula": "10d10 + 40",
           "temp": 0,
           "tempmax": 0
         },
@@ -3343,7 +4147,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Chivalric, elderly, symbolic figure. Moral weight.\n<strong>Tone:</strong> Honorable, heavy, never banal. Speaks of the price of duty.\n<strong>Example Dialogue:</strong>\n> \"Jeg har overlevet krige, helte. Hvad jeg ved om sejr er dette: den koster altid mere end man troede \u2013 og er altid mere v\u00e6rd end det, der alternativt ville ske.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 16 | 95 (10d10 + 40) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 16 | 13 | 18 | 12 | 14 | 14 |\n| <strong>Modifier</strong> | +3 | +1 | +4 | +1 | +2 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +7 | \u2014 | +5 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Athletics +6, Insight +5, Perception +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Isteval fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Second Wind (1/Short Rest):</em> He regains 15 HP when he uses a bonus action.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Isteval makes two attacks with his longsword.</li></ul>\n<ul><li><em>Longsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Leadership (Recharge 5\u20136):</em> Allies within 30 ft. gain advantage on their next attack roll or save.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Chivalric, elderly, symbolic figure. Moral weight.\n<strong>Tone:</strong> Honorable, heavy, never banal. Speaks of the price of duty.\n<strong>Example Dialogue:</strong>\n> \"Jeg har overlevet krige, helte. Hvad jeg ved om sejr er dette: den koster altid mere end man troede \u2013 og er altid mere v\u00e6rd end det, der alternativt ville ske.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 16 |\n| <strong>HP</strong> | 95 (10d10 + 40) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 16 | 13 | 18 | 12 | 14 | 14 |\n| Modifier | +3 | +1 | +4 | +1 | +2 | +2 |\n| Save | +6 | +1 | +7 | +1 | +5 | +2 |</p>\n<strong>Skills:</strong> Athletics +6, Insight +5, Perception +5\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Isteval fails a saving throw, he can choose to succeed instead.\n<strong>Second Wind (1/Short Rest):</strong> Isteval regains 15 HP when he uses a bonus action.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Isteval makes two attacks with his longsword.\n<strong>Longsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.\n<strong>Leadership (Recharge 5\u20136):</strong> Isteval calls out a command. Allies within 30 feet of him gain advantage on their next attack roll or saving throw.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -3355,7 +4159,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 5.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -3574,7 +4378,168 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "bGjyVIIsgwqFwZoV",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Isteval fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "dqFFxW3JvpWsGfV2",
+        "type": "feat",
+        "name": "Second Wind (1/Short Rest)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Isteval regains 15 HP when he uses a bonus action.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "k0pedmhxUDfP2dO8",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Isteval makes two attacks with his longsword.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "ZapNnS2mIm1CoIr0",
+        "type": "feat",
+        "name": "Longsword",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "uRB2okmgbldJOUzz",
+        "type": "feat",
+        "name": "Leadership (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Isteval calls out a command. Allies within 30 feet of him gain advantage on their next attack roll or saving throw.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -3588,7 +4553,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "FrDHPDi78XHrEqgY",
+    "_id": "L3u77YIRCstpLFVX",
     "name": "Taern Hornblade",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -3604,7 +4569,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -3613,7 +4578,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -3622,8 +4587,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
-          "proficient": 0,
+          "value": 17,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -3631,7 +4596,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -3640,7 +4605,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 11,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -3651,14 +4616,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 14,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 71,
+          "max": 71,
+          "formula": "11d8 + 22",
           "temp": 0,
           "tempmax": 0
         },
@@ -3694,7 +4659,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Wizard/political arcane authority. Technical expert.\n<strong>Tone:</strong> Precise, academic, slightly impatient with people who can't keep up.\n<strong>What he can explain:</strong>\n<ul><li>Ritual mechanics (structure of the Well of Dragons ritual)</li></ul>\n<ul><li>Teleportation wards and circle security</li></ul>\n<ul><li>Arcane disturbances near the caldera</li></ul>\n<ul><li>Draakhorn resonance and its role</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 14 | 71 (11d8 + 22) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 10 | 14 | 14 | 17 | 13 | 11 |\n| <strong>Modifier</strong> | +0 | +2 | +2 | +3 | +1 | +0 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +6 | \u2014 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 11; <strong>Languages:</strong> Common, Draconic\n<strong>Skills:</strong> Arcana +6, History +6, Investigation +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Taern fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Spellcasting:</em> Taern is an 11th-level spellcaster. His spell save DC is 14, and his spell attack bonus is +6.</li></ul>\n<strong>Spells:</strong>\n<ul><li>Cantrips: Fire Bolt, Prestidigitation, Mage Hand, Light</li></ul>\n<ul><li>1st-3rd level: Magic Missile, Shield, Counterspell, Fireball, Dispel Magic</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Dagger:</em> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.</li></ul>\n<ul><li><em>Arcane Barrage (Recharge 5\u20136):</em> 60 ft. cone. Each creature must make a DC 14 Dexterity save, taking 22 (4d10) Force damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Wizard/political arcane authority. Technical expert.\n<strong>Tone:</strong> Precise, academic, slightly impatient with people who can't keep up.\n<strong>What he can explain:</strong>\n<ul><li>Ritual mechanics (structure of the Well of Dragons ritual)</li></ul>\n<ul><li>Teleportation wards and circle security</li></ul>\n<ul><li>Arcane disturbances near the caldera</li></ul>\n<ul><li>Draakhorn resonance and its role</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 14 |\n| <strong>HP</strong> | 71 (11d8 + 22) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 10 | 14 | 14 | 17 | 13 | 11 |\n| Modifier | +0 | +2 | +2 | +3 | +1 | +0 |\n| Save | +0 | +2 | +2 | +6 | +1 | +0 |</p>\n<strong>Skills:</strong> Arcana +6, History +6, Investigation +6\n<strong>Senses:</strong> Passive Perception 11\n<strong>Languages:</strong> Common, Draconic\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Taern fails a saving throw, he can choose to succeed instead.\n<strong>Spellcasting:</strong> Taern is an 11th-level spellcaster. His spell save DC is 14, and his spell attack bonus is +6. He has the following spells prepared: Cantrips \u2014 Fire Bolt, Prestidigitation, Mage Hand, Light; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball, Dispel Magic.\n<h3>Actions</h3>\n<strong>Dagger:</strong> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.\n<strong>Arcane Barrage (Recharge 5\u20136):</strong> Taern unleashes a 60-foot cone of force. Each creature in the area makes a DC 14 Dexterity save, taking 22 (4d10) Force damage on a failure, or half as much on a success.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -3706,7 +4671,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 6.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -3927,7 +4892,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "kYMOXBc9qzevycfv",
+        "_id": "jLF7ERKS9ucLH1mQ",
         "type": "spell",
         "name": "Counterspell",
         "img": "icons/svg/item-bag.svg",
@@ -4066,7 +5031,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "jvhcIENoVFFHrdnz",
+        "_id": "9NFP0Dhid5ID1Ugk",
         "type": "spell",
         "name": "Fire Bolt",
         "img": "icons/svg/item-bag.svg",
@@ -4205,7 +5170,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "OrJrRMiAd3KDP1EB",
+        "_id": "3s8v9UCSn87u7FAM",
         "type": "spell",
         "name": "Shield",
         "img": "icons/svg/item-bag.svg",
@@ -4342,6 +5307,134 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "systemId": "dnd5e",
           "systemVersion": "5.3.3"
         }
+      },
+      {
+        "_id": "BH93gfdf19e8rkUV",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Taern fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "L4Z3QKgtjeGX6aBl",
+        "type": "feat",
+        "name": "Spellcasting",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Taern is an 11th-level spellcaster. His spell save DC is 14, and his spell attack bonus is +6. He has the following spells prepared: Cantrips \u2014 Fire Bolt, Prestidigitation, Mage Hand, Light; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball, Dispel Magic.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "BBTT5nnEjXLvLm23",
+        "type": "feat",
+        "name": "Dagger",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "EK83jMnlmVnfTmYC",
+        "type": "feat",
+        "name": "Arcane Barrage (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Taern unleashes a 60-foot cone of force. Each creature in the area makes a DC 14 Dexterity save, taking 22 (4d10) Force damage on a failure, or half as much on a success.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
       }
     ],
     "effects": [],
@@ -4357,14 +5450,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "EWB4tUVoFSOWPG9r",
+    "_id": "vk7YWnQPh55ISpTz",
     "name": "King Melandrach",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -4373,8 +5466,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -4382,7 +5475,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
+          "value": 16,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -4391,7 +5484,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -4400,8 +5493,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 15,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -4409,8 +5502,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -4420,14 +5513,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 17,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 105,
+          "max": 105,
+          "formula": "14d8 + 42",
           "temp": 0,
           "tempmax": 0
         },
@@ -4463,7 +5556,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Elf king. Misty Forest incident. Neronvain.\n<strong>Tone:</strong> Controlled anger beneath a diplomatic surface. Proud, but not unreasonable.\n<strong>Background:</strong>\nNeronvain (his son) was a dragon cult agent in Misty Forest. Melandrach carries this as a personal shame and a political complication.\n<strong>What he wants:</strong>\n<ul><li>The elven people's losses are acknowledged</li></ul>\n<ul><li>Neronvain's treachery is explained (not simply his fault \u2013 but the cult's manipulation)</li></ul>\n<ul><li>The elven alliance is used properly</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 17 | 105 (14d8 + 42) | 30 ft. | 7 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 14 | 16 | 16 | 14 | 15 | 16 |\n| <strong>Modifier</strong> | +2 | +3 | +3 | +2 | +2 | +3 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | +6 | \u2014 | \u2014 | +5 | +6 |</p>\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 12; <strong>Languages:</strong> Common, Elvish\n<strong>Skills:</strong> Insight +5, Perception +5, Acrobatics +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (3/Day):</em> If Melandrach fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Fey Ancestry:</em> He has advantage on saving throws against being charmed and cannot be put to sleep by magic.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Melandrach makes two attacks with his longsword or uses a spell.</li></ul>\n<ul><li><em>Longsword:</em> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage, or 8 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Elven Arrow (Recharge 5\u20136):</em> Ranged Attack Roll: +6, range 150 ft. Hit: 10 (1d10 + 5) Piercing damage.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Elf king. Misty Forest incident. Neronvain.\n<strong>Tone:</strong> Controlled anger beneath a diplomatic surface. Proud, but not unreasonable.\n<strong>Background:</strong>\nNeronvain (his son) was a dragon cult agent in Misty Forest. Melandrach carries this as a personal shame and a political complication.\n<strong>What he wants:</strong>\n<ul><li>The elven people's losses are acknowledged</li></ul>\n<ul><li>Neronvain's treachery is explained (not simply his fault \u2013 but the cult's manipulation)</li></ul>\n<ul><li>The elven alliance is used properly</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 17 |\n| <strong>HP</strong> | 105 (14d8 + 42) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 14 | 16 | 16 | 14 | 15 | 16 |\n| Modifier | +2 | +3 | +3 | +2 | +2 | +3 |\n| Save | +2 | +6 | +3 | +2 | +5 | +6 |</p>\n<strong>Skills:</strong> Insight +5, Perception +5, Acrobatics +6\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 12\n<strong>Languages:</strong> Common, Elvish\n<strong>CR:</strong> 7\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (3/Day):</strong> If Melandrach fails a saving throw, he can choose to succeed instead.\n<strong>Fey Ancestry:</strong> Melandrach has advantage on saving throws against being charmed, and magic cannot put him to sleep.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Melandrach makes two attacks with his longsword.\n<strong>Longsword:</strong> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage, or 8 (1d10 + 3) if used with two hands.\n<strong>Elven Arrow (Recharge 5\u20136):</strong> Ranged Attack Roll: +6, range 150 ft. Hit: 10 (1d10 + 5) Piercing damage.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -4475,7 +5568,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 7.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -4694,7 +5787,168 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "bztVZGk00Q4z6uay",
+        "type": "feat",
+        "name": "Legendary Resistance (3/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Melandrach fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "6IrRYve6AbYyJ1E1",
+        "type": "feat",
+        "name": "Fey Ancestry",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melandrach has advantage on saving throws against being charmed, and magic cannot put him to sleep.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "tRBQutdIE0eH3lFw",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melandrach makes two attacks with his longsword.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "OECnRkHKOl4INoRl",
+        "type": "feat",
+        "name": "Longsword",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage, or 8 (1d10 + 3) if used with two hands.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "IvJfxmcEz8fSxNte",
+        "type": "feat",
+        "name": "Elven Arrow (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Ranged Attack Roll: +6, range 150 ft. Hit: 10 (1d10 + 5) Piercing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -4708,15 +5962,15 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "nvhGkvvYQX9891Ir",
+    "_id": "S2t3zcT7QrjKjI5z",
     "name": "Ambassador Brawnanvil",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
-          "proficient": 0,
+          "value": 17,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -4724,7 +5978,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -4733,8 +5987,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
-          "proficient": 0,
+          "value": 16,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -4742,8 +5996,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
-          "proficient": 0,
+          "value": 15,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -4751,7 +6005,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -4760,7 +6014,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -4771,14 +6025,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 16,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 88,
+          "max": 88,
+          "formula": "11d10 + 33",
           "temp": 0,
           "tempmax": 0
         },
@@ -4787,7 +6041,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "bonus": ""
         },
         "movement": {
-          "walk": 30,
+          "walk": 25,
           "burrow": 0,
           "climb": 0,
           "fly": 0,
@@ -4814,7 +6068,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Dwarf representative. Military logistics and engineering.\n<strong>Tone:</strong> Direct, fact-based, proud. Never speaks of weakness \u2013 only of solutions.\n<strong>What he offers:</strong>\n<ul><li>Dwarven sappers and tunnelers</li></ul>\n<ul><li>Siege engines and anti-dragon artillery</li></ul>\n<ul><li>Engineering expertise for the Well of Dragons barricades</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Mine sappers kan spr\u00e6nge et hul i den sydlige barrikade p\u00e5 tre runder. Men de skal have d\u00e6kning. Hvem d\u00e6kker dem?\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 16 | 88 (11d10 + 33) | 25 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 17 | 12 | 16 | 15 | 13 | 14 |\n| <strong>Modifier</strong> | +3 | +1 | +3 | +2 | +1 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +6 | +5 | \u2014 | \u2014 |</p>\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 11; <strong>Languages:</strong> Common, Dwarvish\n<strong>Skills:</strong> Insight +4, Perception +4, Engineering Lore +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Brawnanvil fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Stonecunning:</em> He gains advantage on checks related to stonework or engineering.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Brawnanvil makes two attacks with his warhammer.</li></ul>\n<ul><li><em>Warhammer:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Bludgeoning damage, or 9 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Engineering Expertise (Recharge 5\u20136):</em> Brawnanvil and allies within 30 ft. gain advantage on saving throws and skill checks related to structures, barriers, or siege engines.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Dwarf representative. Military logistics and engineering.\n<strong>Tone:</strong> Direct, fact-based, proud. Never speaks of weakness \u2013 only of solutions.\n<strong>What he offers:</strong>\n<ul><li>Dwarven sappers and tunnelers</li></ul>\n<ul><li>Siege engines and anti-dragon artillery</li></ul>\n<ul><li>Engineering expertise for the Well of Dragons barricades</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Mine sappers kan spr\u00e6nge et hul i den sydlige barrikade p\u00e5 tre runder. Men de skal have d\u00e6kning. Hvem d\u00e6kker dem?\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 16 |\n| <strong>HP</strong> | 88 (11d10 + 33) |\n| <strong>Speed</strong> | 25 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 17 | 12 | 16 | 15 | 13 | 14 |\n| Modifier | +3 | +1 | +3 | +2 | +1 | +2 |\n| Save | +6 | +1 | +6 | +5 | +1 | +2 |</p>\n<strong>Skills:</strong> Insight +4, Perception +4, History +5\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 11\n<strong>Languages:</strong> Common, Dwarvish\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Brawnanvil fails a saving throw, he can choose to succeed instead.\n<strong>Stonecunning:</strong> Brawnanvil has advantage on Intelligence checks related to stonework, engineering, and the origin of structures.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Brawnanvil makes two attacks with his warhammer.\n<strong>Warhammer:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Bludgeoning damage, or 9 (1d10 + 3) if used with two hands.\n<strong>Engineering Expertise (Recharge 5\u20136):</strong> Brawnanvil directs a coordinated effort. He and allies within 30 feet gain advantage on saving throws and ability checks related to structures, barriers, or siege engines until the start of his next turn.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -4826,7 +6080,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 5.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -4911,7 +6165,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         },
         "his": {
           "ability": "int",
-          "value": 0,
+          "value": 1,
           "bonuses": {
             "check": "",
             "passive": ""
@@ -5045,7 +6299,168 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "eVopygHq4jXcLpSZ",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Brawnanvil fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "jK71uYdFrlQWZXjH",
+        "type": "feat",
+        "name": "Stonecunning",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Brawnanvil has advantage on Intelligence checks related to stonework, engineering, and the origin of structures.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "2gXq585UMcgd6JZH",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Brawnanvil makes two attacks with his warhammer.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "YXmSnt20zxRHx6Pp",
+        "type": "feat",
+        "name": "Warhammer",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Bludgeoning damage, or 9 (1d10 + 3) if used with two hands.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "KWdyjIqI5BeYRdGw",
+        "type": "feat",
+        "name": "Engineering Expertise (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Brawnanvil directs a coordinated effort. He and allies within 30 feet gain advantage on saving throws and ability checks related to structures, barriers, or siege engines until the start of his next turn.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -5059,14 +6474,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "WOX1lBANgPJP369O",
+    "_id": "06WOEaoFNJPCqGAk",
     "name": "Crimson Maccath",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
+          "value": 9,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -5075,7 +6490,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -5084,7 +6499,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -5093,8 +6508,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
-          "proficient": 0,
+          "value": 18,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -5102,8 +6517,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 14,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -5111,7 +6526,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 12,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -5122,14 +6537,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 14,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 77,
+          "max": 77,
+          "formula": "14d8 + 14",
           "temp": 0,
           "tempmax": 0
         },
@@ -5165,7 +6580,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Arcane expert on dragons and the Draakhorn.\n<strong>What she knows:</strong>\n<ul><li>The Draakhorn's resonance and what it does to chromatic dragons</li></ul>\n<ul><li>Ritual resonance mechanics</li></ul>\n<ul><li>What will happen if the ritual succeeds fully (she knows this from study, not from faith)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 14 | 77 (14d8 + 14) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 9 | 14 | 12 | 18 | 14 | 12 |\n| <strong>Modifier</strong> | \u22121 | +2 | +1 | +4 | +2 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +7 | +5 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common, Draconic\n<strong>Skills:</strong> Arcana +7, History +7, Investigation +7, Insight +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Maccath fails a saving throw, she can choose to succeed instead.</li></ul>\n<ul><li><em>Dragon Lore:</em> She has extensive knowledge of dragons, their magic, and their weaknesses.</li></ul>\n<strong>Spells:</strong> Cantrips: Fire Bolt, Light, Mage Hand. 1st\u20133rd level: Magic Missile, Shield, Counterspell, Fireball\n<strong>Actions:</strong>\n<ul><li><em>Dagger:</em> Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 3 (1d4 + 2) Piercing damage.</li></ul>\n<ul><li><em>Ritual Disruption (Recharge 5\u20136):</em> 40 ft. radius. Each creature in the area must make a DC 15 Intelligence save, taking 27 (6d8) Force damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Arcane expert on dragons and the Draakhorn.\n<strong>What she knows:</strong>\n<ul><li>The Draakhorn's resonance and what it does to chromatic dragons</li></ul>\n<ul><li>Ritual resonance mechanics</li></ul>\n<ul><li>What will happen if the ritual succeeds fully (she knows this from study, not from faith)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 14 |\n| <strong>HP</strong> | 77 (14d8 + 14) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 9 | 14 | 12 | 18 | 14 | 12 |\n| Modifier | -1 | +2 | +1 | +4 | +2 | +1 |\n| Save | -1 | +2 | +1 | +7 | +5 | +1 |</p>\n<strong>Skills:</strong> Arcana +7, History +7, Investigation +7, Insight +5\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common, Draconic\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Maccath fails a saving throw, she can choose to succeed instead.\n<strong>Dragon Lore:</strong> Maccath has extensive knowledge of dragons, their magic, and their weaknesses, and has advantage on Intelligence checks to recall information about them.\n<strong>Spellcasting:</strong> Maccath is a 9th-level spellcaster. Her spell save DC is 15, and her spell attack bonus is +7. She has the following spells prepared: Cantrips \u2014 Fire Bolt, Light, Mage Hand; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball.\n<h3>Actions</h3>\n<strong>Dagger:</strong> Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 3 (1d4 + 2) Piercing damage.\n<strong>Ritual Disruption (Recharge 5\u20136):</strong> Maccath channels disruptive arcane energy in a 40-foot radius. Each creature in the area makes a DC 15 Intelligence save, taking 27 (6d8) Force damage on a failure, or half as much on a success.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -5177,7 +6592,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 6.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -5398,7 +6813,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "kzcaPEdSpJulvec6",
+        "_id": "ZzOuerUqmu3OpXy9",
         "type": "spell",
         "name": "Counterspell",
         "img": "icons/svg/item-bag.svg",
@@ -5537,7 +6952,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "pvzmGD1IRGKB6t1y",
+        "_id": "drMgdOy0Y2DNKvcq",
         "type": "spell",
         "name": "Fire Bolt",
         "img": "icons/svg/item-bag.svg",
@@ -5676,7 +7091,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "3mj708C1yORr5BBx",
+        "_id": "xirj7koWW9JEX65d",
         "type": "spell",
         "name": "Shield",
         "img": "icons/svg/item-bag.svg",
@@ -5813,6 +7228,166 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "systemId": "dnd5e",
           "systemVersion": "5.3.3"
         }
+      },
+      {
+        "_id": "uNE9ToMof4KohTTk",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Maccath fails a saving throw, she can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "zlp8MRnu1mT5RO5d",
+        "type": "feat",
+        "name": "Dragon Lore",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Maccath has extensive knowledge of dragons, their magic, and their weaknesses, and has advantage on Intelligence checks to recall information about them.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "hAbpO2Z8IbyK42o5",
+        "type": "feat",
+        "name": "Spellcasting",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Maccath is a 9th-level spellcaster. Her spell save DC is 15, and her spell attack bonus is +7. She has the following spells prepared: Cantrips \u2014 Fire Bolt, Light, Mage Hand; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "Ivg8jslvdmIf8uWf",
+        "type": "feat",
+        "name": "Dagger",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 3 (1d4 + 2) Piercing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "4BIosGvzUdsutdnB",
+        "type": "feat",
+        "name": "Ritual Disruption (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Maccath channels disruptive arcane energy in a 40-foot radius. Each creature in the area makes a DC 15 Intelligence save, taking 27 (6d8) Force damage on a failure, or half as much on a success.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
       }
     ],
     "effects": [],
@@ -5828,14 +7403,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "6lDeTo2At0rOzH1W",
+    "_id": "Iaa4KNicVPihnAma",
     "name": "Elia",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/elia-bronze-dragon-token_20260516_170825_1.png",
     "system": {
       "abilities": {
         "str": {
-          "value": 10,
+          "value": 18,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -5844,7 +7419,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -5853,8 +7428,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
-          "proficient": 0,
+          "value": 20,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -5862,7 +7437,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
+          "value": 16,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -5871,8 +7446,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 15,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -5880,8 +7455,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
-          "proficient": 0,
+          "value": 17,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -5891,14 +7466,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 19,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 150,
+          "max": 150,
+          "formula": "12d12 + 60",
           "temp": 0,
           "tempmax": 0
         },
@@ -5907,10 +7482,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "bonus": ""
         },
         "movement": {
-          "walk": 30,
+          "walk": 40,
           "burrow": 0,
           "climb": 0,
-          "fly": 0,
+          "fly": 80,
           "swim": 0,
           "units": "ft",
           "hover": false,
@@ -5934,7 +7509,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Metallic dragon ally. Liaison figure.\n<strong>Function:</strong> Gives the sense that the dragons' war is happening above the characters' heads. She is not a means of transport \u2013 she is an equal actor.\n<strong>What she can do:</strong>\n<ul><li>Warn about chromatic dragon patrol patterns</li></ul>\n<ul><li>Coordinate metallic dragon air support</li></ul>\n<ul><li>Be offered as a deliberate sacrifice to create an opening (strong emotional scene)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 19 | 150 (12d12 + 60) | 40 ft., fly 80 ft. | 10 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 18 | 14 | 20 | 16 | 15 | 17 |\n| <strong>Modifier</strong> | +4 | +2 | +5 | +3 | +2 | +3 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | +8 | \u2014 | +5 | +6 |</p>\n<strong>Senses:</strong> Darkvision 120 ft., Passive Perception 12; <strong>Languages:</strong> Common, Draconic\n<strong>Skills:</strong> Insight +5, Perception +5, Diplomacy +6\n<strong>Damage Immunities:</strong> Fire\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (3/Day):</em> If Elia fails a saving throw, she can choose to succeed instead.</li></ul>\n<ul><li><em>Metallic Dragon Senses:</em> She sees in magical darkness and can sense good creatures within 1 mile.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Elia makes three attacks: two with her claws and one with her tail.</li></ul>\n<ul><li><em>Claw:</em> Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.</li></ul>\n<ul><li><em>Tail:</em> Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.</li></ul>\n<ul><li><em>Fire Breath (Recharge 5\u20136):</em> 60 ft. cone. Each creature must make a DC 16 Dexterity save, taking 55 (10d10) Fire damage on a failure, or half on a success.</li></ul>\n<strong>Legendary Actions:</strong> (3/turn) Elia can take 3 legendary actions, choosing from the options below. Only one option can be used per turn and only at the end of another creature's turn.\n<ul><li><em>Claw Attack:</em> Elia makes a claw attack.</li></ul>\n<ul><li><em>Tail Attack:</em> Elia makes a tail attack.</li></ul>\n<ul><li><em>Wing Attack (Costs 2 Actions):</em> Elia beats her wings. Each creature within 15 ft. of her must succeed on a DC 15 Dexterity save or take 11 (2d6 + 4) Bludgeoning damage and be knocked prone.</li></ul>\n<p>---</p>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Metallic dragon ally. Liaison figure.\n<strong>Function:</strong> Gives the sense that the dragons' war is happening above the characters' heads. She is not a means of transport \u2013 she is an equal actor.\n<strong>What she can do:</strong>\n<ul><li>Warn about chromatic dragon patrol patterns</li></ul>\n<ul><li>Coordinate metallic dragon air support</li></ul>\n<ul><li>Be offered as a deliberate sacrifice to create an opening (strong emotional scene)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 19 |\n| <strong>HP</strong> | 150 (12d12 + 60) |\n| <strong>Speed</strong> | 40 ft., fly 80 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 18 | 14 | 20 | 16 | 15 | 17 |\n| Modifier | +4 | +2 | +5 | +3 | +2 | +3 |\n| Save | +4 | +2 | +9 | +3 | +6 | +7 |</p>\n<strong>Skills:</strong> Insight +6, Perception +6, Persuasion +7\n<strong>Damage Immunities:</strong> Fire\n<strong>Senses:</strong> Darkvision 120 ft., Passive Perception 16\n<strong>Languages:</strong> Common, Draconic\n<strong>CR:</strong> 10\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (3/Day):</strong> If Elia fails a saving throw, she can choose to succeed instead.\n<strong>Metallic Dragon Senses:</strong> Elia sees normally in magical darkness and can sense the presence of good-aligned creatures within 1 mile of her.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Elia makes three attacks: two with her claws and one with her tail.\n<strong>Claw:</strong> Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.\n<strong>Tail:</strong> Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.\n<strong>Fire Breath (Recharge 5\u20136):</strong> Elia exhales fire in a 60-foot cone. Each creature in the area makes a DC 16 Dexterity save, taking 55 (10d10) Fire damage on a failure, or half as much on a success.\n<h3>Legendary Actions (3/Round)</h3>\n<p>Elia can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn.</p>\n<strong>Claw Attack (1 LA):</strong> Elia makes one claw attack.\n<strong>Tail Attack (1 LA):</strong> Elia makes one tail attack.\n<strong>Wing Attack (2 LA):</strong> Elia beats her wings. Each creature within 15 feet of her makes a DC 15 Dexterity save or takes 11 (2d6 + 4) Bludgeoning damage and is knocked prone.\n<p>---</p>",
           "public": ""
         },
         "alignment": "",
@@ -5946,7 +7521,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 10.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -6095,7 +7670,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         },
         "per": {
           "ability": "cha",
-          "value": 0,
+          "value": 1,
           "bonuses": {
             "check": "",
             "passive": ""
@@ -6165,7 +7740,296 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "ORjc9njg57ZF0n6U",
+        "type": "feat",
+        "name": "Legendary Resistance (3/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Elia fails a saving throw, she can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "mf3IZR5SAFXfzeVJ",
+        "type": "feat",
+        "name": "Metallic Dragon Senses",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Elia sees normally in magical darkness and can sense the presence of good-aligned creatures within 1 mile of her.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "SW9IxZovdpFIrt98",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Elia makes three attacks: two with her claws and one with her tail.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "Juuj1EEQWxJDygEc",
+        "type": "feat",
+        "name": "Claw",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "mv9FcRCzMOrmyeSg",
+        "type": "feat",
+        "name": "Tail",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "TLrzCqTetQKIvTAQ",
+        "type": "feat",
+        "name": "Fire Breath (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Elia exhales fire in a 60-foot cone. Each creature in the area makes a DC 16 Dexterity save, taking 55 (10d10) Fire damage on a failure, or half as much on a success.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "m3y51ARpm1Gozxu9",
+        "type": "feat",
+        "name": "Claw Attack (1 LA)",
+        "img": "icons/svg/upgrade.svg",
+        "system": {
+          "description": {
+            "value": "<p>Elia makes one claw attack.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "keMCfu7I6s2ymHRr",
+        "type": "feat",
+        "name": "Tail Attack (1 LA)",
+        "img": "icons/svg/upgrade.svg",
+        "system": {
+          "description": {
+            "value": "<p>Elia makes one tail attack.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "hD7isKsJaAvMJ3Dh",
+        "type": "feat",
+        "name": "Wing Attack (2 LA)",
+        "img": "icons/svg/upgrade.svg",
+        "system": {
+          "description": {
+            "value": "<p>Elia beats her wings. Each creature within 15 feet of her makes a DC 15 Dexterity save or takes 11 (2d6 + 4) Bludgeoning damage and is knocked prone.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -6179,7 +8043,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Sa8LhbnmzUhGsmyF",
+    "_id": "t3x2AIfD5Kl0sghh",
     "name": "Nyh Ilmichh",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -6195,7 +8059,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "dex": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -6204,7 +8068,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "con": {
-          "value": 10,
+          "value": 14,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -6213,8 +8077,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "int": {
-          "value": 10,
-          "proficient": 0,
+          "value": 17,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -6222,8 +8086,8 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "wis": {
-          "value": 10,
-          "proficient": 0,
+          "value": 15,
+          "proficient": 1,
           "max": null,
           "bonuses": {
             "check": "",
@@ -6231,7 +8095,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           }
         },
         "cha": {
-          "value": 10,
+          "value": 13,
           "proficient": 0,
           "max": null,
           "bonuses": {
@@ -6242,14 +8106,14 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "attributes": {
         "ac": {
-          "flat": 13,
+          "flat": 15,
           "calc": "flat",
           "formula": ""
         },
         "hp": {
-          "value": 18,
-          "max": 18,
-          "formula": "",
+          "value": 84,
+          "max": 84,
+          "formula": "13d8 + 26",
           "temp": 0,
           "tempmax": 0
         },
@@ -6285,7 +8149,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       },
       "details": {
         "biography": {
-          "value": "<h3>Profile</h3><strong>Role:</strong> Thayan envoy. Useful, cold, politically dangerous.\n<strong>Tone:</strong> Clinical courtesy. No warmth. Always observing. Never speaks unnecessarily.\n<strong>Motivations:</strong>\n<ul><li>Szass Tam desires order, not Tiamat's chaos</li></ul>\n<ul><li>Rath Modar and the renegade Red Wizards are traitors \u2013 they will be punished</li></ul>\n<ul><li>Thay helps because it is strategically wise, not out of goodness</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Teleportation circle access</li></ul>\n<ul><li>Thayan arcane support (limited)</li></ul>\n<ul><li>Information on Rath Modar's position and plans</li></ul>\n<strong>What it costs:</strong>\n<ul><li>A favor from the party (not specified now)</li></ul>\n<ul><li>Political silence about Thay's role (the council is informed minimally)</li></ul>\n<ul><li>Trust that Szass Tam's agents will not be attacked</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi hj\u00e6lper jer ikke fordi vi \u00f8nsker jeres succes. Vi hj\u00e6lper jer fordi Tiamat er en forstyrrelse. Der er forskel.\"\n<p>He waits for a response. If none comes:</p>\n<p>> \"Godt. Vi er enige.\"</p>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 15 | 84 (13d8 + 26) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 10 | 14 | 14 | 17 | 15 | 13 |\n| <strong>Modifier</strong> | +0 | +2 | +2 | +3 | +2 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +6 | +5 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common, Draconic, Infernal\n<strong>Skills:</strong> Arcana +6, Insight +5, Deception +4\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Nyh fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Red Wizard Discipline:</em> He gains a +1 bonus to spell save DCs and spell attack rolls.</li></ul>\n<strong>Spells:</strong> Cantrips: Fire Bolt, Prestidigitation. 1st\u20133rd level: Magic Missile, Shield, Counterspell, Fireball, Teleportation Circle\n<strong>Actions:</strong>\n<ul><li><em>Dagger:</em> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 2) Piercing damage.</li></ul>\n<ul><li><em>Arcane Barrage (Recharge 5\u20136):</em> 40 ft. cone. Each creature must make a DC 15 Dexterity save, taking 27 (6d8) Force damage on a failure, or half on a success.</li></ul>\n<ul><li><em>Teleportation (1/Day):</em> Nyh casts teleportation circle, creating a circle with a 10 ft. radius.</li></ul>",
+          "value": "<h3>Profile</h3><strong>Role:</strong> Thayan envoy. Useful, cold, politically dangerous.\n<strong>Tone:</strong> Clinical courtesy. No warmth. Always observing. Never speaks unnecessarily.\n<strong>Motivations:</strong>\n<ul><li>Szass Tam desires order, not Tiamat's chaos</li></ul>\n<ul><li>Rath Modar and the renegade Red Wizards are traitors \u2013 they will be punished</li></ul>\n<ul><li>Thay helps because it is strategically wise, not out of goodness</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Teleportation circle access</li></ul>\n<ul><li>Thayan arcane support (limited)</li></ul>\n<ul><li>Information on Rath Modar's position and plans</li></ul>\n<strong>What it costs:</strong>\n<ul><li>A favor from the party (not specified now)</li></ul>\n<ul><li>Political silence about Thay's role (the council is informed minimally)</li></ul>\n<ul><li>Trust that Szass Tam's agents will not be attacked</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi hj\u00e6lper jer ikke fordi vi \u00f8nsker jeres succes. Vi hj\u00e6lper jer fordi Tiamat er en forstyrrelse. Der er forskel.\"\n<p>He waits for a response. If none comes:</p>\n<p>> \"Godt. Vi er enige.\"</p>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 15 |\n| <strong>HP</strong> | 84 (13d8 + 26) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 10 | 14 | 14 | 17 | 15 | 13 |\n| Modifier | +0 | +2 | +2 | +3 | +2 | +1 |\n| Save | +0 | +2 | +2 | +6 | +5 | +1 |</p>\n<strong>Skills:</strong> Arcana +6, Insight +5, Deception +4\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common, Draconic, Infernal\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Nyh fails a saving throw, he can choose to succeed instead.\n<strong>Red Wizard Discipline:</strong> Nyh gains a +1 bonus to his spell save DC and spell attack rolls (already included in the statistics below).\n<strong>Spellcasting:</strong> Nyh is an 11th-level spellcaster. His spell save DC is 15, and his spell attack bonus is +7. He has the following spells prepared: Cantrips \u2014 Fire Bolt, Prestidigitation; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball, Teleportation Circle.\n<h3>Actions</h3>\n<strong>Dagger:</strong> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 2) Piercing damage.\n<strong>Arcane Barrage (Recharge 5\u20136):</strong> Nyh unleashes a 40-foot cone of force. Each creature in the area makes a DC 15 Dexterity save, taking 27 (6d8) Force damage on a failure, or half as much on a success.\n<strong>Teleportation (1/Day):</strong> Nyh casts teleportation circle, creating a permanent teleportation sigil with a 10-foot radius.",
           "public": ""
         },
         "alignment": "",
@@ -6297,7 +8161,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "custom": ""
         },
         "environment": "",
-        "cr": 1,
+        "cr": 6.0,
         "spellLevel": 0,
         "source": {
           "custom": "Tyranny of Dragons campaign"
@@ -6518,7 +8382,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "5RDmkXwCe0yRqZSy",
+        "_id": "vcwJiqr4YQyw80Zd",
         "type": "spell",
         "name": "Counterspell",
         "img": "icons/svg/item-bag.svg",
@@ -6657,7 +8521,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "KQRqOouLUpGOwJzm",
+        "_id": "hDqYmlG5v9NEReC2",
         "type": "spell",
         "name": "Fire Bolt",
         "img": "icons/svg/item-bag.svg",
@@ -6796,7 +8660,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "qDT4omgLr6ahMeut",
+        "_id": "ku0ALMGYH6gHb9ej",
         "type": "spell",
         "name": "Shield",
         "img": "icons/svg/item-bag.svg",
@@ -6933,6 +8797,198 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "systemId": "dnd5e",
           "systemVersion": "5.3.3"
         }
+      },
+      {
+        "_id": "pqKlRJaTufKRZBu1",
+        "type": "feat",
+        "name": "Legendary Resistance (2/Day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If Nyh fails a saving throw, he can choose to succeed instead.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "KEaSGA3SPcnIl4He",
+        "type": "feat",
+        "name": "Red Wizard Discipline",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Nyh gains a +1 bonus to his spell save DC and spell attack rolls (already included in the statistics below).</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "vnhUjvNm7STdpJtG",
+        "type": "feat",
+        "name": "Spellcasting",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Nyh is an 11th-level spellcaster. His spell save DC is 15, and his spell attack bonus is +7. He has the following spells prepared: Cantrips \u2014 Fire Bolt, Prestidigitation; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball, Teleportation Circle.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "gKCmKugYL5FlGdEE",
+        "type": "feat",
+        "name": "Dagger",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 2) Piercing damage.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "N7Gq9b6hxCwitOhG",
+        "type": "feat",
+        "name": "Arcane Barrage (Recharge 5\u20136)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Nyh unleashes a 40-foot cone of force. Each creature in the area makes a DC 15 Dexterity save, taking 27 (6d8) Force damage on a failure, or half as much on a success.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "uyOlGyOHmebbjJUl",
+        "type": "feat",
+        "name": "Teleportation (1/Day)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>Nyh casts teleportation circle, creating a permanent teleportation sigil with a 10-foot radius.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
       }
     ],
     "effects": [],
@@ -6948,7 +9004,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "QYyAuhaEq2Iw7kHH",
+    "_id": "ElV2GkJcvX1hp6Sq",
     "name": "Naergoth Bladelord",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -7285,7 +9341,328 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [],
+    "items": [
+      {
+        "_id": "4qs9rwGdXenOYovB",
+        "type": "feat",
+        "name": "Undead Fortitude",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>If damage reduces him to 0 HP: CON save DC 5 + damage dealt. Success = 1 HP instead. Does not work against radiant damage or critical hits.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "LrtdrJ9pddxAuRji",
+        "type": "feat",
+        "name": "Legendary Resistance (1/day)",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>Can choose to succeed on a failed save 1 time.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "8hs6IN6uiuLUrHw0",
+        "type": "feat",
+        "name": "Weapon Bond",
+        "img": "icons/svg/aura.svg",
+        "system": {
+          "description": {
+            "value": "<p>His sword returns to his hand as a Bonus Action.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "0sCPQZNlcZqiMIMD",
+        "type": "feat",
+        "name": "Multiattack",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>2\u00d7 Longsword</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "7WkjGZaQozj6yXEo",
+        "type": "feat",
+        "name": "Longsword",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>+9, 1d8+5 slashing + 1d6 necrotic (2d10+5 in two-handed grip)</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "LTWpGtm5fwOMhNp5",
+        "type": "feat",
+        "name": "Blade Storm (Recharge 5-6)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>15 ft. radius, all in radius: DC 17 DEX save. 4d10+5 slashing + 3d6 necrotic. Halved on success.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "nIIpabM444p1sWrf",
+        "type": "feat",
+        "name": "Life Drain (Recharge 6)",
+        "img": "icons/svg/sword.svg",
+        "system": {
+          "description": {
+            "value": "<p>+9 to hit, target DC 15 CON save on hit. Failure: max HP reduced by the damage dealt. Naergoth heals accordingly.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "mFtH6DpAXJBjwsB4",
+        "type": "feat",
+        "name": "Move (1 LA)",
+        "img": "icons/svg/upgrade.svg",
+        "system": {
+          "description": {
+            "value": "<p>Moves without provoking opportunity attacks.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "iW16JH4DJLD8FOIR",
+        "type": "feat",
+        "name": "Necrotic Strike (1 LA)",
+        "img": "icons/svg/upgrade.svg",
+        "system": {
+          "description": {
+            "value": "<p>+9, 1d6+5 slashing + 2d6 necrotic.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      },
+      {
+        "_id": "6xwBFZvxMQVCiu4q",
+        "type": "feat",
+        "name": "Intimidating Presence (2 LA)",
+        "img": "icons/svg/upgrade.svg",
+        "system": {
+          "description": {
+            "value": "<p>30 ft., DC 14 WIS save or Frightened until end of next turn.</p>",
+            "chat": ""
+          },
+          "source": {
+            "custom": "Tyranny of Dragons campaign",
+            "revision": 1,
+            "rules": "2024"
+          }
+        },
+        "effects": [],
+        "flags": {},
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null,
+          "coreVersion": "13.351",
+          "systemId": "dnd5e",
+          "systemVersion": "5.3.3"
+        }
+      }
+    ],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -7299,7 +9676,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Tlh9fvuNLx7bDphW",
+    "_id": "pecWQEomkllu2RvZ",
     "name": "Severin",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/severin-masked-token_20260516_164450_1.png",
@@ -7829,7 +10206,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "877KEp3WJxsFh2vm",
+        "_id": "JuSdmGzx3YMpbfow",
         "type": "spell",
         "name": "Counterspell",
         "img": "icons/svg/item-bag.svg",
@@ -7968,7 +10345,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "68o5oHboAyzcaTsu",
+        "_id": "lpWIp9qnBqDcYX3a",
         "type": "spell",
         "name": "Detect Magic",
         "img": "icons/svg/item-bag.svg",
@@ -8107,7 +10484,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "LqiLPKGgZgm0Yz8U",
+        "_id": "9IMOJNvPE4CT6Dgo",
         "type": "spell",
         "name": "Dominate Monster",
         "img": "icons/svg/item-bag.svg",
@@ -8246,7 +10623,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "RDuoz511ddyY8EEV",
+        "_id": "3DUf8oLLGUlVeg7i",
         "type": "spell",
         "name": "Dominate Person",
         "img": "icons/svg/item-bag.svg",
@@ -8385,7 +10762,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "nVvScl23tK7ksrz8",
+        "_id": "yjUfPbpQ67sCr9XJ",
         "type": "spell",
         "name": "Eldritch Blast",
         "img": "icons/svg/item-bag.svg",
@@ -8524,7 +10901,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "c8wxOrnwsYNXQou9",
+        "_id": "BfATkNFHYy16helh",
         "type": "spell",
         "name": "Eyebite",
         "img": "icons/svg/item-bag.svg",
@@ -8663,7 +11040,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "FYJw0oYPVT7exIHI",
+        "_id": "UsOGuWWc1LG2Knh3",
         "type": "spell",
         "name": "Finger Of Death",
         "img": "icons/svg/item-bag.svg",
@@ -8802,7 +11179,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "SEmxYdYFzHtbQpKx",
+        "_id": "6eC6rJitXHakkRGa",
         "type": "spell",
         "name": "Fire Bolt",
         "img": "icons/svg/item-bag.svg",
@@ -8941,7 +11318,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Wyqd6kBLafSD0lHQ",
+        "_id": "IOMDLVhW3lZOey2x",
         "type": "spell",
         "name": "Globe Of Invulnerability",
         "img": "icons/svg/item-bag.svg",
@@ -9080,7 +11457,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Ro2LqKyLwlAtX1xa",
+        "_id": "v1lhBkjIMnSmYECk",
         "type": "spell",
         "name": "Hold Monster",
         "img": "icons/svg/item-bag.svg",
@@ -9219,7 +11596,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "utlHtnqUfbHI722N",
+        "_id": "1Tc9SncdAUmOdlU7",
         "type": "spell",
         "name": "Mind Sliver",
         "img": "icons/svg/item-bag.svg",
@@ -9358,7 +11735,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "cyiYNA6fircv7oQ8",
+        "_id": "odDGS6SMerViBmGi",
         "type": "spell",
         "name": "Plane Shift",
         "img": "icons/svg/item-bag.svg",
@@ -9497,7 +11874,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "khISbYONwurv42mY",
+        "_id": "7QUPTzYPfPP5imKv",
         "type": "spell",
         "name": "Shield",
         "img": "icons/svg/item-bag.svg",
@@ -9636,7 +12013,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "9HexsHCUcNj2zq4T",
+        "_id": "MoKBC3YIgoENrBMe",
         "type": "spell",
         "name": "Speak With Animals",
         "img": "icons/svg/item-bag.svg",
@@ -9775,7 +12152,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "avs0d6EEpny3zkyu",
+        "_id": "w2vn1ZRjRiCuSAiU",
         "type": "spell",
         "name": "Wall Of Fire",
         "img": "icons/svg/item-bag.svg",
@@ -9914,7 +12291,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "oU9x3tVzCUfoskyO",
+        "_id": "9hdNReDFQqAANLsl",
         "type": "spell",
         "name": "Wish",
         "img": "icons/svg/item-bag.svg",
@@ -10053,7 +12430,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "o0J9J8Asj4Dz0yAH",
+        "_id": "hK48doc4Ly8NPaxS",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -10085,7 +12462,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "lhugAjkFwDBmlUEK",
+        "_id": "nlsvQrSzbp40J82i",
         "type": "feat",
         "name": "Mask Resonance (Recharge 5-6)",
         "img": "icons/svg/aura.svg",
@@ -10117,7 +12494,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "94sTrOPsXI0vmQrG",
+        "_id": "EqqeIRYaWbHxjlKx",
         "type": "feat",
         "name": "Ritual Action (Bonus Action, 1/round)",
         "img": "icons/svg/aura.svg",
@@ -10149,7 +12526,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "R4GyMIEmwVh6Qimu",
+        "_id": "xFOYVT7kcbKQKQOe",
         "type": "feat",
         "name": "Portal Ward",
         "img": "icons/svg/aura.svg",
@@ -10181,7 +12558,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "KMmtdlzb3PTy5anX",
+        "_id": "PYc1k8eaa9nFVDDd",
         "type": "feat",
         "name": "Champion of Tiamat (Clock 5+)",
         "img": "icons/svg/aura.svg",
@@ -10213,7 +12590,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "dGA3DIMN4HLP20x6",
+        "_id": "W8WQiGtPBWot7NVS",
         "type": "feat",
         "name": "Dragon Scale Robes of the Five",
         "img": "icons/svg/aura.svg",
@@ -10245,7 +12622,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "bko2LumY8JNYujPs",
+        "_id": "BVii13KegVFU4e0q",
         "type": "feat",
         "name": "Innate Casting",
         "img": "icons/svg/aura.svg",
@@ -10277,7 +12654,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "6AA5WBzmSaFJ0AYC",
+        "_id": "VElvZGm3dl5qk3dF",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -10309,7 +12686,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "zTFIuWOUaqjsRyYD",
+        "_id": "hC0HfjaEneUCZpVF",
         "type": "feat",
         "name": "Eldritch Blast",
         "img": "icons/svg/sword.svg",
@@ -10341,7 +12718,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "F40NyhQvhXqcE6rs",
+        "_id": "jVrbIoJunwGQUjgs",
         "type": "feat",
         "name": "Shield (Reaction)",
         "img": "icons/svg/sword.svg",
@@ -10373,7 +12750,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "j5w4NSKobLd9XlhA",
+        "_id": "eXiRQZbzb4t7OR1i",
         "type": "feat",
         "name": "Spellcasting (Spell Save DC 20, Spell Attack +12)",
         "img": "icons/svg/sword.svg",
@@ -10405,7 +12782,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "tzLauD8Zxj8GmCqD",
+        "_id": "oEz5VCgqe3xpteSC",
         "type": "feat",
         "name": "Legendary Action: Eldritch Blast (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -10437,7 +12814,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "E9W3cBIdAjiecyk2",
+        "_id": "y7D50OBau0XVo8hS",
         "type": "feat",
         "name": "Legendary Action: Ritual Surge (2 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -10469,7 +12846,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "ZE7BFhzsf47wBW7Q",
+        "_id": "COnZripiNo0Wl9bR",
         "type": "feat",
         "name": "Legendary Action: Summon Devout (3 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -10514,7 +12891,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Foo7RDVyjnxwNpLR",
+    "_id": "qttYfFokQzOsqi3n",
     "name": "Cultist",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -10865,7 +13242,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "hBTuVlPvXPHRlt07",
+    "_id": "Eq5OPAS6CvIgqf1C",
     "name": "Cult Fanatic",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -11216,7 +13593,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "oyQKykGEAmJo8f2s",
+    "_id": "8OpSGchocMlJGwOb",
     "name": "Commoner",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -11567,7 +13944,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "H8HaGgMVoQrGx9py",
+    "_id": "jYiwY7jUBTc13xTx",
     "name": "Black Dragon Wyrmling",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -11918,7 +14295,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "TI6ozHnupkpbXhuk",
+    "_id": "BGyUtSjK5mKCJjRu",
     "name": "Air Elemental",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -12269,7 +14646,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "7gwA9Kz1BGglOqPS",
+    "_id": "cwkVuZiHOzJjbYZC",
     "name": "Stone Golem",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -12620,7 +14997,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "MOHMpkbKVgw19zuI",
+    "_id": "k2AMBZGdXYpDbQ49",
     "name": "Flesh Golem",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -12971,7 +15348,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "FJquKI8pZXT5OJYp",
+    "_id": "QtFoeRQ18aovlMs8",
     "name": "Green Hag",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
@@ -13322,7 +15699,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "gVOugduZL7bwDmDG",
+    "_id": "Dn16fKUhWIChwaXr",
     "name": "Wight",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -13673,7 +16050,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "hxFFWJjVIb1yO185",
+    "_id": "c8RePat8vqLb9UeK",
     "name": "Mage",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -14024,7 +16401,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "9xkVMnAbW5Rb8rBV",
+    "_id": "94AJIdCmlzgcIKAU",
     "name": "Barbed Devil",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -14375,7 +16752,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "XtPgvXqTlLzXLqpC",
+    "_id": "OyrPLF1ZsutmmUpE",
     "name": "Dragonclaw",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -14726,7 +17103,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "FHJZcCubtUPLrPvl",
+    "_id": "jDUhvm70LEHDfKoM",
     "name": "Dragonwing",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -15077,7 +17454,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "nsUQg5VfTT2EHJkK",
+    "_id": "yw3D7nppZtHMjWa8",
     "name": "Dragonfang",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonfang-fighter-token_20260516_170907_1.png",
@@ -15428,7 +17805,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "J81hfrgegqXHnTWa",
+    "_id": "eodcwg7PYfq2kd2v",
     "name": "Dragonsoul",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -15779,7 +18156,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "yndnymYEhNVzstn8",
+    "_id": "mA95PukeQHxoPys1",
     "name": "White Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
@@ -16130,7 +18507,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "DR02qnRx5LMk5CuA",
+    "_id": "z0VAgcxU21K0IROk",
     "name": "Black Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png",
@@ -16481,7 +18858,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "EShCHOArzkRRK15E",
+    "_id": "hxKklYCcHMBzjlsu",
     "name": "Green Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
@@ -16832,7 +19209,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "7a4MWIWncD1tQDdG",
+    "_id": "T3Isn3RjUEuHGge2",
     "name": "Blue Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
@@ -17214,7 +19591,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         },
         "effects": [],
         "flags": {},
-        "_id": "p87pYoKTw5IQQy88"
+        "_id": "SnnT8VStxvwyu1Jh"
       }
     ],
     "effects": [],
@@ -17230,7 +19607,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Tuj7J1tpspWNw2h8",
+    "_id": "CCu5WD6xHRfRqWJh",
     "name": "Frost Giant Skeleton",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -17581,7 +19958,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "dwNNECPTGg0d4pgD",
+    "_id": "6Dup8rrlYegTgzVf",
     "name": "Dragonbone Crawler",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -17932,7 +20309,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Ep8PtAncqZ2Y3sLH",
+    "_id": "0UFTEYG7yFwik22Y",
     "name": "Half-Dragon Red",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
@@ -18283,7 +20660,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "8mNxqpOAujLHdt2z",
+    "_id": "kjvrGUQjq8rqUVXn",
     "name": "Yuan-Ti Mind Whisperer",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -18634,7 +21011,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "6nQKYGX7jxU3J4kU",
+    "_id": "7TymWbNwRsxOlx1J",
     "name": "Severin Silrajin (Phase 1)",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/severin-masked-token_20260516_164450_1.png",
@@ -18985,7 +21362,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Ie3mlGZGqDS4kKwx",
+    "_id": "VRiaYZgVPXxgyLc8",
     "name": "Severin Silrajin (Phase 2)",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/severin-masked-token_20260516_164450_1.png",
@@ -19336,7 +21713,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "i7op83IToOfgPYjS",
+    "_id": "aG3yVRDhhwx7M4U4",
     "name": "Rath Modar",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rath-modar-token_20260516_164527_1.png",
@@ -19718,7 +22095,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         },
         "effects": [],
         "flags": {},
-        "_id": "h0CTryw72MPYP8d7"
+        "_id": "NFOkkq83Rtsa4BK5"
       }
     ],
     "effects": [],
@@ -19734,7 +22111,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "7Zh5KSYFRWJMcbex",
+    "_id": "gMU34OGn6GqRO3xF",
     "name": "Red Wizard (Veksin)",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
@@ -20085,7 +22462,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "F8vHzKJ4hiCHx5hk",
+    "_id": "0UdCHcZxIKoK8wZl",
     "name": "Tiamat - White Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -20436,7 +22813,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "djpGyKFO4mQieT8X",
+    "_id": "3WLWbMWAfBm8GkMu",
     "name": "Tiamat - Black Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png",
@@ -20787,7 +23164,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "XKW4sffb6GcC0Ady",
+    "_id": "O77ls7iAthVEditf",
     "name": "Tiamat - Green Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
@@ -21138,7 +23515,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "HikiAtWn357PoX3d",
+    "_id": "Aj3RZx0GcyQHhGc1",
     "name": "Tiamat - Blue Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
@@ -21489,7 +23866,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "pY6Kx4vjv5crB8Ej",
+    "_id": "vg8y7VyTXUQeTJ9j",
     "name": "Tiamat - Red Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
@@ -21840,7 +24217,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "lmiVjWmIqnHcd2d1",
+    "_id": "Uhjtqqc38rfbGLFt",
     "name": "Naergoth Bladelord (Wight)",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -22191,7 +24568,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "DuAioJB7vTJR3MXP",
+    "_id": "GHykOggmQd2xSGEs",
     "name": "Stirleng",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -22544,7 +24921,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "WdEuVeXecKbUY0Jl",
+    "_id": "729SINtT0SGA6yVk",
     "name": "Stirling",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -22897,7 +25274,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "0cJ7EjBjheLfX4XH",
+    "_id": "sxWHxggU8V8OGx6E",
     "name": "Kess",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -23250,7 +25627,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "IPeJlQJ5h6b1t0nx",
+    "_id": "FdQmBDkBkv3r4tyU",
     "name": "Thorne",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rath-modar-token_20260516_164527_1.png",
@@ -23603,7 +25980,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "JWqkWznA8CvIbZiG",
+    "_id": "iGQHEAmBmM3MMa9v",
     "name": "Marta",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -23956,7 +26333,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Nc5oRDGJAEeaqSga",
+    "_id": "ZwUBk01UvfAK8afM",
     "name": "Fen",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -24309,7 +26686,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "FVhpVSFmrniVwHiG",
+    "_id": "9GeImUTeJq1qNG7N",
     "name": "Older Woman (Banner Bearer)",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -24666,11 +27043,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Journal data
   const journalData = [
   {
-    "_id": "AnveNOyMuS8gJwxX",
+    "_id": "Icq8KrtTigKKArIS",
     "name": "Council Of Waterdeep",
     "pages": [
       {
-        "_id": "wBX97AiHxlPcIrMJ",
+        "_id": "Y8f3ycbwqTh9zO98",
         "name": "Overview",
         "type": "text",
         "title": {
@@ -24698,7 +27075,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Mv4wpoBhkRANfHNG",
+        "_id": "lekPnPxhXVR9hbjJ",
         "name": "Dagult Neverember",
         "type": "text",
         "title": {
@@ -24706,7 +27083,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Political heavyweight, but self-promoting. Open Lord of Waterdeep.\n<strong>Tone:</strong> Slick, professional, always with an agenda. Not dishonest \u2013 but always looking out for Neverwinter and his own position.\n<strong>Motivations:</strong>\n<ul><li>Protect his political legacy</li></ul>\n<ul><li>Waterdeep must not fall (it is his base)</li></ul>\n<ul><li>Neverwinter is his lifeblood \u2013 attacks against it are personal</li></ul>\n<strong>What he offers:</strong>\n<ul><li>The largest military resource of any council member</li></ul>\n<ul><li>Political compromise and alliance coordination</li></ul>\n<ul><li>Access to Waterdeep's Dragonward information</li></ul>\n<strong>What he requires:</strong>\n<ul><li>That his armies are not sent on suicide attacks</li></ul>\n<ul><li>That Neverwinter is not sacrificed for Well of Dragons</li></ul>\n<ul><li>Recognition of the Lord's Alliance as the primary force</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Jeg sender Lord's Alliance's h\u00e6r. Men lad mig v\u00e6re tydelig: de marcherer for Waterdeep, ikke for et abstrakt ideal om dragetilbedelse. Hvis frontlinjen kn\u00e6kker ved Neverwinter, tr\u00e6kker jeg styrker hjem. Forst\u00e5et?\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 15 | 84 (13d8 + 26) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 14 | 15 | 14 | 16 | 13 | 17 |\n| <strong>Modifier</strong> | +2 | +2 | +2 | +3 | +1 | +3 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +6 | \u2014 | +6 |</p>\n<strong>Senses:</strong> Passive Perception 11; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Insight +4, Persuasion +6, Deception +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (3/Day):</em> If Dagult fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Tactical Acumen:</em> Advantage on initiative rolls.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Dagult makes two attacks with his rapier or uses Counterspell.</li></ul>\n<ul><li><em>Rapier:</em> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 2) Piercing damage.</li></ul>\n<ul><li><em>Counterspell (Recharge 5\u20136):</em> Reaction. Dagult casts counterspell.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Political heavyweight, but self-promoting. Open Lord of Waterdeep.\n<strong>Tone:</strong> Slick, professional, always with an agenda. Not dishonest \u2013 but always looking out for Neverwinter and his own position.\n<strong>Motivations:</strong>\n<ul><li>Protect his political legacy</li></ul>\n<ul><li>Waterdeep must not fall (it is his base)</li></ul>\n<ul><li>Neverwinter is his lifeblood \u2013 attacks against it are personal</li></ul>\n<strong>What he offers:</strong>\n<ul><li>The largest military resource of any council member</li></ul>\n<ul><li>Political compromise and alliance coordination</li></ul>\n<ul><li>Access to Waterdeep's Dragonward information</li></ul>\n<strong>What he requires:</strong>\n<ul><li>That his armies are not sent on suicide attacks</li></ul>\n<ul><li>That Neverwinter is not sacrificed for Well of Dragons</li></ul>\n<ul><li>Recognition of the Lord's Alliance as the primary force</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Jeg sender Lord's Alliance's h\u00e6r. Men lad mig v\u00e6re tydelig: de marcherer for Waterdeep, ikke for et abstrakt ideal om dragetilbedelse. Hvis frontlinjen kn\u00e6kker ved Neverwinter, tr\u00e6kker jeg styrker hjem. Forst\u00e5et?\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 15 |\n| <strong>HP</strong> | 84 (13d8 + 26) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 14 | 15 | 14 | 16 | 13 | 17 |\n| Modifier | +2 | +2 | +2 | +3 | +1 | +3 |\n| Save | +2 | +2 | +2 | +6 | +1 | +6 |</p>\n<strong>Skills:</strong> Insight +4, Persuasion +6, Deception +6\n<strong>Senses:</strong> Passive Perception 11\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (3/Day):</strong> If Dagult fails a saving throw, he can choose to succeed instead.\n<strong>Tactical Acumen:</strong> Dagult has advantage on initiative rolls.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Dagult makes two attacks with his rapier, or makes one rapier attack and casts Counterspell.\n<strong>Rapier:</strong> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 2) Piercing damage.\n<strong>Counterspell (Recharge 5\u20136):</strong> Dagult casts counterspell, interrupting another creature's spell.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24726,7 +27103,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bBUn4nvqFybFltGb",
+        "_id": "HE28X5vvxp6knVjn",
         "name": "Ulder Ravengard",
         "type": "text",
         "title": {
@@ -24734,7 +27111,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Grand Duke of Baldur's Gate, leader of Flaming Fist. The military pragmatist.\n<strong>Tone:</strong> Direct, solution-oriented. Prefers action over speeches. Speaks in casualty figures and supply lines.\n<strong>Motivations:</strong>\n<ul><li>Protect Baldur's Gate</li></ul>\n<ul><li>Defeat the dragon cult militarily (not politically)</li></ul>\n<ul><li>Human lives have a price \u2013 he counts them</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Flaming Fist as shock troops</li></ul>\n<ul><li>Military coordination and logistics</li></ul>\n<ul><li>The Hellrider connection (Elturel)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Clear objectives, not open mandates</li></ul>\n<ul><li>Respect for his officers' decisions in the field</li></ul>\n<ul><li>No political talk during active combat</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi har mistet tolv officerer denne uge. Tolv. Det er ikke abstrakt for mig. Fort\u00e6l mig pr\u00e6cist hvad I har brug for, og hvad I kan love som geng\u00e6ld. Intet andet.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 17 | 110 (13d10 + 39) | 30 ft. | 8 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 17 | 15 | 16 | 13 | 14 | 15 |\n| <strong>Modifier</strong> | +3 | +2 | +3 | +1 | +2 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +6 | \u2014 | +2 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Athletics +6, Insight +5, Intimidation +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Ulder fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Battlemaster's Insight:</em> Ulder has advantage on Wisdom (Insight) checks.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Ulder makes three attacks with his longsword.</li></ul>\n<ul><li><em>Longsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Flaming Fist's Roar (Recharge 5\u20136):</em> 30 ft. cone of fire. Each creature must make a DC 15 Dexterity save, taking 36 (8d8) Fire damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Grand Duke of Baldur's Gate, leader of Flaming Fist. The military pragmatist.\n<strong>Tone:</strong> Direct, solution-oriented. Prefers action over speeches. Speaks in casualty figures and supply lines.\n<strong>Motivations:</strong>\n<ul><li>Protect Baldur's Gate</li></ul>\n<ul><li>Defeat the dragon cult militarily (not politically)</li></ul>\n<ul><li>Human lives have a price \u2013 he counts them</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Flaming Fist as shock troops</li></ul>\n<ul><li>Military coordination and logistics</li></ul>\n<ul><li>The Hellrider connection (Elturel)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Clear objectives, not open mandates</li></ul>\n<ul><li>Respect for his officers' decisions in the field</li></ul>\n<ul><li>No political talk during active combat</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi har mistet tolv officerer denne uge. Tolv. Det er ikke abstrakt for mig. Fort\u00e6l mig pr\u00e6cist hvad I har brug for, og hvad I kan love som geng\u00e6ld. Intet andet.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 17 |\n| <strong>HP</strong> | 110 (13d10 + 39) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 17 | 15 | 16 | 13 | 14 | 15 |\n| Modifier | +3 | +2 | +3 | +1 | +2 | +2 |\n| Save | +6 | +2 | +6 | +1 | +2 | +2 |</p>\n<strong>Skills:</strong> Athletics +6, Insight +5, Intimidation +5\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 8\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Ulder fails a saving throw, he can choose to succeed instead.\n<strong>Battlemaster's Insight:</strong> Ulder has advantage on Wisdom (Insight) checks made to read an enemy's tactics.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Ulder makes three attacks with his longsword.\n<strong>Longsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.\n<strong>Flaming Fist's Roar (Recharge 5\u20136):</strong> Ulder unleashes a 30-foot cone of fire. Each creature in the area makes a DC 15 Dexterity save, taking 36 (8d8) Fire damage on a failure, or half as much on a success.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24754,7 +27131,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "406NKeqEsA1QKI4y",
+        "_id": "WiRJUh9EQLKl0b4Q",
         "name": "Remallia Haventree",
         "type": "text",
         "title": {
@@ -24762,7 +27139,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Harper representative. Quiet, sharp, emotionally controlled.\n<strong>Tone:</strong> Calm. Never hot-headed. But behind the control there is loss \u2013 many Harpers are dead.\n<strong>Motivations:</strong>\n<ul><li>Protect information and the intelligence network</li></ul>\n<ul><li>Leosin's sacrifice is acknowledged (she carries his legacy)</li></ul>\n<ul><li>Harpers prioritize long-term consequences over short-term victory</li></ul>\n<strong>What she offers:</strong>\n<ul><li>Intelligence, maps, secret passages</li></ul>\n<ul><li>Harper agents in the field</li></ul>\n<ul><li>Remallia's map of Well of Dragons routes (obtained at the cost of Leosin's life and six others)</li></ul>\n<strong>What she requires:</strong>\n<ul><li>Discretion about Harper operations</li></ul>\n<ul><li>That the party does not use secret passages in ways that expose them</li></ul>\n<ul><li>Acknowledgment of what it cost to obtain the information</li></ul>\n<strong>Key Scene \u2013 the map:</strong>\n> Remallia folder kortet ud uden dramatik. Hendes h\u00e6nder ryster kun \u00e9n gang. I hj\u00f8rnet af pergamentet er der m\u00f8rke pletter, ikke bl\u00e6k.\n>\n> \"Leosin fandt ruten. Han og seks andre holdt kultisterne tilbage l\u00e6nge nok til, at beskeden kunne n\u00e5 ud. Det her kort kostede os mere end guld.\"\n>\n> Hun ser direkte p\u00e5 jer.\n>\n> \"Brug det rigtigt.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 15 | 66 (12d8 + 12) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 11 | 16 | 12 | 15 | 16 | 13 |\n| <strong>Modifier</strong> | +0 | +3 | +1 | +2 | +3 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | +6 | \u2014 | +5 | +6 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 13; <strong>Languages:</strong> Common, Thieves' Cant\n<strong>Skills:</strong> Stealth +6, Insight +6, Perception +6, Deception +4\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Remallia fails a saving throw, she can choose to succeed instead.</li></ul>\n<ul><li><em>Uncanny Dodge:</em> When an attacker hits her with an attack roll, she can use a reaction to halve the damage.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Remallia makes two attacks with her shortbow or shortsword.</li></ul>\n<ul><li><em>Shortsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 3) Piercing damage.</li></ul>\n<ul><li><em>Shortbow:</em> Ranged Attack Roll: +6, range 80/320 ft. Hit: 7 (1d6 + 3) Piercing damage.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Harper representative. Quiet, sharp, emotionally controlled.\n<strong>Tone:</strong> Calm. Never hot-headed. But behind the control there is loss \u2013 many Harpers are dead.\n<strong>Motivations:</strong>\n<ul><li>Protect information and the intelligence network</li></ul>\n<ul><li>Leosin's sacrifice is acknowledged (she carries his legacy)</li></ul>\n<ul><li>Harpers prioritize long-term consequences over short-term victory</li></ul>\n<strong>What she offers:</strong>\n<ul><li>Intelligence, maps, secret passages</li></ul>\n<ul><li>Harper agents in the field</li></ul>\n<ul><li>Remallia's map of Well of Dragons routes (obtained at the cost of Leosin's life and six others)</li></ul>\n<strong>What she requires:</strong>\n<ul><li>Discretion about Harper operations</li></ul>\n<ul><li>That the party does not use secret passages in ways that expose them</li></ul>\n<ul><li>Acknowledgment of what it cost to obtain the information</li></ul>\n<strong>Key Scene \u2013 the map:</strong>\n> Remallia folder kortet ud uden dramatik. Hendes h\u00e6nder ryster kun \u00e9n gang. I hj\u00f8rnet af pergamentet er der m\u00f8rke pletter, ikke bl\u00e6k.\n>\n> \"Leosin fandt ruten. Han og seks andre holdt kultisterne tilbage l\u00e6nge nok til, at beskeden kunne n\u00e5 ud. Det her kort kostede os mere end guld.\"\n>\n> Hun ser direkte p\u00e5 jer.\n>\n> \"Brug det rigtigt.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 15 |\n| <strong>HP</strong> | 66 (12d8 + 12) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 11 | 16 | 12 | 15 | 16 | 13 |\n| Modifier | +0 | +3 | +1 | +2 | +3 | +1 |\n| Save | +0 | +6 | +1 | +5 | +6 | +1 |</p>\n<strong>Skills:</strong> Stealth +6, Insight +6, Perception +6, Deception +4\n<strong>Senses:</strong> Passive Perception 13\n<strong>Languages:</strong> Common, Thieves' Cant\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Remallia fails a saving throw, she can choose to succeed instead.\n<strong>Uncanny Dodge:</strong> When an attacker she can see hits her with an attack roll, she uses a reaction to halve the attack's damage against her.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Remallia makes two attacks with her shortbow or shortsword.\n<strong>Shortsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 3) Piercing damage.\n<strong>Shortbow:</strong> Ranged Attack Roll: +6, range 80/320 ft. Hit: 7 (1d6 + 3) Piercing damage.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24782,7 +27159,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wrlaVhrZu2W7ty49",
+        "_id": "cbNLNJDm3mqQMosj",
         "name": "Ontharr Frume",
         "type": "text",
         "title": {
@@ -24790,7 +27167,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Order of the Gauntlet. Paladin. Direct, brave, religiously motivated.\n<strong>Tone:</strong> Loud, enthusiastic, but not stupid. Pushes for direct attack. Will not tolerate intrigue.\n<strong>Motivations:</strong>\n<ul><li>Tiamat is the absolute enemy \u2013 to be removed with violence and justice</li></ul>\n<ul><li>Heroism is respected</li></ul>\n<ul><li>Compromise with evil forces is forbidden (the Thay alliance is his personal nightmare)</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Order of the Gauntlet cavalry</li></ul>\n<ul><li>Paladins for front-line healing and anti-undead support</li></ul>\n<ul><li>Moral authority in the council (his voice carries weight)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>No negotiations with the dragon cult</li></ul>\n<ul><li>The Thay alliance must be explained and defended \u2013 he approves reluctantly</li></ul>\n<ul><li>Active combat, not strategic hesitation</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Tal ikke til mig om 'strategisk forsinkelse.' Der er en portal til Avernus \u00e5ben ved Well of Dragons. Vi <em>marscherer</em>.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 18 | 99 (11d10 + 44) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 16 | 12 | 18 | 10 | 16 | 15 |\n| <strong>Modifier</strong> | +3 | +1 | +4 | +0 | +3 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +7 | \u2014 | +6 | +5 |</p>\n<strong>Senses:</strong> Passive Perception 13; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Athletics +6, Insight +6, Medicine +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Ontharr fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Divine Smite:</em> When he hits a creature with a weapon attack, he can expend one spell slot to deal an extra 11 (2d10) radiant damage.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Ontharr makes two attacks with his greatsword.</li></ul>\n<ul><li><em>Greatsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.</li></ul>\n<ul><li><em>Holy Light (Recharge 5\u20136):</em> 30 ft. cone. Each creature must make a DC 15 Wisdom save, taking 27 (6d8) radiant damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Order of the Gauntlet. Paladin. Direct, brave, religiously motivated.\n<strong>Tone:</strong> Loud, enthusiastic, but not stupid. Pushes for direct attack. Will not tolerate intrigue.\n<strong>Motivations:</strong>\n<ul><li>Tiamat is the absolute enemy \u2013 to be removed with violence and justice</li></ul>\n<ul><li>Heroism is respected</li></ul>\n<ul><li>Compromise with evil forces is forbidden (the Thay alliance is his personal nightmare)</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Order of the Gauntlet cavalry</li></ul>\n<ul><li>Paladins for front-line healing and anti-undead support</li></ul>\n<ul><li>Moral authority in the council (his voice carries weight)</li></ul>\n<strong>What he requires:</strong>\n<ul><li>No negotiations with the dragon cult</li></ul>\n<ul><li>The Thay alliance must be explained and defended \u2013 he approves reluctantly</li></ul>\n<ul><li>Active combat, not strategic hesitation</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Tal ikke til mig om 'strategisk forsinkelse.' Der er en portal til Avernus \u00e5ben ved Well of Dragons. Vi <em>marscherer</em>.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 18 |\n| <strong>HP</strong> | 99 (11d10 + 44) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 16 | 12 | 18 | 10 | 16 | 15 |\n| Modifier | +3 | +1 | +4 | +0 | +3 | +2 |\n| Save | +6 | +1 | +7 | +0 | +6 | +5 |</p>\n<strong>Skills:</strong> Athletics +6, Insight +6, Medicine +6\n<strong>Senses:</strong> Passive Perception 13\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Ontharr fails a saving throw, he can choose to succeed instead.\n<strong>Divine Smite:</strong> When Ontharr hits a creature with a weapon attack, he can expend one spell slot to deal an extra 11 (2d10) Radiant damage.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Ontharr makes two attacks with his greatsword.\n<strong>Greatsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n<strong>Holy Light (Recharge 5\u20136):</strong> Ontharr unleashes a 30-foot cone of radiance. Each creature in the area makes a DC 15 Wisdom save, taking 27 (6d8) Radiant damage on a failure, or half as much on a success.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24810,7 +27187,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SQl28fbQlNU5AW3U",
+        "_id": "EA5N4JguDvogTvTu",
         "name": "Delaan Winterhound",
         "type": "text",
         "title": {
@@ -24818,7 +27195,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Emerald Enclave. Representative of nature.\n<strong>Tone:</strong> Calm, long-term, concerned with the balance of the world over human consequences.\n<strong>Motivations:</strong>\n<ul><li>Well of Dragons is a wound in the fabric of the world</li></ul>\n<ul><li>Dragons are forces of nature \u2013 turning them into ritual batteries is an act of vandalism</li></ul>\n<ul><li>Surviving nature elements (treants, wild animals) must not be sacrificed needlessly</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Emerald Enclave: treants, druids, natural animals, halfling sharpshooters</li></ul>\n<ul><li>Knowledge of natural passages (tunnels, waterways)</li></ul>\n<ul><li>Druidic healing and support</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Treants are protected if possible</li></ul>\n<ul><li>No scorched earth tactics</li></ul>\n<ul><li>The nature around the caldera is acknowledged as damaged, not hostile</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 14 | 78 (12d8 + 24) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 12 | 13 | 14 | 11 | 16 | 12 |\n| <strong>Modifier</strong> | +1 | +1 | +2 | +0 | +3 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | \u2014 | +6 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 13; <strong>Languages:</strong> Common, Druidic\n<strong>Skills:</strong> Nature +3, Survival +6, Perception +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Delaan fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Wildshape:</em> Delaan can use his action to cast wildshape, becoming a dire wolf or giant bear.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Delaan makes two attacks with his quarterstaff.</li></ul>\n<ul><li><em>Quarterstaff:</em> Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 1) Bludgeoning damage, or 6 (1d8 + 1) if used with two hands.</li></ul>\n<ul><li><em>Entangling Vines (Recharge 5\u20136):</em> 30 ft. radius. Each creature must make a DC 15 Strength save or be restrained until the end of its next turn.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Emerald Enclave. Representative of nature.\n<strong>Tone:</strong> Calm, long-term, concerned with the balance of the world over human consequences.\n<strong>Motivations:</strong>\n<ul><li>Well of Dragons is a wound in the fabric of the world</li></ul>\n<ul><li>Dragons are forces of nature \u2013 turning them into ritual batteries is an act of vandalism</li></ul>\n<ul><li>Surviving nature elements (treants, wild animals) must not be sacrificed needlessly</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Emerald Enclave: treants, druids, natural animals, halfling sharpshooters</li></ul>\n<ul><li>Knowledge of natural passages (tunnels, waterways)</li></ul>\n<ul><li>Druidic healing and support</li></ul>\n<strong>What he requires:</strong>\n<ul><li>Treants are protected if possible</li></ul>\n<ul><li>No scorched earth tactics</li></ul>\n<ul><li>The nature around the caldera is acknowledged as damaged, not hostile</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 14 |\n| <strong>HP</strong> | 78 (12d8 + 24) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 12 | 13 | 14 | 11 | 16 | 12 |\n| Modifier | +1 | +1 | +2 | +0 | +3 | +1 |\n| Save | +1 | +1 | +2 | +0 | +6 | +1 |</p>\n<strong>Skills:</strong> Nature +3, Survival +6, Perception +6\n<strong>Senses:</strong> Passive Perception 13\n<strong>Languages:</strong> Common, Druidic\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Delaan fails a saving throw, he can choose to succeed instead.\n<strong>Wild Shape:</strong> Delaan can use an action to magically transform into a dire wolf or giant bear, retaining his own mental ability scores.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Delaan makes two attacks with his quarterstaff.\n<strong>Quarterstaff:</strong> Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 1) Bludgeoning damage, or 6 (1d8 + 1) if used with two hands.\n<strong>Entangling Vines (Recharge 5\u20136):</strong> Grasping vines erupt in a 30-foot radius around Delaan. Each creature in the area makes a DC 15 Strength save or is restrained until the end of its next turn.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24838,7 +27215,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "og3Z81jAUbEaxTzM",
+        "_id": "sDSJIipLgqStNTRi",
         "name": "Sir Isteval",
         "type": "text",
         "title": {
@@ -24846,7 +27223,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Chivalric, elderly, symbolic figure. Moral weight.\n<strong>Tone:</strong> Honorable, heavy, never banal. Speaks of the price of duty.\n<strong>Example Dialogue:</strong>\n> \"Jeg har overlevet krige, helte. Hvad jeg ved om sejr er dette: den koster altid mere end man troede \u2013 og er altid mere v\u00e6rd end det, der alternativt ville ske.\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 16 | 95 (10d10 + 40) | 30 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 16 | 13 | 18 | 12 | 14 | 14 |\n| <strong>Modifier</strong> | +3 | +1 | +4 | +1 | +2 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +7 | \u2014 | +5 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common\n<strong>Skills:</strong> Athletics +6, Insight +5, Perception +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Isteval fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Second Wind (1/Short Rest):</em> He regains 15 HP when he uses a bonus action.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Isteval makes two attacks with his longsword.</li></ul>\n<ul><li><em>Longsword:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Leadership (Recharge 5\u20136):</em> Allies within 30 ft. gain advantage on their next attack roll or save.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Chivalric, elderly, symbolic figure. Moral weight.\n<strong>Tone:</strong> Honorable, heavy, never banal. Speaks of the price of duty.\n<strong>Example Dialogue:</strong>\n> \"Jeg har overlevet krige, helte. Hvad jeg ved om sejr er dette: den koster altid mere end man troede \u2013 og er altid mere v\u00e6rd end det, der alternativt ville ske.\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 16 |\n| <strong>HP</strong> | 95 (10d10 + 40) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 16 | 13 | 18 | 12 | 14 | 14 |\n| Modifier | +3 | +1 | +4 | +1 | +2 | +2 |\n| Save | +6 | +1 | +7 | +1 | +5 | +2 |</p>\n<strong>Skills:</strong> Athletics +6, Insight +5, Perception +5\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Isteval fails a saving throw, he can choose to succeed instead.\n<strong>Second Wind (1/Short Rest):</strong> Isteval regains 15 HP when he uses a bonus action.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Isteval makes two attacks with his longsword.\n<strong>Longsword:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Slashing damage, or 9 (1d10 + 3) if used with two hands.\n<strong>Leadership (Recharge 5\u20136):</strong> Isteval calls out a command. Allies within 30 feet of him gain advantage on their next attack roll or saving throw.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24866,7 +27243,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QmaEfIgFBg52VtUc",
+        "_id": "eAYHvE7jh577QJWy",
         "name": "Taern Hornblade",
         "type": "text",
         "title": {
@@ -24874,7 +27251,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Wizard/political arcane authority. Technical expert.\n<strong>Tone:</strong> Precise, academic, slightly impatient with people who can't keep up.\n<strong>What he can explain:</strong>\n<ul><li>Ritual mechanics (structure of the Well of Dragons ritual)</li></ul>\n<ul><li>Teleportation wards and circle security</li></ul>\n<ul><li>Arcane disturbances near the caldera</li></ul>\n<ul><li>Draakhorn resonance and its role</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 14 | 71 (11d8 + 22) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 10 | 14 | 14 | 17 | 13 | 11 |\n| <strong>Modifier</strong> | +0 | +2 | +2 | +3 | +1 | +0 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +6 | \u2014 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 11; <strong>Languages:</strong> Common, Draconic\n<strong>Skills:</strong> Arcana +6, History +6, Investigation +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Taern fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Spellcasting:</em> Taern is an 11th-level spellcaster. His spell save DC is 14, and his spell attack bonus is +6.</li></ul>\n<strong>Spells:</strong>\n<ul><li>Cantrips: Fire Bolt, Prestidigitation, Mage Hand, Light</li></ul>\n<ul><li>1st-3rd level: Magic Missile, Shield, Counterspell, Fireball, Dispel Magic</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Dagger:</em> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.</li></ul>\n<ul><li><em>Arcane Barrage (Recharge 5\u20136):</em> 60 ft. cone. Each creature must make a DC 14 Dexterity save, taking 22 (4d10) Force damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Wizard/political arcane authority. Technical expert.\n<strong>Tone:</strong> Precise, academic, slightly impatient with people who can't keep up.\n<strong>What he can explain:</strong>\n<ul><li>Ritual mechanics (structure of the Well of Dragons ritual)</li></ul>\n<ul><li>Teleportation wards and circle security</li></ul>\n<ul><li>Arcane disturbances near the caldera</li></ul>\n<ul><li>Draakhorn resonance and its role</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 14 |\n| <strong>HP</strong> | 71 (11d8 + 22) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 10 | 14 | 14 | 17 | 13 | 11 |\n| Modifier | +0 | +2 | +2 | +3 | +1 | +0 |\n| Save | +0 | +2 | +2 | +6 | +1 | +0 |</p>\n<strong>Skills:</strong> Arcana +6, History +6, Investigation +6\n<strong>Senses:</strong> Passive Perception 11\n<strong>Languages:</strong> Common, Draconic\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Taern fails a saving throw, he can choose to succeed instead.\n<strong>Spellcasting:</strong> Taern is an 11th-level spellcaster. His spell save DC is 14, and his spell attack bonus is +6. He has the following spells prepared: Cantrips \u2014 Fire Bolt, Prestidigitation, Mage Hand, Light; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball, Dispel Magic.\n<h3>Actions</h3>\n<strong>Dagger:</strong> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.\n<strong>Arcane Barrage (Recharge 5\u20136):</strong> Taern unleashes a 60-foot cone of force. Each creature in the area makes a DC 14 Dexterity save, taking 22 (4d10) Force damage on a failure, or half as much on a success.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24894,7 +27271,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jdkgZUZqHQHoj3KX",
+        "_id": "91mNkYOH5Nu73Vkw",
         "name": "King Melandrach",
         "type": "text",
         "title": {
@@ -24902,7 +27279,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Elf king. Misty Forest incident. Neronvain.\n<strong>Tone:</strong> Controlled anger beneath a diplomatic surface. Proud, but not unreasonable.\n<strong>Background:</strong>\nNeronvain (his son) was a dragon cult agent in Misty Forest. Melandrach carries this as a personal shame and a political complication.\n<strong>What he wants:</strong>\n<ul><li>The elven people's losses are acknowledged</li></ul>\n<ul><li>Neronvain's treachery is explained (not simply his fault \u2013 but the cult's manipulation)</li></ul>\n<ul><li>The elven alliance is used properly</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 17 | 105 (14d8 + 42) | 30 ft. | 7 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 14 | 16 | 16 | 14 | 15 | 16 |\n| <strong>Modifier</strong> | +2 | +3 | +3 | +2 | +2 | +3 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | +6 | \u2014 | \u2014 | +5 | +6 |</p>\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 12; <strong>Languages:</strong> Common, Elvish\n<strong>Skills:</strong> Insight +5, Perception +5, Acrobatics +6\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (3/Day):</em> If Melandrach fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Fey Ancestry:</em> He has advantage on saving throws against being charmed and cannot be put to sleep by magic.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Melandrach makes two attacks with his longsword or uses a spell.</li></ul>\n<ul><li><em>Longsword:</em> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage, or 8 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Elven Arrow (Recharge 5\u20136):</em> Ranged Attack Roll: +6, range 150 ft. Hit: 10 (1d10 + 5) Piercing damage.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Elf king. Misty Forest incident. Neronvain.\n<strong>Tone:</strong> Controlled anger beneath a diplomatic surface. Proud, but not unreasonable.\n<strong>Background:</strong>\nNeronvain (his son) was a dragon cult agent in Misty Forest. Melandrach carries this as a personal shame and a political complication.\n<strong>What he wants:</strong>\n<ul><li>The elven people's losses are acknowledged</li></ul>\n<ul><li>Neronvain's treachery is explained (not simply his fault \u2013 but the cult's manipulation)</li></ul>\n<ul><li>The elven alliance is used properly</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 17 |\n| <strong>HP</strong> | 105 (14d8 + 42) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 14 | 16 | 16 | 14 | 15 | 16 |\n| Modifier | +2 | +3 | +3 | +2 | +2 | +3 |\n| Save | +2 | +6 | +3 | +2 | +5 | +6 |</p>\n<strong>Skills:</strong> Insight +5, Perception +5, Acrobatics +6\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 12\n<strong>Languages:</strong> Common, Elvish\n<strong>CR:</strong> 7\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (3/Day):</strong> If Melandrach fails a saving throw, he can choose to succeed instead.\n<strong>Fey Ancestry:</strong> Melandrach has advantage on saving throws against being charmed, and magic cannot put him to sleep.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Melandrach makes two attacks with his longsword.\n<strong>Longsword:</strong> Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage, or 8 (1d10 + 3) if used with two hands.\n<strong>Elven Arrow (Recharge 5\u20136):</strong> Ranged Attack Roll: +6, range 150 ft. Hit: 10 (1d10 + 5) Piercing damage.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24922,7 +27299,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YyvWdW2wZ4q4T22W",
+        "_id": "3t2jyKVQ2melwi8H",
         "name": "Ambassador Brawnanvil",
         "type": "text",
         "title": {
@@ -24930,7 +27307,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Dwarf representative. Military logistics and engineering.\n<strong>Tone:</strong> Direct, fact-based, proud. Never speaks of weakness \u2013 only of solutions.\n<strong>What he offers:</strong>\n<ul><li>Dwarven sappers and tunnelers</li></ul>\n<ul><li>Siege engines and anti-dragon artillery</li></ul>\n<ul><li>Engineering expertise for the Well of Dragons barricades</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Mine sappers kan spr\u00e6nge et hul i den sydlige barrikade p\u00e5 tre runder. Men de skal have d\u00e6kning. Hvem d\u00e6kker dem?\"\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 16 | 88 (11d10 + 33) | 25 ft. | 5 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 17 | 12 | 16 | 15 | 13 | 14 |\n| <strong>Modifier</strong> | +3 | +1 | +3 | +2 | +1 | +2 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | +6 | \u2014 | +6 | +5 | \u2014 | \u2014 |</p>\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 11; <strong>Languages:</strong> Common, Dwarvish\n<strong>Skills:</strong> Insight +4, Perception +4, Engineering Lore +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Brawnanvil fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Stonecunning:</em> He gains advantage on checks related to stonework or engineering.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Brawnanvil makes two attacks with his warhammer.</li></ul>\n<ul><li><em>Warhammer:</em> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Bludgeoning damage, or 9 (1d10 + 3) if used with two hands.</li></ul>\n<ul><li><em>Engineering Expertise (Recharge 5\u20136):</em> Brawnanvil and allies within 30 ft. gain advantage on saving throws and skill checks related to structures, barriers, or siege engines.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Dwarf representative. Military logistics and engineering.\n<strong>Tone:</strong> Direct, fact-based, proud. Never speaks of weakness \u2013 only of solutions.\n<strong>What he offers:</strong>\n<ul><li>Dwarven sappers and tunnelers</li></ul>\n<ul><li>Siege engines and anti-dragon artillery</li></ul>\n<ul><li>Engineering expertise for the Well of Dragons barricades</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Mine sappers kan spr\u00e6nge et hul i den sydlige barrikade p\u00e5 tre runder. Men de skal have d\u00e6kning. Hvem d\u00e6kker dem?\"\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 16 |\n| <strong>HP</strong> | 88 (11d10 + 33) |\n| <strong>Speed</strong> | 25 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 17 | 12 | 16 | 15 | 13 | 14 |\n| Modifier | +3 | +1 | +3 | +2 | +1 | +2 |\n| Save | +6 | +1 | +6 | +5 | +1 | +2 |</p>\n<strong>Skills:</strong> Insight +4, Perception +4, History +5\n<strong>Senses:</strong> Darkvision 60 ft., Passive Perception 11\n<strong>Languages:</strong> Common, Dwarvish\n<strong>CR:</strong> 5\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Brawnanvil fails a saving throw, he can choose to succeed instead.\n<strong>Stonecunning:</strong> Brawnanvil has advantage on Intelligence checks related to stonework, engineering, and the origin of structures.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Brawnanvil makes two attacks with his warhammer.\n<strong>Warhammer:</strong> Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 3) Bludgeoning damage, or 9 (1d10 + 3) if used with two hands.\n<strong>Engineering Expertise (Recharge 5\u20136):</strong> Brawnanvil directs a coordinated effort. He and allies within 30 feet gain advantage on saving throws and ability checks related to structures, barriers, or siege engines until the start of his next turn.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24950,7 +27327,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "O1ktJgymfjErIOn9",
+        "_id": "KiEXLw0XfcFsBQQH",
         "name": "Crimson Maccath",
         "type": "text",
         "title": {
@@ -24958,7 +27335,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Arcane expert on dragons and the Draakhorn.\n<strong>What she knows:</strong>\n<ul><li>The Draakhorn's resonance and what it does to chromatic dragons</li></ul>\n<ul><li>Ritual resonance mechanics</li></ul>\n<ul><li>What will happen if the ritual succeeds fully (she knows this from study, not from faith)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 14 | 77 (14d8 + 14) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 9 | 14 | 12 | 18 | 14 | 12 |\n| <strong>Modifier</strong> | \u22121 | +2 | +1 | +4 | +2 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +7 | +5 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common, Draconic\n<strong>Skills:</strong> Arcana +7, History +7, Investigation +7, Insight +5\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Maccath fails a saving throw, she can choose to succeed instead.</li></ul>\n<ul><li><em>Dragon Lore:</em> She has extensive knowledge of dragons, their magic, and their weaknesses.</li></ul>\n<strong>Spells:</strong> Cantrips: Fire Bolt, Light, Mage Hand. 1st\u20133rd level: Magic Missile, Shield, Counterspell, Fireball\n<strong>Actions:</strong>\n<ul><li><em>Dagger:</em> Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 3 (1d4 + 2) Piercing damage.</li></ul>\n<ul><li><em>Ritual Disruption (Recharge 5\u20136):</em> 40 ft. radius. Each creature in the area must make a DC 15 Intelligence save, taking 27 (6d8) Force damage on a failure, or half on a success.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Arcane expert on dragons and the Draakhorn.\n<strong>What she knows:</strong>\n<ul><li>The Draakhorn's resonance and what it does to chromatic dragons</li></ul>\n<ul><li>Ritual resonance mechanics</li></ul>\n<ul><li>What will happen if the ritual succeeds fully (she knows this from study, not from faith)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 14 |\n| <strong>HP</strong> | 77 (14d8 + 14) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 9 | 14 | 12 | 18 | 14 | 12 |\n| Modifier | -1 | +2 | +1 | +4 | +2 | +1 |\n| Save | -1 | +2 | +1 | +7 | +5 | +1 |</p>\n<strong>Skills:</strong> Arcana +7, History +7, Investigation +7, Insight +5\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common, Draconic\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Maccath fails a saving throw, she can choose to succeed instead.\n<strong>Dragon Lore:</strong> Maccath has extensive knowledge of dragons, their magic, and their weaknesses, and has advantage on Intelligence checks to recall information about them.\n<strong>Spellcasting:</strong> Maccath is a 9th-level spellcaster. Her spell save DC is 15, and her spell attack bonus is +7. She has the following spells prepared: Cantrips \u2014 Fire Bolt, Light, Mage Hand; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball.\n<h3>Actions</h3>\n<strong>Dagger:</strong> Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 3 (1d4 + 2) Piercing damage.\n<strong>Ritual Disruption (Recharge 5\u20136):</strong> Maccath channels disruptive arcane energy in a 40-foot radius. Each creature in the area makes a DC 15 Intelligence save, taking 27 (6d8) Force damage on a failure, or half as much on a success.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -24978,7 +27355,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PSSQvks9X6HWbZb4",
+        "_id": "SnBIUVokUXThS7ww",
         "name": "Elia",
         "type": "text",
         "title": {
@@ -24986,7 +27363,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Metallic dragon ally. Liaison figure.\n<strong>Function:</strong> Gives the sense that the dragons' war is happening above the characters' heads. She is not a means of transport \u2013 she is an equal actor.\n<strong>What she can do:</strong>\n<ul><li>Warn about chromatic dragon patrol patterns</li></ul>\n<ul><li>Coordinate metallic dragon air support</li></ul>\n<ul><li>Be offered as a deliberate sacrifice to create an opening (strong emotional scene)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 19 | 150 (12d12 + 60) | 40 ft., fly 80 ft. | 10 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 18 | 14 | 20 | 16 | 15 | 17 |\n| <strong>Modifier</strong> | +4 | +2 | +5 | +3 | +2 | +3 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | +8 | \u2014 | +5 | +6 |</p>\n<strong>Senses:</strong> Darkvision 120 ft., Passive Perception 12; <strong>Languages:</strong> Common, Draconic\n<strong>Skills:</strong> Insight +5, Perception +5, Diplomacy +6\n<strong>Damage Immunities:</strong> Fire\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (3/Day):</em> If Elia fails a saving throw, she can choose to succeed instead.</li></ul>\n<ul><li><em>Metallic Dragon Senses:</em> She sees in magical darkness and can sense good creatures within 1 mile.</li></ul>\n<strong>Actions:</strong>\n<ul><li><em>Multiattack:</em> Elia makes three attacks: two with her claws and one with her tail.</li></ul>\n<ul><li><em>Claw:</em> Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.</li></ul>\n<ul><li><em>Tail:</em> Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.</li></ul>\n<ul><li><em>Fire Breath (Recharge 5\u20136):</em> 60 ft. cone. Each creature must make a DC 16 Dexterity save, taking 55 (10d10) Fire damage on a failure, or half on a success.</li></ul>\n<strong>Legendary Actions:</strong> (3/turn) Elia can take 3 legendary actions, choosing from the options below. Only one option can be used per turn and only at the end of another creature's turn.\n<ul><li><em>Claw Attack:</em> Elia makes a claw attack.</li></ul>\n<ul><li><em>Tail Attack:</em> Elia makes a tail attack.</li></ul>\n<ul><li><em>Wing Attack (Costs 2 Actions):</em> Elia beats her wings. Each creature within 15 ft. of her must succeed on a DC 15 Dexterity save or take 11 (2d6 + 4) Bludgeoning damage and be knocked prone.</li></ul>\n<p>---</p>",
+          "content": "<strong>Role:</strong> Metallic dragon ally. Liaison figure.\n<strong>Function:</strong> Gives the sense that the dragons' war is happening above the characters' heads. She is not a means of transport \u2013 she is an equal actor.\n<strong>What she can do:</strong>\n<ul><li>Warn about chromatic dragon patrol patterns</li></ul>\n<ul><li>Coordinate metallic dragon air support</li></ul>\n<ul><li>Be offered as a deliberate sacrifice to create an opening (strong emotional scene)</li></ul>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 19 |\n| <strong>HP</strong> | 150 (12d12 + 60) |\n| <strong>Speed</strong> | 40 ft., fly 80 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 18 | 14 | 20 | 16 | 15 | 17 |\n| Modifier | +4 | +2 | +5 | +3 | +2 | +3 |\n| Save | +4 | +2 | +9 | +3 | +6 | +7 |</p>\n<strong>Skills:</strong> Insight +6, Perception +6, Persuasion +7\n<strong>Damage Immunities:</strong> Fire\n<strong>Senses:</strong> Darkvision 120 ft., Passive Perception 16\n<strong>Languages:</strong> Common, Draconic\n<strong>CR:</strong> 10\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (3/Day):</strong> If Elia fails a saving throw, she can choose to succeed instead.\n<strong>Metallic Dragon Senses:</strong> Elia sees normally in magical darkness and can sense the presence of good-aligned creatures within 1 mile of her.\n<h3>Actions</h3>\n<strong>Multiattack:</strong> Elia makes three attacks: two with her claws and one with her tail.\n<strong>Claw:</strong> Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.\n<strong>Tail:</strong> Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.\n<strong>Fire Breath (Recharge 5\u20136):</strong> Elia exhales fire in a 60-foot cone. Each creature in the area makes a DC 16 Dexterity save, taking 55 (10d10) Fire damage on a failure, or half as much on a success.\n<h3>Legendary Actions (3/Round)</h3>\n<p>Elia can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn.</p>\n<strong>Claw Attack (1 LA):</strong> Elia makes one claw attack.\n<strong>Tail Attack (1 LA):</strong> Elia makes one tail attack.\n<strong>Wing Attack (2 LA):</strong> Elia beats her wings. Each creature within 15 feet of her makes a DC 15 Dexterity save or takes 11 (2d6 + 4) Bludgeoning damage and is knocked prone.\n<p>---</p>",
           "format": 1,
           "markdown": ""
         },
@@ -25006,7 +27383,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yR11SyCQcffRKCdd",
+        "_id": "BBInyVRaBw3DxitZ",
         "name": "Nyh Ilmichh",
         "type": "text",
         "title": {
@@ -25014,7 +27391,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
           "level": 1
         },
         "text": {
-          "content": "<strong>Role:</strong> Thayan envoy. Useful, cold, politically dangerous.\n<strong>Tone:</strong> Clinical courtesy. No warmth. Always observing. Never speaks unnecessarily.\n<strong>Motivations:</strong>\n<ul><li>Szass Tam desires order, not Tiamat's chaos</li></ul>\n<ul><li>Rath Modar and the renegade Red Wizards are traitors \u2013 they will be punished</li></ul>\n<ul><li>Thay helps because it is strategically wise, not out of goodness</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Teleportation circle access</li></ul>\n<ul><li>Thayan arcane support (limited)</li></ul>\n<ul><li>Information on Rath Modar's position and plans</li></ul>\n<strong>What it costs:</strong>\n<ul><li>A favor from the party (not specified now)</li></ul>\n<ul><li>Political silence about Thay's role (the council is informed minimally)</li></ul>\n<ul><li>Trust that Szass Tam's agents will not be attacked</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi hj\u00e6lper jer ikke fordi vi \u00f8nsker jeres succes. Vi hj\u00e6lper jer fordi Tiamat er en forstyrrelse. Der er forskel.\"\n<p>He waits for a response. If none comes:</p>\n<p>> \"Godt. Vi er enige.\"</p>\n<h3>Statblock (2024)</h3>\n<p>| <strong>AC</strong> | <strong>HP</strong> | <strong>Speed</strong> | <strong>CR</strong> |\n|---|---|---|---|\n| 15 | 84 (13d8 + 26) | 30 ft. | 6 |</p>\n<p>| Score | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Ability</strong> | 10 | 14 | 14 | 17 | 15 | 13 |\n| <strong>Modifier</strong> | +0 | +2 | +2 | +3 | +2 | +1 |</p>\n<p>| Save | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| <strong>Proficient</strong> | \u2014 | \u2014 | \u2014 | +6 | +5 | \u2014 |</p>\n<strong>Senses:</strong> Passive Perception 12; <strong>Languages:</strong> Common, Draconic, Infernal\n<strong>Skills:</strong> Arcana +6, Insight +5, Deception +4\n<strong>Traits:</strong>\n<ul><li><em>Legendary Resistance (2/Day):</em> If Nyh fails a saving throw, he can choose to succeed instead.</li></ul>\n<ul><li><em>Red Wizard Discipline:</em> He gains a +1 bonus to spell save DCs and spell attack rolls.</li></ul>\n<strong>Spells:</strong> Cantrips: Fire Bolt, Prestidigitation. 1st\u20133rd level: Magic Missile, Shield, Counterspell, Fireball, Teleportation Circle\n<strong>Actions:</strong>\n<ul><li><em>Dagger:</em> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 2) Piercing damage.</li></ul>\n<ul><li><em>Arcane Barrage (Recharge 5\u20136):</em> 40 ft. cone. Each creature must make a DC 15 Dexterity save, taking 27 (6d8) Force damage on a failure, or half on a success.</li></ul>\n<ul><li><em>Teleportation (1/Day):</em> Nyh casts teleportation circle, creating a circle with a 10 ft. radius.</li></ul>",
+          "content": "<strong>Role:</strong> Thayan envoy. Useful, cold, politically dangerous.\n<strong>Tone:</strong> Clinical courtesy. No warmth. Always observing. Never speaks unnecessarily.\n<strong>Motivations:</strong>\n<ul><li>Szass Tam desires order, not Tiamat's chaos</li></ul>\n<ul><li>Rath Modar and the renegade Red Wizards are traitors \u2013 they will be punished</li></ul>\n<ul><li>Thay helps because it is strategically wise, not out of goodness</li></ul>\n<strong>What he offers:</strong>\n<ul><li>Teleportation circle access</li></ul>\n<ul><li>Thayan arcane support (limited)</li></ul>\n<ul><li>Information on Rath Modar's position and plans</li></ul>\n<strong>What it costs:</strong>\n<ul><li>A favor from the party (not specified now)</li></ul>\n<ul><li>Political silence about Thay's role (the council is informed minimally)</li></ul>\n<ul><li>Trust that Szass Tam's agents will not be attacked</li></ul>\n<strong>Example Dialogue:</strong>\n> \"Vi hj\u00e6lper jer ikke fordi vi \u00f8nsker jeres succes. Vi hj\u00e6lper jer fordi Tiamat er en forstyrrelse. Der er forskel.\"\n<p>He waits for a response. If none comes:</p>\n<p>> \"Godt. Vi er enige.\"</p>\n<h3>Statblock (2024)</h3>\n<p>| | |\n|---|---|\n| <strong>AC</strong> | 15 |\n| <strong>HP</strong> | 84 (13d8 + 26) |\n| <strong>Speed</strong> | 30 ft. |</p>\n<p>| | STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|---|\n| Score | 10 | 14 | 14 | 17 | 15 | 13 |\n| Modifier | +0 | +2 | +2 | +3 | +2 | +1 |\n| Save | +0 | +2 | +2 | +6 | +5 | +1 |</p>\n<strong>Skills:</strong> Arcana +6, Insight +5, Deception +4\n<strong>Senses:</strong> Passive Perception 12\n<strong>Languages:</strong> Common, Draconic, Infernal\n<strong>CR:</strong> 6\n<h3>Special Abilities</h3>\n<strong>Legendary Resistance (2/Day):</strong> If Nyh fails a saving throw, he can choose to succeed instead.\n<strong>Red Wizard Discipline:</strong> Nyh gains a +1 bonus to his spell save DC and spell attack rolls (already included in the statistics below).\n<strong>Spellcasting:</strong> Nyh is an 11th-level spellcaster. His spell save DC is 15, and his spell attack bonus is +7. He has the following spells prepared: Cantrips \u2014 Fire Bolt, Prestidigitation; 1st\u20133rd level \u2014 Magic Missile, Shield, Counterspell, Fireball, Teleportation Circle.\n<h3>Actions</h3>\n<strong>Dagger:</strong> Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 2) Piercing damage.\n<strong>Arcane Barrage (Recharge 5\u20136):</strong> Nyh unleashes a 40-foot cone of force. Each creature in the area makes a DC 15 Dexterity save, taking 27 (6d8) Force damage on a failure, or half as much on a success.\n<strong>Teleportation (1/Day):</strong> Nyh casts teleportation circle, creating a permanent teleportation sigil with a 10-foot radius.",
           "format": 1,
           "markdown": ""
         },
@@ -25042,11 +27419,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "gcpV4jPD6iBlwcNF",
+    "_id": "HSzhSHHRuShQaCes",
     "name": "Campaign Overview",
     "pages": [
       {
-        "_id": "phOA15HOXdGzN7ZG",
+        "_id": "GWGKccp0DM3mxznx",
         "name": "Tyranny of Dragons \u2013 Campaign Context",
         "type": "text",
         "title": {
@@ -25074,7 +27451,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mDxQod4jZ69NiM9k",
+        "_id": "TIB2vfJeOOdGN8MH",
         "name": "Language and Style",
         "type": "text",
         "title": {
@@ -25102,7 +27479,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5uqIFQXVHr3Yf1Nu",
+        "_id": "cpaMjmBCa42iUuHK",
         "name": "DM Role",
         "type": "text",
         "title": {
@@ -25130,7 +27507,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "C2uNCYzbUxp4ptFI",
+        "_id": "P9y83DPU1QUaruxR",
         "name": "Rules",
         "type": "text",
         "title": {
@@ -25158,7 +27535,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kRRsRDlMYtCiMM5Y",
+        "_id": "JAnFQL5yZBZGD24B",
         "name": "Axar Runes",
         "type": "text",
         "title": {
@@ -25186,7 +27563,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wuUiVxVLjAuF5mys",
+        "_id": "6QvHOnCGEGonkNEj",
         "name": "Daxx Drake",
         "type": "text",
         "title": {
@@ -25214,7 +27591,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Sj2ZH60BHyWO3g5e",
+        "_id": "1uoheqLRR6yIqZoz",
         "name": "Frygtl\u00f8s",
         "type": "text",
         "title": {
@@ -25242,7 +27619,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EZya4EbEJUHd5mur",
+        "_id": "suembwhtv81b8blr",
         "name": "Twilight Ventress",
         "type": "text",
         "title": {
@@ -25270,7 +27647,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VAQ0scByvWHEBKEa",
+        "_id": "s37spJdlLZZvg69c",
         "name": "3. Current Campaign Phase",
         "type": "text",
         "title": {
@@ -25298,7 +27675,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ItzlshVPuCAK3OuR",
+        "_id": "u9WVtX8a5ZnOJrwB",
         "name": "4. Campaign Tone",
         "type": "text",
         "title": {
@@ -25326,7 +27703,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ZkIfOIqFvnBQmyhk",
+        "_id": "KjUuSYxCaB6oC4JL",
         "name": "Council of Waterdeep / Allies",
         "type": "text",
         "title": {
@@ -25354,7 +27731,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IsHONNq5DkBpkyAB",
+        "_id": "s2ULRpYemgRYjraJ",
         "name": "6. Thay Arc",
         "type": "text",
         "title": {
@@ -25382,7 +27759,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "CyGAKcRaBZV7kgkM",
+        "_id": "Aj5NFl70noh9NwUJ",
         "name": "Key Elements",
         "type": "text",
         "title": {
@@ -25410,7 +27787,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UndvHy6gKXf66TGa",
+        "_id": "B8dfIex1JNkwX0Ig",
         "name": "Status",
         "type": "text",
         "title": {
@@ -25438,7 +27815,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sUwMwcHsHN1gMiQ9",
+        "_id": "JxXB6tWy6LJl9QEu",
         "name": "Room 21 \u2013 Storage Closet",
         "type": "text",
         "title": {
@@ -25466,7 +27843,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "x3U54G0BT8YDPlMp",
+        "_id": "CLZJ54895Uq3OhRM",
         "name": "Room 22 \u2013 Taraz the Fair",
         "type": "text",
         "title": {
@@ -25494,7 +27871,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "N8gvZ4n0Xyd3AjuR",
+        "_id": "KpAuuf1saFQSjlNp",
         "name": "Room 23 \u2013 Time Chamber",
         "type": "text",
         "title": {
@@ -25522,7 +27899,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "u9MLzbA5f0jbHKWX",
+        "_id": "VodRGxCm59gVRHfv",
         "name": "Original Statblock (ToD reference)",
         "type": "text",
         "title": {
@@ -25550,7 +27927,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2jaIncaM6uP80h58",
+        "_id": "dB4tVmG8LekD5S08",
         "name": "Role in the Campaign",
         "type": "text",
         "title": {
@@ -25578,7 +27955,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "J71d1Ni4mxMM3ShV",
+        "_id": "PWfqb1LFGelx7SgT",
         "name": "What He Can Reveal",
         "type": "text",
         "title": {
@@ -25606,7 +27983,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LwnmOPWtzMr6jDkv",
+        "_id": "oNz85A8JqGCFuaXW",
         "name": "What He Does Not Reveal",
         "type": "text",
         "title": {
@@ -25634,7 +28011,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "P88zPY6XVd3Gqg6L",
+        "_id": "giAc5TmjV9y0daLe",
         "name": "Setting",
         "type": "text",
         "title": {
@@ -25662,7 +28039,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ZIGYETX7MzIrNRh5",
+        "_id": "6NN8gcUEwtYFDBkk",
         "name": "Visual Tone",
         "type": "text",
         "title": {
@@ -25690,7 +28067,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Ttb72Wm6eeRCMPoL",
+        "_id": "WWuHLAKpIWsLjoLv",
         "name": "By Land",
         "type": "text",
         "title": {
@@ -25718,7 +28095,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nNv0oa1YU7bLtFjP",
+        "_id": "u8csUsld8CoT55Yz",
         "name": "By Water (Underground)",
         "type": "text",
         "title": {
@@ -25746,7 +28123,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dSTXI2pxVbSNHvLF",
+        "_id": "VJwB6mfEIfvFAZ8g",
         "name": "By Air",
         "type": "text",
         "title": {
@@ -25774,7 +28151,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oSc1sI00yZOJdY9t",
+        "_id": "59y5zdEGNAETRrbT",
         "name": "Level 1 \u2013 The Maw / Outer Temple Grounds",
         "type": "text",
         "title": {
@@ -25802,7 +28179,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EQGeGg30cZkKfxbe",
+        "_id": "EHowdjXGAkMU0CKz",
         "name": "Level 2 \u2013 The Fivefold Sanctum",
         "type": "text",
         "title": {
@@ -25830,7 +28207,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YVzcB9GsHYm8vKer",
+        "_id": "2Ii2EBYLGmzjIRLD",
         "name": "Level 3 \u2013 The Crown / Ritual Summit",
         "type": "text",
         "title": {
@@ -25858,7 +28235,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BIBndGW1ZFcZHxZJ",
+        "_id": "OAYIrnrDqESRNOKs",
         "name": "DM Technique for 3 Levels",
         "type": "text",
         "title": {
@@ -25886,7 +28263,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uEqyU5GGHr2oCxzJ",
+        "_id": "3WNyvLbg3lqeAUsb",
         "name": "Sabotage Effects",
         "type": "text",
         "title": {
@@ -25914,7 +28291,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TWJBPszlUpYAuZz7",
+        "_id": "2i5uqKnK0rSQRszV",
         "name": "Ritual Clock",
         "type": "text",
         "title": {
@@ -25942,7 +28319,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "m5BlZHKpjON3kewX",
+        "_id": "h7u2iwNTsviB84H2",
         "name": "Personality",
         "type": "text",
         "title": {
@@ -25970,7 +28347,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IaaIgZTg1nKSCYiS",
+        "_id": "YL8wXMk8HlCWXnka",
         "name": "Dialogue Lines",
         "type": "text",
         "title": {
@@ -25998,7 +28375,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1DHydZSHy7nTNIzY",
+        "_id": "fGuXgOuSBRz0dMJ4",
         "name": "Mechanics",
         "type": "text",
         "title": {
@@ -26026,7 +28403,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nUywSlbGIjY7ezXX",
+        "_id": "X5whzLgpAX7tryuO",
         "name": "13. Tiamat \u2013 Manifestation Stages",
         "type": "text",
         "title": {
@@ -26054,7 +28431,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VSCjvhwdVh9iwGEt",
+        "_id": "a6PBCttAtMMgZjpR",
         "name": "Stage 1 \u2013 Presence",
         "type": "text",
         "title": {
@@ -26082,7 +28459,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DIj4be3HOqgxCByR",
+        "_id": "YLFnR5nH7HuGrvN3",
         "name": "Stage 2 \u2013 Heads beyond the veil",
         "type": "text",
         "title": {
@@ -26110,7 +28487,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DH7WZIXLeXYzH0Ts",
+        "_id": "1XCxvRZsmuA4Pn8l",
         "name": "Stage 3 \u2013 Partial manifestation",
         "type": "text",
         "title": {
@@ -26138,7 +28515,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "APRMY9b15yTXj0kL",
+        "_id": "5MYcd0NJtqM6vK7w",
         "name": "Stage 4 \u2013 Full manifestation",
         "type": "text",
         "title": {
@@ -26166,7 +28543,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wgVOJuoRRUcMoWJY",
+        "_id": "8LXsmq8Z4dUZqXQA",
         "name": "14. Dragon Cult Ranks and Token Design",
         "type": "text",
         "title": {
@@ -26194,7 +28571,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3fqk4Aazvda3hGX8",
+        "_id": "KqKkDl7iJL8W2z4J",
         "name": "15. Battlemap and Image Preferences",
         "type": "text",
         "title": {
@@ -26222,7 +28599,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yWyXCsgwOkg5nVnp",
+        "_id": "g6b7S2fSNzvzluai",
         "name": "Level 1 \u2013 The Maw",
         "type": "text",
         "title": {
@@ -26250,7 +28627,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GVeoTM7JOZqXkAzx",
+        "_id": "GvrNZjcy5HZnxioV",
         "name": "Level 3 \u2013 The Crown",
         "type": "text",
         "title": {
@@ -26278,7 +28655,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "aYK8n3TcMlNJU21T",
+        "_id": "h4YsEliP8WfjkvkL",
         "name": "Tactical Features",
         "type": "text",
         "title": {
@@ -26306,7 +28683,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Yp2KYlFHPx3Ze5y9",
+        "_id": "uWWbV5rF94da4tD5",
         "name": "Phase 1 \u2013 The Breach",
         "type": "text",
         "title": {
@@ -26334,7 +28711,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1bmt2XcUTPvcEuuI",
+        "_id": "siecYj2QOoworUjQ",
         "name": "Phase 2 \u2013 The Sabotage",
         "type": "text",
         "title": {
@@ -26362,7 +28739,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MvRB7HlDIHIUzWCk",
+        "_id": "Nu8aS4l01dgqLqNX",
         "name": "Phase 3 \u2013 Severin",
         "type": "text",
         "title": {
@@ -26390,7 +28767,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pCGXnD88Jj80UWms",
+        "_id": "TyGfMIfRs7zm08Tj",
         "name": "Phase 4 \u2013 Tiamat's Judgment",
         "type": "text",
         "title": {
@@ -26418,7 +28795,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3QGA9xo4mW6pfioG",
+        "_id": "zURq89wMBYpgKrfJ",
         "name": "1. The Procession of Failed Ascension",
         "type": "text",
         "title": {
@@ -26446,7 +28823,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "l0z0YL5lXfigdiLa",
+        "_id": "VVGO2EmWqf8P8pYK",
         "name": "2. Bone Wind Corridor",
         "type": "text",
         "title": {
@@ -26474,7 +28851,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eqFA25ndOnRZ3MLj",
+        "_id": "v3JtU3dwQ7JhosvY",
         "name": "3. The Fivefold Gate",
         "type": "text",
         "title": {
@@ -26502,7 +28879,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7gNoAedcDN5Ch4e6",
+        "_id": "tjxRZQYVYhnXBEkp",
         "name": "4. Wyrmguard Counterattack",
         "type": "text",
         "title": {
@@ -26530,7 +28907,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tL7488vWVilNAMQy",
+        "_id": "M61BtIih0hxoyDLX",
         "name": "5. The First Head Speaks",
         "type": "text",
         "title": {
@@ -26558,7 +28935,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4pAq3alKgsn0uk7X",
+        "_id": "YhC9xpzqNfjINlXY",
         "name": "19. Army-Scale / Frontline Clock",
         "type": "text",
         "title": {
@@ -26586,7 +28963,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mw6cXONom9iN0jHI",
+        "_id": "NKo5tpI4dE2yuIoF",
         "name": "Army Front Clock",
         "type": "text",
         "title": {
@@ -26614,7 +28991,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FBXOKABxvJM4B6zH",
+        "_id": "y50jy7xDyxa8zK4m",
         "name": "Frontline Events (d8)",
         "type": "text",
         "title": {
@@ -26642,7 +29019,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VIodXiuCSUSF5G5J",
+        "_id": "4DvNk76s2iDqwX9u",
         "name": "20. Encounter Balance \u2013 The Level 15 Party",
         "type": "text",
         "title": {
@@ -26670,7 +29047,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EN2n0bXLcu7IPolV",
+        "_id": "U7swBSDnxkxS6DuD",
         "name": "Potions",
         "type": "text",
         "title": {
@@ -26698,7 +29075,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lHV0rY8s9xMaN9G6",
+        "_id": "1FIty1KDGOeFm7MQ",
         "name": "Scrolls",
         "type": "text",
         "title": {
@@ -26726,7 +29103,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nj3F6sTmqUUFCul7",
+        "_id": "Ka2T9Xs8PI7roX2G",
         "name": "Magic items",
         "type": "text",
         "title": {
@@ -26754,7 +29131,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "26bDCrNnhkUIocT4",
+        "_id": "hzFHvBX9nmsUxYKM",
         "name": "22. Cult Relics and Loot (Room 7 / Treasure Room)",
         "type": "text",
         "title": {
@@ -26782,7 +29159,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KV133I6KGYSfxrJS",
+        "_id": "dOoEEB9zpiNaOQi4",
         "name": "Cult Relics",
         "type": "text",
         "title": {
@@ -26810,7 +29187,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "soUbQHUIRARnfcC7",
+        "_id": "DYmDZ7RWaox3IQay",
         "name": "Non-magical Valuables",
         "type": "text",
         "title": {
@@ -26838,7 +29215,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kMVxMWiQ21WnXwvi",
+        "_id": "ebikOudSoHYeTabn",
         "name": "Valuable Books (not dragon-related)",
         "type": "text",
         "title": {
@@ -26866,7 +29243,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MUnrkag3mbSX57zl",
+        "_id": "bSVJMXUHuAqxbR1A",
         "name": "Paintings",
         "type": "text",
         "title": {
@@ -26894,7 +29271,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XOH26TxPwCGebDlq",
+        "_id": "DaI7IHdwcIueUIsm",
         "name": "23. Teleport Trap / Last Ambush",
         "type": "text",
         "title": {
@@ -26922,7 +29299,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BkPaugotg0AC3hbq",
+        "_id": "9JYGDJaFAWCbqE42",
         "name": "The Two Old Coins",
         "type": "text",
         "title": {
@@ -26950,7 +29327,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pJTWQMvgHDmsWXXB",
+        "_id": "esZ6WJxPnJB8xlsj",
         "name": "First View of Well of Dragons",
         "type": "text",
         "title": {
@@ -26978,7 +29355,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "S4Gf222jRNvgAkn2",
+        "_id": "ei6jC3OODOcPl4SK",
         "name": "The Ritual's Pressure",
         "type": "text",
         "title": {
@@ -27006,7 +29383,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DNd5T15IYwI4fLaS",
+        "_id": "ISYCDUuKSh1UKsT8",
         "name": "Severin's Entrance",
         "type": "text",
         "title": {
@@ -27034,7 +29411,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TOfBwadxhN1mRzhu",
+        "_id": "glsOzKC970gn1tLq",
         "name": "Tiamat's Presence",
         "type": "text",
         "title": {
@@ -27062,7 +29439,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xqvz96M5TdPXo6HL",
+        "_id": "itn8DpMof323yC73",
         "name": "Remallia and the Map",
         "type": "text",
         "title": {
@@ -27090,7 +29467,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MKjKPis08CKuevYa",
+        "_id": "hAXeRtXVdexNDzhg",
         "name": "Major Choices for the Players",
         "type": "text",
         "title": {
@@ -27118,7 +29495,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7wCCdssZJc5EHIXJ",
+        "_id": "sSVb7PSBSU8VLG0e",
         "name": "The World Reacts",
         "type": "text",
         "title": {
@@ -27146,7 +29523,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IhXgfAkw7Tr1kddD",
+        "_id": "aC76bJ1eh5cj10vX",
         "name": "Named NPC Deaths \u2013 Good Candidates",
         "type": "text",
         "title": {
@@ -27174,7 +29551,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "etIQXAy1NjuELZ92",
+        "_id": "wBykQZ6jMmKdo1Wm",
         "name": "26. Foundry/VTT Output",
         "type": "text",
         "title": {
@@ -27202,7 +29579,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FQsKpeFiMPlUel2j",
+        "_id": "WEFH3vsSBgMn83SK",
         "name": "27. Response Patterns",
         "type": "text",
         "title": {
@@ -27230,7 +29607,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5t9wuGWLRPcpu18m",
+        "_id": "yiMaG7zkJmdzIqgc",
         "name": "28. Source Context",
         "type": "text",
         "title": {
@@ -27266,11 +29643,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "JlwB2Vr1Pn92ZCQ4",
+    "_id": "OeFQ97HI0qTaD2Dq",
     "name": "Image-Usage-Guide",
     "pages": [
       {
-        "_id": "4qTEBFh7oTdhhWJR",
+        "_id": "vA9I4auGBdwm3xD2",
         "name": "Image Usage Guide \u2013 Finale Session Artwork",
         "type": "text",
         "title": {
@@ -27298,7 +29675,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "gKacUiV2Pyokzgkn",
+        "_id": "o1xBT8dwyRyBkbSa",
         "name": "NPC Tokens \u2013 Key Characters",
         "type": "text",
         "title": {
@@ -27326,7 +29703,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sOUJoY3IlO07WdG2",
+        "_id": "rm5vcdBiNuvVoAnD",
         "name": "Cult Rank Tokens (Encounter Variety)",
         "type": "text",
         "title": {
@@ -27354,7 +29731,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xjMdQzds6WbDg3nk",
+        "_id": "EJW3dJhuBNinJSlZ",
         "name": "Sacrifice Victims \u2013 Emotional Beat (PLAZA 23)",
         "type": "text",
         "title": {
@@ -27382,7 +29759,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HJF9hXa1xl5khHUm",
+        "_id": "ZJ868CT93BaeNKcv",
         "name": "Level 2 \u2013 The Fivefold Sanctum",
         "type": "text",
         "title": {
@@ -27410,7 +29787,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BOpagkEqkFPxjtUP",
+        "_id": "T3gFPZKLwENK7tDi",
         "name": "Level 3 \u2013 The Crown (Final Boss Arena)",
         "type": "text",
         "title": {
@@ -27438,7 +29815,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bzVG1SmJk3x8YBq3",
+        "_id": "vs55wZ4QXAPtDL88",
         "name": "Well of Dragons \u2013 Caldera",
         "type": "text",
         "title": {
@@ -27466,7 +29843,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rlsAadfuP47ljVDV",
+        "_id": "U8KCE0lwpU2UrhQv",
         "name": "Establishing Shots (Display before entering each area)",
         "type": "text",
         "title": {
@@ -27494,7 +29871,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jb2dzkURZhu1n95P",
+        "_id": "DR0SUmZTgrKuPhsJ",
         "name": "PRE-SESSION (Setup)",
         "type": "text",
         "title": {
@@ -27522,7 +29899,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "o9vlOyJAle1VR9Nw",
+        "_id": "drCNm94hBKEewonl",
         "name": "SESSION PHASE A \u2013 Caldera & Entry (60\u201390 min)",
         "type": "text",
         "title": {
@@ -27550,7 +29927,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MNNzPBdkFUbeXDrQ",
+        "_id": "Q98Yrd20E6TW64UJ",
         "name": "SESSION PHASE B \u2013 Level 2: The Fivefold Sanctum (60\u201390 min)",
         "type": "text",
         "title": {
@@ -27578,7 +29955,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IUMdAl9PPOelIn6l",
+        "_id": "wzUbrdYxIaii6gQv",
         "name": "SESSION PHASE C \u2013 Level 3: The Crown (90\u2013120 min)",
         "type": "text",
         "title": {
@@ -27606,7 +29983,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "h0KZmOTc6M10Q6FZ",
+        "_id": "RRB1NMVVKISSZFfc",
         "name": "POST-COMBAT: Aftermath (30\u201360 min)",
         "type": "text",
         "title": {
@@ -27634,7 +30011,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "He3JBusLnhiMEz48",
+        "_id": "y23u7AMgOqB8RS8h",
         "name": "Foundry VTT",
         "type": "text",
         "title": {
@@ -27662,7 +30039,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7go7cPCKhBS3iku2",
+        "_id": "NTULpemxOsFbnVWl",
         "name": "Roll20",
         "type": "text",
         "title": {
@@ -27690,7 +30067,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FNKhFJkED6W97pCW",
+        "_id": "7BljH5BJnS6JjJCW",
         "name": "Offline / Physical Table",
         "type": "text",
         "title": {
@@ -27718,7 +30095,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eebrcU2H7zZMFXCO",
+        "_id": "G6zkMii0HHyvEfSp",
         "name": "Image Storage & Naming",
         "type": "text",
         "title": {
@@ -27746,7 +30123,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "olp7Y6TxAyMAQoMp",
+        "_id": "7HNDUOCanhnzw7HA",
         "name": "Quick Display Checklist",
         "type": "text",
         "title": {
@@ -27782,11 +30159,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "bZIfrKq9Xz7BchEB",
+    "_id": "6Bq2Vk4XO6A3gJKK",
     "name": "Level-3-Complete-Walkthrough",
     "pages": [
       {
-        "_id": "6f4DeCpAAPxfNmTm",
+        "_id": "scvI2qEe5SztH7c8",
         "name": "Severin Final Boss + Tiamat Manifestation (Prompts 7 & 8 integrated)",
         "type": "text",
         "title": {
@@ -27814,7 +30191,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "A8v4pXQkvatEgQRu",
+        "_id": "eDDReMkYogYLDICm",
         "name": "\u26a0\ufe0f RITUAL CLOCK LOCKED AT 0 FOR THIS SESSION",
         "type": "text",
         "title": {
@@ -27842,7 +30219,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "CZSY5KoxP5EXkEx1",
+        "_id": "oLSt3mXqTHo3foDg",
         "name": "The Last Staircase (cinematic ascent, 2\u20133 minutes)",
         "type": "text",
         "title": {
@@ -27870,7 +30247,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qR3HtU6KpJ9zeiPd",
+        "_id": "tgBYzOCQTfmM501m",
         "name": "Visual Description \u2013 The Crown Revealed (boxed text, Danish)",
         "type": "text",
         "title": {
@@ -27898,7 +30275,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GGp9V2mTtgmH7Zsj",
+        "_id": "LlnBhyjFQfdYM4q9",
         "name": "Physical Layout (reference only \u2013 not read aloud)",
         "type": "text",
         "title": {
@@ -27926,7 +30303,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nFPZVTkR9pspOcvu",
+        "_id": "jkCPloqCnTLQRyDT",
         "name": "Severin Turns to Face the Party (3\u20135 minutes before initiative)",
         "type": "text",
         "title": {
@@ -27954,7 +30331,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Hx4WjQXIWc6WwQqB",
+        "_id": "0T8mES1YVnhv1fGz",
         "name": "Severin's Full Monologue (continues)",
         "type": "text",
         "title": {
@@ -27982,7 +30359,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MuHaNo4H2lCLlx6I",
+        "_id": "atL9cWiAfkwAccT2",
         "name": "Social Checks (parallel hooks \u2013 one per PC, simultaneous or rapid sequence)",
         "type": "text",
         "title": {
@@ -28010,7 +30387,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HZPD6mMf4VkTNAuu",
+        "_id": "Cz2HIMypqbwYRR3z",
         "name": "AXAR \u2013 Arcana Check DC 17",
         "type": "text",
         "title": {
@@ -28038,7 +30415,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pl06fCSp2UjTPAlS",
+        "_id": "WGuuKdFZ6aqwnU8M",
         "name": "DAXX \u2013 Insight Check DC 15",
         "type": "text",
         "title": {
@@ -28066,7 +30443,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zRD0Z3Fmzwy19by6",
+        "_id": "eW0AHJ1yzkjpB2gV",
         "name": "FRYGTL\u00d8S \u2013 Intimidation Check DC 18",
         "type": "text",
         "title": {
@@ -28094,7 +30471,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5edB7858qFW1oqpm",
+        "_id": "RnvtizEpyVSYuhhQ",
         "name": "TWILIGHT \u2013 Persuasion or Performance Check DC 20",
         "type": "text",
         "title": {
@@ -28122,7 +30499,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qrG8SOpIsTJvlusD",
+        "_id": "mLRn4o46A0iQOa3u",
         "name": "Fifth Voice \u2013 Severin's Final Statement (After social checks end)",
         "type": "text",
         "title": {
@@ -28150,7 +30527,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "B2TJQpQ1GPOXEjcd",
+        "_id": "qpbu4b54dmDnX8Go",
         "name": "Initiative Roll",
         "type": "text",
         "title": {
@@ -28178,7 +30555,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PDfKlu1h2P4BlLtj",
+        "_id": "e8Ok4DdZUiHmibcq",
         "name": "Surprise Round (if applicable)",
         "type": "text",
         "title": {
@@ -28206,7 +30583,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OdUZ4x47F96kcwHV",
+        "_id": "B2MjjyqjTnq9A6cJ",
         "name": "Round 1: Severin's Potential Actions",
         "type": "text",
         "title": {
@@ -28234,7 +30611,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6In0JfzgTjmYqvko",
+        "_id": "lVkv7QofadLYQUmE",
         "name": "SECTION 4: SEVERIN PHASE 1 DETAILED TACTICS (Rounds 2\u20135)",
         "type": "text",
         "title": {
@@ -28262,7 +30639,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zUjfpwMxd6Z7XncN",
+        "_id": "5jckiZe0t067IerT",
         "name": "Round 2",
         "type": "text",
         "title": {
@@ -28290,7 +30667,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tQxr6pLfXgefCr95",
+        "_id": "hBZ2PFdATEGdt2eu",
         "name": "Round 3\u20135 (Grouped for pacing)",
         "type": "text",
         "title": {
@@ -28318,7 +30695,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "f67hdjlG2f7mTUE4",
+        "_id": "UPHuP6kt2kikEcrN",
         "name": "Clock Impact on Phase 1",
         "type": "text",
         "title": {
@@ -28346,7 +30723,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IigNfyQdnRLkSABR",
+        "_id": "sv2uZDDamhMMYozu",
         "name": "Red Wizard Interaction: The Ritual Clock as Pacing Tool",
         "type": "text",
         "title": {
@@ -28374,7 +30751,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AslB3tpzxOfXXkUc",
+        "_id": "rsmO4o7vCJAfx9dy",
         "name": "SECTION 5: TIAMAT INTERFERENCE \u2013 CLOCK-DRIVEN ESCALATION",
         "type": "text",
         "title": {
@@ -28402,7 +30779,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "37UB8S9Z8Ik2Ajsm",
+        "_id": "KNwPxcTSQjVvEWH7",
         "name": "PSYCHIC ASSAULT TIMING",
         "type": "text",
         "title": {
@@ -28430,7 +30807,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iK6YekfqatRBzYJ5",
+        "_id": "NfpwX7v05s2z3t1n",
         "name": "Elia's Arrival (Optional, triggered at Clock 4\u20135)",
         "type": "text",
         "title": {
@@ -28458,7 +30835,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "h5IO0mdmHhlA7SXm",
+        "_id": "ExB8DF28mbfL1Lbi",
         "name": "The Moment of Transition",
         "type": "text",
         "title": {
@@ -28486,7 +30863,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TeDPVqaKPFugslpL",
+        "_id": "2m1LRfQJ0FoLtsH0",
         "name": "Severin Phase 2 Mechanics (HP 115 \u2192 0)",
         "type": "text",
         "title": {
@@ -28514,7 +30891,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xhUu7BvJXwnNnTgx",
+        "_id": "QSq9c6aIJGCErodH",
         "name": "Phase 2 Action Economy (Rounds 6 onward)",
         "type": "text",
         "title": {
@@ -28542,7 +30919,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yL7wMm4afETnwlpD",
+        "_id": "Yl5y63gJIXU3lfvJ",
         "name": "Phase 2 Red Wizards",
         "type": "text",
         "title": {
@@ -28570,7 +30947,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "T7tzDed0PllSMw6n",
+        "_id": "wh1zO2dMscrjtf1y",
         "name": "Phase 2 Rath Modar (If alive)",
         "type": "text",
         "title": {
@@ -28598,7 +30975,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "v4IMYnBKeEKVwrze",
+        "_id": "DFq0wvsq5bSKMxGd",
         "name": "SECTION 7: THREE VICTORY OPTIONS & RESOLUTION",
         "type": "text",
         "title": {
@@ -28626,7 +31003,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hP0NofdtvTESPx1S",
+        "_id": "lCL0hX0oDDrPd4HV",
         "name": "OPTION A \u2013 Kill Severin (most direct)",
         "type": "text",
         "title": {
@@ -28654,7 +31031,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iWI2QcipsVxQKQjU",
+        "_id": "oDLs1As23SyeoLYc",
         "name": "OPTION B \u2013 Destroy the Five Masks",
         "type": "text",
         "title": {
@@ -28682,7 +31059,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OFwFyvfOn605Ok74",
+        "_id": "zVJy1EofPsexqhZj",
         "name": "OPTION C \u2013 Break the Ritual Circle (Axar's Signature)",
         "type": "text",
         "title": {
@@ -28710,7 +31087,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "p4BI1MDYN5lsNeo0",
+        "_id": "BmMRdY0XXZlYc8Jy",
         "name": "What if Severin reaches 3 HP and cannot be killed (Clock 7+)?",
         "type": "text",
         "title": {
@@ -28738,7 +31115,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "INaxT4bBXGrgpAUl",
+        "_id": "fR387GGM9P3WWafS",
         "name": "Rath Modar's Death Scene (if he falls in Phase 2)",
         "type": "text",
         "title": {
@@ -28766,7 +31143,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Gy9H4Ohzv4iPQbN0",
+        "_id": "gLMBHFau19zDkPNj",
         "name": "SECTION 8: TIAMAT'S VOICE & WITHDRAWAL",
         "type": "text",
         "title": {
@@ -28794,7 +31171,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lZTSi8q2z6acHujS",
+        "_id": "tp9apoHflRxxsiJv",
         "name": "The Mechanics",
         "type": "text",
         "title": {
@@ -28822,7 +31199,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Aa6gymfH9VU1oQhs",
+        "_id": "Syo4uoquMU2FHBcE",
         "name": "Level 3 \u2192 2 Transition (Rounds 1\u20133)",
         "type": "text",
         "title": {
@@ -28850,7 +31227,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xMwCcr4MGPRosYwe",
+        "_id": "WHvTPp1Au1lwpfdF",
         "name": "Level 2 Exploration (Rounds 4\u20138)",
         "type": "text",
         "title": {
@@ -28878,7 +31255,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RGOZZC9fqiCjc3Ql",
+        "_id": "WAQr2127li2jKLXx",
         "name": "Level 1 (Rounds 9\u201315)",
         "type": "text",
         "title": {
@@ -28906,7 +31283,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "s4MEt6VQlhHHU8OT",
+        "_id": "pSk9nwm3Piis3ozq",
         "name": "Round 15: Final Threshold",
         "type": "text",
         "title": {
@@ -28934,7 +31311,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "udeMxovV8m0g35Xb",
+        "_id": "6Ig9S5fKdHsBkBf8",
         "name": "When They Step Out",
         "type": "text",
         "title": {
@@ -28962,7 +31339,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "khAiRg4DTr7yhqbM",
+        "_id": "KvE8cojMHBuCVJFd",
         "name": "SECTION 10: AFTERMATH & VICTORY CONDITIONS",
         "type": "text",
         "title": {
@@ -28990,7 +31367,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VEtSQMvxG8tNz83U",
+        "_id": "VpJ3rfVBNIBKmf9I",
         "name": "MAJOR SUCCESS (Ritual Clock 0\u20134 at Severin's fall)",
         "type": "text",
         "title": {
@@ -29018,7 +31395,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zCdNDI8GA1KR3gZy",
+        "_id": "CgxrHXAsUjPhKLkc",
         "name": "PARTIAL SUCCESS (Ritual Clock 5\u20137 at Severin's fall)",
         "type": "text",
         "title": {
@@ -29046,7 +31423,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WSwxKtWKVf6qAfJ0",
+        "_id": "IRo30KbDvLjcDE56",
         "name": "FAILURE FORWARD (Ritual Clock 8 at Severin's fall or Severin unable to be killed)",
         "type": "text",
         "title": {
@@ -29074,7 +31451,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3Fg79QNw7TgkQ9e4",
+        "_id": "RucqpU9rIIlgP2oB",
         "name": "Pacing the 90\u2013120 minute sequence",
         "type": "text",
         "title": {
@@ -29102,7 +31479,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9MpcZFrmgdaZ9CJV",
+        "_id": "RYOdzNkD2Rdp2lg4",
         "name": "Ritual Clock at the Table",
         "type": "text",
         "title": {
@@ -29130,7 +31507,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2xxvjKGEnBxYhmQv",
+        "_id": "hvn7JXYccXbC6TkQ",
         "name": "Initiative & Combat Management",
         "type": "text",
         "title": {
@@ -29158,7 +31535,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Q9ziYLvPGsBXEJd0",
+        "_id": "zEMoA1Rg6ahSpg7i",
         "name": "When Social Checks are Happening",
         "type": "text",
         "title": {
@@ -29186,7 +31563,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "gZxWaHf2iWTWR3K7",
+        "_id": "NLqnNqteNYynSIze",
         "name": "Managing Dominate Monster (Frygtl\u00f8s in Phase 2)",
         "type": "text",
         "title": {
@@ -29214,7 +31591,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qNsxPuK2NqW2EVyY",
+        "_id": "GLvvJwlpUckkYGhQ",
         "name": "Rath Modar's Engagement",
         "type": "text",
         "title": {
@@ -29242,7 +31619,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iOu9nQiOhkIKJuJ1",
+        "_id": "FD8JfzUJFw6KlZQW",
         "name": "Handling PC Death in the Finale",
         "type": "text",
         "title": {
@@ -29270,7 +31647,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "W4Uiwn4aEzPsM93d",
+        "_id": "WeiANqgQrRPwqwnj",
         "name": "Twilight's Moment",
         "type": "text",
         "title": {
@@ -29298,7 +31675,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6KiwTACLxar9DsMG",
+        "_id": "5ER6AV96st8cpmcz",
         "name": "Victory Conditions Summary",
         "type": "text",
         "title": {
@@ -29326,7 +31703,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sSMosIGJJrFzsgPV",
+        "_id": "vbO7aVigw5VZ4jcz",
         "name": "Severin Phase 1 Spell Selection (Rounds 2\u20135)",
         "type": "text",
         "title": {
@@ -29354,7 +31731,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nXr7xAudsimCLRsn",
+        "_id": "1QDZkRcXIGM9Hpmz",
         "name": "Severin Phase 2 Spell Selection (Rounds 6+)",
         "type": "text",
         "title": {
@@ -29382,7 +31759,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xbEUGcRWxjGaQm3H",
+        "_id": "FWPaNzJLKFUyLtsG",
         "name": "Red Wizard Escalation",
         "type": "text",
         "title": {
@@ -29410,7 +31787,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "75lFTFeIJTiBMjzo",
+        "_id": "xODIFwax7DtxzmPd",
         "name": "Temple Collapse Hazards (per Level)",
         "type": "text",
         "title": {
@@ -29438,7 +31815,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9xla8L1qdsTVPWbT",
+        "_id": "PV5CaVD3O7KRM6am",
         "name": "NPC Status at Combat Start",
         "type": "text",
         "title": {
@@ -29474,11 +31851,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "ezG9UF4SGRwpnPzI",
+    "_id": "2PDjYBM1Rxl5Z28W",
     "name": "Scene-4B-Plaza-Sacrifice",
     "pages": [
       {
-        "_id": "ytiLjzJ5WbBH1bok",
+        "_id": "3DQz7YEv7nMSL3cE",
         "name": "Scene 4b \u2014 The Plaza Sacrifice (If Party Sneaks to Plaza Edge)",
         "type": "text",
         "title": {
@@ -29506,7 +31883,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QzW9Ia3NmwGEz1mH",
+        "_id": "oPQ2Cai2wCZWFxx5",
         "name": "Boxed Text (Dansk)",
         "type": "text",
         "title": {
@@ -29534,7 +31911,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QVz69VQNAniO9Wcr",
+        "_id": "YNmNv4hpb43MdEiR",
         "name": "The Five Prisoners",
         "type": "text",
         "title": {
@@ -29562,7 +31939,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NOJpIhVT3jdfn1kW",
+        "_id": "kp4N6C116feeKh3r",
         "name": "The Ritual Master",
         "type": "text",
         "title": {
@@ -29590,7 +31967,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MT90qda6z1PTh1mS",
+        "_id": "XB0QlU3Ym9JltwDS",
         "name": "Round 1 \u2014 Recognition",
         "type": "text",
         "title": {
@@ -29618,7 +31995,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YZeV3yCllYyZlR2q",
+        "_id": "ota52tMZXn6dCIYj",
         "name": "Round 2 \u2014 Understanding",
         "type": "text",
         "title": {
@@ -29646,7 +32023,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7l413Bx5RxqdBngT",
+        "_id": "cjfcgdamBTLxekuT",
         "name": "Round 3 \u2014 The Final Death",
         "type": "text",
         "title": {
@@ -29674,7 +32051,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "y2pFrFmdLMBTCkaw",
+        "_id": "mPGLHu10eapVVS5v",
         "name": "The Aftermath \u2014 Cultist Reaction",
         "type": "text",
         "title": {
@@ -29702,7 +32079,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WhkUayQdlpD0YRhu",
+        "_id": "FWxg23uNLxvWhnfD",
         "name": "If Party Attempts Rescue (Before All Deaths)",
         "type": "text",
         "title": {
@@ -29730,7 +32107,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4xW04C99HFmje1gX",
+        "_id": "xCCehbcNuQpzrFaM",
         "name": "If Party Cannot Intervene",
         "type": "text",
         "title": {
@@ -29758,7 +32135,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YZ6HsofDQDz7jT31",
+        "_id": "7aoLlzS2UD9BwD6I",
         "name": "Axar's Arcana Opportunity",
         "type": "text",
         "title": {
@@ -29786,7 +32163,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cnR233dvK5I0XEJN",
+        "_id": "AJSqTH7hxUvvE6KF",
         "name": "Mechanical Impact Summary",
         "type": "text",
         "title": {
@@ -29814,7 +32191,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PPAWoBPK5baCQr6Q",
+        "_id": "hCEHgwLKoSJAmVvF",
         "name": "Optional: Prisoner Recognition",
         "type": "text",
         "title": {
@@ -29842,7 +32219,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LQ9QVsajiBcrxQTM",
+        "_id": "ry80hisW764HwdWf",
         "name": "Integration into Existing Scene Flow",
         "type": "text",
         "title": {
@@ -29870,7 +32247,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Qpk8iDnTelNCgD3k",
+        "_id": "cafQzfoxC2bkpNQJ",
         "name": "DM Notes",
         "type": "text",
         "title": {
@@ -29906,11 +32283,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "K2Zo3sXkknDqqmmQ",
+    "_id": "NAImkHaG1nxRicAE",
     "name": "Area-7-To-Temple-Cinematic-Refined",
     "pages": [
       {
-        "_id": "K6y8vNkPv8hE2hm2",
+        "_id": "IkHCR8JgpR0WQltu",
         "name": "Area 7 \u2192 Temple: Refined Cinematic Sequence",
         "type": "text",
         "title": {
@@ -29938,7 +32315,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VV2kziVvquW48c57",
+        "_id": "kmXv4zeBwPN0oQu8",
         "name": "Boxed Text (Dansk)",
         "type": "text",
         "title": {
@@ -29966,7 +32343,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4wvQNwEO0AmQZU1a",
+        "_id": "sJtGLqZlJfjpqG9s",
         "name": "Per-PC First Notice",
         "type": "text",
         "title": {
@@ -29994,7 +32371,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VzeBx8u042qY6LcN",
+        "_id": "hZSNyOxrkbpafBR9",
         "name": "Anticipated Player Questions",
         "type": "text",
         "title": {
@@ -30022,7 +32399,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "aTx2eN4n7u47gNqw",
+        "_id": "f94VBlDHzKKyzF2I",
         "name": "Mechanical Updates",
         "type": "text",
         "title": {
@@ -30050,7 +32427,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tWcfFLbvJ4n6GJeH",
+        "_id": "vOtkhOvXGTF4PRzh",
         "name": "DM Notes",
         "type": "text",
         "title": {
@@ -30078,7 +32455,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VTedHFwsDd2gWiTr",
+        "_id": "wBayxPoYGDDIIuna",
         "name": "Boxed Text Moment \u2014 Devils' Common Speech",
         "type": "text",
         "title": {
@@ -30106,7 +32483,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eYccUEYhlsAojCEZ",
+        "_id": "eUidmDXRILJgv0hr",
         "name": "Scene 4b \u2014 THE PLAZA SACRIFICE (Optional, if Party Sneaks Past Guards)",
         "type": "text",
         "title": {
@@ -30134,7 +32511,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "90BxscB4N7vf9qmM",
+        "_id": "QHzQoRRf4G3Uk5QO",
         "name": "Tactical Context",
         "type": "text",
         "title": {
@@ -30162,7 +32539,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IhX7RSrsrjmvl247",
+        "_id": "MWLaNabL1OcdIAjg",
         "name": "Option A: Combat from Behind (Surprise Round Maintained)",
         "type": "text",
         "title": {
@@ -30190,7 +32567,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yt0R4gilOABazeA4",
+        "_id": "cFRSLTRIvkFVBr5Y",
         "name": "Option B: Sneak Past (Group Stealth DC 16)",
         "type": "text",
         "title": {
@@ -30218,7 +32595,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AykNZHMSW104GVi5",
+        "_id": "U16QNExTLqbht0Xg",
         "name": "Option C: Twilight Suggestion on a Drake (DC 18 Wisdom Save)",
         "type": "text",
         "title": {
@@ -30246,7 +32623,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "C9miXRtOrBEctKkq",
+        "_id": "Dh5afwEhm0m1gfWj",
         "name": "Option D: Axar Alpha Strike (Fireball, 8d6 damage)",
         "type": "text",
         "title": {
@@ -30274,7 +32651,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0nFJ7lfNQjkCgYG8",
+        "_id": "SoxeU10A41d17hoe",
         "name": "Framework",
         "type": "text",
         "title": {
@@ -30302,7 +32679,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GaGdyEwjUX0OClWi",
+        "_id": "uBEZmpXsg5xaa7bE",
         "name": "Skill Options (DC 15 each)",
         "type": "text",
         "title": {
@@ -30330,7 +32707,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lxdN4jn8hwWIICy2",
+        "_id": "Id8mbpAjNWTzhdrA",
         "name": "Boxed Text \u2014 Full Success (4 successes, 0-1 failures)",
         "type": "text",
         "title": {
@@ -30358,7 +32735,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rift2tymqrWm0bxf",
+        "_id": "HTw8FjM6FbQfaGhR",
         "name": "Boxed Text \u2014 Partial Success (4 successes, 2 failures)",
         "type": "text",
         "title": {
@@ -30386,7 +32763,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xPp1Y118JgB87GjO",
+        "_id": "R57eP0DTFTNjLXbE",
         "name": "Boxed Text \u2014 Catastrophic (Failed attempt, dragon intercepts)",
         "type": "text",
         "title": {
@@ -30414,7 +32791,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "b5nKMzIOjqCLW9Yj",
+        "_id": "Xe5zkomBZPlTRztL",
         "name": "NPC: The Blue Chapel Red Wizard",
         "type": "text",
         "title": {
@@ -30442,7 +32819,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IAuvwChzGXmnjll4",
+        "_id": "QncAJDMRYgMh1wLI",
         "name": "Combat Options",
         "type": "text",
         "title": {
@@ -30470,7 +32847,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "b9fZTSonddQT3dGR",
+        "_id": "SHO4JliB24RftQvG",
         "name": "The Humanization Beat (Frygtl\u00f8s's Parallel to Naergoth)",
         "type": "text",
         "title": {
@@ -30498,7 +32875,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PVZWGXn8WpIGi4K6",
+        "_id": "4ptSgHFFi6gw75mr",
         "name": "For Axar Specifically (Arcana DC 10)",
         "type": "text",
         "title": {
@@ -30526,7 +32903,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "62YLca3sVHFO2Hge",
+        "_id": "OHW97EBsQCeklS53",
         "name": "Per-PC First Notice (Scene 8 Revised)",
         "type": "text",
         "title": {
@@ -30554,7 +32931,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uVPtCxgzpulToq4X",
+        "_id": "LXzOU526lCqJJbwa",
         "name": "Ritual Progress (Clock 0 \u2014 What They Sense)",
         "type": "text",
         "title": {
@@ -30582,7 +32959,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OOyMX966ZwMEEd6a",
+        "_id": "XxuCp54DO68MH9bO",
         "name": "Rath Modar Identification (Thay-arc payoff)",
         "type": "text",
         "title": {
@@ -30610,7 +32987,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kVeL1KO6BncxKmQw",
+        "_id": "EsxdFdYIJmZpJ8es",
         "name": "Transition to Phase B (Fivefold Sanctum)",
         "type": "text",
         "title": {
@@ -30638,7 +33015,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2eJJBxG3CpkfCZnK",
+        "_id": "qlIHeIswhv73bXKC",
         "name": "Clock Status Summary",
         "type": "text",
         "title": {
@@ -30666,7 +33043,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jrEqNOSVG4nCJ8uC",
+        "_id": "JVO8y2s1mJbl9Zm6",
         "name": "Potion & Resource Checkpoints",
         "type": "text",
         "title": {
@@ -30694,7 +33071,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "50orz0ENcVeu5lx6",
+        "_id": "OQ3gaZiDjFApfaIt",
         "name": "Summary: What Happened",
         "type": "text",
         "title": {
@@ -30722,7 +33099,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lkzDpZ8jG4jNZmPv",
+        "_id": "maZCfO30UIAW7WQf",
         "name": "DM Prep Checklist for This Sequence",
         "type": "text",
         "title": {
@@ -30758,11 +33135,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "0BTFaPrTlmsDKzfU",
+    "_id": "mwfYwX5acxSkH7i9",
     "name": "Army-Clock-Playbook",
     "pages": [
       {
-        "_id": "T5meGZtBbp4VY6d4",
+        "_id": "eGRjLPwVnOVo474l",
         "name": "Army Clock Playbook \u2013 Temple of Tiamat",
         "type": "text",
         "title": {
@@ -30790,7 +33167,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "t0ooYdy5uK05Lq5j",
+        "_id": "KohywGizIIRQwCWK",
         "name": "d8 Frontline Events (party-tuned)",
         "type": "text",
         "title": {
@@ -30818,7 +33195,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SBhZ9TrpsmxCw06g",
+        "_id": "X05QgEtETUkMvQzr",
         "name": "Scene 1: Ulder Ravengard (Flaming Fist Commander)",
         "type": "text",
         "title": {
@@ -30846,7 +33223,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xOaM3DuFaeemTeyd",
+        "_id": "63qfvyUYvuL1yABv",
         "name": "Scene 2: Remallia Haventree (Harper Liaison)",
         "type": "text",
         "title": {
@@ -30874,7 +33251,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "X5r0yp8pUWPuuaYI",
+        "_id": "QRfGPdnYxKxf42v6",
         "name": "Scene 3: Ontharr Frume (Order of the Gauntlet)",
         "type": "text",
         "title": {
@@ -30902,7 +33279,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qqSGrcFaVfQwZ7Hf",
+        "_id": "jyCG2Q5ibSvBHyqj",
         "name": "How Army-Clock events force Ritual-Clock ticks",
         "type": "text",
         "title": {
@@ -30930,7 +33307,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3JUVP1GLkVCVvS0w",
+        "_id": "2w54NU9XQt2NhfNR",
         "name": "When PCs can intervene WITHOUT costing ritual clock",
         "type": "text",
         "title": {
@@ -30958,7 +33335,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "CrDwmkfqasFEn5Xt",
+        "_id": "F3QWbF15WeYD18Vy",
         "name": "When helping the army DOES cost ritual time",
         "type": "text",
         "title": {
@@ -30986,7 +33363,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jw49cJ6jQ6rgVx3v",
+        "_id": "mpm2j9zx9Z6KAbTe",
         "name": "Intervention DCs by PC",
         "type": "text",
         "title": {
@@ -31014,7 +33391,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kwNu67cZheQD02rw",
+        "_id": "yfc4ij5Lmy5N9jr5",
         "name": "Quick Reference \u2013 Managing the War",
         "type": "text",
         "title": {
@@ -31042,7 +33419,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KVOkChPY1Rd154Ik",
+        "_id": "iQCq1uuaNP5jbMsN",
         "name": "Sample Play Sequence",
         "type": "text",
         "title": {
@@ -31078,11 +33455,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "dfdnB7qHB0gLLtSO",
+    "_id": "xJm4p7d4EVkf1WxV",
     "name": "Checkliste",
     "pages": [
       {
-        "_id": "NkUn07sUc1r0jHcg",
+        "_id": "wuzOUBSDf89BqplP",
         "name": "Pre-Session DM Checklist \u2013 Well of Dragons Finale",
         "type": "text",
         "title": {
@@ -31110,7 +33487,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "R4zYJIHeX1PD9zy0",
+        "_id": "HzzWGTmlj4lAv50f",
         "name": "Ritual Clock \u2013 Starting State",
         "type": "text",
         "title": {
@@ -31138,7 +33515,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6NtPBXTxoyustmuN",
+        "_id": "JplA1Gxrev7OYtS4",
         "name": "Approach to Well of Dragons",
         "type": "text",
         "title": {
@@ -31166,7 +33543,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "A9HQbVpTa6uUZT2B",
+        "_id": "Di2sQ5C164f22CuY",
         "name": "Army Clock Starting Value",
         "type": "text",
         "title": {
@@ -31194,7 +33571,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KqLlKID07EwEKrjh",
+        "_id": "N7hijATWhDREk6Xr",
         "name": "Focus Status (Level 2)",
         "type": "text",
         "title": {
@@ -31222,7 +33599,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uyGUI9blGWpCR4dO",
+        "_id": "THrqiZCP4SmqfcQ2",
         "name": "Severin Preparation",
         "type": "text",
         "title": {
@@ -31250,7 +33627,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "red9Eu0nDZ721PNH",
+        "_id": "M1MeZTGNAJJnxbXk",
         "name": "NPCs Relevant This Session",
         "type": "text",
         "title": {
@@ -31278,7 +33655,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EXtgwcgQTXKZNUal",
+        "_id": "l1tcgwvcqSB0pJRO",
         "name": "Available Loot and Resources",
         "type": "text",
         "title": {
@@ -31306,7 +33683,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Pt4elOjLzrAnY843",
+        "_id": "BOL5gAkHnOEZziCC",
         "name": "Ritual Clock Physical Tracker",
         "type": "text",
         "title": {
@@ -31334,7 +33711,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LeWQ0pRwFQ7pNc03",
+        "_id": "WjqTUGIG1b9rzDAR",
         "name": "Army Clock Physical Tracker",
         "type": "text",
         "title": {
@@ -31362,7 +33739,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FODaQQLncnLOWbG5",
+        "_id": "kgQTWokjbxwRnGEG",
         "name": "Initiative Tracker \u2013 Level 3",
         "type": "text",
         "title": {
@@ -31390,7 +33767,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sQvwHM3zG7vFktuG",
+        "_id": "coxIIz43SuGSfPvv",
         "name": "Opening \u2013 Arrival at Well of Dragons",
         "type": "text",
         "title": {
@@ -31418,7 +33795,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fGrVr8EgagDZbO6f",
+        "_id": "me2Dl6g0yEgXpLGx",
         "name": "Tiamat Presence Escalation (choose based on clock)",
         "type": "text",
         "title": {
@@ -31446,7 +33823,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WeGucRBD19YG5u73",
+        "_id": "a2NajWoxomT8cWxX",
         "name": "Post-Session Notes",
         "type": "text",
         "title": {
@@ -31482,11 +33859,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "6WHW2Ol5DiCX7F1N",
+    "_id": "TJPVI1K7Pj1rvNSs",
     "name": "Dm-Quick-Overview",
     "pages": [
       {
-        "_id": "Q8GdKqKVpv148Sb1",
+        "_id": "Fo3uVjy0SEmDWnrz",
         "name": "DM Quick Overview \u2014 Tiamat Finale Session",
         "type": "text",
         "title": {
@@ -31514,7 +33891,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XvxjEY1OKGtj2JDq",
+        "_id": "7VaMmrr1JjfBNhiB",
         "name": "\u23f1\ufe0f Before the cold open",
         "type": "text",
         "title": {
@@ -31542,7 +33919,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Zj5x2a3ZhmZETgPq",
+        "_id": "GJY4JZpChyGHfBnK",
         "name": "\ud83c\udfad Party state right now",
         "type": "text",
         "title": {
@@ -31570,7 +33947,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4qFWHixJIsKjc3wj",
+        "_id": "L4EV6vCVEx0p3JkH",
         "name": "\ud83d\uddfa\ufe0f Locked route",
         "type": "text",
         "title": {
@@ -31598,7 +33975,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SZeXhxcR7MHnj1Jz",
+        "_id": "kESnQwZy6TULMo1i",
         "name": "\u23f0 Ritual clock",
         "type": "text",
         "title": {
@@ -31626,7 +34003,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "g6jWuHibNRnYY6L2",
+        "_id": "WvBDsaOPON2K1Wfp",
         "name": "\ud83c\udfac Setup cues \u2014 drop these at the right moments",
         "type": "text",
         "title": {
@@ -31654,7 +34031,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7F8Y4x1IBjnTJ9nC",
+        "_id": "bxwLgTocmWWug09U",
         "name": "Plaza guards (one tunnel)",
         "type": "text",
         "title": {
@@ -31682,7 +34059,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wkuLWNLLamkAVm9G",
+        "_id": "TEZU5eTqQbu1Tpmd",
         "name": "Blue Chapel Red Wizard (entry)",
         "type": "text",
         "title": {
@@ -31710,7 +34087,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "H2CWlgVpQl4YLU2y",
+        "_id": "oF1Qz0dFFz8SJCHL",
         "name": "Severin (HP 230, Phase 2 at 115)",
         "type": "text",
         "title": {
@@ -31738,7 +34115,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vY199K1UO103pBhx",
+        "_id": "2J9F1fIUci0c5qWJ",
         "name": "Tiamat-head (when manifests)",
         "type": "text",
         "title": {
@@ -31766,7 +34143,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Vv4QLiUCdjoutd1W",
+        "_id": "sCef1beqJNFIzxI6",
         "name": "Rath Modar (in Red Chapel area 6)",
         "type": "text",
         "title": {
@@ -31794,7 +34171,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zlxVigCSgiMgK1VF",
+        "_id": "TLSXZEBOqDnyvrCs",
         "name": "When party combined HP < 200",
         "type": "text",
         "title": {
@@ -31822,7 +34199,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jptMrGXVDnPh0M41",
+        "_id": "GDu6MCF91QGDbNIK",
         "name": "When 2+ PCs at 0 HP simultaneously",
         "type": "text",
         "title": {
@@ -31850,7 +34227,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QXqZYONmP9cMB5Fe",
+        "_id": "qyRH5JCTfVqClyHx",
         "name": "When Frygtl\u00f8s is Dominated by Severin",
         "type": "text",
         "title": {
@@ -31878,7 +34255,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GW9sBe8G6z0sy4Ut",
+        "_id": "hoyXHi2tcqDyZY7D",
         "name": "\ud83c\udfc6 The three victory paths",
         "type": "text",
         "title": {
@@ -31906,7 +34283,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TdEM7O3WSJVu3C4x",
+        "_id": "rOuhr2YrNKLJRaGn",
         "name": "\ud83d\udcdc Aftermath (60 min)",
         "type": "text",
         "title": {
@@ -31934,7 +34311,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EjpVyjpHp3blE4EC",
+        "_id": "YvgWOKWPXrl6g34m",
         "name": "\ud83d\udd11 The four letters (printed and folded)",
         "type": "text",
         "title": {
@@ -31962,7 +34339,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WcuQb0OkiYRlyGEA",
+        "_id": "UzFtv3lpBDfZl5Yy",
         "name": "\u274c DM mistakes that kill the magic",
         "type": "text",
         "title": {
@@ -31990,7 +34367,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kFz91LZuv5XKT3EU",
+        "_id": "xYZpbqJFGYhQIRxZ",
         "name": "\ud83c\udfaf If the session goes off-rails",
         "type": "text",
         "title": {
@@ -32026,11 +34403,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "jeuF8CtU0t9S7B80",
+    "_id": "LnFl5fgHIFeBERbk",
     "name": "Printable-Clock-Tracker",
     "pages": [
       {
-        "_id": "mNhSDS1YKOWlys8g",
+        "_id": "11lAG3AdETcfLKO6",
         "name": "Printable Ritual Clock & Army Clock Tracker",
         "type": "text",
         "title": {
@@ -32058,7 +34435,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jBouOa11ipfXUK4Q",
+        "_id": "WbsIWHxlEX19inx2",
         "name": "RITUAL CLOCK \u2013 0 to 8 PROGRESSION",
         "type": "text",
         "title": {
@@ -32086,7 +34463,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "M7efgQod3xopoWf1",
+        "_id": "bR7mtfKh1JWMA8uO",
         "name": "Clock Effects Quick Reference",
         "type": "text",
         "title": {
@@ -32114,7 +34491,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HBETVBSAiIW4f9fj",
+        "_id": "Noo0FNqhFAQn0XmB",
         "name": "ARMY CLOCK \u2013 0 to 8 PROGRESSION",
         "type": "text",
         "title": {
@@ -32142,7 +34519,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "8sVG3tJFcT31A1Z4",
+        "_id": "4kTp5t9ZidPpnjhS",
         "name": "Army Events Quick Reference",
         "type": "text",
         "title": {
@@ -32170,7 +34547,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QCfhHVH2WHUnehxl",
+        "_id": "xZJenCTFvASo7A85",
         "name": "SEVERIN PHASE TRANSITION CHECKLIST",
         "type": "text",
         "title": {
@@ -32198,7 +34575,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "k1UTR0CbPfzKlH6I",
+        "_id": "7DtZLSwaQ0uDJxMr",
         "name": "TIAMAT PRESENCE MARKER",
         "type": "text",
         "title": {
@@ -32234,11 +34611,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "I8wvAY1dSyPzzgCw",
+    "_id": "q0dv4KdmllpBroeA",
     "name": "Tiamat-Finale-Plan",
     "pages": [
       {
-        "_id": "jAEqyUzS42v1VIEH",
+        "_id": "luio9pkBAY5tFAJe",
         "name": "Tiamat Finale \u2013 Session Plan and Prompts",
         "type": "text",
         "title": {
@@ -32266,7 +34643,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sXEH2xFBgbXGq5fo",
+        "_id": "GuD8xmBGs8F6N5CS",
         "name": "Leosin Erlanthar \u2013 dead (before Well of Dragons)",
         "type": "text",
         "title": {
@@ -32294,7 +34671,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "aNtbrRyvOgDfstd3",
+        "_id": "1OnWLsE1eo7tJrdo",
         "name": "Naergoth Bladelord \u2013 dead",
         "type": "text",
         "title": {
@@ -32322,7 +34699,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ACNxnT5hhj25Fcny",
+        "_id": "unGJi80jYiWatTFg",
         "name": "Party",
         "type": "text",
         "title": {
@@ -32350,7 +34727,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Ss3Li6P85Padu2go",
+        "_id": "drIBNRT1LdYTZ2Cp",
         "name": "Open questions (need decision before Session 0 of finale)",
         "type": "text",
         "title": {
@@ -32378,7 +34755,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Qh7lrpXP6qgxCbKS",
+        "_id": "xByxSClEIP5Hsyvf",
         "name": "Severin pre-combat line \u2013 updated",
         "type": "text",
         "title": {
@@ -32406,7 +34783,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kWYAIcCFdCsAZSac",
+        "_id": "f0Xc3eqRyPFMNkvL",
         "name": "Aftermath \u2013 Scene 4 is N/A",
         "type": "text",
         "title": {
@@ -32434,7 +34811,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XtLBffmYQukacs3D",
+        "_id": "tQCfY5vWeaVXTB8t",
         "name": "Current position (in-fiction, locked)",
         "type": "text",
         "title": {
@@ -32462,7 +34839,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wAn8PZzs6omRGbaV",
+        "_id": "B3C1UYqPWH3in5LT",
         "name": "What the party has already done (per `session-summary/Session-well-of-dragons.md`)",
         "type": "text",
         "title": {
@@ -32490,7 +34867,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3wJgIVki3rolHwpa",
+        "_id": "SUw03VycZ2nGuRaM",
         "name": "Draakhorn-stop consequences (CRITICAL)",
         "type": "text",
         "title": {
@@ -32518,7 +34895,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vfkUgrp9MuYUhwE8",
+        "_id": "fqSstQnvVW8gIANb",
         "name": "Naergoth \u2013 canonical location updated",
         "type": "text",
         "title": {
@@ -32546,7 +34923,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FdkNf5iPYFZDKUFq",
+        "_id": "5AuARUoukblhUZVq",
         "name": "The locked route: 7 \u2192 6 \u2192 23 \u2192 temple front gate (Blue Chapel)",
         "type": "text",
         "title": {
@@ -32574,7 +34951,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "S1DyIfyBeBFpfTHi",
+        "_id": "bWiiuZxVjwqt2A8V",
         "name": "State of the world (locked from DM clarifying answers)",
         "type": "text",
         "title": {
@@ -32602,7 +34979,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0vNgNrC9Vh44jeN0",
+        "_id": "8RGmveVa1QKZUvOK",
         "name": "Combat-tuning warning \u2014 NO Long Rest",
         "type": "text",
         "title": {
@@ -32630,7 +35007,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AntmGtIi7TzKxC4N",
+        "_id": "X8Vw73iICMaeRlQc",
         "name": "Frygtl\u00f8s's parallel-to-Naergoth beat \u2014 where does it land now?",
         "type": "text",
         "title": {
@@ -32658,7 +35035,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6hjCwGEryyJVMKro",
+        "_id": "tb4VU2EvUAmfciuQ",
         "name": "Three Clue Rule \u2013 the Naergoth gap",
         "type": "text",
         "title": {
@@ -32686,7 +35063,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6bOuksuqDH0TUd7d",
+        "_id": "sWMdFn9u5bxsQfsm",
         "name": "The Three Approaches \u2013 Comparison",
         "type": "text",
         "title": {
@@ -32714,7 +35091,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hVSDLxjQsnQAB1q9",
+        "_id": "hRXqgjZXEMxefk5x",
         "name": "Recommendation for this party: hybrid \u2014 LOCKED to Water",
         "type": "text",
         "title": {
@@ -32742,7 +35119,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fUt6O0SEByOlfePz",
+        "_id": "WafqgG6y47h7whk9",
         "name": "The Three Phases",
         "type": "text",
         "title": {
@@ -32770,7 +35147,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yuHBpuLsvApVpFYe",
+        "_id": "e8tGrv0rPzbNpwo2",
         "name": "Phase A \u2013 Caldera & Entry",
         "type": "text",
         "title": {
@@ -32798,7 +35175,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "B2o9nLq3YOkuONfT",
+        "_id": "ZMELzgPsmmn1dD8a",
         "name": "Beat list (locked: 7 \u2192 6 \u2192 23 \u2192 front gate)",
         "type": "text",
         "title": {
@@ -32826,7 +35203,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bektcln5UrV5riqn",
+        "_id": "330nk98xUSYA54zh",
         "name": "From Area 7 to the Temple \u2014 full sequence (route 7\u21926\u219223\u2192Blue Chapel)",
         "type": "text",
         "title": {
@@ -32854,7 +35231,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "v51jdmRgb9h3FomK",
+        "_id": "OuWyKmBMHTSaKjJv",
         "name": "Scene 1 \u2014 Area 7, last quiet",
         "type": "text",
         "title": {
@@ -32882,7 +35259,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DwwBMQduetEjVCs7",
+        "_id": "Bt4qxN2wVOA6j531",
         "name": "Scene 2 \u2014 Through area 6 (the cleared treasure chamber)",
         "type": "text",
         "title": {
@@ -32910,7 +35287,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zWUQG5N2zOX3bSAP",
+        "_id": "DlEWuoZSbUQTLl39",
         "name": "Scene 3 \u2014 Northern Exits tunnel (between area 6 and area 23)",
         "type": "text",
         "title": {
@@ -32938,7 +35315,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FFzUyVNtNbfaErZD",
+        "_id": "3jse5nhNsWqWnXwM",
         "name": "Scene 4 \u2014 Plaza 23 guards (one tunnel only \u2014 the party's exit)",
         "type": "text",
         "title": {
@@ -32966,7 +35343,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sMFO5r9pNB3Cnq6R",
+        "_id": "kzDnz6F7hk2Tf31v",
         "name": "Scene 5 \u2014 Emerging into the plaza",
         "type": "text",
         "title": {
@@ -32994,7 +35371,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jVWXJZ6dr0u1Vfes",
+        "_id": "Sa1BArWW9gkm2wHa",
         "name": "Scene 6 \u2014 Crossing the plaza",
         "type": "text",
         "title": {
@@ -33022,7 +35399,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oyVAtdpTasJjNIq4",
+        "_id": "zbANxSmVXYBTJUFz",
         "name": "Scene 7 \u2014 Temple front gate (Blue Chapel, area 1)",
         "type": "text",
         "title": {
@@ -33050,7 +35427,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "20rqVWsasC2pUyPo",
+        "_id": "j6yTlOKLhyUIj9ho",
         "name": "Scene 8 \u2014 Inside the temple, first full view",
         "type": "text",
         "title": {
@@ -33078,7 +35455,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "niZOkL3ahy7kNM09",
+        "_id": "fXt36B2tMQMlPrlW",
         "name": "Ritual Progress \u2014 what the party can read",
         "type": "text",
         "title": {
@@ -33106,7 +35483,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "b11827QwZrotW8Vv",
+        "_id": "gnErO6qOYmVrIBiR",
         "name": "Prompt 1 \u2013 Room 7 to temple cinematic (locked approach)",
         "type": "text",
         "title": {
@@ -33134,7 +35511,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oBeZlKEKaCB7u0Kk",
+        "_id": "P3n2uI2OdO9vuCkn",
         "name": "Prompt 2 \u2013 Army-clock and frontline events tuned for this party",
         "type": "text",
         "title": {
@@ -33162,7 +35539,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MT2U8skkEQM2Px5Z",
+        "_id": "Magf9qB2ZiFDuXVQ",
         "name": "Prompt 3 \u2013 Level 1 walkthrough adapted to Black Chapel entry",
         "type": "text",
         "title": {
@@ -33190,7 +35567,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0eG8h1Rcw9No7CeF",
+        "_id": "YG0IVHx7NeIEo5fL",
         "name": "Prompt 4 \u2013 Plaza 23 guards + temple front gate tactics",
         "type": "text",
         "title": {
@@ -33218,7 +35595,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bJhDBXKh8luFvQmM",
+        "_id": "UmOQRD22ArYw220m",
         "name": "Phase B \u2013 Ritual (Fivefold Sanctum)",
         "type": "text",
         "title": {
@@ -33246,7 +35623,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6d7V1XuCfbUQnweT",
+        "_id": "VFOv9VBGCbeh8yko",
         "name": "Beat list",
         "type": "text",
         "title": {
@@ -33274,7 +35651,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "m8hTHFMegPvkUBDz",
+        "_id": "esmiKSrejnCkKweB",
         "name": "Reloaded-bridge \u2014 resurrected wyrmspeakers (all 3 confirmed in play)",
         "type": "text",
         "title": {
@@ -33302,7 +35679,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xdAvG0TJCLdDE839",
+        "_id": "TUd8a2wFMMsuA4Xd",
         "name": "Prompt 5 \u2013 Optimal sabotage order for this party",
         "type": "text",
         "title": {
@@ -33330,7 +35707,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Zgf2G5w0uMwF6DK8",
+        "_id": "QB2IRMPbZcyuoS2s",
         "name": "Prompt 6 \u2013 Blue Abishai (Galvan) as mini-finale",
         "type": "text",
         "title": {
@@ -33358,7 +35735,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VikHRtEHbs5CZgaj",
+        "_id": "h1196VDbXBUlei0V",
         "name": "Prompt 7 \u2013 Ritual-clock table tool and decision tree",
         "type": "text",
         "title": {
@@ -33386,7 +35763,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QEZTCoADkZvAGS4r",
+        "_id": "HwMCk05euneipfvV",
         "name": "Phase C \u2013 Tiamat & Final Battle",
         "type": "text",
         "title": {
@@ -33414,7 +35791,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Ii5pDzOPdU8DYfzq",
+        "_id": "9yD18nzziouCEzeW",
         "name": "Reloaded-bridge \u2014 Rath Modar and Mask of the Dragon Queen (Rath Modar CONFIRMED in play)",
         "type": "text",
         "title": {
@@ -33442,7 +35819,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9H8tSo37Vf6ZMU2r",
+        "_id": "Bn0UZWRox424pL9h",
         "name": "Rath Modar \u2014 death scene (Axar's Thay-arc payoff)",
         "type": "text",
         "title": {
@@ -33470,7 +35847,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LjtHPVu4YwNG0sgz",
+        "_id": "DpoEet70s5F3aESE",
         "name": "Mask of the Dragon Queen \u2014 post-Severin fate (per victory path)",
         "type": "text",
         "title": {
@@ -33498,7 +35875,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eaZZ83qxbxLCcZIk",
+        "_id": "zfp8zRs5cl5yzdtb",
         "name": "Prompt 8 \u2013 Severin pre-combat: parallel social hooks",
         "type": "text",
         "title": {
@@ -33526,7 +35903,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0gbiHWKFsCYFS5O4",
+        "_id": "qmZCQ4cFzpzndaJ3",
         "name": "Prompt 9 \u2013 Severin boss fight, clock-conditional",
         "type": "text",
         "title": {
@@ -33554,7 +35931,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2zvYQlwlsmcT80wu",
+        "_id": "kyQ1jjlNHNgIkMTr",
         "name": "Prompt 10 \u2013 Tiamat heads, collapse, aftermath as one sequence",
         "type": "text",
         "title": {
@@ -33582,7 +35959,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ioagnnSzleAvIY1Y",
+        "_id": "6f1rsvHl5lfKx5ai",
         "name": "Prompt 11 \u2013 Reloaded-to-rework lore bridge",
         "type": "text",
         "title": {
@@ -33610,7 +35987,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MDnnJW2EG56EBEuJ",
+        "_id": "96v5GgVVFIv4ARiG",
         "name": "Prompt 12 \u2013 Aftermath bridge to Chapter 24 epilogue arcs",
         "type": "text",
         "title": {
@@ -33638,7 +36015,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dx6l2Qw2HtBUE65B",
+        "_id": "E4voCZfOaWAlJDp3",
         "name": "Production Prompts (dndtale tooling)",
         "type": "text",
         "title": {
@@ -33666,7 +36043,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BZot3lD9O8QavCP6",
+        "_id": "Is0MSRiAGgdQ87aO",
         "name": "Prompt 13 \u2013 Finale art prompts for dndig-openai",
         "type": "text",
         "title": {
@@ -33694,7 +36071,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pDP7rlKlArfRe2hn",
+        "_id": "pavWQ7TNrTYt5sR2",
         "name": "Prompt 14 \u2013 Quality and consistency pass",
         "type": "text",
         "title": {
@@ -33722,7 +36099,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Q3olz4ee6tL7sErC",
+        "_id": "Q5UHspEbGVwBel7K",
         "name": "Recommended workflow",
         "type": "text",
         "title": {
@@ -33750,7 +36127,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VBvNqQClWAE0gkGp",
+        "_id": "dDS5exCHlbQy9iHE",
         "name": "Example iteration (use this format when asking the assistant)",
         "type": "text",
         "title": {
@@ -33778,7 +36155,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HcLrvbjb3fJlqOrn",
+        "_id": "kpHg3VTxBTp1XA9m",
         "name": "Iteration after the session",
         "type": "text",
         "title": {
@@ -33806,7 +36183,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MyfFcq6czzBr6eIq",
+        "_id": "zi374TNECIROy9dG",
         "name": "When to abandon this plan",
         "type": "text",
         "title": {
@@ -33834,7 +36211,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wBTOrCArktVJpKLT",
+        "_id": "0cCiUIIgDegC7Cok",
         "name": "dndtale Skill Integration",
         "type": "text",
         "title": {
@@ -33862,7 +36239,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0LCf2ZOB4K2qEI36",
+        "_id": "qjQdTO2c2TbeQ5Bt",
         "name": "Skill resource map",
         "type": "text",
         "title": {
@@ -33890,7 +36267,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TYCh4NIRgcYdEaL6",
+        "_id": "suqurImcV6y8XIzk",
         "name": "Calling out skill files explicitly",
         "type": "text",
         "title": {
@@ -33918,7 +36295,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QhqsFcT3SDLM7c9r",
+        "_id": "kaACcPjEDhSnhXFA",
         "name": "What the skill does NOT cover",
         "type": "text",
         "title": {
@@ -33946,7 +36323,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4mxQowdpunJTTsrX",
+        "_id": "551v8iJcZIpoM4UR",
         "name": "Setup Technique \u2014 Getting Players to Land the Epic Moments Themselves",
         "type": "text",
         "title": {
@@ -33974,7 +36351,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "G0EofFwfYas5dtVw",
+        "_id": "D6NnRQ5b80BRg3g2",
         "name": "The 3-touch pattern",
         "type": "text",
         "title": {
@@ -34002,7 +36379,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kgziec3HpEiUcycC",
+        "_id": "xpejxKJZb3nGoKkl",
         "name": "Fallback ladder (use in order, NEVER skip to #4 first)",
         "type": "text",
         "title": {
@@ -34030,7 +36407,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7913Cj8Sk48CBD4e",
+        "_id": "H31maaup3KVAoXx9",
         "name": "Worked example \u2014 Twilight's lullaby vs the Tiamat-head",
         "type": "text",
         "title": {
@@ -34058,7 +36435,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5r6T4qbr5bVQ5jUh",
+        "_id": "jWx1FCs0OwDaS2Mp",
         "name": "Axar \u2014 Counterspell on Severin's Ritual Action",
         "type": "text",
         "title": {
@@ -34086,7 +36463,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zeU5ygYn7ffas7EW",
+        "_id": "F7UxJ9hBoPUXrfpb",
         "name": "Frygtl\u00f8s \u2014 not-swinging-first (parallel to Naergoth)",
         "type": "text",
         "title": {
@@ -34114,7 +36491,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9fDMMb06CvDlED5F",
+        "_id": "y2ahBF8ma9EsFF6t",
         "name": "Daxx \u2014 \"I stay Daxx\" (Severin's mirror temptation)",
         "type": "text",
         "title": {
@@ -34142,7 +36519,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7So7MphQG3K31KwJ",
+        "_id": "nSrI7xHVbpYpXUfE",
         "name": "Frygtl\u00f8s \u2014 holds the ceiling during the escape",
         "type": "text",
         "title": {
@@ -34170,7 +36547,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "e3eWg49JCaQ1iOSD",
+        "_id": "uMZnT9HyvvcH9g1f",
         "name": "Axar \u2014 breaks the ritual circle (Option C)",
         "type": "text",
         "title": {
@@ -34198,7 +36575,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0YXKRhA3NnUV7HwI",
+        "_id": "JnLiqUK9bm8R1d26",
         "name": "DM mistakes that kill these moments",
         "type": "text",
         "title": {
@@ -34226,7 +36603,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "F1Ycg7NQ6ePwTsOt",
+        "_id": "5WwsIPjhn18jer2Y",
         "name": "Implementation timeline (this session)",
         "type": "text",
         "title": {
@@ -34254,7 +36631,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ncwBqq0kiGD0oDge",
+        "_id": "rG9FqoGuDrhpr1QK",
         "name": "Run Log",
         "type": "text",
         "title": {
@@ -34290,11 +36667,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "YxCxBqNJ3SdRfxIq",
+    "_id": "YQCprdJKu9m39GPB",
     "name": "Ritual Clock Tracker",
     "pages": [
       {
-        "_id": "AoWyTjh4u8reObwh",
+        "_id": "7gmEgCEDcBjiKXw4",
         "name": "Clock Status",
         "type": "text",
         "title": {
@@ -34334,7 +36711,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Scene data
   const sceneData = [
   {
-    "_id": "OwDRZpBlJ6RROAjD",
+    "_id": "2Ei61oGocQJRKtQN",
     "name": "Temple \u2013 Level 1: The Maw",
     "active": false,
     "navigation": true,
@@ -34428,7 +36805,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "tSNyzBPSxHsEpJkO",
+    "_id": "lSkJfvs6w4FzgOFw",
     "name": "Temple \u2013 Level 2: The Fivefold Sanctum",
     "active": false,
     "navigation": true,
@@ -34522,7 +36899,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "ignn4wjRi87IgMiS",
+    "_id": "XPUxCmMRqvVemsRy",
     "name": "Temple \u2013 Level 3: The Crown",
     "active": false,
     "navigation": true,

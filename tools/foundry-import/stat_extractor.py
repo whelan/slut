@@ -306,6 +306,53 @@ class StatBlockExtractor:
             return []
         return [l.strip() for l in match.group(1).split(',') if l.strip()]
 
+    # Section headings (lowercased, parentheticals stripped) whose entries
+    # become NPC feat items.
+    _FEATURE_SECTIONS = {
+        'special abilities': 'icons/svg/aura.svg',
+        'traits': 'icons/svg/aura.svg',
+        'actions': 'icons/svg/sword.svg',
+        'bonus actions': 'icons/svg/sword.svg',
+        'reactions': 'icons/svg/shield.svg',
+        'legendary actions': 'icons/svg/upgrade.svg',
+    }
+
+    def extract_features(self, content: str) -> List[Dict[str, Any]]:
+        """Parse `### Special Abilities / Actions / Legendary Actions` sections
+        into dnd5e feat items so NPC abilities are usable in Foundry."""
+        items: List[Dict[str, Any]] = []
+        headers = list(re.finditer(r'(?m)^###\s+(.+?)\s*$', content))
+        for i, h in enumerate(headers):
+            title = re.sub(r'\(.*?\)', '', h.group(1)).strip().lower()
+            img = self._FEATURE_SECTIONS.get(title)
+            if not img:
+                continue
+            start = h.end()
+            end = headers[i + 1].start() if i + 1 < len(headers) else len(content)
+            body = content[start:end].split('\n---')[0]
+            items.extend(self._parse_feature_entries(body, img))
+        return items
+
+    @staticmethod
+    def _parse_feature_entries(body: str, img: str) -> List[Dict[str, Any]]:
+        """Within a section body, turn each `**Name:**` entry (optionally
+        numbered, `N. **Name:**`) into a feat item."""
+        items: List[Dict[str, Any]] = []
+        entry_re = re.compile(r'(?m)^(?:\d+\.\s+)?\*\*(.+?)\*\*[:.]?')
+        marks = list(entry_re.finditer(body))
+        for j, m in enumerate(marks):
+            name = m.group(1).strip().rstrip(':.').strip()
+            if not name:
+                continue
+            desc_end = marks[j + 1].start() if j + 1 < len(marks) else len(body)
+            desc = body[m.end():desc_end].strip()
+            paras = [p.strip() for p in re.split(r'\n\s*\n', desc) if p.strip()]
+            desc_html = ''.join(
+                '<p>' + p.replace('\n', ' ') + '</p>' for p in paras
+            ) or '<p></p>'
+            items.append(_feat_item(name, desc_html, img))
+        return items
+
     def extract_defenses(self, content: str) -> Dict[str, str]:
         """Extract damage immunities/resistances and condition immunities as
         free-text custom strings (kept simple to avoid key-mapping errors)."""
@@ -343,6 +390,7 @@ class StatBlockExtractor:
         defenses = self.extract_defenses(content)
         senses = self.extract_senses(content)
         spells = self.extract_spells(content + ' ' + biography)  # Search both stat block and biography
+        features = self.extract_features(content)
 
         # A creature with no parsed stat block is treated as a social NPC and
         # given a modest baseline so it imports as a valid (non-zero HP) actor.
@@ -422,7 +470,7 @@ class StatBlockExtractor:
                 'flags': {},
                 'disposition': -1,
             },
-            'items': spells,
+            'items': spells + features,
             'effects': [],
             'folder': None,
             'sort': 0,
