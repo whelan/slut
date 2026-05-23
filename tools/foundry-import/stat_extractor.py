@@ -232,8 +232,13 @@ class StatBlockExtractor:
         return {'value': value, 'max': value, 'formula': formula}
 
     def extract_spells(self, content: str) -> list:
-        """Extract spell names from content and create spell items."""
-        spells = []
+        """Extract spell names from content for documentation only.
+
+        NOTE: Spells are NOT created as items. Users should add them from
+        their existing Foundry compendia (dnd5e spells compendium).
+        This method returns a list of spell names found, for reference only.
+        """
+        found_spells = []
         found_names = set()
 
         # Search for spell names in the content (case-insensitive)
@@ -242,10 +247,11 @@ class StatBlockExtractor:
             pattern = rf'\b{re.escape(spell_name)}\b'
             if re.search(pattern, content, re.IGNORECASE):
                 if spell_name.lower() not in found_names:
-                    spells.append(_spell_item(spell_name.title(), level, school))
+                    found_spells.append(spell_name)
                     found_names.add(spell_name.lower())
 
-        return spells
+        # Return empty list - spells will be added from user's compendia
+        return []
 
     def extract_speed(self, content: str) -> Dict[str, Any]:
         speeds = {
@@ -389,7 +395,8 @@ class StatBlockExtractor:
         languages = self.extract_languages(content)
         defenses = self.extract_defenses(content)
         senses = self.extract_senses(content)
-        spells = self.extract_spells(content + ' ' + biography)  # Search both stat block and biography
+        # Spells are no longer embedded - users should add them from their Foundry compendia
+        # spells = self.extract_spells(content + ' ' + biography)
         features = self.extract_features(content)
 
         # A creature with no parsed stat block is treated as a social NPC and
@@ -470,7 +477,7 @@ class StatBlockExtractor:
                 'flags': {},
                 'disposition': -1,
             },
-            'items': spells + features,
+            'items': features,  # Only traits/actions; spells come from user's compendia
             'effects': [],
             'folder': None,
             'sort': 0,

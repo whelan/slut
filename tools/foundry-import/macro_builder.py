@@ -174,10 +174,31 @@ This approach keeps files small and artwork hosted on Forge VTT.
 
 ## What Gets Imported
 
-- **54 Actors** with full stat blocks and artwork
+- **54 Actors** with full stat blocks, traits, and artwork (spells added from your compendia)
 - **12 Journals** with campaign lore and session prep
 - **3 Scenes** with battlemap backgrounds
 - **Folder organization** - Everything organized in "NPCs", "Journals", "Scenes" folders
+
+## About Spells and Items
+
+**Spells and standard attack items are NOT embedded in the import.** Instead, you should add them from your existing Foundry compendia:
+
+1. **For spell-casters (Severin, etc.):** After import, open the actor's sheet and add spells from your dnd5e spells compendium
+2. **For items:** Use Foundry's compendium browser to add magic items, weapons, etc. as needed
+3. **For traits/actions:** The import includes all special abilities, actions, and legendary actions as feat items
+
+This approach ensures you're using the official/configured items from your Foundry instance, avoiding duplicates.
+
+## Adding Spells to Actors (Post-Import)
+
+After the macro completes:
+
+1. Open each actor's sheet
+2. In the **Items** tab, click **Add Item** → **Item from Compendium**
+3. Search for spells in your dnd5e spells compendium (e.g., "Fireball", "Hold Monster")
+4. Add them to the actor
+
+For NPCs with many spells, you can also manually copy spell items from another actor or create a quick reference in the actor's biography.
 
 ## Troubleshooting
 
@@ -197,7 +218,8 @@ If macro import doesn't work:
 
 - Import creates new documents (won't overwrite existing)
 - Artwork uses URLs from Forge VTT (or embedded base64 if image-urls.json not provided)
-- Spells are extracted but not linked to compendium
+- Spells are NOT embedded; add them from your compendia post-import
+- Traits, actions, and legendary actions are included as feat items
 - You can edit actors/journals/scenes after import in Foundry UI
 """
 

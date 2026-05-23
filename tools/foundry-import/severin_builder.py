@@ -48,11 +48,19 @@ def _build_skills() -> Dict[str, Any]:
 
 
 def _build_spell_items() -> List[Dict[str, Any]]:
-    """All 16 of Severin's spells as dnd5e 5.3.3 spell items."""
-    items = []
-    for spell_name, (level, school) in SPELL_DB.items():
-        items.append(_spell_item(spell_name.title(), level, school))
-    return items
+    """Spells are no longer embedded - users should add them from their Foundry compendia.
+
+    This function is kept for reference but returns an empty list.
+    """
+    # Severin's spell list (for reference only - add from your compendia):
+    # Cantrips: Detect Magic, Eldritch Blast, Fire Bolt, Mind Sliver, Speak with Animals
+    # 1st-level: Shield
+    # 5th-level: Counterspell, Dominate Person, Hold Monster, Wall of Fire
+    # 6th-level: Eyebite, Globe of Invulnerability
+    # 7th-level: Finger of Death, Plane Shift
+    # 8th-level: Dominate Monster
+    # 9th-level: Wish
+    return []
 
 
 def _build_feat_items() -> List[Dict[str, Any]]:

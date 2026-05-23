@@ -46,7 +46,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Actor data
   const actorData = [
   {
-    "_id": "iGkZ0bGloMJGiKcX",
+    "_id": "zwz6SZ0JGEPxy2cg",
     "name": "Axar Runes",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -370,7 +370,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "uSmS5ZSonQglV9lH",
+    "_id": "G3xFAsnpLAUt8CEq",
     "name": "Daxx Drake",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -694,7 +694,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "xm26w8BFAssYugKH",
+    "_id": "h8l441BbXQdXWfxM",
     "name": "Frygtlos",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -1018,7 +1018,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "QhZlxBdYhcGSvS8p",
+    "_id": "yJFQi7udm6aufilX",
     "name": "Twilight Ventress",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -1342,7 +1342,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "aCmQWKp6fMBkg50y",
+    "_id": "DKhrDbe8liL58BFj",
     "name": "Dagult Neverember",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -1681,146 +1681,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "AEFu7zh8BjsPQk0o",
-        "type": "spell",
-        "name": "Counterspell",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Counterspell</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 3,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "f3s46RJbGDj4RFvl",
+        "_id": "9e4UJwkOeuE1sWnh",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -1852,7 +1713,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "H6Ks9USCOfpF2bnD",
+        "_id": "VCyXuWEn9Xd99MuV",
         "type": "feat",
         "name": "Tactical Acumen",
         "img": "icons/svg/aura.svg",
@@ -1884,7 +1745,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "aOJ9pNHK7XP9pCfH",
+        "_id": "bfpZ1VkcWlM3Vl8Z",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -1916,7 +1777,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "QHz9R2IcB8MIfO3v",
+        "_id": "rd3A7aTPg1PJlYkN",
         "type": "feat",
         "name": "Rapier",
         "img": "icons/svg/sword.svg",
@@ -1948,7 +1809,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "UmesWfNrdpGwsOkv",
+        "_id": "eCbF0Q6UjOV5dNaf",
         "type": "feat",
         "name": "Counterspell (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -1993,7 +1854,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "o0T4xQgR1C2n738S",
+    "_id": "WRpTruGDp1TCwUM5",
     "name": "Ulder Ravengard",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -2332,7 +2193,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "8GRwuWdnYZPmIA1e",
+        "_id": "6gvaW5YcHNOsBDBm",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -2364,7 +2225,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "DCzbQ78K6wq9Dgvf",
+        "_id": "tZ8k2EUulWjOr5wW",
         "type": "feat",
         "name": "Battlemaster's Insight",
         "img": "icons/svg/aura.svg",
@@ -2396,7 +2257,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "IBMYbfdfl4kKuxiT",
+        "_id": "Zeae9Ae33SYzSSES",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -2428,7 +2289,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "JnHD9NYM8nWc7Uoo",
+        "_id": "NHIAtlPp62QwtVqk",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -2460,7 +2321,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "l8JBGJuVA4UBtJhq",
+        "_id": "CDPysEMgKCCozKLV",
         "type": "feat",
         "name": "Flaming Fist's Roar (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -2505,7 +2366,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "453f2VySMlZjWGxF",
+    "_id": "Rb2Qi9uXN6Ffswsr",
     "name": "Remallia Haventree",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -2844,7 +2705,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "n1REG86Od2Cuov6n",
+        "_id": "bAH8kBD53rEr2vmy",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -2876,7 +2737,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "7NkPPfHzUooUnzH3",
+        "_id": "kOhmQh9L7kM5zawF",
         "type": "feat",
         "name": "Uncanny Dodge",
         "img": "icons/svg/aura.svg",
@@ -2908,7 +2769,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "1FWnkGi9xXBx8aSt",
+        "_id": "bG9rac2uddKXU3YX",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -2940,7 +2801,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "VWG3YxRSkla7vRHX",
+        "_id": "UmkRukUdtLoisben",
         "type": "feat",
         "name": "Shortsword",
         "img": "icons/svg/sword.svg",
@@ -2972,7 +2833,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "ePfZP1ytnVNUikqN",
+        "_id": "y2kdLgO4iUehhPVm",
         "type": "feat",
         "name": "Shortbow",
         "img": "icons/svg/sword.svg",
@@ -3017,7 +2878,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "waqFWAIaGW5w2Pco",
+    "_id": "XCDiuU8Si4hFGnXZ",
     "name": "Ontharr Frume",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -3356,7 +3217,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "sbjb6IkgDHKWlmlF",
+        "_id": "QqmSUFSvfpa3vBfW",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -3388,7 +3249,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Cv5Jw6VVi8qqJjLN",
+        "_id": "RDevIcrllcjKnO8i",
         "type": "feat",
         "name": "Divine Smite",
         "img": "icons/svg/aura.svg",
@@ -3420,7 +3281,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "dE55KOIPXkRM2gdT",
+        "_id": "wZavm6eBkQM8GIT1",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -3452,7 +3313,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "pad85w4AkuJaX2qS",
+        "_id": "XBqYWK6UybwCxy4g",
         "type": "feat",
         "name": "Greatsword",
         "img": "icons/svg/sword.svg",
@@ -3484,7 +3345,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "hTFyMvERWxlCkaIY",
+        "_id": "O0nHEHnJztNNeAKH",
         "type": "feat",
         "name": "Holy Light (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -3529,7 +3390,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "CXxMwdplDWzhpQIv",
+    "_id": "GeGCNm4YJTK3CJet",
     "name": "Delaan Winterhound",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonfang-fighter-token_20260516_170907_1.png",
@@ -3868,7 +3729,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "ppxp6lteB6nZWlws",
+        "_id": "n8COxhceKOn0Pg7V",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -3900,7 +3761,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "koV467KYAsEYoTDF",
+        "_id": "BD5zXPRSZuu68TbV",
         "type": "feat",
         "name": "Wild Shape",
         "img": "icons/svg/aura.svg",
@@ -3932,7 +3793,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "9HTxQo3PCdzLQTpv",
+        "_id": "XfytJyJKlAZQEZSd",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -3964,7 +3825,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "I3NMFFctT4If9yLO",
+        "_id": "pyJWA6rYg5IwDcWS",
         "type": "feat",
         "name": "Quarterstaff",
         "img": "icons/svg/sword.svg",
@@ -3996,7 +3857,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Gb6Kt9J9Ls53Pcue",
+        "_id": "7a3dptC7XoNJU7BF",
         "type": "feat",
         "name": "Entangling Vines (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -4041,7 +3902,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "nvjYJ8GCgTUv2WLQ",
+    "_id": "SB522TWDeg7GBWkM",
     "name": "Sir Isteval",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -4380,7 +4241,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "bGjyVIIsgwqFwZoV",
+        "_id": "PKbPmka11rxWAkm3",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -4412,7 +4273,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "dqFFxW3JvpWsGfV2",
+        "_id": "HakkeDXTnbaCVGHG",
         "type": "feat",
         "name": "Second Wind (1/Short Rest)",
         "img": "icons/svg/aura.svg",
@@ -4444,7 +4305,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "k0pedmhxUDfP2dO8",
+        "_id": "t70XvPWgZfpgh5y4",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -4476,7 +4337,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "ZapNnS2mIm1CoIr0",
+        "_id": "dvJvnAENaBD9Q8i9",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -4508,7 +4369,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "uRB2okmgbldJOUzz",
+        "_id": "t1FtWqcfdDlj8LWd",
         "type": "feat",
         "name": "Leadership (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -4553,7 +4414,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "L3u77YIRCstpLFVX",
+    "_id": "dUgaOcwCuERspEPt",
     "name": "Taern Hornblade",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -4892,424 +4753,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "jLF7ERKS9ucLH1mQ",
-        "type": "spell",
-        "name": "Counterspell",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Counterspell</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 3,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "9NFP0Dhid5ID1Ugk",
-        "type": "spell",
-        "name": "Fire Bolt",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Fire Bolt</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 0,
-          "school": "evocation",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "3s8v9UCSn87u7FAM",
-        "type": "spell",
-        "name": "Shield",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Shield</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 1,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "BH93gfdf19e8rkUV",
+        "_id": "DgE7GBEe5SKT75Yf",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -5341,7 +4785,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "L4Z3QKgtjeGX6aBl",
+        "_id": "PrHXFnqfi8V5pXGM",
         "type": "feat",
         "name": "Spellcasting",
         "img": "icons/svg/aura.svg",
@@ -5373,7 +4817,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "BBTT5nnEjXLvLm23",
+        "_id": "B7tLqpKEzRTIubo2",
         "type": "feat",
         "name": "Dagger",
         "img": "icons/svg/sword.svg",
@@ -5405,7 +4849,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "EK83jMnlmVnfTmYC",
+        "_id": "1zrMqPt5Snv1MdB2",
         "type": "feat",
         "name": "Arcane Barrage (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -5450,7 +4894,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "vk7YWnQPh55ISpTz",
+    "_id": "JRbOvD0y2kZAQrEJ",
     "name": "King Melandrach",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -5789,7 +5233,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "bztVZGk00Q4z6uay",
+        "_id": "7J8XdokLOBkMpdiC",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -5821,7 +5265,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "6IrRYve6AbYyJ1E1",
+        "_id": "WxdW97bIcS9kRxfX",
         "type": "feat",
         "name": "Fey Ancestry",
         "img": "icons/svg/aura.svg",
@@ -5853,7 +5297,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "tRBQutdIE0eH3lFw",
+        "_id": "4ajVTGhsy5gghpP3",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -5885,7 +5329,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "OECnRkHKOl4INoRl",
+        "_id": "fgqXBRoufe2n8klM",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -5917,7 +5361,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "IvJfxmcEz8fSxNte",
+        "_id": "bPkSA71qDwsiDZLR",
         "type": "feat",
         "name": "Elven Arrow (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -5962,7 +5406,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "S2t3zcT7QrjKjI5z",
+    "_id": "PEzZaf44E5QFeyxY",
     "name": "Ambassador Brawnanvil",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -6301,7 +5745,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "eVopygHq4jXcLpSZ",
+        "_id": "7i6SfkIIC21AJsoO",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -6333,7 +5777,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "jK71uYdFrlQWZXjH",
+        "_id": "gR53AS3vTiZbJWGn",
         "type": "feat",
         "name": "Stonecunning",
         "img": "icons/svg/aura.svg",
@@ -6365,7 +5809,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "2gXq585UMcgd6JZH",
+        "_id": "APQGWWksiNskBFfX",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -6397,7 +5841,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "YXmSnt20zxRHx6Pp",
+        "_id": "vppGRjUESxnS5Q8h",
         "type": "feat",
         "name": "Warhammer",
         "img": "icons/svg/sword.svg",
@@ -6429,7 +5873,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "KWdyjIqI5BeYRdGw",
+        "_id": "v2ahdf3U9rukPPVt",
         "type": "feat",
         "name": "Engineering Expertise (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -6474,7 +5918,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "06WOEaoFNJPCqGAk",
+    "_id": "hYesYwmKkJ1w2Djm",
     "name": "Crimson Maccath",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -6813,424 +6257,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "ZzOuerUqmu3OpXy9",
-        "type": "spell",
-        "name": "Counterspell",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Counterspell</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 3,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "drMgdOy0Y2DNKvcq",
-        "type": "spell",
-        "name": "Fire Bolt",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Fire Bolt</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 0,
-          "school": "evocation",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "xirj7koWW9JEX65d",
-        "type": "spell",
-        "name": "Shield",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Shield</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 1,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "uNE9ToMof4KohTTk",
+        "_id": "dg1PB5z8YWdik8CQ",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -7262,7 +6289,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "zlp8MRnu1mT5RO5d",
+        "_id": "xi5YBQXWN4NLkWrc",
         "type": "feat",
         "name": "Dragon Lore",
         "img": "icons/svg/aura.svg",
@@ -7294,7 +6321,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "hAbpO2Z8IbyK42o5",
+        "_id": "w5gu0IDEke9hQNRp",
         "type": "feat",
         "name": "Spellcasting",
         "img": "icons/svg/aura.svg",
@@ -7326,7 +6353,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Ivg8jslvdmIf8uWf",
+        "_id": "QR4VGb9aL1gqe3OP",
         "type": "feat",
         "name": "Dagger",
         "img": "icons/svg/sword.svg",
@@ -7358,7 +6385,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "4BIosGvzUdsutdnB",
+        "_id": "ELIdVKPt6VgSzjL8",
         "type": "feat",
         "name": "Ritual Disruption (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -7403,7 +6430,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Iaa4KNicVPihnAma",
+    "_id": "B4BtlEWmOcaivSAM",
     "name": "Elia",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/elia-bronze-dragon-token_20260516_170825_1.png",
@@ -7742,7 +6769,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "ORjc9njg57ZF0n6U",
+        "_id": "xgYH4g6ctsThyQq1",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -7774,7 +6801,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "mf3IZR5SAFXfzeVJ",
+        "_id": "M6J8bbRiVy6nMV1E",
         "type": "feat",
         "name": "Metallic Dragon Senses",
         "img": "icons/svg/aura.svg",
@@ -7806,7 +6833,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "SW9IxZovdpFIrt98",
+        "_id": "2HvkUo9BrPvOc40H",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -7838,7 +6865,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Juuj1EEQWxJDygEc",
+        "_id": "ckhK56EYHCGQTuzn",
         "type": "feat",
         "name": "Claw",
         "img": "icons/svg/sword.svg",
@@ -7870,7 +6897,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "mv9FcRCzMOrmyeSg",
+        "_id": "lXAnTPxXusIEXrfj",
         "type": "feat",
         "name": "Tail",
         "img": "icons/svg/sword.svg",
@@ -7902,7 +6929,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "TLrzCqTetQKIvTAQ",
+        "_id": "dlzZBALNYHx2Hjny",
         "type": "feat",
         "name": "Fire Breath (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -7934,7 +6961,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "m3y51ARpm1Gozxu9",
+        "_id": "sSKVMQAaSdJWK57I",
         "type": "feat",
         "name": "Claw Attack (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -7966,7 +6993,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "keMCfu7I6s2ymHRr",
+        "_id": "k1JXXqK8DK5An84M",
         "type": "feat",
         "name": "Tail Attack (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -7998,7 +7025,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "hD7isKsJaAvMJ3Dh",
+        "_id": "fvLbgz5MsXBXjZO3",
         "type": "feat",
         "name": "Wing Attack (2 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -8043,7 +7070,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "t3x2AIfD5Kl0sghh",
+    "_id": "ImcYcDMjYOzdHWnn",
     "name": "Nyh Ilmichh",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -8382,424 +7409,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "vcwJiqr4YQyw80Zd",
-        "type": "spell",
-        "name": "Counterspell",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Counterspell</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 3,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "hDqYmlG5v9NEReC2",
-        "type": "spell",
-        "name": "Fire Bolt",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Fire Bolt</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 0,
-          "school": "evocation",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "ku0ALMGYH6gHb9ej",
-        "type": "spell",
-        "name": "Shield",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Shield</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 1,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "pqKlRJaTufKRZBu1",
+        "_id": "U2pnhBPpTPzmRR2D",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -8831,7 +7441,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "KEaSGA3SPcnIl4He",
+        "_id": "PpydRFoAf2sNV8G7",
         "type": "feat",
         "name": "Red Wizard Discipline",
         "img": "icons/svg/aura.svg",
@@ -8863,7 +7473,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "vnhUjvNm7STdpJtG",
+        "_id": "XTjJVVKSxdzYwFqj",
         "type": "feat",
         "name": "Spellcasting",
         "img": "icons/svg/aura.svg",
@@ -8895,7 +7505,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "gKCmKugYL5FlGdEE",
+        "_id": "O9Uly7Z5t653f5ZT",
         "type": "feat",
         "name": "Dagger",
         "img": "icons/svg/sword.svg",
@@ -8927,7 +7537,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "N7Gq9b6hxCwitOhG",
+        "_id": "ALFOJQ7ag7ErKmAC",
         "type": "feat",
         "name": "Arcane Barrage (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -8959,7 +7569,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "uyOlGyOHmebbjJUl",
+        "_id": "RCkbfnz8bVno9iA4",
         "type": "feat",
         "name": "Teleportation (1/Day)",
         "img": "icons/svg/sword.svg",
@@ -9004,7 +7614,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "ElV2GkJcvX1hp6Sq",
+    "_id": "VvUUo4zklTfJcHkA",
     "name": "Naergoth Bladelord",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -9343,7 +7953,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "4qs9rwGdXenOYovB",
+        "_id": "eV3g1esJZeVjzop2",
         "type": "feat",
         "name": "Undead Fortitude",
         "img": "icons/svg/aura.svg",
@@ -9375,7 +7985,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "LrtdrJ9pddxAuRji",
+        "_id": "C1eUTUm2sjPKp9TX",
         "type": "feat",
         "name": "Legendary Resistance (1/day)",
         "img": "icons/svg/aura.svg",
@@ -9407,7 +8017,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "8hs6IN6uiuLUrHw0",
+        "_id": "JS2Ic1G6Rf6GxdBa",
         "type": "feat",
         "name": "Weapon Bond",
         "img": "icons/svg/aura.svg",
@@ -9439,7 +8049,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "0sCPQZNlcZqiMIMD",
+        "_id": "xtSIHoJQM7MZiwrJ",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -9471,7 +8081,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "7WkjGZaQozj6yXEo",
+        "_id": "Jj9cNyQTKeUxqdf6",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -9503,7 +8113,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "LTWpGtm5fwOMhNp5",
+        "_id": "rWGcifFlBpIXynvS",
         "type": "feat",
         "name": "Blade Storm (Recharge 5-6)",
         "img": "icons/svg/sword.svg",
@@ -9535,7 +8145,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "nIIpabM444p1sWrf",
+        "_id": "P0vmAvWbnwKphBbu",
         "type": "feat",
         "name": "Life Drain (Recharge 6)",
         "img": "icons/svg/sword.svg",
@@ -9567,7 +8177,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "mFtH6DpAXJBjwsB4",
+        "_id": "lHQmMjUjNObobPKx",
         "type": "feat",
         "name": "Move (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -9599,7 +8209,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "iW16JH4DJLD8FOIR",
+        "_id": "0oWro2oA0vqcp7o2",
         "type": "feat",
         "name": "Necrotic Strike (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -9631,7 +8241,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "6xwBFZvxMQVCiu4q",
+        "_id": "yyNi2047PIJt6HFB",
         "type": "feat",
         "name": "Intimidating Presence (2 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -9676,7 +8286,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "pecWQEomkllu2RvZ",
+    "_id": "LFn5uoqofiJqfmbh",
     "name": "Severin",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/severin-masked-token_20260516_164450_1.png",
@@ -10206,2231 +8816,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "JuSdmGzx3YMpbfow",
-        "type": "spell",
-        "name": "Counterspell",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Counterspell</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 3,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "lpWIp9qnBqDcYX3a",
-        "type": "spell",
-        "name": "Detect Magic",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Detect Magic</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 0,
-          "school": "divination",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "9IMOJNvPE4CT6Dgo",
-        "type": "spell",
-        "name": "Dominate Monster",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Dominate Monster</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 8,
-          "school": "enchantment",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "3DUf8oLLGUlVeg7i",
-        "type": "spell",
-        "name": "Dominate Person",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Dominate Person</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 5,
-          "school": "enchantment",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "yjUfPbpQ67sCr9XJ",
-        "type": "spell",
-        "name": "Eldritch Blast",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Eldritch Blast</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 0,
-          "school": "evocation",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "BfATkNFHYy16helh",
-        "type": "spell",
-        "name": "Eyebite",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Eyebite</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 6,
-          "school": "necromancy",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "UsOGuWWc1LG2Knh3",
-        "type": "spell",
-        "name": "Finger Of Death",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Finger Of Death</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 7,
-          "school": "necromancy",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "6eC6rJitXHakkRGa",
-        "type": "spell",
-        "name": "Fire Bolt",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Fire Bolt</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 0,
-          "school": "evocation",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "IOMDLVhW3lZOey2x",
-        "type": "spell",
-        "name": "Globe Of Invulnerability",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Globe Of Invulnerability</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 6,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "v1lhBkjIMnSmYECk",
-        "type": "spell",
-        "name": "Hold Monster",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Hold Monster</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 5,
-          "school": "enchantment",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "1Tc9SncdAUmOdlU7",
-        "type": "spell",
-        "name": "Mind Sliver",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Mind Sliver</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 0,
-          "school": "enchantment",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "odDGS6SMerViBmGi",
-        "type": "spell",
-        "name": "Plane Shift",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Plane Shift</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 7,
-          "school": "conjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "7QUPTzYPfPP5imKv",
-        "type": "spell",
-        "name": "Shield",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Shield</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 1,
-          "school": "abjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "MoKBC3YIgoENrBMe",
-        "type": "spell",
-        "name": "Speak With Animals",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Speak With Animals</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 1,
-          "school": "divination",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "w2vn1ZRjRiCuSAiU",
-        "type": "spell",
-        "name": "Wall Of Fire",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Wall Of Fire</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 5,
-          "school": "evocation",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "9hdNReDFQqAANLsl",
-        "type": "spell",
-        "name": "Wish",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Wish</p>",
-            "chat": ""
-          },
-          "source": {
-            "custom": "SRD 2024",
-            "revision": 1,
-            "rules": "2024"
-          },
-          "activation": {
-            "type": "action",
-            "value": 1
-          },
-          "level": 9,
-          "school": "conjuration",
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": 0
-          },
-          "properties": [],
-          "method": "spell",
-          "prepared": 1,
-          "activities": {
-            "dnd5eactivity000": {
-              "_id": "dnd5eactivity000",
-              "type": "utility",
-              "activation": {
-                "type": "action",
-                "override": false
-              },
-              "consumption": {
-                "targets": [],
-                "scaling": {
-                  "allowed": false,
-                  "max": ""
-                },
-                "spellSlot": true
-              },
-              "description": {
-                "chatFlavor": ""
-              },
-              "duration": {
-                "units": "inst",
-                "concentration": false,
-                "override": false
-              },
-              "effects": [],
-              "range": {
-                "units": "self",
-                "override": false
-              },
-              "target": {
-                "prompt": true,
-                "template": {
-                  "contiguous": false,
-                  "stationary": false,
-                  "units": "ft"
-                },
-                "affects": {
-                  "choice": false
-                },
-                "override": false
-              },
-              "uses": {
-                "spent": 0,
-                "max": "",
-                "recovery": []
-              },
-              "roll": {
-                "formula": "",
-                "name": "",
-                "prompt": false,
-                "visible": false
-              },
-              "img": null,
-              "sort": 0,
-              "flags": {},
-              "visibility": {
-                "level": {},
-                "requireAttunement": false,
-                "requireIdentification": false,
-                "requireMagic": false
-              }
-            }
-          },
-          "uses": {
-            "spent": 0,
-            "recovery": []
-          },
-          "identifier": "",
-          "duration": {
-            "units": "inst"
-          },
-          "range": {
-            "units": "self"
-          },
-          "target": {
-            "template": {
-              "contiguous": false,
-              "stationary": false,
-              "units": "ft"
-            },
-            "affects": {
-              "choice": false
-            }
-          }
-        },
-        "effects": [],
-        "flags": {
-          "dnd5e": {
-            "persistSourceMigration": true,
-            "migratedProperties": [
-              "verbal",
-              "somatic"
-            ]
-          }
-        },
-        "folder": null,
-        "sort": 0,
-        "ownership": {
-          "default": 0
-        },
-        "_stats": {
-          "compendiumSource": null,
-          "duplicateSource": null,
-          "exportSource": null,
-          "coreVersion": "13.351",
-          "systemId": "dnd5e",
-          "systemVersion": "5.3.3"
-        }
-      },
-      {
-        "_id": "hK48doc4Ly8NPaxS",
+        "_id": "E1hhRXJnFilaxaSy",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -12462,7 +8848,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "nlsvQrSzbp40J82i",
+        "_id": "hT57JuFhiLpjkMGx",
         "type": "feat",
         "name": "Mask Resonance (Recharge 5-6)",
         "img": "icons/svg/aura.svg",
@@ -12494,7 +8880,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "EqqeIRYaWbHxjlKx",
+        "_id": "8pvkMSLbDcqCwgHO",
         "type": "feat",
         "name": "Ritual Action (Bonus Action, 1/round)",
         "img": "icons/svg/aura.svg",
@@ -12526,7 +8912,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "xFOYVT7kcbKQKQOe",
+        "_id": "3aCfj40oEYPXXbf0",
         "type": "feat",
         "name": "Portal Ward",
         "img": "icons/svg/aura.svg",
@@ -12558,7 +8944,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "PYc1k8eaa9nFVDDd",
+        "_id": "TSGoXazGrNxHrjJE",
         "type": "feat",
         "name": "Champion of Tiamat (Clock 5+)",
         "img": "icons/svg/aura.svg",
@@ -12590,7 +8976,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "W8WQiGtPBWot7NVS",
+        "_id": "l9q5KCGWoQbiS1lm",
         "type": "feat",
         "name": "Dragon Scale Robes of the Five",
         "img": "icons/svg/aura.svg",
@@ -12622,7 +9008,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "BVii13KegVFU4e0q",
+        "_id": "to11NG9h02taxRkX",
         "type": "feat",
         "name": "Innate Casting",
         "img": "icons/svg/aura.svg",
@@ -12654,7 +9040,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "VElvZGm3dl5qk3dF",
+        "_id": "IjMoPDJZezLDtal6",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -12686,7 +9072,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "hC0HfjaEneUCZpVF",
+        "_id": "o6gsDciq1L10hYSi",
         "type": "feat",
         "name": "Eldritch Blast",
         "img": "icons/svg/sword.svg",
@@ -12718,7 +9104,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "jVrbIoJunwGQUjgs",
+        "_id": "psqxSWj3Ja0ksQEr",
         "type": "feat",
         "name": "Shield (Reaction)",
         "img": "icons/svg/sword.svg",
@@ -12750,7 +9136,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "eXiRQZbzb4t7OR1i",
+        "_id": "FAqgIoICxLSj1yyM",
         "type": "feat",
         "name": "Spellcasting (Spell Save DC 20, Spell Attack +12)",
         "img": "icons/svg/sword.svg",
@@ -12782,7 +9168,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "oEz5VCgqe3xpteSC",
+        "_id": "KXQX7hwfuZDKvcsj",
         "type": "feat",
         "name": "Legendary Action: Eldritch Blast (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -12814,7 +9200,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "y7D50OBau0XVo8hS",
+        "_id": "RqBspNRewr8mR01U",
         "type": "feat",
         "name": "Legendary Action: Ritual Surge (2 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -12846,7 +9232,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "COnZripiNo0Wl9bR",
+        "_id": "aifW3NkA9u32PHq2",
         "type": "feat",
         "name": "Legendary Action: Summon Devout (3 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -12891,7 +9277,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "qttYfFokQzOsqi3n",
+    "_id": "S2IY2Mqjs1WTn8eG",
     "name": "Cultist",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -13242,7 +9628,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Eq5OPAS6CvIgqf1C",
+    "_id": "RSHt8byItc4nu7Ge",
     "name": "Cult Fanatic",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -13593,7 +9979,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "8OpSGchocMlJGwOb",
+    "_id": "Aw1Gz6hPgQGfzXMQ",
     "name": "Commoner",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -13944,7 +10330,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "jYiwY7jUBTc13xTx",
+    "_id": "CZPGvZgSJivO1Lrg",
     "name": "Black Dragon Wyrmling",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -14295,7 +10681,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "BGyUtSjK5mKCJjRu",
+    "_id": "dBEzXoh8yolVXJ2I",
     "name": "Air Elemental",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -14646,7 +11032,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "cwkVuZiHOzJjbYZC",
+    "_id": "aZrbns30faFe5EMc",
     "name": "Stone Golem",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -14997,7 +11383,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "k2AMBZGdXYpDbQ49",
+    "_id": "XGcVV80d3LELyF9D",
     "name": "Flesh Golem",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -15348,7 +11734,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "QtFoeRQ18aovlMs8",
+    "_id": "ifBzOZGr9a7QJ2QK",
     "name": "Green Hag",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
@@ -15699,7 +12085,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Dn16fKUhWIChwaXr",
+    "_id": "RfRtRM3uGFYZFgWK",
     "name": "Wight",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -16050,7 +12436,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "c8RePat8vqLb9UeK",
+    "_id": "GIdSbADT069bCTd3",
     "name": "Mage",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -16401,7 +12787,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "94AJIdCmlzgcIKAU",
+    "_id": "9JTQ9DKYyPARSnEe",
     "name": "Barbed Devil",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -16752,7 +13138,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "OyrPLF1ZsutmmUpE",
+    "_id": "HJK9dlzSd1XFeAXu",
     "name": "Dragonclaw",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -17103,7 +13489,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "jDUhvm70LEHDfKoM",
+    "_id": "CZu6xwxLm2v3NTYK",
     "name": "Dragonwing",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -17454,7 +13840,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "yw3D7nppZtHMjWa8",
+    "_id": "Rb5FLhXfM0arUGPW",
     "name": "Dragonfang",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonfang-fighter-token_20260516_170907_1.png",
@@ -17805,7 +14191,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "eodcwg7PYfq2kd2v",
+    "_id": "P6HtfZDEcqtCftVI",
     "name": "Dragonsoul",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -18156,7 +14542,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "mA95PukeQHxoPys1",
+    "_id": "oH2yZaJRujDZyyzY",
     "name": "White Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
@@ -18507,7 +14893,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "z0VAgcxU21K0IROk",
+    "_id": "RgnhbESICZYzM5Py",
     "name": "Black Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png",
@@ -18858,7 +15244,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "hxKklYCcHMBzjlsu",
+    "_id": "v7ONqAfsI0SFgpxr",
     "name": "Green Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
@@ -19209,7 +15595,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "T3Isn3RjUEuHGge2",
+    "_id": "OLfkRbyZAHAs7kXf",
     "name": "Blue Abishai",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
@@ -19546,54 +15932,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [
-      {
-        "type": "spell",
-        "name": "Lightning Bolt",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Lightning Bolt</p>"
-          },
-          "source": {
-            "custom": "SRD 2024"
-          },
-          "activation": {
-            "type": "action",
-            "cost": 1
-          },
-          "level": 3,
-          "school": "evocation",
-          "components": {
-            "verbal": true,
-            "somatic": true,
-            "material": false,
-            "ritual": false,
-            "concentration": false
-          },
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": false
-          },
-          "preparation": {
-            "mode": "prepared",
-            "prepared": true
-          },
-          "scaling": {
-            "mode": "none",
-            "formula": ""
-          },
-          "properties": {
-            "value": []
-          }
-        },
-        "effects": [],
-        "flags": {},
-        "_id": "SnnT8VStxvwyu1Jh"
-      }
-    ],
+    "items": [],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -19607,7 +15946,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "CCu5WD6xHRfRqWJh",
+    "_id": "Yh3202R7Z8txKf5m",
     "name": "Frost Giant Skeleton",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -19958,7 +16297,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "6Dup8rrlYegTgzVf",
+    "_id": "v2Ig4ljJOV69frLF",
     "name": "Dragonbone Crawler",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -20309,7 +16648,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "0UFTEYG7yFwik22Y",
+    "_id": "PxEVUzQeARi6muM9",
     "name": "Half-Dragon Red",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
@@ -20660,7 +16999,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "kjvrGUQjq8rqUVXn",
+    "_id": "ZRFca8VsVMx3x0Xg",
     "name": "Yuan-Ti Mind Whisperer",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -21011,7 +17350,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "7TymWbNwRsxOlx1J",
+    "_id": "v4JHwssoijB3vjwj",
     "name": "Severin Silrajin (Phase 1)",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/severin-masked-token_20260516_164450_1.png",
@@ -21362,7 +17701,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "VRiaYZgVPXxgyLc8",
+    "_id": "34WCEyg0XE2iQbgd",
     "name": "Severin Silrajin (Phase 2)",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/severin-masked-token_20260516_164450_1.png",
@@ -21713,7 +18052,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "aG3yVRDhhwx7M4U4",
+    "_id": "IGE85YHVnNEoqd2o",
     "name": "Rath Modar",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rath-modar-token_20260516_164527_1.png",
@@ -22050,54 +18389,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "flags": {},
       "disposition": -1
     },
-    "items": [
-      {
-        "type": "spell",
-        "name": "Counterspell",
-        "img": "icons/svg/item-bag.svg",
-        "system": {
-          "description": {
-            "value": "<p>Counterspell</p>"
-          },
-          "source": {
-            "custom": "SRD 2024"
-          },
-          "activation": {
-            "type": "action",
-            "cost": 1
-          },
-          "level": 3,
-          "school": "abjuration",
-          "components": {
-            "verbal": true,
-            "somatic": true,
-            "material": false,
-            "ritual": false,
-            "concentration": false
-          },
-          "materials": {
-            "value": "",
-            "consumed": false,
-            "cost": 0,
-            "supply": false
-          },
-          "preparation": {
-            "mode": "prepared",
-            "prepared": true
-          },
-          "scaling": {
-            "mode": "none",
-            "formula": ""
-          },
-          "properties": {
-            "value": []
-          }
-        },
-        "effects": [],
-        "flags": {},
-        "_id": "NFOkkq83Rtsa4BK5"
-      }
-    ],
+    "items": [],
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -22111,7 +18403,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "gMU34OGn6GqRO3xF",
+    "_id": "Ig8jS5PxOe0jzsAn",
     "name": "Red Wizard (Veksin)",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
@@ -22462,7 +18754,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "0UdCHcZxIKoK8wZl",
+    "_id": "RDlUnxnEb4YeN0bM",
     "name": "Tiamat - White Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -22813,7 +19105,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "3WLWbMWAfBm8GkMu",
+    "_id": "k5QLCUkTfrgtG2az",
     "name": "Tiamat - Black Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png",
@@ -23164,7 +19456,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "O77ls7iAthVEditf",
+    "_id": "YULjZzUEgJzQR3dJ",
     "name": "Tiamat - Green Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
@@ -23515,7 +19807,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Aj3RZx0GcyQHhGc1",
+    "_id": "543C3vwTN0tNizy4",
     "name": "Tiamat - Blue Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
@@ -23866,7 +20158,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "vg8y7VyTXUQeTJ9j",
+    "_id": "P50lHAZBrDiibj6C",
     "name": "Tiamat - Red Head",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
@@ -24217,7 +20509,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Uhjtqqc38rfbGLFt",
+    "_id": "XLweXoO7v5MHehJJ",
     "name": "Naergoth Bladelord (Wight)",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -24568,7 +20860,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "GHykOggmQd2xSGEs",
+    "_id": "JAvaxlbIjhtVzx4o",
     "name": "Stirleng",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -24921,7 +21213,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "729SINtT0SGA6yVk",
+    "_id": "yygYzlAOuDy9P1FH",
     "name": "Stirling",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -25274,7 +21566,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "sxWHxggU8V8OGx6E",
+    "_id": "oLHiX8g7wr9tnjb9",
     "name": "Kess",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -25627,7 +21919,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "FdQmBDkBkv3r4tyU",
+    "_id": "qtFb9puobKXOFYLp",
     "name": "Thorne",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/rath-modar-token_20260516_164527_1.png",
@@ -25980,7 +22272,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "iGQHEAmBmM3MMa9v",
+    "_id": "SQoWEpUSHqu2lrTY",
     "name": "Marta",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -26333,7 +22625,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "ZwUBk01UvfAK8afM",
+    "_id": "cc8GacE2GveFk2Oy",
     "name": "Fen",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -26686,7 +22978,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "9GeImUTeJq1qNG7N",
+    "_id": "t2xrihK0yrIoaKxg",
     "name": "Older Woman (Banner Bearer)",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -27043,11 +23335,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Journal data
   const journalData = [
   {
-    "_id": "Icq8KrtTigKKArIS",
+    "_id": "u7KpbWLhda5TSf02",
     "name": "Council Of Waterdeep",
     "pages": [
       {
-        "_id": "Y8f3ycbwqTh9zO98",
+        "_id": "aIeN33WSwS2YZN0K",
         "name": "Overview",
         "type": "text",
         "title": {
@@ -27075,7 +23367,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lekPnPxhXVR9hbjJ",
+        "_id": "AS7nNvDQQRSnwb9R",
         "name": "Dagult Neverember",
         "type": "text",
         "title": {
@@ -27103,7 +23395,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HE28X5vvxp6knVjn",
+        "_id": "doznlijYdk8rnqlM",
         "name": "Ulder Ravengard",
         "type": "text",
         "title": {
@@ -27131,7 +23423,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WiRJUh9EQLKl0b4Q",
+        "_id": "S6AdnKYCZW4RODEa",
         "name": "Remallia Haventree",
         "type": "text",
         "title": {
@@ -27159,7 +23451,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cbNLNJDm3mqQMosj",
+        "_id": "aJjdzkuFPWgBUKBg",
         "name": "Ontharr Frume",
         "type": "text",
         "title": {
@@ -27187,7 +23479,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EA5N4JguDvogTvTu",
+        "_id": "xYW8kw78mECnXc32",
         "name": "Delaan Winterhound",
         "type": "text",
         "title": {
@@ -27215,7 +23507,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sDSJIipLgqStNTRi",
+        "_id": "tNdRbOdP89VWhMqd",
         "name": "Sir Isteval",
         "type": "text",
         "title": {
@@ -27243,7 +23535,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eAYHvE7jh577QJWy",
+        "_id": "AFPhdgFZkGXIcMut",
         "name": "Taern Hornblade",
         "type": "text",
         "title": {
@@ -27271,7 +23563,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "91mNkYOH5Nu73Vkw",
+        "_id": "WXRPHEBaf1KzLNAo",
         "name": "King Melandrach",
         "type": "text",
         "title": {
@@ -27299,7 +23591,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3t2jyKVQ2melwi8H",
+        "_id": "c7LFAaeK6gjdn30z",
         "name": "Ambassador Brawnanvil",
         "type": "text",
         "title": {
@@ -27327,7 +23619,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KiEXLw0XfcFsBQQH",
+        "_id": "rPNkTefaGZzGWKSl",
         "name": "Crimson Maccath",
         "type": "text",
         "title": {
@@ -27355,7 +23647,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SnBIUVokUXThS7ww",
+        "_id": "epphL8VD1MSfMlSP",
         "name": "Elia",
         "type": "text",
         "title": {
@@ -27383,7 +23675,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BBInyVRaBw3DxitZ",
+        "_id": "Q9SyjrYUw3onvGnC",
         "name": "Nyh Ilmichh",
         "type": "text",
         "title": {
@@ -27419,11 +23711,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "HSzhSHHRuShQaCes",
+    "_id": "YSaflrpk0NxCECrG",
     "name": "Campaign Overview",
     "pages": [
       {
-        "_id": "GWGKccp0DM3mxznx",
+        "_id": "FGgcViBXV59t5xBW",
         "name": "Tyranny of Dragons \u2013 Campaign Context",
         "type": "text",
         "title": {
@@ -27451,7 +23743,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TIB2vfJeOOdGN8MH",
+        "_id": "C5uV9Yl67tZAsKnm",
         "name": "Language and Style",
         "type": "text",
         "title": {
@@ -27479,7 +23771,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cpaMjmBCa42iUuHK",
+        "_id": "3YOaMUb0jZ3larO9",
         "name": "DM Role",
         "type": "text",
         "title": {
@@ -27507,7 +23799,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "P9y83DPU1QUaruxR",
+        "_id": "NMGi5H6vUhJBuii7",
         "name": "Rules",
         "type": "text",
         "title": {
@@ -27535,7 +23827,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "JAnFQL5yZBZGD24B",
+        "_id": "lxwNCGpRGM3YtBnv",
         "name": "Axar Runes",
         "type": "text",
         "title": {
@@ -27563,7 +23855,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6QvHOnCGEGonkNEj",
+        "_id": "CLZi14f57lkmcvnh",
         "name": "Daxx Drake",
         "type": "text",
         "title": {
@@ -27591,7 +23883,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1uoheqLRR6yIqZoz",
+        "_id": "FAphk85j3ziTjLEw",
         "name": "Frygtl\u00f8s",
         "type": "text",
         "title": {
@@ -27619,7 +23911,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "suembwhtv81b8blr",
+        "_id": "wJDOsMwuklPXCUmS",
         "name": "Twilight Ventress",
         "type": "text",
         "title": {
@@ -27647,7 +23939,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "s37spJdlLZZvg69c",
+        "_id": "NmhZy2AH4lGS9Lj1",
         "name": "3. Current Campaign Phase",
         "type": "text",
         "title": {
@@ -27675,7 +23967,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "u9WVtX8a5ZnOJrwB",
+        "_id": "rN39xBgNe81W3Qec",
         "name": "4. Campaign Tone",
         "type": "text",
         "title": {
@@ -27703,7 +23995,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KjUuSYxCaB6oC4JL",
+        "_id": "5e4IUOl5bneK5ad4",
         "name": "Council of Waterdeep / Allies",
         "type": "text",
         "title": {
@@ -27731,7 +24023,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "s2ULRpYemgRYjraJ",
+        "_id": "0jDhSxCw9NSRQj1E",
         "name": "6. Thay Arc",
         "type": "text",
         "title": {
@@ -27759,7 +24051,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Aj5NFl70noh9NwUJ",
+        "_id": "p4kshnhpYrqbam2r",
         "name": "Key Elements",
         "type": "text",
         "title": {
@@ -27787,7 +24079,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "B8dfIex1JNkwX0Ig",
+        "_id": "FFQICnHBKX6ntumu",
         "name": "Status",
         "type": "text",
         "title": {
@@ -27815,7 +24107,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "JxXB6tWy6LJl9QEu",
+        "_id": "BtSuxoTgLAqUxURT",
         "name": "Room 21 \u2013 Storage Closet",
         "type": "text",
         "title": {
@@ -27843,7 +24135,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "CLZJ54895Uq3OhRM",
+        "_id": "eewiqUu1dXxl3JXm",
         "name": "Room 22 \u2013 Taraz the Fair",
         "type": "text",
         "title": {
@@ -27871,7 +24163,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KpAuuf1saFQSjlNp",
+        "_id": "dQt3bdBawSUSob8l",
         "name": "Room 23 \u2013 Time Chamber",
         "type": "text",
         "title": {
@@ -27899,7 +24191,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VodRGxCm59gVRHfv",
+        "_id": "QE9ol6Duu99ycChf",
         "name": "Original Statblock (ToD reference)",
         "type": "text",
         "title": {
@@ -27927,7 +24219,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dB4tVmG8LekD5S08",
+        "_id": "t9LI4dpKy4AvchMq",
         "name": "Role in the Campaign",
         "type": "text",
         "title": {
@@ -27955,7 +24247,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PWfqb1LFGelx7SgT",
+        "_id": "MfuKH3JqjHegtbHQ",
         "name": "What He Can Reveal",
         "type": "text",
         "title": {
@@ -27983,7 +24275,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oNz85A8JqGCFuaXW",
+        "_id": "XfEhLf8O6pVm0anH",
         "name": "What He Does Not Reveal",
         "type": "text",
         "title": {
@@ -28011,7 +24303,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "giAc5TmjV9y0daLe",
+        "_id": "44ADYoTane6JVLhH",
         "name": "Setting",
         "type": "text",
         "title": {
@@ -28039,7 +24331,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6NN8gcUEwtYFDBkk",
+        "_id": "8JUAtSZVBkUNbX1X",
         "name": "Visual Tone",
         "type": "text",
         "title": {
@@ -28067,7 +24359,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WWuHLAKpIWsLjoLv",
+        "_id": "p9s1dP5jJ3DIfLEm",
         "name": "By Land",
         "type": "text",
         "title": {
@@ -28095,7 +24387,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "u8csUsld8CoT55Yz",
+        "_id": "a003h4LwHNVhIeOs",
         "name": "By Water (Underground)",
         "type": "text",
         "title": {
@@ -28123,7 +24415,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VJwB6mfEIfvFAZ8g",
+        "_id": "DyEVYMu9oJGcknCM",
         "name": "By Air",
         "type": "text",
         "title": {
@@ -28151,7 +24443,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "59y5zdEGNAETRrbT",
+        "_id": "8KtW4nUfGKvm0lMR",
         "name": "Level 1 \u2013 The Maw / Outer Temple Grounds",
         "type": "text",
         "title": {
@@ -28179,7 +24471,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EHowdjXGAkMU0CKz",
+        "_id": "WoLSOlFNZDHQf4w3",
         "name": "Level 2 \u2013 The Fivefold Sanctum",
         "type": "text",
         "title": {
@@ -28207,7 +24499,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2Ii2EBYLGmzjIRLD",
+        "_id": "9bg5QhU1HBhsxqUs",
         "name": "Level 3 \u2013 The Crown / Ritual Summit",
         "type": "text",
         "title": {
@@ -28235,7 +24527,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OAYIrnrDqESRNOKs",
+        "_id": "15FufXOp184xFws4",
         "name": "DM Technique for 3 Levels",
         "type": "text",
         "title": {
@@ -28263,7 +24555,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3WNyvLbg3lqeAUsb",
+        "_id": "Mo8SavDokpP9pmiG",
         "name": "Sabotage Effects",
         "type": "text",
         "title": {
@@ -28291,7 +24583,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2i5uqKnK0rSQRszV",
+        "_id": "lfV3wQBlMuyNSkly",
         "name": "Ritual Clock",
         "type": "text",
         "title": {
@@ -28319,7 +24611,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "h7u2iwNTsviB84H2",
+        "_id": "8Su0UQjspwO4OgGq",
         "name": "Personality",
         "type": "text",
         "title": {
@@ -28347,7 +24639,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YL8wXMk8HlCWXnka",
+        "_id": "9GrcV2vAMMK05SVX",
         "name": "Dialogue Lines",
         "type": "text",
         "title": {
@@ -28375,7 +24667,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fGuXgOuSBRz0dMJ4",
+        "_id": "JFkvUPzntCbjPvwK",
         "name": "Mechanics",
         "type": "text",
         "title": {
@@ -28403,7 +24695,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "X5whzLgpAX7tryuO",
+        "_id": "7bmvgljAtnVK76c2",
         "name": "13. Tiamat \u2013 Manifestation Stages",
         "type": "text",
         "title": {
@@ -28431,7 +24723,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "a6PBCttAtMMgZjpR",
+        "_id": "keUdXtxXT8w2tmWm",
         "name": "Stage 1 \u2013 Presence",
         "type": "text",
         "title": {
@@ -28459,7 +24751,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YLFnR5nH7HuGrvN3",
+        "_id": "apz9RJ4DlQKHqn8M",
         "name": "Stage 2 \u2013 Heads beyond the veil",
         "type": "text",
         "title": {
@@ -28487,7 +24779,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1XCxvRZsmuA4Pn8l",
+        "_id": "kWUwGfomk3QijhVl",
         "name": "Stage 3 \u2013 Partial manifestation",
         "type": "text",
         "title": {
@@ -28515,7 +24807,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5MYcd0NJtqM6vK7w",
+        "_id": "FFDGpPGUyleq8IDy",
         "name": "Stage 4 \u2013 Full manifestation",
         "type": "text",
         "title": {
@@ -28543,7 +24835,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "8LXsmq8Z4dUZqXQA",
+        "_id": "608A5XEvw5iih0Hg",
         "name": "14. Dragon Cult Ranks and Token Design",
         "type": "text",
         "title": {
@@ -28571,7 +24863,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KqKkDl7iJL8W2z4J",
+        "_id": "AGtFQ0YY6c0jLv20",
         "name": "15. Battlemap and Image Preferences",
         "type": "text",
         "title": {
@@ -28599,7 +24891,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "g6b7S2fSNzvzluai",
+        "_id": "Vw1OWdiA9W29LDug",
         "name": "Level 1 \u2013 The Maw",
         "type": "text",
         "title": {
@@ -28627,7 +24919,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GvrNZjcy5HZnxioV",
+        "_id": "rh5YupqAtplvZybZ",
         "name": "Level 3 \u2013 The Crown",
         "type": "text",
         "title": {
@@ -28655,7 +24947,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "h4YsEliP8WfjkvkL",
+        "_id": "QmE0eqLQjMZLR2eo",
         "name": "Tactical Features",
         "type": "text",
         "title": {
@@ -28683,7 +24975,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uWWbV5rF94da4tD5",
+        "_id": "ba83PjbfT0enALpI",
         "name": "Phase 1 \u2013 The Breach",
         "type": "text",
         "title": {
@@ -28711,7 +25003,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "siecYj2QOoworUjQ",
+        "_id": "yZW1TLnFTJ0oum38",
         "name": "Phase 2 \u2013 The Sabotage",
         "type": "text",
         "title": {
@@ -28739,7 +25031,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Nu8aS4l01dgqLqNX",
+        "_id": "AkWzvlCPOLdRpoHB",
         "name": "Phase 3 \u2013 Severin",
         "type": "text",
         "title": {
@@ -28767,7 +25059,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TyGfMIfRs7zm08Tj",
+        "_id": "KAhB6Md3BP0zXUpc",
         "name": "Phase 4 \u2013 Tiamat's Judgment",
         "type": "text",
         "title": {
@@ -28795,7 +25087,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zURq89wMBYpgKrfJ",
+        "_id": "WlJlqOzPHM3d6LgZ",
         "name": "1. The Procession of Failed Ascension",
         "type": "text",
         "title": {
@@ -28823,7 +25115,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VVGO2EmWqf8P8pYK",
+        "_id": "ZuYaJR7FEs2doTmz",
         "name": "2. Bone Wind Corridor",
         "type": "text",
         "title": {
@@ -28851,7 +25143,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "v3JtU3dwQ7JhosvY",
+        "_id": "j2zCvaN0zeZF2uni",
         "name": "3. The Fivefold Gate",
         "type": "text",
         "title": {
@@ -28879,7 +25171,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tjxRZQYVYhnXBEkp",
+        "_id": "T78QJ7e1Eul948uu",
         "name": "4. Wyrmguard Counterattack",
         "type": "text",
         "title": {
@@ -28907,7 +25199,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "M61BtIih0hxoyDLX",
+        "_id": "k9rFNZDZnJROFaC0",
         "name": "5. The First Head Speaks",
         "type": "text",
         "title": {
@@ -28935,7 +25227,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YhC9xpzqNfjINlXY",
+        "_id": "SdrJoCQguOqIA4S2",
         "name": "19. Army-Scale / Frontline Clock",
         "type": "text",
         "title": {
@@ -28963,7 +25255,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NKo5tpI4dE2yuIoF",
+        "_id": "SkJjbZRIBmnaaaGj",
         "name": "Army Front Clock",
         "type": "text",
         "title": {
@@ -28991,7 +25283,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "y50jy7xDyxa8zK4m",
+        "_id": "0ztsHZGVXAyVrQWA",
         "name": "Frontline Events (d8)",
         "type": "text",
         "title": {
@@ -29019,7 +25311,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4DvNk76s2iDqwX9u",
+        "_id": "eu23Qc8mcviiB4Wu",
         "name": "20. Encounter Balance \u2013 The Level 15 Party",
         "type": "text",
         "title": {
@@ -29047,7 +25339,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "U7swBSDnxkxS6DuD",
+        "_id": "y7LbM3P2jxhOjcqi",
         "name": "Potions",
         "type": "text",
         "title": {
@@ -29075,7 +25367,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1FIty1KDGOeFm7MQ",
+        "_id": "ibynFXDQDGUYFEnj",
         "name": "Scrolls",
         "type": "text",
         "title": {
@@ -29103,7 +25395,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Ka2T9Xs8PI7roX2G",
+        "_id": "h1luNUYKswTKKgd9",
         "name": "Magic items",
         "type": "text",
         "title": {
@@ -29131,7 +25423,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hzFHvBX9nmsUxYKM",
+        "_id": "RCzJk4p6rPV4ZGOR",
         "name": "22. Cult Relics and Loot (Room 7 / Treasure Room)",
         "type": "text",
         "title": {
@@ -29159,7 +25451,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dOoEEB9zpiNaOQi4",
+        "_id": "bRXcdbAFEkazjoik",
         "name": "Cult Relics",
         "type": "text",
         "title": {
@@ -29187,7 +25479,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DYmDZ7RWaox3IQay",
+        "_id": "q4aJkgfP2gf3Min0",
         "name": "Non-magical Valuables",
         "type": "text",
         "title": {
@@ -29215,7 +25507,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ebikOudSoHYeTabn",
+        "_id": "fEn9mVkSmwFnZYzi",
         "name": "Valuable Books (not dragon-related)",
         "type": "text",
         "title": {
@@ -29243,7 +25535,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bSVJMXUHuAqxbR1A",
+        "_id": "NjgfCmuzwBXAatN1",
         "name": "Paintings",
         "type": "text",
         "title": {
@@ -29271,7 +25563,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DaI7IHdwcIueUIsm",
+        "_id": "dpuycvrAfeMPE8rE",
         "name": "23. Teleport Trap / Last Ambush",
         "type": "text",
         "title": {
@@ -29299,7 +25591,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9JYGDJaFAWCbqE42",
+        "_id": "CxPN2Dig1gyoLIsh",
         "name": "The Two Old Coins",
         "type": "text",
         "title": {
@@ -29327,7 +25619,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "esZ6WJxPnJB8xlsj",
+        "_id": "2oE93GowZxRmQmr7",
         "name": "First View of Well of Dragons",
         "type": "text",
         "title": {
@@ -29355,7 +25647,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ei6jC3OODOcPl4SK",
+        "_id": "cIGoDDiWqDvvm0A9",
         "name": "The Ritual's Pressure",
         "type": "text",
         "title": {
@@ -29383,7 +25675,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ISYCDUuKSh1UKsT8",
+        "_id": "aDW5srERQC0hTQui",
         "name": "Severin's Entrance",
         "type": "text",
         "title": {
@@ -29411,7 +25703,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "glsOzKC970gn1tLq",
+        "_id": "8vyEDwVbrKT884y9",
         "name": "Tiamat's Presence",
         "type": "text",
         "title": {
@@ -29439,7 +25731,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "itn8DpMof323yC73",
+        "_id": "d3RLalXqKh5CL0Wt",
         "name": "Remallia and the Map",
         "type": "text",
         "title": {
@@ -29467,7 +25759,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hAXeRtXVdexNDzhg",
+        "_id": "ytdiuFqaKjDMlbmj",
         "name": "Major Choices for the Players",
         "type": "text",
         "title": {
@@ -29495,7 +25787,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sSVb7PSBSU8VLG0e",
+        "_id": "AfyKKJWaliRNj3Ei",
         "name": "The World Reacts",
         "type": "text",
         "title": {
@@ -29523,7 +25815,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "aC76bJ1eh5cj10vX",
+        "_id": "6w6hAFaOim1wFjim",
         "name": "Named NPC Deaths \u2013 Good Candidates",
         "type": "text",
         "title": {
@@ -29551,7 +25843,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wBykQZ6jMmKdo1Wm",
+        "_id": "5tnx0syTH1V7t3l6",
         "name": "26. Foundry/VTT Output",
         "type": "text",
         "title": {
@@ -29579,7 +25871,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WEFH3vsSBgMn83SK",
+        "_id": "CtbFHTb24goNNGDv",
         "name": "27. Response Patterns",
         "type": "text",
         "title": {
@@ -29607,7 +25899,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yiMaG7zkJmdzIqgc",
+        "_id": "nUT4MSjNhoxbUCZG",
         "name": "28. Source Context",
         "type": "text",
         "title": {
@@ -29643,11 +25935,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "OeFQ97HI0qTaD2Dq",
+    "_id": "3YD02xUF434qN8XP",
     "name": "Image-Usage-Guide",
     "pages": [
       {
-        "_id": "vA9I4auGBdwm3xD2",
+        "_id": "FixttnVok5u9Ggx4",
         "name": "Image Usage Guide \u2013 Finale Session Artwork",
         "type": "text",
         "title": {
@@ -29675,7 +25967,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "o1xBT8dwyRyBkbSa",
+        "_id": "Yk2txDbu3d1R0exq",
         "name": "NPC Tokens \u2013 Key Characters",
         "type": "text",
         "title": {
@@ -29703,7 +25995,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rm5vcdBiNuvVoAnD",
+        "_id": "W7u3YI4HyfULY56s",
         "name": "Cult Rank Tokens (Encounter Variety)",
         "type": "text",
         "title": {
@@ -29731,7 +26023,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EJW3dJhuBNinJSlZ",
+        "_id": "k96529N29IlRCqg9",
         "name": "Sacrifice Victims \u2013 Emotional Beat (PLAZA 23)",
         "type": "text",
         "title": {
@@ -29759,7 +26051,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ZJ868CT93BaeNKcv",
+        "_id": "JRUM7i5KaSnzUndq",
         "name": "Level 2 \u2013 The Fivefold Sanctum",
         "type": "text",
         "title": {
@@ -29787,7 +26079,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "T3gFPZKLwENK7tDi",
+        "_id": "a66w8qSg4uXmOns8",
         "name": "Level 3 \u2013 The Crown (Final Boss Arena)",
         "type": "text",
         "title": {
@@ -29815,7 +26107,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vs55wZ4QXAPtDL88",
+        "_id": "24fpAS4IKYn6Fup6",
         "name": "Well of Dragons \u2013 Caldera",
         "type": "text",
         "title": {
@@ -29843,7 +26135,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "U8KCE0lwpU2UrhQv",
+        "_id": "PhHI9DHc8g7AXQsH",
         "name": "Establishing Shots (Display before entering each area)",
         "type": "text",
         "title": {
@@ -29871,7 +26163,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DR0SUmZTgrKuPhsJ",
+        "_id": "xYKODQg2hU1A9RYl",
         "name": "PRE-SESSION (Setup)",
         "type": "text",
         "title": {
@@ -29899,7 +26191,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "drCNm94hBKEewonl",
+        "_id": "b9tubeJAAfYAk3q6",
         "name": "SESSION PHASE A \u2013 Caldera & Entry (60\u201390 min)",
         "type": "text",
         "title": {
@@ -29927,7 +26219,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Q98Yrd20E6TW64UJ",
+        "_id": "scODDWvsFrKvIHjb",
         "name": "SESSION PHASE B \u2013 Level 2: The Fivefold Sanctum (60\u201390 min)",
         "type": "text",
         "title": {
@@ -29955,7 +26247,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wzUbrdYxIaii6gQv",
+        "_id": "AZFQbicjdQCtSQO4",
         "name": "SESSION PHASE C \u2013 Level 3: The Crown (90\u2013120 min)",
         "type": "text",
         "title": {
@@ -29983,7 +26275,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RRB1NMVVKISSZFfc",
+        "_id": "ONAlixuj9CxC1Z1A",
         "name": "POST-COMBAT: Aftermath (30\u201360 min)",
         "type": "text",
         "title": {
@@ -30011,7 +26303,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "y23u7AMgOqB8RS8h",
+        "_id": "PtA4BKcurEAHMuRk",
         "name": "Foundry VTT",
         "type": "text",
         "title": {
@@ -30039,7 +26331,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NTULpemxOsFbnVWl",
+        "_id": "U3AVYZC2HR5YXSye",
         "name": "Roll20",
         "type": "text",
         "title": {
@@ -30067,7 +26359,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7BljH5BJnS6JjJCW",
+        "_id": "ZmBR7EK3Pgqg0Nqk",
         "name": "Offline / Physical Table",
         "type": "text",
         "title": {
@@ -30095,7 +26387,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "G6zkMii0HHyvEfSp",
+        "_id": "ejS7ZKih8gSBfKCG",
         "name": "Image Storage & Naming",
         "type": "text",
         "title": {
@@ -30123,7 +26415,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7HNDUOCanhnzw7HA",
+        "_id": "ROB4ar5BASrFYvV1",
         "name": "Quick Display Checklist",
         "type": "text",
         "title": {
@@ -30159,11 +26451,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "6Bq2Vk4XO6A3gJKK",
+    "_id": "IDf5Lyb88IN6HdLI",
     "name": "Level-3-Complete-Walkthrough",
     "pages": [
       {
-        "_id": "scvI2qEe5SztH7c8",
+        "_id": "ZfmvvWqvWqPgGoLU",
         "name": "Severin Final Boss + Tiamat Manifestation (Prompts 7 & 8 integrated)",
         "type": "text",
         "title": {
@@ -30191,7 +26483,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eDDReMkYogYLDICm",
+        "_id": "pxIKIxn490MMimPX",
         "name": "\u26a0\ufe0f RITUAL CLOCK LOCKED AT 0 FOR THIS SESSION",
         "type": "text",
         "title": {
@@ -30219,7 +26511,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oLSt3mXqTHo3foDg",
+        "_id": "0NOMt5HcX8L3jnMf",
         "name": "The Last Staircase (cinematic ascent, 2\u20133 minutes)",
         "type": "text",
         "title": {
@@ -30247,7 +26539,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tgBYzOCQTfmM501m",
+        "_id": "EnLUhKcAySuyi0QI",
         "name": "Visual Description \u2013 The Crown Revealed (boxed text, Danish)",
         "type": "text",
         "title": {
@@ -30275,7 +26567,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LlnBhyjFQfdYM4q9",
+        "_id": "qa5orpFj77Jg1hp4",
         "name": "Physical Layout (reference only \u2013 not read aloud)",
         "type": "text",
         "title": {
@@ -30303,7 +26595,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jkCPloqCnTLQRyDT",
+        "_id": "iibHKxmYo4S3oYbH",
         "name": "Severin Turns to Face the Party (3\u20135 minutes before initiative)",
         "type": "text",
         "title": {
@@ -30331,7 +26623,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0T8mES1YVnhv1fGz",
+        "_id": "PoDEuhsGfanGEL21",
         "name": "Severin's Full Monologue (continues)",
         "type": "text",
         "title": {
@@ -30359,7 +26651,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "atL9cWiAfkwAccT2",
+        "_id": "O8eMzun0L91rTcBx",
         "name": "Social Checks (parallel hooks \u2013 one per PC, simultaneous or rapid sequence)",
         "type": "text",
         "title": {
@@ -30387,7 +26679,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Cz2HIMypqbwYRR3z",
+        "_id": "Sabk7Bze8OMoXgCj",
         "name": "AXAR \u2013 Arcana Check DC 17",
         "type": "text",
         "title": {
@@ -30415,7 +26707,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WGuuKdFZ6aqwnU8M",
+        "_id": "rEbCSQiGaPzXFhTh",
         "name": "DAXX \u2013 Insight Check DC 15",
         "type": "text",
         "title": {
@@ -30443,7 +26735,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eW0AHJ1yzkjpB2gV",
+        "_id": "AuLPiUgTsKgJ1gyL",
         "name": "FRYGTL\u00d8S \u2013 Intimidation Check DC 18",
         "type": "text",
         "title": {
@@ -30471,7 +26763,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RnvtizEpyVSYuhhQ",
+        "_id": "huE4qIofiPyRWHhO",
         "name": "TWILIGHT \u2013 Persuasion or Performance Check DC 20",
         "type": "text",
         "title": {
@@ -30499,7 +26791,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mLRn4o46A0iQOa3u",
+        "_id": "5tUS2kUjw3qaZYsP",
         "name": "Fifth Voice \u2013 Severin's Final Statement (After social checks end)",
         "type": "text",
         "title": {
@@ -30527,7 +26819,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qpbu4b54dmDnX8Go",
+        "_id": "4adBMmSS4jxMmDnF",
         "name": "Initiative Roll",
         "type": "text",
         "title": {
@@ -30555,7 +26847,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "e8Ok4DdZUiHmibcq",
+        "_id": "AOYL3ZtOb35v9WHB",
         "name": "Surprise Round (if applicable)",
         "type": "text",
         "title": {
@@ -30583,7 +26875,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "B2MjjyqjTnq9A6cJ",
+        "_id": "bGqHFEDrWGF5kDhy",
         "name": "Round 1: Severin's Potential Actions",
         "type": "text",
         "title": {
@@ -30611,7 +26903,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lVkv7QofadLYQUmE",
+        "_id": "jjcp4JegvIlZfug0",
         "name": "SECTION 4: SEVERIN PHASE 1 DETAILED TACTICS (Rounds 2\u20135)",
         "type": "text",
         "title": {
@@ -30639,7 +26931,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5jckiZe0t067IerT",
+        "_id": "TyARTUNXsXjcXydq",
         "name": "Round 2",
         "type": "text",
         "title": {
@@ -30667,7 +26959,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hBZ2PFdATEGdt2eu",
+        "_id": "cbM9IBly5p9pwwY5",
         "name": "Round 3\u20135 (Grouped for pacing)",
         "type": "text",
         "title": {
@@ -30695,7 +26987,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UPHuP6kt2kikEcrN",
+        "_id": "Viy9Z5vRlegE16sU",
         "name": "Clock Impact on Phase 1",
         "type": "text",
         "title": {
@@ -30723,7 +27015,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sv2uZDDamhMMYozu",
+        "_id": "P3igujQNziFPT2QS",
         "name": "Red Wizard Interaction: The Ritual Clock as Pacing Tool",
         "type": "text",
         "title": {
@@ -30751,7 +27043,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rsmO4o7vCJAfx9dy",
+        "_id": "Iq6a8T6d7dbRY0Xl",
         "name": "SECTION 5: TIAMAT INTERFERENCE \u2013 CLOCK-DRIVEN ESCALATION",
         "type": "text",
         "title": {
@@ -30779,7 +27071,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KNwPxcTSQjVvEWH7",
+        "_id": "IIZYXL4rsNaq1o2o",
         "name": "PSYCHIC ASSAULT TIMING",
         "type": "text",
         "title": {
@@ -30807,7 +27099,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NfpwX7v05s2z3t1n",
+        "_id": "OwNfX5ddTWQnxABs",
         "name": "Elia's Arrival (Optional, triggered at Clock 4\u20135)",
         "type": "text",
         "title": {
@@ -30835,7 +27127,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ExB8DF28mbfL1Lbi",
+        "_id": "Tatz0SgqxWSHOcLF",
         "name": "The Moment of Transition",
         "type": "text",
         "title": {
@@ -30863,7 +27155,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2m1LRfQJ0FoLtsH0",
+        "_id": "FuC7XZPZMgyafD9k",
         "name": "Severin Phase 2 Mechanics (HP 115 \u2192 0)",
         "type": "text",
         "title": {
@@ -30891,7 +27183,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QSq9c6aIJGCErodH",
+        "_id": "sZOgfh0sZBSSgzKq",
         "name": "Phase 2 Action Economy (Rounds 6 onward)",
         "type": "text",
         "title": {
@@ -30919,7 +27211,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Yl5y63gJIXU3lfvJ",
+        "_id": "UEM60IpRfPkFkcyj",
         "name": "Phase 2 Red Wizards",
         "type": "text",
         "title": {
@@ -30947,7 +27239,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wh1zO2dMscrjtf1y",
+        "_id": "uwSE55llQey98lsG",
         "name": "Phase 2 Rath Modar (If alive)",
         "type": "text",
         "title": {
@@ -30975,7 +27267,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DFq0wvsq5bSKMxGd",
+        "_id": "DHlbSFHzlRcj8bup",
         "name": "SECTION 7: THREE VICTORY OPTIONS & RESOLUTION",
         "type": "text",
         "title": {
@@ -31003,7 +27295,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lCL0hX0oDDrPd4HV",
+        "_id": "xI42YEIx96Mo0pdC",
         "name": "OPTION A \u2013 Kill Severin (most direct)",
         "type": "text",
         "title": {
@@ -31031,7 +27323,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oDLs1As23SyeoLYc",
+        "_id": "jz62l9LC1CY7iW93",
         "name": "OPTION B \u2013 Destroy the Five Masks",
         "type": "text",
         "title": {
@@ -31059,7 +27351,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zVJy1EofPsexqhZj",
+        "_id": "cWOR0krz7wqEpy6e",
         "name": "OPTION C \u2013 Break the Ritual Circle (Axar's Signature)",
         "type": "text",
         "title": {
@@ -31087,7 +27379,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BmMRdY0XXZlYc8Jy",
+        "_id": "Im846RlD2GW3UT5b",
         "name": "What if Severin reaches 3 HP and cannot be killed (Clock 7+)?",
         "type": "text",
         "title": {
@@ -31115,7 +27407,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fR387GGM9P3WWafS",
+        "_id": "jj1m7F72Br3iwuMA",
         "name": "Rath Modar's Death Scene (if he falls in Phase 2)",
         "type": "text",
         "title": {
@@ -31143,7 +27435,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "gLMBHFau19zDkPNj",
+        "_id": "pBt5KXY4Ny9EfenF",
         "name": "SECTION 8: TIAMAT'S VOICE & WITHDRAWAL",
         "type": "text",
         "title": {
@@ -31171,7 +27463,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tp9apoHflRxxsiJv",
+        "_id": "SOgC6nNMiTZVY5xa",
         "name": "The Mechanics",
         "type": "text",
         "title": {
@@ -31199,7 +27491,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Syo4uoquMU2FHBcE",
+        "_id": "kxjNSM5AMq6DRYKc",
         "name": "Level 3 \u2192 2 Transition (Rounds 1\u20133)",
         "type": "text",
         "title": {
@@ -31227,7 +27519,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WHvTPp1Au1lwpfdF",
+        "_id": "R8dM4Q9aZF985ht4",
         "name": "Level 2 Exploration (Rounds 4\u20138)",
         "type": "text",
         "title": {
@@ -31255,7 +27547,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WAQr2127li2jKLXx",
+        "_id": "LzhVrM6UInw3W3F6",
         "name": "Level 1 (Rounds 9\u201315)",
         "type": "text",
         "title": {
@@ -31283,7 +27575,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pSk9nwm3Piis3ozq",
+        "_id": "VYsVu1nMPTXXPdmp",
         "name": "Round 15: Final Threshold",
         "type": "text",
         "title": {
@@ -31311,7 +27603,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6Ig9S5fKdHsBkBf8",
+        "_id": "js2CSrb9yIZSxGqK",
         "name": "When They Step Out",
         "type": "text",
         "title": {
@@ -31339,7 +27631,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KvE8cojMHBuCVJFd",
+        "_id": "89SNkPKFOw8qRl5L",
         "name": "SECTION 10: AFTERMATH & VICTORY CONDITIONS",
         "type": "text",
         "title": {
@@ -31367,7 +27659,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VpJ3rfVBNIBKmf9I",
+        "_id": "DGi1Q8ADr37qn8Xw",
         "name": "MAJOR SUCCESS (Ritual Clock 0\u20134 at Severin's fall)",
         "type": "text",
         "title": {
@@ -31395,7 +27687,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "CgxrHXAsUjPhKLkc",
+        "_id": "D4K2MbvjzS1jVyna",
         "name": "PARTIAL SUCCESS (Ritual Clock 5\u20137 at Severin's fall)",
         "type": "text",
         "title": {
@@ -31423,7 +27715,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IRo30KbDvLjcDE56",
+        "_id": "unnLtNpmlL1eFePa",
         "name": "FAILURE FORWARD (Ritual Clock 8 at Severin's fall or Severin unable to be killed)",
         "type": "text",
         "title": {
@@ -31451,7 +27743,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RucqpU9rIIlgP2oB",
+        "_id": "tM2X1rNJgLwbPdCK",
         "name": "Pacing the 90\u2013120 minute sequence",
         "type": "text",
         "title": {
@@ -31479,7 +27771,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RYOdzNkD2Rdp2lg4",
+        "_id": "w3uNVEgxWdkGlFZu",
         "name": "Ritual Clock at the Table",
         "type": "text",
         "title": {
@@ -31507,7 +27799,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hvn7JXYccXbC6TkQ",
+        "_id": "EvK1v4r2sAZDPeEZ",
         "name": "Initiative & Combat Management",
         "type": "text",
         "title": {
@@ -31535,7 +27827,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zEMoA1Rg6ahSpg7i",
+        "_id": "eeV3vj1lpIcyTARS",
         "name": "When Social Checks are Happening",
         "type": "text",
         "title": {
@@ -31563,7 +27855,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NLqnNqteNYynSIze",
+        "_id": "wtVbkfIq4J3ueSij",
         "name": "Managing Dominate Monster (Frygtl\u00f8s in Phase 2)",
         "type": "text",
         "title": {
@@ -31591,7 +27883,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GLvvJwlpUckkYGhQ",
+        "_id": "zg70vBmRKwhvWB5q",
         "name": "Rath Modar's Engagement",
         "type": "text",
         "title": {
@@ -31619,7 +27911,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FD8JfzUJFw6KlZQW",
+        "_id": "RWwgpL6vYoVtBGgs",
         "name": "Handling PC Death in the Finale",
         "type": "text",
         "title": {
@@ -31647,7 +27939,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WeiANqgQrRPwqwnj",
+        "_id": "lgdGdDqksyjHrMR0",
         "name": "Twilight's Moment",
         "type": "text",
         "title": {
@@ -31675,7 +27967,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5ER6AV96st8cpmcz",
+        "_id": "aaBJU9Ek6X2Tu9QE",
         "name": "Victory Conditions Summary",
         "type": "text",
         "title": {
@@ -31703,7 +27995,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vbO7aVigw5VZ4jcz",
+        "_id": "tg1dUPyL3IDTeQDv",
         "name": "Severin Phase 1 Spell Selection (Rounds 2\u20135)",
         "type": "text",
         "title": {
@@ -31731,7 +28023,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1QDZkRcXIGM9Hpmz",
+        "_id": "95tYPp1vqxiq1FSt",
         "name": "Severin Phase 2 Spell Selection (Rounds 6+)",
         "type": "text",
         "title": {
@@ -31759,7 +28051,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FWPaNzJLKFUyLtsG",
+        "_id": "rNWJoM46OjiFv4Kz",
         "name": "Red Wizard Escalation",
         "type": "text",
         "title": {
@@ -31787,7 +28079,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xODIFwax7DtxzmPd",
+        "_id": "t8q7KLreCcoYekuL",
         "name": "Temple Collapse Hazards (per Level)",
         "type": "text",
         "title": {
@@ -31815,7 +28107,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PV5CaVD3O7KRM6am",
+        "_id": "3mEEhzWT5AuvPD7D",
         "name": "NPC Status at Combat Start",
         "type": "text",
         "title": {
@@ -31851,11 +28143,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "2PDjYBM1Rxl5Z28W",
+    "_id": "1ICbPYqSHgXB686f",
     "name": "Scene-4B-Plaza-Sacrifice",
     "pages": [
       {
-        "_id": "3DQz7YEv7nMSL3cE",
+        "_id": "80hJFZdXw0RqHh2T",
         "name": "Scene 4b \u2014 The Plaza Sacrifice (If Party Sneaks to Plaza Edge)",
         "type": "text",
         "title": {
@@ -31883,7 +28175,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oPQ2Cai2wCZWFxx5",
+        "_id": "Zc8oQE7ouRM2koGk",
         "name": "Boxed Text (Dansk)",
         "type": "text",
         "title": {
@@ -31911,7 +28203,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YNmNv4hpb43MdEiR",
+        "_id": "xixtPodmZzXOSfOS",
         "name": "The Five Prisoners",
         "type": "text",
         "title": {
@@ -31939,7 +28231,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kp4N6C116feeKh3r",
+        "_id": "bhMiTWy0k15QVR2R",
         "name": "The Ritual Master",
         "type": "text",
         "title": {
@@ -31967,7 +28259,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XB0QlU3Ym9JltwDS",
+        "_id": "92fCWMaWM8kkgiGg",
         "name": "Round 1 \u2014 Recognition",
         "type": "text",
         "title": {
@@ -31995,7 +28287,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ota52tMZXn6dCIYj",
+        "_id": "bPTza0BkLvSEkSKv",
         "name": "Round 2 \u2014 Understanding",
         "type": "text",
         "title": {
@@ -32023,7 +28315,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cjfcgdamBTLxekuT",
+        "_id": "5JXdAfKcyMXJeLrK",
         "name": "Round 3 \u2014 The Final Death",
         "type": "text",
         "title": {
@@ -32051,7 +28343,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mPGLHu10eapVVS5v",
+        "_id": "B2Fa3Vd2xjd5HqVg",
         "name": "The Aftermath \u2014 Cultist Reaction",
         "type": "text",
         "title": {
@@ -32079,7 +28371,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FWxg23uNLxvWhnfD",
+        "_id": "BPremoMt79PngaP1",
         "name": "If Party Attempts Rescue (Before All Deaths)",
         "type": "text",
         "title": {
@@ -32107,7 +28399,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xCCehbcNuQpzrFaM",
+        "_id": "qCFs1klT1tI8I10U",
         "name": "If Party Cannot Intervene",
         "type": "text",
         "title": {
@@ -32135,7 +28427,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7aoLlzS2UD9BwD6I",
+        "_id": "jsPn2LHBsOyUNTsB",
         "name": "Axar's Arcana Opportunity",
         "type": "text",
         "title": {
@@ -32163,7 +28455,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AJSqTH7hxUvvE6KF",
+        "_id": "vFbhV5NIfzk8yRjg",
         "name": "Mechanical Impact Summary",
         "type": "text",
         "title": {
@@ -32191,7 +28483,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hCEHgwLKoSJAmVvF",
+        "_id": "r5UwBupkozLbXjcx",
         "name": "Optional: Prisoner Recognition",
         "type": "text",
         "title": {
@@ -32219,7 +28511,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ry80hisW764HwdWf",
+        "_id": "gNyHoLoR5TEmrc75",
         "name": "Integration into Existing Scene Flow",
         "type": "text",
         "title": {
@@ -32247,7 +28539,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cafQzfoxC2bkpNQJ",
+        "_id": "fu6K5ZNq8ql8NxWS",
         "name": "DM Notes",
         "type": "text",
         "title": {
@@ -32283,11 +28575,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "NAImkHaG1nxRicAE",
+    "_id": "cmEBgRzeDIak4Y1y",
     "name": "Area-7-To-Temple-Cinematic-Refined",
     "pages": [
       {
-        "_id": "IkHCR8JgpR0WQltu",
+        "_id": "p6SfVR5year6z2Ox",
         "name": "Area 7 \u2192 Temple: Refined Cinematic Sequence",
         "type": "text",
         "title": {
@@ -32315,7 +28607,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kmXv4zeBwPN0oQu8",
+        "_id": "3ucIxAJpAKfF6HqB",
         "name": "Boxed Text (Dansk)",
         "type": "text",
         "title": {
@@ -32343,7 +28635,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sJtGLqZlJfjpqG9s",
+        "_id": "WWgqrQFMh45knwm8",
         "name": "Per-PC First Notice",
         "type": "text",
         "title": {
@@ -32371,7 +28663,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hZSNyOxrkbpafBR9",
+        "_id": "x1KsxyhykqImhf75",
         "name": "Anticipated Player Questions",
         "type": "text",
         "title": {
@@ -32399,7 +28691,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "f94VBlDHzKKyzF2I",
+        "_id": "0zJQGapeGp73nBJ3",
         "name": "Mechanical Updates",
         "type": "text",
         "title": {
@@ -32427,7 +28719,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vOtkhOvXGTF4PRzh",
+        "_id": "v5vmwkAR8iLtOnRu",
         "name": "DM Notes",
         "type": "text",
         "title": {
@@ -32455,7 +28747,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wBayxPoYGDDIIuna",
+        "_id": "8idcjUXIsKyzt6c0",
         "name": "Boxed Text Moment \u2014 Devils' Common Speech",
         "type": "text",
         "title": {
@@ -32483,7 +28775,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eUidmDXRILJgv0hr",
+        "_id": "8kQlPUw0wvU5YhRl",
         "name": "Scene 4b \u2014 THE PLAZA SACRIFICE (Optional, if Party Sneaks Past Guards)",
         "type": "text",
         "title": {
@@ -32511,7 +28803,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QHzQoRRf4G3Uk5QO",
+        "_id": "993iWPMORmYDcUxm",
         "name": "Tactical Context",
         "type": "text",
         "title": {
@@ -32539,7 +28831,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MWLaNabL1OcdIAjg",
+        "_id": "Nx5AbSJpHUWDbUxC",
         "name": "Option A: Combat from Behind (Surprise Round Maintained)",
         "type": "text",
         "title": {
@@ -32567,7 +28859,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cFRSLTRIvkFVBr5Y",
+        "_id": "VJFUiqEHamMgmhla",
         "name": "Option B: Sneak Past (Group Stealth DC 16)",
         "type": "text",
         "title": {
@@ -32595,7 +28887,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "U16QNExTLqbht0Xg",
+        "_id": "APzaxgAbxqznFU1r",
         "name": "Option C: Twilight Suggestion on a Drake (DC 18 Wisdom Save)",
         "type": "text",
         "title": {
@@ -32623,7 +28915,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Dh5afwEhm0m1gfWj",
+        "_id": "11iNcHoscGCBCROw",
         "name": "Option D: Axar Alpha Strike (Fireball, 8d6 damage)",
         "type": "text",
         "title": {
@@ -32651,7 +28943,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SoxeU10A41d17hoe",
+        "_id": "nKZDm9pWfSNZn2dG",
         "name": "Framework",
         "type": "text",
         "title": {
@@ -32679,7 +28971,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uBEZmpXsg5xaa7bE",
+        "_id": "EMmgnYaU41CyMquA",
         "name": "Skill Options (DC 15 each)",
         "type": "text",
         "title": {
@@ -32707,7 +28999,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Id8mbpAjNWTzhdrA",
+        "_id": "com2fVH589xuWhlW",
         "name": "Boxed Text \u2014 Full Success (4 successes, 0-1 failures)",
         "type": "text",
         "title": {
@@ -32735,7 +29027,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HTw8FjM6FbQfaGhR",
+        "_id": "U2WP4McvLmOtQzhq",
         "name": "Boxed Text \u2014 Partial Success (4 successes, 2 failures)",
         "type": "text",
         "title": {
@@ -32763,7 +29055,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "R57eP0DTFTNjLXbE",
+        "_id": "4RJFma2Se1PIhkQ8",
         "name": "Boxed Text \u2014 Catastrophic (Failed attempt, dragon intercepts)",
         "type": "text",
         "title": {
@@ -32791,7 +29083,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Xe5zkomBZPlTRztL",
+        "_id": "LhAPbQSHcCruwSfp",
         "name": "NPC: The Blue Chapel Red Wizard",
         "type": "text",
         "title": {
@@ -32819,7 +29111,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QncAJDMRYgMh1wLI",
+        "_id": "HBc2UNAszqgMLpMl",
         "name": "Combat Options",
         "type": "text",
         "title": {
@@ -32847,7 +29139,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SHO4JliB24RftQvG",
+        "_id": "mCLxYAYbnJN3zU0N",
         "name": "The Humanization Beat (Frygtl\u00f8s's Parallel to Naergoth)",
         "type": "text",
         "title": {
@@ -32875,7 +29167,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4ptSgHFFi6gw75mr",
+        "_id": "vnfNtMwUJlAJ1pyI",
         "name": "For Axar Specifically (Arcana DC 10)",
         "type": "text",
         "title": {
@@ -32903,7 +29195,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OHW97EBsQCeklS53",
+        "_id": "NxcYbeHPIt3iYrSv",
         "name": "Per-PC First Notice (Scene 8 Revised)",
         "type": "text",
         "title": {
@@ -32931,7 +29223,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LXzOU526lCqJJbwa",
+        "_id": "eaFkcUr6NycTrtzj",
         "name": "Ritual Progress (Clock 0 \u2014 What They Sense)",
         "type": "text",
         "title": {
@@ -32959,7 +29251,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XxuCp54DO68MH9bO",
+        "_id": "zgG2rP02dVG2b8QA",
         "name": "Rath Modar Identification (Thay-arc payoff)",
         "type": "text",
         "title": {
@@ -32987,7 +29279,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EsxdFdYIJmZpJ8es",
+        "_id": "A8FeaFWY27aXSgAE",
         "name": "Transition to Phase B (Fivefold Sanctum)",
         "type": "text",
         "title": {
@@ -33015,7 +29307,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qlIHeIswhv73bXKC",
+        "_id": "HUPpwJ9naFjMzBky",
         "name": "Clock Status Summary",
         "type": "text",
         "title": {
@@ -33043,7 +29335,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "JVO8y2s1mJbl9Zm6",
+        "_id": "xmPOCMtcs6v8uG66",
         "name": "Potion & Resource Checkpoints",
         "type": "text",
         "title": {
@@ -33071,7 +29363,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OQ3gaZiDjFApfaIt",
+        "_id": "8qX9VV0XiQbbWC58",
         "name": "Summary: What Happened",
         "type": "text",
         "title": {
@@ -33099,7 +29391,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "maZCfO30UIAW7WQf",
+        "_id": "3Sgi6geNDEaeCRzM",
         "name": "DM Prep Checklist for This Sequence",
         "type": "text",
         "title": {
@@ -33135,11 +29427,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "mwfYwX5acxSkH7i9",
+    "_id": "LiJpZYUxPj8db3Vk",
     "name": "Army-Clock-Playbook",
     "pages": [
       {
-        "_id": "eGRjLPwVnOVo474l",
+        "_id": "nw3Z55xsQGHks8tA",
         "name": "Army Clock Playbook \u2013 Temple of Tiamat",
         "type": "text",
         "title": {
@@ -33167,7 +29459,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KohywGizIIRQwCWK",
+        "_id": "odmL4LjJwyRmdOK0",
         "name": "d8 Frontline Events (party-tuned)",
         "type": "text",
         "title": {
@@ -33195,7 +29487,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "X05QgEtETUkMvQzr",
+        "_id": "O1WXpTcRl96hWMAw",
         "name": "Scene 1: Ulder Ravengard (Flaming Fist Commander)",
         "type": "text",
         "title": {
@@ -33223,7 +29515,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "63qfvyUYvuL1yABv",
+        "_id": "JsvrrvFKebOdXmkp",
         "name": "Scene 2: Remallia Haventree (Harper Liaison)",
         "type": "text",
         "title": {
@@ -33251,7 +29543,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QRfGPdnYxKxf42v6",
+        "_id": "mctOlBRlWIz0Ed3h",
         "name": "Scene 3: Ontharr Frume (Order of the Gauntlet)",
         "type": "text",
         "title": {
@@ -33279,7 +29571,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jyCG2Q5ibSvBHyqj",
+        "_id": "OnH3zODZubBWfdxI",
         "name": "How Army-Clock events force Ritual-Clock ticks",
         "type": "text",
         "title": {
@@ -33307,7 +29599,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2w54NU9XQt2NhfNR",
+        "_id": "MT2J6DV40lttyM3N",
         "name": "When PCs can intervene WITHOUT costing ritual clock",
         "type": "text",
         "title": {
@@ -33335,7 +29627,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "F3QWbF15WeYD18Vy",
+        "_id": "wBy8Q2qPpl7FBoyk",
         "name": "When helping the army DOES cost ritual time",
         "type": "text",
         "title": {
@@ -33363,7 +29655,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mpm2j9zx9Z6KAbTe",
+        "_id": "oWdujz4wFzqTG0N8",
         "name": "Intervention DCs by PC",
         "type": "text",
         "title": {
@@ -33391,7 +29683,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yfc4ij5Lmy5N9jr5",
+        "_id": "7HYLSq6Kxhf1iKDu",
         "name": "Quick Reference \u2013 Managing the War",
         "type": "text",
         "title": {
@@ -33419,7 +29711,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iQCq1uuaNP5jbMsN",
+        "_id": "e3VNtBfr6VFUUe05",
         "name": "Sample Play Sequence",
         "type": "text",
         "title": {
@@ -33455,11 +29747,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "xJm4p7d4EVkf1WxV",
+    "_id": "405sHLtzXfugI5Jx",
     "name": "Checkliste",
     "pages": [
       {
-        "_id": "wuzOUBSDf89BqplP",
+        "_id": "OLMTtYUUbqaEJDDK",
         "name": "Pre-Session DM Checklist \u2013 Well of Dragons Finale",
         "type": "text",
         "title": {
@@ -33487,7 +29779,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HzzWGTmlj4lAv50f",
+        "_id": "v57YuAWeWk8kk5b5",
         "name": "Ritual Clock \u2013 Starting State",
         "type": "text",
         "title": {
@@ -33515,7 +29807,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "JplA1Gxrev7OYtS4",
+        "_id": "LdsdZT3NBN369ujy",
         "name": "Approach to Well of Dragons",
         "type": "text",
         "title": {
@@ -33543,7 +29835,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Di2sQ5C164f22CuY",
+        "_id": "M9yJJJjbKiSiRhiD",
         "name": "Army Clock Starting Value",
         "type": "text",
         "title": {
@@ -33571,7 +29863,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "N7hijATWhDREk6Xr",
+        "_id": "kGvfWtq9NYKJB09d",
         "name": "Focus Status (Level 2)",
         "type": "text",
         "title": {
@@ -33599,7 +29891,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "THrqiZCP4SmqfcQ2",
+        "_id": "UO7RMMZtAttt63yk",
         "name": "Severin Preparation",
         "type": "text",
         "title": {
@@ -33627,7 +29919,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "M1MeZTGNAJJnxbXk",
+        "_id": "m3DdUZ3cxsLiCYpb",
         "name": "NPCs Relevant This Session",
         "type": "text",
         "title": {
@@ -33655,7 +29947,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "l1tcgwvcqSB0pJRO",
+        "_id": "ZmMHkktoMfKtTI9v",
         "name": "Available Loot and Resources",
         "type": "text",
         "title": {
@@ -33683,7 +29975,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BOL5gAkHnOEZziCC",
+        "_id": "foA9jAmVY1lZFnAm",
         "name": "Ritual Clock Physical Tracker",
         "type": "text",
         "title": {
@@ -33711,7 +30003,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WjqTUGIG1b9rzDAR",
+        "_id": "ZVMeIkifowuhttu5",
         "name": "Army Clock Physical Tracker",
         "type": "text",
         "title": {
@@ -33739,7 +30031,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kgQTWokjbxwRnGEG",
+        "_id": "KkalFMjR2SB8IRFo",
         "name": "Initiative Tracker \u2013 Level 3",
         "type": "text",
         "title": {
@@ -33767,7 +30059,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "coxIIz43SuGSfPvv",
+        "_id": "GcAzLluXrbb9Ho7t",
         "name": "Opening \u2013 Arrival at Well of Dragons",
         "type": "text",
         "title": {
@@ -33795,7 +30087,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "me2Dl6g0yEgXpLGx",
+        "_id": "OROLNIX8bRYthZJu",
         "name": "Tiamat Presence Escalation (choose based on clock)",
         "type": "text",
         "title": {
@@ -33823,7 +30115,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "a2NajWoxomT8cWxX",
+        "_id": "b0r36GyfCkGCV6xU",
         "name": "Post-Session Notes",
         "type": "text",
         "title": {
@@ -33859,11 +30151,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "TJPVI1K7Pj1rvNSs",
+    "_id": "b2vS0Off6oOF5Ud0",
     "name": "Dm-Quick-Overview",
     "pages": [
       {
-        "_id": "Fo3uVjy0SEmDWnrz",
+        "_id": "okmUUFyaMTchLK4U",
         "name": "DM Quick Overview \u2014 Tiamat Finale Session",
         "type": "text",
         "title": {
@@ -33891,7 +30183,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7VaMmrr1JjfBNhiB",
+        "_id": "kztmVviLDLyyaiIJ",
         "name": "\u23f1\ufe0f Before the cold open",
         "type": "text",
         "title": {
@@ -33919,7 +30211,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GJY4JZpChyGHfBnK",
+        "_id": "qS72UVcbFKzwZwW8",
         "name": "\ud83c\udfad Party state right now",
         "type": "text",
         "title": {
@@ -33947,7 +30239,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "L4EV6vCVEx0p3JkH",
+        "_id": "N7vBjgJcxptYWv4k",
         "name": "\ud83d\uddfa\ufe0f Locked route",
         "type": "text",
         "title": {
@@ -33975,7 +30267,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kESnQwZy6TULMo1i",
+        "_id": "r1TXGGz6relVJMP3",
         "name": "\u23f0 Ritual clock",
         "type": "text",
         "title": {
@@ -34003,7 +30295,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WvBDsaOPON2K1Wfp",
+        "_id": "wep8DTXPRlDbkDWP",
         "name": "\ud83c\udfac Setup cues \u2014 drop these at the right moments",
         "type": "text",
         "title": {
@@ -34031,7 +30323,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bxwLgTocmWWug09U",
+        "_id": "IHkhLTHvn8SN6tN2",
         "name": "Plaza guards (one tunnel)",
         "type": "text",
         "title": {
@@ -34059,7 +30351,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TEZU5eTqQbu1Tpmd",
+        "_id": "SIEJeXJl10sFppIl",
         "name": "Blue Chapel Red Wizard (entry)",
         "type": "text",
         "title": {
@@ -34087,7 +30379,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oF1Qz0dFFz8SJCHL",
+        "_id": "PtpisWgZd42MUECo",
         "name": "Severin (HP 230, Phase 2 at 115)",
         "type": "text",
         "title": {
@@ -34115,7 +30407,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2J9F1fIUci0c5qWJ",
+        "_id": "QaqNIIzSy5N36fHe",
         "name": "Tiamat-head (when manifests)",
         "type": "text",
         "title": {
@@ -34143,7 +30435,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sCef1beqJNFIzxI6",
+        "_id": "0KcBvdh8tI6Ou1S9",
         "name": "Rath Modar (in Red Chapel area 6)",
         "type": "text",
         "title": {
@@ -34171,7 +30463,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TLSXZEBOqDnyvrCs",
+        "_id": "hZ9iV0oEkchLjxOY",
         "name": "When party combined HP < 200",
         "type": "text",
         "title": {
@@ -34199,7 +30491,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GDu6MCF91QGDbNIK",
+        "_id": "peubA9i7WdsKAe1J",
         "name": "When 2+ PCs at 0 HP simultaneously",
         "type": "text",
         "title": {
@@ -34227,7 +30519,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qyRH5JCTfVqClyHx",
+        "_id": "bWWky2tx4cpMLJDz",
         "name": "When Frygtl\u00f8s is Dominated by Severin",
         "type": "text",
         "title": {
@@ -34255,7 +30547,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hoyXHi2tcqDyZY7D",
+        "_id": "UqjJkLwVnHb4Xg5M",
         "name": "\ud83c\udfc6 The three victory paths",
         "type": "text",
         "title": {
@@ -34283,7 +30575,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rOuhr2YrNKLJRaGn",
+        "_id": "95VmCoNGQjIFWh4R",
         "name": "\ud83d\udcdc Aftermath (60 min)",
         "type": "text",
         "title": {
@@ -34311,7 +30603,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YvgWOKWPXrl6g34m",
+        "_id": "GwPtCUnJJBBPKV30",
         "name": "\ud83d\udd11 The four letters (printed and folded)",
         "type": "text",
         "title": {
@@ -34339,7 +30631,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UzFtv3lpBDfZl5Yy",
+        "_id": "WvqUkF9UwOqADmTC",
         "name": "\u274c DM mistakes that kill the magic",
         "type": "text",
         "title": {
@@ -34367,7 +30659,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xYZpbqJFGYhQIRxZ",
+        "_id": "JSWmRGYUsiGXPCTP",
         "name": "\ud83c\udfaf If the session goes off-rails",
         "type": "text",
         "title": {
@@ -34403,11 +30695,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "LnFl5fgHIFeBERbk",
+    "_id": "6yaEcIxQB1DfdobY",
     "name": "Printable-Clock-Tracker",
     "pages": [
       {
-        "_id": "11lAG3AdETcfLKO6",
+        "_id": "YLuEyt0oCntk7G8d",
         "name": "Printable Ritual Clock & Army Clock Tracker",
         "type": "text",
         "title": {
@@ -34435,7 +30727,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WbsIWHxlEX19inx2",
+        "_id": "chFW6CmKugC3BdfI",
         "name": "RITUAL CLOCK \u2013 0 to 8 PROGRESSION",
         "type": "text",
         "title": {
@@ -34463,7 +30755,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bR7mtfKh1JWMA8uO",
+        "_id": "Gf7C6oSMjL6xi6Xy",
         "name": "Clock Effects Quick Reference",
         "type": "text",
         "title": {
@@ -34491,7 +30783,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Noo0FNqhFAQn0XmB",
+        "_id": "Octwaam6b0jrACB9",
         "name": "ARMY CLOCK \u2013 0 to 8 PROGRESSION",
         "type": "text",
         "title": {
@@ -34519,7 +30811,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4kTp5t9ZidPpnjhS",
+        "_id": "f62kYKHwXGEkxJuc",
         "name": "Army Events Quick Reference",
         "type": "text",
         "title": {
@@ -34547,7 +30839,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xZJenCTFvASo7A85",
+        "_id": "MAIvgqtuRoFeAOR1",
         "name": "SEVERIN PHASE TRANSITION CHECKLIST",
         "type": "text",
         "title": {
@@ -34575,7 +30867,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7DtZLSwaQ0uDJxMr",
+        "_id": "SQaIMB75ZKbQeEcu",
         "name": "TIAMAT PRESENCE MARKER",
         "type": "text",
         "title": {
@@ -34611,11 +30903,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "q0dv4KdmllpBroeA",
+    "_id": "20o2bmm1llKqylyp",
     "name": "Tiamat-Finale-Plan",
     "pages": [
       {
-        "_id": "luio9pkBAY5tFAJe",
+        "_id": "LVW5YsFJ1QizzASa",
         "name": "Tiamat Finale \u2013 Session Plan and Prompts",
         "type": "text",
         "title": {
@@ -34643,7 +30935,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GuD8xmBGs8F6N5CS",
+        "_id": "yFETVEWDObbjmDAq",
         "name": "Leosin Erlanthar \u2013 dead (before Well of Dragons)",
         "type": "text",
         "title": {
@@ -34671,7 +30963,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1OnWLsE1eo7tJrdo",
+        "_id": "DqTKCi2v4TP8Zs85",
         "name": "Naergoth Bladelord \u2013 dead",
         "type": "text",
         "title": {
@@ -34699,7 +30991,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "unGJi80jYiWatTFg",
+        "_id": "8kEuTBfVE3ptF8i3",
         "name": "Party",
         "type": "text",
         "title": {
@@ -34727,7 +31019,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "drIBNRT1LdYTZ2Cp",
+        "_id": "kZNR5cGGGwWVL6ZD",
         "name": "Open questions (need decision before Session 0 of finale)",
         "type": "text",
         "title": {
@@ -34755,7 +31047,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xByxSClEIP5Hsyvf",
+        "_id": "c8jHJ4oDRQYaHz0m",
         "name": "Severin pre-combat line \u2013 updated",
         "type": "text",
         "title": {
@@ -34783,7 +31075,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "f0Xc3eqRyPFMNkvL",
+        "_id": "8zevLwtDOdlALXEH",
         "name": "Aftermath \u2013 Scene 4 is N/A",
         "type": "text",
         "title": {
@@ -34811,7 +31103,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tQCfY5vWeaVXTB8t",
+        "_id": "H7JwP5pKe1ailJuH",
         "name": "Current position (in-fiction, locked)",
         "type": "text",
         "title": {
@@ -34839,7 +31131,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "B3C1UYqPWH3in5LT",
+        "_id": "eIyqKqL3yZOnz7ur",
         "name": "What the party has already done (per `session-summary/Session-well-of-dragons.md`)",
         "type": "text",
         "title": {
@@ -34867,7 +31159,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SUw03VycZ2nGuRaM",
+        "_id": "MzHSfTVtlQVdnJtS",
         "name": "Draakhorn-stop consequences (CRITICAL)",
         "type": "text",
         "title": {
@@ -34895,7 +31187,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fqSstQnvVW8gIANb",
+        "_id": "qmXVJ17XmU7FWdFn",
         "name": "Naergoth \u2013 canonical location updated",
         "type": "text",
         "title": {
@@ -34923,7 +31215,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5AuARUoukblhUZVq",
+        "_id": "BUFdCr1QnCOvp2nn",
         "name": "The locked route: 7 \u2192 6 \u2192 23 \u2192 temple front gate (Blue Chapel)",
         "type": "text",
         "title": {
@@ -34951,7 +31243,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bWiiuZxVjwqt2A8V",
+        "_id": "ittqCm8Td6g5DVpw",
         "name": "State of the world (locked from DM clarifying answers)",
         "type": "text",
         "title": {
@@ -34979,7 +31271,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "8RGmveVa1QKZUvOK",
+        "_id": "Vg9JC5M8RTO1cj6w",
         "name": "Combat-tuning warning \u2014 NO Long Rest",
         "type": "text",
         "title": {
@@ -35007,7 +31299,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "X8Vw73iICMaeRlQc",
+        "_id": "KcOGCUup461hLXb6",
         "name": "Frygtl\u00f8s's parallel-to-Naergoth beat \u2014 where does it land now?",
         "type": "text",
         "title": {
@@ -35035,7 +31327,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tb4VU2EvUAmfciuQ",
+        "_id": "4ALFFKbxWaLVqVH7",
         "name": "Three Clue Rule \u2013 the Naergoth gap",
         "type": "text",
         "title": {
@@ -35063,7 +31355,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sWMdFn9u5bxsQfsm",
+        "_id": "RjdMU42fQvOOxDYx",
         "name": "The Three Approaches \u2013 Comparison",
         "type": "text",
         "title": {
@@ -35091,7 +31383,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hRXqgjZXEMxefk5x",
+        "_id": "yyU62Vkwpot3zeJS",
         "name": "Recommendation for this party: hybrid \u2014 LOCKED to Water",
         "type": "text",
         "title": {
@@ -35119,7 +31411,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WafqgG6y47h7whk9",
+        "_id": "ECkDGax1fma9lbi2",
         "name": "The Three Phases",
         "type": "text",
         "title": {
@@ -35147,7 +31439,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "e8tGrv0rPzbNpwo2",
+        "_id": "skX3w8q7Ixrf3Ujg",
         "name": "Phase A \u2013 Caldera & Entry",
         "type": "text",
         "title": {
@@ -35175,7 +31467,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ZMELzgPsmmn1dD8a",
+        "_id": "3ocWeFKRMev6mBaz",
         "name": "Beat list (locked: 7 \u2192 6 \u2192 23 \u2192 front gate)",
         "type": "text",
         "title": {
@@ -35203,7 +31495,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "330nk98xUSYA54zh",
+        "_id": "oeuUNPl24DivqJAP",
         "name": "From Area 7 to the Temple \u2014 full sequence (route 7\u21926\u219223\u2192Blue Chapel)",
         "type": "text",
         "title": {
@@ -35231,7 +31523,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OuWyKmBMHTSaKjJv",
+        "_id": "9gwe3TbJ7R985hRd",
         "name": "Scene 1 \u2014 Area 7, last quiet",
         "type": "text",
         "title": {
@@ -35259,7 +31551,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Bt4qxN2wVOA6j531",
+        "_id": "A9jI78nnUaOhdfuO",
         "name": "Scene 2 \u2014 Through area 6 (the cleared treasure chamber)",
         "type": "text",
         "title": {
@@ -35287,7 +31579,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DlEWuoZSbUQTLl39",
+        "_id": "2cr1scmXePxyKpxe",
         "name": "Scene 3 \u2014 Northern Exits tunnel (between area 6 and area 23)",
         "type": "text",
         "title": {
@@ -35315,7 +31607,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3jse5nhNsWqWnXwM",
+        "_id": "awPFZL5CiqtJgeYl",
         "name": "Scene 4 \u2014 Plaza 23 guards (one tunnel only \u2014 the party's exit)",
         "type": "text",
         "title": {
@@ -35343,7 +31635,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kzDnz6F7hk2Tf31v",
+        "_id": "mMnKxgMCClx4dPGw",
         "name": "Scene 5 \u2014 Emerging into the plaza",
         "type": "text",
         "title": {
@@ -35371,7 +31663,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Sa1BArWW9gkm2wHa",
+        "_id": "8IPQldkjjDKhiHpt",
         "name": "Scene 6 \u2014 Crossing the plaza",
         "type": "text",
         "title": {
@@ -35399,7 +31691,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zbANxSmVXYBTJUFz",
+        "_id": "zPSksIFJjUPTVoOj",
         "name": "Scene 7 \u2014 Temple front gate (Blue Chapel, area 1)",
         "type": "text",
         "title": {
@@ -35427,7 +31719,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "j6yTlOKLhyUIj9ho",
+        "_id": "PgHqt4RB7lgWGnSm",
         "name": "Scene 8 \u2014 Inside the temple, first full view",
         "type": "text",
         "title": {
@@ -35455,7 +31747,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fXt36B2tMQMlPrlW",
+        "_id": "F57c5G3UQefOySTa",
         "name": "Ritual Progress \u2014 what the party can read",
         "type": "text",
         "title": {
@@ -35483,7 +31775,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "gnErO6qOYmVrIBiR",
+        "_id": "IoTnUMvu5HK2QFe9",
         "name": "Prompt 1 \u2013 Room 7 to temple cinematic (locked approach)",
         "type": "text",
         "title": {
@@ -35511,7 +31803,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "P3n2uI2OdO9vuCkn",
+        "_id": "3AQmhuOdW49pDvHc",
         "name": "Prompt 2 \u2013 Army-clock and frontline events tuned for this party",
         "type": "text",
         "title": {
@@ -35539,7 +31831,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Magf9qB2ZiFDuXVQ",
+        "_id": "IdC1W5WU0y4iXe4D",
         "name": "Prompt 3 \u2013 Level 1 walkthrough adapted to Black Chapel entry",
         "type": "text",
         "title": {
@@ -35567,7 +31859,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YG0IVHx7NeIEo5fL",
+        "_id": "feJb6LUnXVBGyCMj",
         "name": "Prompt 4 \u2013 Plaza 23 guards + temple front gate tactics",
         "type": "text",
         "title": {
@@ -35595,7 +31887,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UmOQRD22ArYw220m",
+        "_id": "bUOxZ4NTz1GRBidE",
         "name": "Phase B \u2013 Ritual (Fivefold Sanctum)",
         "type": "text",
         "title": {
@@ -35623,7 +31915,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VFOv9VBGCbeh8yko",
+        "_id": "mj5NLGQvnlLYGNea",
         "name": "Beat list",
         "type": "text",
         "title": {
@@ -35651,7 +31943,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "esmiKSrejnCkKweB",
+        "_id": "E1xJtFbi2TpHuM4R",
         "name": "Reloaded-bridge \u2014 resurrected wyrmspeakers (all 3 confirmed in play)",
         "type": "text",
         "title": {
@@ -35679,7 +31971,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TUd8a2wFMMsuA4Xd",
+        "_id": "nV8wEKgZfrvZYkmP",
         "name": "Prompt 5 \u2013 Optimal sabotage order for this party",
         "type": "text",
         "title": {
@@ -35707,7 +31999,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QB2IRMPbZcyuoS2s",
+        "_id": "FrqyjqlsjKHmuPok",
         "name": "Prompt 6 \u2013 Blue Abishai (Galvan) as mini-finale",
         "type": "text",
         "title": {
@@ -35735,7 +32027,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "h1196VDbXBUlei0V",
+        "_id": "oTZIolkR7tJDAVBU",
         "name": "Prompt 7 \u2013 Ritual-clock table tool and decision tree",
         "type": "text",
         "title": {
@@ -35763,7 +32055,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HwMCk05euneipfvV",
+        "_id": "s2hVzrdiXfNuKyVH",
         "name": "Phase C \u2013 Tiamat & Final Battle",
         "type": "text",
         "title": {
@@ -35791,7 +32083,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9yD18nzziouCEzeW",
+        "_id": "op1gmbeR80RCPcVx",
         "name": "Reloaded-bridge \u2014 Rath Modar and Mask of the Dragon Queen (Rath Modar CONFIRMED in play)",
         "type": "text",
         "title": {
@@ -35819,7 +32111,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Bn0UZWRox424pL9h",
+        "_id": "jn62sOfuSUu2NzgP",
         "name": "Rath Modar \u2014 death scene (Axar's Thay-arc payoff)",
         "type": "text",
         "title": {
@@ -35847,7 +32139,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DpoEet70s5F3aESE",
+        "_id": "9h3KVCMJ49G7iHRh",
         "name": "Mask of the Dragon Queen \u2014 post-Severin fate (per victory path)",
         "type": "text",
         "title": {
@@ -35875,7 +32167,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zfp8zRs5cl5yzdtb",
+        "_id": "FCaiLbwtOmImoW8b",
         "name": "Prompt 8 \u2013 Severin pre-combat: parallel social hooks",
         "type": "text",
         "title": {
@@ -35903,7 +32195,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qmZCQ4cFzpzndaJ3",
+        "_id": "PFpxiw310NLjOM9N",
         "name": "Prompt 9 \u2013 Severin boss fight, clock-conditional",
         "type": "text",
         "title": {
@@ -35931,7 +32223,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kyQ1jjlNHNgIkMTr",
+        "_id": "fm6F6v3Mk9RzGdFp",
         "name": "Prompt 10 \u2013 Tiamat heads, collapse, aftermath as one sequence",
         "type": "text",
         "title": {
@@ -35959,7 +32251,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6f1rsvHl5lfKx5ai",
+        "_id": "iG7VWD83Tz3s5lEw",
         "name": "Prompt 11 \u2013 Reloaded-to-rework lore bridge",
         "type": "text",
         "title": {
@@ -35987,7 +32279,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "96v5GgVVFIv4ARiG",
+        "_id": "wNJVbWlvGOzS1BJM",
         "name": "Prompt 12 \u2013 Aftermath bridge to Chapter 24 epilogue arcs",
         "type": "text",
         "title": {
@@ -36015,7 +32307,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "E4voCZfOaWAlJDp3",
+        "_id": "YxLfhU7SSt8S1ziB",
         "name": "Production Prompts (dndtale tooling)",
         "type": "text",
         "title": {
@@ -36043,7 +32335,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Is0MSRiAGgdQ87aO",
+        "_id": "cquuy0JTuSTl5tQ1",
         "name": "Prompt 13 \u2013 Finale art prompts for dndig-openai",
         "type": "text",
         "title": {
@@ -36071,7 +32363,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pavWQ7TNrTYt5sR2",
+        "_id": "oYiL6kxu4vGAOkY3",
         "name": "Prompt 14 \u2013 Quality and consistency pass",
         "type": "text",
         "title": {
@@ -36099,7 +32391,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Q5UHspEbGVwBel7K",
+        "_id": "ebjRyFJjTIjy94lz",
         "name": "Recommended workflow",
         "type": "text",
         "title": {
@@ -36127,7 +32419,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dDS5exCHlbQy9iHE",
+        "_id": "qv5fQKaWeWlGPdwh",
         "name": "Example iteration (use this format when asking the assistant)",
         "type": "text",
         "title": {
@@ -36155,7 +32447,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kpHg3VTxBTp1XA9m",
+        "_id": "Kvg9Z7tX705sqkkq",
         "name": "Iteration after the session",
         "type": "text",
         "title": {
@@ -36183,7 +32475,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zi374TNECIROy9dG",
+        "_id": "7MLGsVr4bGAp5WLz",
         "name": "When to abandon this plan",
         "type": "text",
         "title": {
@@ -36211,7 +32503,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0cCiUIIgDegC7Cok",
+        "_id": "XOMzs1hgbgvdVbuK",
         "name": "dndtale Skill Integration",
         "type": "text",
         "title": {
@@ -36239,7 +32531,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qjQdTO2c2TbeQ5Bt",
+        "_id": "DoFgE1TAAd5vPlcP",
         "name": "Skill resource map",
         "type": "text",
         "title": {
@@ -36267,7 +32559,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "suqurImcV6y8XIzk",
+        "_id": "Skmr8mVDRYegVTr6",
         "name": "Calling out skill files explicitly",
         "type": "text",
         "title": {
@@ -36295,7 +32587,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kaACcPjEDhSnhXFA",
+        "_id": "iWEly6CS8eGDGpY3",
         "name": "What the skill does NOT cover",
         "type": "text",
         "title": {
@@ -36323,7 +32615,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "551v8iJcZIpoM4UR",
+        "_id": "PEBvV8FHUD1xImsg",
         "name": "Setup Technique \u2014 Getting Players to Land the Epic Moments Themselves",
         "type": "text",
         "title": {
@@ -36351,7 +32643,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "D6NnRQ5b80BRg3g2",
+        "_id": "eL5yYW5WR1IkaxCU",
         "name": "The 3-touch pattern",
         "type": "text",
         "title": {
@@ -36379,7 +32671,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xpejxKJZb3nGoKkl",
+        "_id": "v83Ibm64wz0qrgYc",
         "name": "Fallback ladder (use in order, NEVER skip to #4 first)",
         "type": "text",
         "title": {
@@ -36407,7 +32699,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "H31maaup3KVAoXx9",
+        "_id": "Grm8QhCTL2TitrL4",
         "name": "Worked example \u2014 Twilight's lullaby vs the Tiamat-head",
         "type": "text",
         "title": {
@@ -36435,7 +32727,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jWx1FCs0OwDaS2Mp",
+        "_id": "pjImUdiip0BWlckt",
         "name": "Axar \u2014 Counterspell on Severin's Ritual Action",
         "type": "text",
         "title": {
@@ -36463,7 +32755,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "F7UxJ9hBoPUXrfpb",
+        "_id": "XEsNnneIkvovVUgb",
         "name": "Frygtl\u00f8s \u2014 not-swinging-first (parallel to Naergoth)",
         "type": "text",
         "title": {
@@ -36491,7 +32783,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "y2ahBF8ma9EsFF6t",
+        "_id": "gnpYiKDmqHx0ltBX",
         "name": "Daxx \u2014 \"I stay Daxx\" (Severin's mirror temptation)",
         "type": "text",
         "title": {
@@ -36519,7 +32811,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nSrI7xHVbpYpXUfE",
+        "_id": "BzxhgkQs5hJeQJ8j",
         "name": "Frygtl\u00f8s \u2014 holds the ceiling during the escape",
         "type": "text",
         "title": {
@@ -36547,7 +32839,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uMZnT9HyvvcH9g1f",
+        "_id": "nxj7uQnvk76eQAO9",
         "name": "Axar \u2014 breaks the ritual circle (Option C)",
         "type": "text",
         "title": {
@@ -36575,7 +32867,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "JnLiqUK9bm8R1d26",
+        "_id": "ye9IdilOwBCBOMfi",
         "name": "DM mistakes that kill these moments",
         "type": "text",
         "title": {
@@ -36603,7 +32895,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5WwsIPjhn18jer2Y",
+        "_id": "UhqK1KMJqvdMmlYF",
         "name": "Implementation timeline (this session)",
         "type": "text",
         "title": {
@@ -36631,7 +32923,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rG9FqoGuDrhpr1QK",
+        "_id": "yosUVw7PJUKn6TDC",
         "name": "Run Log",
         "type": "text",
         "title": {
@@ -36667,11 +32959,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "YQCprdJKu9m39GPB",
+    "_id": "9G0PKaCSJ4kUXC2U",
     "name": "Ritual Clock Tracker",
     "pages": [
       {
-        "_id": "7gmEgCEDcBjiKXw4",
+        "_id": "B1xqEFjdJ1ZnSZRI",
         "name": "Clock Status",
         "type": "text",
         "title": {
@@ -36711,7 +33003,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Scene data
   const sceneData = [
   {
-    "_id": "2Ei61oGocQJRKtQN",
+    "_id": "u3Zwo7TcBEXdUh9G",
     "name": "Temple \u2013 Level 1: The Maw",
     "active": false,
     "navigation": true,
@@ -36805,7 +33097,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "lSkJfvs6w4FzgOFw",
+    "_id": "NApUE672AiHSjINv",
     "name": "Temple \u2013 Level 2: The Fivefold Sanctum",
     "active": false,
     "navigation": true,
@@ -36899,7 +33191,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "XPUxCmMRqvVemsRy",
+    "_id": "kEpLq1rWB6RkgUhE",
     "name": "Temple \u2013 Level 3: The Crown",
     "active": false,
     "navigation": true,

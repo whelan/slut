@@ -264,7 +264,11 @@ class CampaignConverter:
         return self.parser._markdown_to_html(markdown_text)
 
     def _apply_actor_assets(self, actor: Dict[str, Any], raw_content: str = '') -> None:
-        """Apply artwork and spells to an actor."""
+        """Apply artwork to an actor.
+
+        NOTE: Spells are no longer embedded. Users should add them from their
+        existing Foundry compendia after import.
+        """
         # Apply token artwork
         actor_name = actor.get('name', '')
         if self.linker:
@@ -274,27 +278,6 @@ class CampaignConverter:
                 if 'prototypeToken' in actor:
                     actor['prototypeToken']['texture']['src'] = token_art
 
-        # Skip spell extraction if the actor already has spell items.
-        # Dedicated builders (build_severin) and to_foundry_npc add spells
-        # themselves; extracting again here would create duplicates.
-        if any(i.get('type') == 'spell' for i in actor.get('items', [])):
-            return
-
-        # Extract spells from raw content (markdown) or biography (HTML)
-        spells = set()
-        if raw_content:
-            spells.update(SpellItemGenerator.extract_spells_from_biography(raw_content))
-
-        biography = actor.get('system', {}).get('details', {}).get('biography', {}).get('value', '')
-        if biography:
-            spells.update(SpellItemGenerator.extract_spells_from_biography(biography))
-
-        if spells:
-            if 'items' not in actor:
-                actor['items'] = []
-
-            for spell_name in sorted(spells):
-                spell_item = SpellItemGenerator.make_spell_item(spell_name)
-                if spell_item:
-                    spell_item['_id'] = new_id()
-                    actor['items'].append(spell_item)
+        # Spells are no longer embedded - users should add them from compendia
+        # This was removed to avoid duplication with existing Foundry spell compendia
+        return
