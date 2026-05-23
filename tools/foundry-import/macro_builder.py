@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from url_loader import apply_url_mapping
+from spell_mapping import get_spell_mapping
 
 
 def build_import_macro(
@@ -67,14 +68,77 @@ const sceneFolder = folders[2];
 ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`);
 """
 
+    # Get spell mappings for inclusion in macro
+    spell_mappings = get_spell_mapping()
+
     # Create import script
     script = f"""
 // ============================================================================
 // TYRANNY OF DRAGONS - COMPLETE IMPORT MACRO
 // ============================================================================
 // Paste this entire script into Foundry console (F12) and run
-// This will import all 54 actors, 12 journals, and 3 scenes
+// This will import all 58 actors, 12 journals, 3 scenes, and spells from compendia
 // ============================================================================
+
+// Spell mappings for actors - spells will be looked up in compendia and added
+const SPELL_MAPPINGS = {json.dumps(spell_mappings, indent=2)};
+
+async function addSpellsFromCompendia(actors) {{
+  ui.notifications.info("Adding spells from compendia...");
+
+  // Find the dnd5e spells compendium
+  let spellPack = game.packs.get('dnd5e.spells');
+  if (!spellPack) {{
+    // Try alternative pack names in case the world uses a different configuration
+    const availablePacks = Array.from(game.packs.values())
+      .filter(p => p.metadata.label && p.metadata.label.toLowerCase().includes('spell'));
+    if (availablePacks.length > 0) {{
+      spellPack = availablePacks[0];
+      console.log(`Using spells pack: ${{spellPack.metadata.label}}`);
+    }} else {{
+      console.warn('No spells compendium found. Skipping spell import.');
+      return;
+    }}
+  }}
+
+  // Load all spells from the compendium once (more efficient)
+  const spells = await spellPack.getDocuments();
+  const spellsByName = new Map(spells.map(s => [s.name.toLowerCase(), s]));
+
+  // For each actor that has spells in the mapping
+  for (const [actorName, requiredSpells] of Object.entries(SPELL_MAPPINGS)) {{
+    const actor = game.actors.getName(actorName);
+    if (!actor) {{
+      console.warn(`Actor not found: ${{actorName}}`);
+      continue;
+    }}
+
+    let addedCount = 0;
+    for (const spellName of requiredSpells) {{
+      const spell = spellsByName.get(spellName.toLowerCase());
+      if (spell) {{
+        // Create a copy of the spell item for this actor
+        const spellData = spell.toObject();
+        spellData._id = undefined;  // Let Foundry generate a new ID
+
+        try {{
+          await actor.createEmbeddedDocuments('Item', [spellData]);
+          addedCount++;
+        }} catch (e) {{
+          console.warn(`Failed to add ${{spellName}} to ${{actorName}}:`, e);
+        }}
+      }} else {{
+        console.warn(`Spell not found in compendium: ${{spellName}}`);
+      }}
+    }}
+
+    if (addedCount > 0) {{
+      console.log(`Added ${{addedCount}} spells to ${{actorName}}`);
+    }}
+  }}
+
+  ui.notifications.info(`✓ Spells added from compendia`);
+}}
 
 async function importCampaign() {{
   ui.notifications.info("Starting campaign import...");
@@ -102,6 +166,13 @@ async function importCampaign() {{
   }}
   ui.notifications.info(`✓ ${{actorData.length}} actors imported`);
 
+  // Add spells from compendia
+  try {{
+    await addSpellsFromCompendia(actorData);
+  }} catch (e) {{
+    console.warn("Error adding spells from compendia:", e);
+  }}
+
   // Import journals
   ui.notifications.info(`Importing ${{journalData.length}} journals...`);
   for (const journal of journalData) {{
@@ -127,7 +198,7 @@ async function importCampaign() {{
   ui.notifications.info(`✓ ${{sceneData.length}} scenes imported`);
 
   ui.notifications.info("✓ Campaign import complete!");
-  console.log("Import finished. Check actors, journals, and scenes sidebars.");
+  console.log("Import finished. All actors, spells, journals, and scenes ready.");
 }}
 
 // Run the import
@@ -152,7 +223,21 @@ importCampaign().catch(e => {{
 4. **Paste into console** and press Enter
 5. **Wait for notifications** - "Campaign import complete!"
 
-Done! All 54 actors, 12 journals, and 3 scenes appear in your world.
+Done! All 58 actors (with spells automatically added from compendia), 12 journals, and 3 scenes appear in your world.
+
+## What Happens Automatically
+
+1. **Actors created** – All 58 actors with full stat blocks and trait/action items
+2. **Spells added** – The macro searches your dnd5e spells compendium and adds spells to spellcasters:
+   - Severin (16 spells)
+   - Taern Hornblade (6 spells)
+   - Crimson Maccath (5 spells)
+   - Nyh Ilmichh (5 spells)
+   - Other NPCs with spells
+3. **Journals created** – 12 campaign lore and session prep journals
+4. **Scenes created** – 3 temple levels with battlemaps
+
+No manual spell addition needed!
 
 ## Using Forge VTT Asset Manager URLs (Recommended)
 
@@ -174,31 +259,36 @@ This approach keeps files small and artwork hosted on Forge VTT.
 
 ## What Gets Imported
 
-- **54 Actors** with full stat blocks, traits, and artwork (spells added from your compendia)
+- **58 Actors** with full stat blocks, traits, and artwork
+- **Spells** automatically added to spellcasters from your dnd5e spells compendium:
+  - Severin: 16 spells (cantrips to 9th-level Wish)
+  - Taern Hornblade: 6 spells
+  - Crimson Maccath: 5 spells
+  - Nyh Ilmichh: 5 spells
+  - Other NPCs: various spells as appropriate
 - **12 Journals** with campaign lore and session prep
 - **3 Scenes** with battlemap backgrounds
 - **Folder organization** - Everything organized in "NPCs", "Journals", "Scenes" folders
 
-## About Spells and Items
+## How Spell Addition Works
 
-**Spells and standard attack items are NOT embedded in the import.** Instead, you should add them from your existing Foundry compendia:
+The macro automatically:
 
-1. **For spell-casters (Severin, etc.):** After import, open the actor's sheet and add spells from your dnd5e spells compendium
-2. **For items:** Use Foundry's compendium browser to add magic items, weapons, etc. as needed
-3. **For traits/actions:** The import includes all special abilities, actions, and legendary actions as feat items
+1. **Searches** your dnd5e spells compendium for each spell name
+2. **Copies** matching spells from the compendium into each actor's Items
+3. **Links** to your existing spells (no duplication)
 
-This approach ensures you're using the official/configured items from your Foundry instance, avoiding duplicates.
+If a spell is not found in your compendia, a warning is logged but import continues.
 
-## Adding Spells to Actors (Post-Import)
+## Manual Spell Addition (If Needed)
 
-After the macro completes:
+If the automatic addition doesn't find all spells:
 
-1. Open each actor's sheet
+1. Open the actor's sheet
 2. In the **Items** tab, click **Add Item** → **Item from Compendium**
-3. Search for spells in your dnd5e spells compendium (e.g., "Fireball", "Hold Monster")
-4. Add them to the actor
+3. Search for spell name and add it manually
 
-For NPCs with many spells, you can also manually copy spell items from another actor or create a quick reference in the actor's biography.
+Most spells are in the official dnd5e.spells compendium and should be added automatically.
 
 ## Troubleshooting
 
