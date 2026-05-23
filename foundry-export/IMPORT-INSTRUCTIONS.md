@@ -8,7 +8,13 @@
 4. **Paste into console** and press Enter
 5. **Wait for notifications** - "Campaign import complete!"
 
-Done! All 54 actors, 12 journals, and 3 scenes appear in your world.
+Done! All 58 actors, 12 journals, and 3 scenes appear in your world.
+
+## Important: Spells and Items
+
+**Spells are NOT embedded in the import** (to use your existing Foundry compendia). After import, add spells from your dnd5e spells compendium using the steps in **Adding Spells to Actors** below.
+
+**See `COMPENDIUM-LINKING.md` for detailed spell lists and guidance on adding items.**
 
 ## Using Forge VTT Asset Manager URLs (Recommended)
 
@@ -30,7 +36,7 @@ This approach keeps files small and artwork hosted on Forge VTT.
 
 ## What Gets Imported
 
-- **54 Actors** with full stat blocks, traits, and artwork (spells added from your compendia)
+- **58 Actors** with full stat blocks, traits, and artwork (spells added from your compendia)
 - **12 Journals** with campaign lore and session prep
 - **3 Scenes** with battlemap backgrounds
 - **Folder organization** - Everything organized in "NPCs", "Journals", "Scenes" folders
