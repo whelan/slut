@@ -1,13 +1,14 @@
-# Compendium-Linked Import – Spell and Item Management
+# Automatic Compendium-Linked Import
 
 ## Overview
 
-The updated import macro uses your **existing Foundry compendia** instead of embedding spell and item data. This approach:
+The import macro automatically searches your **Foundry compendia** and adds spells to actors. This approach:
 
+✓ **Fully automatic** – spells added during import, no manual work  
 ✓ Avoids duplication of spells and items  
-✓ Lets you use the official dnd5e system compendia  
-✓ Keeps the macro file smaller (1.1 MB instead of larger)  
-✓ Allows you to update spells/items centrally in Foundry  
+✓ Uses the official dnd5e system compendia  
+✓ Keeps the macro file smaller (1.1 MB)  
+✓ Falls back gracefully if spells not found  
 
 ---
 
@@ -27,31 +28,41 @@ The updated import macro uses your **existing Foundry compendia** instead of emb
 
 ---
 
-## Adding Spells Post-Import
+## Automatic Spell Addition
 
-After running the import macro:
+The import macro automatically:
 
-### Method 1: Add from Compendium (Recommended)
+1. **Finds** your dnd5e spells compendium (or any pack labeled "spell")
+2. **Searches** for each required spell by name
+3. **Copies** matching spells from the compendium into each actor's Items
+4. **Logs** any missing spells but continues (won't break import)
 
-1. Open an actor's sheet (e.g., Severin)
+Spells are added immediately after actors are created, so when import completes, all spellcasters already have their spells.
+
+---
+
+## Manual Spell Addition (If Needed)
+
+If a spell wasn't found in your compendia:
+
+1. Open the actor's sheet
 2. Go to **Items** tab
 3. Click **Add Item** → **Item from Compendium**
 4. Search for spell name (e.g., "Fireball", "Hold Monster")
 5. Select from dnd5e spells compendium and click **Create Item**
-6. Repeat for each spell
 
-### Method 2: Copy Spells from Another Actor
+---
 
-1. If you have an actor with the spell already (e.g., another wizard):
-2. Open that actor's **Items** tab
-3. Drag the spell item to the target actor
-4. Or: Right-click spell → **Copy ID** → paste in target actor
+## Copying Spells Between Actors
 
-### Method 3: Batch Add (For DMs)
+If you want to copy spells manually:
 
-If many actors need the same spells:
-1. Create a "Spell Template" actor with all common spells
-2. Use Foundry's actor duplication features or manually copy items
+1. Open an actor with the spell (e.g., Severin)
+2. Open **Items** tab
+3. Right-click spell → **Copy** (or drag to target actor)
+4. Open target actor → **Items** tab → **Paste**
+
+Or use Foundry's built-in compendium browser to add the same spell to multiple actors.
 
 ---
 
@@ -92,17 +103,19 @@ Here are the spells that should be added to each spellcaster:
 
 ## Why This Approach?
 
-### Previous Approach ❌
+### Old Approach ❌
 - Embedded 28 spell items in the macro
 - Duplicated spells already in your compendia
 - Made file larger
-- Spells couldn't be updated centrally
+- Manual spell addition needed post-import
 
-### New Approach ✓
-- 0 spell items embedded
+### Current Approach ✓
+- **Automatic spell lookup and addition** – no manual work
+- 0 spell items embedded (queries compendia instead)
 - Links to your official dnd5e compendia
-- Smaller file size (1.1 MB vs. larger)
-- Spells update with your Foundry system
+- Smaller file size (1.1 MB)
+- Spells are current with your Foundry system
+- Graceful fallback if spells not found
 - You control which spell version (official SRD vs. custom)
 
 ---
