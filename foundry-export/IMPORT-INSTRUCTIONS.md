@@ -92,8 +92,7 @@ If macro import doesn't work:
 ## Notes
 
 - Import creates new documents (won't overwrite existing)
-- **Spells are automatically added from your compendia** – no manual work needed
 - Artwork uses URLs from Forge VTT (or embedded base64 if image-urls.json not provided)
+- Spells are NOT embedded; add them from your compendia post-import
 - Traits, actions, and legendary actions are included as feat items
 - You can edit actors/journals/scenes after import in Foundry UI
-- If a spell isn't found in your compendia, it's logged and import continues

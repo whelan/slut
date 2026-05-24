@@ -224,10 +224,15 @@ class StatBlockExtractor:
         value = int(value_match.group(1)) if value_match else 0
 
         # Extract dice formula if present (e.g., "236 (15d20+45)" -> "15d20+45")
+        # Only accept valid dice formulas (digits, d, +, -, *, /, %, spaces, parentheses)
         formula = ''
         formula_match = re.search(r'\(([^)]+)\)', hp_str)
         if formula_match:
-            formula = formula_match.group(1).strip()
+            candidate = formula_match.group(1).strip()
+            # Validate: only allow dice notation (digits, d, operators, spaces)
+            if re.match(r'^[\d\+\-\*/%\s()d]+$', candidate, re.IGNORECASE):
+                formula = candidate
+            # else: invalid formula (e.g., "shared with Tiamat pool"), skip it
 
         return {'value': value, 'max': value, 'formula': formula}
 
