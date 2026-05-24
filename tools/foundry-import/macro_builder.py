@@ -86,20 +86,21 @@ const SPELL_MAPPINGS = {json.dumps(spell_mappings, indent=2)};
 async function addSpellsFromCompendia(actors) {{
   ui.notifications.info("Adding spells from compendia...");
 
-  // Find the spells compendium - try multiple names and patterns
+  // Find the spells compendium by searching through available packs
+  // This works better than game.packs.get() for custom pack names with hyphens
   let spellPack = null;
+  const allPacks = Array.from(game.packs.values());
 
-  // Try standard dnd5e pack first
-  spellPack = game.packs.get('dnd5e.spells');
+  // Prioritize DDB spells if available
+  spellPack = allPacks.find(p => p.metadata.name === 'ddb-dndbeyond-skt-spells');
 
-  // If not found, search for any pack with "spell" in the name (case-insensitive)
+  // Otherwise, search for any pack with "spell" in the name
   if (!spellPack) {{
-    const availablePacks = Array.from(game.packs.values())
-      .filter(p => {{
-        const label = (p.metadata.label || '').toLowerCase();
-        const name = (p.metadata.name || '').toLowerCase();
-        return label.includes('spell') || name.includes('spell');
-      }});
+    const availablePacks = allPacks.filter(p => {{
+      const label = (p.metadata.label || '').toLowerCase();
+      const name = (p.metadata.name || '').toLowerCase();
+      return label.includes('spell') || name.includes('spell');
+    }});
 
     if (availablePacks.length > 0) {{
       spellPack = availablePacks[0];
@@ -109,15 +110,15 @@ async function addSpellsFromCompendia(actors) {{
 
   if (!spellPack) {{
     console.warn('No spells compendium found. Skipping spell import.');
-    console.log('Available packs:', Array.from(game.packs.values()).map(p => `"${{p.metadata.name}}": "${{p.metadata.label}}"`).join(', '));
     return;
   }}
 
   // Load all spells from the compendium once (more efficient)
+  console.log(`Loading spells from: ${{spellPack.metadata.label}}`);
   const spells = await spellPack.getDocuments();
   const spellsByName = new Map(spells.map(s => [s.name.toLowerCase(), s]));
 
-  console.log(`Loaded ${{spells.length}} spells from pack`);
+  console.log(`Loaded ${{spells.length}} spells from compendium`);
 
   // For each actor that has spells in the mapping
   for (const [actorName, requiredSpells] of Object.entries(SPELL_MAPPINGS)) {{
@@ -149,7 +150,7 @@ async function addSpellsFromCompendia(actors) {{
     }}
 
     if (addedCount > 0) {{
-      console.log(`Added ${{addedCount}} spells to ${{actorName}}`);
+      console.log(`✓ Added ${{addedCount}} spells to ${{actorName}}`);
     }}
     if (missingSpells.length > 0) {{
       console.warn(`Missing spells for ${{actorName}}: ${{missingSpells.join(', ')}}`);
