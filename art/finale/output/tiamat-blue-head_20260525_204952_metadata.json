@@ -1,0 +1,13 @@
+{
+  "title": "tiamat-blue-head",
+  "timestamp": "20260525_204952",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/23-tiamat-blue-head-portrait.md",
+  "outputs": [
+    "art/finale/output/tiamat-blue-head_20260525_204952_1.png"
+  ]
+}
