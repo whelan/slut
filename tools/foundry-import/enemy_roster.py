@@ -432,80 +432,10 @@ HOMEBREW_CREATURES: List[Dict[str, Any]] = [
     },
 
     # =====================================================================
-    # BOSSES - Severin, Rath Modar, Veksin, Naergoth (already-dead Wight)
+    # NOTE: Severin is handled by the dedicated severin_builder.py
+    # (converter.py calls build_severin() for NPCs named "Severin")
+    # Do NOT include Severin in HOMEBREW_CREATURES to avoid duplication
     # =====================================================================
-
-    {
-        'name': 'Severin Silrajin (Phase 1)',
-        **_stat_block(
-            ac=19, hp_value=230, hp_formula='28d8 + 112',
-            speed_walk=30,  # Hovers above platform; technically magical flight
-            str=14, dex=16, con=18, int=20, wis=18, cha=24,
-            saves={'int': 11, 'wis': 10, 'cha': 13},
-            skills_prof=['arc', 'his', 'rel', 'per', 'ins'],
-            darkvision=120,
-            cr=20, xp=25000,
-            size='med', type='humanoid',
-            languages='Common, Draconic, Abyssal, Infernal, telepathy 60 ft.',
-            damage_resist=['fire', 'cold', 'lightning', 'acid', 'poison', 'nonmagical bludgeoning, piercing, slashing'],
-            condition_immune=['frightened', 'charmed'],
-            traits=[
-                {'name': 'Legendary Resistance (3/Day)', 'description': 'If Severin fails a saving throw, he can choose to succeed instead. Phase 1 only; refreshes once at Phase 2 transition.'},
-                {'name': 'Mask of the Dragon Queen', 'description': 'Severin wears a golden mask channeling Tiamat. Spell save DC 21. Spell attacks +13. While wearing the mask, advantage on ALL saving throws against the party\'s spells.'},
-                {'name': 'Dragon\'s Hatred', 'description': 'Once per turn, when Severin reduces a creature to 0 HP, he regains 20 HP. When Severin is below 50% HP, he gains +2 to all attack rolls.'},
-                {'name': 'Hovering Master', 'description': 'Severin levitates 3 feet above the platform; immune to prone, and ranged attacks against him have disadvantage.'},
-            ],
-            actions=[
-                {'name': 'Multiattack', 'description': 'Severin casts one cantrip (his Action) and uses Tiamat\'s Touch as a bonus action.'},
-                {'name': 'Tiamat\'s Touch', 'description': '_Melee Spell Attack:_ +13, reach 5 ft. _Hit:_ 21 (4d6 + 7) Force damage plus 18 (4d8) Necrotic.'},
-                {'name': 'Five-Color Bolt (Cantrip)', 'description': '_Ranged Spell Attack:_ +13, range 120 ft. _Hit:_ 27 (5d10) damage of a chosen chromatic type (acid/cold/fire/lightning/poison).'},
-                {'name': 'Spellcasting', 'description': 'Severin is an 18th-level caster (Int). Prepared: _Counterspell_, _Dispel Magic_, _Fireball_ (5d6 fire), _Hold Person_, _Misty Step_, _Wall of Force_, _Power Word: Stun_, _Meteor Swarm_ (1/day: 8d6 fire + 8d6 bludgeoning, 4 meteors).'},
-            ],
-            legendary_actions=[
-                {'name': 'Tiamat\'s Mark (1 action)', 'description': 'One creature within 30 ft. Severin can see must succeed on a DC 21 Charisma save or be marked. The next attack against them has advantage.'},
-                {'name': 'Spell Slot Restoration (2 actions)', 'description': 'Severin recovers one 5th-level or lower spell slot (1/turn).'},
-                {'name': 'Tiamat\'s Decree (3 actions)', 'description': 'Three creatures Severin can see must succeed on a DC 21 Wisdom save or be Frightened until end of next turn.'},
-            ],
-            biography='<p><strong>Severin Silrajin, High Wyrmspeaker, Phase 1.</strong></p><p>Wears the Mask of the Dragon Queen. Speaks as if everything is already decided. Hovers 3 feet above the platform throughout the fight. At 115 HP (50%), drops to Phase 2 - see <em>Severin (Phase 2)</em>.</p>',
-        ),
-    },
-
-    {
-        'name': 'Severin Silrajin (Phase 2)',
-        **_stat_block(
-            ac=21, hp_value=115, hp_formula='14d8 + 56',
-            speed_walk=40, speed_fly=60, hover=True,
-            str=16, dex=18, con=20, int=22, wis=18, cha=26,
-            saves={'int': 12, 'wis': 10, 'cha': 14},
-            skills_prof=['arc', 'his', 'rel', 'per', 'ins'],
-            darkvision=120,
-            cr=22, xp=41000,
-            size='med', type='humanoid',
-            languages='Common, Draconic, Abyssal, Infernal, telepathy 120 ft.',
-            damage_resist=['nonmagical bludgeoning, piercing, slashing'],
-            damage_immune=['fire'],
-            condition_immune=['frightened', 'charmed', 'stunned'],
-            traits=[
-                {'name': 'Legendary Resistance (3/Day)', 'description': 'Refreshed at Phase 2 start.'},
-                {'name': 'Mask Fused to Flesh', 'description': 'The Mask is now part of Severin. Cannot be removed. Spell save DC 22. Spell attacks +14.'},
-                {'name': 'Desperate Fanatic', 'description': 'Severin gains 1 extra Legendary Action per round. Attack rolls have advantage when targeting creatures below 50% HP. Cannot be Surprised.'},
-                {'name': '5 Masks (HP buffer)', 'description': '5 chromatic dragon masks orbit Severin at 30 HP each. While ANY mask is intact, Severin has resistance to the matching chromatic damage type. Masks act on Severin\'s init at -10. AC 18 each; targeting a specific mask requires a called shot (-5 to hit).'},
-            ],
-            actions=[
-                {'name': 'Multiattack', 'description': 'Severin casts one spell (Action) and one cantrip (Bonus Action).'},
-                {'name': 'Five-Color Bolt (Cantrip, enhanced)', 'description': '_Ranged Spell Attack:_ +14, range 120 ft. _Hit:_ 33 (6d10) damage of a chosen chromatic type. Can target up to 2 creatures.'},
-                {'name': 'Tiamat\'s Wrath', 'description': '_Constitution Saving Throw:_ DC 22, all creatures within 30 ft. _Failure:_ 45 (10d8) Fire damage and Frightened until end of next turn. _Success:_ half, not Frightened.'},
-                {'name': 'Spellcasting (limited)', 'description': '2/day each: _Fireball_ (8d6), _Cone of Cold_ (10d8), _Meteor Swarm_ (12d6 fire + 12d6 bludgeoning). 3/day: _Counterspell_, _Dispel Magic_, _Misty Step_.'},
-            ],
-            legendary_actions=[
-                {'name': 'Bite of Tiamat (1 action)', 'description': 'One creature within 5 ft. takes 14 (4d6) Necrotic damage.'},
-                {'name': 'Wing Beat (2 actions)', 'description': 'All creatures within 10 ft. of Severin are pushed 15 ft. and must succeed on a DC 22 Strength save or be knocked prone.'},
-                {'name': 'Five-Color Roar (3 actions)', 'description': '_Dexterity Saving Throw:_ DC 22 in a 60-foot cone. _Failure:_ 55 (10d10) damage divided among all five chromatic types. _Success:_ half.'},
-                {'name': 'Tiamat\'s Glimpse (4 actions, 1/round)', 'description': 'Tiamat manifests through Severin briefly. One creature must succeed on a DC 22 Wisdom save or be Stunned until the end of its next turn.'},
-            ],
-            biography='<p><strong>Severin Silrajin, Phase 2.</strong></p><p>Mask fused to face. Tiamat speaks directly through him. Hovers and flies. The 5 dragon masks orbit him as a barrier. When all 5 masks are destroyed AND Severin reaches 0 HP, the ritual collapses.</p>',
-        ),
-    },
 
     {
         'name': 'Rath Modar',
@@ -555,6 +485,33 @@ HOMEBREW_CREATURES: List[Dict[str, Any]] = [
                 {'name': 'Dagger', 'description': '_Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 3 (1d4 + 2) Piercing.'},
             ],
             biography='<p>Young Red Wizard apprentice in the Blue Chapel. Nervous, scared. Surrenders rather than dies if pressed. Source of intel if captured.</p>',
+        ),
+    },
+
+    {
+        'name': 'Magus Thezzar',
+        **_stat_block(
+            ac=14, hp_value=82, hp_formula='11d8 + 33',
+            speed_walk=30,
+            str=11, dex=15, con=17, int=18, wis=14, cha=16,
+            saves={'int': 7, 'wis': 5},
+            skills_prof=['arc', 'his', 'itm'],
+            darkvision=60,
+            cr=8, xp=3900,
+            size='med', type='humanoid',
+            languages='Common, Draconic, Thayan',
+            damage_resist=['fire'],  # Red Wizard inherent
+            traits=[
+                {'name': 'Ritual Master', 'description': 'Thezzar can cast ritual magic without expending spell slots. Can maintain up to 3 simultaneous rituals within 1 mile.'},
+                {'name': 'Thayan Discipline', 'description': 'Advantage on Wisdom saves against being charmed or frightened.'},
+                {'name': 'Battle Magic', 'description': 'After casting a spell, Thezzar can make a single melee attack as a bonus action.'},
+            ],
+            actions=[
+                {'name': 'Multiattack', 'description': 'Thezzar casts one spell and makes one Scimitar attack, or casts two cantrips.'},
+                {'name': 'Spellcasting', 'description': '11th-level caster (Int). DC 15. Prepared: _Mage Armor_, _Magic Missile_, _Counterspell_, _Fireball_ (8d6), _Wall of Fire_, _Cone of Cold_, _Disintegrate_ (10d6 + 40).'},
+                {'name': 'Scimitar', 'description': '_Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d6 + 3) Slashing.'},
+            ],
+            biography='<p><strong>Magus Thezzar, Red Wizard lieutenant.</strong> Lean human in his 50s, shaved head with ritual tattoos. Left side of face scarred from a ritual gone wrong. Cold, intelligent eyes. Ritual executor on the Plaza sacrifice, acting on Rath Modar\'s commands. His cold demeanor hides a fanatical dedication to the cause.</p>',
         ),
     },
 

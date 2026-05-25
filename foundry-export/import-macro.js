@@ -177,7 +177,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Actor data
   const actorData = [
   {
-    "_id": "QSqr0EdEKMVitUkA",
+    "_id": "KugrehTKy0Awc9Pt",
     "name": "Axar Runes",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -501,7 +501,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "j4r0xEYK2cUtvvGA",
+    "_id": "HogqmkPkkpw46Xox",
     "name": "Daxx Drake",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -825,7 +825,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "HZhEcwsLneAxg7Ru",
+    "_id": "zL4A7fOPjP5NtTmV",
     "name": "Frygtlos",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -1149,7 +1149,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "avCxJ90rsiLJGSK2",
+    "_id": "NXea5B99PEf6aLhy",
     "name": "Twilight Ventress",
     "type": "character",
     "img": "icons/svg/mystery-man.svg",
@@ -1473,7 +1473,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "4QTPM3bOrHA4qb4g",
+    "_id": "vCBfTwnWswDO5HnU",
     "name": "Dagult Neverember",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dagult-neverember-placeholder-token.png",
@@ -1812,7 +1812,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "sfkqtOja7Btvf8cs",
+        "_id": "AP1qMMYxZjfaR1jL",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -1844,7 +1844,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "02cOVQnyOAKTkPZZ",
+        "_id": "cG64LnurlbqTlYEO",
         "type": "feat",
         "name": "Tactical Acumen",
         "img": "icons/svg/aura.svg",
@@ -1876,7 +1876,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "zQSLPb24X3skaYE7",
+        "_id": "IEc0nZYoux4wvoEE",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -1908,7 +1908,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Fof1HejgaCp6Ft90",
+        "_id": "EGyORKAAPMjjSrHo",
         "type": "feat",
         "name": "Rapier",
         "img": "icons/svg/sword.svg",
@@ -1940,7 +1940,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "gmNO4BxcnFrHNg79",
+        "_id": "0az1dryx90ZqCSO1",
         "type": "feat",
         "name": "Counterspell (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -1985,7 +1985,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "lziUQAhg0rCTt53y",
+    "_id": "QKJlyDBoPoawghXi",
     "name": "Ulder Ravengard",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/ulder-ravengard-placeholder-token.png",
@@ -2324,7 +2324,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "U0L7guzdGM5FYjBV",
+        "_id": "NiMuNG3t9p6wA06I",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -2356,7 +2356,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "TOsqn4yaRkBeCes8",
+        "_id": "9y9a6ub6ik7DjAV2",
         "type": "feat",
         "name": "Battlemaster's Insight",
         "img": "icons/svg/aura.svg",
@@ -2388,7 +2388,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "hRYxXhGdXBeSo8pZ",
+        "_id": "TJufw0IsjcGX8Khw",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -2420,7 +2420,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "wEj1waUEuGCfDI3J",
+        "_id": "uwIgn2FWu13X79IQ",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -2452,7 +2452,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Hri1qiicmpGT7vi5",
+        "_id": "uvVI55l76QkzY30J",
         "type": "feat",
         "name": "Flaming Fist's Roar (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -2497,7 +2497,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "eGZy49mI66nCXit2",
+    "_id": "I8GZ5AdArCiiKUaf",
     "name": "Remallia Haventree",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/remallia-haventree-placeholder-token.png",
@@ -2836,7 +2836,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "6275ro5jJAwEX8Ig",
+        "_id": "c9Fq1JiHkRsCO27D",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -2868,7 +2868,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "CBfrPTE33j13H2pE",
+        "_id": "lEj6OUYy63Ghxv7u",
         "type": "feat",
         "name": "Uncanny Dodge",
         "img": "icons/svg/aura.svg",
@@ -2900,7 +2900,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "4errtU8S8uAzX749",
+        "_id": "2taAg218SIXuee9Y",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -2932,7 +2932,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "aU4eiqXh2nzA8swK",
+        "_id": "sXpl6R1767iQJMtT",
         "type": "feat",
         "name": "Shortsword",
         "img": "icons/svg/sword.svg",
@@ -2964,7 +2964,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "b5aivOmdoJHXsGwC",
+        "_id": "9qut7FSOQnDKTJY1",
         "type": "feat",
         "name": "Shortbow",
         "img": "icons/svg/sword.svg",
@@ -3009,7 +3009,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "W3KTxw8xHWOCMduX",
+    "_id": "r5kqf7ADcqH7eKl4",
     "name": "Ontharr Frume",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/ontharr-frume-placeholder-token.png",
@@ -3348,7 +3348,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "wYAUf3antH8PZ4XF",
+        "_id": "n1zL3kwr7gyLYLpR",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -3380,7 +3380,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "57pcuMzFDW6uE26P",
+        "_id": "S9juIVAPUaM1KPG7",
         "type": "feat",
         "name": "Divine Smite",
         "img": "icons/svg/aura.svg",
@@ -3412,7 +3412,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "zMNryunpxXvBfuxz",
+        "_id": "wHgAmgLN1xvdl4rN",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -3444,7 +3444,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "tlOrkXK2XmaeGbds",
+        "_id": "k8xerZTGyVlqtPK7",
         "type": "feat",
         "name": "Greatsword",
         "img": "icons/svg/sword.svg",
@@ -3476,7 +3476,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "E59l3KHTjVeeLhtR",
+        "_id": "oKWtSeGKYnt81H0d",
         "type": "feat",
         "name": "Holy Light (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -3521,7 +3521,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "dtwXMQ6XdGw24CUB",
+    "_id": "oDL8BjGxAMCdC1Mc",
     "name": "Delaan Winterhound",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/delaan-winterhound-placeholder-token.png",
@@ -3860,7 +3860,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "jX0xtbosXjjUjjZ1",
+        "_id": "f3eLR0YVvJSxyM69",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -3892,7 +3892,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "OymydIXgMVQD8o81",
+        "_id": "p2SWQIQiELUTSiYm",
         "type": "feat",
         "name": "Wild Shape",
         "img": "icons/svg/aura.svg",
@@ -3924,7 +3924,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "IttiXldVRBEC9RwF",
+        "_id": "AxhaJCwH1sWNW6Ya",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -3956,7 +3956,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "w1cL3iQ6SEnEUuvJ",
+        "_id": "g7Ms0flTUxl0SmWv",
         "type": "feat",
         "name": "Quarterstaff",
         "img": "icons/svg/sword.svg",
@@ -3988,7 +3988,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "eCTMtRqZeCEVmeZU",
+        "_id": "Fylpaq3DPYmKTNkR",
         "type": "feat",
         "name": "Entangling Vines (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -4033,7 +4033,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "1cPGfuPA0H3TDvEK",
+    "_id": "nZH8RpG3D8D28IGr",
     "name": "Sir Isteval",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/sir-isteval-placeholder-token.png",
@@ -4372,7 +4372,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "Drr4FDGGQtAJT67v",
+        "_id": "ng8jWuyDa5r2fIpi",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -4404,7 +4404,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "4Ui7x1yWXgy5inNX",
+        "_id": "tsEh1PGMAuboVRrH",
         "type": "feat",
         "name": "Second Wind (1/Short Rest)",
         "img": "icons/svg/aura.svg",
@@ -4436,7 +4436,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "UgZeVfRaL6JeokiL",
+        "_id": "yay8faXVq0tuzUAu",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -4468,7 +4468,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Y5xQIelsmgshuHzX",
+        "_id": "M7pBqahLBkmjizvK",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -4500,7 +4500,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "bjJNG3mCZUpARJw0",
+        "_id": "wb6dJx1LWiEWz9f2",
         "type": "feat",
         "name": "Leadership (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -4545,7 +4545,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "QV1azx6Iv9I7G1EJ",
+    "_id": "lXaJp6BmeqWPX0Ru",
     "name": "Taern Hornblade",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/taern-hornblade-placeholder-token.png",
@@ -4884,7 +4884,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "cg7EYfCtI669NF2f",
+        "_id": "aChtgKoG8g5vSur8",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -4916,7 +4916,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "C3vRT9YcoxiIGru4",
+        "_id": "j5Nd8FEHastfVrmD",
         "type": "feat",
         "name": "Spellcasting",
         "img": "icons/svg/aura.svg",
@@ -4948,7 +4948,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "oB7ASnNhmAI22Bdd",
+        "_id": "dViHSYiRPSanPdY1",
         "type": "feat",
         "name": "Dagger",
         "img": "icons/svg/sword.svg",
@@ -4980,7 +4980,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "ZR2b6jTv7PtJv6LV",
+        "_id": "dOCmPMYn5IEVqc88",
         "type": "feat",
         "name": "Arcane Barrage (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -5025,7 +5025,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "MxDfOjyGZEeFwYFd",
+    "_id": "mFfNxAcUg0RVoWgr",
     "name": "King Melandrach",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/king-melandrach-placeholder-token.png",
@@ -5364,7 +5364,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "CvgJAiD8vA9r4Lba",
+        "_id": "5fS1MhjBE7uW2WiA",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -5396,7 +5396,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "zFlHGFAeVAj25J9v",
+        "_id": "5io1TFjKSAXQugSA",
         "type": "feat",
         "name": "Fey Ancestry",
         "img": "icons/svg/aura.svg",
@@ -5428,7 +5428,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "YJH4khNYSRIaH1f4",
+        "_id": "slmcDUNVPqKIpLPH",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -5460,7 +5460,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "jHRxtOmzquwkS1QW",
+        "_id": "snPSQeQNIwA9kO1s",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -5492,7 +5492,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "O4kT4NlShC8pBA0T",
+        "_id": "DeixXQWmcKNBmPlo",
         "type": "feat",
         "name": "Elven Arrow (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -5537,7 +5537,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "bT1gsY9Kx8LPnNBZ",
+    "_id": "5Nv1L0c6FToopzGZ",
     "name": "Ambassador Brawnanvil",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/ambassador-brawnanvil-placeholder-token.png",
@@ -5876,7 +5876,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "mFlRzxQT4YNdfinS",
+        "_id": "H8hcxNMniu9cyXdv",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -5908,7 +5908,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "SQsTASrqkBhgimni",
+        "_id": "WOMkI5NkEw9nP3sv",
         "type": "feat",
         "name": "Stonecunning",
         "img": "icons/svg/aura.svg",
@@ -5940,7 +5940,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "azOFELEXB67klqzB",
+        "_id": "FfARVNy28mxrMHYc",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -5972,7 +5972,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "EAuosXZ4iUHBkk66",
+        "_id": "6fMK9HCzkaV9dx1W",
         "type": "feat",
         "name": "Warhammer",
         "img": "icons/svg/sword.svg",
@@ -6004,7 +6004,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "J4wpEr2xbthg28fp",
+        "_id": "lSNmuOxjaTNRhLIJ",
         "type": "feat",
         "name": "Engineering Expertise (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -6049,7 +6049,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "PS1gB7JzlHUPZcUr",
+    "_id": "tZ312UciJxUL8KtR",
     "name": "Crimson Maccath",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/crimson-maccath-placeholder-token.png",
@@ -6388,7 +6388,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "sIl76bQZsK2IBYlB",
+        "_id": "9CoOyrBZALpD4jtd",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -6420,7 +6420,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "BrJ79DjYMzOkBi7m",
+        "_id": "rNaE5m7AxdCbex03",
         "type": "feat",
         "name": "Dragon Lore",
         "img": "icons/svg/aura.svg",
@@ -6452,7 +6452,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "JgCWl8xqGnm2A4yq",
+        "_id": "rydbqViqiNUarAKf",
         "type": "feat",
         "name": "Spellcasting",
         "img": "icons/svg/aura.svg",
@@ -6484,7 +6484,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "hrAc1XDdyjBNDJtw",
+        "_id": "Wkqz9C8jk2YbGrHB",
         "type": "feat",
         "name": "Dagger",
         "img": "icons/svg/sword.svg",
@@ -6516,7 +6516,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "XprnG82zNQXwnVpd",
+        "_id": "13FGDy2bj6FMalW6",
         "type": "feat",
         "name": "Ritual Disruption (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -6561,7 +6561,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Iu0vLXiRr29Zqkqa",
+    "_id": "GgBCoTS5bpdGr8hS",
     "name": "Elia",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/elia-bronze-dragon-token_20260516_170825_1.png",
@@ -6900,7 +6900,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "6QTJDfqx6xwfrAoF",
+        "_id": "K2yeztfQYmuKKMO2",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -6932,7 +6932,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "g1WkRMXKXYggALqR",
+        "_id": "Tjm2UyiYVRSBtwjx",
         "type": "feat",
         "name": "Metallic Dragon Senses",
         "img": "icons/svg/aura.svg",
@@ -6964,7 +6964,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "pTO5UJxJ9PhiLaur",
+        "_id": "mdrpzJlmwdgxhvU6",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -6996,7 +6996,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Pax0yQ0aIweMXCLf",
+        "_id": "RXJ36Su5GLv9skCd",
         "type": "feat",
         "name": "Claw",
         "img": "icons/svg/sword.svg",
@@ -7028,7 +7028,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "eWMtqCK0NwIjaxXg",
+        "_id": "EkYPseAe2cQT6Ew1",
         "type": "feat",
         "name": "Tail",
         "img": "icons/svg/sword.svg",
@@ -7060,7 +7060,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "a0HWOEjLcPR6dKXU",
+        "_id": "dmO6n03gX9YdeUjo",
         "type": "feat",
         "name": "Fire Breath (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -7092,7 +7092,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "kbhrYBebdvvcGgWU",
+        "_id": "YZ3QZeRFhXyYl2u8",
         "type": "feat",
         "name": "Claw Attack (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -7124,7 +7124,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "nc7AzqNNC6yEgrTK",
+        "_id": "Y0c9yxo2QGedLQdF",
         "type": "feat",
         "name": "Tail Attack (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -7156,7 +7156,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "9HstQG3gGNiIcm1L",
+        "_id": "xA77MALe5S1gqLJf",
         "type": "feat",
         "name": "Wing Attack (2 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -7201,7 +7201,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "nSKNI1CtRIXiNoZy",
+    "_id": "TiJ2uaYFOigNmBoC",
     "name": "Nyh Ilmichh",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/nyh-ilmichh-placeholder-token.png",
@@ -7540,7 +7540,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "EU4PIZDllZesPbfW",
+        "_id": "COI57CykcJWrYooO",
         "type": "feat",
         "name": "Legendary Resistance (2/Day)",
         "img": "icons/svg/aura.svg",
@@ -7572,7 +7572,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "OohK0vizZuq90Yyo",
+        "_id": "BIbQnGPbX0nl9GDi",
         "type": "feat",
         "name": "Red Wizard Discipline",
         "img": "icons/svg/aura.svg",
@@ -7604,7 +7604,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "x4J4iSOgll4bcqZZ",
+        "_id": "4NVilcgZaZ9sUfT9",
         "type": "feat",
         "name": "Spellcasting",
         "img": "icons/svg/aura.svg",
@@ -7636,7 +7636,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "6JhSMab7zpKWIsG9",
+        "_id": "qJ0jFc6szzVkCsRp",
         "type": "feat",
         "name": "Dagger",
         "img": "icons/svg/sword.svg",
@@ -7668,7 +7668,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Z5RPgdgYyXx8WZnR",
+        "_id": "XdSqeYrueGdmYUBd",
         "type": "feat",
         "name": "Arcane Barrage (Recharge 5\u20136)",
         "img": "icons/svg/sword.svg",
@@ -7700,7 +7700,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "btc7LNnMXg46qHlo",
+        "_id": "XK3Zdd2to9NL6rLX",
         "type": "feat",
         "name": "Teleportation (1/Day)",
         "img": "icons/svg/sword.svg",
@@ -7745,7 +7745,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "s4l6qhYFBMIGq0y1",
+    "_id": "B6sjzFQ1rWQ7WAvI",
     "name": "Naergoth Bladelord",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -8084,7 +8084,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "ekTj7hmkrYHqq45M",
+        "_id": "Hw0qZy5iK7N40dpK",
         "type": "feat",
         "name": "Undead Fortitude",
         "img": "icons/svg/aura.svg",
@@ -8116,7 +8116,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "1D52aOGrHZxECttF",
+        "_id": "bbaoGXc2cIoiI1ta",
         "type": "feat",
         "name": "Legendary Resistance (1/day)",
         "img": "icons/svg/aura.svg",
@@ -8148,7 +8148,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "HCOkOm9TNOfpDLL3",
+        "_id": "aDAaIreWKhEDH4uA",
         "type": "feat",
         "name": "Weapon Bond",
         "img": "icons/svg/aura.svg",
@@ -8180,7 +8180,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "jIwL8EsmIYTXXLGK",
+        "_id": "YVLwjjlvZTJUkApX",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -8212,7 +8212,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "B72iA8518EXLdd5L",
+        "_id": "g3520nHK3dvgIlPQ",
         "type": "feat",
         "name": "Longsword",
         "img": "icons/svg/sword.svg",
@@ -8244,7 +8244,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "J4f1QPQ2ZuUi5j6E",
+        "_id": "JDZCPSZ8SzPHFkej",
         "type": "feat",
         "name": "Blade Storm (Recharge 5-6)",
         "img": "icons/svg/sword.svg",
@@ -8276,7 +8276,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "8r863MNDgqTmFQX2",
+        "_id": "ul9n20LfN6jl1NwL",
         "type": "feat",
         "name": "Life Drain (Recharge 6)",
         "img": "icons/svg/sword.svg",
@@ -8308,7 +8308,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "MewRtBLD3IIdRIz8",
+        "_id": "OgLsQ4ChdYuzzRtb",
         "type": "feat",
         "name": "Move (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -8340,7 +8340,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "y2VwKDZK3ORIZ5qS",
+        "_id": "WwT6QSrr0Om1tCXt",
         "type": "feat",
         "name": "Necrotic Strike (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -8372,7 +8372,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "Hr9JmzZrM1NqvY27",
+        "_id": "MG60PM9msO3LDMdP",
         "type": "feat",
         "name": "Intimidating Presence (2 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -8417,7 +8417,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "tCcuvNP6h6T7xFrg",
+    "_id": "d5NkaoFPXXNMWEjf",
     "name": "Severin",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token_20260516_164450_1.png",
@@ -8947,7 +8947,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     },
     "items": [
       {
-        "_id": "vELWNafHsDHMZNo6",
+        "_id": "c3zxaH4p3kQuCKrJ",
         "type": "feat",
         "name": "Legendary Resistance (3/Day)",
         "img": "icons/svg/aura.svg",
@@ -8979,7 +8979,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "aBWn5pQVZuA4X5gm",
+        "_id": "U8LVwcag6SSDa94i",
         "type": "feat",
         "name": "Mask Resonance (Recharge 5-6)",
         "img": "icons/svg/aura.svg",
@@ -9011,7 +9011,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "TuksMXpxht7z30by",
+        "_id": "huFzz3XgFQdC22x8",
         "type": "feat",
         "name": "Ritual Action (Bonus Action, 1/round)",
         "img": "icons/svg/aura.svg",
@@ -9043,7 +9043,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "LZMejMRWFSHTWCFv",
+        "_id": "iVVybkfjrXUgyFYI",
         "type": "feat",
         "name": "Portal Ward",
         "img": "icons/svg/aura.svg",
@@ -9075,7 +9075,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "nuq45tvsjzfNcjyo",
+        "_id": "zWCXRZVLM7fWJGa5",
         "type": "feat",
         "name": "Champion of Tiamat (Clock 5+)",
         "img": "icons/svg/aura.svg",
@@ -9107,7 +9107,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "ZrKvWSymHiGzxcki",
+        "_id": "JKLbT04bopvFNB68",
         "type": "feat",
         "name": "Dragon Scale Robes of the Five",
         "img": "icons/svg/aura.svg",
@@ -9139,7 +9139,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "QQn3VKTmB44pdCZo",
+        "_id": "WRqjKuFZquBMfket",
         "type": "feat",
         "name": "Innate Casting",
         "img": "icons/svg/aura.svg",
@@ -9171,7 +9171,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "YdRfuEfa9OpwaYRD",
+        "_id": "nTQEJYedrvI8xZLz",
         "type": "feat",
         "name": "Multiattack",
         "img": "icons/svg/sword.svg",
@@ -9203,7 +9203,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "9Q4hxBMPCFNocdlo",
+        "_id": "LJ08hnbopGv1Fzw1",
         "type": "feat",
         "name": "Eldritch Blast",
         "img": "icons/svg/sword.svg",
@@ -9235,7 +9235,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "CrsLzqxTSAczNXE2",
+        "_id": "uIxoh6U3RiBX3Lny",
         "type": "feat",
         "name": "Shield (Reaction)",
         "img": "icons/svg/sword.svg",
@@ -9267,7 +9267,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "kWjXC2DDzqKKnHur",
+        "_id": "Ikqehyi3Spkbc7jc",
         "type": "feat",
         "name": "Spellcasting (Spell Save DC 20, Spell Attack +12)",
         "img": "icons/svg/sword.svg",
@@ -9299,7 +9299,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "vtuNAyCdhM9imD4H",
+        "_id": "E52hFxyyykuVbfR8",
         "type": "feat",
         "name": "Legendary Action: Eldritch Blast (1 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -9331,7 +9331,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "VUJYuj4JTd5exm5o",
+        "_id": "q2fZkiM7r7A3fEGd",
         "type": "feat",
         "name": "Legendary Action: Ritual Surge (2 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -9363,7 +9363,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         }
       },
       {
-        "_id": "oPs1oTeXMV0aiFF2",
+        "_id": "iiSnnEnOIIUXt7iY",
         "type": "feat",
         "name": "Legendary Action: Summon Devout (3 LA)",
         "img": "icons/svg/upgrade.svg",
@@ -9408,7 +9408,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "eci4N0ibhpBWNMRH",
+    "_id": "m598jW7LDyNslcSd",
     "name": "Cultist",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -9759,7 +9759,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "OxJn4p9cZGrj7A5v",
+    "_id": "D89Rm1XiICdwcx1I",
     "name": "Cult Fanatic",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -10110,7 +10110,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "BR3rrC81XdTlrumt",
+    "_id": "v2VfHsHm2yp9edn4",
     "name": "Commoner",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -10461,7 +10461,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "F2lAqVS94hbxz99M",
+    "_id": "dnZuF3XVqzIIHPoH",
     "name": "Black Dragon Wyrmling",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -10812,7 +10812,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "gGGWK2T52JGNHvYb",
+    "_id": "Ji0OU64hON6NK4H7",
     "name": "Air Elemental",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -11163,7 +11163,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "neuj1QWZXtK5Yjds",
+    "_id": "IN4QRP4WVx4DPRbK",
     "name": "Stone Golem",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -11514,7 +11514,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "iugKwlubXUtk1CVX",
+    "_id": "1c14XUFaHAhRNiCQ",
     "name": "Flesh Golem",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -11865,7 +11865,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "5aAdwzH7WUqIK3pE",
+    "_id": "hX1Ea3SwpT4Nz63U",
     "name": "Green Hag",
     "type": "npc",
     "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
@@ -12216,7 +12216,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "uVhdvISNzDOAy5Mm",
+    "_id": "NsWa2b8SIuyJFhdI",
     "name": "Wight",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -12567,7 +12567,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "XK6svllY0h8PDzVc",
+    "_id": "6RoJ3XbnApQHTH32",
     "name": "Mage",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -12918,7 +12918,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "8mKAekXxQEMqh0VJ",
+    "_id": "qgQ4hdrBK3bURaOD",
     "name": "Barbed Devil",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -13269,7 +13269,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Y3kVn1HAanjR6x5J",
+    "_id": "F5ci4BPdZWbben0J",
     "name": "Dragonclaw",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -13620,10 +13620,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "DZTqUjx9hjPVHFtl",
+    "_id": "Tp9aGLktSZCwBWMY",
     "name": "Dragonwing",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonwing-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -13948,7 +13948,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonwing-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -13971,7 +13971,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "eOQwe50bSc7E4n9k",
+    "_id": "UoWOZyxnUgkJ7eVY",
     "name": "Dragonfang",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonfang-fighter-token_20260516_170907_1.png",
@@ -14322,10 +14322,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "YjS80p55yzISJiOd",
+    "_id": "5bGxvyzHuVYjl7ax",
     "name": "Dragonsoul",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonsoul-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -14650,7 +14650,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonsoul-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -14673,10 +14673,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "OWzo5i53lEk1yxmU",
+    "_id": "WcH3m5LtsXqZJPrr",
     "name": "White Abishai",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/white-abishai-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -15001,7 +15001,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/white-abishai-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -15024,10 +15024,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "CKMrFQdChW0sQ7x7",
+    "_id": "Hd2qx5FCbvTIaHrp",
     "name": "Black Abishai",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/rezmir-black-abishai-token_20260516_164509_1.png",
     "system": {
       "abilities": {
         "str": {
@@ -15352,7 +15352,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/rezmir-black-abishai-token_20260516_164509_1.png"
       },
       "sight": {
         "enabled": false
@@ -15375,10 +15375,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "R0UCOpNxRcki0OJY",
+    "_id": "ewmT31M7yixzglHu",
     "name": "Green Abishai",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/neronvain-green-abishai-token_20260516_164522_1.png",
     "system": {
       "abilities": {
         "str": {
@@ -15703,7 +15703,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/neronvain-green-abishai-token_20260516_164522_1.png"
       },
       "sight": {
         "enabled": false
@@ -15726,10 +15726,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "eFfBzGiYgR5hgJN7",
+    "_id": "5bMuYSaTU6gz7lnN",
     "name": "Blue Abishai",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/galvan-blue-abishai-token_20260516_164513_1.png",
     "system": {
       "abilities": {
         "str": {
@@ -16054,7 +16054,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/galvan-blue-abishai-token_20260516_164513_1.png"
       },
       "sight": {
         "enabled": false
@@ -16077,10 +16077,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "IJTihXIN0WylQncP",
+    "_id": "u7nYtcdMwbeVzgPc",
     "name": "Frost Giant Skeleton",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/frost-giant-skeleton-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -16405,7 +16405,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/frost-giant-skeleton-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -16428,10 +16428,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "abExJom5naO4mfSF",
+    "_id": "MgUBUtZ49JWEUiyF",
     "name": "Dragonbone Crawler",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonbone-crawler-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -16756,7 +16756,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonbone-crawler-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -16779,10 +16779,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "IVekXiagjRI4OEUy",
+    "_id": "QvKMEgx3fCthzNVL",
     "name": "Half-Dragon Red",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/half-dragon-red-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -17107,7 +17107,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/half-dragon-red-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -17130,10 +17130,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "3Z9zprDPTXJgyt3q",
+    "_id": "d6Fe9ls7Nqv5LuwF",
     "name": "Yuan-Ti Mind Whisperer",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/yuan-ti-mind-whisperer-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -17458,7 +17458,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/yuan-ti-mind-whisperer-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -17481,709 +17481,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "bNuyJJmuUhbWYZfZ",
-    "name": "Severin Silrajin (Phase 1)",
-    "type": "npc",
-    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token_20260516_164450_1.png",
-    "system": {
-      "abilities": {
-        "str": {
-          "value": 14,
-          "proficient": 0,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "dex": {
-          "value": 16,
-          "proficient": 0,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "con": {
-          "value": 18,
-          "proficient": 0,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "int": {
-          "value": 20,
-          "proficient": 1,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "wis": {
-          "value": 18,
-          "proficient": 1,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "cha": {
-          "value": 24,
-          "proficient": 1,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        }
-      },
-      "attributes": {
-        "ac": {
-          "flat": 19,
-          "calc": "flat",
-          "formula": ""
-        },
-        "hp": {
-          "value": 230,
-          "max": 230,
-          "formula": "28d8 + 112",
-          "temp": 0,
-          "tempmax": 0
-        },
-        "init": {
-          "ability": "dex",
-          "bonus": ""
-        },
-        "movement": {
-          "walk": 30,
-          "burrow": 0,
-          "climb": 0,
-          "fly": 0,
-          "swim": 0,
-          "units": "ft",
-          "hover": false,
-          "special": ""
-        },
-        "senses": {
-          "darkvision": 120,
-          "blindsight": 0,
-          "tremorsense": 0,
-          "truesight": 0,
-          "units": "ft",
-          "special": ""
-        },
-        "spellcasting": "",
-        "death": {
-          "success": 0,
-          "failure": 0
-        },
-        "exhaustion": 0,
-        "inspiration": false
-      },
-      "details": {
-        "biography": {
-          "value": "<p><strong>Severin Silrajin, High Wyrmspeaker, Phase 1.</strong></p><p>Wears the Mask of the Dragon Queen. Speaks as if everything is already decided. Hovers 3 feet above the platform throughout the fight. At 115 HP (50%), drops to Phase 2 - see <em>Severin (Phase 2)</em>.</p><h3>Traits</h3><p><strong>Legendary Resistance (3/Day).</strong> If Severin fails a saving throw, he can choose to succeed instead. Phase 1 only; refreshes once at Phase 2 transition.</p><p><strong>Mask of the Dragon Queen.</strong> Severin wears a golden mask channeling Tiamat. Spell save DC 21. Spell attacks +13. While wearing the mask, advantage on ALL saving throws against the party's spells.</p><p><strong>Dragon's Hatred.</strong> Once per turn, when Severin reduces a creature to 0 HP, he regains 20 HP. When Severin is below 50% HP, he gains +2 to all attack rolls.</p><p><strong>Hovering Master.</strong> Severin levitates 3 feet above the platform; immune to prone, and ranged attacks against him have disadvantage.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Severin casts one cantrip (his Action) and uses Tiamat's Touch as a bonus action.</p><p><strong>Tiamat's Touch.</strong> _Melee Spell Attack:_ +13, reach 5 ft. _Hit:_ 21 (4d6 + 7) Force damage plus 18 (4d8) Necrotic.</p><p><strong>Five-Color Bolt (Cantrip).</strong> _Ranged Spell Attack:_ +13, range 120 ft. _Hit:_ 27 (5d10) damage of a chosen chromatic type (acid/cold/fire/lightning/poison).</p><p><strong>Spellcasting.</strong> Severin is an 18th-level caster (Int). Prepared: _Counterspell_, _Dispel Magic_, _Fireball_ (5d6 fire), _Hold Person_, _Misty Step_, _Wall of Force_, _Power Word: Stun_, _Meteor Swarm_ (1/day: 8d6 fire + 8d6 bludgeoning, 4 meteors).</p><h3>Legendary Actions</h3><p><strong>Tiamat's Mark (1 action).</strong> One creature within 30 ft. Severin can see must succeed on a DC 21 Charisma save or be marked. The next attack against them has advantage.</p><p><strong>Spell Slot Restoration (2 actions).</strong> Severin recovers one 5th-level or lower spell slot (1/turn).</p><p><strong>Tiamat's Decree (3 actions).</strong> Three creatures Severin can see must succeed on a DC 21 Wisdom save or be Frightened until end of next turn.</p>",
-          "public": ""
-        },
-        "alignment": "",
-        "race": null,
-        "type": {
-          "value": "humanoid",
-          "subtype": "",
-          "swarm": "",
-          "custom": ""
-        },
-        "environment": "",
-        "cr": 20,
-        "spellLevel": 0,
-        "source": {
-          "custom": "Tyranny of Dragons - homebrew, tuned for 4 PCs lvl 15"
-        },
-        "xp": {
-          "value": 25000
-        }
-      },
-      "traits": {
-        "size": "med",
-        "di": {
-          "value": [],
-          "bypasses": [],
-          "custom": ""
-        },
-        "dr": {
-          "value": [],
-          "bypasses": [],
-          "custom": "fire; cold; lightning; acid; poison; nonmagical bludgeoning, piercing, slashing"
-        },
-        "dv": {
-          "value": [],
-          "bypasses": [],
-          "custom": ""
-        },
-        "ci": {
-          "value": [],
-          "custom": "frightened; charmed"
-        },
-        "languages": {
-          "value": [],
-          "custom": "Common, Draconic, Abyssal, Infernal, telepathy 60 ft."
-        }
-      },
-      "currency": {
-        "pp": 0,
-        "gp": 0,
-        "ep": 0,
-        "sp": 0,
-        "cp": 0
-      },
-      "skills": {
-        "acr": {
-          "ability": "dex",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ani": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "arc": {
-          "ability": "int",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ath": {
-          "ability": "str",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "dec": {
-          "ability": "cha",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "his": {
-          "ability": "int",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ins": {
-          "ability": "wis",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "itm": {
-          "ability": "cha",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "inv": {
-          "ability": "int",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "med": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "nat": {
-          "ability": "int",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "prc": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "prf": {
-          "ability": "cha",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "per": {
-          "ability": "cha",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "rel": {
-          "ability": "int",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "slt": {
-          "ability": "dex",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ste": {
-          "ability": "dex",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "sur": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        }
-      },
-      "resources": {
-        "legact": {
-          "value": 3,
-          "max": 3
-        },
-        "legres": {
-          "value": 3,
-          "max": 3
-        },
-        "lair": {
-          "value": false,
-          "initiative": 0
-        }
-      }
-    },
-    "prototypeToken": {
-      "name": "Severin Silrajin (Phase 1)",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token_20260516_164450_1.png"
-      },
-      "sight": {
-        "enabled": false
-      },
-      "detectionModes": [],
-      "flags": {},
-      "disposition": -1
-    },
-    "items": [],
-    "effects": [],
-    "folder": null,
-    "sort": 0,
-    "ownership": {
-      "default": 0
-    },
-    "flags": {},
-    "_stats": {
-      "systemId": "dnd5e",
-      "systemVersion": "5.2.3"
-    }
-  },
-  {
-    "_id": "arzDG5YY2WU90aDw",
-    "name": "Severin Silrajin (Phase 2)",
-    "type": "npc",
-    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token_20260516_164450_1.png",
-    "system": {
-      "abilities": {
-        "str": {
-          "value": 16,
-          "proficient": 0,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "dex": {
-          "value": 18,
-          "proficient": 0,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "con": {
-          "value": 20,
-          "proficient": 0,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "int": {
-          "value": 22,
-          "proficient": 1,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "wis": {
-          "value": 18,
-          "proficient": 1,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        },
-        "cha": {
-          "value": 26,
-          "proficient": 1,
-          "max": null,
-          "bonuses": {
-            "check": "",
-            "save": ""
-          }
-        }
-      },
-      "attributes": {
-        "ac": {
-          "flat": 21,
-          "calc": "flat",
-          "formula": ""
-        },
-        "hp": {
-          "value": 115,
-          "max": 115,
-          "formula": "14d8 + 56",
-          "temp": 0,
-          "tempmax": 0
-        },
-        "init": {
-          "ability": "dex",
-          "bonus": ""
-        },
-        "movement": {
-          "walk": 40,
-          "burrow": 0,
-          "climb": 0,
-          "fly": 60,
-          "swim": 0,
-          "units": "ft",
-          "hover": true,
-          "special": ""
-        },
-        "senses": {
-          "darkvision": 120,
-          "blindsight": 0,
-          "tremorsense": 0,
-          "truesight": 0,
-          "units": "ft",
-          "special": ""
-        },
-        "spellcasting": "",
-        "death": {
-          "success": 0,
-          "failure": 0
-        },
-        "exhaustion": 0,
-        "inspiration": false
-      },
-      "details": {
-        "biography": {
-          "value": "<p><strong>Severin Silrajin, Phase 2.</strong></p><p>Mask fused to face. Tiamat speaks directly through him. Hovers and flies. The 5 dragon masks orbit him as a barrier. When all 5 masks are destroyed AND Severin reaches 0 HP, the ritual collapses.</p><h3>Traits</h3><p><strong>Legendary Resistance (3/Day).</strong> Refreshed at Phase 2 start.</p><p><strong>Mask Fused to Flesh.</strong> The Mask is now part of Severin. Cannot be removed. Spell save DC 22. Spell attacks +14.</p><p><strong>Desperate Fanatic.</strong> Severin gains 1 extra Legendary Action per round. Attack rolls have advantage when targeting creatures below 50% HP. Cannot be Surprised.</p><p><strong>5 Masks (HP buffer).</strong> 5 chromatic dragon masks orbit Severin at 30 HP each. While ANY mask is intact, Severin has resistance to the matching chromatic damage type. Masks act on Severin's init at -10. AC 18 each; targeting a specific mask requires a called shot (-5 to hit).</p><h3>Actions</h3><p><strong>Multiattack.</strong> Severin casts one spell (Action) and one cantrip (Bonus Action).</p><p><strong>Five-Color Bolt (Cantrip, enhanced).</strong> _Ranged Spell Attack:_ +14, range 120 ft. _Hit:_ 33 (6d10) damage of a chosen chromatic type. Can target up to 2 creatures.</p><p><strong>Tiamat's Wrath.</strong> _Constitution Saving Throw:_ DC 22, all creatures within 30 ft. _Failure:_ 45 (10d8) Fire damage and Frightened until end of next turn. _Success:_ half, not Frightened.</p><p><strong>Spellcasting (limited).</strong> 2/day each: _Fireball_ (8d6), _Cone of Cold_ (10d8), _Meteor Swarm_ (12d6 fire + 12d6 bludgeoning). 3/day: _Counterspell_, _Dispel Magic_, _Misty Step_.</p><h3>Legendary Actions</h3><p><strong>Bite of Tiamat (1 action).</strong> One creature within 5 ft. takes 14 (4d6) Necrotic damage.</p><p><strong>Wing Beat (2 actions).</strong> All creatures within 10 ft. of Severin are pushed 15 ft. and must succeed on a DC 22 Strength save or be knocked prone.</p><p><strong>Five-Color Roar (3 actions).</strong> _Dexterity Saving Throw:_ DC 22 in a 60-foot cone. _Failure:_ 55 (10d10) damage divided among all five chromatic types. _Success:_ half.</p><p><strong>Tiamat's Glimpse (4 actions, 1/round).</strong> Tiamat manifests through Severin briefly. One creature must succeed on a DC 22 Wisdom save or be Stunned until the end of its next turn.</p>",
-          "public": ""
-        },
-        "alignment": "",
-        "race": null,
-        "type": {
-          "value": "humanoid",
-          "subtype": "",
-          "swarm": "",
-          "custom": ""
-        },
-        "environment": "",
-        "cr": 22,
-        "spellLevel": 0,
-        "source": {
-          "custom": "Tyranny of Dragons - homebrew, tuned for 4 PCs lvl 15"
-        },
-        "xp": {
-          "value": 41000
-        }
-      },
-      "traits": {
-        "size": "med",
-        "di": {
-          "value": [],
-          "bypasses": [],
-          "custom": "fire"
-        },
-        "dr": {
-          "value": [],
-          "bypasses": [],
-          "custom": "nonmagical bludgeoning, piercing, slashing"
-        },
-        "dv": {
-          "value": [],
-          "bypasses": [],
-          "custom": ""
-        },
-        "ci": {
-          "value": [],
-          "custom": "frightened; charmed; stunned"
-        },
-        "languages": {
-          "value": [],
-          "custom": "Common, Draconic, Abyssal, Infernal, telepathy 120 ft."
-        }
-      },
-      "currency": {
-        "pp": 0,
-        "gp": 0,
-        "ep": 0,
-        "sp": 0,
-        "cp": 0
-      },
-      "skills": {
-        "acr": {
-          "ability": "dex",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ani": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "arc": {
-          "ability": "int",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ath": {
-          "ability": "str",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "dec": {
-          "ability": "cha",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "his": {
-          "ability": "int",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ins": {
-          "ability": "wis",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "itm": {
-          "ability": "cha",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "inv": {
-          "ability": "int",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "med": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "nat": {
-          "ability": "int",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "prc": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "prf": {
-          "ability": "cha",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "per": {
-          "ability": "cha",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "rel": {
-          "ability": "int",
-          "value": 1,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "slt": {
-          "ability": "dex",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "ste": {
-          "ability": "dex",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        },
-        "sur": {
-          "ability": "wis",
-          "value": 0,
-          "bonuses": {
-            "check": "",
-            "passive": ""
-          }
-        }
-      },
-      "resources": {
-        "legact": {
-          "value": 4,
-          "max": 4
-        },
-        "legres": {
-          "value": 3,
-          "max": 3
-        },
-        "lair": {
-          "value": false,
-          "initiative": 0
-        }
-      }
-    },
-    "prototypeToken": {
-      "name": "Severin Silrajin (Phase 2)",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token_20260516_164450_1.png"
-      },
-      "sight": {
-        "enabled": false
-      },
-      "detectionModes": [],
-      "flags": {},
-      "disposition": -1
-    },
-    "items": [],
-    "effects": [],
-    "folder": null,
-    "sort": 0,
-    "ownership": {
-      "default": 0
-    },
-    "flags": {},
-    "_stats": {
-      "systemId": "dnd5e",
-      "systemVersion": "5.2.3"
-    }
-  },
-  {
-    "_id": "4g3cpoGcLZrD0FFy",
+    "_id": "mwbCD1XQSzpGkQif",
     "name": "Rath Modar",
     "type": "npc",
     "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/rath-modar-token_20260516_164527_1.png",
@@ -18534,10 +17832,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "2qTZLZRNafISAWwl",
+    "_id": "AaKPngPPn675GGmi",
     "name": "Red Wizard (Veksin)",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/veksin-young-red-wizard-token_20260516_164551_1.png",
     "system": {
       "abilities": {
         "str": {
@@ -18862,7 +18160,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/veksin-young-red-wizard-token_20260516_164551_1.png"
       },
       "sight": {
         "enabled": false
@@ -18885,10 +18183,361 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "RpO6RWCELiU0Vb1t",
+    "_id": "1JxZMjmGV0s6aN2v",
+    "name": "Magus Thezzar",
+    "type": "npc",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/magus-thezzar-red-wizard-token_20260517_113119_1.png",
+    "system": {
+      "abilities": {
+        "str": {
+          "value": 11,
+          "proficient": 0,
+          "max": null,
+          "bonuses": {
+            "check": "",
+            "save": ""
+          }
+        },
+        "dex": {
+          "value": 15,
+          "proficient": 0,
+          "max": null,
+          "bonuses": {
+            "check": "",
+            "save": ""
+          }
+        },
+        "con": {
+          "value": 17,
+          "proficient": 0,
+          "max": null,
+          "bonuses": {
+            "check": "",
+            "save": ""
+          }
+        },
+        "int": {
+          "value": 18,
+          "proficient": 1,
+          "max": null,
+          "bonuses": {
+            "check": "",
+            "save": ""
+          }
+        },
+        "wis": {
+          "value": 14,
+          "proficient": 1,
+          "max": null,
+          "bonuses": {
+            "check": "",
+            "save": ""
+          }
+        },
+        "cha": {
+          "value": 16,
+          "proficient": 0,
+          "max": null,
+          "bonuses": {
+            "check": "",
+            "save": ""
+          }
+        }
+      },
+      "attributes": {
+        "ac": {
+          "flat": 14,
+          "calc": "flat",
+          "formula": ""
+        },
+        "hp": {
+          "value": 82,
+          "max": 82,
+          "formula": "11d8 + 33",
+          "temp": 0,
+          "tempmax": 0
+        },
+        "init": {
+          "ability": "dex",
+          "bonus": ""
+        },
+        "movement": {
+          "walk": 30,
+          "burrow": 0,
+          "climb": 0,
+          "fly": 0,
+          "swim": 0,
+          "units": "ft",
+          "hover": false,
+          "special": ""
+        },
+        "senses": {
+          "darkvision": 60,
+          "blindsight": 0,
+          "tremorsense": 0,
+          "truesight": 0,
+          "units": "ft",
+          "special": ""
+        },
+        "spellcasting": "",
+        "death": {
+          "success": 0,
+          "failure": 0
+        },
+        "exhaustion": 0,
+        "inspiration": false
+      },
+      "details": {
+        "biography": {
+          "value": "<p><strong>Magus Thezzar, Red Wizard lieutenant.</strong> Lean human in his 50s, shaved head with ritual tattoos. Left side of face scarred from a ritual gone wrong. Cold, intelligent eyes. Ritual executor on the Plaza sacrifice, acting on Rath Modar's commands. His cold demeanor hides a fanatical dedication to the cause.</p><h3>Traits</h3><p><strong>Ritual Master.</strong> Thezzar can cast ritual magic without expending spell slots. Can maintain up to 3 simultaneous rituals within 1 mile.</p><p><strong>Thayan Discipline.</strong> Advantage on Wisdom saves against being charmed or frightened.</p><p><strong>Battle Magic.</strong> After casting a spell, Thezzar can make a single melee attack as a bonus action.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Thezzar casts one spell and makes one Scimitar attack, or casts two cantrips.</p><p><strong>Spellcasting.</strong> 11th-level caster (Int). DC 15. Prepared: _Mage Armor_, _Magic Missile_, _Counterspell_, _Fireball_ (8d6), _Wall of Fire_, _Cone of Cold_, _Disintegrate_ (10d6 + 40).</p><p><strong>Scimitar.</strong> _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d6 + 3) Slashing.</p>",
+          "public": ""
+        },
+        "alignment": "",
+        "race": null,
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "swarm": "",
+          "custom": ""
+        },
+        "environment": "",
+        "cr": 8,
+        "spellLevel": 0,
+        "source": {
+          "custom": "Tyranny of Dragons - homebrew, tuned for 4 PCs lvl 15"
+        },
+        "xp": {
+          "value": 3900
+        }
+      },
+      "traits": {
+        "size": "med",
+        "di": {
+          "value": [],
+          "bypasses": [],
+          "custom": ""
+        },
+        "dr": {
+          "value": [],
+          "bypasses": [],
+          "custom": "fire"
+        },
+        "dv": {
+          "value": [],
+          "bypasses": [],
+          "custom": ""
+        },
+        "ci": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": "Common, Draconic, Thayan"
+        }
+      },
+      "currency": {
+        "pp": 0,
+        "gp": 0,
+        "ep": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "skills": {
+        "acr": {
+          "ability": "dex",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "ani": {
+          "ability": "wis",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "arc": {
+          "ability": "int",
+          "value": 1,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "ath": {
+          "ability": "str",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "dec": {
+          "ability": "cha",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "his": {
+          "ability": "int",
+          "value": 1,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "ins": {
+          "ability": "wis",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "itm": {
+          "ability": "cha",
+          "value": 1,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "inv": {
+          "ability": "int",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "med": {
+          "ability": "wis",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "nat": {
+          "ability": "int",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "prc": {
+          "ability": "wis",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "prf": {
+          "ability": "cha",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "per": {
+          "ability": "cha",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "rel": {
+          "ability": "int",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "slt": {
+          "ability": "dex",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "ste": {
+          "ability": "dex",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        },
+        "sur": {
+          "ability": "wis",
+          "value": 0,
+          "bonuses": {
+            "check": "",
+            "passive": ""
+          }
+        }
+      },
+      "resources": {
+        "legact": {
+          "value": 0,
+          "max": 3
+        },
+        "legres": {
+          "value": 0,
+          "max": 0
+        },
+        "lair": {
+          "value": false,
+          "initiative": 0
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Magus Thezzar",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/magus-thezzar-red-wizard-token_20260517_113119_1.png"
+      },
+      "sight": {
+        "enabled": false
+      },
+      "detectionModes": [],
+      "flags": {},
+      "disposition": -1
+    },
+    "items": [],
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {},
+    "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.3"
+    }
+  },
+  {
+    "_id": "dus1femlgnVd1MhG",
     "name": "Tiamat - White Head",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -19213,7 +18862,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/dragonclaw-rogue-token_20260516_170911_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -19236,10 +18885,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "9ad84ZBf93J9V75C",
+    "_id": "y7Wnh2Fr91xI0dfs",
     "name": "Tiamat - Black Head",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -19564,7 +19213,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/rezmir-black-abishai-token_20260516_164509_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -19587,10 +19236,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "gPwzyVHviuWCoDJU",
+    "_id": "58Rf4dPDQeZa5aEo",
     "name": "Tiamat - Green Head",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -19915,7 +19564,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/neronvain-green-abishai-token_20260516_164522_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -19938,10 +19587,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "NmuLgCWCmEC4s6xJ",
+    "_id": "I1eREhiVfcY6iqGE",
     "name": "Tiamat - Blue Head",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -20266,7 +19915,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/galvan-blue-abishai-token_20260516_164513_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -20289,10 +19938,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "gLGl6hoYGoGbwqhc",
+    "_id": "cgd2TBFBfxs6IvAR",
     "name": "Tiamat - Red Head",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -20617,7 +20266,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 2,
       "height": 2,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/magus-thezzar-red-wizard-token_20260517_113119_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -20640,7 +20289,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "awa8IyMNRAzEAIR5",
+    "_id": "TQuU3zyWSJHe010Q",
     "name": "Naergoth Bladelord (Wight)",
     "type": "npc",
     "img": "icons/svg/mystery-man.svg",
@@ -20991,10 +20640,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "2oeN0cv65UrAKD16",
+    "_id": "9m5mPzFkQUDKqM0l",
     "name": "Stirleng",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/stirleng-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -21321,7 +20970,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/stirleng-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -21344,10 +20993,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "mBbZy8B2bk2WNfpv",
+    "_id": "trJ4nbDQuHTgoryb",
     "name": "Stirling",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/stirling-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -21674,7 +21323,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/stirling-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -21697,10 +21346,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "SbFTEMVxkXdxGFIt",
+    "_id": "DVaRhHqT1nSmxtSC",
     "name": "Kess",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/kess-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -22027,7 +21676,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/kess-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -22050,10 +21699,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "vy7sZL8vO5t5C1Bh",
+    "_id": "kZKjQEe5WSPbtgzf",
     "name": "Thorne",
     "type": "npc",
-    "img": "/home/user/slut/art/finale/output/rath-modar-token_20260516_164527_1.png",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/thorne-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -22380,7 +22029,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "/home/user/slut/art/finale/output/rath-modar-token_20260516_164527_1.png"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/thorne-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -22403,10 +22052,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "TvGC8UDg86arnyZw",
+    "_id": "djYs9PI8xP68wW6t",
     "name": "Marta",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/marta-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -22733,7 +22382,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/marta-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -22756,10 +22405,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "jvSxLvhuzjRnqG1a",
+    "_id": "3lbTvdTfw3ZCQirM",
     "name": "Fen",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/fen-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -23086,7 +22735,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/fen-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -23109,10 +22758,10 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "u4WMX53N0s94I6cI",
+    "_id": "ROGwVJpesS76PMbw",
     "name": "Older Woman (Banner Bearer)",
     "type": "npc",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/older-woman-placeholder-token.png",
     "system": {
       "abilities": {
         "str": {
@@ -23439,7 +23088,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg"
+        "src": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/older-woman-placeholder-token.png"
       },
       "sight": {
         "enabled": false
@@ -23466,11 +23115,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Journal data
   const journalData = [
   {
-    "_id": "YWVN1N156HVrHyiZ",
+    "_id": "4CiGcZQ5YuY5UkyC",
     "name": "Council Of Waterdeep",
     "pages": [
       {
-        "_id": "5idtGlxfcjKHCLoK",
+        "_id": "GHLNibaggSRpFFxB",
         "name": "Overview",
         "type": "text",
         "title": {
@@ -23498,7 +23147,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "USUooRdWKpx5DkAx",
+        "_id": "zkrCaBKbzvWtX05h",
         "name": "Dagult Neverember",
         "type": "text",
         "title": {
@@ -23526,7 +23175,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "A605HgjCokV6e0l0",
+        "_id": "EhU0viM1AoOnalQB",
         "name": "Ulder Ravengard",
         "type": "text",
         "title": {
@@ -23554,7 +23203,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WAs8pTCHsn6HBhIG",
+        "_id": "z9prNazFfHYTvKWB",
         "name": "Remallia Haventree",
         "type": "text",
         "title": {
@@ -23582,7 +23231,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DHZGyDCsmTwToEjJ",
+        "_id": "56lRq7PdiJ0Cbe0O",
         "name": "Ontharr Frume",
         "type": "text",
         "title": {
@@ -23610,7 +23259,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FBmR9q1kkF5KajMv",
+        "_id": "b0SXGY1y7W6DUsph",
         "name": "Delaan Winterhound",
         "type": "text",
         "title": {
@@ -23638,7 +23287,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "A6hXqhHR9lCI6oim",
+        "_id": "qMFREFnu3T7HnmTx",
         "name": "Sir Isteval",
         "type": "text",
         "title": {
@@ -23666,7 +23315,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "POLa6WzQZPcFSfFS",
+        "_id": "GhK1POR61MF89gAD",
         "name": "Taern Hornblade",
         "type": "text",
         "title": {
@@ -23694,7 +23343,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Ht3C7ZjDBuzjGlPU",
+        "_id": "tNBbAHs4wxe897nV",
         "name": "King Melandrach",
         "type": "text",
         "title": {
@@ -23722,7 +23371,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bUVrQ8oaeV7pSGS1",
+        "_id": "RsHrYbRyks1yvVk4",
         "name": "Ambassador Brawnanvil",
         "type": "text",
         "title": {
@@ -23750,7 +23399,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "D3j8WANFpPkw14nz",
+        "_id": "Hxamxcnz0I6lsBoE",
         "name": "Crimson Maccath",
         "type": "text",
         "title": {
@@ -23778,7 +23427,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nfpTWz5tAiav0hhu",
+        "_id": "XEmAUsT0CdE83GYk",
         "name": "Elia",
         "type": "text",
         "title": {
@@ -23806,7 +23455,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "b0hMlbeBeFtIZZsq",
+        "_id": "Yk4L8fes58LsWleF",
         "name": "Nyh Ilmichh",
         "type": "text",
         "title": {
@@ -23842,11 +23491,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "ftl0KJoGowEw2fwN",
+    "_id": "5wkdK2LIavZt5Wzz",
     "name": "Campaign Overview",
     "pages": [
       {
-        "_id": "zdDcbdCHB7HImWrX",
+        "_id": "M6beMDxToxmvz7Wh",
         "name": "Tyranny of Dragons \u2013 Campaign Context",
         "type": "text",
         "title": {
@@ -23874,7 +23523,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "naL10JYVcVBEb58K",
+        "_id": "Czbf3KcYQiy0unKE",
         "name": "Language and Style",
         "type": "text",
         "title": {
@@ -23902,7 +23551,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "S5nzeietjfsc0ud0",
+        "_id": "d3mPnD13cDt8ekmU",
         "name": "DM Role",
         "type": "text",
         "title": {
@@ -23930,7 +23579,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Eii5yGABqp82Twn3",
+        "_id": "lCeRHh5FepD9M0PD",
         "name": "Rules",
         "type": "text",
         "title": {
@@ -23958,7 +23607,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "N7qdiqGbZOZUKEFd",
+        "_id": "7neUuiGTSCL9TvJg",
         "name": "Axar Runes",
         "type": "text",
         "title": {
@@ -23986,7 +23635,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sBHylke0keKK7E3w",
+        "_id": "cQCjSktXob5qQSct",
         "name": "Daxx Drake",
         "type": "text",
         "title": {
@@ -24014,7 +23663,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NLANw86nxkmfO1x5",
+        "_id": "QCb2BgXidccPqtwd",
         "name": "Frygtl\u00f8s",
         "type": "text",
         "title": {
@@ -24042,7 +23691,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IOyk83NoLppmU9SS",
+        "_id": "rGCUHXgxEmF1JrfJ",
         "name": "Twilight Ventress",
         "type": "text",
         "title": {
@@ -24070,7 +23719,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "feu5u4ADvm51jCQp",
+        "_id": "wmhkHfaDFWxRG0s8",
         "name": "3. Current Campaign Phase",
         "type": "text",
         "title": {
@@ -24098,7 +23747,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HzPuvQycLDGeRWn1",
+        "_id": "293hpHsxMLdPUEfV",
         "name": "4. Campaign Tone",
         "type": "text",
         "title": {
@@ -24126,7 +23775,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9Afa5qKkcaU2agGQ",
+        "_id": "VG58yWeslfYfOl9b",
         "name": "Council of Waterdeep / Allies",
         "type": "text",
         "title": {
@@ -24154,7 +23803,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ur5mqybo25Ya9FhG",
+        "_id": "BVlky2TrUH3ofR6U",
         "name": "6. Thay Arc",
         "type": "text",
         "title": {
@@ -24182,7 +23831,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eqzM4RmsucaMPve4",
+        "_id": "GOwopiSBmP5rMLnm",
         "name": "Key Elements",
         "type": "text",
         "title": {
@@ -24210,7 +23859,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kuyz45vRffzei8HD",
+        "_id": "WPDS7uke7NCgDMNi",
         "name": "Status",
         "type": "text",
         "title": {
@@ -24238,7 +23887,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7NnkmvZ29Yi6kg0K",
+        "_id": "50whwuGehvP988gM",
         "name": "Room 21 \u2013 Storage Closet",
         "type": "text",
         "title": {
@@ -24266,7 +23915,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "aQJgHuvGEzRi64WL",
+        "_id": "v5lJuZ9Q2Ja3Ckxk",
         "name": "Room 22 \u2013 Taraz the Fair",
         "type": "text",
         "title": {
@@ -24294,7 +23943,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "W3bGVS9xnc7yCZBl",
+        "_id": "3deM9OozjYdio55w",
         "name": "Room 23 \u2013 Time Chamber",
         "type": "text",
         "title": {
@@ -24322,7 +23971,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "t4fiwclwSQV59nFZ",
+        "_id": "YpOOsjh7eRv2lSsB",
         "name": "Original Statblock (ToD reference)",
         "type": "text",
         "title": {
@@ -24350,7 +23999,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TpxTIO5oYPL9HmKM",
+        "_id": "3frPyAzV4I7HC9rv",
         "name": "Role in the Campaign",
         "type": "text",
         "title": {
@@ -24378,7 +24027,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cxwNTeAycj06chGL",
+        "_id": "TGWOsfVkXSleAIPr",
         "name": "What He Can Reveal",
         "type": "text",
         "title": {
@@ -24406,7 +24055,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LtAzD7W3IoRxGEE5",
+        "_id": "8kDSQ37hcfSQtozT",
         "name": "What He Does Not Reveal",
         "type": "text",
         "title": {
@@ -24434,7 +24083,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ESLeHa91m6pniZs7",
+        "_id": "gS4aLufsEfKVOLwA",
         "name": "Setting",
         "type": "text",
         "title": {
@@ -24462,7 +24111,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QzN8q7Elm9D4zcD7",
+        "_id": "HQUI3k7YqBsAUj03",
         "name": "Visual Tone",
         "type": "text",
         "title": {
@@ -24490,7 +24139,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xAWhFWEJBA8yPtHR",
+        "_id": "6ppnNPaWqClwfLEa",
         "name": "By Land",
         "type": "text",
         "title": {
@@ -24518,7 +24167,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xj4wiJRGtao7AJUc",
+        "_id": "gHenyrCpAcWyWYvk",
         "name": "By Water (Underground)",
         "type": "text",
         "title": {
@@ -24546,7 +24195,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3z6c7EcRSGcpOOPk",
+        "_id": "2HIah4wLf8q7rxDX",
         "name": "By Air",
         "type": "text",
         "title": {
@@ -24574,7 +24223,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FMERwE8RJwmkdjAl",
+        "_id": "jqWJ7P03nRwIcFcF",
         "name": "Level 1 \u2013 The Maw / Outer Temple Grounds",
         "type": "text",
         "title": {
@@ -24602,7 +24251,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5Re1SCqmj6GPEYW6",
+        "_id": "LwwH077vjpAVw9xE",
         "name": "Level 2 \u2013 The Fivefold Sanctum",
         "type": "text",
         "title": {
@@ -24630,7 +24279,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KQjsYnd5wqyvXeBI",
+        "_id": "2fbEI4SBdKHrAzHd",
         "name": "Level 3 \u2013 The Crown / Ritual Summit",
         "type": "text",
         "title": {
@@ -24658,7 +24307,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "a7qygXtQQjuSfKVB",
+        "_id": "sqoi4IxrQwpiWYiJ",
         "name": "DM Technique for 3 Levels",
         "type": "text",
         "title": {
@@ -24686,7 +24335,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "19M2ynZtCWlQCl6d",
+        "_id": "L3Xc8C8VY52TpRXR",
         "name": "Sabotage Effects",
         "type": "text",
         "title": {
@@ -24714,7 +24363,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wnx680zkNhH4VkND",
+        "_id": "HYTQH68BWOEWV3Lk",
         "name": "Ritual Clock",
         "type": "text",
         "title": {
@@ -24742,7 +24391,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RLeBrBtuG37N93Ys",
+        "_id": "wBgbyztAlVQ9HESA",
         "name": "Personality",
         "type": "text",
         "title": {
@@ -24770,7 +24419,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bqYjrVE28t9s4Gf1",
+        "_id": "uObC6LCiDYyHAQEr",
         "name": "Dialogue Lines",
         "type": "text",
         "title": {
@@ -24798,7 +24447,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IQiEcDEMJP4aTVk3",
+        "_id": "yHbxheYtZLCuAbJW",
         "name": "Mechanics",
         "type": "text",
         "title": {
@@ -24826,7 +24475,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ZsAYXWfLqzip0ma0",
+        "_id": "nBKBFW2oOv8skrJo",
         "name": "13. Tiamat \u2013 Manifestation Stages",
         "type": "text",
         "title": {
@@ -24854,7 +24503,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ljBcR55r8v7hJd4D",
+        "_id": "NtQsKpPCqs9M8e9o",
         "name": "Stage 1 \u2013 Presence",
         "type": "text",
         "title": {
@@ -24882,7 +24531,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0Iti3u27avjtEBoF",
+        "_id": "tVGGWWVlG1DT2Mhv",
         "name": "Stage 2 \u2013 Heads beyond the veil",
         "type": "text",
         "title": {
@@ -24910,7 +24559,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EUgGydGn9Cm2N3rQ",
+        "_id": "5csVEI1rMNJRyib5",
         "name": "Stage 3 \u2013 Partial manifestation",
         "type": "text",
         "title": {
@@ -24938,7 +24587,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "F8mvJSxabNrRLWio",
+        "_id": "FdGMvwMAKg6ZWfZg",
         "name": "Stage 4 \u2013 Full manifestation",
         "type": "text",
         "title": {
@@ -24966,7 +24615,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "N16HXXly45QB7BOB",
+        "_id": "65exasyzBqYtEYzi",
         "name": "14. Dragon Cult Ranks and Token Design",
         "type": "text",
         "title": {
@@ -24994,7 +24643,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VUUDz2iorAC7u1tj",
+        "_id": "gXomWbsSs2Y5m5Yt",
         "name": "15. Battlemap and Image Preferences",
         "type": "text",
         "title": {
@@ -25022,7 +24671,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LAWj90ILFYXoTGVa",
+        "_id": "cIQclGd9MUJPmxXZ",
         "name": "Level 1 \u2013 The Maw",
         "type": "text",
         "title": {
@@ -25050,7 +24699,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TSrxoqcSnSXpF5Ko",
+        "_id": "rJn7RofTnzH2Pah9",
         "name": "Level 3 \u2013 The Crown",
         "type": "text",
         "title": {
@@ -25078,7 +24727,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DGqnpEDmlJlN29z5",
+        "_id": "rN8AsyUfLjzDB1bR",
         "name": "Tactical Features",
         "type": "text",
         "title": {
@@ -25106,7 +24755,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "51IDzRetGAXhoAj5",
+        "_id": "0sNsLcOiSgwxMIMh",
         "name": "Phase 1 \u2013 The Breach",
         "type": "text",
         "title": {
@@ -25134,7 +24783,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HtAid8rE5Lp8dsAl",
+        "_id": "7CxrAg3Ya9SxcGyC",
         "name": "Phase 2 \u2013 The Sabotage",
         "type": "text",
         "title": {
@@ -25162,7 +24811,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2c2k1d8VN1XOPjiD",
+        "_id": "vCFQlGoUPTzvXmvg",
         "name": "Phase 3 \u2013 Severin",
         "type": "text",
         "title": {
@@ -25190,7 +24839,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iH3jg2R4k9R649jj",
+        "_id": "wug5TA3lndiFCrkf",
         "name": "Phase 4 \u2013 Tiamat's Judgment",
         "type": "text",
         "title": {
@@ -25218,7 +24867,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "D1USECgZ5IuPMpVT",
+        "_id": "pJLHHELh573riA0A",
         "name": "1. The Procession of Failed Ascension",
         "type": "text",
         "title": {
@@ -25246,7 +24895,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "P84fov7g11rjNuFo",
+        "_id": "W6oqaYSW5LUysFVN",
         "name": "2. Bone Wind Corridor",
         "type": "text",
         "title": {
@@ -25274,7 +24923,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lZZJt4EfdbBBuGPM",
+        "_id": "WhbluODfJG6tOGKc",
         "name": "3. The Fivefold Gate",
         "type": "text",
         "title": {
@@ -25302,7 +24951,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GLABqr5KuHDJTC9K",
+        "_id": "OVtfQ9jgjQfwalCW",
         "name": "4. Wyrmguard Counterattack",
         "type": "text",
         "title": {
@@ -25330,7 +24979,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Skyb8KqSnfM3ln5x",
+        "_id": "NuhlsrxU0N7qr7M9",
         "name": "5. The First Head Speaks",
         "type": "text",
         "title": {
@@ -25358,7 +25007,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GgPrqDisuvtEOrbl",
+        "_id": "YHdsz34mMjuEmkEh",
         "name": "19. Army-Scale / Frontline Clock",
         "type": "text",
         "title": {
@@ -25386,7 +25035,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TPYngmnG2ArYRuHH",
+        "_id": "diRjDeWTFTfQ0HGB",
         "name": "Army Front Clock",
         "type": "text",
         "title": {
@@ -25414,7 +25063,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "sgP7jFssCGo5H9aL",
+        "_id": "zRRN1bs8qkOgs6kr",
         "name": "Frontline Events (d8)",
         "type": "text",
         "title": {
@@ -25442,7 +25091,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3iaTCZLY65IvLq3Q",
+        "_id": "xxMoSvy4LqCAP2qS",
         "name": "20. Encounter Balance \u2013 The Level 15 Party",
         "type": "text",
         "title": {
@@ -25470,7 +25119,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PsM7nwQAAS1yfhXa",
+        "_id": "CO6NKtOkMVUKCn01",
         "name": "Potions",
         "type": "text",
         "title": {
@@ -25498,7 +25147,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MpxKCXRDv2IehAlP",
+        "_id": "7zz0n3Nc9yVYVzVT",
         "name": "Scrolls",
         "type": "text",
         "title": {
@@ -25526,7 +25175,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Q2zOKv2GMp3FGsBf",
+        "_id": "z1iAyeRIpuzc51bC",
         "name": "Magic items",
         "type": "text",
         "title": {
@@ -25554,7 +25203,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IzCa9TCSHnnZzzc6",
+        "_id": "vBMCQxGt8P9HFpAz",
         "name": "22. Cult Relics and Loot (Room 7 / Treasure Room)",
         "type": "text",
         "title": {
@@ -25582,7 +25231,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XjiytZDEdIWNQdB4",
+        "_id": "j61XyWusDZUyONZ5",
         "name": "Cult Relics",
         "type": "text",
         "title": {
@@ -25610,7 +25259,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4axBs11BXFYQvyAl",
+        "_id": "fdOaT22Sh9RCMsW2",
         "name": "Non-magical Valuables",
         "type": "text",
         "title": {
@@ -25638,7 +25287,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jdO8FhCMomCLuFOz",
+        "_id": "He9pXwSlFyikSgOA",
         "name": "Valuable Books (not dragon-related)",
         "type": "text",
         "title": {
@@ -25666,7 +25315,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "On2rMgdUBSJRsQuz",
+        "_id": "SXebYcyrIZdqAtVf",
         "name": "Paintings",
         "type": "text",
         "title": {
@@ -25694,7 +25343,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pJXfXVt71DSJDYSS",
+        "_id": "e7naR3bCPmA6pUT6",
         "name": "23. Teleport Trap / Last Ambush",
         "type": "text",
         "title": {
@@ -25722,7 +25371,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "886K0OJ3CLMulwtn",
+        "_id": "ZZabLuUp8TjnC5zf",
         "name": "The Two Old Coins",
         "type": "text",
         "title": {
@@ -25750,7 +25399,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7EQocAJKhv7j9ERv",
+        "_id": "NWFKwGeBqv2TOcze",
         "name": "First View of Well of Dragons",
         "type": "text",
         "title": {
@@ -25778,7 +25427,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OMYHN4qqj3eXN1Yn",
+        "_id": "zse8qVzJmqKOQmKn",
         "name": "The Ritual's Pressure",
         "type": "text",
         "title": {
@@ -25806,7 +25455,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wdDsZBxpvEhiTL4j",
+        "_id": "Ns81xNJTC2kHKoBt",
         "name": "Severin's Entrance",
         "type": "text",
         "title": {
@@ -25834,7 +25483,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oinCRyoU0RK65kQJ",
+        "_id": "72dZHYaXmAhANkHb",
         "name": "Tiamat's Presence",
         "type": "text",
         "title": {
@@ -25862,7 +25511,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AaPZjYaUPr5S9fMB",
+        "_id": "7hZoxygvqxf8AItP",
         "name": "Remallia and the Map",
         "type": "text",
         "title": {
@@ -25890,7 +25539,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "soPglsa1rSr4llhZ",
+        "_id": "aZ88m3rx2hEoptrN",
         "name": "Major Choices for the Players",
         "type": "text",
         "title": {
@@ -25918,7 +25567,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3dD0sd3HieFYIxXF",
+        "_id": "OOyOr3mgGysb62dW",
         "name": "The World Reacts",
         "type": "text",
         "title": {
@@ -25946,7 +25595,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ZzmIunqRvZ4DeVvw",
+        "_id": "8Hx7pblxNjEF7N5n",
         "name": "Named NPC Deaths \u2013 Good Candidates",
         "type": "text",
         "title": {
@@ -25974,7 +25623,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1io2x81TvVI1yREq",
+        "_id": "bZPD3EGQVvqBoiWx",
         "name": "26. Foundry/VTT Output",
         "type": "text",
         "title": {
@@ -26002,7 +25651,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Yu44I9AqEXyWYU8F",
+        "_id": "PZTdzEGIzv72OU9j",
         "name": "27. Response Patterns",
         "type": "text",
         "title": {
@@ -26030,7 +25679,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WLF48dujAqUFd2UU",
+        "_id": "gNoO1e95Q4c8n3S6",
         "name": "28. Source Context",
         "type": "text",
         "title": {
@@ -26066,11 +25715,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "DcMSVvinL07eARIt",
+    "_id": "3pWvtTuY2F6n24Wl",
     "name": "Image-Usage-Guide",
     "pages": [
       {
-        "_id": "usQfURZSd0w5ZWZF",
+        "_id": "zh1c2lzxk42h6b97",
         "name": "Image Usage Guide \u2013 Finale Session Artwork",
         "type": "text",
         "title": {
@@ -26098,7 +25747,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lEE7eMHsfrGkxEAw",
+        "_id": "UHlVYx9iP6gEZOFk",
         "name": "NPC Tokens \u2013 Key Characters",
         "type": "text",
         "title": {
@@ -26126,7 +25775,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bocZxwYhBaxlq0kD",
+        "_id": "0KxCsOKAv8uG7Znv",
         "name": "Cult Rank Tokens (Encounter Variety)",
         "type": "text",
         "title": {
@@ -26154,7 +25803,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6otYRvKUCTkYFHBd",
+        "_id": "0kL2dxhHX5SD2uQJ",
         "name": "Sacrifice Victims \u2013 Emotional Beat (PLAZA 23)",
         "type": "text",
         "title": {
@@ -26182,7 +25831,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rjTD2K2Mgd2bMtbd",
+        "_id": "8Y146efvK0CHjMJK",
         "name": "Level 2 \u2013 The Fivefold Sanctum",
         "type": "text",
         "title": {
@@ -26210,7 +25859,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "69k1JAtO75JND4rp",
+        "_id": "b9XdVjXR5XPmHCFN",
         "name": "Level 3 \u2013 The Crown (Final Boss Arena)",
         "type": "text",
         "title": {
@@ -26238,7 +25887,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AQa0pruBrrPZFbQM",
+        "_id": "ZKS3u6ECixuV327Q",
         "name": "Well of Dragons \u2013 Caldera",
         "type": "text",
         "title": {
@@ -26266,7 +25915,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OX7qk1Ib8QOkDDA5",
+        "_id": "wehhWCAIzbFfMqrT",
         "name": "Establishing Shots (Display before entering each area)",
         "type": "text",
         "title": {
@@ -26294,7 +25943,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7PyYOr3vJQPmAAHA",
+        "_id": "oPfdTGVUoamLtgFH",
         "name": "PRE-SESSION (Setup)",
         "type": "text",
         "title": {
@@ -26322,7 +25971,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "f2RHHwOEAagRyKFn",
+        "_id": "4dO9VV7eOOq1xKxx",
         "name": "SESSION PHASE A \u2013 Caldera & Entry (60\u201390 min)",
         "type": "text",
         "title": {
@@ -26350,7 +25999,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "n4UX2vLnih2OxxzB",
+        "_id": "oeRPbwHkzUdS4bM6",
         "name": "SESSION PHASE B \u2013 Level 2: The Fivefold Sanctum (60\u201390 min)",
         "type": "text",
         "title": {
@@ -26378,7 +26027,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tpM4cP4pcafj0Trz",
+        "_id": "OE9yE88A7jDfQS2b",
         "name": "SESSION PHASE C \u2013 Level 3: The Crown (90\u2013120 min)",
         "type": "text",
         "title": {
@@ -26406,7 +26055,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "b1QcA2KivJYzr95X",
+        "_id": "jwA0v4Sk1C3eny0U",
         "name": "POST-COMBAT: Aftermath (30\u201360 min)",
         "type": "text",
         "title": {
@@ -26434,7 +26083,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ZoneLNGX4uiaLobI",
+        "_id": "j5VIUYxeF4b4eTcY",
         "name": "Foundry VTT",
         "type": "text",
         "title": {
@@ -26462,7 +26111,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9x60OOVN652OmvHZ",
+        "_id": "o8J3QA2HqnzkSETu",
         "name": "Roll20",
         "type": "text",
         "title": {
@@ -26490,7 +26139,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NAfwEYVzVLdBuKi3",
+        "_id": "MLvyQTUJTWC4s7eC",
         "name": "Offline / Physical Table",
         "type": "text",
         "title": {
@@ -26518,7 +26167,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vZZHYaaMmiWuj7kq",
+        "_id": "Sl5jkJnnVeut170K",
         "name": "Image Storage & Naming",
         "type": "text",
         "title": {
@@ -26546,7 +26195,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cITeeFuQ1Ryf8zED",
+        "_id": "4wtBIOvVbEH41GcX",
         "name": "Quick Display Checklist",
         "type": "text",
         "title": {
@@ -26582,11 +26231,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "1FCcVjXhtLgbNO0q",
+    "_id": "Qn3PV6OtSfIwtoMF",
     "name": "Level-3-Complete-Walkthrough",
     "pages": [
       {
-        "_id": "o14gItog7qwV0T3d",
+        "_id": "3QqNchhWMLAzmUd8",
         "name": "Severin Final Boss + Tiamat Manifestation (Prompts 7 & 8 integrated)",
         "type": "text",
         "title": {
@@ -26614,7 +26263,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LhTX48o7QKZrnuci",
+        "_id": "ZbvB7DX3yM8X5hQL",
         "name": "\u26a0\ufe0f RITUAL CLOCK LOCKED AT 0 FOR THIS SESSION",
         "type": "text",
         "title": {
@@ -26642,7 +26291,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XJS7PKMaUrlkQX36",
+        "_id": "6DwWCYg5Xthkqchy",
         "name": "The Last Staircase (cinematic ascent, 2\u20133 minutes)",
         "type": "text",
         "title": {
@@ -26670,7 +26319,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "392sihsBBmrbBog7",
+        "_id": "YjuDaCEOPAI8lzAy",
         "name": "Visual Description \u2013 The Crown Revealed (boxed text, Danish)",
         "type": "text",
         "title": {
@@ -26698,7 +26347,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UjdhOTaPkpFLYbqJ",
+        "_id": "8tWb64qMztwRjUOb",
         "name": "Physical Layout (reference only \u2013 not read aloud)",
         "type": "text",
         "title": {
@@ -26726,7 +26375,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WT8rCsf4JXnC6wZV",
+        "_id": "LGlJ4G6nvJZpz7V4",
         "name": "Severin Turns to Face the Party (3\u20135 minutes before initiative)",
         "type": "text",
         "title": {
@@ -26754,7 +26403,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6V2cyaiy1yJh3dVG",
+        "_id": "hwIFPUBeMq607To7",
         "name": "Severin's Full Monologue (continues)",
         "type": "text",
         "title": {
@@ -26782,7 +26431,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dWiNE1CvSuMTBkaY",
+        "_id": "Wwdpd7kOrlBHcJVx",
         "name": "Social Checks (parallel hooks \u2013 one per PC, simultaneous or rapid sequence)",
         "type": "text",
         "title": {
@@ -26810,7 +26459,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "W8P9wzo5iL81WLUL",
+        "_id": "4bKKZJTNnEMLbBms",
         "name": "AXAR \u2013 Arcana Check DC 17",
         "type": "text",
         "title": {
@@ -26838,7 +26487,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ESJ9ZCX2uxmsLkpH",
+        "_id": "hx7BegCSiMnc2NFg",
         "name": "DAXX \u2013 Insight Check DC 15",
         "type": "text",
         "title": {
@@ -26866,7 +26515,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1VkdlQQQ87XNvGsa",
+        "_id": "atjCv9duIrmOvrGA",
         "name": "FRYGTL\u00d8S \u2013 Intimidation Check DC 18",
         "type": "text",
         "title": {
@@ -26894,7 +26543,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "j0BDSCwLvz0ryicS",
+        "_id": "ar7K2AkNAtKK2ZX2",
         "name": "TWILIGHT \u2013 Persuasion or Performance Check DC 20",
         "type": "text",
         "title": {
@@ -26922,7 +26571,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mYy9lC9PSce5H0Au",
+        "_id": "kzBqEKC9kih9IKgX",
         "name": "Fifth Voice \u2013 Severin's Final Statement (After social checks end)",
         "type": "text",
         "title": {
@@ -26950,7 +26599,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pxbpUCfPtUE4jPay",
+        "_id": "oCDNm1e9Jxw6G0RW",
         "name": "Initiative Roll",
         "type": "text",
         "title": {
@@ -26978,7 +26627,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xopHUiGDLGZNoJMb",
+        "_id": "G0O4Sv4zSLCm3Cey",
         "name": "Surprise Round (if applicable)",
         "type": "text",
         "title": {
@@ -27006,7 +26655,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "08EBNJZ5uDH3qbol",
+        "_id": "3uMUFfT85KXcMPI3",
         "name": "Round 1: Severin's Potential Actions",
         "type": "text",
         "title": {
@@ -27034,7 +26683,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "B3J15fGdLCv1rCBS",
+        "_id": "4BsXDkKjwpTZoJhb",
         "name": "SECTION 4: SEVERIN PHASE 1 DETAILED TACTICS (Rounds 2\u20135)",
         "type": "text",
         "title": {
@@ -27062,7 +26711,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vkbj8VekTRunW2bP",
+        "_id": "VBOl8ISDCDGzcQsH",
         "name": "Round 2",
         "type": "text",
         "title": {
@@ -27090,7 +26739,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "b5axEqxJ1Ms9zDfy",
+        "_id": "QiTuXCmodourkMdp",
         "name": "Round 3\u20135 (Grouped for pacing)",
         "type": "text",
         "title": {
@@ -27118,7 +26767,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0UFMptS4YTeaZRUe",
+        "_id": "RP9WWCTHpqwCrZfG",
         "name": "Clock Impact on Phase 1",
         "type": "text",
         "title": {
@@ -27146,7 +26795,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BjfYZVJjTbtekdsY",
+        "_id": "2MOdAn4bWLrlV4w2",
         "name": "Red Wizard Interaction: The Ritual Clock as Pacing Tool",
         "type": "text",
         "title": {
@@ -27174,7 +26823,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PU9dyYngPR6FBAmT",
+        "_id": "Rw6ioMo0Je76OkBB",
         "name": "SECTION 5: TIAMAT INTERFERENCE \u2013 CLOCK-DRIVEN ESCALATION",
         "type": "text",
         "title": {
@@ -27202,7 +26851,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fK5goRCZGuL3oWlf",
+        "_id": "VlHmKvuNcD1PAOja",
         "name": "PSYCHIC ASSAULT TIMING",
         "type": "text",
         "title": {
@@ -27230,7 +26879,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "g4NdmRB3n2LX8raE",
+        "_id": "pS6HuGCFik8kuk7S",
         "name": "Elia's Arrival (Optional, triggered at Clock 4\u20135)",
         "type": "text",
         "title": {
@@ -27258,7 +26907,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "R2uno3H711RGafOG",
+        "_id": "zCPFo1pitEXug4qP",
         "name": "The Moment of Transition",
         "type": "text",
         "title": {
@@ -27286,7 +26935,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wmFvsi8qwBxSVG5c",
+        "_id": "udeLfpbY97HDvKi4",
         "name": "Severin Phase 2 Mechanics (HP 115 \u2192 0)",
         "type": "text",
         "title": {
@@ -27314,7 +26963,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UZpNn1WE4dARXA2s",
+        "_id": "yl2GeTpVCxKaysPD",
         "name": "Phase 2 Action Economy (Rounds 6 onward)",
         "type": "text",
         "title": {
@@ -27342,7 +26991,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "azvm4CNMj4X7SikE",
+        "_id": "rqG35b8EnH2FuvtQ",
         "name": "Phase 2 Red Wizards",
         "type": "text",
         "title": {
@@ -27370,7 +27019,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dtxzIPNaLEhPba0P",
+        "_id": "SqcIbfbfWyCWoFUb",
         "name": "Phase 2 Rath Modar (If alive)",
         "type": "text",
         "title": {
@@ -27398,7 +27047,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "m3CZRHKDTYOlobpv",
+        "_id": "skVqNgCjkT47F9qG",
         "name": "SECTION 7: THREE VICTORY OPTIONS & RESOLUTION",
         "type": "text",
         "title": {
@@ -27426,7 +27075,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wpTcJvJTuX30E21M",
+        "_id": "ewwXASxdQv284EhU",
         "name": "OPTION A \u2013 Kill Severin (most direct)",
         "type": "text",
         "title": {
@@ -27454,7 +27103,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7Xeyl11QDe7kAIVm",
+        "_id": "iLHaHYMjiwC0bCj7",
         "name": "OPTION B \u2013 Destroy the Five Masks",
         "type": "text",
         "title": {
@@ -27482,7 +27131,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "CBYjFQO32ZzpEDYn",
+        "_id": "47JNusdBpYU88x2x",
         "name": "OPTION C \u2013 Break the Ritual Circle (Axar's Signature)",
         "type": "text",
         "title": {
@@ -27510,7 +27159,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UrZDTtQoWU60XFR7",
+        "_id": "ia55KD8ZaIOoCQJs",
         "name": "What if Severin reaches 3 HP and cannot be killed (Clock 7+)?",
         "type": "text",
         "title": {
@@ -27538,7 +27187,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fstshYDYKIp4OUgb",
+        "_id": "wnd8GuZFgd7zaDHx",
         "name": "Rath Modar's Death Scene (if he falls in Phase 2)",
         "type": "text",
         "title": {
@@ -27566,7 +27215,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HR1baIVI4FoukrJR",
+        "_id": "kv06Tq3GBHa9mNtv",
         "name": "SECTION 8: TIAMAT'S VOICE & WITHDRAWAL",
         "type": "text",
         "title": {
@@ -27594,7 +27243,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "c1eMtntR1aOGK8Ff",
+        "_id": "YwWRuBZnFLaQYiv1",
         "name": "The Mechanics",
         "type": "text",
         "title": {
@@ -27622,7 +27271,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "C3tSttD5Kx91hUFr",
+        "_id": "EW8rnocsX6ZmrMQr",
         "name": "Level 3 \u2192 2 Transition (Rounds 1\u20133)",
         "type": "text",
         "title": {
@@ -27650,7 +27299,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rCWg1MT3PQIgFBU5",
+        "_id": "kA4gE75tk9JIQ0na",
         "name": "Level 2 Exploration (Rounds 4\u20138)",
         "type": "text",
         "title": {
@@ -27678,7 +27327,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mMOcyfDOHd676I4u",
+        "_id": "qvOiHJdgzSVYmPFC",
         "name": "Level 1 (Rounds 9\u201315)",
         "type": "text",
         "title": {
@@ -27706,7 +27355,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "loFPbaTxfF3XquAZ",
+        "_id": "7f6ufCLPG9bUgt0f",
         "name": "Round 15: Final Threshold",
         "type": "text",
         "title": {
@@ -27734,7 +27383,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VtYnwkvT7OskJVIc",
+        "_id": "pg5AFXxOj1iZw2Mr",
         "name": "When They Step Out",
         "type": "text",
         "title": {
@@ -27762,7 +27411,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yHT3GXc5LYkS2ZkL",
+        "_id": "KYh9X19XHRVgYJJh",
         "name": "SECTION 10: AFTERMATH & VICTORY CONDITIONS",
         "type": "text",
         "title": {
@@ -27790,7 +27439,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "pKC7cujOtExUcOm4",
+        "_id": "O86NtqwKgqE5kwUc",
         "name": "MAJOR SUCCESS (Ritual Clock 0\u20134 at Severin's fall)",
         "type": "text",
         "title": {
@@ -27818,7 +27467,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "thKVU13Y55x39bHG",
+        "_id": "9JbH5Ggm8m5HxCzc",
         "name": "PARTIAL SUCCESS (Ritual Clock 5\u20137 at Severin's fall)",
         "type": "text",
         "title": {
@@ -27846,7 +27495,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ayNgUyi9zpNqOUci",
+        "_id": "m6aTrb6bzKJuFEEa",
         "name": "FAILURE FORWARD (Ritual Clock 8 at Severin's fall or Severin unable to be killed)",
         "type": "text",
         "title": {
@@ -27874,7 +27523,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iSgkaGDilvPjqiyl",
+        "_id": "gFdYXxkRlFSvHRzP",
         "name": "Pacing the 90\u2013120 minute sequence",
         "type": "text",
         "title": {
@@ -27902,7 +27551,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4N5FgVS6fkvoivOO",
+        "_id": "ihKTXRrbkUcOeyQg",
         "name": "Ritual Clock at the Table",
         "type": "text",
         "title": {
@@ -27930,7 +27579,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Cf4Z6Tt0kay7BlhA",
+        "_id": "Db1DA5979uE1snQv",
         "name": "Initiative & Combat Management",
         "type": "text",
         "title": {
@@ -27958,7 +27607,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Ql7SPSYqRxFOiKB9",
+        "_id": "7BXIJqtN5zfCa0CV",
         "name": "When Social Checks are Happening",
         "type": "text",
         "title": {
@@ -27986,7 +27635,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "aeQzvlYD7Vl5PQeI",
+        "_id": "4PjTnj4syVUcNUre",
         "name": "Managing Dominate Monster (Frygtl\u00f8s in Phase 2)",
         "type": "text",
         "title": {
@@ -28014,7 +27663,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "340zUvsUQEAnJJkV",
+        "_id": "W5ZG6qmh8Gxu26ms",
         "name": "Rath Modar's Engagement",
         "type": "text",
         "title": {
@@ -28042,7 +27691,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SP7Erv43gR5nzJl0",
+        "_id": "vwuqJWhN06in3u8M",
         "name": "Handling PC Death in the Finale",
         "type": "text",
         "title": {
@@ -28070,7 +27719,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wNegkWrh6wW2M4eK",
+        "_id": "UTgWt3bEwyc6hEKP",
         "name": "Twilight's Moment",
         "type": "text",
         "title": {
@@ -28098,7 +27747,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tAuoQXWPmNm1569j",
+        "_id": "dqr5MXBeu4GU4cdF",
         "name": "Victory Conditions Summary",
         "type": "text",
         "title": {
@@ -28126,7 +27775,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4ru1bjThXjJJ61SM",
+        "_id": "GaaHOELo8IsEAIYJ",
         "name": "Severin Phase 1 Spell Selection (Rounds 2\u20135)",
         "type": "text",
         "title": {
@@ -28154,7 +27803,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lEP9VXZdVBrXN6dz",
+        "_id": "JfUuoedkO7Dy0hQn",
         "name": "Severin Phase 2 Spell Selection (Rounds 6+)",
         "type": "text",
         "title": {
@@ -28182,7 +27831,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AKzBdzH8M8XIcfcV",
+        "_id": "GAYUwa8nn92JKKUX",
         "name": "Red Wizard Escalation",
         "type": "text",
         "title": {
@@ -28210,7 +27859,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eUqbstCQTCdq1DVa",
+        "_id": "HU2MCexteAjO39FK",
         "name": "Temple Collapse Hazards (per Level)",
         "type": "text",
         "title": {
@@ -28238,7 +27887,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "PB9OBzzRQdPuXTRv",
+        "_id": "OVn5qIcdClQOdsrM",
         "name": "NPC Status at Combat Start",
         "type": "text",
         "title": {
@@ -28274,11 +27923,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "eAVR2rrCDukK1SJk",
+    "_id": "0z6SuDh2ZkZG50mv",
     "name": "Scene-4B-Plaza-Sacrifice",
     "pages": [
       {
-        "_id": "BY2iPl2b6N7WqaRL",
+        "_id": "eW4h5zH1H1f1rbZ0",
         "name": "Scene 4b \u2014 The Plaza Sacrifice (If Party Sneaks to Plaza Edge)",
         "type": "text",
         "title": {
@@ -28306,7 +27955,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zSSWIXZcmDRs2nlG",
+        "_id": "3JRsnAzDkW972hNh",
         "name": "Boxed Text (Dansk)",
         "type": "text",
         "title": {
@@ -28334,7 +27983,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QPYoAlMtrwQP3VGb",
+        "_id": "Yue2ytQC8RXG3Wnn",
         "name": "The Five Prisoners",
         "type": "text",
         "title": {
@@ -28362,7 +28011,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OKNjHyOHZPOv8ID8",
+        "_id": "amjvPJ8tV4a1iqog",
         "name": "The Ritual Master",
         "type": "text",
         "title": {
@@ -28390,7 +28039,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Ob06jdjCQZkVUvny",
+        "_id": "fDrpu6sS48IbsR4Q",
         "name": "Round 1 \u2014 Recognition",
         "type": "text",
         "title": {
@@ -28418,7 +28067,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zaMVUBFWh9rPDZOk",
+        "_id": "eYfipBNccSKEHOLl",
         "name": "Round 2 \u2014 Understanding",
         "type": "text",
         "title": {
@@ -28446,7 +28095,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uZqajt0zfBmFjZqg",
+        "_id": "7WxoC8C0tDFhbJj3",
         "name": "Round 3 \u2014 The Final Death",
         "type": "text",
         "title": {
@@ -28474,7 +28123,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "nDmhdSQbxneYkvfb",
+        "_id": "BUKFtgK0bK7zP0zo",
         "name": "The Aftermath \u2014 Cultist Reaction",
         "type": "text",
         "title": {
@@ -28502,7 +28151,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xFG6WMGIXnbpxjEc",
+        "_id": "CnGomnh65LPXckld",
         "name": "If Party Attempts Rescue (Before All Deaths)",
         "type": "text",
         "title": {
@@ -28530,7 +28179,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AQnU03zFL95B6aig",
+        "_id": "CVZPJPrHS63obqr4",
         "name": "If Party Cannot Intervene",
         "type": "text",
         "title": {
@@ -28558,7 +28207,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6m5e6Y7ToWbHVPMs",
+        "_id": "0MS20KjdqIdweXwY",
         "name": "Axar's Arcana Opportunity",
         "type": "text",
         "title": {
@@ -28586,7 +28235,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "piPQXMgwV7hJTBML",
+        "_id": "AhYQya6NjGEuNU9z",
         "name": "Mechanical Impact Summary",
         "type": "text",
         "title": {
@@ -28614,7 +28263,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Dc2fFRWRCC5zlwwO",
+        "_id": "WZwJXl5tXMYDnKHg",
         "name": "Optional: Prisoner Recognition",
         "type": "text",
         "title": {
@@ -28642,7 +28291,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uBLSb9AabvuvI0Nz",
+        "_id": "EfkN8uDH7XbbOyY6",
         "name": "Integration into Existing Scene Flow",
         "type": "text",
         "title": {
@@ -28670,7 +28319,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iDh3AYiZwFV1hTjy",
+        "_id": "BmDGUTEZKetxQePQ",
         "name": "DM Notes",
         "type": "text",
         "title": {
@@ -28706,11 +28355,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "JvEO13LcyAOl5Rbs",
+    "_id": "1Umd3MnUo392caWN",
     "name": "Area-7-To-Temple-Cinematic-Refined",
     "pages": [
       {
-        "_id": "gMJBIUs95KN1SKYZ",
+        "_id": "WHPALg4fuaw2QIgu",
         "name": "Area 7 \u2192 Temple: Refined Cinematic Sequence",
         "type": "text",
         "title": {
@@ -28738,7 +28387,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DFScM5MIpjkjMTCb",
+        "_id": "TWPHzhnrrYLIc0hw",
         "name": "Boxed Text (Dansk)",
         "type": "text",
         "title": {
@@ -28766,7 +28415,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "37Lz1DBa4ebxkTGK",
+        "_id": "Sn67baUS0Ft165Z4",
         "name": "Per-PC First Notice",
         "type": "text",
         "title": {
@@ -28794,7 +28443,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Mb7oAksi962R5Izm",
+        "_id": "ZMvVQvgFWNleXs7m",
         "name": "Anticipated Player Questions",
         "type": "text",
         "title": {
@@ -28822,7 +28471,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "utBJw6QjQdFD1w9x",
+        "_id": "188S6vSDmRHd4HqM",
         "name": "Mechanical Updates",
         "type": "text",
         "title": {
@@ -28850,7 +28499,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "3659bG4XcNPXEfZN",
+        "_id": "W1OKDYxg6wshpCHk",
         "name": "DM Notes",
         "type": "text",
         "title": {
@@ -28878,7 +28527,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MXGxdXWZyykP4eZP",
+        "_id": "VFClW2jR5Bnos8sW",
         "name": "Boxed Text Moment \u2014 Devils' Common Speech",
         "type": "text",
         "title": {
@@ -28906,7 +28555,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RTvUoyquMYaV1qYo",
+        "_id": "l5GVjM7gt5W2TmXD",
         "name": "Scene 4b \u2014 THE PLAZA SACRIFICE (Optional, if Party Sneaks Past Guards)",
         "type": "text",
         "title": {
@@ -28934,7 +28583,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "UudTB2F7NUZhYH06",
+        "_id": "bM5HsldmhjKFKfP0",
         "name": "Tactical Context",
         "type": "text",
         "title": {
@@ -28962,7 +28611,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "A0myT2q0ypbUH3EO",
+        "_id": "6fZLiLus0LRzvCZT",
         "name": "Option A: Combat from Behind (Surprise Round Maintained)",
         "type": "text",
         "title": {
@@ -28990,7 +28639,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ssJAKQbputwFMTKb",
+        "_id": "FbXigujW7VKjrMhM",
         "name": "Option B: Sneak Past (Group Stealth DC 16)",
         "type": "text",
         "title": {
@@ -29018,7 +28667,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "STQ5VX3xLFIwg1e2",
+        "_id": "rZFKMuYbvOx2jO8h",
         "name": "Option C: Twilight Suggestion on a Drake (DC 18 Wisdom Save)",
         "type": "text",
         "title": {
@@ -29046,7 +28695,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "a5m8wN66fPom1coM",
+        "_id": "G3sYioadtdHeT0id",
         "name": "Option D: Axar Alpha Strike (Fireball, 8d6 damage)",
         "type": "text",
         "title": {
@@ -29074,7 +28723,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LsvgW3UA6ahzQymz",
+        "_id": "czHwi5X4gpEfgQzl",
         "name": "Framework",
         "type": "text",
         "title": {
@@ -29102,7 +28751,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "BEZPQ3Z3cm8CnLTJ",
+        "_id": "XtM4qcW3cwWciwe7",
         "name": "Skill Options (DC 15 each)",
         "type": "text",
         "title": {
@@ -29130,7 +28779,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "09HrPIgYmFWaLfVs",
+        "_id": "jWN2jST1JLgeKMua",
         "name": "Boxed Text \u2014 Full Success (4 successes, 0-1 failures)",
         "type": "text",
         "title": {
@@ -29158,7 +28807,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "KtZJf7qbCAxXd8FT",
+        "_id": "11xUNbXFIFgl0I1y",
         "name": "Boxed Text \u2014 Partial Success (4 successes, 2 failures)",
         "type": "text",
         "title": {
@@ -29186,7 +28835,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fpg4ncJf3K5UPjXD",
+        "_id": "v78Pl4jOVIID0Wbg",
         "name": "Boxed Text \u2014 Catastrophic (Failed attempt, dragon intercepts)",
         "type": "text",
         "title": {
@@ -29214,7 +28863,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Tr4ZHaRnocShp83a",
+        "_id": "zLL8hgAY3g9Ol9hh",
         "name": "NPC: The Blue Chapel Red Wizard",
         "type": "text",
         "title": {
@@ -29242,7 +28891,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fdhBOrOzz6bU3OyU",
+        "_id": "O9GjpEFcYNhP3GKb",
         "name": "Combat Options",
         "type": "text",
         "title": {
@@ -29270,7 +28919,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9GbqL31KeamjPdD9",
+        "_id": "bb8jYX85SXCc0eKS",
         "name": "The Humanization Beat (Frygtl\u00f8s's Parallel to Naergoth)",
         "type": "text",
         "title": {
@@ -29298,7 +28947,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QWkEaZCIBrfS6AyK",
+        "_id": "IXkqWdYqo9XhmcGl",
         "name": "For Axar Specifically (Arcana DC 10)",
         "type": "text",
         "title": {
@@ -29326,7 +28975,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Wf5SHDi2x19ZV2Qj",
+        "_id": "tB5VnBIw0agKuTL8",
         "name": "Per-PC First Notice (Scene 8 Revised)",
         "type": "text",
         "title": {
@@ -29354,7 +29003,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "5eMUogxjoVksm1YW",
+        "_id": "xfXgMwjHKfrUVNdS",
         "name": "Ritual Progress (Clock 0 \u2014 What They Sense)",
         "type": "text",
         "title": {
@@ -29382,7 +29031,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "iiaMnjTR3FxceogR",
+        "_id": "0VUuWVEBKA5bZs6t",
         "name": "Rath Modar Identification (Thay-arc payoff)",
         "type": "text",
         "title": {
@@ -29410,7 +29059,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ur5ATveDSc0aUBJM",
+        "_id": "v8eGKNCYJRAthKL2",
         "name": "Transition to Phase B (Fivefold Sanctum)",
         "type": "text",
         "title": {
@@ -29438,7 +29087,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "LWlm1tzlqUT5uHG3",
+        "_id": "nfTJL1b818dcMeSB",
         "name": "Clock Status Summary",
         "type": "text",
         "title": {
@@ -29466,7 +29115,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4AClVcBuwOifHbqt",
+        "_id": "s8coPGl6kgeSNz3Z",
         "name": "Potion & Resource Checkpoints",
         "type": "text",
         "title": {
@@ -29494,7 +29143,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "zRCFDApUZ65h3HhG",
+        "_id": "m4oTFMcVMOsF6iXv",
         "name": "Summary: What Happened",
         "type": "text",
         "title": {
@@ -29522,7 +29171,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "8l8qCIUqbQwxoC6Y",
+        "_id": "HxN3Fz4yb4YFfVo4",
         "name": "DM Prep Checklist for This Sequence",
         "type": "text",
         "title": {
@@ -29558,11 +29207,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "L0xmiNUVLXq7tYCL",
+    "_id": "Fxi9RKyHGMdzjIbb",
     "name": "Army-Clock-Playbook",
     "pages": [
       {
-        "_id": "4n6ECj74WmmGr14m",
+        "_id": "MQUzx01tkFafMoXk",
         "name": "Army Clock Playbook \u2013 Temple of Tiamat",
         "type": "text",
         "title": {
@@ -29590,7 +29239,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xRkTK6qrpmC4I7zK",
+        "_id": "3dCNsFpmFF7Xfp5V",
         "name": "d8 Frontline Events (party-tuned)",
         "type": "text",
         "title": {
@@ -29618,7 +29267,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "RVD13F13Q45x02mv",
+        "_id": "53pu543OlPpuyYr6",
         "name": "Scene 1: Ulder Ravengard (Flaming Fist Commander)",
         "type": "text",
         "title": {
@@ -29646,7 +29295,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MthCDwNZ2L0PeWAq",
+        "_id": "bv8JQMZ4yWHjpij8",
         "name": "Scene 2: Remallia Haventree (Harper Liaison)",
         "type": "text",
         "title": {
@@ -29674,7 +29323,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "yFywmjnLBKWrbPwG",
+        "_id": "IaNd0f9sjL7bNFE2",
         "name": "Scene 3: Ontharr Frume (Order of the Gauntlet)",
         "type": "text",
         "title": {
@@ -29702,7 +29351,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FZHVPkLMCZMl4WN4",
+        "_id": "zerKSlVA5P5P5AQN",
         "name": "How Army-Clock events force Ritual-Clock ticks",
         "type": "text",
         "title": {
@@ -29730,7 +29379,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fUP8Etiv8NK8z8fk",
+        "_id": "Nhxp7D9iV5ePXBjB",
         "name": "When PCs can intervene WITHOUT costing ritual clock",
         "type": "text",
         "title": {
@@ -29758,7 +29407,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MLXhWa8qpNP80Gxv",
+        "_id": "ZOnwnfZmHFMiBK8C",
         "name": "When helping the army DOES cost ritual time",
         "type": "text",
         "title": {
@@ -29786,7 +29435,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "xrjehkZpFHYct2kq",
+        "_id": "09QsyWo08lgyHorQ",
         "name": "Intervention DCs by PC",
         "type": "text",
         "title": {
@@ -29814,7 +29463,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "h8xAtGmbLJ2Xs0ZP",
+        "_id": "dK7L5YkWgafkAuEk",
         "name": "Quick Reference \u2013 Managing the War",
         "type": "text",
         "title": {
@@ -29842,7 +29491,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "u9nobMdHKqIgXv9R",
+        "_id": "ajfeaJ5ayK4CdW5u",
         "name": "Sample Play Sequence",
         "type": "text",
         "title": {
@@ -29878,11 +29527,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "4NmzHcX2G3Kq1VcJ",
+    "_id": "hJ9eJeMFEKwsquYy",
     "name": "Checkliste",
     "pages": [
       {
-        "_id": "TlzkndUwIKnOLnUm",
+        "_id": "tt0b1WN2LTGfKeiO",
         "name": "Pre-Session DM Checklist \u2013 Well of Dragons Finale",
         "type": "text",
         "title": {
@@ -29910,7 +29559,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "o2nHOLJ3CC7p5bRi",
+        "_id": "ARDSdf9IzKGJEGRj",
         "name": "Ritual Clock \u2013 Starting State",
         "type": "text",
         "title": {
@@ -29938,7 +29587,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QnulFguquqyYiN21",
+        "_id": "6eTtIxXtgObeRgmb",
         "name": "Approach to Well of Dragons",
         "type": "text",
         "title": {
@@ -29966,7 +29615,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oGuI6LQ5vMQrT5Ce",
+        "_id": "oBgaHBTX0KI888kp",
         "name": "Army Clock Starting Value",
         "type": "text",
         "title": {
@@ -29994,7 +29643,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "f80pVUvUSswt113e",
+        "_id": "8Wck4Z883HoDRgbO",
         "name": "Focus Status (Level 2)",
         "type": "text",
         "title": {
@@ -30022,7 +29671,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "qK1ZMYSXxhhD351s",
+        "_id": "PJE5f7EghB3eMWrT",
         "name": "Severin Preparation",
         "type": "text",
         "title": {
@@ -30050,7 +29699,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "drbQIvTumijKAZec",
+        "_id": "PzypRlAStGtyxcIB",
         "name": "NPCs Relevant This Session",
         "type": "text",
         "title": {
@@ -30078,7 +29727,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Y8IF7QJi8yULGHxi",
+        "_id": "xBDrR3NgL9OHis63",
         "name": "Available Loot and Resources",
         "type": "text",
         "title": {
@@ -30106,7 +29755,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Be7K0l9HYFQL3tSA",
+        "_id": "b2MMcYHQuqpmwRht",
         "name": "Ritual Clock Physical Tracker",
         "type": "text",
         "title": {
@@ -30134,7 +29783,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "H9RaP0v49dLjwmE4",
+        "_id": "lclBKjT8o1Nbbf1F",
         "name": "Army Clock Physical Tracker",
         "type": "text",
         "title": {
@@ -30162,7 +29811,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "CBPU0P6k0xv7Cr7U",
+        "_id": "dY1IqebmzlAP4jdA",
         "name": "Initiative Tracker \u2013 Level 3",
         "type": "text",
         "title": {
@@ -30190,7 +29839,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9QONzOwbif6pQyAa",
+        "_id": "4usEY4SRwJ6gQ8eP",
         "name": "Opening \u2013 Arrival at Well of Dragons",
         "type": "text",
         "title": {
@@ -30218,7 +29867,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "r82vbXC2UzKArmXY",
+        "_id": "RUZTvJV9c2YV6NDk",
         "name": "Tiamat Presence Escalation (choose based on clock)",
         "type": "text",
         "title": {
@@ -30246,7 +29895,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mm6FHMT52WpJV2nO",
+        "_id": "ZxQT4LMVFMDMQxjH",
         "name": "Post-Session Notes",
         "type": "text",
         "title": {
@@ -30282,11 +29931,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "0fXsgMDJ7k1gaKAl",
+    "_id": "FcNgak3YfumP9CTv",
     "name": "Dm-Quick-Overview",
     "pages": [
       {
-        "_id": "wFXiZvDbv9WEB4s5",
+        "_id": "a427qSZqStykwswz",
         "name": "DM Quick Overview \u2014 Tiamat Finale Session",
         "type": "text",
         "title": {
@@ -30314,7 +29963,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "tOjChNj1RFcYRtWi",
+        "_id": "lRvTYio92hFUXf88",
         "name": "\u23f1\ufe0f Before the cold open",
         "type": "text",
         "title": {
@@ -30342,7 +29991,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uwGL1uM3IqDtMVzS",
+        "_id": "xYVAoeFv4c3Mil1X",
         "name": "\ud83c\udfad Party state right now",
         "type": "text",
         "title": {
@@ -30370,7 +30019,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DqXcry4YGvOyLX3N",
+        "_id": "hgKfPTS1EEu6JJWB",
         "name": "\ud83d\uddfa\ufe0f Locked route",
         "type": "text",
         "title": {
@@ -30398,7 +30047,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "t3OskANgoAShWAr5",
+        "_id": "pOflyFSJ6fEA0SCx",
         "name": "\u23f0 Ritual clock",
         "type": "text",
         "title": {
@@ -30426,7 +30075,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "irhRwSZa7n59AP0M",
+        "_id": "b5QKcpUVzodT1QFa",
         "name": "\ud83c\udfac Setup cues \u2014 drop these at the right moments",
         "type": "text",
         "title": {
@@ -30454,7 +30103,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "F2opMrd4h1UwdJub",
+        "_id": "RFStXXbzTbuPpEnk",
         "name": "Plaza guards (one tunnel)",
         "type": "text",
         "title": {
@@ -30482,7 +30131,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VfUuvv1VGLcSBY1M",
+        "_id": "bDt7qQhr88V7s627",
         "name": "Blue Chapel Red Wizard (entry)",
         "type": "text",
         "title": {
@@ -30510,7 +30159,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OG0IHL02iENSuKLu",
+        "_id": "1GLXH2wHxvYnaNIZ",
         "name": "Severin (HP 230, Phase 2 at 115)",
         "type": "text",
         "title": {
@@ -30538,7 +30187,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ytG2i7A3lclUevsZ",
+        "_id": "ywseCRglKepiwcyN",
         "name": "Tiamat-head (when manifests)",
         "type": "text",
         "title": {
@@ -30566,7 +30215,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "GKvj8Qfb7UNf34B3",
+        "_id": "GLA0u8ayrTh1VmMT",
         "name": "Rath Modar (in Red Chapel area 6)",
         "type": "text",
         "title": {
@@ -30594,7 +30243,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kzdqndSF0jjG8SxF",
+        "_id": "y0deFZoi8SV4yqbN",
         "name": "When party combined HP < 200",
         "type": "text",
         "title": {
@@ -30622,7 +30271,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ztTI5JBvkO1qBGC3",
+        "_id": "qXz8LYK4Nyolx0pL",
         "name": "When 2+ PCs at 0 HP simultaneously",
         "type": "text",
         "title": {
@@ -30650,7 +30299,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "lvb71SPTVdTw8lIX",
+        "_id": "1og1FCVbajX5d03g",
         "name": "When Frygtl\u00f8s is Dominated by Severin",
         "type": "text",
         "title": {
@@ -30678,7 +30327,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ROfI0bXfBUgH4Hmn",
+        "_id": "y2tDggwzyE0D7Nlv",
         "name": "\ud83c\udfc6 The three victory paths",
         "type": "text",
         "title": {
@@ -30706,7 +30355,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rzHOy2NRgpgkGYOM",
+        "_id": "l5nZdzqqhhCaQr7M",
         "name": "\ud83d\udcdc Aftermath (60 min)",
         "type": "text",
         "title": {
@@ -30734,7 +30383,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VDsgdZymKYDLCbCU",
+        "_id": "JnGYKTVzZ0J0CuDP",
         "name": "\ud83d\udd11 The four letters (printed and folded)",
         "type": "text",
         "title": {
@@ -30762,7 +30411,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1XmjTdVjUAcL1AOq",
+        "_id": "LBdeXHyxHgGhhOzP",
         "name": "\u274c DM mistakes that kill the magic",
         "type": "text",
         "title": {
@@ -30790,7 +30439,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ksGmFy2b1019WrtL",
+        "_id": "v8FSQO1uZi2uDjHT",
         "name": "\ud83c\udfaf If the session goes off-rails",
         "type": "text",
         "title": {
@@ -30826,11 +30475,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "f9oemSi1uksnE4lr",
+    "_id": "ZnOJtXE22LTks2OA",
     "name": "Printable-Clock-Tracker",
     "pages": [
       {
-        "_id": "HJKpvWxVynQlx5xV",
+        "_id": "Cf3uMrjQcCiDxeAu",
         "name": "Printable Ritual Clock & Army Clock Tracker",
         "type": "text",
         "title": {
@@ -30858,7 +30507,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1M1ObtidYiLIXKkN",
+        "_id": "wCEjTjygfYOs7G37",
         "name": "RITUAL CLOCK \u2013 0 to 8 PROGRESSION",
         "type": "text",
         "title": {
@@ -30886,7 +30535,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "mtoJt748aZwY1MAK",
+        "_id": "hgWU5pTKgw59eHix",
         "name": "Clock Effects Quick Reference",
         "type": "text",
         "title": {
@@ -30914,7 +30563,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "uG8flKp4JhvZH4aw",
+        "_id": "lU27VlXHpf2RbMC2",
         "name": "ARMY CLOCK \u2013 0 to 8 PROGRESSION",
         "type": "text",
         "title": {
@@ -30942,7 +30591,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Qi4CBWVvnBT751gh",
+        "_id": "WdOJbC0PqzmgAmb9",
         "name": "Army Events Quick Reference",
         "type": "text",
         "title": {
@@ -30970,7 +30619,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "eVtiuOsX2r6JMkNA",
+        "_id": "irshpQQzXpAMv9eu",
         "name": "SEVERIN PHASE TRANSITION CHECKLIST",
         "type": "text",
         "title": {
@@ -30998,7 +30647,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "wltQaqdQmIRBZ2s2",
+        "_id": "CtHs3ks7afIagjMW",
         "name": "TIAMAT PRESENCE MARKER",
         "type": "text",
         "title": {
@@ -31034,11 +30683,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "5pN3Yjfs04vcfY8n",
+    "_id": "fQbA2aQFI9YOrhv4",
     "name": "Tiamat-Finale-Plan",
     "pages": [
       {
-        "_id": "qja0HSaxJ6CXNGRd",
+        "_id": "OPIm823RLIXCUDaD",
         "name": "Tiamat Finale \u2013 Session Plan and Prompts",
         "type": "text",
         "title": {
@@ -31066,7 +30715,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QZdU2pqnhdohfLXf",
+        "_id": "7k9ZMmsaHjDIWloE",
         "name": "Leosin Erlanthar \u2013 dead (before Well of Dragons)",
         "type": "text",
         "title": {
@@ -31094,7 +30743,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TSaQ2HbIJJNHj8qW",
+        "_id": "1Sh6k6shlaHIZHW1",
         "name": "Naergoth Bladelord \u2013 dead",
         "type": "text",
         "title": {
@@ -31122,7 +30771,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ahs2fb5fJ6E4nija",
+        "_id": "YhUFVqnRcpZgAKPg",
         "name": "Party",
         "type": "text",
         "title": {
@@ -31150,7 +30799,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FY5gudMMErNI2gNs",
+        "_id": "vqlf0VJJmLElvpr0",
         "name": "Open questions (need decision before Session 0 of finale)",
         "type": "text",
         "title": {
@@ -31178,7 +30827,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "IjQKaty6BeSa9IWT",
+        "_id": "R58DRYVb4qGRg4Vc",
         "name": "Severin pre-combat line \u2013 updated",
         "type": "text",
         "title": {
@@ -31206,7 +30855,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "I1BHJHENVzQpnffV",
+        "_id": "KNJ8pnHcMcJsUaEP",
         "name": "Aftermath \u2013 Scene 4 is N/A",
         "type": "text",
         "title": {
@@ -31234,7 +30883,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SBxhSIM0HLswGfx5",
+        "_id": "LFQjVhozsL5HMRYk",
         "name": "Current position (in-fiction, locked)",
         "type": "text",
         "title": {
@@ -31262,7 +30911,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Js33VJjfdbLoLzU6",
+        "_id": "rgXZHPBRcFUDvTbY",
         "name": "What the party has already done (per `session-summary/Session-well-of-dragons.md`)",
         "type": "text",
         "title": {
@@ -31290,7 +30939,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "XnP52Pqy5WbXuqni",
+        "_id": "zlA3TkobmtEVndjc",
         "name": "Draakhorn-stop consequences (CRITICAL)",
         "type": "text",
         "title": {
@@ -31318,7 +30967,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "dKMS1aOoME3UiTY2",
+        "_id": "f16mC9nl3qMXuSyg",
         "name": "Naergoth \u2013 canonical location updated",
         "type": "text",
         "title": {
@@ -31346,7 +30995,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "VkPh5921ZTspaWSH",
+        "_id": "Ko7eRz4HPN7PbAwu",
         "name": "The locked route: 7 \u2192 6 \u2192 23 \u2192 temple front gate (Blue Chapel)",
         "type": "text",
         "title": {
@@ -31374,7 +31023,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "71oxSLOERLCrFH7a",
+        "_id": "SSD9ISarzlmRLm2x",
         "name": "State of the world (locked from DM clarifying answers)",
         "type": "text",
         "title": {
@@ -31402,7 +31051,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jm2w43x5KXWJ2AMC",
+        "_id": "wPXkgASfs1butOac",
         "name": "Combat-tuning warning \u2014 NO Long Rest",
         "type": "text",
         "title": {
@@ -31430,7 +31079,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kFi8T7duaT1oRusF",
+        "_id": "1juBdqKs2zjzmw0U",
         "name": "Frygtl\u00f8s's parallel-to-Naergoth beat \u2014 where does it land now?",
         "type": "text",
         "title": {
@@ -31458,7 +31107,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MIQlkGDv3pbEybzn",
+        "_id": "ctPOIepCMwIQFDsU",
         "name": "Three Clue Rule \u2013 the Naergoth gap",
         "type": "text",
         "title": {
@@ -31486,7 +31135,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0hEH5pSuJyUS8akV",
+        "_id": "0jH4oAm35o5ekSJY",
         "name": "The Three Approaches \u2013 Comparison",
         "type": "text",
         "title": {
@@ -31514,7 +31163,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "cs58VthibSWZ7JKY",
+        "_id": "Z6x7P4DtmkDnkVt3",
         "name": "Recommendation for this party: hybrid \u2014 LOCKED to Water",
         "type": "text",
         "title": {
@@ -31542,7 +31191,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "4SJKkZEwCphU6POA",
+        "_id": "A58PbU9cGXDFapiL",
         "name": "The Three Phases",
         "type": "text",
         "title": {
@@ -31570,7 +31219,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OMd8r21e3h8msDgn",
+        "_id": "mnrBFDGtVKYfx7oT",
         "name": "Phase A \u2013 Caldera & Entry",
         "type": "text",
         "title": {
@@ -31598,7 +31247,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "OEvcu9LskCDZKJlw",
+        "_id": "pWjdFPU2ucH3Oic5",
         "name": "Beat list (locked: 7 \u2192 6 \u2192 23 \u2192 front gate)",
         "type": "text",
         "title": {
@@ -31626,7 +31275,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DlT8RcDxOJFcI7jb",
+        "_id": "OEaQbsIlp12svxaz",
         "name": "From Area 7 to the Temple \u2014 full sequence (route 7\u21926\u219223\u2192Blue Chapel)",
         "type": "text",
         "title": {
@@ -31654,7 +31303,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "l9fBcLV4ktA6g6ow",
+        "_id": "ZBuLsi6LDMYH2pVF",
         "name": "Scene 1 \u2014 Area 7, last quiet",
         "type": "text",
         "title": {
@@ -31682,7 +31331,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "hxKJnzl7Nj8JYYct",
+        "_id": "ontiac4j6d2a4sCK",
         "name": "Scene 2 \u2014 Through area 6 (the cleared treasure chamber)",
         "type": "text",
         "title": {
@@ -31710,7 +31359,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "NVUVY9d8tD69ykgj",
+        "_id": "EeEw0bxVyf3cQSz0",
         "name": "Scene 3 \u2014 Northern Exits tunnel (between area 6 and area 23)",
         "type": "text",
         "title": {
@@ -31738,7 +31387,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "s1Nqjp9ik7RBokJz",
+        "_id": "3odVAQsZmZjx6Mnw",
         "name": "Scene 4 \u2014 Plaza 23 guards (one tunnel only \u2014 the party's exit)",
         "type": "text",
         "title": {
@@ -31766,7 +31415,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "TbMiprXu8CpFrjH6",
+        "_id": "mTNssbAaWClxB09J",
         "name": "Scene 5 \u2014 Emerging into the plaza",
         "type": "text",
         "title": {
@@ -31794,7 +31443,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "d07fJRVioFqEEPA1",
+        "_id": "eS4axvhObLtTgIrM",
         "name": "Scene 6 \u2014 Crossing the plaza",
         "type": "text",
         "title": {
@@ -31822,7 +31471,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "kiZAZ3470NtyUwtM",
+        "_id": "A3aL7bV9cSvy9ss8",
         "name": "Scene 7 \u2014 Temple front gate (Blue Chapel, area 1)",
         "type": "text",
         "title": {
@@ -31850,7 +31499,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "YMTaK7TZftxt7bGZ",
+        "_id": "DlWJo5dOPOhKQZsq",
         "name": "Scene 8 \u2014 Inside the temple, first full view",
         "type": "text",
         "title": {
@@ -31878,7 +31527,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oDnsFWxTeRAkUJ6X",
+        "_id": "smN3dNM8TCywFeNg",
         "name": "Ritual Progress \u2014 what the party can read",
         "type": "text",
         "title": {
@@ -31906,7 +31555,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "joWywJa9T7KwqCiC",
+        "_id": "mDyWEI7FcPVlar0w",
         "name": "Prompt 1 \u2013 Room 7 to temple cinematic (locked approach)",
         "type": "text",
         "title": {
@@ -31934,7 +31583,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "ApOvWXJfAGoldpqS",
+        "_id": "jpGxUJqUUADqCwAg",
         "name": "Prompt 2 \u2013 Army-clock and frontline events tuned for this party",
         "type": "text",
         "title": {
@@ -31962,7 +31611,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HkKlPChxMgrubohE",
+        "_id": "3w8xi0ZzZ8czOI3q",
         "name": "Prompt 3 \u2013 Level 1 walkthrough adapted to Black Chapel entry",
         "type": "text",
         "title": {
@@ -31990,7 +31639,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "WcivZc9gDX6Ui83z",
+        "_id": "n0ZwwiCMM9Q5riD3",
         "name": "Prompt 4 \u2013 Plaza 23 guards + temple front gate tactics",
         "type": "text",
         "title": {
@@ -32018,7 +31667,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "bRaZJZLkpBKalJ2p",
+        "_id": "mItODisX43rMSk8T",
         "name": "Phase B \u2013 Ritual (Fivefold Sanctum)",
         "type": "text",
         "title": {
@@ -32046,7 +31695,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "SHwxHpNW1uTdQP0W",
+        "_id": "8SkP3xmNi9zOmFTQ",
         "name": "Beat list",
         "type": "text",
         "title": {
@@ -32074,7 +31723,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "B0U929Ia8TQjmnuW",
+        "_id": "KQQoZfWhWHrp0tG7",
         "name": "Reloaded-bridge \u2014 resurrected wyrmspeakers (all 3 confirmed in play)",
         "type": "text",
         "title": {
@@ -32102,7 +31751,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "FIsubisbbZlTIPZ3",
+        "_id": "w3hAfPyToHRmCmlM",
         "name": "Prompt 5 \u2013 Optimal sabotage order for this party",
         "type": "text",
         "title": {
@@ -32130,7 +31779,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EeQzpY47vMYKCQat",
+        "_id": "uol0FIUXoJigwlod",
         "name": "Prompt 6 \u2013 Blue Abishai (Galvan) as mini-finale",
         "type": "text",
         "title": {
@@ -32158,7 +31807,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "vKPvPj255ITvX8jn",
+        "_id": "VhH8SrZZiaUitLqY",
         "name": "Prompt 7 \u2013 Ritual-clock table tool and decision tree",
         "type": "text",
         "title": {
@@ -32186,7 +31835,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "unDsggiKqzp8sPXH",
+        "_id": "y4VIXKPaX7O4YyYv",
         "name": "Phase C \u2013 Tiamat & Final Battle",
         "type": "text",
         "title": {
@@ -32214,7 +31863,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "MsnaqzcoVIc8vs8B",
+        "_id": "LZ5BMjmL6V7i7b0y",
         "name": "Reloaded-bridge \u2014 Rath Modar and Mask of the Dragon Queen (Rath Modar CONFIRMED in play)",
         "type": "text",
         "title": {
@@ -32242,7 +31891,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9GVel0xlkDcUNjaq",
+        "_id": "5JAjV83cYKrVm22q",
         "name": "Rath Modar \u2014 death scene (Axar's Thay-arc payoff)",
         "type": "text",
         "title": {
@@ -32270,7 +31919,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "DNJajXLRUrovjkmV",
+        "_id": "OshKw4cT9KwV2WVL",
         "name": "Mask of the Dragon Queen \u2014 post-Severin fate (per victory path)",
         "type": "text",
         "title": {
@@ -32298,7 +31947,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6gLzlwaYnpcCEWHh",
+        "_id": "uz3b7oU44hq992ji",
         "name": "Prompt 8 \u2013 Severin pre-combat: parallel social hooks",
         "type": "text",
         "title": {
@@ -32326,7 +31975,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "G2bCuHPldL7Uvbcp",
+        "_id": "KXNiuLiufk3GM4f9",
         "name": "Prompt 9 \u2013 Severin boss fight, clock-conditional",
         "type": "text",
         "title": {
@@ -32354,7 +32003,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "QKUc8ffC8DfuERtN",
+        "_id": "QfbNxGVXJvoFX0PE",
         "name": "Prompt 10 \u2013 Tiamat heads, collapse, aftermath as one sequence",
         "type": "text",
         "title": {
@@ -32382,7 +32031,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Y1DtYigr8hs1CBp0",
+        "_id": "TT6u43kxIk7gnaw8",
         "name": "Prompt 11 \u2013 Reloaded-to-rework lore bridge",
         "type": "text",
         "title": {
@@ -32410,7 +32059,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "jnmKtC9ggh6sPDLh",
+        "_id": "tmqc9EFeQm0KulWJ",
         "name": "Prompt 12 \u2013 Aftermath bridge to Chapter 24 epilogue arcs",
         "type": "text",
         "title": {
@@ -32438,7 +32087,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "0cvNQFpZAtiAaVQ1",
+        "_id": "vb5h4BfkI4sZi8YR",
         "name": "Production Prompts (dndtale tooling)",
         "type": "text",
         "title": {
@@ -32466,7 +32115,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "A9hqCHbiy1f0gzDL",
+        "_id": "Xze8B3oOb33Jp9ZP",
         "name": "Prompt 13 \u2013 Finale art prompts for dndig-openai",
         "type": "text",
         "title": {
@@ -32494,7 +32143,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "fmm2KXVqism8Otjl",
+        "_id": "vrVh2kDK7IX1BRkL",
         "name": "Prompt 14 \u2013 Quality and consistency pass",
         "type": "text",
         "title": {
@@ -32522,7 +32171,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "rUUNEVpyKtJVnSPp",
+        "_id": "FfGukGdIrfPayS4e",
         "name": "Recommended workflow",
         "type": "text",
         "title": {
@@ -32550,7 +32199,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "8NciyyCnrDOOYBsH",
+        "_id": "3V8QlDQqxHY8uS46",
         "name": "Example iteration (use this format when asking the assistant)",
         "type": "text",
         "title": {
@@ -32578,7 +32227,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Kz72jVoBDRcPOJaK",
+        "_id": "uRNIyzJeEGYMs5aW",
         "name": "Iteration after the session",
         "type": "text",
         "title": {
@@ -32606,7 +32255,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "HtMFmw3MagkBD2BG",
+        "_id": "PcXbS5XXfeS57fcj",
         "name": "When to abandon this plan",
         "type": "text",
         "title": {
@@ -32634,7 +32283,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "p9X5NCeJhhER6tLs",
+        "_id": "tQICZWUy1W08SIop",
         "name": "dndtale Skill Integration",
         "type": "text",
         "title": {
@@ -32662,7 +32311,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "X6OROD0QHxgOxfe1",
+        "_id": "Cme7bXnmxIm8hCZs",
         "name": "Skill resource map",
         "type": "text",
         "title": {
@@ -32690,7 +32339,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "w1uKgabTVQ0cOuXZ",
+        "_id": "ZM9UeuzHC1nITjnW",
         "name": "Calling out skill files explicitly",
         "type": "text",
         "title": {
@@ -32718,7 +32367,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7fCY1pBruqZhV58j",
+        "_id": "tsMY51Uc810K0l3Y",
         "name": "What the skill does NOT cover",
         "type": "text",
         "title": {
@@ -32746,7 +32395,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "7pRVaAy6D1xovPXo",
+        "_id": "cE3XuKiwDtgtRC85",
         "name": "Setup Technique \u2014 Getting Players to Land the Epic Moments Themselves",
         "type": "text",
         "title": {
@@ -32774,7 +32423,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "oGLNIuYfCbBITHIm",
+        "_id": "n1b4jEIFB0UNIkhh",
         "name": "The 3-touch pattern",
         "type": "text",
         "title": {
@@ -32802,7 +32451,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "96akBPziJ9zN8AIg",
+        "_id": "OhsoJh3rQBEJ7F0j",
         "name": "Fallback ladder (use in order, NEVER skip to #4 first)",
         "type": "text",
         "title": {
@@ -32830,7 +32479,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "2uhrzlVBb6jeiPQc",
+        "_id": "h5NlvjtNlZ6pyg5V",
         "name": "Worked example \u2014 Twilight's lullaby vs the Tiamat-head",
         "type": "text",
         "title": {
@@ -32858,7 +32507,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "AZTr3oSDcEE7zvHn",
+        "_id": "VAGJHPXvK0MKvLxh",
         "name": "Axar \u2014 Counterspell on Severin's Ritual Action",
         "type": "text",
         "title": {
@@ -32886,7 +32535,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "1B6YaeIcgPdWXleS",
+        "_id": "pQ6rSsfg9ZBr40Dy",
         "name": "Frygtl\u00f8s \u2014 not-swinging-first (parallel to Naergoth)",
         "type": "text",
         "title": {
@@ -32914,7 +32563,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "6PFo19i26NFWQtyu",
+        "_id": "Vf7nhBHQ1ajUfOJJ",
         "name": "Daxx \u2014 \"I stay Daxx\" (Severin's mirror temptation)",
         "type": "text",
         "title": {
@@ -32942,7 +32591,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Np42iesHvzR3yPqh",
+        "_id": "1TRO0cIjJX0B3aPB",
         "name": "Frygtl\u00f8s \u2014 holds the ceiling during the escape",
         "type": "text",
         "title": {
@@ -32970,7 +32619,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Bta56PfTfHBfbw1z",
+        "_id": "NKuzLhk9jCqvOvi0",
         "name": "Axar \u2014 breaks the ritual circle (Option C)",
         "type": "text",
         "title": {
@@ -32998,7 +32647,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "Q5JAjFrX7w8eZyhK",
+        "_id": "LiXCsbwa3GlkpGsR",
         "name": "DM mistakes that kill these moments",
         "type": "text",
         "title": {
@@ -33026,7 +32675,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "9EvCOQ74Vdq59fiC",
+        "_id": "LB2hgckSaTsOdcG2",
         "name": "Implementation timeline (this session)",
         "type": "text",
         "title": {
@@ -33054,7 +32703,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
         "flags": {}
       },
       {
-        "_id": "EVUCa0ghXhVv5aiz",
+        "_id": "fueCDXWhPxL5qBVe",
         "name": "Run Log",
         "type": "text",
         "title": {
@@ -33090,11 +32739,11 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     "flags": {}
   },
   {
-    "_id": "lPpt3aOR4h4t2IR7",
+    "_id": "gx2CTR6Oxtm1RktE",
     "name": "Ritual Clock Tracker",
     "pages": [
       {
-        "_id": "KKbgvoyO6O7LaGgd",
+        "_id": "7vj3oKQYGnaPumlu",
         "name": "Clock Status",
         "type": "text",
         "title": {
@@ -33134,7 +32783,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
   // Scene data
   const sceneData = [
   {
-    "_id": "ZvJAOtydUOKF7DLC",
+    "_id": "EFHCTubnClkXwJdH",
     "name": "Temple \u2013 Level 1: The Maw",
     "active": false,
     "navigation": true,
@@ -33228,7 +32877,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "KADm1eAZdjEE6tyD",
+    "_id": "o5UayZgi7W9Om4T4",
     "name": "Temple \u2013 Level 2: The Fivefold Sanctum",
     "active": false,
     "navigation": true,
@@ -33322,7 +32971,7 @@ ui.notifications.info(`Created folders: temple-of-tiamat/NPCs, Journals, Scenes`
     }
   },
   {
-    "_id": "Fx3n03KeLhuSLgVc",
+    "_id": "qrsVzUfm5zXpqS3e",
     "name": "Temple \u2013 Level 3: The Crown",
     "active": false,
     "navigation": true,
