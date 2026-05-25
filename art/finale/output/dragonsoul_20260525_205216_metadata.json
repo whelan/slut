@@ -1,0 +1,13 @@
+{
+  "title": "dragonsoul",
+  "timestamp": "20260525_205216",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/32-dragonsoul-portrait.md",
+  "outputs": [
+    "art/finale/output/dragonsoul_20260525_205216_1.png"
+  ]
+}

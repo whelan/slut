@@ -1,0 +1,13 @@
+{
+  "title": "marta-half-orc-mother",
+  "timestamp": "20260525_205229",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/28-marta-half-orc-mother-portrait.md",
+  "outputs": [
+    "art/finale/output/marta-half-orc-mother_20260525_205229_1.png"
+  ]
+}
