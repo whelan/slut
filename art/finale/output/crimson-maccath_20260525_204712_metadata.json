@@ -1,0 +1,13 @@
+{
+  "title": "crimson-maccath",
+  "timestamp": "20260525_204712",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/15-crimson-maccath-portrait.md",
+  "outputs": [
+    "art/finale/output/crimson-maccath_20260525_204712_1.png"
+  ]
+}
