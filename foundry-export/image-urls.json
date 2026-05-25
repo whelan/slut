@@ -1,19 +1,19 @@
 {
   "axar-runes": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/axar-runes-placeholder-token_20260525_202307_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/axar-runes-placeholder-token_20260525_202307_1.png"
   },
   "daxx-drake": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/daxx-drake-placeholder-token_20260525_202307_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/daxx-drake-placeholder-token_20260525_202307_1.png"
   },
   "frygtlos": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/frygtløs-placeholder-token_20260525_202307_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/frygtløs-placeholder-token_20260525_202307_1.png"
   },
   "twilight-ventress": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/twilight-ventress-placeholder-token_20260525_202307_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/twilight-ventress-placeholder-token_20260525_202307_1.png"
   },
   "dagult-neverember": {
     "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dagult-neverember-placeholder-token.png",
@@ -64,8 +64,8 @@
     "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/elia-bronze-dragon-token_20260516_170825_1.png"
   },
   "naergoth-bladelord": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/naergoth-bladelord-placeholder-token_20260525_202307_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/naergoth-bladelord-placeholder-token_20260525_202307_1.png"
   },
   "severin": {
     "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token_20260516_164450_1.png",
@@ -84,48 +84,48 @@
     "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/veksin-young-red-wizard-token_20260516_164551_1.png"
   },
   "cultist": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/cultist-placeholder-token_20260525_202307_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/cultist-placeholder-token_20260525_202307_1.png"
   },
   "cult-fanatic": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/cult-fanatic-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/cult-fanatic-placeholder-token_20260525_202308_1.png"
   },
   "commoner": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/commoner-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/commoner-placeholder-token_20260525_202308_1.png"
   },
   "black-dragon-wyrmling": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/black-dragon-wyrmling-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/black-dragon-wyrmling-placeholder-token_20260525_202308_1.png"
   },
   "air-elemental": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/air-elemental-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/air-elemental-placeholder-token_20260525_202308_1.png"
   },
   "stone-golem": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/stone-golem-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/stone-golem-placeholder-token_20260525_202308_1.png"
   },
   "flesh-golem": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/flesh-golem-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/flesh-golem-placeholder-token_20260525_202308_1.png"
   },
   "green-hag": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/green-hag-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/green-hag-placeholder-token_20260525_202308_1.png"
   },
   "wight": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wight-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wight-placeholder-token_20260525_202308_1.png"
   },
   "mage": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/mage-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/mage-placeholder-token_20260525_202308_1.png"
   },
   "barbed-devil": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/barbed-devil-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/barbed-devil-placeholder-token_20260525_202308_1.png"
   },
   "dragonclaw": {
     "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/dragonclaw-rogue-token_20260516_170911_1.png",
@@ -176,8 +176,8 @@
     "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/yuan-ti-mind-whisperer-placeholder-token.png"
   },
   "naergoth-bladelord-wight": {
-    "portrait": "",
-    "token": ""
+    "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/naergoth-bladelord-wight-placeholder-token_20260525_202308_1.png",
+    "token": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/naergoth-bladelord-wight-placeholder-token_20260525_202308_1.png"
   },
   "tiamat-white-head": {
     "portrait": "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-placeholder-token.png",
