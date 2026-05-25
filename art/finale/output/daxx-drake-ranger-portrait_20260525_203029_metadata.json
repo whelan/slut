@@ -1,0 +1,13 @@
+{
+  "title": "daxx-drake-ranger-portrait",
+  "timestamp": "20260525_203029",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/02-daxx-drake-ranger-portrait.md",
+  "outputs": [
+    "art/finale/output/daxx-drake-ranger-portrait_20260525_203029_1.png"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "naergoth-bladelord-wight-portrait",
+  "timestamp": "20260525_203156",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/05-naergoth-bladelord-wight-portrait.md",
+  "outputs": [
+    "art/finale/output/naergoth-bladelord-wight-portrait_20260525_203156_1.png"
+  ]
+}
