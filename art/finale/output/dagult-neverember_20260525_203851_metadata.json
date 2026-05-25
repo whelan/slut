@@ -1,0 +1,13 @@
+{
+  "title": "dagult-neverember",
+  "timestamp": "20260525_203851",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/06-dagult-neverember-portrait.md",
+  "outputs": [
+    "art/finale/output/dagult-neverember_20260525_203851_1.png"
+  ]
+}
