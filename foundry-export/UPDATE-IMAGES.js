@@ -1,36 +1,22 @@
 /**
  * UPDATE IMAGES - Apply character portraits and token images to all NPCs
  *
- * This script updates existing actors with proper images:
+ * This script updates existing NPC actors with proper images:
  * - Character portrait (img field) - shown on character sheet
  * - Token image - shown on battlefield
+ *
+ * NOTE: Only updates NPCs (Council, Antagonists, Creatures, Tiamat)
+ *       Does NOT update player characters (Axar, Daxx, Frygtløs, Twilight)
  *
  * Copy entire content → Paste in Foundry Console (F12 > Console)
  * Press Enter
  */
 
-console.log("🖼️  UPDATING NPC IMAGES\n");
+console.log("🖼️  UPDATING NPC IMAGES (Council, Antagonists, Creatures, Tiamat)\n");
 
 // Image mapping: NPC Name → { portrait: "path", token: "path" }
+// Note: Excludes player characters (Axar, Daxx, Frygtløs, Twilight)
 const IMAGE_MAP = {
-  // PARTY CHARACTERS
-  "Axar Runes": {
-    portrait: "modules/slut/art/finale/output/axar-runes-wizard-portrait_20260525_203002_1.png",
-    token: "modules/slut/art/finale/output/axar-runes-wizard-portrait-token_circular.png"
-  },
-  "Daxx Drake": {
-    portrait: "modules/slut/art/finale/output/daxx-drake-ranger-portrait_20260525_203029_1.png",
-    token: "modules/slut/art/finale/output/daxx-drake-ranger-portrait-token_circular.png"
-  },
-  "Frygtløs": {
-    portrait: "modules/slut/art/finale/output/frygtlos-barbarian-portrait_20260525_203110_1.png",
-    token: "modules/slut/art/finale/output/frygtlos-barbarian-portrait-token_circular.png"
-  },
-  "Twilight Ventress": {
-    portrait: "modules/slut/art/finale/output/twilight-ventress-bard-portrait_20260525_203135_1.png",
-    token: "modules/slut/art/finale/output/twilight-ventress-bard-portrait-token_circular.png"
-  },
-
   // COUNCIL MEMBERS
   "Dagult Neverember": {
     portrait: "modules/slut/art/finale/output/dagult-neverember_20260525_203851_1.png",
@@ -198,16 +184,18 @@ async function updateAllImages() {
   }
 
   console.log("\n╔════════════════════════════════════════════════════════╗");
-  console.log("║  IMAGE UPDATE COMPLETE                                 ║");
+  console.log("║  NPC IMAGE UPDATE COMPLETE                             ║");
   console.log("╚════════════════════════════════════════════════════════╝");
-  console.log(`\n✓ Updated: ${updated}/${Object.keys(IMAGE_MAP).length}`);
+  console.log(`\n✓ Updated: ${updated}/32 NPCs`);
 
   if (notFound > 0) {
-    console.log(`⚠️  Not found: ${notFound}\n`);
+    console.log(`⚠️  Not found: ${notFound} NPCs\n`);
   }
 
-  if (updated === Object.keys(IMAGE_MAP).length) {
-    console.log("✨ All NPCs now have proper images!\n");
+  if (updated === 32) {
+    console.log("✨ All 32 NPCs now have proper images!\n");
+  } else {
+    console.log(`${32 - updated} NPCs still need image updates\n`);
   }
 }
 
