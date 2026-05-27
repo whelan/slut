@@ -26,7 +26,7 @@ const TIAMAT_OFFICIAL = {
     ac: 25,
     hp: 615,
     abilities: { str: 30, dex: 10, con: 30, int: 26, wis: 26, cha: 28 },
-    skills: { arcana: 17, perception: 26, religion: 17 },
+    skills: { arcana: 17, perception: 17, religion: 17 },
     savingThrows: { str: 19, dex: 9, wis: 17 },
     resistances: [],
     immunities: ["acid", "cold", "fire", "lightning", "poison", "bludgeoning from nonmagical", "piercing from nonmagical", "slashing from nonmagical"],
