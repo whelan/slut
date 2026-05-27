@@ -410,10 +410,44 @@ async function addSpellFromCompendium(actor, spellName) {
   return false;
 }
 
+async function findIconFromCompendium(itemName) {
+  // Search for icon in compendium items that match feature name
+  const priorityPacks = ["dnd5e.items", "dnd5e.features24", "dnd5e.spells24"];
+
+  for (const packId of priorityPacks) {
+    const pack = game.packs.get(packId);
+    if (!pack) continue;
+
+    const index = pack.index;
+    const entry = index.find(e => e.name.toLowerCase().includes(itemName.toLowerCase().split(' ')[0]));
+
+    if (entry) {
+      try {
+        const item = await pack.getDocument(entry._id);
+        if (item.img) return item.img;
+      } catch (error) {
+        continue;
+      }
+    }
+  }
+
+  // Fallback icons based on feature type
+  const featureLower = itemName.toLowerCase();
+  if (featureLower.includes("spell") || featureLower.includes("magic")) return "icons/magic/light/projectile-beam-yellow.webp";
+  if (featureLower.includes("attack") || featureLower.includes("weapon")) return "icons/skills/melee/hand-daggers-yellow.webp";
+  if (featureLower.includes("resistance") || featureLower.includes("legendary")) return "icons/magic/light/shield-blue.webp";
+  if (featureLower.includes("action") || featureLower.includes("ability")) return "icons/skills/melee/strike-slashing-orange.webp";
+
+  return "icons/skills/social/awareness-perception.webp"; // Default fallback
+}
+
 async function addFeature(actor, feature) {
+  const icon = await findIconFromCompendium(feature.name);
+
   const featureData = {
     name: feature.name,
     type: "feat",
+    img: icon,
     system: {
       description: { value: feature.desc },
       rarity: "",
