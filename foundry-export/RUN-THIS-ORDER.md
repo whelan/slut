@@ -1,16 +1,20 @@
-# 🚀 AUTOMATED NPC IMPORT - RUN IN THIS ORDER
+# 🚀 FOUNDRY VTT IMPORT – RUN IN THIS ORDER
 
-**GOAL:** Import 26 complete NPCs with FULL 2024 rules stats, skills, saves, actions, items, spells.
+**GOAL:** Import 32 complete NPCs with FULL 2024 D&D 5e rules, all from Foundry compendia (no duplication).
 
-**Time:** ~10 minutes total
+**What You'll Have:** 11 Council + 9 Creatures + 6 Antagonists + 5 Tiamat Heads + 1 Full Tiamat (32 total)
+
+**Time:** ~15 minutes total
 
 ---
 
 ## ⚙️ SETUP
 
-1. **Open Foundry** at forgevtt.com
-2. **Press F12** → **Console tab**
-3. **Keep console open** for all 3 steps
+1. **Open Foundry VTT** at forgevtt.com
+2. **Press F12** on your keyboard
+3. **Click the "Console" tab** (not Elements, Sources, or Network)
+4. **Keep the console open** for all 5 steps
+5. **Have a text editor ready** to copy/paste code
 
 ---
 
@@ -18,195 +22,249 @@
 
 **What gets imported:**
 - Dagult Neverember, Ulder Ravengard, Remallia Haventree
-- Ontharr Frume, Delaan Winterhound, Sir Isteval
+- Ontharr Frume (HP 150), Delaan Winterhound, Sir Isteval
 - Taern Hornblade, King Melandrach, Ambassador Brawnanvil
 - Crimson Maccath, Nyh Ilmichh
 
-**ALL with:** AC, HP, abilities, skills, saves, weapons, spells (for spellcasters)
+**Stats:** AC, HP, abilities, skills, saves, weapons, spells — all from dnd5e compendia
 
 ### DO THIS:
 
-1. **Find file:** `foundry-export/STEP1-import-council.js`
-2. **Open it** in text editor
-3. **Copy ENTIRE content**
-4. **In Foundry console:** Paste the code
+1. **Open file:** `foundry-export/STEP1-import-council.js` in a text editor
+2. **Copy ENTIRE content** (Ctrl+A, Ctrl+C)
+3. **Switch to Foundry console** (F12)
+4. **Paste** the code into the console input
 5. **Press Enter**
-6. **Wait for output** showing "✓ Council Members imported"
+6. **Wait for success message** showing "✓ Council Members imported"
 
-**Output:**
-```
-✓ Imported: 11/11
-   Dagult Neverember imported ✓
-   Ulder Ravengard imported ✓
-   ...
-📋 NEXT STEP: Run STEP2-import-creatures.js
-```
-
-✅ **WHEN DONE:** Check Foundry Actors folder → `temple-of-tiamat` folder should have 11 Council members
+✅ **WHEN DONE:** Check your Actors folder → you should see 11 Council members
 
 ---
 
-## 📋 STEP 2: Import Creatures (9 creatures)
+## 📋 STEP 2: Import Creatures (9 Creatures)
 
 **What gets imported:**
 - Air Elemental, Fire Elemental
 - Stone Golem, Clay Golem, Iron Golem
 - Wight, Cult Fanatic, Cultist, Barbed Devil
 
-**ALL with:** Full SRD stats, AC, HP, abilities, equipment, special traits
+**Stats:** Full 2024 SRD stats (AC, HP, abilities, resistances, immunities, traits)
 
 ### DO THIS:
 
-1. **Clear console** (optional, but helps)
-2. **Find file:** `foundry-export/STEP2-import-creatures.js`
-3. **Open it** in text editor
-4. **Copy ENTIRE content**
-5. **In Foundry console:** Paste the code
-6. **Press Enter**
-7. **Wait for output** showing "✓ Creatures imported"
+1. **Open file:** `foundry-export/STEP2-import-creatures.js`
+2. **Copy ENTIRE content**
+3. **In Foundry console:** Paste and press Enter
+4. **Wait for success message**
 
-**Output:**
-```
-✓ Imported: 9/9
-   Air Elemental imported ✓
-   Fire Elemental imported ✓
-   ...
-📋 NEXT STEP: Run STEP3-create-antagonists.js
-```
-
-✅ **WHEN DONE:** Check `temple-of-tiamat` folder should now have 11 + 9 = 20 actors
+✅ **WHEN DONE:** Actors folder now has 11 + 9 = 20 total
 
 ---
 
-## 📋 STEP 3: Create Antagonists (6 custom NPCs)
+## 📋 STEP 3: Create Antagonists (6 Major Bosses)
 
-**What gets created from scratch:**
-- **Naergoth Bladelord** - CR 11 Wight, AC 18, HP 170
-- **Severin** - CR 6 sorcerer, 9 spells, legendary actions
-- **Rath Modar** - CR 3 Red Wizard, 5 spells
-- **Magus Thezzar** - CR 8 Red Wizard lieutenant, 8 spells, legendary actions
-- **White Abishai** - CR 3, icy warrior
-- **Black Abishai (Rezmir)** - CR 7 wyrmspeaker, legendary actions
+**What gets created:**
+- **Naergoth Bladelord** – CR 11, AC 18, HP 170, legendary actions
+- **Severin** – CR 11, AC 16, HP 150, CHA 20, Draconic Majesty, 5 legendary resistances
+- **Rath Modar** – CR 6, AC 16 (with mage armor), HP 71, 11th-level spellcaster, legendary actions
+- **Magus Thezzar** – CR 5, AC 18 (with mage armor), HP 77, 9th-level spellcaster, legendary actions
+- **White Abishai** – CR 5, AC 16, HP 78, Fire immunity, Frozen Aura, Icy Breath
+- **Black Abishai (Rezmir)** – CR 7, AC 16, HP 120, legendary actions
 
-**ALL with:** Complete 2024 rules stats, proficiencies, skills, saves, spells, legendary actions
+**Stats:** 2024 rules, proficiency bonuses, spell DCs, full trait/action items
 
 ### DO THIS:
 
-1. **Clear console** (optional)
-2. **Find file:** `foundry-export/STEP3-create-antagonists.js`
-3. **Open it** in text editor
-4. **Copy ENTIRE content**
-5. **In Foundry console:** Paste the code
-6. **Press Enter**
-7. **Wait for output** showing "✓ ALL ANTAGONISTS CREATED"
+1. **Open file:** `foundry-export/STEP3-create-antagonists.js`
+2. **Copy ENTIRE content**
+3. **In Foundry console:** Paste and press Enter
+4. **Wait for success message** showing "✓ ALL ANTAGONISTS CREATED"
 
-**Output:**
-```
-⚔️  Creating: Naergoth Bladelord...
-   ✓ Naergoth Bladelord created with full stats
-
-⚔️  Creating: Severin...
-   ✓ Severin created with full stats
-   ✓ Added spell: Fire Bolt
-   ✓ Added spell: Fireball
-   ...
-
-✓ Created: 6/6
-
-📋 ALL STEPS COMPLETE!
-✓ Council Members: 11 imported
-✓ Creatures: 9 imported
-✓ Antagonists: 6 created
-
-✨ READY TO PLAY!
-```
-
-✅ **WHEN DONE:** Check `temple-of-tiamat` folder should have 11 + 9 + 6 = **26 COMPLETE NPCs**
+✅ **WHEN DONE:** Actors folder now has 11 + 9 + 6 = 27 total
 
 ---
 
-## ✨ AFTER ALL STEPS
+## 📋 STEP 4: Create Tiamat Heads (5 Manifestation Phase)
 
-### Verify Everything:
+**What gets created:**
+- **Black Head** – CR 20, AC 25, HP 195, Acid damage, Acidic Aura, Acid Breath
+- **Blue Head** – CR 20, AC 25, HP 195, Lightning damage, Lightning Aura, Lightning Breath
+- **Green Head** – CR 21, AC 25, HP 210, Poison damage, Poisonous Aura, Poison Breath
+- **Red Head** – CR 21, AC 25, HP 210, Fire damage, Molten Aura, Fire Breath
+- **White Head** – CR 20, AC 25, HP 195, Cold damage, Freezing Aura, Cold Breath
 
-1. **Open Actors folder** → Click `temple-of-tiamat`
-2. **Should see 26 actors:**
-   - 11 Council members
-   - 9 Creatures
-   - 6 Antagonists
-3. **Click on any NPC** → Verify:
-   - ✓ AC and HP correct
-   - ✓ Abilities scores show
-   - ✓ Weapons in Items tab
-   - ✓ Spells in Items tab (for spellcasters)
+**Purpose:** These 5 heads are used during Clock progression (rounds 4–7). Each head has:
+- Partial Manifestation trait (regenerate 15 HP/turn)
+- Independent lair/legendary actions
+- Elemental-specific auras and breath weapons
+- Full legendary resistance (3/Day)
 
-### Quick Test:
-- **Open Naergoth Bladelord** → AC 18, HP 170, Legendary Actions
-- **Open Severin** → AC 15, 9 spells, Legendary Actions
-- **Open Taern Hornblade** → AC 14, 7 spells
+### DO THIS:
 
-### If Something's Missing:
-- Check console for error messages
-- NPCs might be missing some items (equipment) - you can manually add from `dnd5e.items` compendia
-- Spells that didn't find matches will show warnings in console
+1. **Open file:** `foundry-export/STEP4-create-tiamat-heads.js`
+2. **Copy ENTIRE content**
+3. **In Foundry console:** Paste and press Enter
+4. **Wait for success message**
 
----
-
-## 🎯 YOU NOW HAVE:
-
-```
-26 COMPLETE NPCs with:
-✓ Full 2024 D&D rules stats
-✓ AC, HP, Proficiency, Skills, Saves
-✓ Weapons & Equipment from compendia
-✓ Spells (from dnd5e.spells/spells24)
-✓ Traits, Actions, Legendary Actions
-✓ Organized in temple-of-tiamat folder
-✓ Ready to drop into your campaign
-```
+✅ **WHEN DONE:** Actors folder now has 11 + 9 + 6 + 5 = 31 total
 
 ---
 
-## 📝 COMMON ISSUES
+## 📋 STEP 5: Create Full Tiamat (Clock 8 Final Form)
+
+**What gets created:**
+- **Tiamat** – CR 30, AC 25, HP 615
+  - Gargantuan fiend, five independent heads
+  - 5 breath weapons (one per color: acid, cold, fire, lightning, poison)
+  - 5 independent bite attacks with elemental damage
+  - Legendary Resistance 5/Day
+  - Multiple Heads trait (5 reactions per turn)
+  - Regeneration 30 HP/turn
+  - Frightful Presence (DC 26 WIS save)
+  - Divine traits: Innate Spellcasting (Divine Word 3/Day), Discorporation
+
+**Purpose:** Full Tiamat manifests at Clock 8 (end of ritual). This replaces the 5 individual heads and serves as the final phase boss.
+
+### DO THIS:
+
+1. **Open file:** `foundry-export/STEP5-create-tiamat-final.js`
+2. **Copy ENTIRE content**
+3. **In Foundry console:** Paste and press Enter
+4. **Wait for success message** showing "✓ TIAMAT CREATED"
+
+✅ **WHEN DONE:** Actors folder now has 11 + 9 + 6 + 5 + 1 = **32 COMPLETE NPCs**
+
+---
+
+## ✨ AFTER ALL STEPS – VERIFICATION
+
+### Check Your Actors Folder
+
+1. **Open Foundry → Actors**
+2. **Count:** Should see 32 total actors organized as:
+   - 11 Council members (Dagult, Ulder, Remallia, etc.)
+   - 9 Creatures (Air Elemental, Fire Elemental, golems, wight, cultists, barbed devil)
+   - 6 Antagonists (Naergoth, Severin, Rath Modar, Magus Thezzar, White Abishai, Black Abishai)
+   - 5 Tiamat Heads (Black, Blue, Green, Red, White)
+   - 1 Full Tiamat (CR 30)
+
+### Quick Spot-Check
+
+Open a few actors to verify stats are correct:
+
+- **Severin:** AC 16, HP 150, CHA 20, should have Draconic Majesty + 5 Legendary Resistances
+- **Rath Modar:** AC 16 (with mage armor), HP 71, should have legendary actions + spells
+- **Black Head:** AC 25, HP 195, should have Partial Manifestation trait + Acid Breath
+- **Tiamat:** AC 25, HP 615, should have 5 breath weapons + Regeneration 30
+
+### Check Item Tab for Each Actor
+
+- ✓ AC and HP show correctly
+- ✓ Ability scores visible
+- ✓ Skills and saves applied
+- ✓ Traits, actions, legendary actions, reactions appear as feat items
+- ✓ Icons display (not all gray defaults)
+
+---
+
+## 🎯 WHAT YOU NOW HAVE
+
+```
+32 COMPLETE NPCs with:
+✓ Full 2024 D&D 5e rules compliance
+✓ AC, HP, proficiency bonuses, skills, saves
+✓ All stats pulled from dnd5e compendia
+✓ Spells automatically linked from dnd5e spellcasting compendia
+✓ Weapons & equipment from compendia (no duplication)
+✓ Traits, actions, reactions, legendary actions as feat items
+✓ Custom icons matched from compendia where available
+✓ Ready for immediate use in combat
+
+CAMPAIGN READY:
+→ Council encounters (11 NPCs)
+→ Minion/creature combat (9 creatures)
+→ Boss encounters (6 antagonists)
+→ Ritual clock progression (5 heads → Clock 4–7)
+→ Final Tiamat fight (Clock 8)
+```
+
+---
+
+## 📝 TROUBLESHOOTING
 
 ### "Nothing happened after pasting"
-→ Make sure you're in the **Console tab** (not Elements or Network)
-→ Scroll down in console to see output
+- ✓ Make sure you're in the **Console tab** (not Elements or Network)
+- ✓ Try scrolling down in the console to see output
+- ✓ If still nothing, copy/paste again slowly
 
-### "Error: Pack not found"
-→ Your dnd5e system might not have all packs
-→ Check: Foundry Settings → System Settings → dnd5e version
-→ Should be 5.3.3+ for actors24 packs
+### "Error: Cannot read property 'name' of undefined"
+- This usually means a pack wasn't found
+- Check Foundry Settings → System Settings → dnd5e version
+- Should be **v5.3.3** or higher for all packs
+- Try reloading the world (F5) and re-running the step
 
-### "Some spells didn't add"
-→ Spell might be named differently in your spells pack
-→ Check console for which spells failed
-→ Can manually add via Items tab → Add from Compendium
+### "Some spells/items didn't add"
+- The script automatically searches compendia first
+- If a spell isn't found, it will log a warning but continue
+- You can manually add missing items via Items tab → Add from Compendium
 
-### "Some actors don't have weapons"
-→ Weapon might not be in items compendia
-→ Manual add: Open NPC → Items tab → Add from Compendium → Search weapon name
+### "Icons look wrong or generic"
+- Icons are pulled from compendia automatically
+- The script searches for matching icon files for each feature
+- Fallbacks use type-based icons (breath weapons → fire/elemental, shields, magic, etc.)
+- You can manually update icons by right-clicking feat items → Configure Icon
+
+### "Actors created but stats are incomplete"
+- All stats should be complete by design
+- Check that you're viewing the correct Attributes tab
+- Some stats appear in different places (Traits vs. Items tab)
+- Verify console had no error messages during import
 
 ---
 
-## 🎉 WHEN DONE
+## 🎉 READY TO PLAY
 
-Your Foundry world now has:
-- ✅ All Council of Waterdeep members
-- ✅ All creatures and minions
-- ✅ All major antagonists (Naergoth, Severin, Rath, etc.)
-- ✅ Full stats, spells, items, actions
+Your campaign now has:
+- ✅ **Council of Waterdeep** – All allied NPCs ready for war council
+- ✅ **Creature Encounters** – Golems, elementals, cultists for Temple combat
+- ✅ **Major Antagonists** – Naergoth, Severin, Rath Modar, and others with full mechanics
+- ✅ **Tiamat Progression** – 5 heads for early phases, full Tiamat for finale
+- ✅ **Complete Stats** – All 2024 D&D 5e rules, no manual entry needed
 
-**READY TO RUN SESSIONS!**
+**You can start encounters immediately. No further setup required.**
 
 ---
 
 ## FILE LOCATIONS
 
-- `foundry-export/STEP1-import-council.js` ← Open & copy
-- `foundry-export/STEP2-import-creatures.js` ← Open & copy
-- `foundry-export/STEP3-create-antagonists.js` ← Open & copy
+Copy these files in order:
+
+1. `foundry-export/STEP1-import-council.js` ← Council members
+2. `foundry-export/STEP2-import-creatures.js` ← Creatures & minions
+3. `foundry-export/STEP3-create-antagonists.js` ← Antagonist bosses
+4. `foundry-export/STEP4-create-tiamat-heads.js` ← Ritual clock heads
+5. `foundry-export/STEP5-create-tiamat-final.js` ← Full Tiamat (Clock 8)
+
+---
+
+## COMPENDIUM-FIRST ARCHITECTURE
+
+All scripts use a **compendium-first approach:**
+
+- ✓ All spells, items, weapons come from existing dnd5e compendia
+- ✓ No embedded items → no duplication
+- ✓ Icons automatically matched from compendia
+- ✓ Falls back gracefully if item not found
+- ✓ Searches: `dnd5e.actors24` → `dnd5e.items` → `dnd5e.creatures24` → all other packs
+
+This means:
+- Smaller file sizes
+- No outdated copies of spells
+- Links to your official compendia
+- Easy to update if compendia change
 
 ---
 
 **👉 START WITH STEP 1 NOW!** 🚀
+
+Paste each script in order. Takes ~15 minutes total. No manual editing required.
