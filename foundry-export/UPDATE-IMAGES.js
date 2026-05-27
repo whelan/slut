@@ -152,7 +152,7 @@ const IMAGE_MAP = {
     token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-token_circular.png"
   },
   "Tiamat": {
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-red-head_20260525_205023_1.png",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat.png",
     token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-red-head-token_circular.png"
   }
 };

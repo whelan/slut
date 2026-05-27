@@ -142,9 +142,7 @@ async function createTiamat(config, folder) {
     folder: folder.id,
     system: {
       attributes: {
-        ac: { flat: config.ac }
-      },
-      traits: {
+        ac: { flat: config.ac },
         hp: { value: config.hp, max: config.hp }
       },
       details: {
