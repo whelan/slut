@@ -1,14 +1,70 @@
 /**
- * STEP 2 FIXED - CREATE CREATURES FROM SCRATCH (9 NPCs)
+ * STEP 2 - IMPORT CREATURES (9 NPCs)
  *
- * This version creates all creatures with FULL stat blocks embedded
- * (no reliance on missing compendia packs)
+ * SEARCHES PACKS FIRST, then creates from embedded stat blocks if not found
  *
  * Copy entire content → Paste in Foundry Console (F12 > Console)
  * Press Enter
  */
 
-console.log("🧟 STEP 2: Creating Creatures (9 NPCs)\n");
+console.log("🧟 STEP 2: Importing/Creating Creatures (9 NPCs)\n");
+
+// Helper: Search for actor in all available packs
+async function findActorInPacks(creatureName) {
+  const searchName = creatureName.toLowerCase().trim();
+
+  // List of packs to search (in priority order)
+  const packsToSearch = [
+    "dnd5e.actors24",
+    "dnd5e.creatures24",
+    "dnd5e.creatures",
+    "dnd5e.actors",
+    "dnd5e.npc"
+  ];
+
+  // Search known packs first
+  for (const packId of packsToSearch) {
+    const pack = game.packs.get(packId);
+    if (!pack) continue;
+
+    const index = await pack.getIndex();
+    const found = index.find(e => e.name.toLowerCase().trim() === searchName);
+
+    if (found) {
+      console.log(`   ✓ Found "${creatureName}" in pack: ${packId}`);
+      return { packId, documentId: found._id };
+    }
+  }
+
+  // If not found in known packs, search ALL packs
+  for (const pack of game.packs) {
+    if (pack.metadata.type !== "Actor") continue;
+
+    const index = await pack.getIndex();
+    const found = index.find(e => e.name.toLowerCase().trim() === searchName);
+
+    if (found) {
+      console.log(`   ✓ Found "${creatureName}" in pack: ${pack.metadata.id}`);
+      return { packId: pack.metadata.id, documentId: found._id };
+    }
+  }
+
+  return null;
+}
+
+// Helper: Import actor from pack
+async function importActorFromPack(packId, documentId) {
+  const pack = game.packs.get(packId);
+  if (!pack) return null;
+
+  const actor = await pack.getDocument(documentId);
+  if (!actor) return null;
+
+  // Create a copy in the world
+  const actorData = actor.toObject();
+  delete actorData._id;
+  return await Actor.create(actorData);
+}
 
 // Helper: Create feat item for traits/actions
 function createFeatItem(name, description, icon = "icons/skills/toxins/poison-cloud-fumes-purple.webp") {
@@ -330,8 +386,9 @@ const CREATURES = [
   }
 ];
 
-// Create all creatures
+// Create all creatures (search packs first, then fallback to embedded data)
 async function createAllCreatures() {
+  let imported = 0;
   let created = 0;
   let failed = 0;
 
@@ -339,11 +396,27 @@ async function createAllCreatures() {
     console.log(`🧟 ${creatureData.name}...`);
 
     try {
+      // Step 1: Search packs
+      const found = await findActorInPacks(creatureData.name);
+
+      if (found) {
+        // Step 2: Import from pack
+        const imported_actor = await importActorFromPack(found.packId, found.documentId);
+        if (imported_actor) {
+          console.log(`   ✓ ${creatureData.name} imported from pack`);
+          imported++;
+          continue;
+        }
+      }
+
+      // Step 3: Fall back to creating from embedded data
+      console.log(`   ⚠ Not found in packs, creating from embedded data...`);
       await Actor.create(creatureData);
-      console.log(`   ✓ ${creatureData.name} created`);
+      console.log(`   ✓ ${creatureData.name} created from embedded data`);
       created++;
+
     } catch (error) {
-      console.error(`   ✗ Error creating ${creatureData.name}:`, error.message);
+      console.error(`   ✗ Error with ${creatureData.name}:`, error.message);
       failed++;
     }
   }
@@ -351,13 +424,14 @@ async function createAllCreatures() {
   console.log("\n╔════════════════════════════════════════════════════════╗");
   console.log("║  STEP 2 COMPLETE                                       ║");
   console.log("╚════════════════════════════════════════════════════════╝");
-  console.log(`\n✓ Created: ${created}/9`);
+  console.log(`\n✓ Imported from packs: ${imported}/9`);
+  console.log(`✓ Created from embedded: ${created}/9`);
 
-  if (created === 9) {
-    console.log("\n📋 All creatures created successfully!");
+  if (imported + created === 9) {
+    console.log("\n📋 All 9 creatures ready!");
     console.log("📋 NEXT STEP: Run STEP3-create-antagonists.js\n");
   } else {
-    console.log(`\n⚠️  ${failed} creatures failed to create. Check errors above.\n`);
+    console.log(`\n⚠️  ${failed} creatures failed. Check errors above.\n`);
   }
 }
 
