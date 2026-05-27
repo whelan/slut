@@ -76,50 +76,40 @@ async function createFolder() {
   return folder;
 }
 
-async function findIconFromCompendium(itemName) {
-  // Search for icon in compendium items that match feature name
-  const priorityPacks = ["dnd5e.items", "dnd5e.features24", "dnd5e.spells24"];
+function getFeatureIcon(featureName) {
+  const name = featureName.toLowerCase();
 
-  for (const packId of priorityPacks) {
-    const pack = game.packs.get(packId);
-    if (!pack) continue;
+  // Tiamat Specific Abilities
+  if (name.includes("discorporation")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/light/portal-swirl-blue.webp";
+  if (name.includes("innate spellcasting") || name.includes("divine word")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/light/projectile-beam-yellow.webp";
+  if (name.includes("legendary resistance")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("magic immunity") || name.includes("limited magic immunity")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("magic weapons")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("multiple heads")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/dragon-multi-head.webp";
+  if (name.includes("five draconic heads")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/dragon-multi-head.webp";
+  if (name.includes("regeneration")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/life/heart-plus-green.webp";
+  if (name.includes("frightful presence")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/death/fear-shadow-purple.webp";
 
-    const index = pack.index;
-    const entry = index.find(e => e.name.toLowerCase().includes(itemName.toLowerCase().split(' ')[0]));
+  // Attack & Combat
+  if (name.includes("multiattack")) return "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/blade-tips-triple-steel.webp";
+  if (name.includes("bite")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/mouth-teeth-long-red.webp";
+  if (name.includes("claw") || name.includes("claws")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/claws-red.webp";
+  if (name.includes("tail")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/tail-sharp-red.webp";
 
-    if (entry) {
-      try {
-        const item = await pack.getDocument(entry._id);
-        if (item.img) return item.img;
-      } catch (error) {
-        continue;
-      }
-    }
-  }
+  // Breath Weapons
+  if (name.includes("breath")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/fire/fireball-flame-ring-orange.webp";
+  if (name.includes("acid")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/water/water-splash-acid-green.webp";
+  if (name.includes("lightning")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/lightning/projectile-beam-yellow.webp";
+  if (name.includes("poison")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/death/poison-gas-cloud-gray.webp";
+  if (name.includes("fire")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/fire/fireball-flame-ring-orange.webp";
+  if (name.includes("cold")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/water/ice-shard-blue.webp";
 
-  // Fallback icons based on feature type
-  const featureLower = itemName.toLowerCase();
-  if (featureLower.includes("discorporation")) return "icons/magic/light/portal-swirl-blue.webp";
-  if (featureLower.includes("divine word")) return "icons/magic/light/projectile-beam-yellow.webp";
-  if (featureLower.includes("legendary resistance")) return "icons/magic/light/shield-blue.webp";
-  if (featureLower.includes("magic immunity")) return "icons/magic/protection/shield-circle-glowing-blue.webp";
-  if (featureLower.includes("multiple heads")) return "icons/creatures/abilities/dragon-multi-head.webp";
-  if (featureLower.includes("regeneration")) return "icons/magic/life/heart-plus-green.webp";
-  if (featureLower.includes("breath")) return "icons/magic/fire/fireball-flame-ring-orange.webp";
-  if (featureLower.includes("acid")) return "icons/magic/water/wave-water-acid-splash.webp";
-  if (featureLower.includes("lightning")) return "icons/magic/lightning/projectile-beam-yellow.webp";
-  if (featureLower.includes("poison")) return "icons/magic/death/poison-gas-cloud-gray.webp";
-  if (featureLower.includes("fire")) return "icons/magic/fire/fireball-flame-ring-orange.webp";
-  if (featureLower.includes("cold")) return "icons/magic/water/ice-shard-blue.webp";
-  if (featureLower.includes("frightful")) return "icons/magic/death/fear-shadow-purple.webp";
-  if (featureLower.includes("bite") || featureLower.includes("claw")) return "icons/skills/melee/hand-daggers-yellow.webp";
-  if (featureLower.includes("multiattack")) return "icons/skills/melee/multiple-strikes-orange.webp";
-
-  return "icons/skills/social/awareness-perception.webp"; // Default fallback
+  // Default
+  return "https://assets.forge-vtt.com/bazaar/core/icons/skills/social/awareness-perception.webp";
 }
 
 async function addFeature(actor, feature) {
-  const icon = await findIconFromCompendium(feature.name);
+  const icon = getFeatureIcon(feature.name);
 
   const featureData = {
     name: feature.name,

@@ -66,8 +66,48 @@ async function importActorFromPack(packId, documentId) {
   return await Actor.create(actorData);
 }
 
+// Helper: Get icon for feature/action
+function getFeatureIcon(featureName) {
+  const name = featureName.toLowerCase();
+
+  // Attack & Combat
+  if (name.includes("multiattack")) return "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/blade-tips-triple-steel.webp";
+  if (name.includes("bite")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/mouth-teeth-long-red.webp";
+  if (name.includes("claw") || name.includes("claws")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/claws-red.webp";
+  if (name.includes("tail")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/tail-sharp-red.webp";
+  if (name.includes("slam")) return "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/fist-raised-red.webp";
+  if (name.includes("touch")) return "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-daggers-yellow.webp";
+
+  // Breath Weapons
+  if (name.includes("breath")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/fire/fireball-flame-ring-orange.webp";
+  if (name.includes("acid")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/water/water-splash-acid-green.webp";
+  if (name.includes("fire")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/fire/fireball-flame-ring-orange.webp";
+  if (name.includes("cold") || name.includes("ice")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/water/ice-shard-blue.webp";
+  if (name.includes("lightning")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/lightning/projectile-beam-yellow.webp";
+  if (name.includes("poison")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/death/poison-gas-cloud-gray.webp";
+
+  // Abilities
+  if (name.includes("immutable") || name.includes("form")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("magic resistance")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("magic weapons")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("regeneration")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/life/heart-plus-green.webp";
+  if (name.includes("legendary resistance")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("sunlight sensitivity")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/light/projectile-beam-yellow.webp";
+  if (name.includes("undead fortitude")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/death/death-wave-black.webp";
+  if (name.includes("life drain")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/death/death-wave-black.webp";
+  if (name.includes("transparency")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-purple.webp";
+  if (name.includes("slow")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("haste")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/abjuration/shield-barrier-blue.webp";
+  if (name.includes("spellcasting")) return "https://assets.forge-vtt.com/bazaar/core/icons/magic/light/projectile-beam-yellow.webp";
+  if (name.includes("barbed hide") || name.includes("reactive")) return "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/claws-red.webp";
+
+  // Default
+  return "https://assets.forge-vtt.com/bazaar/core/icons/skills/social/awareness-perception.webp";
+}
+
 // Helper: Create feat item for traits/actions
-function createFeatItem(name, description, icon = "icons/skills/toxins/poison-cloud-fumes-purple.webp") {
+function createFeatItem(name, description) {
+  const icon = getFeatureIcon(name);
   return {
     name: name,
     type: "feat",
