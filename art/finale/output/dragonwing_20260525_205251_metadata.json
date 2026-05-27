@@ -1,0 +1,13 @@
+{
+  "title": "dragonwing",
+  "timestamp": "20260525_205251",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/33-dragonwing-portrait.md",
+  "outputs": [
+    "art/finale/output/dragonwing_20260525_205251_1.png"
+  ]
+}

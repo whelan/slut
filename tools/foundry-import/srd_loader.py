@@ -19,14 +19,39 @@ class SRDLoader:
     """Parse named creatures from the local SRD reference."""
 
     def __init__(self, repo_root: str):
-        self.repo_root = Path(repo_root)
-        self.srd_path = self.repo_root / SRD_PATH
+        self.repo_root = Path(repo_root).resolve()
+        self.srd_path = self._find_srd_file()
         self._content: Optional[str] = None
+
+    def _find_srd_file(self) -> Path:
+        """Search for SRD file, walking upward if needed from input directory."""
+        # First try relative to repo_root
+        srd_path = self.repo_root / SRD_PATH
+        if srd_path.exists():
+            return srd_path
+
+        # Walk upward from repo_root to find .agents/skills/dnd5e-2024-srd
+        current = self.repo_root
+        for _ in range(10):  # Limit search depth
+            parent = current.parent
+            if parent == current:  # Hit filesystem root
+                break
+            srd_path = parent / SRD_PATH
+            if srd_path.exists():
+                return srd_path
+            current = parent
+
+        # Fallback: return the expected path (error will be raised in _load)
+        return self.repo_root / SRD_PATH
 
     def _load(self) -> str:
         if self._content is None:
             if not self.srd_path.exists():
-                raise FileNotFoundError(f"SRD file not found: {self.srd_path}")
+                raise FileNotFoundError(
+                    f"SRD file not found: {self.srd_path}\n"
+                    f"Make sure you have the D&D 5e 2024 SRD installed in .agents/skills/\n"
+                    f"Or run from the campaign root directory where .agents/ exists"
+                )
             self._content = self.srd_path.read_text(encoding='utf-8')
         return self._content
 
@@ -119,6 +144,9 @@ class SRDLoader:
         if not table_match:
             return result
         table = table_match.group(1)
+        # Normalize the Unicode minus sign (U+2212) to ASCII hyphen-minus so
+        # negative modifiers like "−2" are parsed (the SRD uses U+2212).
+        table = table.replace('−', '-')
         # Extract all numeric values from <td>X</td>
         numbers = re.findall(r'<td>([+-]?\d+)</td>', table)
         # Pattern: value, mod, save × 6 abilities

@@ -68,8 +68,18 @@ def generate_tokens(
             output = ImageOps.fit(img_square, (size, size), centering=(0.5, 0.5))
             output.putalpha(mask)
 
-            # Add border
-            bordered = Image.new("RGBA", (size + border_width * 2, size + border_width * 2), border_color + (255,))
+            # Create transparent background with brown border circle
+            total_size = size + border_width * 2
+            bordered = Image.new("RGBA", (total_size, total_size), (0, 0, 0, 0))
+
+            # Draw brown border circle
+            border_draw = ImageDraw.Draw(bordered)
+            border_draw.ellipse(
+                (border_width - 1, border_width - 1, total_size - border_width, total_size - border_width),
+                fill=border_color + (255,)
+            )
+
+            # Paste the circular portrait on top
             bordered.paste(output, (border_width, border_width), output)
 
             # Save token

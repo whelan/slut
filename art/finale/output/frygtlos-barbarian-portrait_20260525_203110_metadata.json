@@ -1,0 +1,13 @@
+{
+  "title": "frygtlos-barbarian-portrait",
+  "timestamp": "20260525_203110",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/03-frygtlos-barbarian-portrait.md",
+  "outputs": [
+    "art/finale/output/frygtlos-barbarian-portrait_20260525_203110_1.png"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "twilight-ventress-bard-portrait",
+  "timestamp": "20260525_203135",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/04-twilight-ventress-bard-portrait.md",
+  "outputs": [
+    "art/finale/output/twilight-ventress-bard-portrait_20260525_203135_1.png"
+  ]
+}

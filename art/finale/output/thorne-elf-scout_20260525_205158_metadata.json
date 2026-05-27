@@ -1,0 +1,13 @@
+{
+  "title": "thorne-elf-scout",
+  "timestamp": "20260525_205158",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/27-thorne-elf-scout-portrait.md",
+  "outputs": [
+    "art/finale/output/thorne-elf-scout_20260525_205158_1.png"
+  ]
+}

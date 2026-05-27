@@ -14,6 +14,7 @@ from test_macro_builder import build_test_macro
 from enemy_builder import EnemyBuilder
 from asset_linker import AssetLinker, SpellItemGenerator
 from url_loader import load_url_mapping
+from severin_builder import build_severin
 
 
 class CampaignConverter:
@@ -54,11 +55,17 @@ class CampaignConverter:
         for npc in npc_result['npcs']:
             biography = self._pages_to_biography(npc.get('journal_pages', []))
             raw_content = npc.get('raw_content', '')
-            actor = self.stat.to_foundry_npc(
-                name=npc['name'],
-                content=raw_content,
-                biography=biography,
-            )
+
+            # Severin is the final boss - use the dedicated uber-builder that
+            # captures his full 2024 stat block (the generic parser cannot).
+            if npc['name'].split('–')[0].strip() == 'Severin':
+                actor = build_severin()
+            else:
+                actor = self.stat.to_foundry_npc(
+                    name=npc['name'],
+                    content=raw_content,
+                    biography=biography,
+                )
             self._apply_actor_assets(actor, raw_content)
             self.actors.append(actor)
 
@@ -181,10 +188,18 @@ class CampaignConverter:
         )
 
     def write_test_macro(self, output_dir: str) -> str:
-        """Generate minimal test macro with single NPC."""
+        """Generate minimal test macro with single NPC.
+
+        Loads image-urls.json if present to apply Forge VTT asset URLs.
+        """
+        url_mapping = load_url_mapping(output_dir)
+        if url_mapping:
+            print("✓ Loaded image-urls.json with Forge VTT asset URLs")
+
         return build_test_macro(
             output_dir=output_dir,
             actors=self.actors,
+            url_mapping=url_mapping,
         )
 
     def _ritual_clock_journal(self) -> Dict[str, Any]:
@@ -249,7 +264,11 @@ class CampaignConverter:
         return self.parser._markdown_to_html(markdown_text)
 
     def _apply_actor_assets(self, actor: Dict[str, Any], raw_content: str = '') -> None:
-        """Apply artwork and spells to an actor."""
+        """Apply artwork to an actor.
+
+        NOTE: Spells are no longer embedded. Users should add them from their
+        existing Foundry compendia after import.
+        """
         # Apply token artwork
         actor_name = actor.get('name', '')
         if self.linker:
@@ -259,21 +278,6 @@ class CampaignConverter:
                 if 'prototypeToken' in actor:
                     actor['prototypeToken']['texture']['src'] = token_art
 
-        # Extract spells from raw content (markdown) or biography (HTML)
-        spells = set()
-        if raw_content:
-            spells.update(SpellItemGenerator.extract_spells_from_biography(raw_content))
-
-        biography = actor.get('system', {}).get('details', {}).get('biography', {}).get('value', '')
-        if biography:
-            spells.update(SpellItemGenerator.extract_spells_from_biography(biography))
-
-        if spells:
-            if 'items' not in actor:
-                actor['items'] = []
-
-            for spell_name in sorted(spells):
-                spell_item = SpellItemGenerator.make_spell_item(spell_name)
-                if spell_item:
-                    spell_item['_id'] = new_id()
-                    actor['items'].append(spell_item)
+        # Spells are no longer embedded - users should add them from compendia
+        # This was removed to avoid duplication with existing Foundry spell compendia
+        return

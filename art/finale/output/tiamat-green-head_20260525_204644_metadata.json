@@ -1,0 +1,13 @@
+{
+  "title": "tiamat-green-head",
+  "timestamp": "20260525_204644",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/22-tiamat-green-head-portrait.md",
+  "outputs": [
+    "art/finale/output/tiamat-green-head_20260525_204644_1.png"
+  ]
+}

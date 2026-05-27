@@ -1,0 +1,13 @@
+{
+  "title": "tiamat-white-head",
+  "timestamp": "20260525_204536",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/20-tiamat-white-head-portrait.md",
+  "outputs": [
+    "art/finale/output/tiamat-white-head_20260525_204536_1.png"
+  ]
+}

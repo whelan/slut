@@ -1,0 +1,13 @@
+{
+  "title": "axar-runes-wizard-portrait",
+  "timestamp": "20260525_203002",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/01-axar-runes-wizard-portrait.md",
+  "outputs": [
+    "art/finale/output/axar-runes-wizard-portrait_20260525_203002_1.png"
+  ]
+}

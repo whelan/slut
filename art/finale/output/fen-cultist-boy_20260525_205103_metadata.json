@@ -1,0 +1,13 @@
+{
+  "title": "fen-cultist-boy",
+  "timestamp": "20260525_205103",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/29-fen-cultist-boy-portrait.md",
+  "outputs": [
+    "art/finale/output/fen-cultist-boy_20260525_205103_1.png"
+  ]
+}

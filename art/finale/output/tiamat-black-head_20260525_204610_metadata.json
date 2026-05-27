@@ -1,0 +1,13 @@
+{
+  "title": "tiamat-black-head",
+  "timestamp": "20260525_204610",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/21-tiamat-black-head-portrait.md",
+  "outputs": [
+    "art/finale/output/tiamat-black-head_20260525_204610_1.png"
+  ]
+}

@@ -1,5 +1,6 @@
 """Build Foundry actor JSON from the enemy roster (SRD + homebrew + prisoners)."""
 
+import re
 from typing import Any, Dict, List
 
 from enemy_roster import SRD_CREATURES, HOMEBREW_CREATURES, NAMED_PRISONERS
@@ -61,6 +62,21 @@ class EnemyBuilder:
             print(f"    + {prisoner['name']} (NPC: prisoner)")
         return actors
 
+    def _sanitize_hp_formula(self, formula: str) -> str:
+        """Validate HP formula - only allow valid dice notation.
+
+        Returns empty string if formula contains invalid characters.
+        Valid formulas: digits, d, +, -, *, /, %, spaces, parentheses.
+        """
+        if not formula:
+            return ''
+        formula = formula.strip()
+        # Only allow valid dice notation
+        if re.match(r'^[\d\+\-\*/%\s()d]+$', formula, re.IGNORECASE):
+            return formula
+        # Invalid formula (e.g., "shared with Tiamat pool") - reject it
+        return ''
+
     def _homebrew_to_actor(self, hb: Dict[str, Any]) -> Dict[str, Any]:
         # Build abilities
         abilities = _default_abilities()
@@ -103,7 +119,7 @@ class EnemyBuilder:
                     'ac': {'flat': hb['ac'], 'calc': 'flat', 'formula': ''},
                     'hp': {
                         'value': hb['hp_value'], 'max': hb['hp_value'],
-                        'formula': hb.get('hp_formula', ''),
+                        'formula': self._sanitize_hp_formula(hb.get('hp_formula', '')),
                         'temp': 0, 'tempmax': 0,
                     },
                     'init': {'ability': 'dex', 'bonus': ''},

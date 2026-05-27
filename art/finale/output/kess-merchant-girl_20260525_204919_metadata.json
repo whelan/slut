@@ -1,0 +1,13 @@
+{
+  "title": "kess-merchant-girl",
+  "timestamp": "20260525_204919",
+  "size": "1024x1536",
+  "quality": "medium",
+  "n": 1,
+  "has_instructions": false,
+  "references": [],
+  "source": "art/finale/26-kess-merchant-girl-portrait.md",
+  "outputs": [
+    "art/finale/output/kess-merchant-girl_20260525_204919_1.png"
+  ]
+}
