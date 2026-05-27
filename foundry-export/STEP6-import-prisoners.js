@@ -78,7 +78,7 @@ async function createStirling() {
         hp: { value: 24, max: 24 }
       },
       details: {
-        biography: { value: "Red-haired dwarf, guard captain from Baldur's Gate. Military leader, tactical mind. Can command freed prisoners and provide combat support." },
+        biography: { value: "Red-haired dwarf, guard captain from Baldur's Gate. Military leader, tactical mind. Can command freed prisoners and provide combat support. 2024 D&D 5e compliant." },
         level: 5,
         cr: 0.25,
         race: "Dwarf",
@@ -97,9 +97,9 @@ async function createStirling() {
         cha: { value: 14 }
       },
       skills: {
-        ath: { value: 1, ability: "str", prof: 1 },
-        ins: { value: 0, ability: "wis", prof: 0 },
-        prc: { value: 0, ability: "wis", prof: 0 }
+        ath: { value: 2, ability: "str", prof: 1 }, // STR +3 + Prof +3 = +6
+        ins: { value: 1, ability: "wis", prof: 1 }, // WIS +1 + Prof +3 = +4
+        prc: { value: 1, ability: "wis", prof: 1 }  // WIS +1 + Prof +3 = +4
       },
       traits: {
         weaponProfs: { value: ["simple", "martial"] }
@@ -160,7 +160,7 @@ async function createKess() {
         hp: { value: 16, max: 16 }
       },
       details: {
-        biography: { value: "Young woman, merchant's daughter from Waterdeep. Captured 2 months ago. Information broker, observant, provides morale support. Knowledge of trade routes and merchant networks." },
+        biography: { value: "Young woman, merchant's daughter from Waterdeep. Captured 2 months ago. Information broker, observant, provides morale support. Knowledge of trade routes and merchant networks. 2024 D&D 5e compliant." },
         level: 3,
         cr: 0.125,
         race: "Human",
@@ -179,8 +179,8 @@ async function createKess() {
         cha: { value: 15 }
       },
       skills: {
-        dec: { value: 1, ability: "cha", prof: 1 },
-        slt: { value: 1, ability: "dex", prof: 1 },
+        dec: { value: 2, ability: "cha", prof: 1 }, // CHA +2 + Prof +2 (doubled by expertise) = +6
+        slt: { value: 2, ability: "dex", prof: 1 }, // DEX +2 + Prof +2 (doubled by expertise) = +6
         ins: { value: 0, ability: "wis", prof: 0 },
         prc: { value: 0, ability: "wis", prof: 0 }
       }
@@ -236,7 +236,7 @@ async function createThorne() {
         hp: { value: 28, max: 28 }
       },
       details: {
-        biography: { value: "Elf ranger, Harper scout. Was surveying Well of Dragons when captured. Strategic, quiet, dangerous. Can provide tactical intelligence and combat support. Darkvision 120 ft." },
+        biography: { value: "Elf ranger, Harper scout. Was surveying Well of Dragons when captured. Strategic, quiet, dangerous. Can provide tactical intelligence and combat support. Darkvision 120 ft. 2024 D&D 5e compliant." },
         level: 4,
         cr: 0.5,
         race: "High Elf",
@@ -244,7 +244,7 @@ async function createThorne() {
       },
       traits: {
         languages: { value: ["common", "elvish"] },
-        senses: "darkvision 120 ft., passive perception 15"
+        senses: "darkvision 120 ft., passive perception 14"
       },
       abilities: {
         str: { value: 11 },
@@ -255,9 +255,9 @@ async function createThorne() {
         cha: { value: 10 }
       },
       skills: {
-        prc: { value: 2, ability: "wis", prof: 1 },
-        ste: { value: 2, ability: "dex", prof: 1 },
-        sur: { value: 1, ability: "wis", prof: 0 }
+        prc: { value: 1, ability: "wis", prof: 1 }, // WIS +2 + Prof +2 = +4
+        ste: { value: 2, ability: "dex", prof: 1 }, // DEX +3 + Prof +2 = +5
+        sur: { value: 1, ability: "wis", prof: 0 }  // WIS +2 + Prof +2 = +4
       }
     },
     items: [
@@ -310,7 +310,7 @@ async function createMarta() {
         hp: { value: 36, max: 36 }
       },
       details: {
-        biography: { value: "Half-orc farmwoman, mother. Captured with family; children taken. Grief-stricken but dangerous when motivated by vengeance. Will fight for those who help her find her children. Strongest freed prisoner physically." },
+        biography: { value: "Half-orc farmwoman, mother. Captured with family; children taken. Grief-stricken but dangerous when motivated by vengeance. Will fight for those who help her find her children. Strongest freed prisoner physically. 2024 D&D 5e compliant." },
         level: 4,
         cr: 0.5,
         race: "Half-Orc",
@@ -329,7 +329,7 @@ async function createMarta() {
         cha: { value: 10 }
       },
       skills: {
-        ath: { value: 1, ability: "str", prof: 0 },
+        ath: { value: 1, ability: "str", prof: 0 }, // STR +3 + Prof +2 = +5
         ani: { value: 0, ability: "wis", prof: 0 },
         sur: { value: 0, ability: "wis", prof: 0 }
       }

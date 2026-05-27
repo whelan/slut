@@ -27,12 +27,12 @@ These five prisoners are bound for ritual execution but can be rescued/freed by 
 |---|---|---|---|---|---|
 | 16 (+3) | 10 (+0) | 14 (+2) | 12 (+1) | 13 (+1) | 14 (+2) |
 
-**Proficiency Bonus:** +2
+**Proficiency Bonus:** +3
 
 ### Skills & Saves
 
-- **Skills:** Athletics +5, Insight +3, Perception +3
-- **Saves:** STR +5, CON +2
+- **Skills:** Athletics +6, Insight +4, Perception +4
+- **Saves:** STR +6, CON +2
 
 ### Resistances & Immunities
 
@@ -55,22 +55,22 @@ Common, Dwarvish
 **Military Leadership**
 Stirling spent 20 years as captain of Baldur's Gate's militia before the caravan raid. If freed and conscious, he can use his action to grant one ally within 30 ft. advantage on their next attack roll or saving throw this turn.
 
-**Battle Scars**
-Stirling bears marks of torture: burns on his forearms, a deep cut across his left shoulder. He moves with controlled pain but doesn't complain. When initiative is rolled in combat, Stirling can choose to go first (override normal initiative) if an ally is in immediate danger.
+**Battle Scars (Tactical Vigilance)**
+Scarred from torture, Stirling has learned to spot danger early. When rolling initiative, if any conscious ally is within 30 feet and Stirling rolled lower than their initiative, Stirling can choose to use his ally's initiative result instead (moving to act at the same time). This represents his protective instinct kicking in. He can use this once per combat.
 
 **Desperate Resolve**
-While Stirling has only 24 HP, his effective HP for death saves is increased by 10 (to 34 effective) due to his sheer stubborn will. He will not fall without fighting.
+Through sheer willpower, Stirling gains resistance to necrotic damage and advantage on saving throws against being frightened. When he drops to 0 HP, he can immediately make a death save (before other creatures take turns). If successful, he stays conscious at 1 HP but is unconscious on the next failed death save.
 
 ---
 
 ### Actions
 
 **Greataxe** (if weapon acquired)
-- *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target
-- *Hit:* 9 (1d12 + 3) slashing damage
+- *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target
+- *Hit:* 10 (1d12 + 3) slashing damage
 
 **Second Wind** (Fighter feature, 3/day)
-Stirling can use a bonus action to regain 1d10 + 5 HP (or 1d10 if the second wind is granted by another fighter).
+Stirling can use a bonus action to regain 1d10 + 2 HP.
 
 ---
 
@@ -140,7 +140,7 @@ If armed with a weapon:
 
 ### Skills & Saves
 
-- **Skills:** Deception +4, Insight +2, Perception +2, Sleight of Hand +4
+- **Skills:** Deception +6 (expertise), Insight +2, Perception +2, Sleight of Hand +6 (expertise)
 - **Saves:** DEX +2
 
 ### Senses
@@ -249,7 +249,7 @@ If the party mentions Waterdeep, trading, or family, Kess opens up about her fam
 
 ### Skills & Saves
 
-- **Skills:** Perception +5, Stealth +5, Survival +4
+- **Skills:** Perception +4, Stealth +5, Survival +4
 - **Saves:** STR +1, DEX +3
 
 ### Resistances & Immunity
@@ -260,7 +260,7 @@ If the party mentions Waterdeep, trading, or family, Kess opens up about her fam
 
 ### Senses
 
-- Passive Perception 15
+- Passive Perception 14
 
 ### Languages
 
@@ -280,7 +280,7 @@ Thorne has advantage on attack rolls during its first turn of combat. If Thorne 
 If Thorne is subjected to an effect that allows a Dexterity saving throw to take only half damage, Thorne instead takes no damage if successful, half damage if failed.
 
 **Spellcasting**
-Thorne is a 4th-level spellcaster with a spellcasting ability of Wisdom (spell save DC 13, +5 to hit with spell attacks).
+Thorne is a 4th-level spellcaster with a spellcasting ability of Wisdom (spell save DC 12, +4 to hit with spell attacks).
 
 **Spells Prepared (limited due to imprisonment):**
 - *Cantrips:* Vicious Mockery, Produce Flame
@@ -301,7 +301,7 @@ If he can fashion a weapon or acquire a crossbow:
 - *Hit:* 6 (1d4 + 3) + 1d8 damage (Dread Ambusher)
 
 **Vicious Mockery** (Cantrip)
-Thorne can insult an enemy within 60 feet. Target makes a WIS save DC 13 or takes 1d4 psychic damage and has disadvantage on its next attack roll before the end of its next turn.
+Thorne can insult an enemy within 60 feet. Target makes a WIS save DC 12 or takes 1d4 psychic damage and has disadvantage on its next attack roll before the end of its next turn.
 
 ---
 
@@ -419,7 +419,7 @@ Marta has a daughter and son (both taken by cultists, fate unknown). If she lear
 - *Hit:* 7 (1d8 + 3) bludgeoning damage, plus 1d6 necrotic (Divine Fury)
 
 **Intimidate**
-Marta can use her action to attempt to frighten a target within 30 feet who can see her. Target makes a WIS save DC 13. On a failure, the target is Frightened for 1 minute.
+Marta can use her action to attempt to frighten a target within 30 feet who can see her. Target makes a WIS save DC 10. On a failure, the target is Frightened for 1 minute. If frightened, the target has disadvantage on the next attack roll or saving throw before the end of its next turn.
 
 ---
 
