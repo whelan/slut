@@ -46,100 +46,146 @@ const ANTAGONISTS_DETAILED = {
 
   "Severin": {
     type: "npc",
-    cr: 6,
-    ac: 15,
-    hp: 110,
-    abilities: { str: 10, dex: 14, con: 14, int: 13, wis: 11, cha: 16 },
-    skills: { arcana: 4, deception: 5, insight: 3, persuasion: 5 },
-    savingThrows: { cha: 5, int: 4 },
+    cr: 11,
+    ac: 16,
+    hp: 150,
+    abilities: { str: 12, dex: 14, con: 14, int: 14, wis: 11, cha: 20 },
+    skills: { arcana: 4, deception: 7, insight: 3, persuasion: 7 },
+    savingThrows: { int: 4, wis: 3, cha: 7 },
     resistances: ["Fire"],
     immunities: [],
     conditionImmunities: [],
-    spells: ["Fire Bolt", "Mage Hand", "Prestidigitation", "Burning Hands", "Chromatic Orb", "Disguise Self", "Magic Missile", "Fireball", "Fly"],
+    spells: ["Fire Bolt", "Mage Hand", "Prestidigitation", "Burning Hands", "Chromatic Orb", "Disguise Self", "Magic Missile", "Scorching Ray", "Fireball", "Fly", "Counterspell", "Dimension Door", "Polymorph", "Immolation"],
     traits: [
-      { name: "Legendary Resistance (3/Day)", desc: "If Severin fails a saving throw, he can choose to succeed instead." },
-      { name: "Spellcasting", desc: "Severin is a 6th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +5 to hit with spell attacks). He can cast fireball at will." },
-      { name: "Red Wizard", desc: "Severin has advantage on saving throws against spells and magical effects." }
+      { name: "Legendary Resistance (5/Day)", desc: "If Severin fails a saving throw, he can choose to succeed instead." },
+      { name: "Draconic Majesty", desc: "Creatures of Severin's choice that are within 120 feet of Severin and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Severin's Draconic Majesty for the next 24 hours." },
+      { name: "Damage Absorption (Draconic Heritage)", desc: "Whenever Severin is subjected to damage of a type he has a resistance to, he takes half damage and regains hit points equal to the half damage." },
+      { name: "Dragon Breath", desc: "Severin is one of the Masked Lords and can breathe draconic fire." },
+      { name: "Dragon Fire", desc: "Severin's spellcasting focuses on fire and draconic magic." },
+      { name: "Spellcasting", desc: "Severin is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 17, +7 to hit with spell attacks). He has the following spells prepared: cantrips (at will) - fire bolt, mage hand, prestidigitation; 1st level (4 slots) - burning hands, chromatic orb, magic missile, disguise self; 2nd level (3 slots) - scorching ray, misty step; 3rd level (3 slots) - fireball, fly, counterspell; 4th level (2 slots) - dimension door, polymorph; 5th level (1 slot) - immolation; 6th level (1 slot) - chain lightning." }
     ],
     actions: [
       { name: "Multiattack", desc: "Severin uses Spellcasting twice or makes two dagger attacks." },
-      { name: "Dagger", desc: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4+1) piercing damage." }
+      { name: "Fire Breath (Recharge 5-6)", desc: "Severin exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much on a successful one." },
+      { name: "Burning Touch", desc: "Melee Spell Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8+4) fire damage." },
+      { name: "Dagger", desc: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4+1) piercing damage." }
+    ],
+    reactions: [
+      { name: "Counterspell", desc: "When a creature Severin can see casts a spell within 60 feet, he can use his reaction to force the caster to make a DC 17 Intelligence saving throw. On a failed save, the spell fails and is wasted." },
+      { name: "Shield", desc: "When Severin is hit by an attack while he has spells available, he can use his reaction to gain a +5 bonus to AC against that attack." },
+      { name: "Elemental Deflection (3/Day)", desc: "When Severin takes acid, cold, fire, lightning, or thunder damage, he can use his reaction to gain resistance to that damage type until the end of his next turn." }
     ],
     legendaryActions: [
-      { name: "Move", desc: "Severin moves up to his speed." },
-      { name: "Cantrip", desc: "Severin casts a cantrip." },
-      { name: "Cast Spell (Costs 2 Actions)", desc: "Severin casts a spell of 2nd level or lower." }
+      { name: "Move", desc: "Severin moves up to his speed without provoking opportunity attacks." },
+      { name: "Cast Cantrip", desc: "Severin casts a cantrip." },
+      { name: "Cast Spell (Costs 2 Actions)", desc: "Severin casts a spell of 4th level or lower." },
+      { name: "Teleport (Costs 3 Actions)", desc: "Severin magically teleports up to 60 feet to an unoccupied space he can see." }
+    ],
+    lairActions: [
+      { name: "Summon Elemental Force", desc: "Severin summons a fire elemental in an unoccupied space within 60 feet. The elemental acts on its own initiative and obeys Severin's commands." },
+      { name: "Arcane Displacement", desc: "Severin magically teleports up to 60 feet to an unoccupied space he can see, or a creature he can see within 60 feet must succeed on a DC 17 Charisma saving throw or be pushed 15 feet away from him." },
+      { name: "Infernal Chains (Costs 2 Actions)", desc: "Severin targets a creature he can see within 60 feet. The target must succeed on a DC 17 Strength saving throw or become restrained by magical chains until the end of its next turn." }
     ]
   },
 
   "Rath Modar": {
     type: "npc",
-    cr: 3,
-    ac: 12,
-    hp: 40,
-    abilities: { str: 9, dex: 10, con: 11, int: 16, wis: 12, cha: 13 },
-    skills: { arcana: 5, deception: 3, insight: 3 },
-    savingThrows: { int: 5, wis: 3 },
-    resistances: [],
+    cr: 6,
+    ac: 13,
+    hp: 71,
+    abilities: { str: 9, dex: 10, con: 11, int: 18, wis: 12, cha: 13 },
+    skills: { arcana: 6, deception: 3, insight: 3, investigation: 6 },
+    savingThrows: { int: 6, wis: 3 },
+    resistances: ["Fire"],
     immunities: [],
     conditionImmunities: [],
-    spells: ["Acid Splash", "Fire Bolt", "Mage Hand", "Magic Missile", "Cone of Cold", "Misty Step", "Scorching Ray"],
+    spells: ["Acid Splash", "Fire Bolt", "Light", "Mage Hand", "Magic Missile", "Burning Hands", "Chromatic Orb", "Magic Missile", "Scorching Ray", "Fireball", "Cone of Cold", "Counterspell", "Misty Step", "Dimension Door", "Lightning Bolt", "Mass Suggestion"],
     traits: [
-      { name: "Spellcasting", desc: "Rath Modar is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks)." },
-      { name: "Red Wizard", desc: "Rath Modar is a Red Wizard of Thay, specializing in transmutation magic." }
+      { name: "Legendary Resistance (3/Day)", desc: "If Rath fails a saving throw, he can choose to succeed instead." },
+      { name: "Red Wizard Transmuter", desc: "Rath Modar is an 11th-level spellcaster and senior Red Wizard of Thay. His spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). He has the following spells prepared: cantrips (at will) - acid splash, fire bolt, light, mage hand; 1st level (4 slots) - burning hands, chromatic orb, magic missile, identify; 2nd level (3 slots) - scorching ray, misty step; 3rd level (3 slots) - fireball, counterspell; 4th level (2 slots) - dimension door, polymorph; 5th level (1 slot) - cone of cold; 6th level (1 slot) - mass suggestion." },
+      { name: "Magic Resistance", desc: "Rath has advantage on saving throws against spells and magical effects." }
     ],
     actions: [
-      { name: "Dagger", desc: "Melee or Ranged Weapon Attack: +1 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage." }
+      { name: "Multiattack", desc: "Rath makes two dagger attacks or uses Spellcasting twice." },
+      { name: "Dagger", desc: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage." }
+    ],
+    reactions: [
+      { name: "Counterspell", desc: "When a creature Rath can see casts a spell within 60 feet, he can use his reaction to force the caster to make a DC 14 Intelligence saving throw. On a failed save, the spell fails and is wasted." }
+    ],
+    legendaryActions: [
+      { name: "Move", desc: "Rath moves up to his speed without provoking opportunity attacks." },
+      { name: "Cast Cantrip", desc: "Rath casts a cantrip." },
+      { name: "Cast Spell (Costs 2 Actions)", desc: "Rath casts a spell of 3rd level or lower." },
+      { name: "Teleport (Costs 2 Actions)", desc: "Rath magically teleports up to 60 feet to an unoccupied space he can see." }
+    ],
+    lairActions: [
+      { name: "Summon Ally (Costs 1 Action)", desc: "Rath summons a cultist or fire elemental in an unoccupied space within 60 feet." },
+      { name: "Arcane Displacement (Costs 1 Action)", desc: "Rath magically teleports up to 30 feet to an unoccupied space he can see." },
+      { name: "Cast Spell (Costs 1 Action)", desc: "Rath casts a spell of 3rd level or lower." }
     ]
   },
 
   "Magus Thezzar": {
     type: "npc",
-    cr: 8,
-    ac: 13,
-    hp: 99,
-    abilities: { str: 9, dex: 11, con: 13, int: 17, wis: 13, cha: 14 },
-    skills: { arcana: 6, deception: 4, insight: 4, persuasion: 4 },
+    cr: 5,
+    ac: 15,
+    hp: 77,
+    abilities: { str: 9, dex: 11, con: 13, int: 18, wis: 13, cha: 14 },
+    skills: { arcana: 6, deception: 4, insight: 4, persuasion: 4, investigation: 6 },
     savingThrows: { int: 6, wis: 4, cha: 4 },
-    resistances: ["Fire"],
+    resistances: ["Fire", "Lightning"],
     immunities: [],
     conditionImmunities: [],
-    spells: ["Acid Splash", "Fire Bolt", "Light", "Mage Hand", "Prestidigitation", "Burning Hands", "Chromatic Orb", "Cone of Cold", "Counterspell", "Dispel Magic", "Fireball", "Lightning Bolt"],
+    spells: ["Acid Splash", "Fire Bolt", "Light", "Mage Hand", "Prestidigitation", "Burning Hands", "Chromatic Orb", "Magic Missile", "Scorching Ray", "Misty Step", "Fireball", "Lightning Bolt", "Counterspell", "Dimension Door", "Mass Suggestion"],
     traits: [
-      { name: "Legendary Resistance (2/Day)", desc: "If Thezzar fails a saving throw, he can choose to succeed instead." },
-      { name: "Spellcasting", desc: "Thezzar is an 8th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks)." },
-      { name: "Red Wizard Lieutenant", desc: "Thezzar is a senior Red Wizard of Thay with mastery over elemental magic." }
+      { name: "Legendary Resistance (3/Day)", desc: "If Thezzar fails a saving throw, he can choose to succeed instead." },
+      { name: "Red Wizard Elementalist", desc: "Thezzar is a 9th-level spellcaster and Red Wizard of Thay with mastery over fire and lightning magic. His spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). He has the following spells prepared: cantrips (at will) - acid splash, fire bolt, light, mage hand, prestidigitation; 1st level (4 slots) - burning hands, chromatic orb, magic missile; 2nd level (3 slots) - scorching ray, misty step; 3rd level (3 slots) - fireball, lightning bolt, counterspell; 4th level (2 slots) - dimension door, polymorph; 5th level (1 slot) - mass suggestion." },
+      { name: "Magic Resistance", desc: "Thezzar has advantage on saving throws against spells and magical effects." }
     ],
     actions: [
-      { name: "Multiattack", desc: "Thezzar uses Spellcasting twice or makes two dagger attacks." },
+      { name: "Multiattack", desc: "Thezzar makes two dagger attacks or uses Spellcasting twice." },
       { name: "Dagger", desc: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage." }
     ],
+    reactions: [
+      { name: "Counterspell", desc: "When a creature Thezzar can see casts a spell within 60 feet, he can use his reaction to force the caster to make a DC 14 Intelligence saving throw. On a failed save, the spell fails and is wasted." }
+    ],
     legendaryActions: [
-      { name: "Move", desc: "Thezzar moves up to his speed." },
-      { name: "Cantrip", desc: "Thezzar casts a cantrip." },
-      { name: "Cast Spell (Costs 2 Actions)", desc: "Thezzar casts a spell of 3rd level or lower." }
+      { name: "Move", desc: "Thezzar moves up to his speed without provoking opportunity attacks." },
+      { name: "Cast Cantrip", desc: "Thezzar casts a cantrip." },
+      { name: "Cast Spell (Costs 2 Actions)", desc: "Thezzar casts a spell of 3rd level or lower." },
+      { name: "Teleport (Costs 2 Actions)", desc: "Thezzar magically teleports up to 60 feet to an unoccupied space he can see." }
+    ],
+    lairActions: [
+      { name: "Arcane Displacement (Costs 1 Action)", desc: "Thezzar magically teleports up to 30 feet to an unoccupied space he can see." },
+      { name: "Elemental Burst (Costs 1 Action)", desc: "Thezzar creates a burst of fire and lightning. Each creature in a 15-foot-radius sphere centered on a point Thezzar can see within 60 feet must make a DC 14 Dexterity saving throw, taking 22 (4d10) fire or lightning damage (Thezzar's choice) on a failed save, or half as much on a successful one." },
+      { name: "Cast Spell (Costs 1 Action)", desc: "Thezzar casts a spell of 3rd level or lower." }
     ]
   },
 
   "White Abishai": {
     type: "npc",
-    cr: 3,
-    ac: 15,
-    hp: 36,
-    abilities: { str: 14, dex: 16, con: 13, int: 11, wis: 12, cha: 10 },
-    skills: { acrobatics: 4, perception: 3 },
-    savingThrows: { dex: 4 },
+    cr: 5,
+    ac: 16,
+    hp: 78,
+    abilities: { str: 15, dex: 17, con: 14, int: 11, wis: 12, cha: 10 },
+    skills: { acrobatics: 5, perception: 3 },
+    savingThrows: { dex: 5, con: 4 },
     resistances: ["Cold"],
-    immunities: ["Poison"],
-    conditionImmunities: ["Charmed", "Poisoned"],
+    immunities: ["Fire", "Poison"],
+    conditionImmunities: ["Charmed", "Frightened", "Poisoned"],
     traits: [
       { name: "Magic Resistance", desc: "The abishai has advantage on saving throws against spells and magical effects." },
-      { name: "Innate Spellcasting", desc: "The abishai's innate spellcasting ability is Intelligence (spell save DC 11). The abishai can innately cast the following spells, requiring no material components: at will - detect thoughts; 1/day each - armor of Agathys, cone of cold." },
-      { name: "Ice Form", desc: "The abishai can move through nonmagical difficult terrain made of ice or snow as if it were normal terrain." }
+      { name: "Frozen Aura", desc: "Any creature that starts its turn within 5 feet of the abishai takes 5 (1d10) cold damage. A creature can only take this damage once per turn." },
+      { name: "Ice Form", desc: "The abishai can move through nonmagical difficult terrain made of ice or snow as if it were normal terrain." },
+      { name: "Innate Spellcasting", desc: "The abishai's innate spellcasting ability is Intelligence (spell save DC 11). The abishai can innately cast the following spells, requiring no material components: at will - detect magic, detect thoughts; 1/day each - armor of Agathys, cone of cold, invisibility." }
     ],
     actions: [
       { name: "Multiattack", desc: "The abishai makes two scimitar attacks." },
-      { name: "Scimitar", desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage plus 3 (1d6) cold damage." }
+      { name: "Scimitar", desc: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) slashing damage plus 5 (1d10) cold damage." },
+      { name: "Icy Breath (Recharge 5-6)", desc: "The abishai exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 27 (5d10) cold damage on a failed save, or half as much on a successful one." }
+    ],
+    reactions: [
+      { name: "Defensive Frost", desc: "When the abishai takes damage from a melee attack, it can use its reaction to reduce the damage by 10 (1d20). If the damage is reduced to 0, the attacker takes 5 (1d10) cold damage." }
     ]
   },
 
@@ -348,6 +394,20 @@ async function createCustomAntagonist(name, config, folder) {
   // Add legendary actions
   if (config.legendaryActions) {
     for (const action of config.legendaryActions) {
+      await addFeature(actor, action);
+    }
+  }
+
+  // Add reactions
+  if (config.reactions) {
+    for (const reaction of config.reactions) {
+      await addFeature(actor, reaction);
+    }
+  }
+
+  // Add lair actions
+  if (config.lairActions) {
+    for (const action of config.lairActions) {
       await addFeature(actor, action);
     }
   }

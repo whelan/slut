@@ -45,7 +45,7 @@ const COUNCIL_DETAILED = {
     cr: 3,
     customization: {
       ac: 18,
-      hp: 52,
+      hp: 126,
       abilities: { str: 16, dex: 11, con: 12, int: 12, wis: 11, cha: 13 },
       skills: { athletics: 5, intimidation: 3 },
       savingThrows: { str: 5 },
@@ -97,8 +97,8 @@ const COUNCIL_DETAILED = {
     cr: 2,
     customization: {
       ac: 13,
-      hp: 27,
-      abilities: { str: 10, dex: 10, con: 12, int: 13, wis: 16, cha: 13 },
+      hp: 150,
+      abilities: { str: 18, dex: 10, con: 12, int: 13, wis: 16, cha: 13 },
       skills: { insight: 5, medicine: 7, persuasion: 3, religion: 4 },
       savingThrows: { wis: 5 },
       weapons: ["Mace", "Shield"],
