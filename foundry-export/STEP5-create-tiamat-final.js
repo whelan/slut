@@ -139,7 +139,11 @@ async function createTiamat(config, folder) {
   const actorData = {
     name: "Tiamat",
     type: "npc",
+    img: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat.png",
     folder: folder.id,
+    prototypeToken: {
+      img: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-red-head-token_circular.png"
+    },
     system: {
       attributes: {
         ac: { flat: config.ac },
