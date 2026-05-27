@@ -149,6 +149,7 @@ async function createTiamat(config, folder) {
         ac: { flat: config.ac },
         hp: { value: config.hp, max: config.hp }
       },
+      traits: {},
       details: {
         cr: config.cr,
         type: "fiend"
