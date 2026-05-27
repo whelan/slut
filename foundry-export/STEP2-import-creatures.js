@@ -283,30 +283,78 @@ async function createFolder() {
   return folder;
 }
 
-async function addItemFromCompendium(actor, itemName, packId = "dnd5e.items") {
-  const pack = game.packs.get(packId);
-  if (!pack) return false;
+async function addItemFromCompendium(actor, itemName) {
+  // Prioritize official dnd5e packs first
+  const priorityPacks = ["dnd5e.items", "dnd5e.equipment24", "dnd5e.weapons24"];
 
-  const index = pack.index;
-  const entry = index.find(e => e.name.toLowerCase() === itemName.toLowerCase());
+  // Search priority packs first
+  for (const packId of priorityPacks) {
+    const pack = game.packs.get(packId);
+    if (!pack) continue;
 
-  if (!entry) return false;
+    const index = pack.index;
+    const entry = index.find(e => e.name.toLowerCase() === itemName.toLowerCase());
 
-  try {
-    const item = await pack.getDocument(entry._id);
-    await actor.createEmbeddedDocuments("Item", [item.toObject()]);
-    return true;
-  } catch (error) {
-    return false;
+    if (entry) {
+      try {
+        const item = await pack.getDocument(entry._id);
+        await actor.createEmbeddedDocuments("Item", [item.toObject()]);
+        return true;
+      } catch (error) {
+        continue;
+      }
+    }
   }
+
+  // Search all other packs if not found in priority packs
+  for (const pack of game.packs.values()) {
+    if (pack.metadata.type !== "Item") continue;
+    if (priorityPacks.includes(pack.collection)) continue;
+
+    const index = pack.index;
+    const entry = index.find(e => e.name.toLowerCase() === itemName.toLowerCase());
+
+    if (entry) {
+      try {
+        const item = await pack.getDocument(entry._id);
+        await actor.createEmbeddedDocuments("Item", [item.toObject()]);
+        return true;
+      } catch (error) {
+        continue;
+      }
+    }
+  }
+
+  return false;
 }
 
 async function addSpellFromCompendium(actor, spellName) {
-  const packs = ["dnd5e.spells24", "dnd5e.spells"];
+  // Prioritize official dnd5e spell packs first
+  const priorityPacks = ["dnd5e.spells24", "dnd5e.spells"];
 
-  for (const packId of packs) {
+  // Search priority packs first
+  for (const packId of priorityPacks) {
     const pack = game.packs.get(packId);
     if (!pack) continue;
+
+    const index = pack.index;
+    const entry = index.find(e => e.name.toLowerCase() === spellName.toLowerCase());
+
+    if (entry) {
+      try {
+        const spell = await pack.getDocument(entry._id);
+        await actor.createEmbeddedDocuments("Item", [spell.toObject()]);
+        return true;
+      } catch (error) {
+        continue;
+      }
+    }
+  }
+
+  // Search all other packs if not found in priority packs
+  for (const pack of game.packs.values()) {
+    if (pack.metadata.type !== "Item") continue;
+    if (priorityPacks.includes(pack.collection)) continue;
 
     const index = pack.index;
     const entry = index.find(e => e.name.toLowerCase() === spellName.toLowerCase());
