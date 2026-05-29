@@ -1,8 +1,8 @@
 /**
- * RED WIZARD ACTOR CREATOR - 2024 D&D 5e compliant
+ * RED WIZARD NPC CREATOR - 2024 D&D 5e compliant
  *
- * Creates generic Red Wizard NPCs (CR 1/8) for the Temple ritual.
- * Used as reinforcements throughout the encounter (5+ copies needed).
+ * Creates multiple UNIQUE Red Wizard NPCs (CR 1/8) with individual names and artwork.
+ * Used as ritual casters throughout the Temple of Tiamat encounter (5+ needed).
  *
  * 2024 Rules:
  * - Proficiency +2 (CR 1/8)
@@ -10,11 +10,47 @@
  * - Spell attacks: +5 to hit
  * - Uses official 2024 spells from dnd5e.spells24 compendia
  *
+ * Each wizard is created as a REAL NPC with unique name and artwork.
+ *
  * Copy entire content → Paste in Foundry Console (F12 > Console)
  * Press Enter
  */
 
-console.log("🧙 Creating Red Wizard actors (2024 compliant)\n");
+console.log("🧙 Creating individual Red Wizard NPCs (2024 compliant)\n");
+
+// Individual Red Wizards with Thayan names and artwork
+const RED_WIZARDS = [
+  {
+    name: "Magus Thallid",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1.png",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1-token.png"
+  },
+  {
+    name: "Magus Szass",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-2.png",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-2-token.png"
+  },
+  {
+    name: "Magus Zalathorm",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-3.png",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-3-token.png"
+  },
+  {
+    name: "Magus Valrax",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-4.png",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-4-token.png"
+  },
+  {
+    name: "Magus Thyrmog",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-5.png",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-5-token.png"
+  },
+  {
+    name: "Magus Yarthraax",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-6.png",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-6-token.png"
+  }
+];
 
 async function createFolder() {
   let folder = game.folders.find(f => f.name === "temple-of-tiamat" && f.type === "Actor");
@@ -59,14 +95,16 @@ async function addSpellFromCompendium(actor, spellName) {
   return false;
 }
 
-async function createRedWizard(name = "Red Wizard") {
+async function createRedWizard(wizardData) {
   const folder = await createFolder();
+  const { name, portrait, token } = wizardData;
 
-  // Base actor data (2024 compliant)
+  // Base actor data (2024 compliant) - REAL NPC with full character sheet
   const actorData = {
     name: name,
     type: "npc",
     folder: folder.id,
+    img: portrait,  // Character portrait
     system: {
       // Core attributes
       attributes: {
@@ -77,7 +115,7 @@ async function createRedWizard(name = "Red Wizard") {
       details: {
         cr: 0.125,
         alignment: "chaotic evil",
-        biography: { value: "Red Wizard of Thay, performing the ritual." }
+        biography: { value: `${name} is a Red Wizard of Thay, devoted to the cult of Tiamat. Currently focused on maintaining the ritual summoning.` }
       },
       // Abilities (2024)
       abilities: {
@@ -98,13 +136,13 @@ async function createRedWizard(name = "Red Wizard") {
       spelldc: 13,
       profBonus: 2
     },
-    img: "icons/svg/mystery-man.svg",
     prototypeToken: {
       name: name,
       displayName: CONST.TOKEN_DISPLAY_MODES.HOVER,
       vision: true,
       sight: { enabled: true, range: 60 },
-      actorLink: false
+      actorLink: false,
+      img: token  // Token image
     }
   };
 
@@ -153,17 +191,23 @@ async function createRedWizard(name = "Red Wizard") {
   await actor.createEmbeddedDocuments("Item", [daggerItem]);
   console.log(`  ✓ Added dagger (Melee +4, 1d4+3 piercing)`);
 
-  // Create 5 copies (ritual needs 5+ Red Wizards)
   return actor;
 }
 
-// Create one Red Wizard (you can duplicate in Foundry if needed)
+// Create all Red Wizards at once
 async function runCreation() {
   try {
-    const wizard = await createRedWizard("Red Wizard #1");
-    console.log("\n✓ Red Wizard created successfully!");
-    console.log("   To create more: Right-click actor in sidebar → Duplicate (repeat 4-5 times)");
-    console.log("   OR run this macro again with different names.");
+    console.log(`Creating ${RED_WIZARDS.length} unique Red Wizard NPCs...\n`);
+    let created = 0;
+
+    for (const wizardData of RED_WIZARDS) {
+      await createRedWizard(wizardData);
+      created++;
+    }
+
+    console.log(`\n✓ All ${created} Red Wizards created successfully!`);
+    console.log("  They are ready for deployment in the Temple of Tiamat encounter.");
+    console.log("  Each has full stats, spells, and equipment already configured.");
   } catch (error) {
     console.error("Error creating Red Wizard:", error);
   }
