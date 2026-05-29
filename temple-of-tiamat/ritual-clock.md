@@ -2,6 +2,49 @@
 
 The ritual clock is the campaign's urgency engine. It ticks, it reacts, and it changes the final battle.
 
+> **ACTIVE MODE (Hybrid, Raw Layout):** This campaign runs the **round-based ritual** below. The clock = the number of successfully focused **combat rounds**. Heads appear from **Round 4**. The legacy 0–8 escalation table further down is kept for reference and narrative cues only.
+
+---
+
+## Round-Based Ritual (Hybrid – CANONICAL)
+
+The Red Wizards must focus the ritual round after round. The party fights *against the clock of rounds*, not an abstract meter. The temple is the raw single-cathedral layout (13 areas); progress is measured in rounds.
+
+### How a round advances
+
+At the **end of each combat round**, roll a public **Ritual Check**:
+
+- **Base DC 12** to advance the ritual one round.
+- If the party did something disruptive this round, the **DC rises** (harder to advance).
+- **Success → ritual advances** one round. **Failure → ritual is held** at the current round.
+- **Two held rounds in a row → portal collapses, ritual resets to 0.**
+
+### Disruption modifiers (raise the DC)
+
+| Action this round | DC change |
+|---|---|
+| A Red Wizard was killed | +1 per wizard (cumulative across the fight) |
+| Rath Modar killed | DC drops to 10 baseline (hard for cult to sustain) |
+| 2+ Sanctuary Red Wizard guards killed | DC drops to 10 baseline |
+| Prisoner sacrifice was stopped (Scene 4B) | DC starts at 8 (very easy to hold) |
+| Mask of the Dragon Queen destroyed/removed | Ritual **auto-fails** — heads withdraw |
+| Severe structural damage to the temple | +2 this round |
+
+### Head appearance schedule
+
+| Ritual Round | Head | Aura / Effect |
+|---|---|---|
+| 1–3 | None | Ritual building. Chanting only. Best window to disrupt. |
+| **4** | **White** | 15 ft. zone at portal: 2d6 cold/round (DC 13 CON). Bite +14, 3d6+6 + 1d6 cold. |
+| **5** | **Black** | Acid spreads: 2d6 acid/round near portal. Bite +14, 3d6+6 + 2d6 acid. |
+| **6** | **Green** | Poison + illusion (Insight DC 15). Bite +14, 3d6+6 + 1d6 poison. |
+| **7** | **Blue** | Lightning arcs: 2d6 lightning/round. Bite +14, 3d6+6 + 2d6 lightning. |
+| **8** | **Red** | **TIAMAT FULLY MANIFEST.** Fire 3d6/round. All five heads act. Full initiative. |
+
+**Heads as hazards (simplified):** While only partially through (Rounds 4–7), each visible head makes **one bite at the end of the round** against the lowest-HP PC, plus its aura. Breath weapon on Recharge 5–6 (30 ft. cone, DC 15, 7d6 of its type). At Round 8 the Red head — and thus full Tiamat — takes real initiative.
+
+**Foundry automation:** Use `foundry-export/RITUAL-TRACKER-MACRO.js`. Click **Advance** when the party fails to disrupt (spawns the next head automatically), **Hold** when they disrupt, **Reset** if the portal collapses.
+
 ---
 
 ## Starting State
@@ -139,9 +182,26 @@ Tiamat manifests fully. The campaign is not over, but it changes character.
 
 ## Quick Reference for the Table
 
-```
-RITUAL CLOCK
+### Round-Based (ACTIVE)
 
+```
+RITUAL ROUNDS  (advance: DC 12 check at end of each round)
+
+[  ] 1 – Building. Chanting. DISRUPT NOW.
+[  ] 2 – Building.
+[  ] 3 – Building. Last quiet round.
+[  ] 4 – WHITE head  (cold zone 2d6/rd)
+[  ] 5 – BLACK head  (acid 2d6/rd)
+[  ] 6 – GREEN head  (poison + illusion)
+[  ] 7 – BLUE head   (lightning 2d6/rd)
+[  ] 8 – RED head → TIAMAT FULLY MANIFEST
+```
+
+Disrupt: kill Red Wizards (−1 DC each) · destroy Mask (auto-fail) · stop sacrifice (DC 8 baseline).
+
+### Legacy 0–8 Escalation (narrative cues only)
+
+```
 [  ] 0 – No effect
 [  ] 1 – First shadow visible
 [  ] 2 – Elemental energy +1d4
