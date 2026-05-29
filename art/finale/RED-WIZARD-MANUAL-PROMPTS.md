@@ -153,13 +153,13 @@ const RED_WIZARDS = [
 ];
 ```
 
-**After (with YOUR world ID):**
+**After (with your world ID: 6013af62c59beb36df7c44a8):**
 ```javascript
 const RED_WIZARDS = [
   {
     name: "Magus Thallid",
-    portrait: "https://assets.forge-vtt.com/YOUR-WORLD-ID/temple-of-tiamat/red-wizard-1.png",
-    token: "https://assets.forge-vtt.com/YOUR-WORLD-ID/temple-of-tiamat/red-wizard-1-token.png"
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1.png",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1-token.png"
   },
   ...
 ];
@@ -174,7 +174,7 @@ The script also references **token** images (for miniatures in combat). You have
 ### **Option A: Use the same portrait as token**
 If you're happy using the character portrait as the token, just use the same URL:
 ```javascript
-token: "https://assets.forge-vtt.com/YOUR-WORLD-ID/temple-of-tiamat/red-wizard-1.png"
+token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1.png"
 ```
 
 ### **Option B: Create separate token variants**
