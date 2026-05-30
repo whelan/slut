@@ -165,30 +165,92 @@ Each represents one of Tiamat's dragonheads (color correspondance):
 
 ---
 
-## Implementation Strategy
+## Antagonist Strategy
 
-### Phase 1: Delete Old Wizards
-- Remove all 10 generic elite Red Wizards created in previous steps
-- Delete from temple-of-tiamat folder
-- Keep Rath Modar and Severin (different roles)
+### RATH MODAR (Red Chapel - Boss-Level Wizard)
+**Location:** Red Chapel (position 6)  
+**Role:** Master of the ritual, second-in-command  
+**Status:** Search compendia first for official 2024 version  
 
-### Phase 2: Create Location-Based Wizards
-- Create 9 new Red Wizard actors (one per location)
-- Name them based on chapel/spire color
-- Base on official 2024 Mage (like before)
-- Add location-specific traits and rituals
+**Approach:**
+1. Search all Foundry compendia for official "Rath Modar"
+2. If found → Clone and update to 2024 D&D 5e rules:
+   - Spell Save DC: 8 + INT mod + proficiency
+   - Proficiency bonus: Correct for CR
+   - Ability modifiers: 2024 standard
+3. If not found → Use manual STEP3 creation (backup)
+4. Save to temple-of-tiamat folder
 
-### Phase 3: Define Each Wizard Completely
-- Unique ritual mechanics tied to location
-- Unique combat abilities tied to position (flying vs grounded)
-- Custom encounters for each chapel/spire
-- Tactical notes for DM (how they defend their position)
+**2024 Compliance:**
+- Update all spell DCs to 2024 formula
+- Verify proficiency bonus by CR
+- Recalculate ability modifiers
+- Check action economy (2024 standard)
 
-### Phase 4: Ritual System Integration
-- Each wizard death increases ritual DC +1 (ritual segment fails)
-- Flying formation breaking destabilizes aerial ritual
-- Ground wizard removal opens escape routes or altar access
-- Total 9 wizards = 9 disruption points for party strategy
+---
+
+### SEVERIN (Sanctuary - Ultimate Boss)
+**Location:** Sanctuary (position 13), levitating wearing Mask of the Dragon Queen  
+**Role:** Final boss, nearly unkillable while ritual progresses  
+**Status:** Search compendia first for official 2024 version
+
+**Approach:**
+1. Search all Foundry compendia for official "Severin"
+2. If found → Clone and update to 2024 D&D 5e rules:
+   - Spell Save DC: 8 + CHA mod + proficiency
+   - Legendary Resistance: 3/day (verified)
+   - Phase 2 triggers at 50% HP (ritual mechanics)
+3. If not found → Use manual STEP3 creation (backup)
+4. Save to temple-of-tiamat folder
+
+**Special Mechanics:**
+- Mask of the Dragon Queen affects stats (verify in 2024 rules)
+- Two-phase battle tied to ritual progression
+- Cannot die while ritual active (mechanics linked)
+
+---
+
+## Complete Implementation Strategy
+
+### Phase 1: Search & Verify Official Versions
+Search all Foundry compendia for:
+- [ ] Rath Modar (any version)
+- [ ] Severin (any version)
+- Report which ones found vs missing
+
+### Phase 2: Update Found NPCs to 2024 Rules
+For Rath Modar (if found):
+- [ ] Update spell save DC: 8 + INT mod + proficiency
+- [ ] Verify proficiency bonus by CR
+- [ ] Recalculate ability modifiers (2024 standard)
+- [ ] Move to temple-of-tiamat folder
+
+For Severin (if found):
+- [ ] Update spell save DC: 8 + CHA mod + proficiency
+- [ ] Verify legendary resistance (3/day)
+- [ ] Update two-phase mechanics to 2024 rules
+- [ ] Ensure phase triggers work with ritual system
+- [ ] Move to temple-of-tiamat folder
+
+### Phase 3: Delete Old Generic Red Wizards
+- [ ] Remove all 10 old elite Red Wizards from temple-of-tiamat
+- [ ] Confirm deletion from folder
+
+### Phase 4: Create 9 Location-Based Red Wizards
+- [ ] Base each on official 2024 Mage (cloned from compendium)
+- [ ] Name by chapel/spire color
+- [ ] 4 grounded wizards (chapels 1, 3, 4, 5)
+- [ ] 5 flying wizards (spires 8-12)
+- [ ] Add location-specific traits
+- [ ] Add ritual mechanics tied to location
+
+### Phase 5: Ritual System Integration
+- [ ] Each wizard death increases ritual DC +1
+- [ ] Flying formation disruption destabilizes aerial ritual
+- [ ] Ground wizard removal affects specific chapel
+- [ ] Total 9 disruption points (9 wizards = 9 ways to disrupt)
+- [ ] Rath Modar as ritual master anchor point
+- [ ] Severin as final escalation trigger
 
 ---
 
@@ -239,6 +301,24 @@ A: Creates two combat phases: ground-level chapel encounters, then aerial spire 
 
 ---
 
+## Single Unified Implementation Script
+
+**One script does everything:**
+
+`CREATE-COMPLETE-TEMPLE-ANTAGONISTS.js`
+
+**Handles all 5 phases:**
+
+1. **Search all compendia** for official Rath Modar
+2. **Search all compendia** for official Severin
+3. **Update both to 2024 rules** (if found in compendium)
+4. **Delete** 10 old generic Red Wizards from temple-of-tiamat
+5. **Create** 9 new location-based Red Wizards (one per chapel/spire)
+
+**All in one execution - no manual steps needed**
+
+---
+
 ## Ready to Implement?
 
 This approach is:
@@ -247,5 +327,8 @@ This approach is:
 - ✅ Strategically rich (multiple valid approaches)
 - ✅ Narratively coherent (ritual circle structure)
 - ✅ Tactically interesting (flying vs grounded)
+- ✅ Official-first (searches compendia for Rath Modar & Severin)
+- ✅ 2024-compliant (all NPCs updated to 2024 rules)
+- ✅ Unified (one script handles everything)
 
 **Proceed with implementation?**
