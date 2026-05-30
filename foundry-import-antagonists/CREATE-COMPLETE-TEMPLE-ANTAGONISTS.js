@@ -27,8 +27,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Gatekeeper, first line of defense",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard1.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard1.PNG",
     traits: [
       {
         name: "Blue Chapel Guardian",
@@ -47,8 +47,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Cold anchor point, maintains white dragon essence",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard2.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard2.PNG",
     traits: [
       {
         name: "White Chapel Anchor",
@@ -67,8 +67,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Poison/toxin anchor, green dragon essence",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard3.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard3.PNG",
     traits: [
       {
         name: "Green Chapel Anchor",
@@ -87,8 +87,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Exit guardian, prevents escape",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard4.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard4.PNG",
     traits: [
       {
         name: "Black Chapel Anchor",
@@ -109,8 +109,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Lightning aerial caster, mobility support",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard5.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard5.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard5.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard5.PNG",
     traits: [
       {
         name: "Flying Ritual Anchor",
@@ -129,8 +129,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 4,
     role: "Ice/slowing aerial support",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard1.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard1.PNG",
     traits: [
       {
         name: "Aerial Ice Storm",
@@ -149,8 +149,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 4,
     role: "Poison aerial support, area effects",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard2.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard2.PNG",
     traits: [
       {
         name: "Poison Cloud Drop",
@@ -169,8 +169,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Acid rain, structural damage",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard3.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard3.PNG",
     traits: [
       {
         name: "Acid Rain",
@@ -189,8 +189,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Fire support, aggressive aerial caster",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard4.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/Wizard4.PNG",
     traits: [
       {
         name: "Aerial Fire Support",
@@ -330,7 +330,7 @@ async function findOfficialMage() {
 }
 
 async function deleteOldWizards() {
-  console.log("\nPHASE 3: Deleting old generic Red Wizards...\n");
+  console.log("\nCLEANUP: Deleting any existing antagonists (prevents duplicates)...\n");
 
   const folder = game.folders.find(f => f.name === "temple-of-tiamat" && f.type === "Actor");
   if (!folder) {
@@ -353,18 +353,27 @@ async function deleteOldWizards() {
     "Red Wizard Minion"
   ];
 
+  // Also delete the location-based wizards plus the two ritual masters this
+  // script creates, so re-running replaces them instead of duplicating.
+  const currentWizardNames = LOCATION_BASED_WIZARDS.map(w => w.name);
+  const exactNames = [...currentWizardNames, "Rath Modar", "Severin"];
+
   let deletedCount = 0;
   const allActors = game.actors.contents.filter(a => a.folder?.id === folder.id);
 
   for (const actor of allActors) {
-    if (oldWizardNames.some(name => actor.name.includes(name))) {
+    // Exact-match the actors we recreate (avoid "Magus Obsidian" matching
+    // "Magus Obsidian II"), substring-match the legacy generic names.
+    const isCurrent = exactNames.includes(actor.name);
+    const isOld = oldWizardNames.some(name => actor.name.includes(name));
+    if (isCurrent || isOld) {
       await actor.delete();
       console.log(`  ✓ Deleted: ${actor.name}`);
       deletedCount++;
     }
   }
 
-  console.log(`\n  Deleted ${deletedCount} old Red Wizards`);
+  console.log(`\n  Deleted ${deletedCount} old/duplicate antagonists`);
 }
 
 async function createLocationWizardFromMage(officialMage, customization) {
@@ -415,6 +424,9 @@ async function createLocationWizardFromMage(officialMage, customization) {
 async function runCompleteAntagonistCreation() {
   try {
     const folder = await createFolder();
+
+    // ====== CLEANUP: DELETE EXISTING ANTAGONISTS FIRST (prevents duplicates) ======
+    await deleteOldWizards();
 
     // ====== PHASE 1: SEARCH FOR RATH MODAR ======
     console.log("PHASE 1: Searching for official Rath Modar...\n");
@@ -475,9 +487,6 @@ async function runCompleteAntagonistCreation() {
       console.log(`  ✓ Created: Severin (Sanctuary Master) in temple-of-tiamat`);
       console.log(`  ✓ Portrait: Official masked artwork\n`);
     }
-
-    // ====== PHASE 3: DELETE OLD WIZARDS ======
-    await deleteOldWizards();
 
     // ====== PHASE 4: FIND OFFICIAL MAGE & CREATE LOCATION WIZARDS ======
     console.log("\nPHASE 4: Searching for official 2024 Mage...\n");
