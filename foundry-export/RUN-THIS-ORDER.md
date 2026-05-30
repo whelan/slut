@@ -294,33 +294,7 @@ Temple Ritual Structure:
 
 ---
 
-## 📋 STEP 9: Update Severin & Rath Modar Images (Optional)
-
-**What happens:**
-- Updates character portraits for Severin and Rath Modar
-- Updates token images for both
-
-### DO THIS (after STEP 8):
-
-1. **Find file:** `foundry-export/UPDATE-SEVERIN-RATH-MODAR-IMAGES.js`
-2. **Copy entire content**
-3. **In Foundry console:** Paste and press Enter
-
-**Expected output:**
-```
-🖼️  Updating Severin & Rath Modar images...
-
-✓ Severin: Portrait and token updated
-✓ Rath Modar: Portrait and token updated
-
-✅ Image updates complete!
-```
-
-✅ **WHEN DONE:** Both ritual masters have character artwork
-
----
-
-## 📋 STEP 10: Create Ritual Clock Tracker Macro
+## 📋 STEP 9: Create Ritual Clock Tracker Macro
 
 **What gets created:**
 - **Script Macro** that tracks ritual progression
@@ -510,8 +484,7 @@ foundry-export/
 │   ├── STEP5-create-tiamat-final.js     (Full Tiamat CR 30)
 │   ├── UPDATE-IMAGES.js                 (Assign portraits + tokens)
 │   ├── UPDATE-ALL-NPC-ICONS.js          (Update ability icons)
-│   ├── CREATE-COMPLETE-TEMPLE-ANTAGONISTS.js (Location-based Red Wizards)
-│   ├── UPDATE-SEVERIN-RATH-MODAR-IMAGES.js (Ritual master portraits)
+│   ├── CREATE-COMPLETE-TEMPLE-ANTAGONISTS.js (Location-based Red Wizards + images)
 │   ├── RITUAL-TRACKER-MACRO.js          (Ritual automation macro)
 │   └── RUN-THIS-ORDER.md               (this workflow)
 │
