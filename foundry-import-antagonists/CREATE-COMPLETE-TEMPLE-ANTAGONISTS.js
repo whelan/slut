@@ -27,8 +27,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Gatekeeper, first line of defense",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
     traits: [
       {
         name: "Blue Chapel Guardian",
@@ -47,8 +47,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Cold anchor point, maintains white dragon essence",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-2.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-2-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
     traits: [
       {
         name: "White Chapel Anchor",
@@ -67,8 +67,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Poison/toxin anchor, green dragon essence",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-4.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-4-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
     traits: [
       {
         name: "Green Chapel Anchor",
@@ -87,8 +87,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Exit guardian, prevents escape",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-1-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
     traits: [
       {
         name: "Black Chapel Anchor",
@@ -109,8 +109,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Lightning aerial caster, mobility support",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-3.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-3-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard5.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard5.PNG",
     traits: [
       {
         name: "Flying Ritual Anchor",
@@ -129,8 +129,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 4,
     role: "Ice/slowing aerial support",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-2.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-2-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard1.PNG",
     traits: [
       {
         name: "Aerial Ice Storm",
@@ -149,8 +149,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 4,
     role: "Poison aerial support, area effects",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-3.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-3-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard2.PNG",
     traits: [
       {
         name: "Poison Cloud Drop",
@@ -169,8 +169,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Acid rain, structural damage",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-4.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-4-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard3.PNG",
     traits: [
       {
         name: "Acid Rain",
@@ -189,8 +189,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Fire support, aggressive aerial caster",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-5.jpg",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-5-token.jpg",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/wizard4.PNG",
     traits: [
       {
         name: "Aerial Fire Support",
