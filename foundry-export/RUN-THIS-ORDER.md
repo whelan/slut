@@ -2,7 +2,7 @@
 
 **GOAL:** Import 32+ complete NPCs + Tiamat heads + full Tiamat + Red Wizards + ritual mechanics with FULL 2024 rules stats.
 
-**Total NPCs created:** 11 Council + 9 Creatures + 6 Antagonists + 5 Tiamat Heads + 1 Full Tiamat + 6 Red Wizards = **38 total actors**
+**Total NPCs created:** 11 Council + 9 Creatures + 6 Antagonists + 5 Tiamat Heads + 1 Full Tiamat + 9 Location-Based Red Wizards + 2 Ritual Masters = **43+ total actors**
 
 **Time:** ~15-20 minutes total
 
@@ -294,7 +294,33 @@ Temple Ritual Structure:
 
 ---
 
-## 📋 STEP 9: Create Ritual Clock Tracker Macro
+## 📋 STEP 9: Update Severin & Rath Modar Images (Optional)
+
+**What happens:**
+- Updates character portraits for Severin and Rath Modar
+- Updates token images for both
+
+### DO THIS (after STEP 8):
+
+1. **Find file:** `foundry-export/UPDATE-SEVERIN-RATH-MODAR-IMAGES.js`
+2. **Copy entire content**
+3. **In Foundry console:** Paste and press Enter
+
+**Expected output:**
+```
+🖼️  Updating Severin & Rath Modar images...
+
+✓ Severin: Portrait and token updated
+✓ Rath Modar: Portrait and token updated
+
+✅ Image updates complete!
+```
+
+✅ **WHEN DONE:** Both ritual masters have character artwork
+
+---
+
+## 📋 STEP 10: Create Ritual Clock Tracker Macro
 
 **What gets created:**
 - **Script Macro** that tracks ritual progression
@@ -484,7 +510,8 @@ foundry-export/
 │   ├── STEP5-create-tiamat-final.js     (Full Tiamat CR 30)
 │   ├── UPDATE-IMAGES.js                 (Assign portraits + tokens)
 │   ├── UPDATE-ALL-NPC-ICONS.js          (Update ability icons)
-│   ├── CREATE-COMPLETE-TEMPLE-ANTAGONISTS.js (NEW - Location-based Red Wizards)
+│   ├── CREATE-COMPLETE-TEMPLE-ANTAGONISTS.js (Location-based Red Wizards)
+│   ├── UPDATE-SEVERIN-RATH-MODAR-IMAGES.js (Ritual master portraits)
 │   ├── RITUAL-TRACKER-MACRO.js          (Ritual automation macro)
 │   └── RUN-THIS-ORDER.md               (this workflow)
 │

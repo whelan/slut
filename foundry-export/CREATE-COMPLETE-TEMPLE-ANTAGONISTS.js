@@ -67,8 +67,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "grounded",
     cr: 4,
     role: "Poison/toxin anchor, green dragon essence",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-verdian.png",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-verdian-token.png",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-verdian.jpg",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-verdian-token.jpg",
     traits: [
       {
         name: "Green Chapel Anchor",
@@ -109,8 +109,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Lightning aerial caster, mobility support",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-cerulean.png",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-cerulean-token.png",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-cerulean.jpg",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-cerulean-token.jpg",
     traits: [
       {
         name: "Flying Ritual Anchor",
@@ -189,8 +189,8 @@ const LOCATION_BASED_WIZARDS = [
     type: "flying",
     cr: 5,
     role: "Fire support, aggressive aerial caster",
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-vermillion.png",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-vermillion-token.png",
+    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-vermillion.jpg",
+    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/red-wizard-vermillion-token.jpg",
     traits: [
       {
         name: "Aerial Fire Support",
