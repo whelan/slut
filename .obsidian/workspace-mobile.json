@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundry-export/PLAN-LOCATION-BASED-RED-WIZARDS.md",
+                "file": "foundry-import-antagonists/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PLAN-LOCATION-BASED-RED-WIZARDS"
+              "title": "README"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "6a8e2bee43c3b550",
   "lastOpenFiles": [
+    "foundry-export/PLAN-LOCATION-BASED-RED-WIZARDS.md",
     "session-prep/tiamat-finale-plan.md"
   ]
 }
