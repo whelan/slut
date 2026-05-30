@@ -436,11 +436,14 @@ async function runCompleteAntagonistCreation() {
         console.log(`  ✓ Applied ${Object.keys(updates).length} 2024 rule updates`);
       }
 
-      // Move to temple folder
+      // Move to temple folder with Rath Modar's official portrait
       const rathClone = rathToUse.doc.toObject();
       rathClone.folder = folder.id;
+      rathClone.img = "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/rath-modar-token_20260516_164527_1.png";
+      rathClone.prototypeToken.img = "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/rath-modar-token-token_circular.png";
       await Actor.create(rathClone);
-      console.log(`  ✓ Created: Rath Modar (Red Chapel Master) in temple-of-tiamat\n`);
+      console.log(`  ✓ Created: Rath Modar (Red Chapel Master) in temple-of-tiamat`);
+      console.log(`  ✓ Portrait: Official artwork\n`);
     }
 
     // ====== PHASE 2: SEARCH FOR SEVERIN ======
@@ -463,11 +466,14 @@ async function runCompleteAntagonistCreation() {
         console.log(`  ✓ Applied ${Object.keys(updates).length} 2024 rule updates`);
       }
 
-      // Move to temple folder
+      // Move to temple folder with Severin's official portrait
       const severinClone = severinToUse.doc.toObject();
       severinClone.folder = folder.id;
+      severinClone.img = "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token_20260516_164450_1.png";
+      severinClone.prototypeToken.img = "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/severin-masked-token-token_circular.png";
       await Actor.create(severinClone);
-      console.log(`  ✓ Created: Severin (Sanctuary Master) in temple-of-tiamat\n`);
+      console.log(`  ✓ Created: Severin (Sanctuary Master) in temple-of-tiamat`);
+      console.log(`  ✓ Portrait: Official masked artwork\n`);
     }
 
     // ====== PHASE 3: DELETE OLD WIZARDS ======
