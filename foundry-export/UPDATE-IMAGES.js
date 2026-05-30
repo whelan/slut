@@ -151,10 +151,6 @@ const IMAGE_MAP = {
     portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head_20260525_204816_1.png",
     token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-white-head-token_circular.png"
   },
-  "Tiamat": {
-    portrait: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-red-head_20260525_205023_1.png",
-    token: "https://assets.forge-vtt.com/6013af62c59beb36df7c44a8/temple-of-tiamat/tiamat-red-head-token_circular.png"
-  }
 };
 
 async function updateAllImages() {
@@ -189,16 +185,17 @@ async function updateAllImages() {
   console.log("\n╔════════════════════════════════════════════════════════╗");
   console.log("║  NPC IMAGE UPDATE COMPLETE                             ║");
   console.log("╚════════════════════════════════════════════════════════╝");
-  console.log(`\n✓ Updated: ${updated}/32 NPCs`);
+  console.log(`\n✓ Updated: ${updated}/${Object.keys(IMAGE_MAP).length} NPCs`);
 
   if (notFound > 0) {
     console.log(`⚠️  Not found: ${notFound} NPCs\n`);
   }
 
-  if (updated === 32) {
-    console.log("✨ All 32 NPCs now have proper images!\n");
+  if (updated === Object.keys(IMAGE_MAP).length) {
+    console.log(`✨ All ${Object.keys(IMAGE_MAP).length} NPCs now have proper images!\n`);
+    console.log("NOTE: Tiamat portrait is embedded in STEP5-create-tiamat-final.js\n");
   } else {
-    console.log(`${32 - updated} NPCs still need image updates\n`);
+    console.log(`${Object.keys(IMAGE_MAP).length - updated} NPCs still need image updates\n`);
   }
 }
 

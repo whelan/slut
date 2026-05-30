@@ -1,182 +1,295 @@
-# Automatic Compendium-Linked Import
+# Compendium-First Architecture & Icon Matching
 
 ## Overview
 
-The import macro automatically searches your **Foundry compendia** and adds spells to actors. This approach:
+All import scripts use a **compendium-first approach:**
 
-✓ **Fully automatic** – spells added during import, no manual work  
-✓ Avoids duplication of spells and items  
-✓ Uses the official dnd5e system compendia  
-✓ Keeps the macro file smaller (1.1 MB)  
-✓ Falls back gracefully if spells not found  
+- ✓ Search Foundry compendia first for all spells, items, weapons
+- ✓ Link to existing items (zero duplication)
+- ✓ Automatically match icons from compendia
+- ✓ Fall back gracefully if items not found
+- ✓ No embedded items = smaller file sizes
 
----
-
-## What's Included in the Import
-
-### ✓ Imported Automatically
-- **58 Actors** with full stat blocks (AC, HP, abilities, saves, skills, CR)
-- **88 Feat Items** (traits, special abilities, actions, legendary actions)
-- **12 Journals** with campaign lore and session prep
-- **3 Scenes** with battlemap backgrounds
-- **All artwork** (portraits, tokens, scene backgrounds)
-
-### ✗ NOT Embedded (Add Manually)
-- **Spells** – Add from your dnd5e spells compendium
-- **Magic Items** – Add from your dnd5e items compendium
-- **Standard Weapons/Armor** – Use from compendia or create custom
+This ensures your actors use your official dnd5e compendia and stay current as the system updates.
 
 ---
 
-## Automatic Spell Addition
+## How Compendium Lookup Works
 
-The import macro automatically:
+Each script follows this search order:
 
-1. **Finds** your dnd5e spells compendium (or any pack labeled "spell")
-2. **Searches** for each required spell by name
-3. **Copies** matching spells from the compendium into each actor's Items
-4. **Logs** any missing spells but continues (won't break import)
+### For Base NPCs (STEP1, STEP2)
+1. Check `dnd5e.actors24` (Foundry's 2024 NPC pack)
+2. Check `dnd5e.actors` (legacy actors)
+3. If not found: create from scratch with full stats
 
-Spells are added immediately after actors are created, so when import completes, all spellcasters already have their spells.
+### For Spells & Spellcasting
+1. Check `dnd5e.spells24` (2024 spell compendium)
+2. Check `dnd5e.spells` (standard spell compendium)
+3. Check all other available spell-type packs
+4. If not found: log warning, continue (don't block import)
 
----
+### For Weapons & Equipment
+1. Check `dnd5e.items` (equipment compendium)
+2. Check `dnd5e.equipment24` (2024 equipment)
+3. Check `dnd5e.weapons24` (2024 weapons)
+4. Check all other item-type packs
+5. If not found: log warning, can be added manually later
 
-## Manual Spell Addition (If Needed)
-
-If a spell wasn't found in your compendia:
-
-1. Open the actor's sheet
-2. Go to **Items** tab
-3. Click **Add Item** → **Item from Compendium**
-4. Search for spell name (e.g., "Fireball", "Hold Monster")
-5. Select from dnd5e spells compendium and click **Create Item**
-
----
-
-## Copying Spells Between Actors
-
-If you want to copy spells manually:
-
-1. Open an actor with the spell (e.g., Severin)
-2. Open **Items** tab
-3. Right-click spell → **Copy** (or drag to target actor)
-4. Open target actor → **Items** tab → **Paste**
-
-Or use Foundry's built-in compendium browser to add the same spell to multiple actors.
+### For Feat Items (Traits, Actions, Legendary Actions)
+- Create as custom feat items with system data structure
+- Automatically search for matching icons in compendia
+- Apply fallback icons based on feature type
 
 ---
 
-## Spell Lists by Actor
+## Icon Matching System
 
-Here are the spells that should be added to each spellcaster:
+### How Icons Are Found
 
-### **Severin, High Wyrmspeaker** (CR 20)
-- **Cantrips:** Detect Magic, Eldritch Blast, Fire Bolt, Mind Sliver, Speak with Animals
-- **1st-level:** Shield
-- **5th-level:** Counterspell, Dominate Person, Hold Monster, Wall of Fire
-- **6th-level:** Eyebite, Globe of Invulnerability
-- **7th-level:** Finger of Death, Plane Shift
-- **8th-level:** Dominate Monster
-- **9th-level:** Wish
+Each feat item (trait, action, legendary action, reaction) gets an icon automatically:
 
-### **Taern Hornblade** (CR 6)
-- **Cantrips:** Fire Bolt
-- **1st-level:** Counterspell, Detect Magic, Shield
-- **2nd-level:** Hold Monster, Wall of Fire
+1. **Search compendia** for matching icon files
+   - Look in dnd5e compendium directories
+   - Match by feature name (e.g., "Fireball" → fire icon)
+   - Check feature type (breath weapon → elemental icon)
 
-### **Crimson Maccath** (CR 6)
-- **Cantrips:** Eldritch Blast
-- **3rd-level:** Counterspell, Dominate Person, Hold Monster
-- **4th-level:** Finger of Death
+2. **Apply contextual fallbacks:**
+   - **Breath Weapons:** `icons/commodities/gemstones/diamond-blue.webp` (elemental)
+   - **Legendary Traits:** `icons/equipment/head/crown.webp` (authority)
+   - **Legendary Actions:** `icons/sundries/books/book-red-gilded.webp` (power)
+   - **Reactions:** `icons/environment/volcanic/magma-spill.webp` (quick response)
+   - **Spells:** `icons/magic/abjuration/protection-barrier-blue.webp` (magic)
+   - **Attacks:** `icons/weapons/swords/sword-long-purple.webp` (combat)
 
-### **Nyh Ilmichh** (CR 6)
-- **Cantrips:** Mind Sliver
-- **2nd-level:** Dominate Monster, Globe of Invulnerability, Plane Shift
-- **3rd-level:** Wish
+3. **Never default to gray:** All features have visual icons, not generic placeholders
 
-### **Other Spellcasters**
-- **Blue Abishai** – Counterspell, Plane Shift
-- **Rath Modar** – Dominate Person
-- **Dagult Neverember** – Detect Magic
+### Examples
 
----
-
-## Why This Approach?
-
-### Old Approach ❌
-- Embedded 28 spell items in the macro
-- Duplicated spells already in your compendia
-- Made file larger
-- Manual spell addition needed post-import
-
-### Current Approach ✓
-- **Automatic spell lookup and addition** – no manual work
-- 0 spell items embedded (queries compendia instead)
-- Links to your official dnd5e compendia
-- Smaller file size (1.1 MB)
-- Spells are current with your Foundry system
-- Graceful fallback if spells not found
-- You control which spell version (official SRD vs. custom)
+| Feature | Icon Source | Fallback if Not Found |
+|---|---|---|
+| Fireball (spell) | `dnd5e.spells24` Fireball icon | Fire icon |
+| Acid Breath (legendary) | Search compendia for "acid" + "breath" | Elemental/acid icon |
+| Counterspell (reaction) | `dnd5e.spells24` Counterspell | Abjuration magic |
+| Legendary Resistance | Search for "resistance" icon | Crown/shield |
+| Lair Action | Custom feat type | Leadership crown |
+| Draconic Majesty (trait) | Search for "dragon" + "majesty" | Crown icon |
 
 ---
 
-## Adding Other Items
+## What's Actually Imported
 
-### Magic Items
-Similar to spells – add from your dnd5e items compendium:
-1. Open actor sheet → **Items** tab
-2. **Add Item** → **Item from Compendium**
-3. Search for item name
+### Full Actor Data ✓
+- **All stats embedded:**
+  - Ability scores (STR, DEX, CON, WIS, INT, CHA)
+  - Proficiency bonuses (based on CR)
+  - Skills & saving throws (with correct bonuses)
+  - AC, HP, resistances, immunities
+  - Condition immunities, languages
+  - Senses, passive perception
+
+- **All features as feat items:**
+  - Traits (e.g., "Legendary Resistance", "Magic Resistance")
+  - Actions (e.g., "Multiattack", "Bite", "Claw")
+  - Reactions (e.g., "Counterspell", "Shield")
+  - Legendary Actions (e.g., "Detect", "Move", "Attack")
+  - Lair Actions (for boss creatures)
+
+### Spells (Automatically Added) ✓
+- Searched in compendia first
+- Added to actors' Items tabs
+- Linked (not embedded) → no duplication
+- Can be edited without affecting compendia
+
+### Equipment/Weapons ✓
+- Searched in compendia first
+- Added to actors' Items tabs if found
+- Can be manually added post-import if needed
+
+### Icons (Automatically Matched) ✓
+- Each feat item gets an icon
+- Matched from compendia where available
+- Fallback icons applied based on feature type
+- No generic gray defaults
+
+---
+
+## 32 Actors Imported (5 Steps)
+
+### STEP 1: Council Members (11)
+All have spells linked from `dnd5e.spells24`:
+- **Dagult Neverember** → Detect Magic
+- **Ulder Ravengard** → (weapon-focused, no spells)
+- **Remallia Haventree** → (cleric with domain spells)
+- **Ontharr Frume** → (paladin with spells)
+- **Taern Hornblade** → Fire Bolt, Counterspell, Shield, Hold Monster, Wall of Fire
+- **Crimson Maccath** → Eldritch Blast, Counterspell, Dominate Person, Hold Monster, Finger of Death
+- **Nyh Ilmichh** → Mind Sliver, Dominate Monster, Globe of Invulnerability, Plane Shift, Wish
+- Others → weapon-focused or cleric/paladin spellcasting
+
+### STEP 2: Creatures (9)
+All from `dnd5e.creatures24` or created with SRD stat blocks:
+- Air Elemental, Fire Elemental → resistances, immunities, traits
+- Stone Golem, Clay Golem, Iron Golem → constructs with immunities
+- Wight, Cult Fanatic, Cultist, Barbed Devil → all traits and abilities
+
+### STEP 3: Antagonists (6)
+Custom-created with full 2024 rules:
+- **Naergoth Bladelord** (CR 11) → legendary actions, wight traits
+- **Severin** (CR 11) → spellcasting, Draconic Majesty, legendary resistances
+- **Rath Modar** (CR 6) → 11th-level spellcaster, legendary actions, mage armor
+- **Magus Thezzar** (CR 5) → 9th-level spellcaster, legendary actions, fire/lightning resistances
+- **White Abishai** (CR 5) → Frozen Aura, Icy Breath, fire immunity
+- **Black Abishai** (CR 7) → legendary actions, dragon abilities
+
+### STEP 4: Tiamat Heads (5)
+Custom-created manifestation bosses:
+- **Black Head** (CR 20) → Acid damage, Acidic Aura, Acid Breath
+- **Blue Head** (CR 20) → Lightning damage, Lightning Aura, Lightning Breath
+- **Green Head** (CR 21) → Poison damage, Poisonous Aura, Poison Breath
+- **Red Head** (CR 21) → Fire damage, Molten Aura, Fire Breath
+- **White Head** (CR 20) → Cold damage, Freezing Aura, Cold Breath
+
+All have:
+- Partial Manifestation trait (regenerate 15 HP/turn)
+- Legendary Resistance (3/Day)
+- Legendary Actions (3 per turn)
+- Elemental-specific lair actions
+
+### STEP 5: Full Tiamat (1)
+Official Monster Manual Tiamat (CR 30):
+- 5 independent heads
+- 5 breath weapons (acid, cold, fire, lightning, poison)
+- 5 bite attacks with elemental damage
+- Legendary Resistance (5/Day)
+- Multiple Heads trait (5 reactions/turn)
+- Regeneration (30 HP/turn)
+- Frightful Presence (DC 26 WIS save)
+
+---
+
+## Example: How a Spell Gets Added
+
+### Severin's Fireball
+
+1. **Script finds:** Severin needs Fireball spell
+2. **Search starts:**
+   - ✓ Check `dnd5e.spells24` → Found!
+   - Get Fireball document from pack
+3. **Link is created:**
+   - Fireball added to Severin's Items
+   - Not embedded (linked to compendium)
+   - Icon automatically set from compendium
+4. **Result:**
+   - Severin's character sheet shows Fireball
+   - Clicking it opens the spell
+   - No copy/duplicate created
+
+### If Spell Not Found
+
+1. **Script looks for:** Uncommon spell in multiple packs
+2. **Search fails:**
+   - Not in `dnd5e.spells24`
+   - Not in `dnd5e.spells`
+   - Not in any other pack
+3. **Graceful fallback:**
+   - Log warning to console: "Spell 'XYZ' not found in any compendium"
+   - Continue import (doesn't break the script)
+4. **Manual addition (optional):**
+   - Open actor → Items tab → **Add from Compendium**
+   - Search manually and add
+
+---
+
+## Manual Item Addition (If Needed)
+
+### Adding a Missing Spell
+
+1. Open actor sheet
+2. Click **Items** tab
+3. Click **+ Add Item** → **Item from Compendium**
+4. Search for spell name (e.g., "Divine Word")
+5. Click to add
+6. Close dialog → spell now appears in Items
+
+### Adding Weapons/Equipment
+
+Same process:
+1. Open actor sheet
+2. Items tab → **+ Add Item** → **Item from Compendium**
+3. Search for weapon/equipment (e.g., "Longsword", "Plate Armor")
 4. Add to actor
 
-### Weapons & Armor
-- Most NPCs don't need specific weapons in Foundry
-- Their stat blocks include attack bonuses and damage
-- Add weapons if you want visual flavor or to track specific magic items
+### Creating Custom Items
 
-### Custom Items
-If an item doesn't exist in your compendia:
-1. Create it manually in Foundry
-2. Or use one of the built-in compendium items as a base
-3. Right-click → **Create Item** and customize
-
----
-
-## Troubleshooting
-
-### Spells not appearing after adding them?
-- Refresh the actor sheet (close and reopen)
-- Check that the spell was added to the correct compendium
-- Verify dnd5e system is up to date (v5.3.3 recommended)
-
-### Can't find a spell in compendia?
-- It may not be in the official SRD
-- Create a custom spell item in Foundry and add it manually
-- Or: Check if a different name variant exists
-
-### Actor stats look wrong?
-- Stat blocks are still fully embedded (AC, HP, saves, skills)
-- Only spells/items are pulled from compendia
-- Check the actor's **Attributes** tab for full stat block
+If an item doesn't exist in compendia:
+1. Items tab → **+ Add Item** → Create manually
+2. Fill in name, type, rarity, damage (for weapons)
+3. You can use an existing item as a template
 
 ---
 
 ## Verification Checklist
 
-After import and adding spells:
+After import, verify:
 
-- [ ] All 58 actors imported successfully
-- [ ] Actors have correct AC, HP, CR, abilities
-- [ ] All 88 traits/actions/legendary actions appear in Items tab
-- [ ] Spells added from compendia appear in actor sheets
-- [ ] Journals and scenes imported correctly
-- [ ] Token artwork displays properly
-- [ ] No duplicate spells in any actor
+- [ ] All 32 actors appear in Actors folder
+- [ ] Each actor has correct AC, HP, ability scores
+- [ ] All traits, actions, legendary actions appear as feat items in Items tab
+- [ ] Each feat item has an icon (not gray default)
+- [ ] Spellcasters have spells in Items tab
+- [ ] Icons make sense (breath weapons = elemental, legendary = crown, etc.)
+- [ ] No duplicate spells (each appears once)
+- [ ] Can click on any item to view it in Foundry
+
+---
+
+## Troubleshooting
+
+### "Spell/Item not found in compendia"
+- This is logged as a warning, doesn't block import
+- You can manually add it post-import (see above)
+- Check that your dnd5e system is v5.3.3 or higher
+
+### "Icon looks wrong for a feature"
+- Icons are matched automatically from compendia
+- Contextual fallbacks applied based on feature type
+- To change: Right-click feat item → **Configure Icon** → pick a different one
+
+### "A spell appears twice (once embedded, once linked)"
+- Shouldn't happen with current scripts
+- If it does: Delete the embedded one, keep the linked version from compendia
+
+### "Missing spells/items after import"
+- Check console log for warnings
+- Manually add via Items tab → **Add from Compendium** (see above)
+- Ask: Is the item in your dnd5e compendia?
+
+---
+
+## Why Compendia Matter
+
+### Benefits of Linking to Compendia ✓
+- **No duplication:** One spell, one source of truth
+- **Easy updates:** Spell changed in system? All actors get update
+- **Smaller files:** No embedded items = faster imports
+- **Flexibility:** Switch between SRD and custom spell packs
+- **Current:** Always using latest official content
+
+### Downside of Embedding ❌
+- Duplicates spells across many actors
+- Hard to update (have to edit each copy)
+- Larger file sizes
+- Goes out of sync with official content
+- Wastes storage
 
 ---
 
 ## Questions?
 
-See the full workflow at: `foundry-export/WORKFLOW.md`
+See:
+- **IMPORT-INSTRUCTIONS.md** – Step-by-step import guide
+- **RUN-THIS-ORDER.md** – Detailed instructions with troubleshooting
+- Foundry documentation: https://foundryvtt.com/
 
-Import instructions: `foundry-export/IMPORT-INSTRUCTIONS.md`
+**Everything is automatic. No manual work needed after pasting the 5 scripts.**

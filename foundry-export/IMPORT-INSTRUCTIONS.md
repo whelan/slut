@@ -1,98 +1,232 @@
-# Tyranny of Dragons - Import Macro
+# Tyranny of Dragons – Foundry VTT Import (5 Steps)
 
-## Quick Import (Paste & Run)
+## Quick Overview
 
-1. **Open Foundry console** (F12 on keyboard)
-2. **Click the "Console" tab** (if not already visible)
-3. **Copy entire contents of `import-macro.js`**
-4. **Paste into console** and press Enter
-5. **Wait for notifications** - "Campaign import complete!"
+Import **32 complete NPCs** into Foundry VTT using 5 simple console scripts. No Python tools, no asset managers, no manual editing. Just copy → paste → enter.
 
-Done! All 58 actors (with spells automatically added from compendia), 12 journals, and 3 scenes appear in your world.
+**All actors use Foundry's built-in dnd5e compendia** — no duplication, no custom items to manage.
 
-## What Happens Automatically
+---
 
-1. **Actors created** – All 58 actors with full stat blocks and trait/action items
-2. **Spells added** – The macro searches your dnd5e spells compendium and adds spells to spellcasters:
-   - Severin (16 spells)
-   - Taern Hornblade (6 spells)
-   - Crimson Maccath (5 spells)
-   - Nyh Ilmichh (5 spells)
-   - Other NPCs with spells
-3. **Journals created** – 12 campaign lore and session prep journals
-4. **Scenes created** – 3 temple levels with battlemaps
+## What Gets Imported (32 Total)
 
-No manual spell addition needed!
+| Step | Category | Count | Content |
+|---|---|---|---|
+| 1 | Council Members | 11 | Dagult, Ulder, Remallia, Ontharr, Delaan, Sir Isteval, Taern, Melandrach, Brawnanvil, Crimson, Nyh |
+| 2 | Creatures | 9 | Air Elemental, Fire Elemental, Stone Golem, Clay Golem, Iron Golem, Wight, Cult Fanatic, Cultist, Barbed Devil |
+| 3 | Antagonists | 6 | Naergoth Bladelord, Severin, Rath Modar, Magus Thezzar, White Abishai, Black Abishai |
+| 4 | Tiamat Heads | 5 | Black, Blue, Green, Red, White heads (Clock 4–7 progression) |
+| 5 | Full Tiamat | 1 | Official Tiamat CR 30 (Clock 8 finale) |
+| | **TOTAL** | **32** | **All 2024 D&D 5e rules-compliant** |
 
-## Using Forge VTT Asset Manager URLs (Recommended)
+---
 
-For best results with Forge VTT:
+## How It Works
 
-1. **Generate tokens** locally: `python3 token_generator.py art/finale/output ./export`
-2. **Upload to Forge VTT asset manager:**
-   - Upload all files from `./export/tokens/`
-   - Upload portrait artwork from `art/finale/output/`
-3. **Fill `image-urls.json`:**
-   - Copy URLs from Forge for each actor's portrait and token
-   - Template provided in `image-urls.json.template`
-4. **Regenerate macro with URLs:**
-   - Run: `python3 main.py --input-dir . --output ./export --macro`
-   - This updates `import-macro.js` with your Forge VTT URLs
-5. **Paste and run** the updated macro in Foundry console
+Each script (`STEP1.js` through `STEP5.js`) runs in your browser console and:
 
-This approach keeps files small and artwork hosted on Forge VTT.
+1. **Searches compendia first** – looks for spells, items, weapons in dnd5e official packs
+2. **Creates actors** – full stat blocks (AC, HP, abilities, skills, saves)
+3. **Adds features as items** – traits, actions, legendary actions, reactions as feat items
+4. **Matches icons** – pulls icons from compendia, falls back to contextual defaults
 
-## What Gets Imported
+No manual entry. No duplication. **100% automatic.**
 
-- **58 Actors** with full stat blocks, traits, and artwork
-- **Spells** automatically added to spellcasters from your dnd5e spells compendium:
-  - Severin: 16 spells (cantrips to 9th-level Wish)
-  - Taern Hornblade: 6 spells
-  - Crimson Maccath: 5 spells
-  - Nyh Ilmichh: 5 spells
-  - Other NPCs: various spells as appropriate
-- **12 Journals** with campaign lore and session prep
-- **3 Scenes** with battlemap backgrounds
-- **Folder organization** - Everything organized in "NPCs", "Journals", "Scenes" folders
+---
 
-## How Spell Addition Works
+## Setup (Takes 1 Minute)
 
-The macro automatically:
+1. **Open Foundry VTT** in your browser (forgevtt.com)
+2. **Press F12** on your keyboard
+3. **Click the "Console" tab** (top of Developer Tools)
+4. **Keep this console open** while running all 5 steps
 
-1. **Searches** your dnd5e spells compendium for each spell name
-2. **Copies** matching spells from the compendium into each actor's Items
-3. **Links** to your existing spells (no duplication)
+---
 
-If a spell is not found in your compendia, a warning is logged but import continues.
+## Step 1: Import Council Members (11 NPCs)
 
-## Manual Spell Addition (If Needed)
+1. Open `foundry-export/STEP1-import-council.js` in a text editor
+2. **Select all** (Ctrl+A) and **copy** (Ctrl+C)
+3. Click in the Foundry console input box
+4. **Paste** (Ctrl+V) and **press Enter**
+5. Wait for output: `✓ Imported: 11/11`
 
-If the automatic addition doesn't find all spells:
+**Done!** 11 Council members now appear in your Actors folder.
 
-1. Open the actor's sheet
-2. In the **Items** tab, click **Add Item** → **Item from Compendium**
-3. Search for spell name and add it manually
+---
 
-Most spells are in the official dnd5e.spells compendium and should be added automatically.
+## Step 2: Import Creatures (9 NPCs)
+
+1. Open `foundry-export/STEP2-import-creatures.js` in a text editor
+2. **Select all** and **copy**
+3. Paste into Foundry console and **press Enter**
+4. Wait for output: `✓ Imported: 9/9`
+
+**Done!** Total: 11 + 9 = 20 actors
+
+---
+
+## Step 3: Create Antagonists (6 NPCs)
+
+1. Open `foundry-export/STEP3-create-antagonists.js` in a text editor
+2. **Select all** and **copy**
+3. Paste into Foundry console and **press Enter**
+4. Wait for output: `✓ ALL ANTAGONISTS CREATED`
+
+**Done!** Total: 11 + 9 + 6 = 26 actors
+
+---
+
+## Step 4: Create Tiamat Heads (5 NPCs)
+
+1. Open `foundry-export/STEP4-create-tiamat-heads.js` in a text editor
+2. **Select all** and **copy**
+3. Paste into Foundry console and **press Enter**
+4. Wait for output: `✓ Tiamat Heads created`
+
+**Done!** Total: 11 + 9 + 6 + 5 = 31 actors
+
+These 5 heads are used during the ritual clock (Rounds 4–7). Each has partial manifestation traits and elemental-specific lair actions.
+
+---
+
+## Step 5: Create Full Tiamat (1 NPC)
+
+1. Open `foundry-export/STEP5-create-tiamat-final.js` in a text editor
+2. **Select all** and **copy**
+3. Paste into Foundry console and **press Enter**
+4. Wait for output: `✓ TIAMAT CREATED`
+
+**Done!** Total: 11 + 9 + 6 + 5 + 1 = **32 COMPLETE NPCs**
+
+This is the full CR 30 Tiamat that manifests at Clock 8 (final phase).
+
+---
+
+## Verification
+
+After all 5 steps, check your **Actors folder**:
+
+```
+✓ 11 Council members
+✓ 9 Creatures  
+✓ 6 Antagonists
+✓ 5 Tiamat Heads
+✓ 1 Full Tiamat
+= 32 Total
+```
+
+Open a few actors to spot-check:
+
+- **Severin:** AC 16, HP 150, CHA 20, Draconic Majesty trait
+- **Rath Modar:** CR 6, has Legendary Actions
+- **Black Head:** AC 25, HP 195, Acid Breath
+- **Tiamat:** AC 25, HP 615, 5 breath weapons, Regeneration 30
+
+---
+
+## Compendium-First Architecture
+
+These scripts do **NOT** embed spells, items, or weapons. Instead, they:
+
+1. **Search compendia first** for each spell/item
+   - `dnd5e.actors24` (base NPCs)
+   - `dnd5e.items` (equipment)
+   - `dnd5e.spells24` or `dnd5e.spells` (spellcasting)
+   - All other available packs
+2. **Link to compendia** (no duplication)
+3. **Fall back gracefully** if not found
+
+This means:
+- ✓ No outdated copies of spells
+- ✓ No manual item management
+- ✓ Your compendia stay current
+- ✓ Smaller file sizes
+- ✓ Icons automatically matched
+
+---
+
+## Icon Matching System
+
+Each script automatically:
+
+1. **Looks for icons in compendia** for spells, items, features
+2. **Matches contextually:**
+   - Breath weapons → elemental fire/acid/ice icons
+   - Legendary traits → shield/crown icons
+   - Spells → magic/arcane icons
+   - Actions → attack/sword icons
+3. **Falls back to defaults** if no match found
+
+You can always manually update icons by right-clicking a feat item and selecting **Configure Icon**.
+
+---
 
 ## Troubleshooting
 
-If import fails:
-- Check browser console for error messages (F12 → Console)
-- Ensure you're on Foundry v13+
-- Verify dnd5e system is enabled in your world
-- Check that image-urls.json was properly filled (URLs must start with https://)
+### "Nothing happened after pasting"
+- Make sure you're in the **Console tab** (not Elements, Sources, or Network)
+- Try scrolling down in the console to see output
+- Make sure Foundry is fully loaded
 
-## Manual Alternative
+### "Error: Pack not found"
+- Check Foundry Settings → System Settings
+- Verify dnd5e system is **v5.3.3 or higher**
+- Try reloading the world (F5) and re-running the step
 
-If macro import doesn't work:
-1. Use the compendium packs method instead
-2. Or import individual actors one by one from JSON exports
+### "Some actors are missing spells"
+- The script automatically searches compendia
+- If a spell isn't found, it logs a warning but continues
+- You can manually add via Items tab → **Add from Compendium**
 
-## Notes
+### "Icons look generic"
+- Icons are pulled from compendia automatically
+- Right-click feat items and **Configure Icon** to change them manually
+- The contextual fallbacks should cover most cases
 
-- Import creates new documents (won't overwrite existing)
-- Artwork uses URLs from Forge VTT (or embedded base64 if image-urls.json not provided)
-- Spells are NOT embedded; add them from your compendia post-import
-- Traits, actions, and legendary actions are included as feat items
-- You can edit actors/journals/scenes after import in Foundry UI
+### "Need to re-run a step"
+- No problem! Re-running a step will skip actors that already exist
+- Check console for which actors were skipped
+
+---
+
+## After Import
+
+Your actors are ready to use immediately:
+
+- ✅ All stats are complete (AC, HP, proficiencies, skills, saves)
+- ✅ Weapons and equipment linked from compendia
+- ✅ Spells linked (automatically searched and added)
+- ✅ Traits/actions/legendary actions included as feat items
+- ✅ Icons matched from compendia
+
+**No further setup needed.** Drop them into your encounters and play.
+
+---
+
+## File Locations
+
+```
+foundry-export/
+  STEP1-import-council.js          ← 11 Council members
+  STEP2-import-creatures.js        ← 9 Creatures
+  STEP3-create-antagonists.js      ← 6 Antagonists
+  STEP4-create-tiamat-heads.js     ← 5 Tiamat Heads
+  STEP5-create-tiamat-final.js     ← 1 Full Tiamat
+  RUN-THIS-ORDER.md                ← Detailed instructions (this document)
+```
+
+---
+
+## Next Steps
+
+1. ✅ Import all 5 steps (15 minutes)
+2. ✅ Verify all 32 actors in Actors folder
+3. ✅ Run your Temple of Tiamat encounters
+4. 🎉 Play the campaign!
+
+For detailed instructions with screenshots and common issues, see **RUN-THIS-ORDER.md**.
+
+---
+
+**Ready? Start with STEP 1 now!**
