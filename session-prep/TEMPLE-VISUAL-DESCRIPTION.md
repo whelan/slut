@@ -8,17 +8,17 @@
 
 *This is what the party sees the moment they step into the temple — standing in the mouth of the Blue Chapel at the north entrance, looking south into the heart of the ritual. Use this as the single-vantage composition for the image.*
 
-**You stand in a frozen archway.** The Blue Chapel frames you on both sides — towering columns carved to look like waterfalls caught mid-fall, sheathed in real ice, glowing a pale inner blue. The air in front of your face fogs with every breath. Frost creeps across the floor at your feet and crackles faintly underfoot. Above you, set into the apex of the entry vault, the carved **blue head of Tiamat** stares down with its mouth open, as if exhaling the cold straight onto you.
+**You stand in a frozen archway.** The Blue Chapel frames you on both sides — towering columns carved to look like waterfalls caught mid-fall, sheathed in real ice, glowing a pale inner blue. The air in front of your face fogs with every breath. Frost creeps across the floor at your feet and crackles faintly underfoot.
 
 **Just ahead and slightly raised** — perhaps thirty feet in, on a five-foot dais of blue crystal — stands **Magus Azuri**, robed and back-turned, arms lifted, chanting into the chamber beyond. A blue focus stone pulses beside him in rhythm with his voice. He is the first thing between you and everything else.
 
 **Beyond him, the temple opens into a vast cathedral.** The ceiling vanishes upward into darkness — a hundred and twenty feet to the apex. The space is enormous, and yet it does not feel open; it feels *occupied*, pressurized, like standing at the threshold of a held breath.
 
-**Dead center, framed perfectly by the chapel arch, hangs THE PORTAL.** A circular tear thirty feet across, floating ten feet above the floor with no support, ringed by five slowly rotating stone bands — blue, white, green, black, red — that never quite align. Inside the rings, chromatic energy churns around a core of absolute black. From it, ribbons of colored light spiral outward and then are dragged *back inward*, feeding the gate. A slow **thum… thum… thum** pulses out of it like a heartbeat you feel in your teeth more than hear. This is the focal point of the whole view — the brightest thing in the chamber, casting shifting colored light that repaints the entire room every second or two.
+**Dead center, framed perfectly by the chapel arch, lies THE PORTAL.** A circular tear thirty feet across in the ground itself, ringed by five slowly rotating stone bands — blue, white, green, black, red — that never quite align. Inside the rings, chromatic energy churns around a core of absolute black. From it, ribbons of colored light spiral upward and outward, then are dragged *back inward*, feeding the gate. A slow **thum… thum… thum** pulses out of it like a heartbeat you feel in your teeth more than hear. This is the focal point of the whole view — the brightest thing in the chamber, casting shifting colored light that repaints the entire room every second or two.
 
-**On the floor beneath the portal**, a fifty-foot ritual circle of draconic runes glows and pulses in time with the gate. Five lines of light stretch out from it like the points of a star — one running toward each of the five chapels, including the one you stand in. You can see the line of light arriving at Azuri's feet.
+**The ritual circle merges with the portal's edge** — a fifty-foot design of draconic runes carved into the stone around the gate, glowing and pulsing in time with the portal's heartbeat. Five lines of light stretch out from it like the points of a star — one running toward each of the five chapels, including the one you stand in. You can see the line of light arriving at Azuri's feet.
 
-**Rising directly behind the portal**, a colossal stone spire coils a hundred feet upward like a dragon's tail, blood-red at its base, bruising to deep purple near the top. At its distant apex, tiny against the portal-glow, a lone silhouette stands with arms raised — **Severin**, wreathed in a visible shimmer, chanting at the heart of it all.
+**Rising from the center of the portal itself**, a colossal stone spire coils a hundred feet upward like a dragon's tail, blood-red at its base, bruising to deep purple near the top. The spire emerges from the chromatic vortex as if the portal itself is birthing it. At its distant apex, tiny against the shifting light, a lone silhouette stands with arms raised — **Severin**, wreathed in a visible shimmer, chanting directly above the gate.
 
 **To either side, at the edges of your vision**, the other chapels glow with their own colors at sharp angles — the cold white of the chapel to your left-front, the sickly green mist further right, the acid-black and the burning red beyond. You can't see fully into them from here, only their colored mouths and the hint of robed figures within. Higher up, **twisted spires like dragon horns** ring the chamber, each tipped with a colored glow, and on the platforms partway up them you can make out **figures hovering in mid-air** — the flying wizards, watching the gate, not yet watching you.
 
@@ -26,12 +26,12 @@
 
 ### **Composition Notes for the Artist**
 - **Viewpoint:** Eye-level, standing in the Blue Chapel archway looking south/inward. The icy blue chapel columns frame the left and right edges of the image (foreground framing device).
-- **Foreground (cold, blue):** Ice-sheathed waterfall columns, frost on the floor, breath-fog, the blue Tiamat head overhead. Optionally Azuri's back-lit silhouette on his dais in the near-mid ground.
-- **Midground (the draw):** The glowing ritual circle on the floor and the five light-lines radiating out.
-- **Background / focal point (hot, chromatic):** The portal dead-center, the coiling spire rising behind it, Severin's silhouette at the apex.
-- **Periphery:** Colored chapel mouths at hard angles left and right; dragon-horn spires with hovering robed figures higher up.
-- **Light:** Cold blue wash in the foreground transitioning to intense shifting chromatic light (blue→white→green→black→red) radiating from the central portal. Strong contrast between frozen entrance and blazing core.
-- **Mood:** Awe, dread, urgency. The composition should pull the eye straight down the center to the portal and the tiny figure above it.
+- **Foreground (cold, blue):** Ice-sheathed waterfall columns, frost on the floor, breath-fog. Optionally Azuri's back-lit silhouette on his dais in the near-mid ground.
+- **Midground (the draw):** The glowing ritual circle merging with the portal on the ground, and the five light-lines radiating outward to each chapel.
+- **Background / focal point (hot, chromatic):** The portal set in the ground dead-center, the blood-red spire coiling upward FROM it, Severin's silhouette at the apex against the shifting light.
+- **Periphery:** Colored chapel mouths at hard angles left and right (each matching its spire color above); dragon-horn spires with hovering robed figures higher up, each colored to match the chapel below.
+- **Light:** Cold blue wash in the foreground transitioning to intense shifting chromatic light (blue→white→green→black→red) radiating *upward* from the central portal. Strong contrast between frozen entrance and blazing core. The spires glow with their respective chapel colors.
+- **Mood:** Awe, dread, urgency. The composition should pull the eye straight down and inward to the portal in the ground, up the central spire to the tiny figure above it.
 
 ---
 
@@ -92,24 +92,24 @@ Arranged in a **perfect pentagon** around the central space. Each chapel is a di
 **Central chamber:** 80 feet across, open cathedral space with soaring ceiling to 120 feet at the apex.
 
 ### **The Portal (Central)**
-**Location:** Dead center, suspended about 10 feet above the ground (magically held, no visible support).
+**Location:** Dead center, set INTO the ground itself. The gate opens downward into impossible depths.
 
 **Appearance:**
-- **Frame:** A massive circular aperture, 30 feet in diameter, surrounded by **five interlocking rings of stone** (one color each: blue, white, green, black, red). The rings rotate slowly, never quite aligning.
-- **The Gate Itself:** A swirling vortex of **chromatic energy**—colors shift and blend, but each moment one color dominates (depending on the round/phase). The center is utterly black, an absence of light.
-- **Emanation:** Eldritch energy spirals outward in visible streams (like northern lights but purple/black/red). The energy moves *toward* the portal, sucking in ambient magic from the chamber.
+- **Frame:** A massive circular aperture, 30 feet in diameter, ringed by **five interlocking stone bands** (one color each: blue, white, green, black, red). The bands sit on the ground, rotate slowly, never quite aligning.
+- **The Gate Itself:** A swirling vortex of **chromatic energy**—colors shift and blend, but each moment one color dominates (depending on the round/phase). The center is utterly black, an absence of light. The energy flows *upward* from the gate.
+- **Emanation:** Eldritch energy spirals upward in visible streams (like northern lights but purple/black/red). The energy moves *upward and outward* from the portal, filling the chamber with colored light.
 - **Sound:** A deep, rhythmic *thum-thum-thum* pulses from the portal, like a heartbeat. The ritual itself has a heartbeat.
 - **Temperature:** Absolute cold on one side (blue phase), brutal heat on another (red phase). Standing near the portal is uncomfortable regardless of resistances.
 
-### **Ground Below the Portal**
-- **Pattern:** Enormous ritual circle carved into the stone floor, 50 feet in diameter. The circle is inscribed with **draconic runes** and **five-pointed star** geometry.
+### **The Ritual Circle (Ground Level)**
+- **Pattern:** Enormous ritual circle carved into the stone floor around the portal, 50 feet in diameter. The circle merges with the portal's stone bands. Inscribed with **draconic runes** and **five-pointed star** geometry.
 - **Details:** The circle glows with faint chromatic light, pulsing in sync with the portal's heartbeat. Five lines of light extend from the circle toward each chapel (like a pentagram connecting all five foci).
 - **Material:** The stone here is scorched and warped from centuries of magical use. Ancient blood stains the edges (ritual sacrifices, ancient history).
 
-### **The Sanctuary Spire (Area 13 - Center, Ascending)**
-**Location:** In the center of the apse, a massive **stone spire** rises 100 feet high, coiling upward like a dragon's tail. The spire is carved with scale-like texture and is **blood-red** at the base, transitioning to **deep purple** at the top.
+### **The Sanctuary Spire (Area 13 - Center, Rising from the Portal)**
+**Location:** Emerging from the center of the portal itself, a massive **stone spire** rises 100 feet high, coiling upward like a dragon's tail. The spire is carved with scale-like texture and is **blood-red** at its base (where it meets the portal), transitioning to **deep purple** near the top. It appears to be birthed by the chromatic vortex.
 
-**The Apex:** At the very top (100 feet up), a circular platform 15 feet in diameter, exposed to the portal's energy. This is where **Severin stands**, chanting, arms raised toward the portal. A shimmering aura surrounds him, visible even from the ground.
+**The Apex:** At the very top (100 feet up), a circular platform 15 feet in diameter, exposed to the portal's energy. This is where **Severin stands**, chanting, arms raised toward the swirling gate below him. A shimmering aura surrounds him, visible even from the ground.
 
 **Ascension:** The spire is **climbable** (handholds carved as dragon scales) but exposed and difficult (DC 15 Athletics check per 20 feet, fall = 2d6 damage). Alternatively, levitate/fly to the top. The top platform has **no railings**—standing there is precarious.
 
@@ -117,18 +117,18 @@ Arranged in a **perfect pentagon** around the central space. Each chapel is a di
 
 ## 🏔️ **THE FIVE SPIRES (Aerial Positions)**
 
-Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the **five cardinal compass points** around the perimeter of the apse (roughly 80 feet out from the portal's center).
+Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the **five cardinal compass points** around the perimeter of the apse (roughly 80 feet out from the portal's center). **Each spire is carved and colored to match its corresponding chapel below** — a visual hierarchy connecting ground and sky.
 
 ### **Spire Appearance**
 - **Form:** Twisted, organic-looking spires carved to resemble **dragon horns** or **stalagmites**. They spiral upward with a subtle helical twist.
 - **Height Variation:** Each spire is 40-50 feet tall, placing flying wizards at **40-50 feet above the ground** (well above ground level but below the spire tops).
 - **Platforms:** Each spire has a **circular landing platform** (10 feet diameter) about 35 feet up the side. Wizards hover/levitate at this level or slightly above.
-- **Color Coding:** Each spire is colored to match its corresponding chapel:
-  - **Blue Spire** (north, near Blue Chapel)
-  - **White Spire** (northeast, near White Chapel)
-  - **Green Spire** (southeast, near Green Chapel)
-  - **Black Spire** (southwest, near Black Chapel)
-  - **Red Spire** (west, near Red Chapel)
+- **Color-Chapel Pairing (Consistent Top-to-Bottom):**
+  - **Blue Spire & Blue Chapel** (north) — frozen, crystalline
+  - **White Spire & White Chapel** (northeast) — pristine, pristine
+  - **Green Spire & Green Chapel** (southeast) — twisted, misty
+  - **Black Spire & Black Chapel** (southwest) — reflective, corrosive
+  - **Red Spire & Red Chapel** (west) — crimson, infernal
 
 ### **Energy Streams**
 - **Visible Connections:** Streams of chromatic energy flow from each spire **downward and inward toward the portal**, visible like ribbons of light. These streams become more intense as the ritual progresses.
@@ -171,13 +171,13 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 - **Sacrifice altars:** Small platforms (6-8 feet high) in each chapel, stained with ancient blood. Currently unused but ominous.
 
 ### **The Ritual's Visual Progress**
-- **Rounds 1-3:** Portal is **unstable, flickering**. Colors don't hold. The gate looks weak and difficult to control.
-- **Round 4 (White head):** Portal **stabilizes**, glowing **blue-white**. A draconic *shape* visible pressing against the gate. Frost forms in the air.
-- **Round 5 (Black head):** Portal turns **dark**, acidic mist begins to seep. A second shape visible. The portal widens by roughly 20%.
-- **Round 6 (Green head):** Portal turns **sickly green**. Poison clouds billow. Three shapes now visible (cramped, pressing). Portal 40% open.
-- **Round 7 (Blue head):** Portal shifts **electric blue**. Lightning crackles around the frame. Four draconic heads visible, pushing hard. Portal 60% open.
-- **Round 8 (Red head):** Portal turns **blood-red**, blazing like an inferno. All five heads are visible, and they begin to **break through the gate itself**. Portal 80% open.
-- **Rounds 9-10:** **Tiamat fully emerges**, her massive form filling the chamber. The portal becomes irrelevant; the goddess herself is the dominant feature.
+- **Rounds 1-3:** Portal is **unstable, flickering**. Colors don't hold. The gate looks weak and difficult to control. Barely wisps of energy rise from it.
+- **Round 4 (White head):** Portal **stabilizes**, glowing **blue-white**. Energy streams rise strongly. A draconic *shape* visible pressing up from below. Frost forms in the air.
+- **Round 5 (Black head):** Portal turns **dark**, acidic mist begins to seep upward. A second shape visible. The portal expands outward by roughly 20%.
+- **Round 6 (Green head):** Portal turns **sickly green**. Poison clouds billow upward from the rift. Three shapes now visible (cramped, pressing upward). Portal expansion at 40%.
+- **Round 7 (Blue head):** Portal shifts **electric blue**. Lightning crackles upward from the gate. Four draconic heads visible, pushing hard against the ground boundary. Portal at 60% expansion.
+- **Round 8 (Red head):** Portal turns **blood-red**, blazing like an inferno. All five heads are visible above the portal's edge, and they begin to **pull themselves up and out**. Portal at 80% expansion.
+- **Rounds 9-10:** **Tiamat fully emerges**, her massive form rising from and filling the chamber. The portal becomes irrelevant; the goddess herself is the dominant feature, wrapping around the central spire.
 
 ---
 
@@ -252,11 +252,10 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 
 - **Chamber diameter:** 200 feet
 - **Central apse:** 80 feet across
-- **Portal:** 30 feet diameter
+- **Portal:** 30 feet diameter, **set in the ground** (no elevation)
 - **Each chapel:** 40 ft wide × 60 ft deep
 - **Spire height:** 40-50 feet (platforms at 35 feet)
-- **Central spire (Severin):** 100 feet high
-- **Portal height above ground:** 10 feet
+- **Central spire (Severin):** 100 feet high, **rising from the portal's center**
 - **Ceiling height (center):** 120 feet
 
 **Grid equivalents (10-ft squares):**
