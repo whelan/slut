@@ -2,182 +2,192 @@
 
 **The ritual runs 10 combat rounds.** Rounds 1–3 are the "disruption window." Heads appear at rounds 4–8. Tiamat fully manifests at round 8. Rounds 9–10 show her in full combat.
 
----
-
-## ⚪ ROUND 1: The Ritual Begins
-
-**Ritual Clock Advance:** DC 12 check at end of round
-
-**Tiamat Status:** No manifestation yet. Portal pulses with eldritch light.
+**Party Entry Context:** The party enters via **Area 1 (Blue Chapel/Entrance)**. Magus Azuri is the first combatant they encounter. This breakdown accounts for the blue-chapel-to-central-apse progression.
 
 ---
 
-### **Rath Modar** (Red Chapel)
-- **Action:** Begins ritual coordination. Moves between Red Chapel viewing area; maintains concentration on **Globe of Invulnerability** (already cast, pre-combat).
-- **Bonus Action:** Uses ritual focus to confirm all five Red Wizards are in position and concentrating.
-- **Reaction:** Ready to defend the ritual if party breaches the chapel.
-- **Spell Protection:** Globe surrounds the chapel ritual zone (15-foot radius). No spell of 4th level or lower can enter.
-- **Demeanor:** Calm, focused. Confident the ritual will complete.
+## ⚪ ROUND 1: Ambush in the Blue Chapel
 
-### **Severin** (Sanctuary, at portal)
-- **Action:** Begins chanting the ritual incantation. Stands motionless, arms raised toward the portal.
-- **Bonus Action – Ritual Action:** Clock +1. The ritual officially advances to Round 1.
-- **Reaction:** None (will hold for combat interruptions).
-- **Status:** Concentrating on the ritual channel (not on a spell yet).
-- **Appearance:** The Mask of the Dragon Queen gleams on his face; eldritch energy flows from the portal through his spine.
+**Party Entry:** Party has just entered **Area 1 (Blue Chapel/Entrance)**. Magus Azuri is immediately aware of intruders.
 
-### **Red Wizards at Chapels (4 grounded)**
-**Magus Azuri** (Blue Chapel – Entrance)
-- **Action:** Moves to the chapel's focus point; begins ritual chanting with other wizards.
-- **Bonus Action:** Casts **Mage Armor** (concentration, AC 16).
-- **Status:** Focused on ritual. Will not engage unless forced.
+**Round Status:** Round 1 begins. The ritual is disrupted by combat. Advancement to Round 2 is uncertain (depends on whether Azuri remains chanting).
 
+**Tiamat Status:** No manifestation yet. Portal pulses with eldritch light in the distance (main cathedral).
+
+---
+
+### **Magus Azuri** (Blue Chapel, Area 1 – IMMEDIATE THREAT)
+- **Action:** Casts **Fireball** (8d6 fire, DC 17 save, 20-ft. radius) as a warning attack, targeting the party cluster in the chapel.
+- **Bonus Action:** Moves 30 feet toward the main cathedral opening, creating line of sight with Rath Modar.
+- **Reaction:** Ready **Counterspell** against any disruptive party spells.
+- **Status:** **NO LONGER CHANTING.** Has broken ritual focus to engage the party.
+- **Demeanor:** "INTRUDERS! THE RITUAL IS UNDER ATTACK!"
+
+### **Rath Modar** (Red Chapel, Area 6)
+- **Action:** Hears/sees Azuri's Fireball. Maintains concentration on **Globe of Invulnerability**.
+- **Bonus Action:** Moves 20 feet toward the main cathedral opening (watching for party to emerge from the Blue Chapel).
+- **Reaction:** Ready **Counterspell** to cancel any party dispel magic.
+- **Status:** Still chanting partially; aware of infiltrators; ready for defense.
+- **Demeanor:** "THE ENEMY IS HERE. HOLD THE RITUAL AT ALL COSTS."
+
+### **Severin** (Sanctuary, Area 13 – 100 feet high)
+- **Action:** Continues ritual chanting; hears the distant Fireball explosion but does not directly see it due to vault architecture.
+- **Bonus Action – Ritual Action:** Attempts Clock +1, **BUT RITUAL FAILS** because Azuri has stopped chanting.
+- **Result:** Only **4 of 5 required Red Wizards are chanting** (Alabaster, Verdian, Obsidian, Rath partially). Minimum is 5.
+- **Clock Status:** Does NOT advance. Remains at 0 (pre-Round 1).
+
+### **Red Wizards at Chapels (3 remaining grounded)**
 **Magus Alabaster** (White Chapel)
-- **Action:** Takes position at focus, begins chanting.
+- **Action:** Hears the alarm. Continues ritual chanting, but shifts posture to defensive readiness.
 - **Bonus Action:** Casts **Mirror Image** (concentration, 3 images).
-- **Preparation:** Ready to cast Counterspell if interrupted.
+- **Status:** Still chanting; aware of threat; ready to cast Counterspell if needed.
 
 **Magus Verdian** (Green Chapel)
-- **Action:** Ritual focus; begins chanting in unison with others.
-- **Bonus Action:** Casts **Blur** (concentration, AC harder to hit).
-- **Stance:** Alert but committed to ritual.
+- **Action:** Ritual focus; continues chanting in unison.
+- **Bonus Action:** Casts **Blur** (concentration).
+- **Status:** Focused on ritual; alert.
 
 **Magus Obsidian** (Black Chapel – Exit)
-- **Action:** Moves to exit-guard position; begins chanting.
-- **Bonus Action:** Casts **Mage Armor** (concentration, AC 16).
-- **Duty:** Guards the ritual zone. First to engage if party enters from below.
+- **Action:** Ritual focus; continues chanting.
+- **Bonus Action:** Casts **Mage Armor** (AC 16).
+- **Duty:** Guards the ritual zone but will not leave position unless party approaches from below.
 
 ### **Red Wizards at Spires (5 flying)**
-**Magus Cerulean** (Blue Spire)
-- **Action:** Takes aerial position 40 feet above the main ritual chamber; begins ritual chanting.
-- **Bonus Action:** Casts **Levitate** (concentration) to stay aloft.
-- **Stance:** Eyes scanning for intruders from the upper levels.
-
-**Magus Platinum** (White Spire)
-- **Action:** Ritual focus (aerial); begins chanting.
-- **Bonus Action:** Casts **Mage Armor** (AC 16).
-- **Posture:** Hovering, alert.
-
-**Magus Viridian** (Green Spire)
-- **Action:** Ritual focus; begins chanting.
-- **Bonus Action:** Casts **Blur** (concentration).
-- **Vigilance:** Scanning for intrusion points.
-
-**Magus Obsidian II** (Black Spire)
-- **Action:** Ritual focus (aerial); begins chanting.
-- **Bonus Action:** Casts **Mage Armor** (AC 16).
-- **Role:** Overwatch from above.
-
-**Magus Vermillion** (Red Spire)
-- **Action:** Ritual focus; begins chanting.
-- **Bonus Action:** Casts **Blur** (concentration).
-- **Aggression:** Most eager to cast offensive spells if interrupted.
+- **Status:** Hear the Fireball; alert posture. **NO LINE OF SIGHT into Blue Chapel vault** (blocked by architecture).
+- **Action:** Ready offensive spells; prepare to swoop down or attack if party enters main cathedral.
+- **Altitude:** Maintain 40–50 feet above spires; standby combat mode.
 
 ---
 
-**End of Round 1:** 
-- Ritual Check (DC 12): If failed, ritual holds at Round 1. If disrupted (wizard killed, etc.), DC rises by +1.
+**End of Round 1:**
+- **Ritual Check:** FAILED. Only 4 of 5 required wizards chanting. Round does NOT advance to Round 2.
+- **Azuri Status:** Engaged in combat with party in Blue Chapel, or fleeing toward main cathedral.
+- **Party Status:** Taking fire from Azuri; flying wizards not yet visible/attacking; Rath Modar still hidden behind architecture.
 - **Tiamat:** Still dormant. Portal flickers faintly with white light.
 
 ---
 
-## ⚪ ROUND 2: Momentum Builds
+## ⚪ ROUND 2: Azuri Falls or Retreats
 
-**Ritual Clock Advance:** DC 12 check at end of round (or higher if disrupted)
+**Round Status:** Round 2. Depends on Azuri's status. If he survives and returns to chanting, round may advance to Round 3. If killed, round stalls.
 
-**Tiamat Status:** Portal brightens. A faint shadow moves behind the gate.
+**Tiamat Status:** Portal brightens slightly. A faint shadow moves behind the gate.
 
 ---
 
-### **Rath Modar** (Red Chapel)
-- **Action:** Maintains concentration on **Globe of Invulnerability**; watches for ritual disruptions.
-- **Bonus Action:** Ritual coordination. If any Red Wizard is engaged in combat, Rath Modar is aware.
-- **Reaction:** Ready to cast **Counterspell** if a party member attempts to disrupt the ritual zone.
-- **Movement:** Moves 20 ft. closer to the portal if the party has not engaged him yet (repositioning for better view).
+### **Scenario A: Magus Azuri is Killed or Incapacitated**
 
-### **Severin** (Sanctuary)
-- **Action:** Continues chanting; ritual energy grows visibly around the portal.
-- **Bonus Action – Ritual Action:** Clock +1 (advances ritual to Round 2).
-- **Reaction:** None yet.
-- **Manifestation:** The portal behind Severin pulses with increasing frequency. The light shifts from white to deeper colors.
+**Ritual Consequences:**
+- Only **3 of 5 required wizards chanting** (Alabaster, Verdian, Obsidian).
+- **Ritual FAILS completely.** Clock resets to 0.
+- Party has successfully disrupted the opening phase.
 
-### **Red Wizards at Chapels (4 grounded)**
-- **Action:** Continue ritual chanting. If no party members have engaged them, they remain focused and immobile.
-- **Bonus Action:** Each wizard readies a reaction spell (Counterspell or Shield) in case of attack.
-- **Status:** All 4 still at their focus points, concentrating on the ritual.
+---
 
-**Magus Azuri** – Ready to cast **Counterspell**.
-**Magus Alabaster** – Ready to cast **Shield**.
-**Magus Verdian** – Ready to cast **Counterspell**.
-**Magus Obsidian** – Ready to cast **Acid Splash** or move to intercept.
+### **Scenario B: Magus Azuri Retreats to Main Cathedral**
 
-### **Red Wizards at Spires (5 flying)**
-- **Action:** Aerial vigil; ritual chanting continues.
-- **Bonus Action:** Each wizard readies a ranged attack or spell (Firebolt, Frostbolt, etc.) if party members approach from below.
-- **Status:** All 5 maintain altitude (20–50 feet above the chamber).
+**Magus Azuri (if alive, retreating)**
+- **Action:** Moves 30 feet into the main apse area (Area 7, central cathedral).
+- **New position:** Now with Rath Modar and other wizards in the main ritual circle.
+- **Bonus Action:** Casts **Mirror Image** or **Shield of Faith** for defense while re-joining ritual.
+- **Status:** Rejoins chanting. **Ritual recovers** (now 5+ wizards again).
 
-**Magus Cerulean** – Ready to cast **Firebolt**.
-**Magus Platinum** – Ready to cast **Frostbolt**.
-**Magus Viridian** – Ready to cast **Poison Spray**.
-**Magus Obsidian II** – Ready to cast **Acid Splash**.
-**Magus Vermillion** – Ready to cast **Firebolt**.
+**Rath Modar** (Red Chapel, Area 6)
+- **Action:** Prepares **Fireball** (save DC 17, 8d6 fire) or **Counterspell** against party spells.
+- **Bonus Action:** Ritual focus; chants alongside Azuri (maintaining 5+ wizard requirement).
+- **Movement:** May shift 20 feet closer to main apse for better positioning.
+- **Reaction:** Ready to Counterspell disruptive magic.
+- **Concentration:** Maintains **Globe of Invulnerability**.
+
+**Severin** (Sanctuary, Area 13)
+- **Action:** Ritual chanting continues.
+- **Bonus Action – Ritual Action:** Clock +1 **IF ritual resumed** (if Azuri returns and 5+ wizards are chanting).
+- **Status:** Aware of threat below; does not directly engage yet; continues ritual focus.
+- **Result:** If Azuri survives and returns, Clock advances to Round 2. ✓
+
+**Flying Wizards (5 spires) – NOW VISIBLE**
+- **Status:** Azuri's retreat into main cathedral gives them line of sight into the open apse area.
+- **Action:** Cast offensive spells toward the party (still in or emerging from Blue Chapel):
+  - **Magus Cerulean:** **Lightning Bolt** (4d6 lightning, DC 16 DEX save)
+  - **Magus Platinum:** **Cone of Cold** (6d8 cold, DC 16 CON save)
+  - **Magus Viridian:** **Insect Plague** (concentration, 4d10 piercing)
+  - **Magus Obsidian II:** **Scorching Burst** (3d6 fire, DC 16 DEX half)
+  - **Magus Vermillion:** **Fireball** (8d6 fire, DC 17 save, 20-ft. radius)
+- **Altitude:** Maintain 50+ feet above party; aerial advantage secured.
+
+**Red Wizards at Chapels (remaining)**
+**Magus Alabaster, Verdian, Obsidian** (if Azuri returns)
+- **Action:** Continue ritual chanting.
+- **Bonus Action:** Ready Counterspell or Shield spell reactions.
+- **Status:** Now defending the ritual as flying wizards attack from above.
 
 ---
 
 **End of Round 2:**
-- **Ritual Check:** DC 12 (or higher if Red Wizards have been killed).
-- **Tiamat:** Portal dims and brightens in a steady pulse. The shadow behind the gate becomes more defined (a draconic silhouette).
+- **If Azuri killed:** Round stalled; progression halts at Round 2. Party has disrupted the beginning phase successfully.
+- **If Azuri retreated:** Round advances to Round 3. Party faces aerial assault from all 5 flying wizards.
+- **Tiamat:** Portal dims and brightens in steady pulse. Shadow behind gate becomes more defined (draconic silhouette).
 
 ---
 
-## 🔥 ROUND 3: Last Chance to Disrupt
+## 🔥 ROUND 3: Party Reaches Main Cathedral
 
-**Ritual Clock Advance:** DC 12 check at end of round
+**Party Movement:** Party has now crossed from Blue Chapel vault into the main apse area **(Area 7, central cathedral)**.
 
-**Tiamat Status:** Portal blazes with eldritch fire. A low rumble echoes through the temple. You hear breathing from the other side.
+**Round Status:** Round 3. Depends on Azuri's status from Round 2. If he returned, round can now advance to Round 4.
 
-**DM Note:** This is the LAST ROUND before heads begin to emerge. If the party does not kill at least one Red Wizard or damage Severin's concentration, Tiamat's manifestation becomes inevitable.
+**Tiamat Status:** Portal blazes with eldritch fire. A low rumble echoes through the temple. Breathing is audible from the other side.
+
+**DM Note:** This is the LAST ROUND before Tiamat's heads begin to emerge (Round 4). All NPCs now have clear line of sight and direct engagement capability.
 
 ---
 
-### **Rath Modar** (Red Chapel)
-- **Action:** Ritual coordination intensifies. Rath Modar's voice rises as he chants in Infernal alongside Severin.
-- **Bonus Action – Ritual Action (if Rath had one):** Actually, Rath Modar does NOT have his own Ritual Action. That is Severin's role. However, Rath Modar can use his action to cast a **Fireball** (save DC 17) if party members approach within 60 feet.
-- **Alternative Action:** If party is close, Rath Modar uses **Counterspell** to shut down party spell attempts.
-- **Movement:** Moves 30 feet toward the center of the chapel, positioning himself between party and the ritual focus.
-- **Magical Aura:** The **Globe of Invulnerability** expands slightly (still 15-foot radius but visibly more powerful).
+### **Magus Azuri** (if alive, main cathedral)
+- **Action:** If Azuri returned to ritual in Round 2, he continues chanting OR engages the party directly if they enter the apse.
+- **Bonus Action:** Casts offensive spell OR assists with ritual focus.
+- **Status:** Participating in ritual defense; if party is near, shifts to combat stance.
 
-### **Severin** (Sanctuary)
-- **Action:** The ritual chant reaches a crescendo. Severin's voice echoes unnaturally through the temple—it is no longer just his voice, but layered with others. The Portal writhes.
-- **Bonus Action – Ritual Action:** Clock +1 (advances to Round 3, the final pre-manifestation round).
-- **Reaction:** If a party member attempts to destroy a mask or interrupt the ritual directly, Severin will use **Shield** reaction or cast **Counterspell** (prepared).
-- **Appearance:** Severin's eyes glow with eldritch light. The Mask of the Dragon Queen is almost unrecognizable—it has merged with his face, becoming one.
+### **Rath Modar** (Red Chapel, Area 6)
+- **Action:** Casts **Wall of Fire** (concentration, 60-foot line or 20-ft. radius) to position between party and Severin.
+- **Bonus Action:** Ritual focus (maintains chanting).
+- **Movement:** Moves 30 feet closer to central apse for better vantage on the party.
+- **Concentration:** Now splitting between Wall of Fire and Globe of Invulnerability (may need to choose).
+- **Status:** **NOW FULLY ENGAGED** in combat; ritual duties secondary.
+- **Demeanor:** "THE QUEEN'S ASCENSION IS UNSTOPPABLE! YOU CANNOT STOP THIS!"
 
-### **Red Wizards at Chapels (4 grounded)**
-- **Action:** Ritual chanting reaches a fever pitch. All four wizards are locked in deep concentration, their hands glowing with ritual energy.
-- **Bonus Action:** Each wizard casts a **Counterspell-ready** reaction. If a party member casts a spell to disrupt the ritual, that wizard can use their reaction to cancel it.
-- **Status:** Immobile, fully committed to the ritual. If attacked, they will defend themselves (action to cast a spell or counterspell), but breaking concentration will interrupt the ritual.
+### **Severin** (Sanctuary, Area 13 – 100 feet high)
+- **Action:** Ritual chanting intensifies. Voice echoes unnaturally through the temple—layered with others. Portal writhes.
+- **Bonus Action – Ritual Action:** Clock +1 (advances to Round 3) **IF 5+ wizards are still chanting**.
+- **Reaction:** Ready to Counterspell or defend masks if party attempts direct approach.
+- **Status:** Now fully aware party has reached main cathedral; concentrating harder on ritual.
+- **Appearance:** Severin's eyes glow with eldritch light. Mask of the Dragon Queen merges with his face.
 
-**All four wizards:** Concentrating on **Shield**, ready to dodge incoming attacks or cast **Counterspell**.
+### **Red Wizards at Chapels (3 remaining)**
+**Magus Alabaster, Verdian, Obsidian** (White, Green, Black Chapels)
+- **Action:** Ritual chanting reaches fever pitch; hands glow with ritual energy.
+- **Bonus Action:** Ready Counterspell or Shield reactions.
+- **Status:** Immobile, fully committed to ritual; if attacked, will defend but breaking concentration interrupts ritual.
 
-### **Red Wizards at Spires (5 flying)**
-- **Action:** Aerial chanting reaches crescendo. The five flying wizards form a defensive pattern, their combined magical auras interlocking in mid-air.
-- **Bonus Action:** Each wizard is ready to cast an offensive spell (Fireball, Lighting Bolt, Cone of Cold, etc.) if the party moves to interrupt.
-- **Status:** All 5 wizards maintain altitude and continue ritual chanting.
-
-**Magus Cerulean** – Ready to cast **Lightning Bolt** (3d8, DC 16 DEX save).
-**Magus Platinum** – Ready to cast **Cone of Cold** (6d8, DC 16 CON save).
-**Magus Viridian** – Ready to cast **Stinking Cloud** (concentration, blocks vision).
-**Magus Obsidian II** – Ready to cast **Acid Splash** or **Melf's Acid Arrow** (2d4 acid).
-**Magus Vermillion** – Ready to cast **Fireball** (save DC 17, 8d6 fire).
+### **Red Wizards at Spires (5 flying) – FULL OFFENSIVE**
+- **Status:** Party now visible in main apse. Clear line of sight for all five.
+- **Action:** Full offensive barrage (all cast high-level spells):
+  - **Magus Cerulean:** **Lightning Bolt** (4d6 lightning, DC 16 DEX save)
+  - **Magus Platinum:** **Cone of Cold** (8d8 cold, DC 16 CON save)
+  - **Magus Viridian:** **Cloudkill** (20-ft. radius, 5d8 poison, DC 15 CON save)
+  - **Magus Obsidian II:** **Scorching Burst** (3d6 fire, DC 16 DEX half)
+  - **Magus Vermillion:** **Fireball** (8d6 fire, DC 17 save, 20-ft. radius)
+- **Altitude:** All maintain 50+ feet above; aerial advantage secured.
+- **Targeting:** Lowest-HP party members.
 
 ---
 
 **End of Round 3:**
-- **Ritual Check:** DC 12 (or +1 for each Red Wizard killed so far).
-  - **Success:** The ritual advances to Round 4. Tiamat's first head emerges.
-  - **Failure (rare):** The ritual is held at Round 3 for one more round. The party has another chance to disrupt.
-- **Tiamat:** The portal tears open. The white, frosted shape of a draconic head pushes through the barrier—scales of pure ice, breath that frosts the air, ancient eyes of glacial blue.
+- **Ritual Check:** (depends on wizard deaths).
+  - **If 5+ wizards still chanting:** Round advances to Round 4 ✓
+  - **If fewer than 5:** Round stalls. Progression halts.
+  - **Success → Round 4:** Tiamat's first head (White) begins to emerge.
+- **Party Status:** Aerial assault from all 5 flying wizards; Rath Modar now in direct threat range; Severin visible but distant (100 feet high); portal active and dangerous.
+- **Tiamat:** Portal tears open. The white, frosted shape of a draconic head pushes through the barrier—scales of pure ice, breath that frosts the air, ancient eyes of glacial blue.
 
 ---
 
@@ -630,28 +640,36 @@
 
 ## Summary: 10-Round Ritual Breakdown
 
-| Round | Event | Heads | Ritual Clock | Key NPC Actions |
+| Round | Event | Heads | Round Status | Key NPC Actions |
 |---|---|---|---|---|
-| **1** | Building | 0 | 1 | Rath: Ritual focus. Severin: Ritual Action +1. All wizards: Chanting. |
-| **2** | Momentum builds | 0 | 2 | All NPCs: Continue ritual focus. Ready spells. |
-| **3** | Last disruption chance | 0 | 3 | Rath: Positioned for defense. Severin: Crescendo ritual chant. Wizards: Ready Counterspell. |
-| **4** | **White head emerges** | 1 | 4 | White head: First bite attack. Rath: Fireball. Severin: Ritual +1. Wizards: Offensive spells. |
-| **5** | **Black head emerges** | 2 | 5 | Severin gains **+2 to all saves/attacks** (Champion of Tiamat). Both heads: Bite attacks. |
-| **6** | **Green head emerges** | 3 | 6 | All three heads: Bite attacks. Rath: Confusion spell. Severin: Hellish Chains. |
-| **7** | **Blue head emerges** | 4 | 7 | Severin gains **Immortality (min 3 HP)**. Rath: Mislead (invisible). All four heads: Bite attacks. |
-| **8** | **RED HEAD EMERGES – TIAMAT FULLY MANIFEST** | 5 | 8 | **RITUAL COMPLETE.** Tiamat enters initiative. Severin: Now free to attack. Rath: Observing (hidden). |
-| **9** | Tiamat fully active | 5 | 8 | Tiamat: Full multiattack (5 bites + breath weapons). Party in survival mode. |
-| **10** | Final stand | 5 | 8 | Tiamat: Relentless assault. Party must kill Severin or destroy masks to win. |
+| **1** | **Azuri Ambush** in Blue Chapel | 0 | **Blocked** | Azuri: Fireball + flees/fights. Rath: Aware, ready Counterspell. Ritual fails (only 4 wizards). |
+| **2** | **Azuri Falls or Retreats** | 0 | **Scenario A: Blocked / B: Advances** | If Azuri killed: Stalled (3 wizards). If Azuri retreats: Resumes. Flying 5: Begin assault. |
+| **3** | **Party in Main Apse** | 0 | **Scenario A: Blocked / B: Advances** | Rath: Wall of Fire. Severin: Chants. Flying 5: Barrage. All 5 chapels engaged. |
+| **4** | **White head emerges** | 1 | **4** | White head: Bite attack. Rath: Fireball. Severin: Combat shift. Wizards: Offensive. |
+| **5** | **Black head emerges** | 2 | **5** | Severin: +2 saves/attacks. Both heads: Bites. |
+| **6** | **Green head emerges** | 3 | **6** | Three heads: Bites. Rath: Confusion. Severin: Hellish Chains. |
+| **7** | **Blue head emerges** | 4 | **7** | Severin: Immortal (min 3 HP). Rath: Mislead. Four heads: Bites. |
+| **8** | **RED HEAD EMERGES – TIAMAT FULLY MANIFEST** | 5 | **8** | **RITUAL COMPLETE.** Tiamat acts. Severin: Free. Rath: Hidden. |
+| **9** | Tiamat fully active | 5 | **8** | Tiamat: Full assault. Party survival mode. |
+| **10** | Final stand | 5 | **8** | Tiamat: Relentless. Kill Severin or destroy masks. |
 
 ---
 
 ## Key Mechanics for DM
 
-### **Ritual Advancement (End of Each Round)**
-- **Round 1–3:** DC 12 to advance (party can disrupt easily).
-- **Round 4–6:** DC 13–15 (increases each round).
-- **Round 7–8:** DC 16+ (nearly impossible to hold).
-- **Modify DC:** +1 for each Red Wizard killed. Automatic fail if Mask of the Dragon Queen is destroyed.
+### **Round Advancement (End of Each Round)**
+
+**Minimum Requirement:** 5 of 9 Red Wizards must be actively chanting. If fewer than 5 are chanting, progression STALLS (round does not advance).
+
+**Round 1 (Blue Chapel):** Magus Azuri is immediately engaged. If he cannot return to chanting within the round, progression is blocked (only 4 wizards chanting).
+
+**Round 2–3 (Main Apse):** 
+- **If Azuri survived Round 1 and returned to chanting:** Round can advance.
+- **If Azuri is dead:** Progression stalls (only 3-4 wizards remaining).
+
+**Rounds 4–8:** Heads emerge one per round (White → Black → Green → Blue → Red). Progression becomes automatic once party reaches Round 4 (cannot be stopped without killing Severin or destroying the Mask).
+
+**Critical Tactical Point:** **Rounds 1–3 are the party's window to disrupt the progression** by killing Red Wizards (especially Azuri). Once **Round 4 begins and the first head emerges, Tiamat's manifestation becomes unstoppable**—party's only options are kill Severin, destroy all masks, or survive until Round 10.
 
 ### **How the Party Wins**
 1. **Kill Severin** (while portal is open) → Portal closes, Tiamat retreats to Avernus.
