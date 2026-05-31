@@ -127,7 +127,7 @@ Each chapel occupies **one point of the five-pointed star** — a triangular arm
 
 ## 🏔️ **THE FIVE SPIRES (Aerial Positions)**
 
-Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the **five cardinal compass points** around the perimeter of the apse (roughly 80 feet out from the portal's center). **Each spire is carved and colored to match its corresponding chapel below** — a visual hierarchy connecting ground and sky.
+Five **tower-like formations**, each roughly 40-50 feet tall, one standing over the **inner mouth of each star point** (where the point opens into the central pentagon, roughly 80 feet out from the portal's center). **Each spire is carved and colored to match its corresponding chapel point below** — a visual hierarchy connecting ground and sky.
 
 ### **Spire Appearance**
 - **Form:** Twisted, organic-looking spires carved to resemble **dragon horns** or **stalagmites**. They spiral upward with a subtle helical twist.
@@ -151,12 +151,12 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 ### **Primary Light Sources**
 1. **The Portal:** Dominant light source, casting **shifting colored light** across the chamber. Every 1-2 seconds, the light color shifts (blue → white → green → black → red → repeat). Creates an eerie, disorienting effect.
 2. **The Ritual Circle:** Faint **chromatic glow** pulses from the carved runes. Illuminates the center arena.
-3. **The Spires:** Faint **colored glows** from each spire (matching their color), casting long shadows across the apse.
-4. **The Chapels:** Each chapel has its own **thematic light** (cold blue for Blue Chapel, oppressive green for Green, etc.). Creates distinct lighting zones.
+3. **The Spires:** Faint **colored glows** from each spire (matching their color), casting long shadows across the central pentagon.
+4. **The Chapel-Points:** Each point has its own **thematic light** (cold blue for Blue, oppressive green for Green, etc.). Creates distinct colored lighting zones radiating out along each arm of the star.
 
 ### **Shadows & Obscurement**
 - **Long shadows** cast from the columns and spires. Creates **difficult terrain for vision** in some areas.
-- **The central apse is well-lit** (portal light), but the chapel entrances are **dimly lit** (shadowed).
+- **The central pentagon is well-lit** (portal light), but the outer tips of the star points are **dimly lit** (shadowed).
 - **Magical darkness** is NOT present, but the shifting chromatic light creates **shifting shadows and color distortions**.
 
 ### **Sound**
@@ -166,7 +166,7 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 
 ### **Temperature & Sensation**
 - **Variable:** Different zones have different temperatures (Blue = freezing, Red = scorching).
-- **Central apse is uncomfortable:** Not one temperature, but a clashing mix of extremes that cancel into an eerie neutral temperature.
+- **Central pentagon is uncomfortable:** Not one temperature, but a clashing mix of extremes that cancel into an eerie neutral temperature.
 - **Air quality:** Thick, heavy air. Breathing feels labored. Non-native creatures feel the oppression of the place.
 
 ---
@@ -190,40 +190,34 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 
 ---
 
-## 🗺️ **TACTICAL LAYOUT SUMMARY**
+## 🗺️ **TACTICAL LAYOUT SUMMARY (FIVE-POINTED STAR)**
+
+The temple is a five-pointed star. Walls = the star outline. Floor (grid) = the star interior. Each point is a chapel; the pentagon where they meet (Area 2) holds the floor-set portal with the spire rising from it. The party enters at the tip of the north point (Blue).
 
 ```
-                    SANCTUARY SPIRE (100 ft high)
-                    SEVERIN (at top, 100 ft up)
-                              |
-                              |
-        RED CHAPEL          PORTAL (30 ft diameter)      BLUE CHAPEL
-        Rath Modar          Ritual Circle               Magus Azuri
-        60 ft away          (center, 10 ft high)        ENTRANCE (north)
-        
-        RED SPIRE           (5 streams of energy)       BLUE SPIRE
-        40-50 ft high       flowing inward              40-50 ft high
-        Vermillion          
-        (35 ft platform)                                Cerulean
-                                                        (35 ft platform)
-        
-        BLACK CHAPEL        Columns throughout          WHITE CHAPEL
-        Obsidian            Central apse                Alabaster
-        60 ft away          (open, well-lit)           60 ft away
-        
-        BLACK SPIRE                                     WHITE SPIRE
-        40-50 ft high       Difficult terrain in        40-50 ft high
-        Obsidian II         some chapels                Platinum
-        (35 ft platform)    (acid pools, mist)         (35 ft platform)
-        
-                            GREEN CHAPEL
-                            Verdian
-                            60 ft away
-                            
-                            GREEN SPIRE
-                            40-50 ft high
-                            Viridian
-                            (35 ft platform)
+                      ENTRANCE corridor
+                              ▼
+                      ╱╲  AREA 1  ╱╲
+                     ╱ BLUE CHAPEL ╲
+                    ╱  Magus Azuri   ╲
+                   ╱   (north point)   ╲
+  AREA 6         ╱                       ╲         AREA 3
+RED CHAPEL ◄────╱       AREA 2 (center)   ╲────► WHITE CHAPEL
+Rath Modar     │     PORTAL in the floor   │     Magus Alabaster
+(NW point)     │     (30 ft, set in ground)│     (NE point)
+               │     Spire rises from it   │
+               │     → SEVERIN at apex      │
+                ╲    (100 ft above)        ╱
+  AREA 5         ╲                        ╱        AREA 4
+BLACK CHAPEL ◄───╲   five light-lines    ╱───► GREEN CHAPEL
+Magus Obsidian    ╲  run out to each    ╱     Magus Verdian
+(SW point,         ╲   star point      ╱      (SE point)
+ exit tunnel)       ╲╱               ╲╱
+
+Spires (40-50 ft tall, wizards hovering at 35 ft platforms) stand over
+the inner mouth of each point, COLOR-MATCHED to the chapel below:
+  Blue Spire (N) · White Spire (NE) · Green Spire (SE)
+  · Black Spire (SW) · Red Spire (NW)
 ```
 
 ---
