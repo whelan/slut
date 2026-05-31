@@ -4,6 +4,37 @@
 
 ---
 
+## 👁️ **THE VIEW FROM THE BLUE CHAPEL ENTRANCE (Primary Composition)**
+
+*This is what the party sees the moment they step into the temple — standing in the mouth of the Blue Chapel at the north entrance, looking south into the heart of the ritual. Use this as the single-vantage composition for the image.*
+
+**You stand in a frozen archway.** The Blue Chapel frames you on both sides — towering columns carved to look like waterfalls caught mid-fall, sheathed in real ice, glowing a pale inner blue. The air in front of your face fogs with every breath. Frost creeps across the floor at your feet and crackles faintly underfoot. Above you, set into the apex of the entry vault, the carved **blue head of Tiamat** stares down with its mouth open, as if exhaling the cold straight onto you.
+
+**Just ahead and slightly raised** — perhaps thirty feet in, on a five-foot dais of blue crystal — stands **Magus Azuri**, robed and back-turned, arms lifted, chanting into the chamber beyond. A blue focus stone pulses beside him in rhythm with his voice. He is the first thing between you and everything else.
+
+**Beyond him, the temple opens into a vast cathedral.** The ceiling vanishes upward into darkness — a hundred and twenty feet to the apex. The space is enormous, and yet it does not feel open; it feels *occupied*, pressurized, like standing at the threshold of a held breath.
+
+**Dead center, framed perfectly by the chapel arch, hangs THE PORTAL.** A circular tear thirty feet across, floating ten feet above the floor with no support, ringed by five slowly rotating stone bands — blue, white, green, black, red — that never quite align. Inside the rings, chromatic energy churns around a core of absolute black. From it, ribbons of colored light spiral outward and then are dragged *back inward*, feeding the gate. A slow **thum… thum… thum** pulses out of it like a heartbeat you feel in your teeth more than hear. This is the focal point of the whole view — the brightest thing in the chamber, casting shifting colored light that repaints the entire room every second or two.
+
+**On the floor beneath the portal**, a fifty-foot ritual circle of draconic runes glows and pulses in time with the gate. Five lines of light stretch out from it like the points of a star — one running toward each of the five chapels, including the one you stand in. You can see the line of light arriving at Azuri's feet.
+
+**Rising directly behind the portal**, a colossal stone spire coils a hundred feet upward like a dragon's tail, blood-red at its base, bruising to deep purple near the top. At its distant apex, tiny against the portal-glow, a lone silhouette stands with arms raised — **Severin**, wreathed in a visible shimmer, chanting at the heart of it all.
+
+**To either side, at the edges of your vision**, the other chapels glow with their own colors at sharp angles — the cold white of the chapel to your left-front, the sickly green mist further right, the acid-black and the burning red beyond. You can't see fully into them from here, only their colored mouths and the hint of robed figures within. Higher up, **twisted spires like dragon horns** ring the chamber, each tipped with a colored glow, and on the platforms partway up them you can make out **figures hovering in mid-air** — the flying wizards, watching the gate, not yet watching you.
+
+**The overall impression:** You are looking down a frozen blue tunnel into a furnace of god-light. Cold foreground, blazing chromatic center, a tower with a tiny man-shaped speck at its peak, and a wheel of impossible color hanging in the dark — all of it pulsing, all of it loud with chanting, all of it clearly close to completion.
+
+### **Composition Notes for the Artist**
+- **Viewpoint:** Eye-level, standing in the Blue Chapel archway looking south/inward. The icy blue chapel columns frame the left and right edges of the image (foreground framing device).
+- **Foreground (cold, blue):** Ice-sheathed waterfall columns, frost on the floor, breath-fog, the blue Tiamat head overhead. Optionally Azuri's back-lit silhouette on his dais in the near-mid ground.
+- **Midground (the draw):** The glowing ritual circle on the floor and the five light-lines radiating out.
+- **Background / focal point (hot, chromatic):** The portal dead-center, the coiling spire rising behind it, Severin's silhouette at the apex.
+- **Periphery:** Colored chapel mouths at hard angles left and right; dragon-horn spires with hovering robed figures higher up.
+- **Light:** Cold blue wash in the foreground transitioning to intense shifting chromatic light (blue→white→green→black→red) radiating from the central portal. Strong contrast between frozen entrance and blazing core.
+- **Mood:** Awe, dread, urgency. The composition should pull the eye straight down the center to the portal and the tiny figure above it.
+
+---
+
 ## 🏛️ **OVERALL STRUCTURE**
 
 **Scale:** Massive underground cathedral. 200 feet across, 120 feet high at center spire.
