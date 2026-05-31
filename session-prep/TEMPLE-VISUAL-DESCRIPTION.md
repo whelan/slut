@@ -37,59 +37,69 @@
 
 ## 🏛️ **OVERALL STRUCTURE**
 
-**Scale:** Massive underground cathedral. 200 feet across, 120 feet high at center spire.
+**Scale:** Massive underground cavern-temple. Roughly 200 feet across, 120 feet high at center spire.
 
-**Style:** Ancient draconic architecture—part Netheril ruins, part chromatic cult corruption. Stone that shifts between deep purple, black, and dark metallic hues depending on the light.
+**Footprint — A FIVE-POINTED STAR:** This is the critical shape. The temple is a single open chamber carved into the rock in the form of a **five-pointed star (pentagram)**. The jagged cavern **walls form the outline of the star** — five points reaching outward, five concave valleys between them. The **gridded stone floor fills the entire interior of the star**, and everything outside the star's edges is solid, unwalkable rock. There are no separate rooms or alcoves: the five chapels ARE the five points of the star, and the central pentagon where the points meet is the ritual heart.
 
-**Atmosphere:** The air shimmers with heat and eldritch energy. Faint aurora-like wisps of chromatic energy spiral upward toward the portal. The whole chamber pulses with a slow, rhythmic heartbeat (the ritual's pulse).
+**Style:** Ancient draconic architecture carved from living rock—part Netheril ruin, part chromatic cult corruption. The walls are dark, scaled, dragon-hide stone; the floor is a polished flagstone grid inscribed with runes. Stone shifts between deep purple, black, and dark metallic hues depending on the light.
+
+**Atmosphere:** The air shimmers with heat and eldritch energy. Faint aurora-like wisps of chromatic energy spiral upward from the portal in the floor. The whole chamber pulses with a slow, rhythmic heartbeat (the ritual's pulse).
+
+**Area layout (matching the Level 1 map):**
+- **Area 1 — Blue Chapel:** the northern point. **Party entrance is here**, a corridor entering the tip of this point from outside the star.
+- **Area 3 — White Chapel:** the east/northeast point.
+- **Area 4 — Green Chapel:** the southeast point.
+- **Area 5 — Black Chapel:** the southwest point (hidden exit tunnel to the warrens).
+- **Area 6 — Red Chapel:** the west/northwest point (Rath Modar, ritual coordinator).
+- **Area 2 — The Central Pentagon:** where all five points converge. The portal is set into the floor here; the Sanctuary Spire rises from its center.
 
 ---
 
-## 🔷 **THE FIVE CHAPELS (Surrounding the Central Apse)**
+## 🔷 **THE FIVE CHAPELS (The Five Points of the Star)**
 
-Arranged in a **perfect pentagon** around the central space. Each chapel is a distinct **vaulted alcove**, roughly 40 feet wide × 60 feet deep, with soaring arches 50 feet high.
+Each chapel occupies **one point of the five-pointed star** — a triangular arm of floor that narrows as it reaches outward to the cavern wall, and opens inward into the central pentagon. There are no doors or dividing walls between the chapels and the center; line of sight runs from each point straight across to the portal. Each point is roughly 40 feet wide at its base (where it meets the center) and tapers ~60 feet out to its tip.
 
-### **1. BLUE CHAPEL (Area 1 - The Entrance)**
-**Location:** North entrance where the party enters
-- **Architecture:** Blue marble veined with white. Columns carved to resemble frozen waterfalls. Ice-like crystalline formations on the walls that glow faintly blue.
-- **Iconography:** Tiamat's blue head carved into the vault's apex, mouth open as if breathing. Water channels run along the floor (empty, but ominous).
-- **Magical Aura:** Cold air radiates from this chapel. Breath mists when you enter. The temperature drops 20 degrees from the main cathedral.
-- **NPC:** Magus Azuri stands at the chapel's focal point—a raised platform at the far end with a blue crystalline focus stone.
-- **Tactical:** Open at the entry, can be reached immediately. Good cover behind columns. Azuri's platform is elevated 5 feet, giving line of sight to main cathedral.
+### **1. BLUE CHAPEL (Area 1 - The Entrance, North Point)**
+**Location:** The northern point of the star. The party enters through a corridor at the tip of this point.
+- **Architecture:** Blue marble veined with white, fading into the dark scaled cavern walls. Columns carved to resemble frozen waterfalls. Ice-like crystalline formations on the walls that glow faintly blue.
+- **Iconography:** Draconic runes glow blue along the floor of this point. Water channels run along the edges (empty, but ominous).
+- **Magical Aura:** Cold air radiates from this point. Breath mists when you enter. The temperature drops 20 degrees from the central pentagon.
+- **NPC:** Magus Azuri stands partway down the point—on a raised five-foot dais with a blue crystalline focus stone, facing inward toward the portal.
+- **Tactical:** The party arrives here. Good cover behind columns. Azuri's dais gives him line of sight straight down the point to the central portal.
 
-### **2. WHITE CHAPEL (Area 3 - Northeast)**
-- **Architecture:** Pale white limestone, smooth and pristine. Columns like ivory tusks. The vault is ribbed like a dragon's ribcage.
-- **Iconography:** Tiamat's white head carved in relief, breath weapon depicted as a cone of frost crystals (actually ice formations hanging from the ceiling).
-- **Magical Aura:** Biting cold. Frost forms on metal weapons. The very light here seems pale and washed-out, as if drained of warmth.
-- **NPC:** Magus Alabaster at the white focus stone (raised platform, similar to Azuri's).
-- **Tactical:** 60 feet from central apse (roughly 45-degree angle). Requires moving through open cathedral or circling the perimeter.
+### **2. WHITE CHAPEL (Area 3 - East/Northeast Point)**
+- **Architecture:** Pale white limestone columns set into the dark scaled cavern wall, smooth and pristine. Columns like ivory tusks. Ice formations hang from the cavern ceiling above this point.
+- **Iconography:** White draconic runes glow along the floor of the point. Frost crystals cling to the walls.
+- **Magical Aura:** Biting cold. Frost forms on metal weapons. The light here seems pale and washed-out, as if drained of warmth.
+- **NPC:** Magus Alabaster on a raised dais with the white focus stone, facing inward.
+- **Tactical:** This point opens into the central pentagon. ~60 feet from the portal along the point's axis.
 
-### **3. GREEN CHAPEL (Area 4 - Southeast)**
-- **Architecture:** Deep green stone, almost black-green. Columns are twisted, organic-looking, like gnarled trees or serpents coiling upward. The vault drips with stalactite-like stone formations.
-- **Iconography:** Tiamat's green head, but rendered with dripping fangs and mist swirling from her mouth. Stone formations make it look like poison or miasma is eternally falling from above.
+### **3. GREEN CHAPEL (Area 4 - Southeast Point)**
+- **Architecture:** Deep green stone, almost black-green, bleeding into the cavern wall. Columns are twisted, organic-looking, like gnarled trees or serpents coiling upward. Stalactites drip from above.
+- **Iconography:** Green runes glow through a faint mist. Stone formations make it look like poison is eternally weeping from the walls.
 - **Magical Aura:** Thick, humid air. The smell of decay and rot. Visibility reduced to about 40 feet due to faint green mist. The mist seems alive, coiling slowly.
-- **NPC:** Magus Verdian at the green focus stone.
-- **Tactical:** 60 feet from central apse (roughly 45-degree angle). Mist provides light concealment. Difficult terrain (slime-covered floor).
+- **NPC:** Magus Verdian on a raised dais with the green focus stone.
+- **Tactical:** ~60 feet from the portal. Mist provides light concealment. Difficult terrain (slime-covered floor) within the point.
 
-### **4. BLACK CHAPEL (Area 5 - Southwest, Near Exit)**
-- **Architecture:** Obsidian-black stone, polished smooth and reflective. The reflection distorts and shifts unnaturally. Columns are carved with jagged, sharp edges—almost dangerous to touch. Acid scars mark the stone (corrosion patterns).
-- **Iconography:** Tiamat's black head, rendered in shadow, almost invisible in the darkness. Her mouth is a gaping maw, acid dripping from fangs. Acid has literally carved channels into the floor from her breath weapon depiction.
+### **4. BLACK CHAPEL (Area 5 - Southwest Point, Near Exit)**
+- **Architecture:** Obsidian-black stone, polished smooth and reflective, set into the jagged cavern wall. The reflection distorts unnaturally. Acid scars mark the stone (corrosion patterns).
+- **Iconography:** Black runes barely visible in the shadow. Acid has carved channels into the floor of the point.
 - **Magical Aura:** Acidic miasma. Visibility reduced. The air burns faintly (not pain, but discomfort). Metal corrodes if left exposed. Pools of acidic slime in low areas.
-- **NPC:** Magus Obsidian at the black focus stone. This chapel has a hidden exit tunnel (goes down to the Well of Dragons warrens).
-- **Tactical:** 60 feet from central apse. Difficult terrain (acid pools). The exit tunnel is a flanking route if party discovers it.
+- **NPC:** Magus Obsidian on a raised dais with the black focus stone. **A hidden exit tunnel** opens at the tip of this point (descends to the Well of Dragons warrens).
+- **Tactical:** ~60 feet from the portal. Difficult terrain (acid pools). The exit tunnel at the point's tip is a flanking/escape route if discovered.
 
-### **5. RED CHAPEL (Area 6 - West)**
-- **Architecture:** Deep red stone, almost blood-red, with veins of gold and copper that catch the light. The vault is lined with heat-blackened stone, as if scorched from within. Carved pillars are faceted like gems or dragon scales.
-- **Iconography:** Tiamat's red head, the most dominant and threatening. Her breath weapon depicted as swirling inferno, flames carved into the very stone in relief.
-- **Magical Aura:** Intense heat. The air shimmers. Sweat forms immediately. The light here is harsh and orange, cast by faint red-orange glow (magical heat source, not a physical fire).
-- **NPC:** Rath Modar at the red focus stone. This is the ritual *coordinator's* location, not just another cardinal wizard.
-- **Tactical:** 60 feet from central apse. Heat causes fatigue (DC 10 CON save every 5 minutes for non-resistant creatures). Advantage for fire-based spells cast here.
+### **5. RED CHAPEL (Area 6 - West/Northwest Point)**
+- **Architecture:** Deep blood-red stone with veins of gold and copper that catch the light, fading into heat-blackened cavern wall. Carved pillars are faceted like gems or dragon scales.
+- **Iconography:** Red runes blaze along the floor of the point. Flame motifs carved into the stone in relief.
+- **Magical Aura:** Intense heat. The air shimmers. Sweat forms immediately. The light here is harsh and orange (magical heat source, not a physical fire).
+- **NPC:** **Rath Modar** on a raised dais with the red focus stone. This is the ritual *coordinator's* point, not just another cardinal wizard.
+- **Tactical:** ~60 feet from the portal. Heat causes fatigue (DC 10 CON save every 5 minutes for non-resistant creatures). Advantage for fire-based spells cast here.
 
 ---
 
-## 🌀 **THE CENTRAL APSE (Area 7 - The Ritual Heart)**
+## 🌀 **THE CENTRAL PENTAGON (Area 2 - The Ritual Heart)**
 
-**Central chamber:** 80 feet across, open cathedral space with soaring ceiling to 120 feet at the apex.
+**Where the five points meet:** A pentagonal open space roughly 80 feet across at the center of the star, with the soaring cavern ceiling rising to 120 feet at the apex. All five chapel-points open directly into this space, and lines of light run from the portal out along each point.
 
 ### **The Portal (Central)**
 **Location:** Dead center, set INTO the ground itself. The gate opens downward into impossible depths.
@@ -164,11 +174,10 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 ## 🐉 **DRAGON ICONOGRAPHY & DETAILS**
 
 ### **Throughout the Temple**
-- **Carved dragon heads** in every vault and chapel (Tiamat's five heads, one per chapel, plus additional heads in supporting arches).
-- **Dragon-scale wall texture:** Every surface has subtle scale-like carved details.
-- **Draconic runes:** Carved into columns, floor, walls, and spire surfaces. Visible to those who read Draconic.
-- **Chromatic color schemes:** Red, black, green, blue, white dominant colors throughout. No neutral stone; everything is dyed or carved in these colors.
-- **Sacrifice altars:** Small platforms (6-8 feet high) in each chapel, stained with ancient blood. Currently unused but ominous.
+- **Dragon-scale walls:** The cavern walls that form the star outline are carved/grown like dark dragon hide—scaled, ridged, organic.
+- **Draconic runes:** Inscribed into the floor (especially the ritual circle and the five light-lines), columns, and spire surfaces. Visible to those who read Draconic.
+- **Chromatic color schemes:** Each point carries one of the five colors (red, black, green, blue, white). The walls bleed from that color into the dark scaled rock toward the tip of each point.
+- **Sacrifice altars:** Small raised daises in each point, holding the colored focus stones, stained with ancient blood.
 
 ### **The Ritual's Visual Progress**
 - **Rounds 1-3:** Portal is **unstable, flickering**. Colors don't hold. The gate looks weak and difficult to control. Barely wisps of energy rise from it.
@@ -234,12 +243,12 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 - **Claustrophobic paradox:** Despite the huge space, the ritual's intensity makes it feel enclosed and inescapable
 
 ### **Key Visual Elements to Emphasize**
-1. **The Portal:** Absolutely the focal point—massive, chromatic, pulsing
-2. **The Spires:** Frame the portal, create height and scale
-3. **The Chapels:** Distinct zones with their own character
-4. **Severin:** Tiny but visible at the top of the central spire, silhouetted against the portal
-5. **Energy streams:** Visible light flowing from chapels and spires toward the portal
-6. **Ritual circle:** Glowing on the ground, connecting everything geometrically
+1. **The five-pointed star footprint:** Read clearly from above—walls outline the star, gridded floor fills it, five colored points reaching out.
+2. **The Portal:** The focal point—massive, chromatic, pulsing, set in the floor of the central pentagon.
+3. **The Spires:** One over each point's inner mouth, color-matched to the point below, framing the portal and adding height.
+4. **The five points/chapels:** Each its own color, bleeding from the focus dais out into dark scaled rock.
+5. **Severin:** Tiny but visible at the top of the central spire, silhouetted against the portal-glow.
+6. **Energy / light-lines:** Visible light running from the portal out along each of the five points (the star geometry made of light).
 
 ### **Lighting Direction**
 - **Primary light from the portal (center):** Shadows radiate outward
@@ -250,32 +259,28 @@ Five **tower-like formations**, each roughly 40-50 feet tall, positioned at the 
 
 ## 📐 **SPECIFIC MEASUREMENTS FOR VTT/BATTLEMAP**
 
-- **Chamber diameter:** 200 feet
-- **Central apse:** 80 feet across
-- **Portal:** 30 feet diameter, **set in the ground** (no elevation)
-- **Each chapel:** 40 ft wide × 60 ft deep
-- **Spire height:** 40-50 feet (platforms at 35 feet)
+- **Footprint:** Five-pointed star inscribed in a ~200 ft circle. Walls = star outline; gridded floor = star interior; everything outside the star is solid rock.
+- **Central pentagon (Area 2):** ~80 feet across
+- **Each chapel-point:** ~40 ft wide at its base (meeting the center), tapering ~60 ft out to its tip
+- **Portal:** 30 feet diameter, **set in the floor** of the central pentagon (no elevation)
+- **Spire height:** 40-50 feet (platforms at 35 feet), one over the inner mouth of each point
 - **Central spire (Severin):** 100 feet high, **rising from the portal's center**
 - **Ceiling height (center):** 120 feet
+- **Party entrance:** corridor at the tip of the north point (Blue Chapel, Area 1)
 
-**Grid equivalents (10-ft squares):**
-- Chamber: 20 × 20 squares
-- Apse: 8 × 8 squares
-- Each chapel: 4 × 6 squares
-- Spire platforms: accessible at 3-4 squares up
 
 ---
 
 ## 🎬 **VISUAL NARRATIVE PROGRESSION**
 
-**Arrival:** Party enters through Blue Chapel (north), seeing the portal from a distance. The scale is immediately overwhelming.
+**Arrival:** The party enters at the tip of the north point (Blue Chapel), funneled in by the entrance corridor. Looking down the length of the point, they see the portal blazing in the central pentagon ahead. The scale is immediately overwhelming.
 
-**Approach:** They move through open apse toward central area. Each step reveals more detail: the ritual circle, the chanting wizards becoming clearer, the energy streams visible.
+**Approach:** They move down the point into the central pentagon. Each step reveals more detail: the ritual circle around the portal, the chanting wizards on their daises in the other points, the light-lines running out along each arm of the star, the spires overhead with hovering wizards.
 
 **Combat begins:** Portal is unstable, colors shifting erratically. The scene is chaotic and urgent.
 
-**Rounds 4-8:** Each round, the portal grows more defined, more real, more terrifying. Tiamat's heads become visible. The energy increases. The scale shifts from "defending against wizards" to "defending against a god."
+**Rounds 4-8:** Each round, the portal grows more defined, more real, more terrifying. Tiamat's heads rise from the floor-gate one by one. The energy increases. The scale shifts from "defending against wizards" to "defending against a god."
 
-**Rounds 9-10:** Tiamat fully manifest, towering over the chamber, making the entire space feel smaller. The portal is now irrelevant—the goddess herself is the dominant feature.
+**Rounds 9-10:** Tiamat fully manifest, rising from the central pentagon and towering over the star, making the entire chamber feel smaller. The portal is now irrelevant—the goddess herself is the dominant feature, coiled around the central spire.
 
 This provides **visual escalation** that matches the **mechanical escalation** of the 10-round ritual.
