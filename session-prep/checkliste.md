@@ -6,19 +6,15 @@ Use this list before each session covering Well of Dragons and Temple of Tiamat.
 
 ## Before the Session
 
-### Ritual Clock – Starting State
+### Session Start
 
-Determine ritual clock starting value based on campaign decisions:
+The ritual begins at **Round 1**. 
 
-- [ ] Council of Waterdeep: defensive tactics? → Clock +2
-- [x] Fast march without delay? → Clock +1
-- [x] Thay alliance intact? → Clock –1
-- [x] Group sabotaged the Draakhorn? → Clock –1
-- [x] Leosin/Harpers delivered the map? → Clock –1
-- [ ] Naergoth delayed the group? → Clock +1
-- [ ] Long time spent in Thay? → Clock +1
+Progression will follow Rounds 1-10 automatically, with potential stalls in Rounds 1-3 if:
+- [ ] Magus Azuri is killed (fewer than 5 wizards chanting)
+- [ ] Party disrupts the ritual focus while in Blue Chapel (Area 1)
 
-**Starting Clock:** [ ]
+**Note:** Round = Ritual Clock. Round 1 shows Clock at 1. This is NOT a separate mechanic.
 
 ---
 
@@ -98,15 +94,19 @@ Check what the group already has (from Room 7/Naergoth scene):
 
 ## At the Table – Quick Reference
 
-### Ritual Clock Physical Tracker
+### Round Counter Physical Tracker
 
-Use a d10 or die/token set:
+Use a d10 or die/token set (this IS your ritual clock):
 
 ```
-RITUAL CLOCK: [  ] (0-8)
+ROUND: [1] (1-10)
 ```
 
-**Update visibly** when the clock changes. Let the players see it.
+**Progression:** Start at 1, advance to 10 (unless stalled in Rounds 1-3 by wizard deaths).
+
+**Update visibly each round.** Let the players see progression happen.
+
+**Stall condition:** If fewer than 5 Red Wizards are chanting (e.g., Azuri dies), round does NOT advance until situation is fixed or Round 4 is reached (auto-advances from then on).
 
 ### Army Clock Physical Tracker
 

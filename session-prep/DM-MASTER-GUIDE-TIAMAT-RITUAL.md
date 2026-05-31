@@ -37,8 +37,8 @@
 **Print or prepare these materials:**
 
 From `session-prep/checkliste.md`:
-- [ ] Pre-session checklist (fill in ritual clock starting value, army clock, focus status)
-- [ ] Physical ritual clock tracker (d10 or tokens, 0-8)
+- [ ] Pre-session checklist (fill in focus status, army clock)
+- [ ] Physical round counter (d10 or tokens, 1-10) — **THIS IS YOUR RITUAL CLOCK**
 - [ ] Physical army clock tracker (0-8)
 - [ ] Initiative tracker sheet (party + Severin + Tiamat)
 
@@ -57,27 +57,24 @@ From `session-prep/10-ROUND-RITUAL-BREAKDOWN.md`:
 
 ### Step 3: Campaign State (10 minutes)
 
-**Fill in the checklist from `session-prep/checkliste.md`:**
+**Starting Round:**
 
-Ritual Clock Starting Value:
-- [ ] Council of Waterdeep defensive tactics? → Clock +2
-- [ ] Fast march? → Clock +1
-- [ ] Thay alliance intact? → Clock –1
-- [ ] Draakhorn sabotaged? → Clock –1
-- [ ] Leosin/Harpers delivered map? → Clock –1
-- [ ] Naergoth delayed group? → Clock +1
-- [ ] Long time in Thay? → Clock +1
+Round 1 begins with Ritual Clock at 1. Progression continues through Round 10.
 
-**Starting Clock: _____ (write on physical tracker)**
+**Foci Status (Narrative & Mechanical):**
 
-Foci Status (from Level 2):
+Check `session-prep/checkliste.md` for focus integrity:
 - [ ] Black (Acid): Intact / Destroyed
 - [ ] Blue (Lightning): Intact / Destroyed
 - [ ] Green (Mist): Intact / Destroyed
 - [ ] Red (Ember): Intact / Destroyed
 - [ ] White (Frost): Intact / Destroyed
 
-**→ Each intact focus at transition to Level 3 = +1 clock**
+**How they matter:**
+- Intact foci provide environmental hazard narrative ("acid pools form", "lightning arcs")
+- Destroyed foci remove those hazards from the temple
+- Purely narrative—do NOT modify round progression
+- Round progression is automatic: Round 1 → Round 10 (unless stalled in Rounds 1-3 by wizard deaths)
 
 ---
 
@@ -105,68 +102,71 @@ Foci Status (from Level 2):
 
 **Read aloud the round header** ("ROUND 1: Ambush in the Blue Chapel")
 
-**For each NPC in the round:**
-1. Read their entry from the breakdown
-2. Resolve their actions (use Foundry for NPC rolls)
-3. Update ritual clock if Severin's Ritual Action succeeds
-4. Describe environmental changes (Tiamat's manifestation, hazards)
+**For each round:**
+1. Announce current round number ("Round 4: White Head Emerges")
+2. Read key NPC actions from the breakdown
+3. Resolve attacks/spells (use Foundry for rolls)
+4. Ask "What do you do?" for party turn
+5. Describe environmental changes (Tiamat's manifestation, hazards)
 
 **Key mechanics each round:**
-- **Ritual Clock:** Track advancement (Severin uses Ritual Action if ritual continues)
-- **Head Emergence:** Announce when each head appears (Round 4-8, one per round)
-- **Environment:** Announce hazards (cold, acid, poison, lightning as heads emerge)
+- **Round Counter:** Visibly move d10/token (shows progression 1-10)
+- **Head Emergence:** One per round Rounds 4-8 (White → Black → Green → Blue → Red)
+- **Environment:** Announce hazards (cold, acid, poison, lightning zones as heads emerge)
+- **Progression Stalls:** Only Rounds 1-3 can stall if fewer than 5 wizards chanting
 
 ---
 
 ### ROUNDS 1–3: Blue Chapel Entry & Disruption Window
 
-**The party's best chance to disrupt the ritual.**
+**The party's ONLY chance to stop round progression.**
 
 **Key facts:**
 - Party enters Area 1 (Blue Chapel)
-- Magus Azuri immediately fights
-- Ritual FAILS if fewer than 5 wizards chant (currently 9 total)
-- If Azuri dies, ritual drops to 4 wizards → STALLED
-- Flying wizards don't engage until party reaches main cathedral
+- Magus Azuri immediately fights with Fireball
+- Progression STALLS if fewer than 5 wizards are chanting (need 5 of 9 total)
+- If Azuri dies → only 4 wizards left → progression BLOCKED until party fixes it
+- Flying wizards don't engage until party reaches main cathedral (Area 7)
 
 **DM Focus:**
-- Track whether Azuri survives
-- If killed → ritual stalls; party wins Round 1-3 window
-- If flees to main cathedral → ritual resumes; party must decide to pursue
-- Make sure flying wizards don't attack until party is in open apse
+- Track Azuri's status (alive, fighting, or retreating)
+- **If Azuri killed:** Progression stalls at Round 1, 2, or 3 (party wins this window!)
+- **If Azuri flees to main cathedral:** Ritual resumes (5+ wizards chanting again)
+- Announce "Progression BLOCKED—only 4 of 5 wizards chanting" if Azuri dies
+- Make sure flying wizards don't attack until party is visible in open apse
 
-**Clock advancement:**
-- Round 1: FAILS (only 4 wizards if Azuri fights) → Clock stays 0
-- Round 2: Depends on Scenario A (Azuri dead) or B (Azuri retreats)
-- Round 3: If Azuri survived and returned, Clock advances
+**Round progression:**
+- Round 1: BLOCKED if Azuri fights (only 4 wizards) → stays at Round 1
+- Round 2: Depends on Scenario A (Azuri dead = blocked) or B (Azuri retreats = advances)
+- Round 3: If Azuri survived & returned, progression can advance to Round 4
 
 ---
 
 ### ROUNDS 4–8: Tiamat Manifestation
 
-**One head emerges per round. Ritual becomes unstoppable.**
+**One head emerges per round. Progression is AUTOMATIC—cannot be stopped.**
 
-**Schedule:**
-- **Round 4:** White head emerges
-- **Round 5:** Black head emerges (Severin gains +2 to saves/attacks)
-- **Round 6:** Green head emerges (all three heads bite)
-- **Round 7:** Blue head emerges (Severin becomes unkillable, min 3 HP)
-- **Round 8:** Red head emerges (Tiamat fully manifest, full initiative)
+**Head Schedule (one per round):**
+- **Round 4:** White head emerges + bites
+- **Round 5:** Black head emerges + Severin gains +2 to saves/attacks
+- **Round 6:** Green head emerges + all three heads attack
+- **Round 7:** Blue head emerges + Severin becomes immortal (min 3 HP)
+- **Round 8:** Red head emerges + **Tiamat FULLY MANIFEST** + joins initiative
 
-**Each round:**
-1. Announce head emergence
-2. All previous heads attack (bite + potential breath)
-3. All 9 Red Wizards cast offensive spells
-4. Rath Modar/Severin use spells and legendary actions
-5. Party's turn
-6. Environmental hazard damage (cold, acid, poison, lightning zones)
+**Each round action sequence:**
+1. **Start:** Announce round number and head emergence
+2. **NPCs:** Red Wizards cast spells, Rath Modar casts (or hides), Severin acts
+3. **Tiamat:** All emerged heads attack (bites + potential breath weapons)
+4. **Hazards:** Announce environmental damage (cold, acid, poison, lightning)
+5. **Party Turn:** Ask "What do you do?"
+6. **End:** Update round counter visibly
 
 **DM duties:**
-- Call out ritual clock value at start of round
-- Track Tiamat's head HP (5 heads at 30 HP each)
-- Call out environmental hazards (DCs, damage)
-- Track party HP and healing
-- Update physical ritual clock visibly for players
+- **Track round progression** (move d10 visibly each round)
+- Track Tiamat's head HP (5 heads at 30 HP each for destruction)
+- Call out environmental hazards (DCs 15-16, damage 2d6-7d6)
+- Track party HP and available healing
+- **Do NOT allow progression to stall** (automatic Rounds 4-10)
 
 ---
 
@@ -190,18 +190,18 @@ Foci Status (from Level 2):
 
 ## 📊 Quick Reference: NPC Actions by Round
 
-| Round | Ritual Clock | Rath Modar | Severin | Red Wizards | Tiamat |
+| Round | Status | Rath Modar | Severin | Red Wizards | Tiamat |
 |---|---|---|---|---|---|
-| 1 | STALLS (0) | Ready defense | Ritual fails | 4 chanting | Dormant |
-| 2 | Depends | Fireball/Counterspell | Attempts +1 | Scenario A/B | Dormant |
-| 3 | 2-3 | Wall of Fire | Chants | All attacking | Portal tears |
-| 4 | 4 | Fireball | Ritual +1 | Offensive spells | White bite |
-| 5 | 5 | Wall of Fire | +2 saves/attacks | Higher-level spells | White+Black bites |
-| 6 | 6 | Confusion | Hellish Chains | Heavy spell barrage | All 3 heads bite |
-| 7 | 7 | Mislead (hidden) | Dominate/Control | Peak spell offense | All 4 heads bite |
-| 8 | 8 | Hidden, watches | Free to attack | Full offense | Red head emerges |
-| 9 | 8 | Hidden, observing | Full combat | Coordinated spells | All 5 heads, breath |
-| 10 | 8 | Hidden, contingency | Fight to death | Full offense | Relentless assault |
+| 1 | **BLOCKED** (4 wizards only) | Ready defense | Fails to advance | 4 chanting | Dormant |
+| 2 | **Scenario A: Blocked / B: Advances** | Fireball/Counter | Attempts advance | 4-5 chanting | Dormant |
+| 3 | **Scenario A: Blocked / B: Advances** | Wall of Fire | Chants harder | All attacking | Portal tears |
+| 4 | **PROGRESSES** | Fireball | Combat mode | Offensive spells | ⚪ White head |
+| 5 | **PROGRESSES** | Wall of Fire | +2 saves/attacks | Higher spells | ⚪⚫ Black head |
+| 6 | **PROGRESSES** | Confusion | Hellish Chains | Barrage | ⚪⚫🟢 Green head |
+| 7 | **PROGRESSES** | Mislead (hidden) | Immortal (min 3) | Peak offense | ⚪⚫🟢🔵 Blue head |
+| 8 | **COMPLETE** | Hidden, watches | Free to attack | Full offense | ⚪⚫🟢🔵🔴 RED MANIFEST |
+| 9 | **SUSTAINED** | Hidden, observing | Full combat | Coordinated | All 5 heads attack |
+| 10 | **SUSTAINED** | Hidden, contingency | Fight to death | Full offense | Relentless assault |
 
 ---
 
@@ -220,10 +220,12 @@ Foci Status (from Level 2):
 - **Ask "What do you do?" clearly** so turns are crisp
 
 ### Engagement
-- **Emphasize ritual clock value** each round ("The ritual advances to Clock 6. You can FEEL Tiamat pushing through")
+- **Announce round progression visibly** ("Round 5 begins. The Black head emerges. You can FEEL Tiamat pushing through")
 - **Use demeanor quotes** from NPCs (Azuri: "INTRUDERS!", Severin: "THE QUEEN CANNOT BE STOPPED")
-- **Describe environmental changes** (cold zones forming, acid pooling, lightning arcing)
+- **Describe environmental changes** (cold zones forming, acid pooling, lightning arcing—describe per focus status)
 - **Track healings and resources** visibly so party knows what's available
+- **Make it clear in Rounds 1-3:** "If you kill this wizard, progression STOPS"
+- **Make it clear after Round 4:** "Tiamat's manifestation is unstoppable now—your job is survival"
 
 ### Player Agency
 - **Rounds 1-3:** Make it clear the party CAN disrupt the ritual

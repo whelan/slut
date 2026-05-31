@@ -10,7 +10,7 @@
 
 **Party Entry:** Party has just entered **Area 1 (Blue Chapel/Entrance)**. Magus Azuri is immediately aware of intruders.
 
-**Ritual Clock:** This round, the ritual is disrupted by combat. Advancement is uncertain (depends on whether Azuri remains chanting).
+**Round Status:** Round 1 begins. The ritual is disrupted by combat. Advancement to Round 2 is uncertain (depends on whether Azuri remains chanting).
 
 **Tiamat Status:** No manifestation yet. Portal pulses with eldritch light in the distance (main cathedral).
 
@@ -60,7 +60,7 @@
 ---
 
 **End of Round 1:**
-- **Ritual Check:** FAILED. Only 4 of 5 required wizards chanting. Clock does NOT advance.
+- **Ritual Check:** FAILED. Only 4 of 5 required wizards chanting. Round does NOT advance to Round 2.
 - **Azuri Status:** Engaged in combat with party in Blue Chapel, or fleeing toward main cathedral.
 - **Party Status:** Taking fire from Azuri; flying wizards not yet visible/attacking; Rath Modar still hidden behind architecture.
 - **Tiamat:** Still dormant. Portal flickers faintly with white light.
@@ -69,7 +69,7 @@
 
 ## ⚪ ROUND 2: Azuri Falls or Retreats
 
-**Ritual Clock:** Depends on Azuri's status. If he survives and returns to chanting, ritual may resume. If killed, ritual stalls.
+**Round Status:** Round 2. Depends on Azuri's status. If he survives and returns to chanting, round may advance to Round 3. If killed, round stalls.
 
 **Tiamat Status:** Portal brightens slightly. A faint shadow moves behind the gate.
 
@@ -124,8 +124,8 @@
 ---
 
 **End of Round 2:**
-- **If Azuri killed:** Ritual stalled; Clock remains 0. Party has disrupted the beginning phase successfully.
-- **If Azuri retreated:** Ritual resumed; Clock advances to Round 2. Party faces aerial assault from all 5 flying wizards.
+- **If Azuri killed:** Round stalled; progression halts at Round 2. Party has disrupted the beginning phase successfully.
+- **If Azuri retreated:** Round advances to Round 3. Party faces aerial assault from all 5 flying wizards.
 - **Tiamat:** Portal dims and brightens in steady pulse. Shadow behind gate becomes more defined (draconic silhouette).
 
 ---
@@ -134,7 +134,7 @@
 
 **Party Movement:** Party has now crossed from Blue Chapel vault into the main apse area **(Area 7, central cathedral)**.
 
-**Ritual Clock:** Depends on Azuri's status from Round 2. If he returned, Clock can now advance.
+**Round Status:** Round 3. Depends on Azuri's status from Round 2. If he returned, round can now advance to Round 4.
 
 **Tiamat Status:** Portal blazes with eldritch fire. A low rumble echoes through the temple. Breathing is audible from the other side.
 
@@ -182,9 +182,9 @@
 ---
 
 **End of Round 3:**
-- **Ritual Check:** DC 12 (or +1 for each Red Wizard killed).
-  - **If 5+ wizards chanting:** Clock advances to Round 3 ✓
-  - **If fewer than 5:** Ritual stalls again. Clock remains 0 or resets.
+- **Ritual Check:** (depends on wizard deaths).
+  - **If 5+ wizards still chanting:** Round advances to Round 4 ✓
+  - **If fewer than 5:** Round stalls. Progression halts.
   - **Success → Round 4:** Tiamat's first head (White) begins to emerge.
 - **Party Status:** Aerial assault from all 5 flying wizards; Rath Modar now in direct threat range; Severin visible but distant (100 feet high); portal active and dangerous.
 - **Tiamat:** Portal tears open. The white, frosted shape of a draconic head pushes through the barrier—scales of pure ice, breath that frosts the air, ancient eyes of glacial blue.
@@ -640,40 +640,36 @@
 
 ## Summary: 10-Round Ritual Breakdown
 
-| Round | Event | Heads | Ritual Clock | Key NPC Actions |
+| Round | Event | Heads | Round Status | Key NPC Actions |
 |---|---|---|---|---|
-| **1** | **Azuri Ambush** in Blue Chapel | 0 | **STALLED (0)** | Azuri: Fireball + flees/fights. Rath: Aware, ready Counterspell. Severin: Chants but ritual fails (only 4 wizards). |
-| **2** | **Azuri Falls or Retreats** | 0 | **0 or 1** (depends) | If Azuri killed: Ritual stalled (3 wizards only). If Azuri retreats: Ritual resumes, Clock +1. Flying 5: Begin aerial assault. |
-| **3** | **Party in Main Apse** | 0 | **2 or 3** (depends) | Rath: Wall of Fire. Severin: Ritual +1. Flying 5: Full offensive barrage. All 5 chapels now engaged. |
-| **4** | **White head emerges** | 1 | 4 | White head: First bite attack. Rath: Fireball. Severin: Ritual +1. Wizards: Offensive spells. |
-| **5** | **Black head emerges** | 2 | 5 | Severin gains **+2 to all saves/attacks** (Champion of Tiamat). Both heads: Bite attacks. |
-| **6** | **Green head emerges** | 3 | 6 | All three heads: Bite attacks. Rath: Confusion spell. Severin: Hellish Chains. |
-| **7** | **Blue head emerges** | 4 | 7 | Severin gains **Immortality (min 3 HP)**. Rath: Mislead (invisible). All four heads: Bite attacks. |
-| **8** | **RED HEAD EMERGES – TIAMAT FULLY MANIFEST** | 5 | 8 | **RITUAL COMPLETE.** Tiamat enters initiative. Severin: Now free to attack. Rath: Observing (hidden). |
-| **9** | Tiamat fully active | 5 | 8 | Tiamat: Full multiattack (5 bites + breath weapons). Party in survival mode. |
-| **10** | Final stand | 5 | 8 | Tiamat: Relentless assault. Party must kill Severin or destroy masks to win. |
+| **1** | **Azuri Ambush** in Blue Chapel | 0 | **Blocked** | Azuri: Fireball + flees/fights. Rath: Aware, ready Counterspell. Ritual fails (only 4 wizards). |
+| **2** | **Azuri Falls or Retreats** | 0 | **Scenario A: Blocked / B: Advances** | If Azuri killed: Stalled (3 wizards). If Azuri retreats: Resumes. Flying 5: Begin assault. |
+| **3** | **Party in Main Apse** | 0 | **Scenario A: Blocked / B: Advances** | Rath: Wall of Fire. Severin: Chants. Flying 5: Barrage. All 5 chapels engaged. |
+| **4** | **White head emerges** | 1 | **4** | White head: Bite attack. Rath: Fireball. Severin: Combat shift. Wizards: Offensive. |
+| **5** | **Black head emerges** | 2 | **5** | Severin: +2 saves/attacks. Both heads: Bites. |
+| **6** | **Green head emerges** | 3 | **6** | Three heads: Bites. Rath: Confusion. Severin: Hellish Chains. |
+| **7** | **Blue head emerges** | 4 | **7** | Severin: Immortal (min 3 HP). Rath: Mislead. Four heads: Bites. |
+| **8** | **RED HEAD EMERGES – TIAMAT FULLY MANIFEST** | 5 | **8** | **RITUAL COMPLETE.** Tiamat acts. Severin: Free. Rath: Hidden. |
+| **9** | Tiamat fully active | 5 | **8** | Tiamat: Full assault. Party survival mode. |
+| **10** | Final stand | 5 | **8** | Tiamat: Relentless. Kill Severin or destroy masks. |
 
 ---
 
 ## Key Mechanics for DM
 
-### **Ritual Advancement (End of Each Round)**
+### **Round Advancement (End of Each Round)**
 
-**Minimum Requirement:** 5 of 9 Red Wizards must be actively chanting. If fewer than 5 are chanting, ritual STALLS (clock does not advance).
+**Minimum Requirement:** 5 of 9 Red Wizards must be actively chanting. If fewer than 5 are chanting, progression STALLS (round does not advance).
 
-**Round 1 (Blue Chapel):** Magus Azuri is immediately engaged. If he cannot return to chanting within the round, ritual fails (only 4 wizards).
+**Round 1 (Blue Chapel):** Magus Azuri is immediately engaged. If he cannot return to chanting within the round, progression is blocked (only 4 wizards chanting).
 
 **Round 2–3 (Main Apse):** 
-- **If Azuri survived Round 1 and returned:** Clock can advance normally (DC 12).
-- **If Azuri is dead:** Ritual stalls unless party hasn't killed any other wizards (minimum 5 required).
+- **If Azuri survived Round 1 and returned to chanting:** Round can advance.
+- **If Azuri is dead:** Progression stalls (only 3-4 wizards remaining).
 
-**Round 4–6:** DC 13–15 (increases each round as Tiamat manifests).
+**Rounds 4–8:** Heads emerge one per round (White → Black → Green → Blue → Red). Progression becomes automatic once party reaches Round 4 (cannot be stopped without killing Severin or destroying the Mask).
 
-**Round 7–8:** DC 16+ (nearly impossible to hold without killing a wizard).
-
-**Modify DC:** +1 for each Red Wizard killed. Automatic fail if Mask of the Dragon Queen is destroyed.
-
-**Critical Tactical Point:** The first 3 rounds are the **party's window to disrupt the ritual** by killing Red Wizards (especially Azuri, who must return to chanting). Once Round 4 begins and the first head emerges, ritual becomes nearly unstoppable.
+**Critical Tactical Point:** **Rounds 1–3 are the party's window to disrupt the progression** by killing Red Wizards (especially Azuri). Once **Round 4 begins and the first head emerges, Tiamat's manifestation becomes unstoppable**—party's only options are kill Severin, destroy all masks, or survive until Round 10.
 
 ### **How the Party Wins**
 1. **Kill Severin** (while portal is open) → Portal closes, Tiamat retreats to Avernus.

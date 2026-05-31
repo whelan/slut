@@ -257,25 +257,25 @@ Once party emerges from the Blue Chapel vault into the main apse area:
 
 **Severin (Sanctuary, Area 13)**
 - **Action:** Continues ritual chanting; hears distant Fireball but does not directly see it.
-- **Bonus Action – Ritual Action:** Clock +1 (advances to Round 1). **RITUAL FAILS IF AZURI DOES NOT REJOIN** – only 4 of 5 minimum wizards are chanting.
+- **Bonus Action – Ritual Action:** Round advances (advances to Round 1). **RITUAL FAILS IF AZURI DOES NOT REJOIN** – only 4 of 5 minimum wizards are chanting.
 
 **Flying Wizards (5 spires)**
 - **Status:** Hear the Fireball; alert posture. No visual on party yet (blocked by vault architecture).
 - **Action:** Ready offensive spells, prepare to swoop down if party enters main cathedral.
 
-**Ritual Check (End of Round 1):**
+**Round Check (End of Round 1):**
 - **Only 4 Red Wizards actively chanting** (Alabaster, Verdian, Obsidian, + Rath partially)
 - **Requirement: 5 minimum**
-- **Result:** Ritual STALLS. Clock does NOT advance to Round 2 unless Azuri returns to chanting OR another wizard takes his place.
+- **Result:** Round STALLED. Progression does NOT advance to Round 2 unless Azuri returns to chanting OR another wizard takes his place.
 
 ---
 
 ### **ROUND 2: Azuri Falls or Returns**
 
 **Scenario A: Azuri is killed in combat**
-- Ritual completely fails (only 3 wizards left: Alabaster, Verdian, Obsidian, Rath partially)
-- Clock resets to 0 if stalled for 2 consecutive rounds
-- Party has successfully disrupted the ritual from the start
+- Only 4 wizards left (Alabaster, Verdian, Obsidian, Rath) - below 5 minimum
+- Round progression STALLS—no advance to Round 2
+- Party has successfully disrupted the opening phase
 
 **Scenario B: Azuri retreats to main cathedral**
 - **Azuri moves** 30 feet into the main apse area
@@ -304,12 +304,12 @@ Once party emerges from the Blue Chapel vault into the main apse area:
 
 **Severin (Sanctuary)**
 - **Action:** Ritual chanting continues
-- **Bonus Action – Ritual Action:** Clock +1 IF ritual resumed (if 5+ wizards are chanting)
+- **Bonus Action – Ritual Action:** Round advances IF ritual resumed (if 5+ wizards are chanting)
 - **Status:** Aware of threat below; continues ritual; does not directly engage yet
 
-**Ritual Check (End of Round 2):**
-- If Azuri survived and returned: **5+ wizards chanting** → Clock advances to Round 2 ✓
-- If Azuri is dead and party hasn't reached main cathedral: **4 wizards only** → Clock STALLS; party has disrupted opening phase successfully
+**Round Check (End of Round 2):**
+- If Azuri survived and returned: **5+ wizards chanting** → Progression advances to Round 2 ✓
+- If Azuri is dead: **4 wizards only** → Progression STALLS; party has disrupted opening phase
 
 ---
 
@@ -337,14 +337,14 @@ Once party emerges from the Blue Chapel vault into the main apse area:
 
 **Severin (Sanctuary)**
 - **Action:** Ritual chanting
-- **Bonus Action – Ritual Action:** Clock +1 (advances to Round 3)
+- **Bonus Action – Ritual Action:** Round advances (advances to Round 3)
 - **Reaction:** Ready to Counterspell or defend masks if party attempts direct approach
 - **Status:** Now aware party has reached main cathedral; concentrating harder on ritual
 
-**Ritual Check (End of Round 3):**
-- **5+ wizards chanting** (if Azuri survived; if dead, only 4 → ritual stalls again)
-- **Success:** Clock advances to Round 3. Party has "disruption window" closing fast.
-- **Failure:** Clock resets to 0 if 2 rounds stalled in a row.
+**Round Check (End of Round 3):**
+- **5+ wizards chanting** (if Azuri survived; if dead, only 4 → stalls)
+- **Success:** Progression advances to Round 4 (Tiamat manifestation begins). Party's disruption window closing.
+- **Failure:** Progression STALLS at Round 3 if fewer than 5 wizards are chanting.
 
 ---
 
