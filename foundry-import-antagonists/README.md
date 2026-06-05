@@ -21,6 +21,17 @@ Creates all 11 antagonists in one go:
 
 Re-updates Rath Modar with full 2024 compliance (HP, AC, ability scores, spell DC). Use if you want to be absolutely certain Rath Modar has the correct stats.
 
+### UPDATE-TIAMAT-HEADS-FROM-COMPENDIA.js (OPTIONAL)
+
+Searches ALL Foundry compendia for official chromatic dragon creatures and updates the five Tiamat head actors with compendium data. Does NOT delete the heads—only adds/updates them with official abilities, traits, and mechanics.
+
+**What it does:**
+- Searches for Adult White/Black/Green/Blue/Red Dragons in all packs
+- Updates existing head actors with compendium stat blocks
+- Preserves existing head actor names and custom fields
+- Copies items (spells, abilities, traits) from official dragons
+- Keeps heads in place (no deletion)
+
 ---
 
 ## 🚀 Quick Start (5 minutes)
@@ -43,6 +54,16 @@ If you want extra 2024 compliance verification:
 2. **Copy** and paste into console (same as above)
 3. **Press Enter**
 4. **Verify** console shows Rath Modar stats (HP 130, AC 16, DC 17)
+
+### Step 3 (Optional): Update Tiamat Heads from Compendia
+
+To populate the five Tiamat head creatures with official compendium data:
+
+1. **Open file:** `UPDATE-TIAMAT-HEADS-FROM-COMPENDIA.js`
+2. **Copy** and paste into console (same as above)
+3. **Press Enter**
+4. **Watch** console for search results—it will find Adult White/Black/Green/Blue/Red Dragons and update each head
+5. **Verify** each head now has abilities, traits, and stat blocks from official sources
 
 ---
 
