@@ -22,13 +22,15 @@
 
 ### Hoveder fremme
 
-| Hoved | Fremme siden | Skade taget | Repel-tærskel | MANGLER |
+| Hoved | Fremme siden | Skade taget | Repel-tærskel | Status |
 |---|---|---|---|---|
-| **HVID** | R4 | 110 | 150 | **40** ⚡ næsten! |
-| **SORT** | R5 | 5 | 160 | 155 |
-| **GRØN** | R6 | 0 | 170 | 170 |
-| **BLÅ** | R7 (nu) | 0 | 180 | 180 |
-| **RØD** | kommer R8 | — | 200 | 200 |
+| **HVID** | R4 | 110 | 150 | ⚔️ **REPELLERET R7 — Vorpal nat 20!** Dazed i R9-10 (intet bid/breath første 2 runder) |
+| **SORT** | R5 | 5 | 160 | Aktiv — mangler 155 |
+| **GRØN** | R6 | 0 | 170 | Aktiv — mangler 170 |
+| **BLÅ** | R7 (nu) | 0 | 180 | Aktiv — mangler 180 |
+| **RØD** | kommer R8 | — | 200 | Mangler 200 |
+
+**Tiamat brændte IKKE en Legendary Resistance på at redde det hvide hoved — hun har stadig 3 LR til finalen.**
 
 **Ritualet er IRREVERSIBELT** (Runde 4+). Magiker-dødsfald stopper intet — de er kun brændstof.
 
@@ -78,7 +80,8 @@
 - **4 magikere:** Kaster offensivt (se nedenfor)
 
 ### ⚠️ HOLD ØJE MED:
-- [ ] **Hvidt hoved: kun 40 skade fra repel!** Hvis partiet fokuserer det → stor sejr (ingen Cone of Cold i finalen)
+- [x] ~~Hvidt hoved repel~~ → **SKET! Vorpal nat 20 — hovedet er REVET tilbage gennem portalen.** Ingen Cone of Cold i finalens første 2 runder.
+- [ ] Kun 3 hoveder bider resten af R7 (sort, grøn, blå)
 - [ ] Notér al skade på hoveder denne runde
 - [ ] Rath: hvis partiet leder efter ham (Investigation/See Invisibility), lad dem finde ham — drabet SKAL ske før R8 slut for LR-bonusen
 
@@ -94,7 +97,7 @@
 >
 > *[Hvis Rath stadig lever:]* Hans Mislead-illusion flimrer og dør. Hovedet bøjer sig ned, og Tiamat kræver sin arkitekt som det sidste offer. Hans skrig varer ét sekund. Så er han væk.
 >
-> Portalen åbner sig HELT. Alle fem hoveder er synlige på én gang — og bag dem ser I hendes KROP, der venter. Skuldre der vil ramme loftet. Vinger foldet som storm-skyer.
+> Portalen åbner sig HELT. Fire hoveder er synlige på én gang — sort, grøn, blå, rød. Hvor det hvide skulle have været, hænger en flænset hals-stump, der stadig bløder frossen ikor. Hun KOMMER alligevel — men hun kommer SÅRET. Bag hovederne ser I hendes KROP, der venter. Skuldre der vil ramme loftet. Vinger foldet som storm-skyer.
 >
 > Hun træder igennem.
 >
@@ -117,11 +120,11 @@
 
 ### Fortæl dette:
 
-> Hun er her. Fuldt. Fem halse rejser sig fra én massiv krop, og ti øjne finder jer — ét par ad gangen, som om hvert hoved selv beslutter hvor meget had det vil vise.
+> Hun er her. Fuldt. Fire halse rejser sig fra én massiv krop — og én hals der ender i en flænset, frossen stump, der svinger blindt gennem luften. Otte øjne finder jer, ét par ad gangen, som om hvert hoved selv beslutter hvor meget had det vil vise.
 >
-> Det hvide hoved ser på jer som et regnestykke. Det sorte med foragt. Det grønne smiler — en drage burde ikke kunne smile. Det blå knitrer af utålmodighed. Og det røde... det røde ser kun på den af jer, der har gjort mest skade.
+> Det sorte hoved ser på jer med foragt. Det grønne smiler — en drage burde ikke kunne smile. Det blå knitrer af utålmodighed. Og det røde... det røde ser kun på Frygtløs. På sværdet.
 >
-> Hun siger jeres navne. Alle fem hoveder samtidig.
+> Hun siger jeres navne. Fire hoveder samtidig. Den femte stump VRIDER sig, som om den prøver at skrige med.
 >
 > Så ånder hun.
 
@@ -166,12 +169,12 @@
 ## 📊 TRACKING-ARK (kopiér til bordet)
 
 ```
-HOVED-SKADE:           SEVERIN:               TIAMAT:
-Hvid:  110/150 ⚡      HP: ___/230            Legendary Resistance: ☐☐☐
-Sort:    5/160         Udødelig: JA (min 3)    (kun ☐☐ hvis Rath dræbt før R8-slut)
-Grøn:    0/170         LR: ☐☐☐               Dazede hoveder: ____________
-Blå:     0/180         LA: 3/runde
-Rød:     —/200         Masker: ☐☐☐☐☐ (30 HP hver)
+HOVED-SKADE:                    SEVERIN:               TIAMAT:
+Hvid:  REPELLERET R7 (Vorpal!)  HP: ___/230            Legendary Resistance: ☐☐☐
+Sort:    5/160                  Udødelig: JA (min 3)    (kun ☐☐ hvis Rath dræbt før R8-slut)
+Grøn:    0/170                  LR: ☐☐☐               Dazede hoveder R9-10: HVID
+Blå:     0/180                  LA: 3/runde
+Rød:     —/200                  Masker: ☐☐☐☐☐ (30 HP hver)
 
 RATH MODAR: ☐ dræbt af partiet (→ Tiamat 2 LR)  ☐ ædt R8 (→ Tiamat 3 LR)
 MAGIKERE: Blå ☠️☠️ · Hvid ☐ · Grøn ☐ · Sort ☐ · Rød ☐
