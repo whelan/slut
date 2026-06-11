@@ -6,10 +6,11 @@
 
 ## 🛡️ IMMUNITETER (Nul Skade)
 
-### 1. **Nonmagical Weapons**
+### 1. **Nonmagical Weapons** *(HOMEBREW — 2014-arv)*
 - **Immunity:** Bludgeoning, piercing, slashing fra *nonmagical* våben
 - **Betyder:** Normale sværd, øksjer, pile = ingen effekt
 - **Undtagelse:** Hvis I ødelægger ALLE fem foci på Level 2 *før* I når Level 3, bliver denne immunity → **RESISTANCE** i stedet (halvdelen af skade)
+- ⚠️ **2024-note:** 2024-reglerne fjernede nonmagical-immunity fra næsten alle monstre (Adult Red Dragon 2024 har kun fire-immunity). Vi beholder den bevidst som **homebrew for en gud** — og den er i praksis irrelevant, da alle fire PCs angriber magisk. Se `MAGISKE-VAABEN-VS-TIAMAT-2024.md` for våben-for-våben gennemgang.
 
 ### 2. **Condition Immunities**
 - **Immunity til:** Charmed, exhaustion, frightened, paralyzed, petrified, poisoned
