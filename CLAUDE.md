@@ -85,8 +85,8 @@ npcs/
   severin.md                     ← Final boss
   council-of-waterdeep.md        ← Allied NPCs
 session-prep/
-  checkliste.md                  ← Pre-session DM checklist (ritual clock, foci status, NPC prep)
-  tiamat-finale-plan.md          ← Endgame session plan with 10+2 paste-and-run prompts, canonical state, approach matrix
+  MAGISKE-VAABEN-VS-TIAMAT-2024.md      ← Weapon-by-weapon breakdown vs Tiamat (2024 rules)
+  TIAMAT-MODSTAND-OG-IMMUNITETER.md     ← Tiamat resistances / immunities / Legendary Resistance
 session-summary/
   Session-well-of-dragons.md     ← Live state: what the party did in the most recent session (where they are NOW)
 temple-of-tiamat/
@@ -117,8 +117,8 @@ well-of-dragons/
 These hold the source lore (Rath Modar, resurrected wyrmspeakers as Abishai, Mask of the Dragon Queen, the 5 weakening events, epilogue arcs, Naergoth in area 4, Draakhorn in area 8, prisoner pens 16–18, plaza 23 sacrifice ritual with 5 colored dragons, lava tube area 24 → Black Chapel) that the homebrew rework in `temple-of-tiamat/niveau-*.md` builds on top of. Skipping them produces incomplete plans.
 
 **Required reading for any finale session-prep / planning task:** also read:
-- `session-prep/tiamat-finale-plan.md` — holds locked canonical state (Naergoth's death, party magic items, starting clock factors) that overrides earlier file content where they conflict
 - `session-summary/Session-well-of-dragons.md` — the live state of the most recent session. Anything in this file overrides earlier sources where they conflict.
+- `temple-of-tiamat/aftermath.md` — consolidated epilogue covering all three outcomes (total / pyrrhic / failure-forward), escape sequence, NPC scenes, letters, loot, continuation hooks.
 
 ---
 
