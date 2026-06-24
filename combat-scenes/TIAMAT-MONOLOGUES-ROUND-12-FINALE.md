@@ -2,19 +2,92 @@
 
 ## Scene 1: The Mask Recognition (As Frygtløs Grabs It)
 
-> Frygtløs når krunen. Hans knyttet lukker sig om det kolde metal.
+Frygtløs krystalklart fornemmer hvor den er — på alteret, bag Tiamat selv, hvor ritualet havde dets hjerte. Selv blind og døv fra Divine Word, hans krigerinstinkt fører ham til det. Hans hånd strækker sig.
+
+**Gribningen:**
+
+> Hendes krone ligger på alteret som en tron for ingen konge. Det er større end det ser ud til fra afstand — hver af de fem drakehoved er så stor som en menneskeknyttet, fremstillet af metal der skinner som hvis det blev smeltet fra guddommelig substans selv. Rød. Blå. Hvid. Sort. Grøn.
 >
-> Alt standsrer.
+> Frygtløs' finger rammer det første metal.
 >
-> Ikke slaget. Slaget fortsætter. Men Tiamat's fem hoveder løftes samtidigt, og hver af dem åbner sit øje — langt bredere end før.
+> Der sker en eksplosion af *lys* — ikke fra masken, men fra hans egen krop. Eftersom hans hånd berører kronen, antændes hele hans overflade af guldglød. Det strømmer gennem hans arme, op gennem skuldrene, ned gennem brystet. Ikke ild som brænder. Lys som *ser*. Som om universet selv acknowledgerer at denne mand, denne stykke dødelighed, har rørt dets væsentlighed.
 >
-> *"Nej."*
+> Masken varmer sig øjeblikkeligt. Den begynder at krympe, at omforme sig selv, som hvis den havde været ventet på denne specifikke hånd hele tiden. Metal gløder fra sølvhvidt til guldvarmt til næsten rødt.
+
+**Sætningen på Hovedet:**
+
+> Frygtløs løfter kronen mod sit eget hoved. 
 >
-> Det kommer ikke fra en enkelt mund. Det kommer fra fem munde på én gang, og det er ikke et ord, det er en *genkendelses-kryldring*. Et lyd der lyder som om hele verden siger "nej" til at være sig selv.
+> Den passer perfekt.
 >
-> Hun søger ikke længere efter at dræbe jer. Hun søger efter at *stoppe* jer.
+> Ikke fordi den er den rigtige størrelse. Den passer fordi den er *hans*. Masken omformer sig omkring hans ansigt — de fem små drakehoved ordner sig i en krone omkring hans pande, og under dem materialiseres et sjette ansigt, drakisk, grumt, med kysser der er skarpe som død tænder og øjne der pulserer med fem forskellige farver.
 >
-> Hendes røde hoved brølertil, og det er ikke raseri mere. Det er *frygt*.
+> Frygtløs kan *se* gennem masken selvom han er blind. Han kan *høre* gennem den selvom han er døv. Masken åbner ham for verdener han aldrig kendte fandtes.
+>
+> Hans hud begynder at ændre farve — ikke helt grøn, ikke helt blå, men som hvis alle fem drakekromosomer blandede sig gennem hans stof. Værk glød fra hans øjne. Hans stemme, når han åbner munden, lyder som fem stemmer der taler i perfekt harmoni.
+
+**Det Øjeblik Tiamat Mærker Det:**
+
+> Alle fem af hendes hoveder løfter sig samtidigt — som om de blev trukket af samme snor.
+>
+> Hendes øjne bliver så store at de fylker hele kasino af hennes skaller.
+>
+> Hun føler sit eget hjerte blive splittet. Hun kan mærke hver kraft der blev lægget i den krone — hver tidsalder af drakisk magt, hver ritual der gjorde den til det den er — *strømme ud* og ind i denne dødelige mand. Det er som hvis han trak hendes sjæl selv gennem et hul hun ikke vidste var der.
+>
+> *"NEJ!"*
+>
+> Ordet kommer fra alle fem hoveder på én gang. Det er ikke et ord. Det er en eksplosion af dommekraft — et skrig der fører til at templets vægge selv rev og ryste. Det lyder som hvis verden selv siger at dette KAN IKKE SKE, dette BURDE IKKE SKE, DETTE BRYDER ALLE LOVE SOM BLEV SKREVET PÅ FØRSTE DAG.
+>
+> Men det sker alligevel.
+
+---
+
+## Mekanisk Effekt — Hvad der Sker Nu
+
+**Øjeblikkelig Attunement:**
+- Frygtløs er øjeblikkeligt attuned til Mask of the Dragon Queen
+- Ingen tid går. Det sker NOW
+
+**Hvad Frygtløs Får Straks (Passive):**
+1. **Damage Absorption på ALLE fem elementer:** Acid, Cold, Fire, Lightning, Poison
+   - Han har resistance mod alle fem
+   - Hvis han allerede havde resistance fra andet (Barbarian? items?), bliver det immunity
+   - Hvis han havde immunity fra andet: Han tager 0 damage og healer for HALVDELEN af det damage der ville være dealt
+   
+2. **Draconic Majesty:** +CHA bonus til AC når han ikke bærer armor (han er Barbarian uden armor = denne virker)
+   - Hvis Frygtløs har CHA 10, det er +0. Men det værker.
+   
+3. **Dragon Sight:** Darkvision 60 ft (eller +60 hvis han havde det)
+   - Han er blind fra Divine Word. Masken giver ham magisk syn: **Masken penetrerer hans blindhed. Han kan se gennem den.**
+   
+4. **Legendary Resistance 5/Day:** Hvis han fejler save, kan han choose at succeed i stedet
+   - 5 brug per dag (resets ved sunrise)
+   
+5. **Dragon Tongue:** Han taler og forstår Draconic nu
+   - Advantage på CHA checks mod dragons med matching farve (hvis han velger Red mask properties)
+
+**Bonus Action (næste turn når stun er væk):**
+- Han kan choice EN af de fem mask properties som bonus action:
+  - **Red:** Dragon Fire (melee attacks dealet ekstra 1d6 fire, targets begin burning for 1d6/turn)
+  - **Blue:** Lingering Shock (lightning damage targets can't use reactions next turn)
+  - **Black/Green:** Water Breathing
+  - **White:** Winter's Fury (extra 1d8 cold when below half HP)
+
+**Hvad Han Føler:**
+- Pludselig kan hans hele krop "mærke" Tiamat. Hver kraft hun sendte ind i kronen, han *føler* den nu. Det er som hvis hans nervesystem blev forbundet direkte til hendes hjerte.
+- Han er blind, men masken giver ham andet syn — han ser *magisk* nu, ikke med øjne men med *intention*.
+- Hans stemme er ikke længere hans egen. Den er hans OG fem drakestemmer der synger gennem ham.
+- Varmen gennem hele kroppen — ikke smertefyldt, men intenst, som hvis han blev badet i sol fra en stjerne der skal til at dø.
+
+**Tiamat's Perspektiv:**
+- Hun kan MÆRKE hver kraft der bliver tappet fra hende
+- Det er ikke som at miste magt — det er som at se sit eget hjerte blive plantet i en anden legeme
+- Hun kan ikke bruge hendes egne drakehoved mod det, fordi masken er *lavet* af dem
+- Hun er pludselig halvered stærkere og halveder desperat
+
+---
+
+**Resultat:** Frygtløs er stadig blind, døv, og stunned denne runde. Men næste runde — næste runde er han ikke længere en barbarian. Han er en *halvgud* der bærer en gudindes egen kroner.
 
 ---
 
