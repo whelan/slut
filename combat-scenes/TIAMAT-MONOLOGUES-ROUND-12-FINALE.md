@@ -10,39 +10,51 @@ Frygtløs krystalklart fornemmer hvor den er — på alteret, bag Tiamat selv, h
 >
 > Frygtløs' finger rammer det første metal.
 >
-> Der sker en eksplosion af *lys* gennem hele hans legeme. Siden hans hånd berører kronen, antændes hans overflade af guldglød. Det strømmer gennem hans arme, op gennem skuldrene, ned gennem brystet og ud gennem hvert pore. Lys som *ser*. Som om universet selv acknowledgerer at denne mand, denne stykke dødelighed, har rørt dets væsentlighed.
+> Der sker en eksplosion af *lys* gennem hele hans legeme. Hans hånd bliver varm. Så varm det næsten brænder. Han kan *føle* dragen i metallet — hver drakehoved pulser med sit eget hjerte, sit eget raseri, sin egen uendelige trang til at dominere.
 >
-> Masken varmer sig øjeblikkeligt. Metal gløder fra sølvhvidt til guldvarmt til næsten rødt. Kronet begynder at krympe, at omforme sig selv, som hvis den havde været ventet på denne specifikke hånd hele tiden.
+> Og hans hele kroppe ønsker at smide den væk.
+>
+> Han griber den hårdere i stedet.
 
 **Sætningen på Hovedet:**
 
-> Frygtløs løfter kronen mod sit eget hoved.
+> Frygtløs løfter kronen mod sitt eget hoved. Hans arme ryster.
 >
 > Den passer perfekt.
 >
 > Masken omformer sig omkring hans ansigt. De fem små drakehoved ordner sig i en krone omkring hans pande. Under dem materialiseres et sjette ansigt, drakisk, grumt, med kysser der er skarpe som død og øjne der pulserer med fem forskellige farver samtidigt.
 >
-> Frygtløs åbner øjnene gennem masken.
+> Hans verden bliver fem farver.
 >
-> Han ser gennem blindheden. Han hører gennem døvheden. Masken åbner ham for verdener han aldrig kendte fandtes. Hele templet lyser op i fem farver — rød glød fra vest, blå tordenvejr fra nord, hvid kulde fra øst, grøn gift fra syd, sort syre fra centrum.
+> Han kan se gennem blindheden. Han kan høre gennem døvheden. Hele templet lyser op — rød glød fra vest, blå tordenvejr fra nord, hvid kulde fra øst, grøn gift fra syd, sort syre fra centrum.
 >
-> Hans hud begynder at ændre farve gennem alle fem drakenuancer samtidigt. Værk glød fra hans øjne. Hans stemme, når han åbner munden, lyder som fem stemmer der taler i perfekt harmoni — hver oktav, hver dybde.
+> Hans hud begynder at ændre farve gennem alle fem drakenuancer. Værk glød fra hans øjne. Hans stemme bliver fem stemmer der taler i perfekt harmoni.
+>
+> Og samtidigt føler han hver drage-essens i kronen skrigen efter at overtage ham. De prøver at tale gennem hans mund. De prøver at få hans hænder til at angribe hans egne allierede. De prøver at få ham til at knæle for Tiamat.
+>
+> Han *hader* hvad han bliver.
+>
+> Men han holder fast.
 
 **Det Øjeblik Tiamat Mærker Det:**
 
-> Alle fem af hendes hoveder løfter sig samtidigt — som om de blev trukket af samme snor.
+> Alle fem af hendes hoveder løfter sig samtidigt.
 >
 > Hendes øjne bliver så store at de fylker hele kasino af hennes skaller.
 >
-> Hun føler sit eget hjerte blive splittet. Hver kraft der blev lægget i den krone gennem ætiopier af ritual strømmer ud og ind i denne dødelige mand. Hver tidsalder af drakisk magt, hver ceremoni der gjorde den til det den er — alt sammen kanaliseres gennem hans legeme. Det er som hvis han trak hendes sjæl selv gennem et hul hun aldrig vidste var der.
+> Hun føler sit eget hjerte blive splittet. Hver kraft der blev lægget i den krone gennem ætiopier af ritual strømmer ud og ind i denne dødelige mand. Hendes fem drakeejsenser kanaliseres gennem hans stof. Det er som hvis han trak hendes sjæl selv gennem et hul hun aldrig vidste var der.
 >
 > *"NEJ!"*
 >
-> Ordet kommer fra alle fem hoveder på én gang. Ordet bliver til eksplosion, til slag gennem hele verden. Templets vægge rev og ryster. Det lyder som hvis verden selv skriger — som hvis alle love der blev skrevet på første dag bryder på dette øjeblik.
+> Ordet kommer fra alle fem hoveder på én gang. Ordet bliver til eksplosion, til slag gennem hele verden. Templets vægge rev og ryster.
 >
-> Kronen pulserer omkring Frygtløs' hovede. Fem farver danser omkring hans pande. Han står der — blind, døv, stunned af Divine Word — og alligevel fuldstændig, totalt tilstede. Tiamat kan føle hans bevidsthed ekspandere ud gennem hele templet. Han er overalt nu.
+> Kronen pulserer omkring Frygtløs' hovede. Fem farver danser omkring hans pande. Han står der — blind, døv, stunned af Divine Word — og alligevel fuldstændig, totalt tilstede. Han holder masken på hovedet gennem ren vilje mod enhver drage-essens der prøver at overtage ham.
+>
+> Tiamat kan føle hans bevidsthed ekspandere ud gennem hele templet. Han er overalt nu.
 >
 > Hun er pludselig mindre.
+>
+> Og hun ved præcis hvad det koster ham at holde fast.
 
 ---
 
